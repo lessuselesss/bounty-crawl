@@ -1,0 +1,16 @@
+{
+  "user_agent": "AlgoraBountyScraper/1.0 (+https://github.com/your-username/algora-bounty-scraper)",
+  "rate_limit_ms": 2000,
+  "timeout_ms": 30000,
+  "max_retries": 3,
+  "parallel_limit": 3,
+  "enable_change_detection": true,
+  "enable_archiving": true,
+  "archive_interval_hours": 24,
+  "enable_stats": true,
+  "github_integration": {
+    "enabled": true,
+    "auto_commit": true,
+    "commit_message_template": "🤖 Update bounty index - {summary} ({timestamp})"
+  }
+}
