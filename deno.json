@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "tasks": {
+    "scrape": "deno run --allow-all src/index.ts",
+    "test": "deno test --allow-all tests/",
+    "setup": "deno run --allow-all scripts/setup-repo.ts",
+    "encrypt": "deno run --allow-all scripts/encrypt-secrets.ts",
+    "decrypt": "deno run --allow-all scripts/decrypt-secrets.ts",
+    "stats": "deno run --allow-all src/utils/generate-stats.ts",
+    "manual": "deno run --allow-all scripts/manual-run.ts",
+    "lint": "deno lint",
+    "fmt": "deno fmt",
+    "check": "deno check src/index.ts",
+    "dev": "deno run --allow-all --watch src/index.ts",
+    "ci": "deno run --allow-all src/index.ts --ci"
+  },
+  "imports": {
+    "@std/": "https://deno.land/std@0.208.0/",
+    "@cliffy/": "https://deno.land/x/cliffy@v1.0.0-rc.3/",
+    "nanoid": "https://deno.land/x/nanoid@v3.0.0/mod.ts"
+  },
+  "exclude": [
+    ".deno/",
+    ".cache/",
+    ".local/",
+    ".config/",
+    "data/archive/",
+    "logs/"
+  ],
+  "fmt": {
+    "files": {
+      "include": ["src/", "scripts/", "tests/"],
+      "exclude": ["data/", "logs/"]
+    },
+    "options": {
+      "useTabs": false,
+      "lineWidth": 100,
+      "indentWidth": 2,
+      "semiColons": true,
+      "singleQuote": false,
+      "proseWrap": "preserve"
+    }
+  },
+  "lint": {
+    "files": {
+      "include": ["src/", "scripts/", "tests/"],
+      "exclude": ["data/", "logs/"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    }
+  },
+  "test": {
+    "files": {
+      "include": ["tests/"]
+    }
+  }
+}

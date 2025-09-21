@@ -1,0 +1,237 @@
+name: 🕷️ Scrape Algora Bounties
+
+on:
+  schedule:
+    # Run every 15 minutes
+    - cron: '*/15 * * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      force_commit:
+        description: 'Force commit even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+      full_scan:
+        description: 'Perform full scan (ignore cache)'
+        required: false
+        default: false
+        type: boolean
+
+  # Run when organizations list is updated
+  push:
+    paths:
+      - 'data/organizations.json'
+      - 'config/scraper-config.json'
+    branches:
+      - main
+
+  # Run on pull request for testing
+  pull_request:
+    paths:
+      - 'src/**'
+      - '.github/workflows/scrape.yml'
+      - 'deno.json'
+      - 'flake.nix'
+
+env:
+  # Nix configuration
+  NIX_CONFIG: "experimental-features = nix-command flakes"
+
+  # SOPS configuration
+  SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
+
+  # GitHub token for API access and committing
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  scrape:
+    name: Scrape Bounties
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history for proper change detection
+          fetch-depth: 0
+          # Use the GITHUB_TOKEN for checkout to allow pushing
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🔧 Install Nix
+        uses: cachix/install-nix-action@v23
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🚀 Setup Nix Cache
+        uses: cachix/cachix-action@v12
+        with:
+          name: devenv
+          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+        continue-on-error: true
+
+      - name: 🔑 Setup SOPS
+        if: env.SOPS_AGE_KEY != ''
+        run: |
+          # Create age key file for SOPS
+          echo "$SOPS_AGE_KEY" > .age-key
+          chmod 600 .age-key
+          export SOPS_AGE_KEY_FILE="$PWD/.age-key"
+
+          # Test SOPS configuration
+          nix develop --command sops --version
+
+          # Decrypt secrets if they exist
+          if [ -f "secrets/github-token.yaml" ]; then
+            echo "🔓 Decrypting secrets..."
+            nix develop --command sops -d secrets/github-token.yaml > /tmp/secrets.json
+
+            # Export decrypted values as environment variables
+            if [ -f "/tmp/secrets.json" ]; then
+              export GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json)
+              export ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json)
+
+              # Clean up
+              rm -f /tmp/secrets.json
+            fi
+          else
+            echo "ℹ️  No encrypted secrets found, using repository secrets"
+          fi
+
+      - name: 📦 Cache Deno dependencies
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/deno
+            .deno
+          key: deno-${{ hashFiles('deno.json', 'deno.lock') }}
+          restore-keys: |
+            deno-
+
+      - name: 🔍 Run scraper
+        id: scrape
+        run: |
+          # Configure git for automated commits
+          git config --local user.email "scraper@algora-bounty-scraper.com"
+          git config --local user.name "Algora Bounty Scraper"
+          git config --local user.signingkey ""
+          git config --local commit.gpgsign false
+
+          # Ensure data directory exists
+          mkdir -p data/archive logs
+
+          # Set CI mode arguments
+          ARGS="--ci"
+
+          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            ARGS="$ARGS --full-scan"
+          fi
+
+          if [ "${{ github.event.inputs.force_commit }}" = "true" ]; then
+            ARGS="$ARGS --force-commit"
+          fi
+
+          # For PR events, disable auto-commit
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            ARGS="$ARGS --no-commit"
+          fi
+
+          echo "🚀 Running scraper with args: $ARGS"
+
+          # Run the scraper
+          nix develop --command deno run --allow-all src/index.ts $ARGS
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet && git diff --quiet; then
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "ℹ️  No changes detected"
+          else
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected"
+
+            # Get summary of changes for the output
+            CHANGES_SUMMARY=$(git diff --name-only --staged | tr '\n' ' ')
+            echo "changes_summary=$CHANGES_SUMMARY" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 📊 Generate summary report
+        if: success()
+        run: |
+          echo "## 🕷️ Scraping Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "data/bounty-index.json" ]; then
+            TOTAL_ORGS=$(jq -r '.total_organizations' data/bounty-index.json)
+            TOTAL_BOUNTIES=$(jq -r '.total_bounties' data/bounty-index.json)
+            TOTAL_VALUE=$(jq -r '.total_value_usd' data/bounty-index.json)
+            GENERATED_AT=$(jq -r '.generated_at' data/bounty-index.json)
+            SUCCESS_RATE=$(jq -r '.metadata.success_rate * 100 | round' data/bounty-index.json)
+
+            echo "### 📈 Statistics" >> $GITHUB_STEP_SUMMARY
+            echo "- **Organizations**: $TOTAL_ORGS" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Bounties**: $TOTAL_BOUNTIES" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Value**: \$$(echo $TOTAL_VALUE | numfmt --format=%.0f --grouping)" >> $GITHUB_STEP_SUMMARY
+            echo "- **Success Rate**: $SUCCESS_RATE%" >> $GITHUB_STEP_SUMMARY
+            echo "- **Generated**: $GENERATED_AT" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Top organizations by bounty count
+            echo "### 🏆 Top Organizations" >> $GITHUB_STEP_SUMMARY
+            jq -r '.organizations | to_entries | sort_by(.value.bounty_count) | reverse | limit(5;.[]) | "- **\(.key)**: \(.value.bounty_count) bounties (\(.value.total_value_usd | floor) USD)"' data/bounty-index.json >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Recent changes if any
+            if [ "${{ steps.scrape.outputs.changes_detected }}" = "true" ]; then
+              echo "### 🔄 Changes Detected" >> $GITHUB_STEP_SUMMARY
+              echo "- Modified files: ${{ steps.scrape.outputs.changes_summary }}" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "### ✅ No Changes" >> $GITHUB_STEP_SUMMARY
+              echo "All bounties up to date!" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "❌ No bounty index generated" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: 📤 Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraping-artifacts-${{ github.run_id }}
+          path: |
+            data/bounty-index.json
+            logs/
+          retention-days: 7
+
+      - name: 🔔 Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Scraping Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The scraping workflow encountered an error. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Workflow**: ${{ github.workflow }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Run ID**: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+
+  # Cleanup old workflow runs to save storage
+  cleanup:
+    name: Cleanup Old Runs
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+
+    steps:
+      - name: 🧹 Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 7
+          keep_minimum_runs: 5
