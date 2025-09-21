@@ -1,0 +1,36 @@
+
+# Age private keys (NEVER commit these!)
+.age-key
+*.age-key
+
+# SOPS temporary files
+.sops.yaml.bak
+
+# Development files
+.env
+.env.local
+
+# Deno cache directories  
+.deno/
+
+# Logs and temporary files
+logs/
+*.log
+
+# Cache directories
+.cache/
+.local/
+.config/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/

@@ -1,18 +1,3 @@
-# SOPS configuration for Algora Bounty Scraper
-# This file configures how secrets are encrypted and decrypted
-
 creation_rules:
-  # Encrypt all YAML files in the secrets directory
   - path_regex: secrets/.*\.yaml$
-    age: >-
-      age1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-  # Encrypt any .secret files anywhere
-  - path_regex: .*\.secret$
-    age: >-
-      age1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-# Default age key for the repository
-# This key will be replaced during setup with a real key
-keys:
-  - &main_key age1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+    age: age127xu5c86lhc72y6z49ldq57hx92up2609h6990mds6p283rvregqa5gd8p

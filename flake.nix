@@ -84,7 +84,7 @@
 
           # Environment variables
           DENO_PERMISSIONS = "--allow-net --allow-read --allow-write --allow-env --allow-run";
-          SOPS_AGE_RECIPIENTS = "age1234567890abcdef"; # Will be set during setup
+          SOPS_AGE_RECIPIENTS = "age127xu5c86lhc72y6z49ldq57hx92up2609h6990mds6p283rvregqa5gd8p";
         };
 
         # Build the scraper as a package
