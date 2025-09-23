@@ -77,6 +77,7 @@ jobs:
           name: devenv
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
         continue-on-error: true
+        if: secrets.CACHIX_AUTH_TOKEN != ''
 
       - name: 🔑 Setup SOPS
         if: env.SOPS_AGE_KEY != ''
@@ -85,6 +86,7 @@ jobs:
           echo "$SOPS_AGE_KEY" > .age-key
           chmod 600 .age-key
           export SOPS_AGE_KEY_FILE="$PWD/.age-key"
+          echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> $GITHUB_ENV
 
           # Test SOPS configuration
           nix develop --command sops --version
@@ -96,8 +98,12 @@ jobs:
 
             # Export decrypted values as environment variables
             if [ -f "/tmp/secrets.json" ]; then
-              export GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json)
-              export ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json)
+              GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json)
+              ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json)
+
+              # Add to GitHub environment
+              echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> $GITHUB_ENV
+              echo "ALGORA_SESSION=$ALGORA_SESSION" >> $GITHUB_ENV
 
               # Clean up
               rm -f /tmp/secrets.json
@@ -112,6 +118,7 @@ jobs:
           path: |
             ~/.cache/deno
             .deno
+            .cache
           key: deno-${{ hashFiles('deno.json', 'deno.lock') }}
           restore-keys: |
             deno-
@@ -122,7 +129,6 @@ jobs:
           # Configure git for automated commits
           git config --local user.email "scraper@algora-bounty-scraper.com"
           git config --local user.name "Algora Bounty Scraper"
-          git config --local user.signingkey ""
           git config --local commit.gpgsign false
 
           # Ensure data directory exists
@@ -146,8 +152,24 @@ jobs:
 
           echo "🚀 Running scraper with args: $ARGS"
 
-          # Run the scraper
-          nix develop --command deno run --allow-all src/index.ts $ARGS
+          # Debug environment
+          echo "Debug: Current working directory: $(pwd)"
+          echo "Debug: Directory contents:"
+          ls -la
+          echo "Debug: Deno version:"
+          nix develop --command deno --version
+
+          # Run the scraper with better error handling
+          if ! nix develop --command deno run --allow-all src/index.ts $ARGS; then
+            echo "❌ Scraper failed, checking logs..."
+            if [ -d logs ]; then
+              echo "Available log files:"
+              ls -la logs/
+              echo "Latest log content:"
+              find logs -name "*.log" -type f -exec tail -50 {} \;
+            fi
+            exit 1
+          fi
 
           # Check if there are changes to commit
           if git diff --staged --quiet && git diff --quiet; then
