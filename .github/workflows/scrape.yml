@@ -79,7 +79,7 @@ jobs:
         continue-on-error: true
 
       - name: 🔑 Setup SOPS
-        if: env.SOPS_AGE_KEY != ''
+        continue-on-error: true
         run: |
           # Create age key file for SOPS
           echo "$SOPS_AGE_KEY" > .age-key
@@ -93,20 +93,29 @@ jobs:
           # Decrypt secrets if they exist
           if [ -f "secrets/github-token.yaml" ]; then
             echo "🔓 Decrypting secrets..."
-            nix develop --command sops -d secrets/github-token.yaml > /tmp/secrets.json
+            if nix develop --command sops -d secrets/github-token.yaml > /tmp/secrets.json 2>/tmp/sops_error.log; then
+              # Check if the output is valid JSON
+              if jq empty /tmp/secrets.json 2>/dev/null; then
+                echo "✅ Successfully decrypted secrets"
+                GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json 2>/dev/null || echo "")
+                ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json 2>/dev/null || echo "")
 
-            # Export decrypted values as environment variables
-            if [ -f "/tmp/secrets.json" ]; then
-              GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json)
-              ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json)
-
-              # Add to GitHub environment
-              echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> "$GITHUB_ENV"
-              echo "ALGORA_SESSION=$ALGORA_SESSION" >> "$GITHUB_ENV"
-
+                # Add to GitHub environment
+                echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> "$GITHUB_ENV"
+                echo "ALGORA_SESSION=$ALGORA_SESSION" >> "$GITHUB_ENV"
+              else
+                echo "⚠️  SOPS output is not valid JSON:"
+                cat /tmp/secrets.json
+                echo "ℹ️  Using repository secrets instead"
+              fi
               # Clean up
               rm -f /tmp/secrets.json
+            else
+              echo "❌ SOPS decryption failed:"
+              cat /tmp/sops_error.log
+              echo "ℹ️  Using repository secrets instead"
             fi
+            rm -f /tmp/sops_error.log
           else
             echo "ℹ️  No encrypted secrets found, using repository secrets"
           fi
