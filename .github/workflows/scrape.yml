@@ -77,7 +77,6 @@ jobs:
           name: devenv
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
         continue-on-error: true
-        if: secrets.CACHIX_AUTH_TOKEN != ''
 
       - name: 🔑 Setup SOPS
         if: env.SOPS_AGE_KEY != ''
@@ -86,7 +85,7 @@ jobs:
           echo "$SOPS_AGE_KEY" > .age-key
           chmod 600 .age-key
           export SOPS_AGE_KEY_FILE="$PWD/.age-key"
-          echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> $GITHUB_ENV
+          echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> "$GITHUB_ENV"
 
           # Test SOPS configuration
           nix develop --command sops --version
@@ -102,8 +101,8 @@ jobs:
               ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json)
 
               # Add to GitHub environment
-              echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> $GITHUB_ENV
-              echo "ALGORA_SESSION=$ALGORA_SESSION" >> $GITHUB_ENV
+              echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> "$GITHUB_ENV"
+              echo "ALGORA_SESSION=$ALGORA_SESSION" >> "$GITHUB_ENV"
 
               # Clean up
               rm -f /tmp/secrets.json
@@ -113,7 +112,7 @@ jobs:
           fi
 
       - name: 📦 Cache Deno dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cache/deno
@@ -173,21 +172,21 @@ jobs:
 
           # Check if there are changes to commit
           if git diff --staged --quiet && git diff --quiet; then
-            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
             echo "ℹ️  No changes detected"
           else
-            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
             echo "✅ Changes detected"
 
             # Get summary of changes for the output
             CHANGES_SUMMARY=$(git diff --name-only --staged | tr '\n' ' ')
-            echo "changes_summary=$CHANGES_SUMMARY" >> $GITHUB_OUTPUT
+            echo "changes_summary=$CHANGES_SUMMARY" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 📊 Generate summary report
         if: success()
         run: |
-          echo "## 🕷️ Scraping Report" >> $GITHUB_STEP_SUMMARY
+          echo "## 🕷️ Scraping Report" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "data/bounty-index.json" ]; then
@@ -224,7 +223,7 @@ jobs:
 
       - name: 📤 Upload artifacts
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: scraping-artifacts-${{ github.run_id }}
           path: |
