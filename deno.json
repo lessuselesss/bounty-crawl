@@ -5,6 +5,19 @@
     "strict": true
   },
   "tasks": {
+    "production": "deno run --allow-all scripts/production-scraper.ts",
+    "monitor": "deno run --allow-all scripts/monitoring-dashboard.ts",
+    "health": "deno run --allow-all scripts/health-check.ts",
+    "alerts": "deno run --allow-all scripts/alerting-system.ts",
+
+    "firecrawl:start": "deno run --allow-all scripts/firecrawl-manager.ts --start",
+    "firecrawl:stop": "deno run --allow-all scripts/firecrawl-manager.ts --stop",
+    "firecrawl:restart": "deno run --allow-all scripts/firecrawl-manager.ts --restart",
+    "firecrawl:status": "deno run --allow-all scripts/firecrawl-manager.ts --status",
+    "firecrawl:test": "deno run --allow-all scripts/firecrawl-manager.ts --test",
+    "firecrawl:logs": "deno run --allow-all scripts/firecrawl-manager.ts --logs",
+    "firecrawl:cleanup": "deno run --allow-all scripts/firecrawl-manager.ts --cleanup",
+
     "scrape": "deno run --allow-all src/index.ts",
     "test": "deno test --allow-all tests/",
     "setup": "deno run --allow-all scripts/setup-repo.ts",

@@ -27,6 +27,10 @@
             # GitHub integration
             gh
 
+            # Self-hosted Firecrawl
+            docker
+            docker-compose
+
             # Development tools
             nodePackages.typescript
             nodePackages.typescript-language-server
@@ -43,23 +47,28 @@
             echo "🕷️  Algora Bounty Scraper Development Environment"
             echo "=================================================="
             echo ""
-            echo "Available commands:"
-            echo "  deno task scrape       - Run scraper manually"
-            echo "  deno task test         - Run test suite"
-            echo "  deno task setup        - Initialize repository"
-            echo "  deno task encrypt      - Encrypt secrets"
-            echo "  deno task decrypt      - Decrypt secrets (dev only)"
-            echo "  deno task stats        - Generate statistics"
+            echo "Production Commands:"
+            echo "  deno task firecrawl:start     - Start self-hosted Firecrawl"
+            echo "  deno task firecrawl:stop      - Stop self-hosted Firecrawl"
+            echo "  deno task firecrawl:status    - Check Firecrawl status"
+            echo "  deno task production          - Run production scraper"
+            echo "  deno task monitor             - System health dashboard"
+            echo ""
+            echo "Legacy Commands:"
+            echo "  deno task scrape              - Run scraper manually"
+            echo "  deno task test                - Run test suite"
+            echo "  deno task setup               - Initialize repository"
+            echo "  deno task encrypt             - Encrypt secrets"
             echo ""
             echo "GitHub Actions:"
-            echo "  gh workflow run scrape.yml    - Trigger scraping workflow"
-            echo "  gh workflow list              - List all workflows"
-            echo "  gh run list                   - Show recent runs"
+            echo "  gh workflow run enhanced-scrape.yml  - Trigger production workflow"
+            echo "  gh workflow list                     - List all workflows"
+            echo "  gh run list                          - Show recent runs"
             echo ""
             echo "Development:"
-            echo "  deno fmt                      - Format code"
-            echo "  deno lint                     - Lint code"
-            echo "  deno check src/index.ts       - Type check"
+            echo "  deno fmt                             - Format code"
+            echo "  deno lint                            - Lint code"
+            echo "  deno check src/index.ts              - Type check"
             echo ""
 
             # Set up environment

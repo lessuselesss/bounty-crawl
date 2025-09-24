@@ -1,0 +1,80 @@
+# Self-hosted Firecrawl for Algora Bounty Scraper
+# Based on firecrawl-simple: https://github.com/devflowinc/firecrawl-simple
+version: '3.8'
+
+services:
+  # Redis for job queuing and caching
+  redis:
+    image: redis:alpine
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Main Firecrawl API service
+  firecrawl-api:
+    image: ghcr.io/devflowinc/firecrawl-simple:latest
+    environment:
+      - NUM_WORKERS_PER_QUEUE=8
+      - PORT=3002
+      - HOST=0.0.0.0
+      - REDIS_URL=redis://redis:6379
+      - REDIS_RATE_LIMIT_URL=redis://redis:6379
+      # Optimize for our bounty scraping use case
+      - MAX_CRAWL_PAGES=50
+      - SCRAPE_TIMEOUT=30000
+      - CONCURRENT_CRAWLERS=5
+      # Optional: Add authentication for security
+      - AUTH_SECRET=${FIRECRAWL_AUTH_SECRET:-}
+    ports:
+      - "3002:3002"
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    volumes:
+      # Optional: Mount logs for debugging
+      - ./logs/firecrawl:/app/logs
+
+  # Playwright service for JavaScript-heavy sites
+  playwright:
+    image: ghcr.io/devflowinc/firecrawl-simple-playwright:latest
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - NUM_WORKERS_PER_QUEUE=4
+      # Optimize for Algora bounty pages
+      - BROWSER_TIMEOUT=25000
+      - VIEWPORT_WIDTH=1200
+      - VIEWPORT_HEIGHT=800
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    # Allocate more resources for browser automation
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 1G
+
+volumes:
+  redis_data:
+    driver: local
+
+networks:
+  default:
+    name: firecrawl-network
