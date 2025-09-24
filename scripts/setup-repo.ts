@@ -2,7 +2,7 @@
 
 /**
  * Repository Setup Script
- * Initializes the Algora Bounty Scraper repository with proper configuration
+ * Initializes the bounty-crawl repository with proper configuration
  */
 
 import { parseArgs } from "@std/cli/parse_args.ts";
@@ -15,7 +15,7 @@ class RepositorySetup {
   }
 
   async setup(): Promise<void> {
-    console.log("🚀 Setting up Algora Bounty Scraper repository...\n");
+    console.log("🚀 Setting up bounty-crawl repository...\n");
 
     await this.createDirectories();
     await this.generateAgeKey();
@@ -154,7 +154,7 @@ node_modules/
     console.log("\n⚙️  Creating initial configuration...");
 
     const scraperConfig = {
-      user_agent: "AlgoraBountyScraper/1.0 (+https://github.com/your-username/algora-bounty-scraper)",
+      user_agent: "bounty-crawl/1.0 (+https://github.com/your-username/bounty-crawl)",
       rate_limit_ms: 2000,
       timeout_ms: 30000,
       max_retries: 3,
@@ -234,8 +234,8 @@ node_modules/
 
     const gitCommands = [
       ["git", "init"],
-      ["git", "config", "user.name", "Algora Bounty Scraper"],
-      ["git", "config", "user.email", "scraper@algora-bounty-scraper.com"],
+      ["git", "config", "user.name", "bounty-crawl"],
+      ["git", "config", "user.email", "crawler@bounty-crawl.com"],
       ["git", "branch", "-M", "main"],
     ];
 
@@ -262,7 +262,7 @@ node_modules/
 
     const gitCommands = [
       ["git", "add", "."],
-      ["git", "commit", "-m", "🎉 Initial commit - Algora Bounty Scraper setup"],
+      ["git", "commit", "-m", "🎉 Initial commit - bounty-crawl setup"],
     ];
 
     for (const command of gitCommands) {
@@ -297,7 +297,7 @@ async function main() {
 
   if (args.help) {
     console.log(`
-Algora Bounty Scraper Setup
+bounty-crawl Setup
 
 Usage: deno run --allow-all scripts/setup-repo.ts [options]
 

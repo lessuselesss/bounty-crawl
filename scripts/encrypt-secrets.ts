@@ -102,7 +102,7 @@ class SecretManager {
 
   private createSecretsYaml(secrets: SecretData): string {
     const lines = [
-      "# Encrypted secrets for Algora Bounty Scraper",
+      "# Encrypted secrets for bounty-crawl",
       "# This file is encrypted with SOPS and age",
       "",
     ];
@@ -238,7 +238,7 @@ async function main() {
 
   if (args.help) {
     console.log(`
-Algora Bounty Scraper - Secret Management
+bounty-crawl - Secret Management
 
 Usage: deno run --allow-all scripts/encrypt-secrets.ts [options]
 

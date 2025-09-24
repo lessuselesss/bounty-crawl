@@ -3,7 +3,7 @@
 /**
  * Firecrawl Self-hosted Manager
  *
- * Manages the local Firecrawl instance for the Algora Bounty Scraper.
+ * Manages the local Firecrawl instance for bounty-crawl.
  * Provides commands to start, stop, restart, and monitor the self-hosted Firecrawl service.
  */
 

@@ -1,13 +1,13 @@
-# Algora Bounty Scraper
+# bounty-crawl
 
-Production-ready bounty intelligence platform that monitors **109 Algora organizations** with AI-powered scraping, tier-based scheduling, and encrypted distribution to downstream projects like bounty-pipe. Features Firecrawl AI extraction, comprehensive monitoring, and perfect Algora API format compliance.
+Multi-platform bounty aggregation system with intelligent crawling and data unification. Production-ready platform that monitors **91+ organizations** across Algora with AI-powered scraping, tier-based scheduling, and encrypted distribution to downstream projects like bounty-pipe. Features Firecrawl AI extraction, comprehensive monitoring, and perfect Algora API format compliance.
 
 ## Quick Start
 
 ```bash
 # Clone and setup
 git clone <your-fork-url>
-cd algora-bounty-scraper
+cd bounty-crawl
 
 # Add your Firecrawl API key to .env
 echo "FIRECRAWL_API_KEY=fc-your-key-here" > .env
@@ -23,14 +23,14 @@ deno run --allow-all scripts/setup-repo.ts
 # Test the production scraper
 deno run --allow-all scripts/production-scraper.ts
 
-# Push to enable automated scraping across 109 organizations
+# Push to enable automated scraping across 91+ organizations
 git push origin main
 ```
 
 ## Features
 
 ### 🚀 Production Intelligence Platform
-- **109 Organizations**: Complete Algora ecosystem coverage with tier-based scheduling
+- **91+ Organizations**: Complete Algora ecosystem coverage with tier-based scheduling
 - **AI-Powered Extraction**: Firecrawl integration with traditional fallback
 - **Perfect API Compliance**: 85% Algora API format accuracy + enhanced metadata
 - **Tier-Based Scheduling**: 5min (highly-active) to 1hr (emerging) intervals
@@ -51,7 +51,7 @@ git push origin main
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ GitHub Actions  │────│ 109 Organizations│────│ Algora API      │
+│ GitHub Actions  │────│ 91+ Organizations│────│ Algora API      │
 │ Tier Scheduling │    │ Firecrawl + Web  │    │ Format Output   │
 │ 5min - 1hr      │    │ AI Extraction    │    │ (bounty-pipe)   │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
@@ -85,12 +85,12 @@ deno run --allow-all scripts/validate-firecrawl.ts    # Validate API keys
 ## Configuration
 
 ### Organizations (`data/organizations.json`)
-**109 organizations** across 4 tiers:
+**91+ organizations** across 4 tiers:
 
 ```json
 {
   "version": "3.0.0",
-  "total_organizations": 109,
+  "total_organizations": 91,
   "organizations": [
     {
       "handle": "calcom",
@@ -188,8 +188,8 @@ Required GitHub Repository Secrets:
 ```
 
 ### Legacy Index (`data/bounty-index.json`)
-**Real production data** from 109 organizations:
-- **Total Organizations**: 109 (across 4 tiers)
+**Real production data** from 91+ organizations:
+- **Total Organizations**: 91+ (across 4 tiers)
 - **Total Bounties**: 143+ active bounties
 - **Total Value**: $71,700+ USD
 - **Success Rate**: 95%+ organization coverage
@@ -199,7 +199,7 @@ Secure SOPS-encrypted releases for bounty-pipe:
 
 ```bash
 # Latest release artifacts
-https://github.com/user/algora-bounty-scraper/releases/latest
+https://github.com/user/bounty-crawl/releases/latest
 
 # Encrypted files:
 - algora-bounties-encrypted.json  # Main bounty data
@@ -336,6 +336,6 @@ MIT License - see LICENSE file for details
 
 ---
 
-**Production Status**: ✅ **Ready** - 109 organizations, AI-powered extraction, encrypted distribution
+**Production Status**: ✅ **Ready** - 91+ organizations, AI-powered extraction, encrypted distribution
 
 **Real Data**: 27 bounties worth $3,781 successfully scraped from activepieces, aqualinkorg, arakoodev, archestra-ai, Dokploy

@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run --allow-all
 
 /**
- * Production Algora Bounty Scraper
+ * Production bounty-crawl System
  *
  * Complete production-ready scraper that processes all 91+ organizations using the
  * Unified Firecrawl scraper and outputs both legacy and Algora API formats.
@@ -366,7 +366,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>`;
 
   async run(): Promise<boolean> {
     try {
-      await this.logger.info("🚀 Starting Production Algora Bounty Scraper");
+      await this.logger.info("🚀 Starting Production bounty-crawl System");
 
       // Health checks
       const healthOk = await this.performHealthChecks();
@@ -434,7 +434,7 @@ async function main() {
 
   if (args.help) {
     console.log(`
-🤖 Production Algora Bounty Scraper
+🤖 Production bounty-crawl System
 
 USAGE:
   deno run --allow-all scripts/production-scraper.ts [OPTIONS]
