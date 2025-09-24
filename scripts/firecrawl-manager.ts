@@ -7,7 +7,7 @@
  * Provides commands to start, stop, restart, and monitor the self-hosted Firecrawl service.
  */
 
-import { parseArgs } from "@std/cli/parse-args";
+import { parseArgs } from "@std/cli/parse_args.ts";
 
 interface ManagerConfig {
   composeFile: string;

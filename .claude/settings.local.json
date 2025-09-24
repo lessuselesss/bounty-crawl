@@ -6,7 +6,10 @@
       "Bash(gh workflow run:*)",
       "Bash(gh run list:*)",
       "Bash(gh run view:*)",
-      "Bash(fd:*)"
+      "Bash(fd:*)",
+      "Bash(FIRECRAWL_API_KEY=fc-afbc5c7c6fdf4a6ca3261661cbf482b6 deno run --allow-all scripts/production-scraper.ts --no-encrypt --no-commit --no-health-checks)",
+      "Bash(FIRECRAWL_API_KEY=fc-afbc5c7c6fdf4a6ca3261661cbf482b6 deno run:*)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": []
