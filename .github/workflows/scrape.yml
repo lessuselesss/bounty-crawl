@@ -63,24 +63,23 @@ jobs:
           # Use the GITHUB_TOKEN for checkout to allow pushing
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🔧 Install Nix
-        uses: cachix/install-nix-action@v24
+      - name: 🦕 Setup Deno
+        uses: denoland/setup-deno@v1
         with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          extra_nix_config: |
-            experimental-features = nix-command flakes
-            access-tokens = github.com=${{ secrets.GITHUB_TOKEN }}
-
-      - name: 🚀 Setup Nix Cache
-        uses: cachix/cachix-action@v12
-        with:
-          name: devenv
-          authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
-        continue-on-error: true
+          deno-version: v1.x
 
       - name: 🔑 Setup SOPS
         continue-on-error: true
         run: |
+          # Install SOPS and age
+          curl -LO https://github.com/mozilla/sops/releases/download/v3.7.3/sops-v3.7.3.linux
+          sudo mv sops-v3.7.3.linux /usr/local/bin/sops
+          sudo chmod +x /usr/local/bin/sops
+
+          curl -LO https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-amd64.tar.gz
+          tar -xzf age-v1.1.1-linux-amd64.tar.gz
+          sudo mv age/age* /usr/local/bin/
+
           # Create age key file for SOPS
           echo "$SOPS_AGE_KEY" > .age-key
           chmod 600 .age-key
@@ -88,12 +87,12 @@ jobs:
           echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> "$GITHUB_ENV"
 
           # Test SOPS configuration
-          nix develop --command sops --version
+          sops --version
 
           # Decrypt secrets if they exist
           if [ -f "secrets/github-token.yaml" ]; then
             echo "🔓 Decrypting secrets..."
-            if nix develop --command sops -d secrets/github-token.yaml > /tmp/secrets.json 2>/tmp/sops_error.log; then
+            if sops -d secrets/github-token.yaml > /tmp/secrets.json 2>/tmp/sops_error.log; then
               # Check if the output is valid JSON
               if jq empty /tmp/secrets.json 2>/dev/null; then
                 echo "✅ Successfully decrypted secrets"
@@ -165,10 +164,10 @@ jobs:
           echo "Debug: Directory contents:"
           ls -la
           echo "Debug: Deno version:"
-          nix develop --command deno --version
+          deno --version
 
           # Run the scraper with better error handling
-          if ! nix develop --command deno run --allow-all src/index.ts $ARGS; then
+          if ! deno run --allow-all src/index.ts $ARGS; then
             echo "❌ Scraper failed, checking logs..."
             if [ -d logs ]; then
               echo "Available log files:"
