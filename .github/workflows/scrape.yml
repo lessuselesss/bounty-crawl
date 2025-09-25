@@ -63,10 +63,10 @@ jobs:
           # Use the GITHUB_TOKEN for checkout to allow pushing
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🦕 Setup Deno
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.39.0
+      - name: 🦕 Install latest Deno
+        run: |
+          curl -fsSL https://deno.land/install.sh | sh
+          echo "$HOME/.deno/bin" >> $GITHUB_PATH
 
       - name: 🔑 Setup SOPS
         continue-on-error: true
@@ -126,7 +126,7 @@ jobs:
             ~/.cache/deno
             .deno
             .cache
-          key: deno-${{ hashFiles('deno.json', 'deno.lock') }}
+          key: deno-${{ hashFiles('deno.lock') }}
           restore-keys: |
             deno-
 
