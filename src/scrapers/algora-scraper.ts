@@ -176,7 +176,19 @@ export class AlgoraScraper {
         const id = bountyIdsArray[i] || `unknown-${i}`;
         const amount = amounts[i] || 0;
         const repo = repoInfo[i];
-        const title = titles[i] || `Bounty ${i + 1}`;
+
+        // Fetch real GitHub issue title if we have repo info
+        let title = titles[i] || `Bounty ${i + 1}`;
+        if (repo) {
+          try {
+            const githubTitle = await this.fetchGitHubIssueTitle(repo.owner, repo.name, repo.issueNumber);
+            if (githubTitle) {
+              title = githubTitle;
+            }
+          } catch (error) {
+            this.logger.warn(`Failed to fetch GitHub title for ${repo.owner}/${repo.name}#${repo.issueNumber}: ${error instanceof Error ? error.message : String(error)}`);
+          }
+        }
 
         if (amount > 0) { // Only include bounties with valid amounts
           const bounty: Bounty = {
@@ -291,6 +303,33 @@ export class AlgoraScraper {
     }
 
     return amount >= 200 ? "intermediate" : "beginner";
+  }
+
+  private async fetchGitHubIssueTitle(owner: string, repo: string, issueNumber: number): Promise<string | null> {
+    try {
+      const url = `https://api.github.com/repos/${owner}/${repo}/issues/${issueNumber}`;
+      const response = await fetch(url, {
+        headers: {
+          "User-Agent": this.userAgent,
+          "Accept": "application/vnd.github.v3+json",
+        },
+        signal: AbortSignal.timeout(10000), // 10 second timeout for GitHub API
+      });
+
+      if (!response.ok) {
+        if (response.status === 404) {
+          this.logger.warn(`GitHub issue not found: ${owner}/${repo}#${issueNumber}`);
+          return null;
+        }
+        throw new Error(`GitHub API responded with ${response.status}: ${response.statusText}`);
+      }
+
+      const issue = await response.json();
+      return issue.title || null;
+    } catch (error) {
+      this.logger.warn(`Failed to fetch GitHub issue title: ${error instanceof Error ? error.message : String(error)}`);
+      return null;
+    }
   }
 
   private async rateLimit(): Promise<void> {
