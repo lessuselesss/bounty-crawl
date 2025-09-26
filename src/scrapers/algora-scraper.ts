@@ -95,7 +95,7 @@ export class AlgoraScraper {
         }
 
         const html = await response.text();
-        return this.parseBountiesFromHTML(html, url);
+        return await this.parseBountiesFromHTML(html, url);
       } catch (error) {
         attempt++;
         lastError = error instanceof Error ? error : new Error(String(error));
@@ -113,7 +113,7 @@ export class AlgoraScraper {
     throw lastError || new Error("Unknown error during scraping");
   }
 
-  private parseBountiesFromHTML(html: string, baseUrl: string): Bounty[] {
+  private async parseBountiesFromHTML(html: string, baseUrl: string): Promise<Bounty[]> {
     const bounties: Bounty[] = [];
 
     try {
