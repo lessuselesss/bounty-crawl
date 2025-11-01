@@ -45,6 +45,9 @@ env:
   # GitHub token for API access and committing
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  # Firecrawl API key for production scraper
+  FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+
 jobs:
   scrape:
     name: Scrape Bounties
@@ -141,23 +144,21 @@ jobs:
           # Ensure data directory exists
           mkdir -p data/archive logs
 
-          # Set CI mode arguments
-          ARGS="--ci"
+          # Set production scraper arguments
+          ARGS=""
 
-          if [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
-            ARGS="$ARGS --full-scan"
-          fi
-
-          if [ "${{ github.event.inputs.force_commit }}" = "true" ]; then
-            ARGS="$ARGS --force-commit"
-          fi
-
-          # For PR events, disable auto-commit
+          # For PR events, disable auto-commit and encryption
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            ARGS="$ARGS --no-commit"
+            ARGS="$ARGS --no-commit --no-encrypt"
           fi
 
-          echo "🚀 Running scraper with args: $ARGS"
+          # Allow disabling commit via workflow input
+          if [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
+            # Default: enable commits for production runs
+            :
+          fi
+
+          echo "🚀 Running production scraper with args: ${ARGS:-none}"
 
           # Debug environment
           echo "Debug: Current working directory: $(pwd)"
@@ -166,8 +167,8 @@ jobs:
           echo "Debug: Deno version:"
           deno --version
 
-          # Run the scraper with better error handling
-          if ! deno run --allow-all src/index.ts $ARGS; then
+          # Run the production scraper with better error handling
+          if ! deno run --allow-all --no-lock scripts/production-scraper.ts $ARGS; then
             echo "❌ Scraper failed, checking logs..."
             if [ -d logs ]; then
               echo "Available log files:"
@@ -236,6 +237,8 @@ jobs:
           name: scraping-artifacts-${{ github.run_id }}
           path: |
             data/bounty-index.json
+            data/algora-api-response.json
+            data/archive/
             logs/
           retention-days: 7
 
