@@ -1,56 +1,32 @@
-name: 🕷️ Scrape Algora Bounties
+name: 🎯 Targeted Bounty Scrape
 
 on:
-  schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+  # Triggered by changedetection.io via Cloudflare Worker webhook
+  repository_dispatch:
+    types: [bounty_changed]
 
-  # Allow manual triggering
+  # Allow manual triggering with specific organizations
   workflow_dispatch:
     inputs:
+      organizations:
+        description: 'Comma-separated list of organization handles to scrape'
+        required: true
+        type: string
       force_commit:
         description: 'Force commit even if no changes detected'
         required: false
         default: false
         type: boolean
-      full_scan:
-        description: 'Perform full scan (ignore cache)'
-        required: false
-        default: false
-        type: boolean
-
-  # Run when organizations list is updated
-  push:
-    paths:
-      - 'data/organizations.json'
-      - 'config/scraper-config.json'
-    branches:
-      - main
-
-  # Run on pull request for testing
-  pull_request:
-    paths:
-      - 'src/**'
-      - '.github/workflows/scrape.yml'
-      - 'deno.json'
-      - 'flake.nix'
 
 env:
-  # Nix configuration
   NIX_CONFIG: "experimental-features = nix-command flakes"
-
-  # SOPS configuration
   SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
-
-  # GitHub token for API access and committing
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  # Firecrawl API key for production scraper
   FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
 
 jobs:
-  scrape:
-    name: Scrape Bounties
+  targeted-scrape:
+    name: Scrape Changed Organizations
     runs-on: ubuntu-latest
 
     permissions:
@@ -61,9 +37,7 @@ jobs:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
         with:
-          # Fetch full history for proper change detection
           fetch-depth: 0
-          # Use the GITHUB_TOKEN for checkout to allow pushing
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🦕 Install latest Deno
@@ -89,37 +63,21 @@ jobs:
           export SOPS_AGE_KEY_FILE="$PWD/.age-key"
           echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> "$GITHUB_ENV"
 
-          # Test SOPS configuration
-          sops --version
-
           # Decrypt secrets if they exist
           if [ -f "secrets/github-token.yaml" ]; then
             echo "🔓 Decrypting secrets..."
             if sops -d secrets/github-token.yaml > /tmp/secrets.json 2>/tmp/sops_error.log; then
-              # Check if the output is valid JSON
               if jq empty /tmp/secrets.json 2>/dev/null; then
                 echo "✅ Successfully decrypted secrets"
                 GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json 2>/dev/null || echo "")
                 ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json 2>/dev/null || echo "")
 
-                # Add to GitHub environment
                 echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> "$GITHUB_ENV"
                 echo "ALGORA_SESSION=$ALGORA_SESSION" >> "$GITHUB_ENV"
-              else
-                echo "⚠️  SOPS output is not valid JSON:"
-                cat /tmp/secrets.json
-                echo "ℹ️  Using repository secrets instead"
               fi
-              # Clean up
               rm -f /tmp/secrets.json
-            else
-              echo "❌ SOPS decryption failed:"
-              cat /tmp/sops_error.log
-              echo "ℹ️  Using repository secrets instead"
             fi
             rm -f /tmp/sops_error.log
-          else
-            echo "ℹ️  No encrypted secrets found, using repository secrets"
           fi
 
       - name: 📦 Cache Deno dependencies
@@ -133,7 +91,42 @@ jobs:
           restore-keys: |
             deno-
 
-      - name: 🔍 Run scraper
+      - name: 🎯 Parse target organizations
+        id: parse-orgs
+        run: |
+          # Parse organizations from repository_dispatch or workflow_dispatch
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            # Extract from repository_dispatch client_payload
+            CHANGED_ORGS='${{ toJSON(github.event.client_payload.changed_orgs) }}'
+            ORGS_CSV=$(echo "$CHANGED_ORGS" | jq -r 'join(",")')
+            BATCH_SIZE='${{ github.event.client_payload.batch_size }}'
+            TIMESTAMP='${{ github.event.client_payload.timestamp }}'
+
+            echo "orgs=$ORGS_CSV" >> "$GITHUB_OUTPUT"
+            echo "batch_size=$BATCH_SIZE" >> "$GITHUB_OUTPUT"
+            echo "timestamp=$TIMESTAMP" >> "$GITHUB_OUTPUT"
+            echo "trigger=changedetection.io" >> "$GITHUB_OUTPUT"
+
+            echo "🔔 Triggered by changedetection.io webhook"
+            echo "📊 Batch size: $BATCH_SIZE organizations"
+            echo "🕒 Change detected at: $TIMESTAMP"
+            echo "🎯 Organizations: $ORGS_CSV"
+          else
+            # Extract from manual workflow_dispatch
+            ORGS_CSV='${{ github.event.inputs.organizations }}'
+            ORG_COUNT=$(echo "$ORGS_CSV" | tr ',' '\n' | wc -l)
+
+            echo "orgs=$ORGS_CSV" >> "$GITHUB_OUTPUT"
+            echo "batch_size=$ORG_COUNT" >> "$GITHUB_OUTPUT"
+            echo "timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")" >> "$GITHUB_OUTPUT"
+            echo "trigger=manual" >> "$GITHUB_OUTPUT"
+
+            echo "👤 Manual trigger"
+            echo "📊 Organizations: $ORG_COUNT"
+            echo "🎯 Organizations: $ORGS_CSV"
+          fi
+
+      - name: 🔍 Run targeted scraper
         id: scrape
         run: |
           # Configure git for automated commits
@@ -144,31 +137,17 @@ jobs:
           # Ensure data directory exists
           mkdir -p data/archive logs
 
-          # Set production scraper arguments
-          ARGS=""
+          ORGS="${{ steps.parse-orgs.outputs.orgs }}"
 
-          # For PR events, disable auto-commit and encryption
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            ARGS="$ARGS --no-commit --no-encrypt"
+          if [ -z "$ORGS" ]; then
+            echo "❌ No organizations to scrape"
+            exit 1
           fi
 
-          # Allow disabling commit via workflow input
-          if [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
-            # Default: enable commits for production runs
-            :
-          fi
+          echo "🚀 Running targeted scraper for: $ORGS"
 
-          echo "🚀 Running production scraper with args: ${ARGS:-none}"
-
-          # Debug environment
-          echo "Debug: Current working directory: $(pwd)"
-          echo "Debug: Directory contents:"
-          ls -la
-          echo "Debug: Deno version:"
-          deno --version
-
-          # Run the production scraper with better error handling
-          if ! deno run --allow-all --no-lock scripts/production-scraper.ts $ARGS; then
+          # Run the production scraper with targeted organizations
+          if ! deno run --allow-all --no-lock scripts/production-scraper.ts --orgs "$ORGS"; then
             echo "❌ Scraper failed, checking logs..."
             if [ -d logs ]; then
               echo "Available log files:"
@@ -187,7 +166,7 @@ jobs:
             echo "changes_detected=true" >> "$GITHUB_OUTPUT"
             echo "✅ Changes detected"
 
-            # Get summary of changes for the output
+            # Get summary of changes
             CHANGES_SUMMARY=$(git diff --name-only --staged | tr '\n' ' ')
             echo "changes_summary=$CHANGES_SUMMARY" >> "$GITHUB_OUTPUT"
           fi
@@ -195,7 +174,14 @@ jobs:
       - name: 📊 Generate summary report
         if: success()
         run: |
-          echo "## 🕷️ Scraping Report" >> "$GITHUB_STEP_SUMMARY"
+          echo "## 🎯 Targeted Scraping Report" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          echo "### 📡 Trigger Information" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger**: ${{ steps.parse-orgs.outputs.trigger }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp**: ${{ steps.parse-orgs.outputs.timestamp }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Organizations**: ${{ steps.parse-orgs.outputs.batch_size }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Org List**: \`${{ steps.parse-orgs.outputs.orgs }}\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "data/bounty-index.json" ]; then
@@ -203,38 +189,38 @@ jobs:
             TOTAL_BOUNTIES=$(jq -r '.total_bounties' data/bounty-index.json)
             TOTAL_VALUE=$(jq -r '.total_value_usd' data/bounty-index.json)
             GENERATED_AT=$(jq -r '.generated_at' data/bounty-index.json)
-            SUCCESS_RATE=$(jq -r '.metadata.success_rate * 100 | round' data/bounty-index.json)
 
-            echo "### 📈 Statistics" >> $GITHUB_STEP_SUMMARY
-            echo "- **Organizations**: $TOTAL_ORGS" >> $GITHUB_STEP_SUMMARY
+            echo "### 📈 Current Statistics" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Organizations**: $TOTAL_ORGS" >> $GITHUB_STEP_SUMMARY
             echo "- **Total Bounties**: $TOTAL_BOUNTIES" >> $GITHUB_STEP_SUMMARY
             echo "- **Total Value**: \$$(echo $TOTAL_VALUE | numfmt --format=%.0f --grouping)" >> $GITHUB_STEP_SUMMARY
-            echo "- **Success Rate**: $SUCCESS_RATE%" >> $GITHUB_STEP_SUMMARY
-            echo "- **Generated**: $GENERATED_AT" >> $GITHUB_STEP_SUMMARY
+            echo "- **Updated**: $GENERATED_AT" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
 
-            # Top organizations by bounty count
-            echo "### 🏆 Top Organizations" >> $GITHUB_STEP_SUMMARY
-            jq -r '.organizations | to_entries | sort_by(.value.bounty_count) | reverse | limit(5;.[]) | "- **\(.key)**: \(.value.bounty_count) bounties (\(.value.total_value_usd | floor) USD)"' data/bounty-index.json >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-
-            # Recent changes if any
+            # Changes
             if [ "${{ steps.scrape.outputs.changes_detected }}" = "true" ]; then
               echo "### 🔄 Changes Detected" >> $GITHUB_STEP_SUMMARY
               echo "- Modified files: ${{ steps.scrape.outputs.changes_summary }}" >> $GITHUB_STEP_SUMMARY
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "✅ **Event-driven scraping working as expected!**" >> $GITHUB_STEP_SUMMARY
             else
               echo "### ✅ No Changes" >> $GITHUB_STEP_SUMMARY
-              echo "All bounties up to date!" >> $GITHUB_STEP_SUMMARY
+              echo "No bounty changes detected for the monitored organizations." >> $GITHUB_STEP_SUMMARY
             fi
           else
             echo "❌ No bounty index generated" >> $GITHUB_STEP_SUMMARY
           fi
 
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "*This was a targeted scrape - only the changed organizations were processed.*" >> $GITHUB_STEP_SUMMARY
+          echo "*Full scrapes run daily to ensure data integrity.*" >> $GITHUB_STEP_SUMMARY
+
       - name: 📤 Upload artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: scraping-artifacts-${{ github.run_id }}
+          name: targeted-scraping-artifacts-${{ github.run_id }}
           path: |
             data/bounty-index.json
             data/algora-api-response.json
@@ -245,25 +231,13 @@ jobs:
       - name: 🔔 Notify on failure
         if: failure()
         run: |
-          echo "## ❌ Scraping Failed" >> $GITHUB_STEP_SUMMARY
+          echo "## ❌ Targeted Scraping Failed" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "The scraping workflow encountered an error. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
+          echo "The targeted scraping workflow encountered an error." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Trigger**: ${{ steps.parse-orgs.outputs.trigger }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Organizations**: ${{ steps.parse-orgs.outputs.orgs }}" >> $GITHUB_STEP_SUMMARY
           echo "**Workflow**: ${{ github.workflow }}" >> $GITHUB_STEP_SUMMARY
           echo "**Run ID**: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
-          echo "**Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
-
-  # Cleanup old workflow runs to save storage
-  cleanup:
-    name: Cleanup Old Runs
-    runs-on: ubuntu-latest
-    if: github.event_name == 'schedule'
-
-    steps:
-      - name: 🧹 Delete old workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ github.token }}
-          repository: ${{ github.repository }}
-          retain_days: 7
-          keep_minimum_runs: 5
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*Note: Full scrape will pick up these changes tomorrow.*" >> $GITHUB_STEP_SUMMARY

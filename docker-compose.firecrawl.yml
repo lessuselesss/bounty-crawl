@@ -71,8 +71,46 @@ services:
         reservations:
           memory: 1G
 
+  # changedetection.io for efficient change monitoring
+  changedetection:
+    image: ghcr.io/dgtlmoon/changedetection.io:latest
+    container_name: changedetection-algora
+    hostname: changedetection
+    volumes:
+      - changedetection-data:/datastore
+      - ./logs/changedetection:/app/logs
+    environment:
+      # Use existing Playwright service for browser-based monitoring
+      - PLAYWRIGHT_DRIVER_URL=ws://playwright:3000
+      # Privacy and performance settings
+      - HIDE_REFERER=true
+      - FETCH_WORKERS=10
+      # Optional: Set base URL if behind reverse proxy
+      - BASE_URL=${CHANGEDETECTION_BASE_URL:-}
+      # Optional: Require password for web UI access
+      - WEBDRIVER_URL=
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+
 volumes:
   redis_data:
+    driver: local
+  changedetection-data:
     driver: local
 
 networks:

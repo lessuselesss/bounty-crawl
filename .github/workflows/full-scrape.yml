@@ -1,0 +1,273 @@
+name: 🕷️ Full Bounty Scrape (Daily)
+
+on:
+  schedule:
+    # Run once daily at 3:00 AM UTC (safety net for missed changes)
+    - cron: '0 3 * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      force_commit:
+        description: 'Force commit even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+      full_scan:
+        description: 'Perform full scan (ignore cache)'
+        required: false
+        default: false
+        type: boolean
+
+  # Run when organizations list is updated
+  push:
+    paths:
+      - 'data/organizations.json'
+      - 'config/scraper-config.json'
+    branches:
+      - main
+
+  # Run on pull request for testing
+  pull_request:
+    paths:
+      - 'src/**'
+      - '.github/workflows/full-scrape.yml'
+      - '.github/workflows/targeted-scrape.yml'
+      - 'deno.json'
+      - 'flake.nix'
+
+env:
+  # Nix configuration
+  NIX_CONFIG: "experimental-features = nix-command flakes"
+
+  # SOPS configuration
+  SOPS_AGE_KEY: ${{ secrets.SOPS_AGE_KEY }}
+
+  # GitHub token for API access and committing
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Firecrawl API key for production scraper
+  FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+
+jobs:
+  scrape:
+    name: Full Bounty Scrape
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history for proper change detection
+          fetch-depth: 0
+          # Use the GITHUB_TOKEN for checkout to allow pushing
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🦕 Install latest Deno
+        run: |
+          curl -fsSL https://deno.land/install.sh | sh
+          echo "$HOME/.deno/bin" >> $GITHUB_PATH
+
+      - name: 🔑 Setup SOPS
+        continue-on-error: true
+        run: |
+          # Install SOPS and age
+          curl -LO https://github.com/mozilla/sops/releases/download/v3.7.3/sops-v3.7.3.linux
+          sudo mv sops-v3.7.3.linux /usr/local/bin/sops
+          sudo chmod +x /usr/local/bin/sops
+
+          curl -LO https://github.com/FiloSottile/age/releases/download/v1.1.1/age-v1.1.1-linux-amd64.tar.gz
+          tar -xzf age-v1.1.1-linux-amd64.tar.gz
+          sudo mv age/age* /usr/local/bin/
+
+          # Create age key file for SOPS
+          echo "$SOPS_AGE_KEY" > .age-key
+          chmod 600 .age-key
+          export SOPS_AGE_KEY_FILE="$PWD/.age-key"
+          echo "SOPS_AGE_KEY_FILE=$PWD/.age-key" >> "$GITHUB_ENV"
+
+          # Test SOPS configuration
+          sops --version
+
+          # Decrypt secrets if they exist
+          if [ -f "secrets/github-token.yaml" ]; then
+            echo "🔓 Decrypting secrets..."
+            if sops -d secrets/github-token.yaml > /tmp/secrets.json 2>/tmp/sops_error.log; then
+              # Check if the output is valid JSON
+              if jq empty /tmp/secrets.json 2>/dev/null; then
+                echo "✅ Successfully decrypted secrets"
+                GITHUB_API_TOKEN=$(jq -r '.github_token // empty' /tmp/secrets.json 2>/dev/null || echo "")
+                ALGORA_SESSION=$(jq -r '.algora_session // empty' /tmp/secrets.json 2>/dev/null || echo "")
+
+                # Add to GitHub environment
+                echo "GITHUB_API_TOKEN=$GITHUB_API_TOKEN" >> "$GITHUB_ENV"
+                echo "ALGORA_SESSION=$ALGORA_SESSION" >> "$GITHUB_ENV"
+              else
+                echo "⚠️  SOPS output is not valid JSON:"
+                cat /tmp/secrets.json
+                echo "ℹ️  Using repository secrets instead"
+              fi
+              # Clean up
+              rm -f /tmp/secrets.json
+            else
+              echo "❌ SOPS decryption failed:"
+              cat /tmp/sops_error.log
+              echo "ℹ️  Using repository secrets instead"
+            fi
+            rm -f /tmp/sops_error.log
+          else
+            echo "ℹ️  No encrypted secrets found, using repository secrets"
+          fi
+
+      - name: 📦 Cache Deno dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/deno
+            .deno
+            .cache
+          key: deno-${{ hashFiles('deno.lock') }}
+          restore-keys: |
+            deno-
+
+      - name: 🔍 Run scraper
+        id: scrape
+        run: |
+          # Configure git for automated commits
+          git config --local user.email "scraper@algora-bounty-scraper.com"
+          git config --local user.name "Algora Bounty Scraper"
+          git config --local commit.gpgsign false
+
+          # Ensure data directory exists
+          mkdir -p data/archive logs
+
+          # Set production scraper arguments
+          ARGS=""
+
+          # For PR events, disable auto-commit and encryption
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            ARGS="$ARGS --no-commit --no-encrypt"
+          fi
+
+          # Allow disabling commit via workflow input
+          if [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
+            # Default: enable commits for production runs
+            :
+          fi
+
+          echo "🚀 Running production scraper with args: ${ARGS:-none}"
+
+          # Debug environment
+          echo "Debug: Current working directory: $(pwd)"
+          echo "Debug: Directory contents:"
+          ls -la
+          echo "Debug: Deno version:"
+          deno --version
+
+          # Run the production scraper with better error handling
+          if ! deno run --allow-all --no-lock scripts/production-scraper.ts $ARGS; then
+            echo "❌ Scraper failed, checking logs..."
+            if [ -d logs ]; then
+              echo "Available log files:"
+              ls -la logs/
+              echo "Latest log content:"
+              find logs -name "*.log" -type f -exec tail -50 {} \;
+            fi
+            exit 1
+          fi
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet && git diff --quiet; then
+            echo "changes_detected=false" >> "$GITHUB_OUTPUT"
+            echo "ℹ️  No changes detected"
+          else
+            echo "changes_detected=true" >> "$GITHUB_OUTPUT"
+            echo "✅ Changes detected"
+
+            # Get summary of changes for the output
+            CHANGES_SUMMARY=$(git diff --name-only --staged | tr '\n' ' ')
+            echo "changes_summary=$CHANGES_SUMMARY" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 📊 Generate summary report
+        if: success()
+        run: |
+          echo "## 🕷️ Full Scraping Report (Daily)" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "*This is a comprehensive full scrape of all 91+ organizations.*" >> $GITHUB_STEP_SUMMARY
+          echo "*Targeted scrapes run on-demand when changedetection.io detects changes.*" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "data/bounty-index.json" ]; then
+            TOTAL_ORGS=$(jq -r '.total_organizations' data/bounty-index.json)
+            TOTAL_BOUNTIES=$(jq -r '.total_bounties' data/bounty-index.json)
+            TOTAL_VALUE=$(jq -r '.total_value_usd' data/bounty-index.json)
+            GENERATED_AT=$(jq -r '.generated_at' data/bounty-index.json)
+            SUCCESS_RATE=$(jq -r '.metadata.success_rate * 100 | round' data/bounty-index.json)
+
+            echo "### 📈 Statistics" >> $GITHUB_STEP_SUMMARY
+            echo "- **Organizations**: $TOTAL_ORGS" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Bounties**: $TOTAL_BOUNTIES" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Value**: \$$(echo $TOTAL_VALUE | numfmt --format=%.0f --grouping)" >> $GITHUB_STEP_SUMMARY
+            echo "- **Success Rate**: $SUCCESS_RATE%" >> $GITHUB_STEP_SUMMARY
+            echo "- **Generated**: $GENERATED_AT" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Top organizations by bounty count
+            echo "### 🏆 Top Organizations" >> $GITHUB_STEP_SUMMARY
+            jq -r '.organizations | to_entries | sort_by(.value.bounty_count) | reverse | limit(5;.[]) | "- **\(.key)**: \(.value.bounty_count) bounties (\(.value.total_value_usd | floor) USD)"' data/bounty-index.json >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+
+            # Recent changes if any
+            if [ "${{ steps.scrape.outputs.changes_detected }}" = "true" ]; then
+              echo "### 🔄 Changes Detected" >> $GITHUB_STEP_SUMMARY
+              echo "- Modified files: ${{ steps.scrape.outputs.changes_summary }}" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "### ✅ No Changes" >> $GITHUB_STEP_SUMMARY
+              echo "All bounties up to date!" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "❌ No bounty index generated" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: 📤 Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraping-artifacts-${{ github.run_id }}
+          path: |
+            data/bounty-index.json
+            data/algora-api-response.json
+            data/archive/
+            logs/
+          retention-days: 7
+
+      - name: 🔔 Notify on failure
+        if: failure()
+        run: |
+          echo "## ❌ Scraping Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The scraping workflow encountered an error. Please check the logs for details." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Workflow**: ${{ github.workflow }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Run ID**: ${{ github.run_id }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+
+  # Cleanup old workflow runs to save storage
+  cleanup:
+    name: Cleanup Old Runs
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+
+    steps:
+      - name: 🧹 Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 7
+          keep_minimum_runs: 5

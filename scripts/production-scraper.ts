@@ -20,6 +20,7 @@ interface ProductionConfig {
   enableEncryption: boolean;
   enableGitCommit: boolean;
   enableHealthChecks: boolean;
+  targetOrgs?: string[];  // Optional: specific org handles to scrape
 }
 
 class ProductionLogger {
@@ -123,12 +124,42 @@ class ProductionScraper {
         throw new Error("Invalid organizations file format");
       }
 
-      await this.logger.info(`Loaded ${data.organizations.length} organizations`, {
-        total: data.organizations.length,
-        version: data.version
-      });
+      let organizations = data.organizations;
 
-      return data.organizations;
+      // Filter organizations if targetOrgs is specified
+      if (this.config.targetOrgs && this.config.targetOrgs.length > 0) {
+        const targetSet = new Set(this.config.targetOrgs);
+        const originalCount = organizations.length;
+
+        organizations = organizations.filter((org: OrganizationConfig) =>
+          targetSet.has(org.handle)
+        );
+
+        // Validate that all requested orgs were found
+        const foundOrgs = new Set(organizations.map((org: OrganizationConfig) => org.handle));
+        const notFound = this.config.targetOrgs.filter(handle => !foundOrgs.has(handle));
+
+        if (notFound.length > 0) {
+          await this.logger.warn(`Some organizations not found in database`, {
+            requested: this.config.targetOrgs.length,
+            found: organizations.length,
+            not_found: notFound
+          });
+        }
+
+        await this.logger.info(`Filtered to ${organizations.length} target organizations`, {
+          original: originalCount,
+          filtered: organizations.length,
+          targets: this.config.targetOrgs
+        });
+      } else {
+        await this.logger.info(`Loaded ${organizations.length} organizations`, {
+          total: organizations.length,
+          version: data.version
+        });
+      }
+
+      return organizations;
     } catch (error) {
       await this.logger.error("Failed to load organizations", { error: error.message });
       throw error;
@@ -426,9 +457,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>`;
 async function main() {
   const args = parseArgs(Deno.args, {
     boolean: ["help", "no-encrypt", "no-commit", "no-health-checks"],
-    string: ["log-level", "output-dir", "organizations-file"],
+    string: ["log-level", "output-dir", "organizations-file", "orgs"],
     alias: {
       h: "help",
+      o: "orgs",
     },
   });
 
@@ -440,11 +472,22 @@ USAGE:
   deno run --allow-all scripts/production-scraper.ts [OPTIONS]
 
 OPTIONS:
+  --orgs, -o ORG1,ORG2  Scrape only specific organizations (comma-separated handles)
   --no-encrypt          Disable SOPS encryption pipeline
   --no-commit           Disable git commit automation
   --no-health-checks    Skip pre-flight health checks
   --output-dir DIR      Override output directory (default: data)
-  --help, -h           Show this help message
+  --help, -h            Show this help message
+
+EXAMPLES:
+  # Scrape all organizations (default)
+  deno run --allow-all scripts/production-scraper.ts
+
+  # Scrape only specific organizations (event-driven mode)
+  deno run --allow-all scripts/production-scraper.ts --orgs tscircuit,vercel
+
+  # Targeted scrape without commit/encryption (for testing)
+  deno run --allow-all scripts/production-scraper.ts --orgs anthropic --no-commit --no-encrypt
 
 OUTPUTS:
   data/algora-api-response.json    Algora API format (for bounty-pipe)
@@ -460,6 +503,7 @@ ENVIRONMENT VARIABLES:
 
 This scraper processes all 91+ organizations using the Unified Firecrawl scraper
 and generates both Algora API format (for bounty-pipe) and legacy format data.
+The --orgs flag enables targeted scraping for event-driven workflows.
 `);
     Deno.exit(0);
   }
@@ -478,6 +522,23 @@ and generates both Algora API format (for bounty-pipe) and legacy format data.
 
   if (args["organizations-file"]) {
     config.organizationsFile = args["organizations-file"];
+  }
+
+  // Parse --orgs flag for targeted scraping
+  if (args.orgs) {
+    const orgsString = typeof args.orgs === 'string' ? args.orgs : args.orgs[0];
+    config.targetOrgs = orgsString
+      .split(',')
+      .map(org => org.trim())
+      .filter(org => org.length > 0);
+
+    if (config.targetOrgs.length === 0) {
+      console.error("Error: --orgs flag provided but no valid organization handles found");
+      Deno.exit(1);
+    }
+
+    console.log(`🎯 Targeted scraping mode: ${config.targetOrgs.length} organizations`);
+    console.log(`   Organizations: ${config.targetOrgs.join(', ')}`);
   }
 
   const scraper = new ProductionScraper(config);
