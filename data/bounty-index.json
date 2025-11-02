@@ -1,42 +1,50 @@
 {
-  "generated_at": "2025-11-02T19:25:03.162Z",
-  "total_organizations": 5,
-  "total_bounties": 31,
-  "total_value_usd": 3100,
+  "generated_at": "2025-11-02T19:38:31.732Z",
+  "total_organizations": 4,
+  "total_bounties": 21,
+  "total_value_usd": 2100,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:24:18.858Z",
-          "updated_at": "2025-11-02T19:24:18.858Z"
+          "created_at": "2025-11-02T19:37:58.972Z",
+          "updated_at": "2025-11-02T19:37:58.972Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:24:20.382Z",
-          "updated_at": "2025-11-02T19:24:20.382Z"
+          "tags": [],
+          "created_at": "2025-11-02T19:38:01.370Z",
+          "updated_at": "2025-11-02T19:38:01.370Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:04.203Z",
+          "updated_at": "2025-11-02T19:38:04.203Z"
         }
       ],
-      "last_updated": "2025-11-02T19:25:03.162Z",
+      "last_updated": "2025-11-02T19:38:31.732Z",
       "scrape_duration_ms": 0
     },
     "golemcloud": {
@@ -54,8 +62,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:24:20.382Z",
-          "updated_at": "2025-11-02T19:24:20.382Z"
+          "created_at": "2025-11-02T19:38:01.451Z",
+          "updated_at": "2025-11-02T19:38:01.451Z"
         },
         {
           "id": "golemcloud#23",
@@ -66,8 +74,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:24:22.979Z",
-          "updated_at": "2025-11-02T19:24:22.979Z"
+          "created_at": "2025-11-02T19:38:04.203Z",
+          "updated_at": "2025-11-02T19:38:04.203Z"
         },
         {
           "id": "golemcloud#21",
@@ -78,317 +86,191 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:24:24.544Z",
-          "updated_at": "2025-11-02T19:24:24.544Z"
+          "created_at": "2025-11-02T19:38:04.885Z",
+          "updated_at": "2025-11-02T19:38:04.885Z"
         }
       ],
-      "last_updated": "2025-11-02T19:25:03.162Z",
+      "last_updated": "2025-11-02T19:38:31.732Z",
       "scrape_duration_ms": 0
     },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "qdrant#3957",
+          "title": "Add properties to a collection",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3957",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:38:00.288Z",
+          "updated_at": "2025-11-02T19:38:00.288Z"
+        },
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:02.903Z",
+          "updated_at": "2025-11-02T19:38:02.903Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:04.580Z",
+          "updated_at": "2025-11-02T19:38:04.580Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:05.355Z",
+          "updated_at": "2025-11-02T19:38:05.355Z"
+        },
+        {
+          "id": "qdrant#2620",
+          "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/2620",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:06.068Z",
+          "updated_at": "2025-11-02T19:38:06.068Z"
+        }
+      ],
+      "last_updated": "2025-11-02T19:38:31.732Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+          "id": "tscircuit#87",
+          "title": "\"Untangling\" phase or \"minimize trace crossing when separating traces\"",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/87",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:24:18.858Z",
-          "updated_at": "2025-11-02T19:24:18.858Z"
+          "created_at": "2025-11-02T19:38:20.709Z",
+          "updated_at": "2025-11-02T19:38:20.709Z"
         },
         {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "id": "tscircuit#159",
+          "title": "Reproduce fp_poly loading issue and fix",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:24:20.382Z",
-          "updated_at": "2025-11-02T19:24:20.382Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "url": "https://github.com/tscircuit/kicad-component-converter/issues/159",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:22.979Z",
-          "updated_at": "2025-11-02T19:24:22.979Z"
+          "created_at": "2025-11-02T19:38:20.829Z",
+          "updated_at": "2025-11-02T19:38:20.829Z"
         },
         {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
+          "id": "tscircuit#40",
+          "title": "Add support for `ViaGridBoard`",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "url": "https://github.com/tscircuit/common/issues/40",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:24.543Z",
-          "updated_at": "2025-11-02T19:24:24.543Z"
+          "created_at": "2025-11-02T19:38:20.920Z",
+          "updated_at": "2025-11-02T19:38:20.920Z"
         },
         {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:26.463Z",
-          "updated_at": "2025-11-02T19:24:26.463Z"
+          "created_at": "2025-11-02T19:38:21.040Z",
+          "updated_at": "2025-11-02T19:38:21.040Z"
         },
         {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
+          "id": "tscircuit#83",
+          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:27.456Z",
-          "updated_at": "2025-11-02T19:24:27.456Z"
+          "created_at": "2025-11-02T19:38:21.127Z",
+          "updated_at": "2025-11-02T19:38:21.127Z"
         },
         {
-          "id": "mediar-ai#1382",
-          "title": "[bounty] implement history for search pipe",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:29.242Z",
-          "updated_at": "2025-11-02T19:24:29.242Z"
+          "created_at": "2025-11-02T19:38:21.240Z",
+          "updated_at": "2025-11-02T19:38:21.240Z"
         },
         {
-          "id": "mediar-ai#1380",
-          "title": "[bounty] implement device control and make --use-all-monitors work",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:32.547Z",
-          "updated_at": "2025-11-02T19:24:32.547Z"
+          "created_at": "2025-11-02T19:38:21.310Z",
+          "updated_at": "2025-11-02T19:38:21.310Z"
         },
         {
-          "id": "mediar-ai#1160",
-          "title": "[bounty] list webcam, iphone, etc. in list-monitors",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:34.380Z",
-          "updated_at": "2025-11-02T19:24:34.380Z"
+          "created_at": "2025-11-02T19:38:21.449Z",
+          "updated_at": "2025-11-02T19:38:21.449Z"
         },
         {
-          "id": "mediar-ai#1142",
-          "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:24:36.904Z",
-          "updated_at": "2025-11-02T19:24:36.904Z"
+          "created_at": "2025-11-02T19:38:21.631Z",
+          "updated_at": "2025-11-02T19:38:21.631Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:38:21.730Z",
+          "updated_at": "2025-11-02T19:38:21.730Z"
         }
       ],
-      "last_updated": "2025-11-02T19:25:03.162Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:24:18.858Z",
-          "updated_at": "2025-11-02T19:24:18.858Z"
-        },
-        {
-          "id": "ZIO#3688",
-          "title": "Deprecate EndpointLocator",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3688",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:20.381Z",
-          "updated_at": "2025-11-02T19:24:20.381Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:22.979Z",
-          "updated_at": "2025-11-02T19:24:22.979Z"
-        },
-        {
-          "id": "ZIO#595",
-          "title": "STOMP support",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/595",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:24.570Z",
-          "updated_at": "2025-11-02T19:24:24.570Z"
-        },
-        {
-          "id": "ZIO#3710",
-          "title": "Add Datastar docs, including example project",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3710",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:26.462Z",
-          "updated_at": "2025-11-02T19:24:26.462Z"
-        },
-        {
-          "id": "ZIO#3645",
-          "title": "Default 404 page with available routes for dev mode",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3645",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:27.457Z",
-          "updated_at": "2025-11-02T19:24:27.457Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:29.242Z",
-          "updated_at": "2025-11-02T19:24:29.242Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:32.547Z",
-          "updated_at": "2025-11-02T19:24:32.547Z"
-        },
-        {
-          "id": "ZIO#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:34.380Z",
-          "updated_at": "2025-11-02T19:24:34.380Z"
-        },
-        {
-          "id": "ZIO#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:36.977Z",
-          "updated_at": "2025-11-02T19:24:36.977Z"
-        }
-      ],
-      "last_updated": "2025-11-02T19:25:03.162Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:24:52.553Z",
-          "updated_at": "2025-11-02T19:24:52.553Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:24:52.670Z",
-          "updated_at": "2025-11-02T19:24:52.670Z"
-        },
-        {
-          "id": "mudlet#7126",
-          "title": "Implement sentry.io's Qt SDK for crash reporting",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:52.780Z",
-          "updated_at": "2025-11-02T19:24:52.780Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:52.927Z",
-          "updated_at": "2025-11-02T19:24:52.927Z"
-        },
-        {
-          "id": "mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:53.046Z",
-          "updated_at": "2025-11-02T19:24:53.046Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:24:53.160Z",
-          "updated_at": "2025-11-02T19:24:53.160Z"
-        }
-      ],
-      "last_updated": "2025-11-02T19:25:03.162Z",
+      "last_updated": "2025-11-02T19:38:31.732Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 125906,
+    "processing_time_ms": 125465,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -397,306 +279,222 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+            "id": "tscircuit#87",
+            "title": "\"Untangling\" phase or \"minimize trace crossing when separating traces\"",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/87",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:18.858Z",
-            "updated_at": "2025-11-02T19:24:18.858Z"
+            "created_at": "2025-11-02T19:38:20.709Z",
+            "updated_at": "2025-11-02T19:38:20.709Z"
           },
           {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "id": "tscircuit#159",
+            "title": "Reproduce fp_poly loading issue and fix",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:24:20.382Z",
-            "updated_at": "2025-11-02T19:24:20.382Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+            "url": "https://github.com/tscircuit/kicad-component-converter/issues/159",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:22.979Z",
-            "updated_at": "2025-11-02T19:24:22.979Z"
+            "created_at": "2025-11-02T19:38:20.829Z",
+            "updated_at": "2025-11-02T19:38:20.829Z"
           },
           {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
+            "id": "tscircuit#40",
+            "title": "Add support for `ViaGridBoard`",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+            "url": "https://github.com/tscircuit/common/issues/40",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:24.543Z",
-            "updated_at": "2025-11-02T19:24:24.543Z"
+            "created_at": "2025-11-02T19:38:20.920Z",
+            "updated_at": "2025-11-02T19:38:20.920Z"
           },
           {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:26.463Z",
-            "updated_at": "2025-11-02T19:24:26.463Z"
+            "created_at": "2025-11-02T19:38:21.040Z",
+            "updated_at": "2025-11-02T19:38:21.040Z"
           },
           {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
+            "id": "tscircuit#83",
+            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:27.456Z",
-            "updated_at": "2025-11-02T19:24:27.456Z"
+            "created_at": "2025-11-02T19:38:21.127Z",
+            "updated_at": "2025-11-02T19:38:21.127Z"
           },
           {
-            "id": "mediar-ai#1382",
-            "title": "[bounty] implement history for search pipe",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:29.242Z",
-            "updated_at": "2025-11-02T19:24:29.242Z"
+            "created_at": "2025-11-02T19:38:21.240Z",
+            "updated_at": "2025-11-02T19:38:21.240Z"
           },
           {
-            "id": "mediar-ai#1380",
-            "title": "[bounty] implement device control and make --use-all-monitors work",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:32.547Z",
-            "updated_at": "2025-11-02T19:24:32.547Z"
+            "created_at": "2025-11-02T19:38:21.310Z",
+            "updated_at": "2025-11-02T19:38:21.310Z"
           },
           {
-            "id": "mediar-ai#1160",
-            "title": "[bounty] list webcam, iphone, etc. in list-monitors",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:34.380Z",
-            "updated_at": "2025-11-02T19:24:34.380Z"
+            "created_at": "2025-11-02T19:38:21.449Z",
+            "updated_at": "2025-11-02T19:38:21.449Z"
           },
           {
-            "id": "mediar-ai#1142",
-            "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:36.904Z",
-            "updated_at": "2025-11-02T19:24:36.904Z"
+            "created_at": "2025-11-02T19:38:21.631Z",
+            "updated_at": "2025-11-02T19:38:21.631Z"
+          },
+          {
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/core/issues/1498",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T19:38:21.730Z",
+            "updated_at": "2025-11-02T19:38:21.730Z"
           }
         ],
-        "last_updated": "2025-11-02T19:25:03.162Z",
+        "last_updated": "2025-11-02T19:38:31.732Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "qdrant#3957",
+            "title": "Add properties to a collection",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/qdrant/qdrant/issues/3957",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:18.858Z",
-            "updated_at": "2025-11-02T19:24:18.858Z"
+            "created_at": "2025-11-02T19:38:00.288Z",
+            "updated_at": "2025-11-02T19:38:00.288Z"
           },
           {
-            "id": "ZIO#3688",
-            "title": "Deprecate EndpointLocator",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3688",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:20.381Z",
-            "updated_at": "2025-11-02T19:24:20.381Z"
+            "created_at": "2025-11-02T19:38:02.903Z",
+            "updated_at": "2025-11-02T19:38:02.903Z"
           },
           {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:22.979Z",
-            "updated_at": "2025-11-02T19:24:22.979Z"
+            "created_at": "2025-11-02T19:38:04.580Z",
+            "updated_at": "2025-11-02T19:38:04.580Z"
           },
           {
-            "id": "ZIO#595",
-            "title": "STOMP support",
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/595",
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:24.570Z",
-            "updated_at": "2025-11-02T19:24:24.570Z"
+            "created_at": "2025-11-02T19:38:05.355Z",
+            "updated_at": "2025-11-02T19:38:05.355Z"
           },
           {
-            "id": "ZIO#3710",
-            "title": "Add Datastar docs, including example project",
+            "id": "qdrant#2620",
+            "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3710",
+            "url": "https://github.com/qdrant/qdrant/issues/2620",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:26.462Z",
-            "updated_at": "2025-11-02T19:24:26.462Z"
-          },
-          {
-            "id": "ZIO#3645",
-            "title": "Default 404 page with available routes for dev mode",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3645",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:27.457Z",
-            "updated_at": "2025-11-02T19:24:27.457Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:29.242Z",
-            "updated_at": "2025-11-02T19:24:29.242Z"
-          },
-          {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:32.547Z",
-            "updated_at": "2025-11-02T19:24:32.547Z"
-          },
-          {
-            "id": "ZIO#9844",
-            "title": "improved `Queue` shutdown functionality",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:34.380Z",
-            "updated_at": "2025-11-02T19:24:34.380Z"
-          },
-          {
-            "id": "ZIO#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:36.977Z",
-            "updated_at": "2025-11-02T19:24:36.977Z"
+            "created_at": "2025-11-02T19:38:06.068Z",
+            "updated_at": "2025-11-02T19:38:06.068Z"
           }
         ],
-        "last_updated": "2025-11-02T19:25:03.162Z",
+        "last_updated": "2025-11-02T19:38:31.732Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:52.553Z",
-            "updated_at": "2025-11-02T19:24:52.553Z"
+            "created_at": "2025-11-02T19:37:58.972Z",
+            "updated_at": "2025-11-02T19:37:58.972Z"
           },
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:24:52.670Z",
-            "updated_at": "2025-11-02T19:24:52.670Z"
-          },
-          {
-            "id": "mudlet#7126",
-            "title": "Implement sentry.io's Qt SDK for crash reporting",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+            "url": "https://github.com/permitio/opal/issues/677",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:52.780Z",
-            "updated_at": "2025-11-02T19:24:52.780Z"
+            "created_at": "2025-11-02T19:38:01.370Z",
+            "updated_at": "2025-11-02T19:38:01.370Z"
           },
           {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "url": "https://github.com/permitio/opal/issues/634",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:24:52.927Z",
-            "updated_at": "2025-11-02T19:24:52.927Z"
-          },
-          {
-            "id": "mudlet#707",
-            "title": "Undo/redo support in editor",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:53.046Z",
-            "updated_at": "2025-11-02T19:24:53.046Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:24:53.160Z",
-            "updated_at": "2025-11-02T19:24:53.160Z"
+            "created_at": "2025-11-02T19:38:04.203Z",
+            "updated_at": "2025-11-02T19:38:04.203Z"
           }
         ],
-        "last_updated": "2025-11-02T19:25:03.162Z",
+        "last_updated": "2025-11-02T19:38:31.732Z",
         "scrape_duration_ms": 0
       },
       {
@@ -715,8 +513,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:20.382Z",
-            "updated_at": "2025-11-02T19:24:20.382Z"
+            "created_at": "2025-11-02T19:38:01.451Z",
+            "updated_at": "2025-11-02T19:38:01.451Z"
           },
           {
             "id": "golemcloud#23",
@@ -727,8 +525,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:22.979Z",
-            "updated_at": "2025-11-02T19:24:22.979Z"
+            "created_at": "2025-11-02T19:38:04.203Z",
+            "updated_at": "2025-11-02T19:38:04.203Z"
           },
           {
             "id": "golemcloud#21",
@@ -739,46 +537,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:24:24.544Z",
-            "updated_at": "2025-11-02T19:24:24.544Z"
+            "created_at": "2025-11-02T19:38:04.885Z",
+            "updated_at": "2025-11-02T19:38:04.885Z"
           }
         ],
-        "last_updated": "2025-11-02T19:25:03.162Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:24:18.858Z",
-            "updated_at": "2025-11-02T19:24:18.858Z"
-          },
-          {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:24:20.382Z",
-            "updated_at": "2025-11-02T19:24:20.382Z"
-          }
-        ],
-        "last_updated": "2025-11-02T19:25:03.162Z",
+        "last_updated": "2025-11-02T19:38:31.732Z",
         "scrape_duration_ms": 0
       }
     ]
