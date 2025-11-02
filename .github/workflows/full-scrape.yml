@@ -139,16 +139,26 @@ jobs:
         run: |
           echo "🔍 Detecting changed organizations..."
 
+          # Ensure data directory exists
+          mkdir -p data
+
           # Check if it's Sunday (full scrape day) or manual full_scan requested
           IS_SUNDAY=$(date -u +%u)
           if [ "$IS_SUNDAY" = "7" ] || [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
             echo "📅 Sunday or full_scan requested - forcing full scrape"
-            CHANGED_ORGS=$(deno run --allow-all --no-lock scripts/detect-changes.ts --force-all | tail -1)
+            deno run --allow-all --no-lock scripts/detect-changes.ts --force-all
             echo "mode=full" >> "$GITHUB_OUTPUT"
           else
             # Run change detection
-            CHANGED_ORGS=$(deno run --allow-all --no-lock scripts/detect-changes.ts | tail -1)
+            deno run --allow-all --no-lock scripts/detect-changes.ts
             echo "mode=targeted" >> "$GITHUB_OUTPUT"
+          fi
+
+          # Read changed orgs from the file (more reliable than parsing stdout)
+          if [ -f "data/changed-orgs.txt" ]; then
+            CHANGED_ORGS=$(cat data/changed-orgs.txt)
+          else
+            CHANGED_ORGS=""
           fi
 
           echo "changed_orgs=$CHANGED_ORGS" >> "$GITHUB_OUTPUT"
