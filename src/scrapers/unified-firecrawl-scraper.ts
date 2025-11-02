@@ -1,30 +1,30 @@
 /**
- * Unified Firecrawl Scraper
+ * Unified Playwright Scraper
  *
- * Supports both external Firecrawl API and self-hosted instances with automatic
- * fallback, API key rotation, and optimized configuration for Algora bounty scraping.
+ * Direct browser automation using Playwright for reliable bounty scraping.
+ * Eliminates external API dependencies and rate limits.
  */
 
+import { chromium, Browser, Page } from "playwright";
 import { AlgoraApiResponse, BountyItem, OrganizationConfig } from "../types/bounty.ts";
 
 export interface FirecrawlConfig {
-  // External Firecrawl API
-  externalApiKey?: string;
-  externalApiUrl?: string;
-
-  // Self-hosted instance
-  selfHostedUrl?: string;
-  selfHostedAuthSecret?: string;
-
-  // Behavior configuration
-  preferSelfHosted: boolean;
-  enableFallback: boolean;
+  // Browser configuration
+  headless: boolean;
   requestTimeout: number;
   retryAttempts: number;
 
   // Scraping optimization
   maxConcurrent: number;
   rateLimitDelay: number;
+
+  // Deprecated fields (kept for backward compatibility)
+  externalApiKey?: string;
+  externalApiUrl?: string;
+  selfHostedUrl?: string;
+  selfHostedAuthSecret?: string;
+  preferSelfHosted?: boolean;
+  enableFallback?: boolean;
 }
 
 export interface FirecrawlResponse {
@@ -39,16 +39,12 @@ export interface FirecrawlResponse {
 
 export class UnifiedFirecrawlScraper {
   private config: FirecrawlConfig;
-  private apiKeys: string[];
-  private currentKeyIndex = 0;
+  private browser: Browser | null = null;
   private failedUrls: Set<string> = new Set();
 
   constructor(config?: Partial<FirecrawlConfig>) {
     this.config = {
-      externalApiUrl: "https://api.firecrawl.dev",
-      selfHostedUrl: "http://localhost:3002",
-      preferSelfHosted: Deno.env.get("FIRECRAWL_PREFER_SELF_HOSTED") === "true",
-      enableFallback: true,
+      headless: Deno.env.get("PLAYWRIGHT_HEADLESS") !== "false",
       requestTimeout: 30000,
       retryAttempts: 3,
       maxConcurrent: 5,
@@ -56,118 +52,119 @@ export class UnifiedFirecrawlScraper {
       ...config,
     };
 
-    // Initialize API keys from environment
-    this.apiKeys = this.loadApiKeys();
-
-    console.log(`🔥 Unified Firecrawl Scraper initialized`);
-    console.log(`   Self-hosted: ${this.config.selfHostedUrl}`);
-    console.log(`   External API: ${this.config.externalApiUrl}`);
-    console.log(`   Prefer self-hosted: ${this.config.preferSelfHosted}`);
-    console.log(`   API keys loaded: ${this.apiKeys.length}`);
+    console.log(`🎭 Playwright Scraper initialized`);
+    console.log(`   Headless: ${this.config.headless}`);
+    console.log(`   Timeout: ${this.config.requestTimeout}ms`);
+    console.log(`   Max concurrent: ${this.config.maxConcurrent}`);
   }
 
-  private loadApiKeys(): string[] {
-    const keys: string[] = [];
-
-    // Primary API key
-    const primaryKey = Deno.env.get("FIRECRAWL_API_KEY");
-    if (primaryKey) {
-      keys.push(primaryKey);
-    }
-
-    // Additional API keys for rotation
-    for (let i = 2; i <= 5; i++) {
-      const key = Deno.env.get(`FIRECRAWL_API_KEY_${i}`);
-      if (key) {
-        keys.push(key);
-      }
-    }
-
-    return keys;
-  }
-
-  private async checkSelfHostedHealth(): Promise<boolean> {
-    try {
-      const response = await fetch(`${this.config.selfHostedUrl}/health`, {
-        signal: AbortSignal.timeout(5000),
+  private async getBrowser(): Promise<Browser> {
+    if (!this.browser) {
+      console.log("🚀 Launching Chromium browser...");
+      this.browser = await chromium.launch({
+        headless: this.config.headless,
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage',
+          '--disable-accelerated-2d-canvas',
+          '--disable-gpu'
+        ]
       });
-      return response.ok;
-    } catch {
-      return false;
     }
+    return this.browser;
   }
 
-  private getNextApiKey(): string | null {
-    if (this.apiKeys.length === 0) {
-      return null;
-    }
+  private htmlToMarkdown(html: string): string {
+    // Simple HTML to markdown conversion
+    // Remove scripts and styles
+    let markdown = html
+      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
+      .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
 
-    const key = this.apiKeys[this.currentKeyIndex];
-    this.currentKeyIndex = (this.currentKeyIndex + 1) % this.apiKeys.length;
-    return key;
+    // Convert headers
+    markdown = markdown.replace(/<h1[^>]*>(.*?)<\/h1>/gi, '# $1\n');
+    markdown = markdown.replace(/<h2[^>]*>(.*?)<\/h2>/gi, '## $1\n');
+    markdown = markdown.replace(/<h3[^>]*>(.*?)<\/h3>/gi, '### $1\n');
+    markdown = markdown.replace(/<h4[^>]*>(.*?)<\/h4>/gi, '#### $1\n');
+    markdown = markdown.replace(/<h5[^>]*>(.*?)<\/h5>/gi, '##### $1\n');
+    markdown = markdown.replace(/<h6[^>]*>(.*?)<\/h6>/gi, '###### $1\n');
+
+    // Convert links
+    markdown = markdown.replace(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gi, '[$2]($1)');
+
+    // Convert paragraphs
+    markdown = markdown.replace(/<p[^>]*>(.*?)<\/p>/gi, '$1\n\n');
+
+    // Convert line breaks
+    markdown = markdown.replace(/<br\s*\/?>/gi, '\n');
+
+    // Remove remaining HTML tags
+    markdown = markdown.replace(/<[^>]+>/g, '');
+
+    // Decode HTML entities
+    markdown = markdown
+      .replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&')
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'");
+
+    // Clean up whitespace
+    markdown = markdown.replace(/\n{3,}/g, '\n\n').trim();
+
+    return markdown;
   }
 
-  private async scrapeWithSelfHosted(url: string): Promise<FirecrawlResponse> {
-    const requestBody = {
-      url,
-      formats: ["markdown", "html"],
-      onlyMainContent: true,
-      includeTags: ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "div", "span"],
-      excludeTags: ["script", "style", "nav", "footer", "aside"],
-      waitFor: 2000,
-    };
-
-    const headers: Record<string, string> = {
-      "Content-Type": "application/json",
-    };
-
-    // Add authentication if configured
-    if (this.config.selfHostedAuthSecret) {
-      headers["Authorization"] = `Bearer ${this.config.selfHostedAuthSecret}`;
-    }
-
-    const response = await fetch(`${this.config.selfHostedUrl}/v1/scrape`, {
-      method: "POST",
-      headers,
-      body: JSON.stringify(requestBody),
-      signal: AbortSignal.timeout(this.config.requestTimeout),
+  private async scrapeWithPlaywright(url: string): Promise<FirecrawlResponse> {
+    const browser = await this.getBrowser();
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     });
 
-    if (!response.ok) {
-      throw new Error(`Self-hosted API error: ${response.status} ${response.statusText}`);
+    const page = await context.newPage();
+
+    try {
+      console.log(`🌐 Navigating to: ${url}`);
+
+      // Navigate to the page
+      await page.goto(url, {
+        waitUntil: 'networkidle',
+        timeout: this.config.requestTimeout,
+      });
+
+      // Wait a bit for dynamic content to load
+      await page.waitForTimeout(2000);
+
+      // Get the page content
+      const html = await page.content();
+      const markdown = this.htmlToMarkdown(html);
+
+      console.log(`✅ Successfully scraped ${url} (${markdown.length} chars)`);
+
+      return {
+        success: true,
+        data: {
+          markdown,
+          html,
+          metadata: {
+            url,
+            title: await page.title(),
+            timestamp: new Date().toISOString(),
+          },
+        },
+      };
+    } catch (error) {
+      console.error(`❌ Error scraping ${url}: ${error.message}`);
+      return {
+        success: false,
+        error: error.message,
+      };
+    } finally {
+      await page.close();
+      await context.close();
     }
-
-    return await response.json();
-  }
-
-  private async scrapeWithExternal(url: string, apiKey: string): Promise<FirecrawlResponse> {
-    const requestBody = {
-      url,
-      formats: ["markdown", "html"],
-      onlyMainContent: true,
-      includeTags: ["h1", "h2", "h3", "h4", "h5", "h6", "p", "a", "div", "span"],
-      excludeTags: ["script", "style", "nav", "footer", "aside"],
-      waitFor: 2000,
-    };
-
-    const response = await fetch(`${this.config.externalApiUrl}/v1/scrape`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${apiKey}`,
-      },
-      body: JSON.stringify(requestBody),
-      signal: AbortSignal.timeout(this.config.requestTimeout),
-    });
-
-    if (!response.ok) {
-      if (response.status === 429) {
-        throw new Error("RATE_LIMITED");
-      }
-      throw new Error(`External API error: ${response.status} ${response.statusText}`);
-    }
-
-    return await response.json();
   }
 
   async scrapeUrl(url: string): Promise<FirecrawlResponse> {
@@ -179,72 +176,29 @@ export class UnifiedFirecrawlScraper {
       };
     }
 
-    const attempts = [];
+    let lastError = "Unknown error";
 
-    // Try self-hosted first if preferred and available
-    if (this.config.preferSelfHosted) {
-      const isHealthy = await this.checkSelfHostedHealth();
-      if (isHealthy) {
-        attempts.push("self-hosted");
-      }
-    }
-
-    // Add external API attempts with different keys
-    for (let i = 0; i < Math.min(this.apiKeys.length, 2); i++) {
-      attempts.push("external");
-    }
-
-    // Add self-hosted as fallback if not preferred
-    if (!this.config.preferSelfHosted && this.config.enableFallback) {
-      const isHealthy = await this.checkSelfHostedHealth();
-      if (isHealthy) {
-        attempts.push("self-hosted");
-      }
-    }
-
-    let lastError = "No scraping methods available";
-
-    for (const method of attempts) {
+    // Retry with exponential backoff
+    for (let attempt = 1; attempt <= this.config.retryAttempts; attempt++) {
       try {
-        if (method === "self-hosted") {
-          console.log(`🏠 Scraping with self-hosted Firecrawl: ${url}`);
-          const result = await this.scrapeWithSelfHosted(url);
+        const result = await this.scrapeWithPlaywright(url);
 
-          if (result.success) {
-            return result;
-          } else {
-            console.log(`⚠️  Self-hosted scraping failed: ${result.error}`);
-            lastError = result.error || "Self-hosted scraping failed";
-          }
+        if (result.success) {
+          return result;
         } else {
-          const apiKey = this.getNextApiKey();
-          if (!apiKey) {
-            console.log("⚠️  No API keys available for external scraping");
-            continue;
-          }
-
-          console.log(`☁️  Scraping with external Firecrawl: ${url}`);
-          const result = await this.scrapeWithExternal(url, apiKey);
-
-          if (result.success) {
-            return result;
-          } else {
-            console.log(`⚠️  External scraping failed: ${result.error}`);
-            lastError = result.error || "External scraping failed";
-          }
+          lastError = result.error || "Scraping failed";
+          console.log(`⚠️  Attempt ${attempt}/${this.config.retryAttempts} failed: ${lastError}`);
         }
       } catch (error) {
-        console.log(`❌ Error with ${method} method: ${error.message}`);
         lastError = error.message;
+        console.log(`❌ Attempt ${attempt}/${this.config.retryAttempts} error: ${lastError}`);
+      }
 
-        // Handle rate limiting by trying next method
-        if (error.message === "RATE_LIMITED") {
-          console.log("⏱️  Rate limited, trying next method...");
-          continue;
-        }
-
-        // Brief delay between attempts
-        await new Promise(resolve => setTimeout(resolve, this.config.rateLimitDelay));
+      // Wait before retrying (exponential backoff)
+      if (attempt < this.config.retryAttempts) {
+        const delay = this.config.rateLimitDelay * Math.pow(2, attempt - 1);
+        console.log(`⏳ Waiting ${delay}ms before retry...`);
+        await new Promise(resolve => setTimeout(resolve, delay));
       }
     }
 
@@ -255,6 +209,14 @@ export class UnifiedFirecrawlScraper {
       success: false,
       error: lastError,
     };
+  }
+
+  async close() {
+    if (this.browser) {
+      console.log("🔒 Closing browser...");
+      await this.browser.close();
+      this.browser = null;
+    }
   }
 
   async scrapeBountyPage(org: OrganizationConfig): Promise<BountyItem[]> {
@@ -457,10 +419,9 @@ export class UnifiedFirecrawlScraper {
   getStats() {
     return {
       failedUrlsCount: this.failedUrls.size,
-      currentKeyIndex: this.currentKeyIndex,
-      totalApiKeys: this.apiKeys.length,
-      preferSelfHosted: this.config.preferSelfHosted,
-      selfHostedUrl: this.config.selfHostedUrl,
+      browserActive: this.browser !== null,
+      headless: this.config.headless,
+      timeout: this.config.requestTimeout,
     };
   }
 

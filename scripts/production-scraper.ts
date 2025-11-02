@@ -188,10 +188,6 @@ class ProductionScraper {
             return false;
           }
         }
-      },
-      {
-        name: "Firecrawl API keys available",
-        check: () => !!Deno.env.get("FIRECRAWL_API_KEY")
       }
     ];
 
@@ -450,6 +446,10 @@ Co-Authored-By: Claude <noreply@anthropic.com>`;
         stack: error.stack
       });
       return false;
+    } finally {
+      // Cleanup: Close Playwright browser
+      await this.scraper.close();
+      await this.logger.info("Browser cleanup completed");
     }
   }
 }

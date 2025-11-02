@@ -46,9 +46,6 @@ env:
   # GitHub token for API access and committing
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # Firecrawl API key for production scraper
-  FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-
 jobs:
   scrape:
     name: Full Bounty Scrape
@@ -71,6 +68,11 @@ jobs:
         run: |
           curl -fsSL https://deno.land/install.sh | sh
           echo "$HOME/.deno/bin" >> $GITHUB_PATH
+
+      - name: 🎭 Install Playwright browsers
+        run: |
+          # Install Chromium browser for Playwright
+          $HOME/.deno/bin/deno run --allow-all --no-lock npm:playwright@1.48.2/playwright install chromium --with-deps
 
       - name: 🔑 Setup SOPS
         continue-on-error: true
