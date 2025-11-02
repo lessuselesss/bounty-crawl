@@ -351,7 +351,7 @@ class ProductionScraper {
       // Check if there are changes
       const statusProcess = new Deno.Command("git", {
         args: ["status", "--porcelain"],
-        stdout: "pipe"
+        stdout: "piped"
       });
 
       const { stdout } = await statusProcess.output();
@@ -380,7 +380,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>`;
 
       const commitProcess = new Deno.Command("git", {
         args: ["commit", "-m", commitMessage],
-        stdout: "pipe"
+        stdout: "piped"
       });
 
       const { code } = await commitProcess.output();
