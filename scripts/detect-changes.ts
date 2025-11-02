@@ -156,6 +156,7 @@ class ChangeDetector {
 
       await Promise.all(batch.map(async (org) => {
         const url = org.url || `https://algora.io/${org.handle}/bounties?status=open`;
+        const previousOrgState = this.previousState?.organizations[org.handle];
 
         try {
           // Fetch page content
@@ -164,7 +165,6 @@ class ChangeDetector {
           const bountyCount = this.estimateBountyCount(html);
 
           // Check if changed
-          const previousOrgState = this.previousState?.organizations[org.handle];
           const hasChanged = !previousOrgState || previousOrgState.hash !== hash;
 
           if (hasChanged) {
