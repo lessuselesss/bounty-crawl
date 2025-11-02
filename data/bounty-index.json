@@ -1,164 +1,88 @@
 {
-  "generated_at": "2025-11-02T19:12:58.849Z",
+  "generated_at": "2025-11-02T19:25:03.162Z",
   "total_organizations": 5,
-  "total_bounties": 38,
-  "total_value_usd": 3800,
+  "total_bounties": 31,
+  "total_value_usd": 3100,
   "version": "3.0.0",
   "organizations": {
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:18.858Z",
+          "updated_at": "2025-11-02T19:24:18.858Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:20.382Z",
+          "updated_at": "2025-11-02T19:24:20.382Z"
+        }
+      ],
+      "last_updated": "2025-11-02T19:25:03.162Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:12:30.889Z",
-          "updated_at": "2025-11-02T19:12:30.889Z"
+          "created_at": "2025-11-02T19:24:20.382Z",
+          "updated_at": "2025-11-02T19:24:20.382Z"
         },
         {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:32.121Z",
-          "updated_at": "2025-11-02T19:12:32.121Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:22.979Z",
+          "updated_at": "2025-11-02T19:24:22.979Z"
         },
         {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "id": "golemcloud#21",
+          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
+          "url": "https://github.com/golemcloud/golem-ai/issues/21",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:32.877Z",
-          "updated_at": "2025-11-02T19:12:32.877Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:24.544Z",
+          "updated_at": "2025-11-02T19:24:24.544Z"
         }
       ],
-      "last_updated": "2025-11-02T19:12:58.849Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:12:25.893Z",
-          "updated_at": "2025-11-02T19:12:25.893Z"
-        },
-        {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:12:28.009Z",
-          "updated_at": "2025-11-02T19:12:28.009Z"
-        },
-        {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:30.049Z",
-          "updated_at": "2025-11-02T19:12:30.049Z"
-        },
-        {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:31.451Z",
-          "updated_at": "2025-11-02T19:12:31.451Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:32.741Z",
-          "updated_at": "2025-11-02T19:12:32.741Z"
-        },
-        {
-          "id": "coollabsio#4117",
-          "title": "[Enhancement]: Improve navigation from breadcrumb",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4117",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:32.953Z",
-          "updated_at": "2025-11-02T19:12:32.953Z"
-        },
-        {
-          "id": "coollabsio#2495",
-          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2495",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:33.180Z",
-          "updated_at": "2025-11-02T19:12:33.180Z"
-        },
-        {
-          "id": "coollabsio#4458",
-          "title": "[Enhancement]: AppFlowy Serice",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:33.274Z",
-          "updated_at": "2025-11-02T19:12:33.274Z"
-        },
-        {
-          "id": "coollabsio#2389",
-          "title": "[Feature]: Backup Manger in the UI",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2389",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:33.366Z",
-          "updated_at": "2025-11-02T19:12:33.366Z"
-        },
-        {
-          "id": "coollabsio#6241",
-          "title": "[Enhancement]: Toggle for 'git cleanup' logic",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6241",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:33.454Z",
-          "updated_at": "2025-11-02T19:12:33.454Z"
-        }
-      ],
-      "last_updated": "2025-11-02T19:12:58.849Z",
+      "last_updated": "2025-11-02T19:25:03.162Z",
       "scrape_duration_ms": 0
     },
     "mediar-ai": {
@@ -176,8 +100,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:12:25.892Z",
-          "updated_at": "2025-11-02T19:12:25.892Z"
+          "created_at": "2025-11-02T19:24:18.858Z",
+          "updated_at": "2025-11-02T19:24:18.858Z"
         },
         {
           "id": "mediar-ai#1626",
@@ -188,8 +112,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:12:28.010Z",
-          "updated_at": "2025-11-02T19:12:28.010Z"
+          "created_at": "2025-11-02T19:24:20.382Z",
+          "updated_at": "2025-11-02T19:24:20.382Z"
         },
         {
           "id": "mediar-ai#1560",
@@ -198,8 +122,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:30.049Z",
-          "updated_at": "2025-11-02T19:12:30.049Z"
+          "created_at": "2025-11-02T19:24:22.979Z",
+          "updated_at": "2025-11-02T19:24:22.979Z"
         },
         {
           "id": "mediar-ai#1441",
@@ -208,8 +132,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:31.451Z",
-          "updated_at": "2025-11-02T19:12:31.451Z"
+          "created_at": "2025-11-02T19:24:24.543Z",
+          "updated_at": "2025-11-02T19:24:24.543Z"
         },
         {
           "id": "mediar-ai#1298",
@@ -218,8 +142,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:32.741Z",
-          "updated_at": "2025-11-02T19:12:32.741Z"
+          "created_at": "2025-11-02T19:24:26.463Z",
+          "updated_at": "2025-11-02T19:24:26.463Z"
         },
         {
           "id": "mediar-ai#1383",
@@ -228,8 +152,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:32.952Z",
-          "updated_at": "2025-11-02T19:12:32.952Z"
+          "created_at": "2025-11-02T19:24:27.456Z",
+          "updated_at": "2025-11-02T19:24:27.456Z"
         },
         {
           "id": "mediar-ai#1382",
@@ -238,8 +162,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:33.182Z",
-          "updated_at": "2025-11-02T19:12:33.182Z"
+          "created_at": "2025-11-02T19:24:29.242Z",
+          "updated_at": "2025-11-02T19:24:29.242Z"
         },
         {
           "id": "mediar-ai#1380",
@@ -248,8 +172,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:33.327Z",
-          "updated_at": "2025-11-02T19:12:33.327Z"
+          "created_at": "2025-11-02T19:24:32.547Z",
+          "updated_at": "2025-11-02T19:24:32.547Z"
         },
         {
           "id": "mediar-ai#1160",
@@ -258,8 +182,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:33.466Z",
-          "updated_at": "2025-11-02T19:12:33.466Z"
+          "created_at": "2025-11-02T19:24:34.380Z",
+          "updated_at": "2025-11-02T19:24:34.380Z"
         },
         {
           "id": "mediar-ai#1142",
@@ -268,191 +192,203 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:33.577Z",
-          "updated_at": "2025-11-02T19:12:33.577Z"
+          "created_at": "2025-11-02T19:24:36.904Z",
+          "updated_at": "2025-11-02T19:24:36.904Z"
         }
       ],
-      "last_updated": "2025-11-02T19:12:58.849Z",
+      "last_updated": "2025-11-02T19:25:03.162Z",
       "scrape_duration_ms": 0
     },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "qdrant#3957",
-          "title": "Add properties to a collection",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3957",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T19:12:47.572Z",
-          "updated_at": "2025-11-02T19:12:47.572Z"
-        },
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:47.692Z",
-          "updated_at": "2025-11-02T19:12:47.692Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:47.788Z",
-          "updated_at": "2025-11-02T19:12:47.788Z"
-        },
-        {
-          "id": "qdrant#3321",
-          "title": "Allow Qdrant to run on read-only FS",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3321",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:47.909Z",
-          "updated_at": "2025-11-02T19:12:47.909Z"
-        },
-        {
-          "id": "qdrant#2620",
-          "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/2620",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T19:12:48.021Z",
-          "updated_at": "2025-11-02T19:12:48.021Z"
-        }
-      ],
-      "last_updated": "2025-11-02T19:12:58.849Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "activepieces#9915",
-          "title": "[MCP] Fathom",
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9915",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T19:12:47.951Z",
-          "updated_at": "2025-11-02T19:12:47.951Z"
+          "created_at": "2025-11-02T19:24:18.858Z",
+          "updated_at": "2025-11-02T19:24:18.858Z"
         },
         {
-          "id": "activepieces#9914",
-          "title": "[MCP] MeisterTask",
+          "id": "ZIO#3688",
+          "title": "Deprecate EndpointLocator",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9914",
+          "url": "https://github.com/zio/zio-http/issues/3688",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.052Z",
-          "updated_at": "2025-11-02T19:12:48.052Z"
+          "created_at": "2025-11-02T19:24:20.381Z",
+          "updated_at": "2025-11-02T19:24:20.381Z"
         },
         {
-          "id": "activepieces#9858",
-          "title": "[MCP] Shippo",
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9858",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.164Z",
-          "updated_at": "2025-11-02T19:12:48.164Z"
+          "created_at": "2025-11-02T19:24:22.979Z",
+          "updated_at": "2025-11-02T19:24:22.979Z"
         },
         {
-          "id": "activepieces#9849",
-          "title": "[MPC] MyCase",
+          "id": "ZIO#595",
+          "title": "STOMP support",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9849",
+          "url": "https://github.com/zio/zio-http/issues/595",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.281Z",
-          "updated_at": "2025-11-02T19:12:48.281Z"
+          "created_at": "2025-11-02T19:24:24.570Z",
+          "updated_at": "2025-11-02T19:24:24.570Z"
         },
         {
-          "id": "activepieces#9846",
-          "title": "[MPC] Quickbase",
+          "id": "ZIO#3710",
+          "title": "Add Datastar docs, including example project",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9846",
+          "url": "https://github.com/zio/zio-http/issues/3710",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.382Z",
-          "updated_at": "2025-11-02T19:12:48.382Z"
+          "created_at": "2025-11-02T19:24:26.462Z",
+          "updated_at": "2025-11-02T19:24:26.462Z"
         },
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "ZIO#3645",
+          "title": "Default 404 page with available routes for dev mode",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/zio/zio-http/issues/3645",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.495Z",
-          "updated_at": "2025-11-02T19:12:48.495Z"
+          "created_at": "2025-11-02T19:24:27.457Z",
+          "updated_at": "2025-11-02T19:24:27.457Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.602Z",
-          "updated_at": "2025-11-02T19:12:48.602Z"
+          "created_at": "2025-11-02T19:24:29.242Z",
+          "updated_at": "2025-11-02T19:24:29.242Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.724Z",
-          "updated_at": "2025-11-02T19:12:48.724Z"
+          "created_at": "2025-11-02T19:24:32.547Z",
+          "updated_at": "2025-11-02T19:24:32.547Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.731Z",
-          "updated_at": "2025-11-02T19:12:48.731Z"
+          "created_at": "2025-11-02T19:24:34.380Z",
+          "updated_at": "2025-11-02T19:24:34.380Z"
         },
         {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "url": "https://github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T19:12:48.847Z",
-          "updated_at": "2025-11-02T19:12:48.847Z"
+          "created_at": "2025-11-02T19:24:36.977Z",
+          "updated_at": "2025-11-02T19:24:36.977Z"
         }
       ],
-      "last_updated": "2025-11-02T19:12:58.849Z",
+      "last_updated": "2025-11-02T19:25:03.162Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:52.553Z",
+          "updated_at": "2025-11-02T19:24:52.553Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T19:24:52.670Z",
+          "updated_at": "2025-11-02T19:24:52.670Z"
+        },
+        {
+          "id": "mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:24:52.780Z",
+          "updated_at": "2025-11-02T19:24:52.780Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:24:52.927Z",
+          "updated_at": "2025-11-02T19:24:52.927Z"
+        },
+        {
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:24:53.046Z",
+          "updated_at": "2025-11-02T19:24:53.046Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T19:24:53.160Z",
+          "updated_at": "2025-11-02T19:24:53.160Z"
+        }
+      ],
+      "last_updated": "2025-11-02T19:25:03.162Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 129433,
+    "processing_time_ms": 125906,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -460,121 +396,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:12:25.893Z",
-            "updated_at": "2025-11-02T19:12:25.893Z"
-          },
-          {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T19:12:28.009Z",
-            "updated_at": "2025-11-02T19:12:28.009Z"
-          },
-          {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:30.049Z",
-            "updated_at": "2025-11-02T19:12:30.049Z"
-          },
-          {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:31.451Z",
-            "updated_at": "2025-11-02T19:12:31.451Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:32.741Z",
-            "updated_at": "2025-11-02T19:12:32.741Z"
-          },
-          {
-            "id": "coollabsio#4117",
-            "title": "[Enhancement]: Improve navigation from breadcrumb",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4117",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:32.953Z",
-            "updated_at": "2025-11-02T19:12:32.953Z"
-          },
-          {
-            "id": "coollabsio#2495",
-            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2495",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:33.180Z",
-            "updated_at": "2025-11-02T19:12:33.180Z"
-          },
-          {
-            "id": "coollabsio#4458",
-            "title": "[Enhancement]: AppFlowy Serice",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:33.274Z",
-            "updated_at": "2025-11-02T19:12:33.274Z"
-          },
-          {
-            "id": "coollabsio#2389",
-            "title": "[Feature]: Backup Manger in the UI",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2389",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:33.366Z",
-            "updated_at": "2025-11-02T19:12:33.366Z"
-          },
-          {
-            "id": "coollabsio#6241",
-            "title": "[Enhancement]: Toggle for 'git cleanup' logic",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6241",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:33.454Z",
-            "updated_at": "2025-11-02T19:12:33.454Z"
-          }
-        ],
-        "last_updated": "2025-11-02T19:12:58.849Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "mediar-ai",
         "display_name": "Mediar-ai",
@@ -591,8 +412,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:12:25.892Z",
-            "updated_at": "2025-11-02T19:12:25.892Z"
+            "created_at": "2025-11-02T19:24:18.858Z",
+            "updated_at": "2025-11-02T19:24:18.858Z"
           },
           {
             "id": "mediar-ai#1626",
@@ -603,8 +424,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:12:28.010Z",
-            "updated_at": "2025-11-02T19:12:28.010Z"
+            "created_at": "2025-11-02T19:24:20.382Z",
+            "updated_at": "2025-11-02T19:24:20.382Z"
           },
           {
             "id": "mediar-ai#1560",
@@ -613,8 +434,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:30.049Z",
-            "updated_at": "2025-11-02T19:12:30.049Z"
+            "created_at": "2025-11-02T19:24:22.979Z",
+            "updated_at": "2025-11-02T19:24:22.979Z"
           },
           {
             "id": "mediar-ai#1441",
@@ -623,8 +444,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:31.451Z",
-            "updated_at": "2025-11-02T19:12:31.451Z"
+            "created_at": "2025-11-02T19:24:24.543Z",
+            "updated_at": "2025-11-02T19:24:24.543Z"
           },
           {
             "id": "mediar-ai#1298",
@@ -633,8 +454,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:32.741Z",
-            "updated_at": "2025-11-02T19:12:32.741Z"
+            "created_at": "2025-11-02T19:24:26.463Z",
+            "updated_at": "2025-11-02T19:24:26.463Z"
           },
           {
             "id": "mediar-ai#1383",
@@ -643,8 +464,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:32.952Z",
-            "updated_at": "2025-11-02T19:12:32.952Z"
+            "created_at": "2025-11-02T19:24:27.456Z",
+            "updated_at": "2025-11-02T19:24:27.456Z"
           },
           {
             "id": "mediar-ai#1382",
@@ -653,8 +474,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:33.182Z",
-            "updated_at": "2025-11-02T19:12:33.182Z"
+            "created_at": "2025-11-02T19:24:29.242Z",
+            "updated_at": "2025-11-02T19:24:29.242Z"
           },
           {
             "id": "mediar-ai#1380",
@@ -663,8 +484,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:33.327Z",
-            "updated_at": "2025-11-02T19:12:33.327Z"
+            "created_at": "2025-11-02T19:24:32.547Z",
+            "updated_at": "2025-11-02T19:24:32.547Z"
           },
           {
             "id": "mediar-ai#1160",
@@ -673,8 +494,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:33.466Z",
-            "updated_at": "2025-11-02T19:12:33.466Z"
+            "created_at": "2025-11-02T19:24:34.380Z",
+            "updated_at": "2025-11-02T19:24:34.380Z"
           },
           {
             "id": "mediar-ai#1142",
@@ -683,230 +504,281 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:33.577Z",
-            "updated_at": "2025-11-02T19:12:33.577Z"
+            "created_at": "2025-11-02T19:24:36.904Z",
+            "updated_at": "2025-11-02T19:24:36.904Z"
           }
         ],
-        "last_updated": "2025-11-02T19:12:58.849Z",
+        "last_updated": "2025-11-02T19:25:03.162Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "activepieces#9915",
-            "title": "[MCP] Fathom",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9915",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:12:47.951Z",
-            "updated_at": "2025-11-02T19:12:47.951Z"
+            "created_at": "2025-11-02T19:24:18.858Z",
+            "updated_at": "2025-11-02T19:24:18.858Z"
           },
           {
-            "id": "activepieces#9914",
-            "title": "[MCP] MeisterTask",
+            "id": "ZIO#3688",
+            "title": "Deprecate EndpointLocator",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9914",
+            "url": "https://github.com/zio/zio-http/issues/3688",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.052Z",
-            "updated_at": "2025-11-02T19:12:48.052Z"
+            "created_at": "2025-11-02T19:24:20.381Z",
+            "updated_at": "2025-11-02T19:24:20.381Z"
           },
           {
-            "id": "activepieces#9858",
-            "title": "[MCP] Shippo",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9858",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.164Z",
-            "updated_at": "2025-11-02T19:12:48.164Z"
+            "created_at": "2025-11-02T19:24:22.979Z",
+            "updated_at": "2025-11-02T19:24:22.979Z"
           },
           {
-            "id": "activepieces#9849",
-            "title": "[MPC] MyCase",
+            "id": "ZIO#595",
+            "title": "STOMP support",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9849",
+            "url": "https://github.com/zio/zio-http/issues/595",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.281Z",
-            "updated_at": "2025-11-02T19:12:48.281Z"
+            "created_at": "2025-11-02T19:24:24.570Z",
+            "updated_at": "2025-11-02T19:24:24.570Z"
           },
           {
-            "id": "activepieces#9846",
-            "title": "[MPC] Quickbase",
+            "id": "ZIO#3710",
+            "title": "Add Datastar docs, including example project",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9846",
+            "url": "https://github.com/zio/zio-http/issues/3710",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.382Z",
-            "updated_at": "2025-11-02T19:12:48.382Z"
+            "created_at": "2025-11-02T19:24:26.462Z",
+            "updated_at": "2025-11-02T19:24:26.462Z"
           },
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "ZIO#3645",
+            "title": "Default 404 page with available routes for dev mode",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/zio/zio-http/issues/3645",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.495Z",
-            "updated_at": "2025-11-02T19:12:48.495Z"
+            "created_at": "2025-11-02T19:24:27.457Z",
+            "updated_at": "2025-11-02T19:24:27.457Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.602Z",
-            "updated_at": "2025-11-02T19:12:48.602Z"
+            "created_at": "2025-11-02T19:24:29.242Z",
+            "updated_at": "2025-11-02T19:24:29.242Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.724Z",
-            "updated_at": "2025-11-02T19:12:48.724Z"
+            "created_at": "2025-11-02T19:24:32.547Z",
+            "updated_at": "2025-11-02T19:24:32.547Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.731Z",
-            "updated_at": "2025-11-02T19:12:48.731Z"
+            "created_at": "2025-11-02T19:24:34.380Z",
+            "updated_at": "2025-11-02T19:24:34.380Z"
           },
           {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.847Z",
-            "updated_at": "2025-11-02T19:12:48.847Z"
+            "created_at": "2025-11-02T19:24:36.977Z",
+            "updated_at": "2025-11-02T19:24:36.977Z"
           }
         ],
-        "last_updated": "2025-11-02T19:12:58.849Z",
+        "last_updated": "2025-11-02T19:25:03.162Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
         "bounties": [
           {
-            "id": "qdrant#3957",
-            "title": "Add properties to a collection",
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3957",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:12:47.572Z",
-            "updated_at": "2025-11-02T19:12:47.572Z"
+            "created_at": "2025-11-02T19:24:52.553Z",
+            "updated_at": "2025-11-02T19:24:52.553Z"
           },
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:47.692Z",
-            "updated_at": "2025-11-02T19:12:47.692Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T19:24:52.670Z",
+            "updated_at": "2025-11-02T19:24:52.670Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:47.788Z",
-            "updated_at": "2025-11-02T19:12:47.788Z"
+            "created_at": "2025-11-02T19:24:52.780Z",
+            "updated_at": "2025-11-02T19:24:52.780Z"
           },
           {
-            "id": "qdrant#3321",
-            "title": "Allow Qdrant to run on read-only FS",
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3321",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:47.909Z",
-            "updated_at": "2025-11-02T19:12:47.909Z"
+            "created_at": "2025-11-02T19:24:52.927Z",
+            "updated_at": "2025-11-02T19:24:52.927Z"
           },
           {
-            "id": "qdrant#2620",
-            "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+            "id": "mudlet#707",
+            "title": "Undo/redo support in editor",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/2620",
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T19:12:48.021Z",
-            "updated_at": "2025-11-02T19:12:48.021Z"
+            "created_at": "2025-11-02T19:24:53.046Z",
+            "updated_at": "2025-11-02T19:24:53.046Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T19:24:53.160Z",
+            "updated_at": "2025-11-02T19:24:53.160Z"
           }
         ],
-        "last_updated": "2025-11-02T19:12:58.849Z",
+        "last_updated": "2025-11-02T19:25:03.162Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T19:12:30.889Z",
-            "updated_at": "2025-11-02T19:12:30.889Z"
+            "created_at": "2025-11-02T19:24:20.382Z",
+            "updated_at": "2025-11-02T19:24:20.382Z"
           },
           {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:32.121Z",
-            "updated_at": "2025-11-02T19:12:32.121Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T19:24:22.979Z",
+            "updated_at": "2025-11-02T19:24:22.979Z"
           },
           {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "id": "golemcloud#21",
+            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
+            "url": "https://github.com/golemcloud/golem-ai/issues/21",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-02T19:12:32.877Z",
-            "updated_at": "2025-11-02T19:12:32.877Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T19:24:24.544Z",
+            "updated_at": "2025-11-02T19:24:24.544Z"
           }
         ],
-        "last_updated": "2025-11-02T19:12:58.849Z",
+        "last_updated": "2025-11-02T19:25:03.162Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T19:24:18.858Z",
+            "updated_at": "2025-11-02T19:24:18.858Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T19:24:20.382Z",
+            "updated_at": "2025-11-02T19:24:20.382Z"
+          }
+        ],
+        "last_updated": "2025-11-02T19:25:03.162Z",
         "scrape_duration_ms": 0
       }
     ]
