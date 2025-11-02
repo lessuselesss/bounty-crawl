@@ -136,18 +136,37 @@ export class UnifiedFirecrawlScraper {
 
       // Wait for Next.js/React to hydrate
       try {
-        await page.waitForSelector('#__next', { timeout: 5000 });
-        // Wait for bounty content to load (try multiple selectors)
-        try {
-          await page.waitForSelector('a[href*="github.com/"][href*="/issues/"]', { timeout: 8000 });
-        } catch {
-          // Fallback: just wait for any GitHub link
-          await page.waitForSelector('a[href*="github.com"]', { timeout: 5000 });
-        }
-        await page.waitForTimeout(2000); // Additional wait for all content
+        await page.waitForSelector('#__next', { timeout: 10000 });
       } catch {
-        await page.waitForTimeout(8000); // Fallback wait
+        console.log(`⚠️  No #__next found for ${url}, waiting anyway`);
       }
+
+      // Wait for content to actually load (multiple attempts)
+      let contentLoaded = false;
+      for (let attempt = 1; attempt <= 3; attempt++) {
+        await page.waitForTimeout(attempt * 2000); // Progressive wait: 2s, 4s, 6s
+
+        const linkCount = await page.evaluate(() => {
+          return document.querySelectorAll('a[href*="github.com/"][href*="/issues/"]').length;
+        });
+
+        if (linkCount > 0) {
+          console.log(`✅ Found ${linkCount} issue links on attempt ${attempt}`);
+          contentLoaded = true;
+          break;
+        }
+
+        if (attempt < 3) {
+          console.log(`⏳ Attempt ${attempt}: No issue links yet, waiting longer...`);
+        }
+      }
+
+      if (!contentLoaded) {
+        console.log(`⚠️  No issue links found after 3 attempts (12s total) for ${url}`);
+      }
+
+      // Final wait for any late-loading content
+      await page.waitForTimeout(1000);
 
       // Try to extract data from __NEXT_DATA__ script tag (Next.js apps)
       const pageData = await page.evaluate(() => {
