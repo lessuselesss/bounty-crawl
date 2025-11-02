@@ -141,43 +141,87 @@ export class UnifiedFirecrawlScraper {
         console.log(`⚠️  No #__next found for ${url}, waiting anyway`);
       }
 
-      // Wait for content to actually load (check multiple times with increasing delays)
+      // Additional wait after networkidle for JS to execute
+      await page.waitForTimeout(3000);
+
+      // Progressive loading check with extended timeouts
       let contentLoaded = false;
-      const checkDelays = [3000, 3000, 4000]; // Wait 3s, then 3s more, then 4s more = 10s total
+      const checkDelays = [4000, 4000, 5000, 7000]; // 4s, 8s, 13s, 20s cumulative
 
       for (let attempt = 0; attempt < checkDelays.length; attempt++) {
         await page.waitForTimeout(checkDelays[attempt]);
 
-        const linkCount = await page.evaluate(() => {
-          return document.querySelectorAll('a[href*="github.com/"][href*="/issues/"]').length;
+        const stats = await page.evaluate(() => {
+          const issueLinks = document.querySelectorAll('a[href*="github.com/"][href*="/issues/"]').length;
+          const anyGithubLinks = document.querySelectorAll('a[href*="github.com"]').length;
+          return { issueLinks, anyGithubLinks };
         });
 
-        if (linkCount > 0) {
-          console.log(`✅ Found ${linkCount} issue links after ${(checkDelays.slice(0, attempt + 1).reduce((a, b) => a + b, 0) / 1000)}s`);
+        const elapsed = checkDelays.slice(0, attempt + 1).reduce((a, b) => a + b, 0) / 1000 + 3; // +3 for initial wait
+
+        if (stats.issueLinks > 0) {
+          console.log(`✅ Found ${stats.issueLinks} issue links after ${elapsed}s`);
+          contentLoaded = true;
+          break;
+        } else if (stats.anyGithubLinks > 0 && attempt >= 2) {
+          // After 13s, accept ANY GitHub links (might be PR/commit links we can still parse)
+          console.log(`⚠️  Found ${stats.anyGithubLinks} GitHub links (no issues) after ${elapsed}s`);
           contentLoaded = true;
           break;
         }
 
         if (attempt < checkDelays.length - 1) {
-          console.log(`⏳ No issue links after ${(checkDelays.slice(0, attempt + 1).reduce((a, b) => a + b, 0) / 1000)}s, waiting longer...`);
+          console.log(`⏳ No links after ${elapsed}s (github: ${stats.anyGithubLinks}, issues: ${stats.issueLinks}), waiting longer...`);
         }
       }
 
       if (!contentLoaded) {
-        console.log(`⚠️  No issue links found after ${(checkDelays.reduce((a, b) => a + b, 0) / 1000)}s for ${url}`);
+        const totalWait = (checkDelays.reduce((a, b) => a + b, 0) / 1000) + 3;
+        console.log(`⚠️  No GitHub links found after ${totalWait}s for ${url}`);
       }
 
       // Final wait for any late-loading content
-      await page.waitForTimeout(1500);
+      await page.waitForTimeout(2000);
 
       // Try to extract data from __NEXT_DATA__ script tag (Next.js apps)
       const pageData = await page.evaluate(() => {
         const nextScript = document.querySelector('#__NEXT_DATA__');
         let nextData = null;
+        let nextDataBounties = [];
+
         if (nextScript && nextScript.textContent) {
           try {
             nextData = JSON.parse(nextScript.textContent);
-          } catch {}
+
+            // Try to extract bounties from common Next.js data structures
+            const pageProps = nextData?.props?.pageProps;
+            if (pageProps) {
+              // Look for bounty data in various possible locations
+              const possibleBounties = pageProps.bounties ||
+                                     pageProps.items ||
+                                     pageProps.data?.bounties ||
+                                     pageProps.data?.items ||
+                                     [];
+
+              if (Array.isArray(possibleBounties) && possibleBounties.length > 0) {
+                nextDataBounties = possibleBounties.map((item: any) => {
+                  const task = item.task || item;
+                  const issueUrl = task.url || task.html_url || task.source?.data?.html_url || '';
+
+                  return {
+                    id: item.id || '',
+                    title: task.title || task.source?.data?.title || '',
+                    url: issueUrl,
+                    amount: item.reward?.amount || item.amount || 0,
+                    currency: item.reward?.currency || item.currency || 'USD',
+                    body: task.body || task.source?.data?.body || '',
+                  };
+                }).filter((b: any) => b.url && b.url.includes('github.com'));
+              }
+            }
+          } catch (e) {
+            // Failed to parse, will fall back to DOM extraction
+          }
         }
 
         // Get body text
@@ -201,12 +245,14 @@ export class UnifiedFirecrawlScraper {
 
         return {
           nextData,
+          nextDataBounties,
           bodyText,
           githubLinks,
           linkStats: {
             total: allGithubLinks.length,
             issues: issueLinks.length,
-            other: otherLinks.length
+            other: otherLinks.length,
+            fromNextData: nextDataBounties.length
           }
         };
       });
@@ -222,7 +268,7 @@ export class UnifiedFirecrawlScraper {
         pageData.githubLinks.join('\n'),
       ].join('\n\n');
 
-      console.log(`✅ Scraped ${url} (HTML: ${html.length}, Text: ${combinedText.length} chars, Issues: ${pageData.linkStats.issues}, Other: ${pageData.linkStats.other})`);
+      console.log(`✅ Scraped ${url} (HTML: ${html.length}, Text: ${combinedText.length} chars, DOM: ${pageData.linkStats.issues} issues, NextData: ${pageData.linkStats.fromNextData} bounties)`);
 
       return {
         success: true,
@@ -234,6 +280,7 @@ export class UnifiedFirecrawlScraper {
             title: await page.title(),
             timestamp: new Date().toISOString(),
             nextData: pageData.nextData,
+            nextDataBounties: pageData.nextDataBounties,
             githubLinks: pageData.githubLinks,
           },
         },
@@ -324,7 +371,16 @@ export class UnifiedFirecrawlScraper {
       return [];
     }
 
-    // Try to extract from __NEXT_DATA__ first (more reliable)
+    // Try to use pre-extracted __NEXT_DATA__ bounties first (fastest)
+    if (result.data.metadata?.nextDataBounties && result.data.metadata.nextDataBounties.length > 0) {
+      const bounties = await this.convertNextDataBounties(result.data.metadata.nextDataBounties, org);
+      if (bounties.length > 0) {
+        console.log(`✅ Extracted ${bounties.length} bounties from pre-parsed __NEXT_DATA__ for ${org.handle}`);
+        return bounties;
+      }
+    }
+
+    // Try to extract from __NEXT_DATA__ JSON (more reliable than DOM)
     if (result.data.metadata?.nextData) {
       const bounties = this.extractBountiesFromNextData(result.data.metadata.nextData, org);
       if (bounties.length > 0) {
@@ -340,6 +396,106 @@ export class UnifiedFirecrawlScraper {
 
     console.log(`⚠️  No bounties found for ${org.handle}`);
     return [];
+  }
+
+  private async convertNextDataBounties(nextDataBounties: any[], org: OrganizationConfig): Promise<BountyItem[]> {
+    const bounties: BountyItem[] = [];
+
+    for (const bountyData of nextDataBounties) {
+      if (!bountyData.url || !bountyData.url.includes('github.com')) continue;
+
+      // Parse GitHub URL
+      const githubMatch = bountyData.url.match(/github\.com\/([^\/]+)\/([^\/]+)\/issues\/(\d+)/);
+      if (!githubMatch) continue;
+
+      const [_, owner, repo, issueNumber] = githubMatch;
+
+      // Fetch actual issue data from GitHub for accurate info
+      const issueData = await this.fetchGitHubIssue(owner, repo, issueNumber);
+
+      const bounty: BountyItem = {
+        id: bountyData.id || `${org.handle}#${issueNumber}`,
+        status: "open",
+        type: "standard",
+        kind: "dev",
+        org: {
+          handle: org.handle,
+          id: `generated-${org.handle}`,
+          name: org.display_name,
+          description: org.description || "",
+          members: [],
+          display_name: org.display_name,
+          created_at: new Date().toISOString(),
+          website_url: "",
+          avatar_url: `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+          discord_url: "",
+          slack_url: "",
+          stargazers_count: 0,
+          twitter_url: "",
+          youtube_url: "",
+          tech: org.tech || [],
+          github_handle: owner,
+          accepts_sponsorships: false,
+          days_until_timeout: null,
+          enabled_expert_recs: false,
+          enabled_private_bounties: false,
+        },
+        updated_at: new Date().toISOString(),
+        created_at: new Date().toISOString(),
+        visibility: "public",
+        autopay_disabled: false,
+        tech: [],
+        bids: [],
+        is_external: false,
+        manual_assignments: false,
+        point_reward: null,
+        reward: {
+          currency: bountyData.currency || "USD",
+          amount: bountyData.amount || 10000,
+        },
+        reward_formatted: `$${((bountyData.amount || 10000) / 100).toFixed(0)}`,
+        reward_tiers: [],
+        reward_type: "cash",
+        task: {
+          id: `task-${org.handle}#${issueNumber}`,
+          status: "open",
+          type: "issue",
+          number: parseInt(issueNumber),
+          title: issueData?.title || bountyData.title || `Issue #${issueNumber}`,
+          source: {
+            data: {
+              id: `source-${org.handle}#${issueNumber}`,
+              user: issueData?.user || {
+                id: 0,
+                name: `${org.display_name} Team`,
+                location: "",
+                company: org.display_name,
+                avatar_url: `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+                login: `${org.handle}-team`,
+                twitter_username: "",
+                html_url: `https://github.com/${org.handle}-team`,
+              },
+              title: issueData?.title || bountyData.title || `Issue #${issueNumber}`,
+              body: issueData?.body || bountyData.body || "",
+              html_url: issueData?.html_url || bountyData.url,
+            },
+            type: "github",
+          },
+          hash: `${owner}/${repo}#${issueNumber}`,
+          body: issueData?.body || bountyData.body || "",
+          url: issueData?.html_url || bountyData.url,
+          tech: [],
+          repo_name: repo,
+          repo_owner: owner,
+          forge: "github",
+        },
+        timeouts_disabled: false,
+      };
+
+      bounties.push(bounty);
+    }
+
+    return bounties;
   }
 
   private async fetchFromAlgoraAPI(org: OrganizationConfig): Promise<BountyItem[]> {
