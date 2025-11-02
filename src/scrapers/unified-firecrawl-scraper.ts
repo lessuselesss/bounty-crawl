@@ -260,6 +260,18 @@ export class UnifiedFirecrawlScraper {
   async scrapeBountyPage(org: OrganizationConfig): Promise<BountyItem[]> {
     console.log(`🎯 Scraping bounties for ${org.display_name} (${org.handle})`);
 
+    // Try Algora API first (best approach - no scraping needed!)
+    try {
+      const bounties = await this.fetchFromAlgoraAPI(org);
+      if (bounties.length > 0) {
+        console.log(`✅ Fetched ${bounties.length} bounties from Algora API for ${org.handle}`);
+        return bounties;
+      }
+    } catch (error) {
+      console.log(`⚠️  Algora API fetch failed for ${org.handle}: ${error.message}, falling back to scraping`);
+    }
+
+    // Fallback: Try scraping with Playwright
     const result = await this.scrapeUrl(org.url);
 
     if (!result.success || !result.data) {
@@ -283,6 +295,107 @@ export class UnifiedFirecrawlScraper {
 
     console.log(`⚠️  No bounties found for ${org.handle}`);
     return [];
+  }
+
+  private async fetchFromAlgoraAPI(org: OrganizationConfig): Promise<BountyItem[]> {
+    const apiUrl = `https://console.algora.io/api/orgs/${org.handle}/bounties?limit=100`;
+    console.log(`📡 Fetching from Algora API: ${apiUrl}`);
+
+    const response = await fetch(apiUrl);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    const bounties: BountyItem[] = [];
+
+    for (const item of data.items || []) {
+      // Only include active bounties
+      if (item.status !== "active") continue;
+
+      const bounty: BountyItem = {
+        id: item.id,
+        status: "open",
+        type: "standard",
+        kind: "dev",
+        org: {
+          handle: org.handle,
+          id: `generated-${org.handle}`,
+          name: org.display_name,
+          description: org.description || "",
+          members: [],
+          display_name: org.display_name,
+          created_at: item.created_at || new Date().toISOString(),
+          website_url: "",
+          avatar_url: `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+          discord_url: "",
+          slack_url: "",
+          stargazers_count: 0,
+          twitter_url: "",
+          youtube_url: "",
+          tech: org.tech || [],
+          github_handle: item.repo_owner,
+          accepts_sponsorships: false,
+          days_until_timeout: null,
+          enabled_expert_recs: false,
+          enabled_private_bounties: false,
+        },
+        updated_at: item.updated_at || new Date().toISOString(),
+        created_at: item.created_at || new Date().toISOString(),
+        visibility: "public",
+        autopay_disabled: false,
+        tech: [],
+        bids: [],
+        is_external: false,
+        manual_assignments: false,
+        point_reward: null,
+        reward: {
+          currency: item.currency || "USD",
+          amount: item.amount,
+        },
+        reward_formatted: `$${(item.amount / 100).toFixed(0)}`,
+        reward_tiers: [],
+        reward_type: "cash",
+        task: {
+          id: `task-${item.id}`,
+          status: "open",
+          type: "issue",
+          number: item.issue?.number || 0,
+          title: item.issue?.title || `Issue #${item.issue?.number || 0}`,
+          source: {
+            data: {
+              id: `source-${item.id}`,
+              user: {
+                id: item.issue?.user?.id || 0,
+                name: item.issue?.user?.login || `${org.display_name} Team`,
+                location: "",
+                company: org.display_name,
+                avatar_url: item.issue?.user?.avatar_url || `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+                login: item.issue?.user?.login || `${org.handle}-team`,
+                twitter_username: "",
+                html_url: item.issue?.user?.html_url || `https://github.com/${org.handle}-team`,
+              },
+              title: item.issue?.title || `Issue #${item.issue?.number || 0}`,
+              body: item.issue?.body || "",
+              html_url: item.issue?.html_url || "",
+            },
+            type: "github",
+          },
+          hash: `${item.repo_owner}/${item.repo_name}#${item.issue?.number || 0}`,
+          body: item.issue?.body || "",
+          url: item.issue?.html_url || "",
+          tech: [],
+          repo_name: item.repo_name,
+          repo_owner: item.repo_owner,
+          forge: "github",
+        },
+        timeouts_disabled: false,
+      };
+
+      bounties.push(bounty);
+    }
+
+    return bounties;
   }
 
   private extractBountiesFromNextData(nextData: any, org: OrganizationConfig): BountyItem[] {
