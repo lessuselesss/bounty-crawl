@@ -47,7 +47,7 @@ export class UnifiedFirecrawlScraper {
       headless: Deno.env.get("PLAYWRIGHT_HEADLESS") !== "false",
       requestTimeout: 30000,
       retryAttempts: 3,
-      maxConcurrent: 5,
+      maxConcurrent: 3,  // Reduced from 5 to avoid memory pressure and rate limiting
       rateLimitDelay: 1000,
       ...config,
     };
@@ -141,32 +141,34 @@ export class UnifiedFirecrawlScraper {
         console.log(`⚠️  No #__next found for ${url}, waiting anyway`);
       }
 
-      // Wait for content to actually load (multiple attempts)
+      // Wait for content to actually load (check multiple times with increasing delays)
       let contentLoaded = false;
-      for (let attempt = 1; attempt <= 3; attempt++) {
-        await page.waitForTimeout(attempt * 2000); // Progressive wait: 2s, 4s, 6s
+      const checkDelays = [3000, 3000, 4000]; // Wait 3s, then 3s more, then 4s more = 10s total
+
+      for (let attempt = 0; attempt < checkDelays.length; attempt++) {
+        await page.waitForTimeout(checkDelays[attempt]);
 
         const linkCount = await page.evaluate(() => {
           return document.querySelectorAll('a[href*="github.com/"][href*="/issues/"]').length;
         });
 
         if (linkCount > 0) {
-          console.log(`✅ Found ${linkCount} issue links on attempt ${attempt}`);
+          console.log(`✅ Found ${linkCount} issue links after ${(checkDelays.slice(0, attempt + 1).reduce((a, b) => a + b, 0) / 1000)}s`);
           contentLoaded = true;
           break;
         }
 
-        if (attempt < 3) {
-          console.log(`⏳ Attempt ${attempt}: No issue links yet, waiting longer...`);
+        if (attempt < checkDelays.length - 1) {
+          console.log(`⏳ No issue links after ${(checkDelays.slice(0, attempt + 1).reduce((a, b) => a + b, 0) / 1000)}s, waiting longer...`);
         }
       }
 
       if (!contentLoaded) {
-        console.log(`⚠️  No issue links found after 3 attempts (12s total) for ${url}`);
+        console.log(`⚠️  No issue links found after ${(checkDelays.reduce((a, b) => a + b, 0) / 1000)}s for ${url}`);
       }
 
       // Final wait for any late-loading content
-      await page.waitForTimeout(1000);
+      await page.waitForTimeout(1500);
 
       // Try to extract data from __NEXT_DATA__ script tag (Next.js apps)
       const pageData = await page.evaluate(() => {
