@@ -1,9 +1,9 @@
-name: 🕷️ Full Bounty Scrape (Daily)
+name: 🕷️ Intelligent Bounty Scraper
 
 on:
   schedule:
-    # Run once daily at 3:00 AM UTC (safety net for missed changes)
-    - cron: '0 3 * * *'
+    # Run every 15 minutes with change detection
+    - cron: '*/15 * * * *'
 
   # Allow manual triggering
   workflow_dispatch:
@@ -134,8 +134,38 @@ jobs:
           restore-keys: |
             deno-
 
-      - name: 🔍 Run scraper
+      - name: 🔍 Detect changes
+        id: detect
+        run: |
+          echo "🔍 Detecting changed organizations..."
+
+          # Check if it's Sunday (full scrape day) or manual full_scan requested
+          IS_SUNDAY=$(date -u +%u)
+          if [ "$IS_SUNDAY" = "7" ] || [ "${{ github.event.inputs.full_scan }}" = "true" ]; then
+            echo "📅 Sunday or full_scan requested - forcing full scrape"
+            CHANGED_ORGS=$(deno run --allow-all --no-lock scripts/detect-changes.ts --force-all | tail -1)
+            echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            # Run change detection
+            CHANGED_ORGS=$(deno run --allow-all --no-lock scripts/detect-changes.ts | tail -1)
+            echo "mode=targeted" >> "$GITHUB_OUTPUT"
+          fi
+
+          echo "changed_orgs=$CHANGED_ORGS" >> "$GITHUB_OUTPUT"
+          echo "📊 Changed organizations: $CHANGED_ORGS"
+
+          # Count number of changed orgs
+          if [ -z "$CHANGED_ORGS" ]; then
+            CHANGE_COUNT=0
+          else
+            CHANGE_COUNT=$(echo "$CHANGED_ORGS" | tr ',' '\n' | wc -l)
+          fi
+          echo "change_count=$CHANGE_COUNT" >> "$GITHUB_OUTPUT"
+          echo "📈 Number of changed orgs: $CHANGE_COUNT"
+
+      - name: 🔍 Run targeted scraper
         id: scrape
+        if: steps.detect.outputs.change_count > 0
         run: |
           # Configure git for automated commits
           git config --local user.email "scraper@algora-bounty-scraper.com"
@@ -145,6 +175,9 @@ jobs:
           # Ensure data directory exists
           mkdir -p data/archive logs
 
+          CHANGED_ORGS="${{ steps.detect.outputs.changed_orgs }}"
+          SCRAPE_MODE="${{ steps.detect.outputs.mode }}"
+
           # Set production scraper arguments
           ARGS=""
 
@@ -153,20 +186,15 @@ jobs:
             ARGS="$ARGS --no-commit --no-encrypt"
           fi
 
-          # Allow disabling commit via workflow input
-          if [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
-            # Default: enable commits for production runs
-            :
+          # Add targeted organizations if not full scrape
+          if [ "$SCRAPE_MODE" = "targeted" ] && [ -n "$CHANGED_ORGS" ]; then
+            ARGS="$ARGS --orgs $CHANGED_ORGS"
+            echo "🎯 Running TARGETED scrape for: $CHANGED_ORGS"
+          else
+            echo "🌍 Running FULL scrape (all 91 organizations)"
           fi
 
           echo "🚀 Running production scraper with args: ${ARGS:-none}"
-
-          # Debug environment
-          echo "Debug: Current working directory: $(pwd)"
-          echo "Debug: Directory contents:"
-          ls -la
-          echo "Debug: Deno version:"
-          deno --version
 
           # Run the production scraper with better error handling
           if ! deno run --allow-all --no-lock scripts/production-scraper.ts $ARGS; then
@@ -196,10 +224,25 @@ jobs:
       - name: 📊 Generate summary report
         if: success()
         run: |
-          echo "## 🕷️ Full Scraping Report (Daily)" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "*This is a comprehensive full scrape of all 91+ organizations.*" >> $GITHUB_STEP_SUMMARY
-          echo "*Targeted scrapes run on-demand when changedetection.io detects changes.*" >> $GITHUB_STEP_SUMMARY
+          SCRAPE_MODE="${{ steps.detect.outputs.mode }}"
+          CHANGE_COUNT="${{ steps.detect.outputs.change_count }}"
+          CHANGED_ORGS="${{ steps.detect.outputs.changed_orgs }}"
+
+          if [ "$SCRAPE_MODE" = "full" ]; then
+            echo "## 🌍 Full Bounty Scrape (Weekly)" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "*Comprehensive scrape of all 91+ organizations (Sunday safety net)*" >> $GITHUB_STEP_SUMMARY
+          elif [ "$CHANGE_COUNT" -gt "0" ]; then
+            echo "## 🎯 Intelligent Targeted Scrape" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "*Only scraped $CHANGE_COUNT organizations that changed since last run*" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Changed organizations:** \`$CHANGED_ORGS\`" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ✅ No Changes Detected" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "*All organizations unchanged - no scraping needed*" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "data/bounty-index.json" ]; then

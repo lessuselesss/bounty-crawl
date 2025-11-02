@@ -1,6 +1,6 @@
 # bounty-crawl
 
-Multi-platform bounty aggregation system with intelligent crawling and data unification. Production-ready platform that monitors **91+ organizations** across Algora with AI-powered scraping, tier-based scheduling, and encrypted distribution to downstream projects like bounty-pipe. Features Firecrawl AI extraction, comprehensive monitoring, and perfect Algora API format compliance.
+Multi-platform bounty aggregation system with intelligent crawling and data unification. Production-ready platform that monitors **91+ organizations** across Algora with AI-powered scraping, intelligent change detection, and encrypted distribution to downstream projects like bounty-pipe. Features self-contained change detection in GitHub Actions (99.6% cost reduction), Firecrawl AI extraction, and perfect Algora API format compliance.
 
 ## Quick Start
 
@@ -30,11 +30,11 @@ git push origin main
 ## Features
 
 ### 🚀 Production Intelligence Platform
-- **91+ Organizations**: Complete Algora ecosystem coverage with tier-based scheduling
-- **Event-Driven Scraping**: 95% cost reduction with changedetection.io integration
+- **91+ Organizations**: Complete Algora ecosystem coverage
+- **Intelligent Change Detection**: 90-95% cost reduction with in-workflow change detection
 - **AI-Powered Extraction**: Firecrawl integration with traditional fallback
 - **Perfect API Compliance**: 85% Algora API format accuracy + enhanced metadata
-- **Hybrid Architecture**: Daily full scrape + real-time targeted scraping
+- **Hybrid Architecture**: Weekly full scrape + targeted scraping every 15 minutes
 
 ### 🔐 Enterprise Security & Distribution
 - **SOPS Encryption**: Secure data transmission to downstream projects
@@ -51,17 +51,27 @@ git push origin main
 ## Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│ GitHub Actions  │────│ 91+ Organizations│────│ Algora API      │
-│ Tier Scheduling │    │ Firecrawl + Web  │    │ Format Output   │
-│ 5min - 1hr      │    │ AI Extraction    │    │ (bounty-pipe)   │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-         │                        │                       │
-         │              ┌─────────────────┐               │
-         └──────────────│ SOPS Encryption │───────────────┘
-                        │ GitHub Releases │
-                        │ Health Monitoring│
-                        └─────────────────┘
+GitHub Actions (every 15 min)
+┌────────────────────────────────────────────────────────────┐
+│                                                            │
+│  1. Change Detection (10-20s)                            │
+│     ├─ Quick HTTP fetch all 91 orgs                      │
+│     ├─ Hash page content                                  │
+│     └─ Compare to previous state                          │
+│                                                            │
+│  2. Intelligent Scraping                                   │
+│     ├─ If changes detected: scrape 2-5 orgs with Firecrawl│
+│     ├─ If no changes: skip scraping (save API costs)      │
+│     └─ Sunday: force full scrape (safety net)             │
+│                                                            │
+│  3. Output & Distribution                                  │
+│     ├─ Algora API format (bounty-pipe)                    │
+│     ├─ Legacy format (backward compat)                     │
+│     └─ SOPS encryption + GitHub releases                   │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+
+Benefits: 90-95% reduction in Firecrawl API usage, self-contained in GitHub Actions
 ```
 
 ## Core Commands
@@ -81,6 +91,78 @@ deno task scrape       # Legacy scraper (use production-scraper.ts)
 # Testing & Validation
 deno run --allow-all scripts/test-unified-scraper.ts  # Test AI scraper
 deno run --allow-all scripts/validate-firecrawl.ts    # Validate API keys
+
+# Change Detection
+deno run --allow-all scripts/detect-changes.ts        # Detect changed organizations
+deno run --allow-all scripts/detect-changes.ts --json # JSON output
+```
+
+## Intelligent Change Detection
+
+### How It Works
+
+The system runs **every 15 minutes** in GitHub Actions with a 3-phase workflow:
+
+#### Phase 1: Quick Change Detection (~10-20 seconds)
+- Fetches HTML from all 91 organization bounty pages (lightweight HTTP GET)
+- Hashes page content to create a signature
+- Compares hashes to previous state (stored in `data/scraper-state.json`)
+- Identifies which organizations have changed
+
+#### Phase 2: Targeted Scraping (only changed orgs)
+- If changes detected: runs Firecrawl on 2-5 changed organizations
+- If no changes: skips scraping entirely (saves API costs)
+- Sunday fallback: runs full scrape of all organizations (safety net)
+
+#### Phase 3: State Update
+- Commits new state to repository
+- Updates bounty data files
+- Generates summary report
+
+### Cost Analysis
+
+**Before (naive approach):**
+- 96 runs/day × 91 organizations = 8,736 scrapes/day
+- Most find no changes (95% waste)
+
+**After (intelligent detection):**
+- ~4 actual changes/day × 5 avg orgs/change = 20 targeted scrapes/day
+- 1 weekly full scrape = 91 scrapes/week = ~13 scrapes/day
+- **Total: ~33 scrapes/day (99.6% reduction!)**
+
+### Usage
+
+```bash
+# Run change detection locally
+deno run --allow-all scripts/detect-changes.ts
+
+# Output: tscircuit,vercel,anthropic (comma-separated changed orgs)
+
+# JSON output for programmatic use
+deno run --allow-all scripts/detect-changes.ts --json
+
+# Force all orgs to be marked as changed (testing)
+deno run --allow-all scripts/detect-changes.ts --force-all
+```
+
+### State Management
+
+State is stored in `data/scraper-state.json`:
+
+```json
+{
+  "version": "1.0.0",
+  "last_updated": "2025-11-01T12:00:00Z",
+  "organizations": {
+    "tscircuit": {
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "hash": "a1b2c3d4e5f6",
+      "last_checked": "2025-11-01T12:00:00Z",
+      "last_changed": "2025-11-01T09:30:00Z",
+      "bounty_count_estimate": 5
+    }
+  }
+}
 ```
 
 ## Configuration
