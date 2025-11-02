@@ -134,24 +134,62 @@ export class UnifiedFirecrawlScraper {
         timeout: this.config.requestTimeout,
       });
 
-      // Wait a bit for dynamic content to load
-      await page.waitForTimeout(2000);
+      // Wait for Next.js/React to hydrate
+      try {
+        await page.waitForSelector('#__next', { timeout: 5000 });
+        await page.waitForTimeout(4000); // Additional wait for React hydration
+      } catch {
+        await page.waitForTimeout(5000); // Fallback wait
+      }
 
-      // Get the page content
+      // Try to extract data from __NEXT_DATA__ script tag (Next.js apps)
+      const pageData = await page.evaluate(() => {
+        const nextScript = document.querySelector('#__NEXT_DATA__');
+        let nextData = null;
+        if (nextScript && nextScript.textContent) {
+          try {
+            nextData = JSON.parse(nextScript.textContent);
+          } catch {}
+        }
+
+        // Get body text
+        const bodyText = document.body.innerText || '';
+
+        // Find all GitHub links
+        const githubLinks = Array.from(document.querySelectorAll('a[href*="github.com"]'))
+          .map(a => (a as HTMLAnchorElement).href);
+
+        return {
+          nextData,
+          bodyText,
+          githubLinks,
+        };
+      });
+
+      // Get the HTML content
       const html = await page.content();
       const markdown = this.htmlToMarkdown(html);
 
-      console.log(`✅ Successfully scraped ${url} (${markdown.length} chars)`);
+      // Combine all text sources for better extraction
+      const combinedText = [
+        markdown,
+        pageData.bodyText,
+        pageData.githubLinks.join('\n'),
+      ].join('\n\n');
+
+      console.log(`✅ Scraped ${url} (HTML: ${html.length}, Combined: ${combinedText.length} chars, Links: ${pageData.githubLinks.length})`);
 
       return {
         success: true,
         data: {
-          markdown,
+          markdown: combinedText, // Use combined text for better extraction
           html,
           metadata: {
             url,
             title: await page.title(),
             timestamp: new Date().toISOString(),
+            nextData: pageData.nextData,
+            githubLinks: pageData.githubLinks,
           },
         },
       };
