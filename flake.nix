@@ -27,9 +27,9 @@
             # GitHub integration
             gh
 
-            # Self-hosted Firecrawl
-            docker
-            docker-compose
+            # Self-hosted Firecrawl (using Podman - rootless, no daemon needed)
+            podman
+            podman-compose
 
             # Development tools
             nodePackages.typescript
