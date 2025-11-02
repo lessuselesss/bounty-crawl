@@ -137,9 +137,16 @@ export class UnifiedFirecrawlScraper {
       // Wait for Next.js/React to hydrate
       try {
         await page.waitForSelector('#__next', { timeout: 5000 });
-        await page.waitForTimeout(4000); // Additional wait for React hydration
+        // Wait for bounty content to load (try multiple selectors)
+        try {
+          await page.waitForSelector('a[href*="github.com/"][href*="/issues/"]', { timeout: 8000 });
+        } catch {
+          // Fallback: just wait for any GitHub link
+          await page.waitForSelector('a[href*="github.com"]', { timeout: 5000 });
+        }
+        await page.waitForTimeout(2000); // Additional wait for all content
       } catch {
-        await page.waitForTimeout(5000); // Fallback wait
+        await page.waitForTimeout(8000); // Fallback wait
       }
 
       // Try to extract data from __NEXT_DATA__ script tag (Next.js apps)
@@ -155,14 +162,31 @@ export class UnifiedFirecrawlScraper {
         // Get body text
         const bodyText = document.body.innerText || '';
 
-        // Find all GitHub links
-        const githubLinks = Array.from(document.querySelectorAll('a[href*="github.com"]'))
-          .map(a => (a as HTMLAnchorElement).href);
+        // Find all GitHub links - prioritize issue/PR links
+        const allGithubLinks = Array.from(document.querySelectorAll('a[href*="github.com"]'))
+          .map(a => (a as HTMLAnchorElement).href)
+          .filter(href => href && href.trim().length > 0);
+
+        // Separate issue/PR links from other GitHub links
+        const issueLinks = allGithubLinks.filter(href =>
+          href.includes('/issues/') || href.includes('/pull/')
+        );
+        const otherLinks = allGithubLinks.filter(href =>
+          !href.includes('/issues/') && !href.includes('/pull/')
+        );
+
+        // Prefer issue/PR links, but include others if no issues found
+        const githubLinks = issueLinks.length > 0 ? issueLinks : allGithubLinks;
 
         return {
           nextData,
           bodyText,
           githubLinks,
+          linkStats: {
+            total: allGithubLinks.length,
+            issues: issueLinks.length,
+            other: otherLinks.length
+          }
         };
       });
 
@@ -177,7 +201,7 @@ export class UnifiedFirecrawlScraper {
         pageData.githubLinks.join('\n'),
       ].join('\n\n');
 
-      console.log(`✅ Scraped ${url} (HTML: ${html.length}, Combined: ${combinedText.length} chars, Links: ${pageData.githubLinks.length})`);
+      console.log(`✅ Scraped ${url} (HTML: ${html.length}, Text: ${combinedText.length} chars, Issues: ${pageData.linkStats.issues}, Other: ${pageData.linkStats.other})`);
 
       return {
         success: true,
