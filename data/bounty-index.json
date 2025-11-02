@@ -1,256 +1,396 @@
 {
-  "generated_at": "2025-11-02T20:51:20.629Z",
+  "generated_at": "2025-11-02T21:15:19.471Z",
   "total_organizations": 5,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "total_bounties": 32,
+  "total_value_usd": 3200,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-          "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T20:50:46.975Z",
-          "updated_at": "2025-11-02T20:50:46.975Z"
-        }
-      ],
-      "last_updated": "2025-11-02T20:51:20.629Z",
-      "scrape_duration_ms": 0
-    },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T20:50:46.975Z",
-          "updated_at": "2025-11-02T20:50:46.975Z"
+          "created_at": "2025-11-02T21:14:41.497Z",
+          "updated_at": "2025-11-02T21:14:41.497Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-02T20:50:48.141Z",
-          "updated_at": "2025-11-02T20:50:48.141Z"
+          "tags": [],
+          "created_at": "2025-11-02T21:14:42.439Z",
+          "updated_at": "2025-11-02T21:14:42.439Z"
         }
       ],
-      "last_updated": "2025-11-02T20:51:20.629Z",
+      "last_updated": "2025-11-02T21:15:19.470Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T20:50:46.974Z",
-          "updated_at": "2025-11-02T20:50:46.974Z"
+          "created_at": "2025-11-02T21:14:41.496Z",
+          "updated_at": "2025-11-02T21:14:41.496Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-02T20:50:48.213Z",
-          "updated_at": "2025-11-02T20:50:48.213Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T21:14:42.438Z",
+          "updated_at": "2025-11-02T21:14:42.438Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "Mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:50:49.917Z",
-          "updated_at": "2025-11-02T20:50:49.917Z"
+          "created_at": "2025-11-02T21:14:43.922Z",
+          "updated_at": "2025-11-02T21:14:43.922Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:14:45.066Z",
+          "updated_at": "2025-11-02T21:14:45.066Z"
+        },
+        {
+          "id": "Mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:14:46.825Z",
+          "updated_at": "2025-11-02T21:14:46.825Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:14:50.227Z",
+          "updated_at": "2025-11-02T21:14:50.227Z"
         }
       ],
-      "last_updated": "2025-11-02T20:51:20.629Z",
+      "last_updated": "2025-11-02T21:15:19.471Z",
       "scrape_duration_ms": 0
     },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
       "bounties": [
         {
-          "id": "onyx-dot-app#2282",
-          "title": "Github Pages Connector",
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+          "url": "https://github.com/highlight/highlight/issues/8635",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T20:50:46.975Z",
-          "updated_at": "2025-11-02T20:50:46.975Z"
+          "created_at": "2025-11-02T21:15:06.957Z",
+          "updated_at": "2025-11-02T21:15:06.957Z"
         },
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:50:49.917Z",
-          "updated_at": "2025-11-02T20:50:49.917Z"
+          "created_at": "2025-11-02T21:15:07.279Z",
+          "updated_at": "2025-11-02T21:15:07.279Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:07.587Z",
+          "updated_at": "2025-11-02T21:15:07.587Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:07.794Z",
+          "updated_at": "2025-11-02T21:15:07.794Z"
         }
       ],
-      "last_updated": "2025-11-02T20:51:20.629Z",
+      "last_updated": "2025-11-02T21:15:19.471Z",
       "scrape_duration_ms": 0
     },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "activepieces#9915",
-          "title": "[MCP] Fathom",
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9915",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-02T20:51:09.565Z",
-          "updated_at": "2025-11-02T20:51:09.565Z"
+          "created_at": "2025-11-02T21:15:07.435Z",
+          "updated_at": "2025-11-02T21:15:07.435Z"
         },
         {
-          "id": "activepieces#9914",
-          "title": "[MCP] MeisterTask",
+          "id": "zio#3688",
+          "title": "Deprecate EndpointLocator",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9914",
+          "url": "https://github.com/zio/zio-http/issues/3688",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:09.670Z",
-          "updated_at": "2025-11-02T20:51:09.670Z"
+          "created_at": "2025-11-02T21:15:07.635Z",
+          "updated_at": "2025-11-02T21:15:07.635Z"
         },
         {
-          "id": "activepieces#9858",
-          "title": "[MCP] Shippo",
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9858",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:09.796Z",
-          "updated_at": "2025-11-02T20:51:09.796Z"
+          "created_at": "2025-11-02T21:15:07.819Z",
+          "updated_at": "2025-11-02T21:15:07.819Z"
         },
         {
-          "id": "activepieces#9849",
-          "title": "[MPC] MyCase",
+          "id": "zio#595",
+          "title": "STOMP support",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9849",
+          "url": "https://github.com/zio/zio-http/issues/595",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:09.932Z",
-          "updated_at": "2025-11-02T20:51:09.932Z"
+          "created_at": "2025-11-02T21:15:08.000Z",
+          "updated_at": "2025-11-02T21:15:08.000Z"
         },
         {
-          "id": "activepieces#9846",
-          "title": "[MPC] Quickbase",
+          "id": "zio#3710",
+          "title": "Add Datastar docs, including example project",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9846",
+          "url": "https://github.com/zio/zio-http/issues/3710",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.055Z",
-          "updated_at": "2025-11-02T20:51:10.055Z"
+          "created_at": "2025-11-02T21:15:08.164Z",
+          "updated_at": "2025-11-02T21:15:08.164Z"
         },
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "zio#3645",
+          "title": "Default 404 page with available routes for dev mode",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/zio/zio-http/issues/3645",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.184Z",
-          "updated_at": "2025-11-02T20:51:10.184Z"
+          "created_at": "2025-11-02T21:15:08.333Z",
+          "updated_at": "2025-11-02T21:15:08.333Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.314Z",
-          "updated_at": "2025-11-02T20:51:10.314Z"
+          "created_at": "2025-11-02T21:15:08.501Z",
+          "updated_at": "2025-11-02T21:15:08.501Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.439Z",
-          "updated_at": "2025-11-02T20:51:10.439Z"
+          "created_at": "2025-11-02T21:15:08.690Z",
+          "updated_at": "2025-11-02T21:15:08.690Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.465Z",
-          "updated_at": "2025-11-02T20:51:10.465Z"
+          "created_at": "2025-11-02T21:15:08.839Z",
+          "updated_at": "2025-11-02T21:15:08.839Z"
         },
         {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "url": "https://github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-02T20:51:10.627Z",
-          "updated_at": "2025-11-02T20:51:10.627Z"
+          "created_at": "2025-11-02T21:15:09.032Z",
+          "updated_at": "2025-11-02T21:15:09.032Z"
         }
       ],
-      "last_updated": "2025-11-02T20:51:20.629Z",
+      "last_updated": "2025-11-02T21:15:19.471Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#87",
+          "title": "\"Untangling\" phase or \"minimize trace crossing when separating traces\"",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/87",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-02T21:15:07.704Z",
+          "updated_at": "2025-11-02T21:15:07.704Z"
+        },
+        {
+          "id": "tscircuit#159",
+          "title": "Reproduce fp_poly loading issue and fix",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/kicad-component-converter/issues/159",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:07.866Z",
+          "updated_at": "2025-11-02T21:15:07.866Z"
+        },
+        {
+          "id": "tscircuit#40",
+          "title": "Add support for `ViaGridBoard`",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/common/issues/40",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.045Z",
+          "updated_at": "2025-11-02T21:15:08.045Z"
+        },
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.231Z",
+          "updated_at": "2025-11-02T21:15:08.231Z"
+        },
+        {
+          "id": "tscircuit#83",
+          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.425Z",
+          "updated_at": "2025-11-02T21:15:08.425Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.599Z",
+          "updated_at": "2025-11-02T21:15:08.599Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.748Z",
+          "updated_at": "2025-11-02T21:15:08.748Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:08.902Z",
+          "updated_at": "2025-11-02T21:15:08.902Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:09.270Z",
+          "updated_at": "2025-11-02T21:15:09.270Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-02T21:15:09.469Z",
+          "updated_at": "2025-11-02T21:15:09.469Z"
+        }
+      ],
+      "last_updated": "2025-11-02T21:15:19.471Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 129107,
+    "processing_time_ms": 133311,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -259,250 +399,390 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "activepieces#9915",
-            "title": "[MCP] Fathom",
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9915",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T20:51:09.565Z",
-            "updated_at": "2025-11-02T20:51:09.565Z"
+            "created_at": "2025-11-02T21:15:07.435Z",
+            "updated_at": "2025-11-02T21:15:07.435Z"
           },
           {
-            "id": "activepieces#9914",
-            "title": "[MCP] MeisterTask",
+            "id": "zio#3688",
+            "title": "Deprecate EndpointLocator",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9914",
+            "url": "https://github.com/zio/zio-http/issues/3688",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:09.670Z",
-            "updated_at": "2025-11-02T20:51:09.670Z"
+            "created_at": "2025-11-02T21:15:07.635Z",
+            "updated_at": "2025-11-02T21:15:07.635Z"
           },
           {
-            "id": "activepieces#9858",
-            "title": "[MCP] Shippo",
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9858",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:09.796Z",
-            "updated_at": "2025-11-02T20:51:09.796Z"
+            "created_at": "2025-11-02T21:15:07.819Z",
+            "updated_at": "2025-11-02T21:15:07.819Z"
           },
           {
-            "id": "activepieces#9849",
-            "title": "[MPC] MyCase",
+            "id": "zio#595",
+            "title": "STOMP support",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9849",
+            "url": "https://github.com/zio/zio-http/issues/595",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:09.932Z",
-            "updated_at": "2025-11-02T20:51:09.932Z"
+            "created_at": "2025-11-02T21:15:08.000Z",
+            "updated_at": "2025-11-02T21:15:08.000Z"
           },
           {
-            "id": "activepieces#9846",
-            "title": "[MPC] Quickbase",
+            "id": "zio#3710",
+            "title": "Add Datastar docs, including example project",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9846",
+            "url": "https://github.com/zio/zio-http/issues/3710",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.055Z",
-            "updated_at": "2025-11-02T20:51:10.055Z"
+            "created_at": "2025-11-02T21:15:08.164Z",
+            "updated_at": "2025-11-02T21:15:08.164Z"
           },
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "zio#3645",
+            "title": "Default 404 page with available routes for dev mode",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/zio/zio-http/issues/3645",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.184Z",
-            "updated_at": "2025-11-02T20:51:10.184Z"
+            "created_at": "2025-11-02T21:15:08.333Z",
+            "updated_at": "2025-11-02T21:15:08.333Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.314Z",
-            "updated_at": "2025-11-02T20:51:10.314Z"
+            "created_at": "2025-11-02T21:15:08.501Z",
+            "updated_at": "2025-11-02T21:15:08.501Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.439Z",
-            "updated_at": "2025-11-02T20:51:10.439Z"
+            "created_at": "2025-11-02T21:15:08.690Z",
+            "updated_at": "2025-11-02T21:15:08.690Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.465Z",
-            "updated_at": "2025-11-02T20:51:10.465Z"
+            "created_at": "2025-11-02T21:15:08.839Z",
+            "updated_at": "2025-11-02T21:15:08.839Z"
           },
           {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:51:10.627Z",
-            "updated_at": "2025-11-02T20:51:10.627Z"
+            "created_at": "2025-11-02T21:15:09.032Z",
+            "updated_at": "2025-11-02T21:15:09.032Z"
           }
         ],
-        "last_updated": "2025-11-02T20:51:20.629Z",
+        "last_updated": "2025-11-02T21:15:19.471Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "tscircuit#87",
+            "title": "\"Untangling\" phase or \"minimize trace crossing when separating traces\"",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/87",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T20:50:46.974Z",
-            "updated_at": "2025-11-02T20:50:46.974Z"
+            "created_at": "2025-11-02T21:15:07.704Z",
+            "updated_at": "2025-11-02T21:15:07.704Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "tscircuit#159",
+            "title": "Reproduce fp_poly loading issue and fix",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/tscircuit/kicad-component-converter/issues/159",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:50:48.213Z",
-            "updated_at": "2025-11-02T20:50:48.213Z"
+            "created_at": "2025-11-02T21:15:07.866Z",
+            "updated_at": "2025-11-02T21:15:07.866Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "tscircuit#40",
+            "title": "Add support for `ViaGridBoard`",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/tscircuit/common/issues/40",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:50:49.917Z",
-            "updated_at": "2025-11-02T20:50:49.917Z"
+            "created_at": "2025-11-02T21:15:08.045Z",
+            "updated_at": "2025-11-02T21:15:08.045Z"
+          },
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:08.231Z",
+            "updated_at": "2025-11-02T21:15:08.231Z"
+          },
+          {
+            "id": "tscircuit#83",
+            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:08.425Z",
+            "updated_at": "2025-11-02T21:15:08.425Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:08.599Z",
+            "updated_at": "2025-11-02T21:15:08.599Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:08.748Z",
+            "updated_at": "2025-11-02T21:15:08.748Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:08.902Z",
+            "updated_at": "2025-11-02T21:15:08.902Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:09.270Z",
+            "updated_at": "2025-11-02T21:15:09.270Z"
+          },
+          {
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/core/issues/1498",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:09.469Z",
+            "updated_at": "2025-11-02T21:15:09.469Z"
           }
         ],
-        "last_updated": "2025-11-02T20:51:20.629Z",
+        "last_updated": "2025-11-02T21:15:19.471Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
+        "bounties": [
+          {
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T21:14:41.496Z",
+            "updated_at": "2025-11-02T21:14:41.496Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T21:14:42.438Z",
+            "updated_at": "2025-11-02T21:14:42.438Z"
+          },
+          {
+            "id": "Mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:14:43.922Z",
+            "updated_at": "2025-11-02T21:14:43.922Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:14:45.066Z",
+            "updated_at": "2025-11-02T21:14:45.066Z"
+          },
+          {
+            "id": "Mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:14:46.825Z",
+            "updated_at": "2025-11-02T21:14:46.825Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:14:50.227Z",
+            "updated_at": "2025-11-02T21:14:50.227Z"
+          }
+        ],
+        "last_updated": "2025-11-02T21:15:19.471Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8635",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-02T21:15:06.957Z",
+            "updated_at": "2025-11-02T21:15:06.957Z"
+          },
+          {
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8614",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:07.279Z",
+            "updated_at": "2025-11-02T21:15:07.279Z"
+          },
+          {
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8032",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:07.587Z",
+            "updated_at": "2025-11-02T21:15:07.587Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-02T21:15:07.794Z",
+            "updated_at": "2025-11-02T21:15:07.794Z"
+          }
+        ],
+        "last_updated": "2025-11-02T21:15:19.471Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-02T20:50:46.975Z",
-            "updated_at": "2025-11-02T20:50:46.975Z"
+            "created_at": "2025-11-02T21:14:41.497Z",
+            "updated_at": "2025-11-02T21:14:41.497Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T20:50:48.141Z",
-            "updated_at": "2025-11-02T20:50:48.141Z"
-          }
-        ],
-        "last_updated": "2025-11-02T20:51:20.629Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "onyx-dot-app#2282",
-            "title": "Github Pages Connector",
-            "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T20:50:46.975Z",
-            "updated_at": "2025-11-02T20:50:46.975Z"
-          },
-          {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
-            "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-02T20:50:49.917Z",
-            "updated_at": "2025-11-02T20:50:49.917Z"
+            "created_at": "2025-11-02T21:14:42.439Z",
+            "updated_at": "2025-11-02T21:14:42.439Z"
           }
         ],
-        "last_updated": "2025-11-02T20:51:20.629Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-            "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-02T20:50:46.975Z",
-            "updated_at": "2025-11-02T20:50:46.975Z"
-          }
-        ],
-        "last_updated": "2025-11-02T20:51:20.629Z",
+        "last_updated": "2025-11-02T21:15:19.470Z",
         "scrape_duration_ms": 0
       }
     ]
