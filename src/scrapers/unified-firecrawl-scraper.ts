@@ -262,13 +262,154 @@ export class UnifiedFirecrawlScraper {
 
     const result = await this.scrapeUrl(org.url);
 
-    if (!result.success || !result.data?.markdown) {
+    if (!result.success || !result.data) {
       console.log(`❌ Failed to scrape ${org.handle}: ${result.error}`);
       return [];
     }
 
-    // Extract bounties from markdown using AI-powered analysis
-    return this.extractBountiesFromMarkdown(result.data.markdown, org);
+    // Try to extract from __NEXT_DATA__ first (more reliable)
+    if (result.data.metadata?.nextData) {
+      const bounties = this.extractBountiesFromNextData(result.data.metadata.nextData, org);
+      if (bounties.length > 0) {
+        console.log(`✅ Extracted ${bounties.length} bounties from __NEXT_DATA__ for ${org.handle}`);
+        return bounties;
+      }
+    }
+
+    // Fallback to markdown extraction
+    if (result.data.markdown) {
+      return this.extractBountiesFromMarkdown(result.data.markdown, org);
+    }
+
+    console.log(`⚠️  No bounties found for ${org.handle}`);
+    return [];
+  }
+
+  private extractBountiesFromNextData(nextData: any, org: OrganizationConfig): BountyItem[] {
+    const bounties: BountyItem[] = [];
+
+    try {
+      // Next.js data structure: nextData.props.pageProps usually contains the data
+      const pageProps = nextData?.props?.pageProps;
+      if (!pageProps) {
+        console.log(`⚠️  No pageProps found in __NEXT_DATA__`);
+        return bounties;
+      }
+
+      // Look for bounties in common locations
+      const bountyList = pageProps.bounties || pageProps.items || pageProps.data || [];
+
+      console.log(`🔍 Found ${bountyList.length} potential bounties in __NEXT_DATA__`);
+
+      for (const item of bountyList) {
+        // Extract task/issue information
+        const task = item.task || item;
+        const issueUrl = task.url || task.html_url || task.source?.data?.html_url;
+
+        if (!issueUrl || !issueUrl.includes('github.com')) {
+          continue;
+        }
+
+        // Parse GitHub URL
+        const githubMatch = issueUrl.match(/github\.com\/([^\/]+)\/([^\/]+)\/issues\/(\d+)/);
+        if (!githubMatch) {
+          continue;
+        }
+
+        const [_, owner, repo, issueNumber] = githubMatch;
+
+        // Extract reward information
+        const reward = item.reward || {};
+        const rewardAmount = reward.amount || 10000; // Default $100 in cents
+        const rewardCurrency = reward.currency || "USD";
+
+        // Create bounty item
+        const bounty: BountyItem = {
+          id: item.id || `${org.handle}#${issueNumber}`,
+          status: item.status || "open",
+          type: item.type || "standard",
+          kind: item.kind || "dev",
+          org: item.org || {
+            handle: org.handle,
+            id: `generated-${org.handle}`,
+            name: org.display_name,
+            description: org.description || "",
+            members: [],
+            display_name: org.display_name,
+            created_at: item.created_at || new Date().toISOString(),
+            website_url: "",
+            avatar_url: `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+            discord_url: "",
+            slack_url: "",
+            stargazers_count: 0,
+            twitter_url: "",
+            youtube_url: "",
+            tech: org.tech || [],
+            github_handle: owner,
+            accepts_sponsorships: false,
+            days_until_timeout: null,
+            enabled_expert_recs: false,
+            enabled_private_bounties: false,
+          },
+          updated_at: item.updated_at || new Date().toISOString(),
+          created_at: item.created_at || new Date().toISOString(),
+          visibility: item.visibility || "public",
+          autopay_disabled: item.autopay_disabled || false,
+          tech: item.tech || task.tech || [],
+          bids: item.bids || [],
+          is_external: item.is_external || false,
+          manual_assignments: item.manual_assignments || false,
+          point_reward: item.point_reward || null,
+          reward: {
+            currency: rewardCurrency,
+            amount: rewardAmount,
+          },
+          reward_formatted: `$${(rewardAmount / 100).toFixed(0)}`,
+          reward_tiers: item.reward_tiers || [],
+          reward_type: item.reward_type || "cash",
+          task: {
+            id: task.id || `task-${org.handle}#${issueNumber}`,
+            status: task.status || "open",
+            type: task.type || "issue",
+            number: parseInt(issueNumber),
+            title: task.title || task.source?.data?.title || `Issue #${issueNumber}`,
+            source: task.source || {
+              data: {
+                id: `source-${org.handle}#${issueNumber}`,
+                user: task.source?.data?.user || {
+                  id: 0,
+                  name: `${org.display_name} Team`,
+                  location: "",
+                  company: org.display_name,
+                  avatar_url: `https://avatars.githubusercontent.com/u/${org.handle}?v=4`,
+                  login: `${org.handle}-team`,
+                  twitter_username: "",
+                  html_url: `https://github.com/${org.handle}-team`,
+                },
+                title: task.title || `Issue #${issueNumber}`,
+                body: task.body || task.source?.data?.body || "",
+                html_url: issueUrl,
+              },
+              type: "github",
+            },
+            hash: `${owner}/${repo}#${issueNumber}`,
+            body: task.body || "",
+            url: issueUrl,
+            tech: task.tech || [],
+            repo_name: repo,
+            repo_owner: owner,
+            forge: "github",
+          },
+          timeouts_disabled: item.timeouts_disabled || false,
+        };
+
+        bounties.push(bounty);
+      }
+    } catch (error) {
+      console.error(`❌ Error extracting bounties from __NEXT_DATA__: ${error.message}`);
+    }
+
+    return bounties;
   }
 
   private extractBountiesFromMarkdown(markdown: string, org: OrganizationConfig): BountyItem[] {
