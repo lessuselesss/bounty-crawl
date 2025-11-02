@@ -525,7 +525,17 @@ export class UnifiedFirecrawlScraper {
     return bounties;
   }
 
-  private extractBountiesFromMarkdown(markdown: string, org: OrganizationConfig): BountyItem[] {
+  private async fetchGitHubIssue(owner: string, repo: string, issueNumber: string): Promise<any> {
+    try {
+      const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/issues/${issueNumber}`);
+      if (!response.ok) return null;
+      return await response.json();
+    } catch {
+      return null;
+    }
+  }
+
+  private async extractBountiesFromMarkdown(markdown: string, org: OrganizationConfig): Promise<BountyItem[]> {
     const bounties: BountyItem[] = [];
 
     // Look for GitHub issue patterns in the markdown
@@ -535,10 +545,13 @@ export class UnifiedFirecrawlScraper {
     for (const match of matches) {
       const [fullUrl, owner, repo, issueNumber] = match;
 
+      // Fetch actual issue data from GitHub
+      const issueData = await this.fetchGitHubIssue(owner, repo, issueNumber);
+
       // Extract title and amount from surrounding context
       const bountyData = this.extractBountyContext(markdown, fullUrl);
 
-      if (bountyData) {
+      if (bountyData || issueData) {
         const bounty: BountyItem = {
           id: `${org.handle}#${issueNumber}`,
           status: "open",
@@ -587,11 +600,11 @@ export class UnifiedFirecrawlScraper {
             status: "open",
             type: "issue",
             number: parseInt(issueNumber),
-            title: bountyData.title || `Issue #${issueNumber}`,
+            title: issueData?.title || bountyData?.title || `Issue #${issueNumber}`,
             source: {
               data: {
                 id: `source-${org.handle}#${issueNumber}`,
-                user: {
+                user: issueData?.user || {
                   id: 0,
                   name: `${org.display_name} Team`,
                   location: "",
@@ -601,16 +614,16 @@ export class UnifiedFirecrawlScraper {
                   twitter_username: "",
                   html_url: `https://github.com/${org.handle}-team`,
                 },
-                title: bountyData.title || `Issue #${issueNumber}`,
-                body: bountyData.description || "",
-                html_url: fullUrl,
+                title: issueData?.title || bountyData?.title || `Issue #${issueNumber}`,
+                body: issueData?.body || bountyData?.description || "",
+                html_url: issueData?.html_url || fullUrl,
               },
               type: "github",
             },
             hash: `${owner}/${repo}#${issueNumber}`,
-            body: bountyData.description || "",
-            url: fullUrl,
-            tech: bountyData.tech || [],
+            body: issueData?.body || bountyData?.description || "",
+            url: issueData?.html_url || fullUrl,
+            tech: bountyData?.tech || [],
             repo_name: repo,
             repo_owner: owner,
             forge: "github",
