@@ -1,256 +1,30 @@
 {
-  "generated_at": "2025-11-08T22:31:11.994Z",
+  "generated_at": "2025-11-08T22:41:18.832Z",
   "total_organizations": 12,
   "total_bounties": 83,
   "total_value_usd": 8300,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "qdrant#3957",
-          "title": "Add properties to a collection",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3957",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:30:58.436Z",
-          "updated_at": "2025-11-08T22:30:58.436Z"
-        },
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.540Z",
-          "updated_at": "2025-11-08T22:30:58.540Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.649Z",
-          "updated_at": "2025-11-08T22:30:58.649Z"
-        },
-        {
-          "id": "qdrant#3321",
-          "title": "Allow Qdrant to run on read-only FS",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3321",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.763Z",
-          "updated_at": "2025-11-08T22:30:58.763Z"
-        },
-        {
-          "id": "qdrant#2620",
-          "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/2620",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.897Z",
-          "updated_at": "2025-11-08T22:30:58.897Z"
+          "created_at": "2025-11-08T22:41:07.456Z",
+          "updated_at": "2025-11-08T22:41:07.456Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:30:58.492Z",
-          "updated_at": "2025-11-08T22:30:58.492Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:30:58.633Z",
-          "updated_at": "2025-11-08T22:30:58.633Z"
-        },
-        {
-          "id": "mudlet#7126",
-          "title": "Implement sentry.io's Qt SDK for crash reporting",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.755Z",
-          "updated_at": "2025-11-08T22:30:58.755Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.891Z",
-          "updated_at": "2025-11-08T22:30:58.891Z"
-        },
-        {
-          "id": "mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.996Z",
-          "updated_at": "2025-11-08T22:30:58.996Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.105Z",
-          "updated_at": "2025-11-08T22:30:59.105Z"
-        }
-      ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
-      "scrape_duration_ms": 0
-    },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:30:58.624Z",
-          "updated_at": "2025-11-08T22:30:58.624Z"
-        },
-        {
-          "id": "tscircuit#83",
-          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.741Z",
-          "updated_at": "2025-11-08T22:30:58.741Z"
-        },
-        {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.842Z",
-          "updated_at": "2025-11-08T22:30:58.842Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:58.898Z",
-          "updated_at": "2025-11-08T22:30:58.898Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.023Z",
-          "updated_at": "2025-11-08T22:30:59.023Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.183Z",
-          "updated_at": "2025-11-08T22:30:59.183Z"
-        },
-        {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.295Z",
-          "updated_at": "2025-11-08T22:30:59.295Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.417Z",
-          "updated_at": "2025-11-08T22:30:59.417Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.526Z",
-          "updated_at": "2025-11-08T22:30:59.526Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:30:59.639Z",
-          "updated_at": "2025-11-08T22:30:59.639Z"
-        }
-      ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
     "onyx-dot-app": {
@@ -268,8 +42,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.188Z",
-          "updated_at": "2025-11-08T22:31:00.188Z"
+          "created_at": "2025-11-08T22:41:07.317Z",
+          "updated_at": "2025-11-08T22:41:07.317Z"
         },
         {
           "id": "onyx-dot-app#2281",
@@ -278,33 +52,147 @@
           "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.323Z",
-          "updated_at": "2025-11-08T22:31:00.323Z"
+          "created_at": "2025-11-08T22:41:07.741Z",
+          "updated_at": "2025-11-08T22:41:07.741Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "qdrant#3957",
+          "title": "Add properties to a collection",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/qdrant/qdrant/issues/3957",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.391Z",
-          "updated_at": "2025-11-08T22:31:00.391Z"
+          "created_at": "2025-11-08T22:41:07.631Z",
+          "updated_at": "2025-11-08T22:41:07.631Z"
+        },
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:07.895Z",
+          "updated_at": "2025-11-08T22:41:07.895Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.165Z",
+          "updated_at": "2025-11-08T22:41:08.165Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.362Z",
+          "updated_at": "2025-11-08T22:41:08.362Z"
+        },
+        {
+          "id": "qdrant#2620",
+          "title": "Issue #2620",
+          "amount_usd": 100,
+          "url": "github.com/qdrant/qdrant/issues/2620",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.399Z",
+          "updated_at": "2025-11-08T22:41:08.399Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:07.306Z",
+          "updated_at": "2025-11-08T22:41:07.306Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:07.481Z",
+          "updated_at": "2025-11-08T22:41:07.481Z"
+        },
+        {
+          "id": "mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:07.727Z",
+          "updated_at": "2025-11-08T22:41:07.727Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:07.942Z",
+          "updated_at": "2025-11-08T22:41:07.942Z"
+        },
+        {
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.199Z",
+          "updated_at": "2025-11-08T22:41:08.199Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.427Z",
+          "updated_at": "2025-11-08T22:41:08.427Z"
+        }
+      ],
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
     "Mudlet": {
@@ -322,8 +210,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.517Z",
-          "updated_at": "2025-11-08T22:31:00.517Z"
+          "created_at": "2025-11-08T22:41:07.407Z",
+          "updated_at": "2025-11-08T22:41:07.407Z"
         },
         {
           "id": "Mudlet#3172",
@@ -334,8 +222,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.520Z",
-          "updated_at": "2025-11-08T22:31:00.520Z"
+          "created_at": "2025-11-08T22:41:07.481Z",
+          "updated_at": "2025-11-08T22:41:07.481Z"
         },
         {
           "id": "Mudlet#7126",
@@ -344,8 +232,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/7126",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.522Z",
-          "updated_at": "2025-11-08T22:31:00.522Z"
+          "created_at": "2025-11-08T22:41:07.727Z",
+          "updated_at": "2025-11-08T22:41:07.727Z"
         },
         {
           "id": "Mudlet#689",
@@ -354,8 +242,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.525Z",
-          "updated_at": "2025-11-08T22:31:00.525Z"
+          "created_at": "2025-11-08T22:41:07.942Z",
+          "updated_at": "2025-11-08T22:41:07.942Z"
         },
         {
           "id": "Mudlet#707",
@@ -364,8 +252,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/707",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.528Z",
-          "updated_at": "2025-11-08T22:31:00.528Z"
+          "created_at": "2025-11-08T22:41:08.199Z",
+          "updated_at": "2025-11-08T22:41:08.199Z"
         },
         {
           "id": "Mudlet#5310",
@@ -374,93 +262,11 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.531Z",
-          "updated_at": "2025-11-08T22:31:00.531Z"
+          "created_at": "2025-11-08T22:41:08.427Z",
+          "updated_at": "2025-11-08T22:41:08.427Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 7,
-      "total_value_usd": 700,
-      "bounties": [
-        {
-          "id": "activepieces#9915",
-          "title": "[MCP] Fathom",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9915",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:31:00.637Z",
-          "updated_at": "2025-11-08T22:31:00.637Z"
-        },
-        {
-          "id": "activepieces#9849",
-          "title": "[MPC] MyCase",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9849",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:00.739Z",
-          "updated_at": "2025-11-08T22:31:00.739Z"
-        },
-        {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:00.854Z",
-          "updated_at": "2025-11-08T22:31:00.854Z"
-        },
-        {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:00.980Z",
-          "updated_at": "2025-11-08T22:31:00.980Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.082Z",
-          "updated_at": "2025-11-08T22:31:01.082Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.085Z",
-          "updated_at": "2025-11-08T22:31:01.085Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.219Z",
-          "updated_at": "2025-11-08T22:31:01.219Z"
-        }
-      ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
     "projectdiscovery": {
@@ -478,8 +284,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.818Z",
-          "updated_at": "2025-11-08T22:31:00.818Z"
+          "created_at": "2025-11-08T22:41:07.806Z",
+          "updated_at": "2025-11-08T22:41:07.806Z"
         },
         {
           "id": "projectdiscovery#13862",
@@ -488,8 +294,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13862",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.909Z",
-          "updated_at": "2025-11-08T22:31:00.909Z"
+          "created_at": "2025-11-08T22:41:07.993Z",
+          "updated_at": "2025-11-08T22:41:07.993Z"
         },
         {
           "id": "projectdiscovery#13820",
@@ -498,8 +304,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.026Z",
-          "updated_at": "2025-11-08T22:31:01.026Z"
+          "created_at": "2025-11-08T22:41:08.243Z",
+          "updated_at": "2025-11-08T22:41:08.243Z"
         },
         {
           "id": "projectdiscovery#13724",
@@ -508,18 +314,18 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.123Z",
-          "updated_at": "2025-11-08T22:31:01.123Z"
+          "created_at": "2025-11-08T22:41:08.444Z",
+          "updated_at": "2025-11-08T22:41:08.444Z"
         },
         {
           "id": "projectdiscovery#13435",
-          "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
+          "title": "Issue #13435",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13435",
+          "url": "github.com/projectdiscovery/nuclei-templates/issues/13435",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.250Z",
-          "updated_at": "2025-11-08T22:31:01.250Z"
+          "created_at": "2025-11-08T22:41:08.480Z",
+          "updated_at": "2025-11-08T22:41:08.480Z"
         },
         {
           "id": "projectdiscovery#13434",
@@ -528,237 +334,123 @@
           "url": "github.com/projectdiscovery/nuclei-templates/issues/13434",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.253Z",
-          "updated_at": "2025-11-08T22:31:01.253Z"
+          "created_at": "2025-11-08T22:41:08.533Z",
+          "updated_at": "2025-11-08T22:41:08.533Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#7113",
-          "title": "[Bug]: Deployments failing without clear cause / error",
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7113",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.571Z",
-          "updated_at": "2025-11-08T22:31:00.571Z"
+          "created_at": "2025-11-08T22:41:07.428Z",
+          "updated_at": "2025-11-08T22:41:07.428Z"
         },
         {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:31:00.659Z",
-          "updated_at": "2025-11-08T22:31:00.659Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.797Z",
-          "updated_at": "2025-11-08T22:31:00.797Z"
+          "created_at": "2025-11-08T22:41:07.635Z",
+          "updated_at": "2025-11-08T22:41:07.635Z"
         },
         {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "id": "ZIO#595",
+          "title": "STOMP support",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "url": "https://github.com/zio/zio-http/issues/595",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.911Z",
-          "updated_at": "2025-11-08T22:31:00.911Z"
+          "created_at": "2025-11-08T22:41:07.862Z",
+          "updated_at": "2025-11-08T22:41:07.862Z"
         },
         {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "id": "ZIO#3710",
+          "title": "Add Datastar docs, including example project",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "url": "https://github.com/zio/zio-http/issues/3710",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.170Z",
-          "updated_at": "2025-11-08T22:31:01.170Z"
+          "created_at": "2025-11-08T22:41:08.101Z",
+          "updated_at": "2025-11-08T22:41:08.101Z"
         },
         {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
+          "id": "ZIO#3645",
+          "title": "Default 404 page with available routes for dev mode",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "url": "https://github.com/zio/zio-http/issues/3645",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.267Z",
-          "updated_at": "2025-11-08T22:31:01.267Z"
+          "created_at": "2025-11-08T22:41:08.356Z",
+          "updated_at": "2025-11-08T22:41:08.356Z"
         },
         {
-          "id": "coollabsio#6519",
-          "title": "Issue #6519",
+          "id": "ZIO#3472",
+          "title": "Issue #3472",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/6519",
+          "url": "github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.271Z",
-          "updated_at": "2025-11-08T22:31:01.271Z"
+          "created_at": "2025-11-08T22:41:08.399Z",
+          "updated_at": "2025-11-08T22:41:08.399Z"
         },
         {
-          "id": "coollabsio#4117",
-          "title": "Issue #4117",
+          "id": "ZIO#9810",
+          "title": "Issue #9810",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/4117",
+          "url": "github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.276Z",
-          "updated_at": "2025-11-08T22:31:01.276Z"
+          "created_at": "2025-11-08T22:41:08.427Z",
+          "updated_at": "2025-11-08T22:41:08.427Z"
         },
         {
-          "id": "coollabsio#2495",
-          "title": "Issue #2495",
+          "id": "ZIO#9844",
+          "title": "Issue #9844",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/2495",
+          "url": "github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.281Z",
-          "updated_at": "2025-11-08T22:31:01.281Z"
+          "created_at": "2025-11-08T22:41:08.479Z",
+          "updated_at": "2025-11-08T22:41:08.479Z"
         },
         {
-          "id": "coollabsio#4458",
-          "title": "Issue #4458",
+          "id": "ZIO#9878",
+          "title": "Issue #9878",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/4458",
+          "url": "github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.285Z",
-          "updated_at": "2025-11-08T22:31:01.285Z"
+          "created_at": "2025-11-08T22:41:08.533Z",
+          "updated_at": "2025-11-08T22:41:08.533Z"
+        },
+        {
+          "id": "ZIO#9877",
+          "title": "Issue #9877",
+          "amount_usd": 100,
+          "url": "github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.587Z",
+          "updated_at": "2025-11-08T22:41:08.587Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
-      "scrape_duration_ms": 0
-    },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "cal#23104",
-          "title": "Local dev crazy slow",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/23104",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-08T22:31:01.033Z",
-          "updated_at": "2025-11-08T22:31:01.033Z"
-        },
-        {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.164Z",
-          "updated_at": "2025-11-08T22:31:01.164Z"
-        },
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.267Z",
-          "updated_at": "2025-11-08T22:31:01.267Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "Issue #18992",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.269Z",
-          "updated_at": "2025-11-08T22:31:01.269Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "Issue #18987",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.274Z",
-          "updated_at": "2025-11-08T22:31:01.274Z"
-        },
-        {
-          "id": "cal#16797",
-          "title": "Issue #16797",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/16797",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.278Z",
-          "updated_at": "2025-11-08T22:31:01.278Z"
-        },
-        {
-          "id": "cal#16651",
-          "title": "Issue #16651",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/16651",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.282Z",
-          "updated_at": "2025-11-08T22:31:01.282Z"
-        },
-        {
-          "id": "cal#8123",
-          "title": "Issue #8123",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/8123",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.287Z",
-          "updated_at": "2025-11-08T22:31:01.287Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "Issue #16378",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.291Z",
-          "updated_at": "2025-11-08T22:31:01.291Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "Issue #13532",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.295Z",
-          "updated_at": "2025-11-08T22:31:01.295Z"
-        }
-      ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
     "zio": {
@@ -776,8 +468,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:00.758Z",
-          "updated_at": "2025-11-08T22:31:00.758Z"
+          "created_at": "2025-11-08T22:41:07.751Z",
+          "updated_at": "2025-11-08T22:41:07.751Z"
         },
         {
           "id": "zio#709",
@@ -786,8 +478,8 @@
           "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:00.878Z",
-          "updated_at": "2025-11-08T22:31:00.878Z"
+          "created_at": "2025-11-08T22:41:07.833Z",
+          "updated_at": "2025-11-08T22:41:07.833Z"
         },
         {
           "id": "zio#595",
@@ -796,8 +488,8 @@
           "url": "https://github.com/zio/zio-http/issues/595",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.010Z",
-          "updated_at": "2025-11-08T22:31:01.010Z"
+          "created_at": "2025-11-08T22:41:07.889Z",
+          "updated_at": "2025-11-08T22:41:07.889Z"
         },
         {
           "id": "zio#3710",
@@ -806,8 +498,8 @@
           "url": "https://github.com/zio/zio-http/issues/3710",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.149Z",
-          "updated_at": "2025-11-08T22:31:01.149Z"
+          "created_at": "2025-11-08T22:41:08.102Z",
+          "updated_at": "2025-11-08T22:41:08.102Z"
         },
         {
           "id": "zio#3645",
@@ -816,8 +508,8 @@
           "url": "https://github.com/zio/zio-http/issues/3645",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.280Z",
-          "updated_at": "2025-11-08T22:31:01.280Z"
+          "created_at": "2025-11-08T22:41:08.356Z",
+          "updated_at": "2025-11-08T22:41:08.356Z"
         },
         {
           "id": "zio#3472",
@@ -826,8 +518,8 @@
           "url": "github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.285Z",
-          "updated_at": "2025-11-08T22:31:01.285Z"
+          "created_at": "2025-11-08T22:41:08.400Z",
+          "updated_at": "2025-11-08T22:41:08.400Z"
         },
         {
           "id": "zio#9810",
@@ -836,8 +528,8 @@
           "url": "github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.289Z",
-          "updated_at": "2025-11-08T22:31:01.289Z"
+          "created_at": "2025-11-08T22:41:08.453Z",
+          "updated_at": "2025-11-08T22:41:08.453Z"
         },
         {
           "id": "zio#9844",
@@ -846,8 +538,8 @@
           "url": "github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.293Z",
-          "updated_at": "2025-11-08T22:31:01.293Z"
+          "created_at": "2025-11-08T22:41:08.506Z",
+          "updated_at": "2025-11-08T22:41:08.506Z"
         },
         {
           "id": "zio#9878",
@@ -856,8 +548,8 @@
           "url": "github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.297Z",
-          "updated_at": "2025-11-08T22:31:01.297Z"
+          "created_at": "2025-11-08T22:41:08.560Z",
+          "updated_at": "2025-11-08T22:41:08.560Z"
         },
         {
           "id": "zio#9877",
@@ -866,129 +558,437 @@
           "url": "github.com/zio/zio/issues/9877",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.300Z",
-          "updated_at": "2025-11-08T22:31:01.300Z"
+          "created_at": "2025-11-08T22:41:08.614Z",
+          "updated_at": "2025-11-08T22:41:08.614Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "activepieces": {
+      "display_name": "Activepieces",
+      "url": "https://algora.io/activepieces/bounties?status=open",
+      "bounty_count": 7,
+      "total_value_usd": 700,
       "bounties": [
         {
-          "id": "ZIO#3697",
-          "title": "Issue #3697",
+          "id": "activepieces#9915",
+          "title": "[MCP] Fathom",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/3697",
+          "url": "https://github.com/activepieces/activepieces/issues/9915",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-08T22:31:01.969Z",
-          "updated_at": "2025-11-08T22:31:01.969Z"
+          "created_at": "2025-11-08T22:41:07.578Z",
+          "updated_at": "2025-11-08T22:41:07.578Z"
         },
         {
-          "id": "ZIO#709",
-          "title": "Issue #709",
+          "id": "activepieces#9849",
+          "title": "[MPC] MyCase",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/709",
+          "url": "https://github.com/activepieces/activepieces/issues/9849",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.972Z",
-          "updated_at": "2025-11-08T22:31:01.972Z"
+          "created_at": "2025-11-08T22:41:07.848Z",
+          "updated_at": "2025-11-08T22:41:07.848Z"
         },
         {
-          "id": "ZIO#595",
-          "title": "Issue #595",
+          "id": "activepieces#9703",
+          "title": "[MCP] Oracle Fusion Cloud ERP",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/595",
+          "url": "https://github.com/activepieces/activepieces/issues/9703",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.974Z",
-          "updated_at": "2025-11-08T22:31:01.974Z"
+          "created_at": "2025-11-08T22:41:08.073Z",
+          "updated_at": "2025-11-08T22:41:08.073Z"
         },
         {
-          "id": "ZIO#3710",
-          "title": "Issue #3710",
+          "id": "activepieces#8284",
+          "title": "[MCP] Klaviyo",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/3710",
+          "url": "https://github.com/activepieces/activepieces/issues/8284",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.977Z",
-          "updated_at": "2025-11-08T22:31:01.977Z"
+          "created_at": "2025-11-08T22:41:08.287Z",
+          "updated_at": "2025-11-08T22:41:08.287Z"
         },
         {
-          "id": "ZIO#3645",
-          "title": "Issue #3645",
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/3645",
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.980Z",
-          "updated_at": "2025-11-08T22:31:01.980Z"
+          "created_at": "2025-11-08T22:41:08.551Z",
+          "updated_at": "2025-11-08T22:41:08.551Z"
         },
         {
-          "id": "ZIO#3472",
-          "title": "Issue #3472",
+          "id": "activepieces#8135",
+          "title": "Issue #8135",
           "amount_usd": 100,
-          "url": "github.com/zio/zio-http/issues/3472",
+          "url": "github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.982Z",
-          "updated_at": "2025-11-08T22:31:01.982Z"
+          "created_at": "2025-11-08T22:41:08.587Z",
+          "updated_at": "2025-11-08T22:41:08.587Z"
         },
         {
-          "id": "ZIO#9810",
-          "title": "Issue #9810",
+          "id": "activepieces#8072",
+          "title": "Issue #8072",
           "amount_usd": 100,
-          "url": "github.com/zio/zio/issues/9810",
+          "url": "github.com/activepieces/activepieces/issues/8072",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-08T22:31:01.985Z",
-          "updated_at": "2025-11-08T22:31:01.985Z"
-        },
-        {
-          "id": "ZIO#9844",
-          "title": "Issue #9844",
-          "amount_usd": 100,
-          "url": "github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.987Z",
-          "updated_at": "2025-11-08T22:31:01.987Z"
-        },
-        {
-          "id": "ZIO#9878",
-          "title": "Issue #9878",
-          "amount_usd": 100,
-          "url": "github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.990Z",
-          "updated_at": "2025-11-08T22:31:01.990Z"
-        },
-        {
-          "id": "ZIO#9877",
-          "title": "Issue #9877",
-          "amount_usd": 100,
-          "url": "github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-08T22:31:01.992Z",
-          "updated_at": "2025-11-08T22:31:01.992Z"
+          "created_at": "2025-11-08T22:41:08.641Z",
+          "updated_at": "2025-11-08T22:41:08.641Z"
         }
       ],
-      "last_updated": "2025-11-08T22:31:11.994Z",
+      "last_updated": "2025-11-08T22:41:18.832Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7113",
+          "title": "[Bug]: Deployments failing without clear cause / error",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7113",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:07.551Z",
+          "updated_at": "2025-11-08T22:41:07.551Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:07.763Z",
+          "updated_at": "2025-11-08T22:41:07.763Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:07.967Z",
+          "updated_at": "2025-11-08T22:41:07.967Z"
+        },
+        {
+          "id": "coollabsio#4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.196Z",
+          "updated_at": "2025-11-08T22:41:08.196Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.407Z",
+          "updated_at": "2025-11-08T22:41:08.407Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "Issue #6566",
+          "amount_usd": 100,
+          "url": "github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.453Z",
+          "updated_at": "2025-11-08T22:41:08.453Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "Issue #6519",
+          "amount_usd": 100,
+          "url": "github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.506Z",
+          "updated_at": "2025-11-08T22:41:08.506Z"
+        },
+        {
+          "id": "coollabsio#4117",
+          "title": "Issue #4117",
+          "amount_usd": 100,
+          "url": "github.com/coollabsio/coolify/issues/4117",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.559Z",
+          "updated_at": "2025-11-08T22:41:08.559Z"
+        },
+        {
+          "id": "coollabsio#2495",
+          "title": "Issue #2495",
+          "amount_usd": 100,
+          "url": "github.com/coollabsio/coolify/issues/2495",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.614Z",
+          "updated_at": "2025-11-08T22:41:08.614Z"
+        },
+        {
+          "id": "coollabsio#4458",
+          "title": "Issue #4458",
+          "amount_usd": 100,
+          "url": "github.com/coollabsio/coolify/issues/4458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.667Z",
+          "updated_at": "2025-11-08T22:41:08.667Z"
+        }
+      ],
+      "last_updated": "2025-11-08T22:41:18.832Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:07.866Z",
+          "updated_at": "2025-11-08T22:41:07.866Z"
+        },
+        {
+          "id": "tscircuit#83",
+          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.072Z",
+          "updated_at": "2025-11-08T22:41:08.072Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.290Z",
+          "updated_at": "2025-11-08T22:41:08.290Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Issue #419",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/pcb-viewer/issues/419",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.534Z",
+          "updated_at": "2025-11-08T22:41:08.534Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Issue #1081",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.587Z",
+          "updated_at": "2025-11-08T22:41:08.587Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Issue #386",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/footprinter/issues/386",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.641Z",
+          "updated_at": "2025-11-08T22:41:08.641Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Issue #1498",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.694Z",
+          "updated_at": "2025-11-08T22:41:08.694Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Issue #79",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.722Z",
+          "updated_at": "2025-11-08T22:41:08.722Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Issue #78",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.749Z",
+          "updated_at": "2025-11-08T22:41:08.749Z"
+        },
+        {
+          "id": "tscircuit#176",
+          "title": "Issue #176",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/sparkfun-boards/issues/176",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.803Z",
+          "updated_at": "2025-11-08T22:41:08.803Z"
+        }
+      ],
+      "last_updated": "2025-11-08T22:41:18.832Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-08T22:41:08.054Z",
+          "updated_at": "2025-11-08T22:41:08.054Z"
+        },
+        {
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.278Z",
+          "updated_at": "2025-11-08T22:41:08.278Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.548Z",
+          "updated_at": "2025-11-08T22:41:08.548Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "Issue #18992",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.588Z",
+          "updated_at": "2025-11-08T22:41:08.588Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "Issue #18987",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.641Z",
+          "updated_at": "2025-11-08T22:41:08.641Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Issue #16797",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.694Z",
+          "updated_at": "2025-11-08T22:41:08.694Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "Issue #16651",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.722Z",
+          "updated_at": "2025-11-08T22:41:08.722Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "Issue #8123",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.749Z",
+          "updated_at": "2025-11-08T22:41:08.749Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "Issue #16378",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.777Z",
+          "updated_at": "2025-11-08T22:41:08.777Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "Issue #13532",
+          "amount_usd": 100,
+          "url": "github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-08T22:41:08.830Z",
+          "updated_at": "2025-11-08T22:41:08.830Z"
+        }
+      ],
+      "last_updated": "2025-11-08T22:41:18.832Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 35510,
+    "processing_time_ms": 35589,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -997,344 +997,116 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:30:58.624Z",
-            "updated_at": "2025-11-08T22:30:58.624Z"
+            "created_at": "2025-11-08T22:41:07.428Z",
+            "updated_at": "2025-11-08T22:41:07.428Z"
           },
           {
-            "id": "tscircuit#83",
-            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.741Z",
-            "updated_at": "2025-11-08T22:30:58.741Z"
+            "created_at": "2025-11-08T22:41:07.635Z",
+            "updated_at": "2025-11-08T22:41:07.635Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "ZIO#595",
+            "title": "STOMP support",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/zio/zio-http/issues/595",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.842Z",
-            "updated_at": "2025-11-08T22:30:58.842Z"
+            "created_at": "2025-11-08T22:41:07.862Z",
+            "updated_at": "2025-11-08T22:41:07.862Z"
           },
           {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "ZIO#3710",
+            "title": "Add Datastar docs, including example project",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/zio/zio-http/issues/3710",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.898Z",
-            "updated_at": "2025-11-08T22:30:58.898Z"
+            "created_at": "2025-11-08T22:41:08.101Z",
+            "updated_at": "2025-11-08T22:41:08.101Z"
           },
           {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
+            "id": "ZIO#3645",
+            "title": "Default 404 page with available routes for dev mode",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "url": "https://github.com/zio/zio-http/issues/3645",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.023Z",
-            "updated_at": "2025-11-08T22:30:59.023Z"
+            "created_at": "2025-11-08T22:41:08.356Z",
+            "updated_at": "2025-11-08T22:41:08.356Z"
           },
           {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
+            "id": "ZIO#3472",
+            "title": "Issue #3472",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "url": "github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.183Z",
-            "updated_at": "2025-11-08T22:30:59.183Z"
+            "created_at": "2025-11-08T22:41:08.399Z",
+            "updated_at": "2025-11-08T22:41:08.399Z"
           },
           {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "id": "ZIO#9810",
+            "title": "Issue #9810",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
+            "url": "github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.295Z",
-            "updated_at": "2025-11-08T22:30:59.295Z"
+            "created_at": "2025-11-08T22:41:08.427Z",
+            "updated_at": "2025-11-08T22:41:08.427Z"
           },
           {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
+            "id": "ZIO#9844",
+            "title": "Issue #9844",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "url": "github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.417Z",
-            "updated_at": "2025-11-08T22:30:59.417Z"
+            "created_at": "2025-11-08T22:41:08.479Z",
+            "updated_at": "2025-11-08T22:41:08.479Z"
           },
           {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
+            "id": "ZIO#9878",
+            "title": "Issue #9878",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "url": "github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.526Z",
-            "updated_at": "2025-11-08T22:30:59.526Z"
+            "created_at": "2025-11-08T22:41:08.533Z",
+            "updated_at": "2025-11-08T22:41:08.533Z"
           },
           {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+            "id": "ZIO#9877",
+            "title": "Issue #9877",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+            "url": "github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.639Z",
-            "updated_at": "2025-11-08T22:30:59.639Z"
+            "created_at": "2025-11-08T22:41:08.587Z",
+            "updated_at": "2025-11-08T22:41:08.587Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#7113",
-            "title": "[Bug]: Deployments failing without clear cause / error",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7113",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-08T22:31:00.571Z",
-            "updated_at": "2025-11-08T22:31:00.571Z"
-          },
-          {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-08T22:31:00.659Z",
-            "updated_at": "2025-11-08T22:31:00.659Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:00.797Z",
-            "updated_at": "2025-11-08T22:31:00.797Z"
-          },
-          {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:00.911Z",
-            "updated_at": "2025-11-08T22:31:00.911Z"
-          },
-          {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.170Z",
-            "updated_at": "2025-11-08T22:31:01.170Z"
-          },
-          {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.267Z",
-            "updated_at": "2025-11-08T22:31:01.267Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "Issue #6519",
-            "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.271Z",
-            "updated_at": "2025-11-08T22:31:01.271Z"
-          },
-          {
-            "id": "coollabsio#4117",
-            "title": "Issue #4117",
-            "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/4117",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.276Z",
-            "updated_at": "2025-11-08T22:31:01.276Z"
-          },
-          {
-            "id": "coollabsio#2495",
-            "title": "Issue #2495",
-            "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/2495",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.281Z",
-            "updated_at": "2025-11-08T22:31:01.281Z"
-          },
-          {
-            "id": "coollabsio#4458",
-            "title": "Issue #4458",
-            "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/4458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.285Z",
-            "updated_at": "2025-11-08T22:31:01.285Z"
-          }
-        ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "cal#23104",
-            "title": "Local dev crazy slow",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/23104",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-08T22:31:01.033Z",
-            "updated_at": "2025-11-08T22:31:01.033Z"
-          },
-          {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.164Z",
-            "updated_at": "2025-11-08T22:31:01.164Z"
-          },
-          {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.267Z",
-            "updated_at": "2025-11-08T22:31:01.267Z"
-          },
-          {
-            "id": "cal#18992",
-            "title": "Issue #18992",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/18992",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.269Z",
-            "updated_at": "2025-11-08T22:31:01.269Z"
-          },
-          {
-            "id": "cal#18987",
-            "title": "Issue #18987",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/18987",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.274Z",
-            "updated_at": "2025-11-08T22:31:01.274Z"
-          },
-          {
-            "id": "cal#16797",
-            "title": "Issue #16797",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/16797",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.278Z",
-            "updated_at": "2025-11-08T22:31:01.278Z"
-          },
-          {
-            "id": "cal#16651",
-            "title": "Issue #16651",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/16651",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.282Z",
-            "updated_at": "2025-11-08T22:31:01.282Z"
-          },
-          {
-            "id": "cal#8123",
-            "title": "Issue #8123",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/8123",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.287Z",
-            "updated_at": "2025-11-08T22:31:01.287Z"
-          },
-          {
-            "id": "cal#16378",
-            "title": "Issue #16378",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/16378",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.291Z",
-            "updated_at": "2025-11-08T22:31:01.291Z"
-          },
-          {
-            "id": "cal#13532",
-            "title": "Issue #13532",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/13532",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.295Z",
-            "updated_at": "2025-11-08T22:31:01.295Z"
-          }
-        ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1353,8 +1125,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:00.758Z",
-            "updated_at": "2025-11-08T22:31:00.758Z"
+            "created_at": "2025-11-08T22:41:07.751Z",
+            "updated_at": "2025-11-08T22:41:07.751Z"
           },
           {
             "id": "zio#709",
@@ -1363,8 +1135,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.878Z",
-            "updated_at": "2025-11-08T22:31:00.878Z"
+            "created_at": "2025-11-08T22:41:07.833Z",
+            "updated_at": "2025-11-08T22:41:07.833Z"
           },
           {
             "id": "zio#595",
@@ -1373,8 +1145,8 @@
             "url": "https://github.com/zio/zio-http/issues/595",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.010Z",
-            "updated_at": "2025-11-08T22:31:01.010Z"
+            "created_at": "2025-11-08T22:41:07.889Z",
+            "updated_at": "2025-11-08T22:41:07.889Z"
           },
           {
             "id": "zio#3710",
@@ -1383,8 +1155,8 @@
             "url": "https://github.com/zio/zio-http/issues/3710",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.149Z",
-            "updated_at": "2025-11-08T22:31:01.149Z"
+            "created_at": "2025-11-08T22:41:08.102Z",
+            "updated_at": "2025-11-08T22:41:08.102Z"
           },
           {
             "id": "zio#3645",
@@ -1393,8 +1165,8 @@
             "url": "https://github.com/zio/zio-http/issues/3645",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.280Z",
-            "updated_at": "2025-11-08T22:31:01.280Z"
+            "created_at": "2025-11-08T22:41:08.356Z",
+            "updated_at": "2025-11-08T22:41:08.356Z"
           },
           {
             "id": "zio#3472",
@@ -1403,8 +1175,8 @@
             "url": "github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.285Z",
-            "updated_at": "2025-11-08T22:31:01.285Z"
+            "created_at": "2025-11-08T22:41:08.400Z",
+            "updated_at": "2025-11-08T22:41:08.400Z"
           },
           {
             "id": "zio#9810",
@@ -1413,8 +1185,8 @@
             "url": "github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.289Z",
-            "updated_at": "2025-11-08T22:31:01.289Z"
+            "created_at": "2025-11-08T22:41:08.453Z",
+            "updated_at": "2025-11-08T22:41:08.453Z"
           },
           {
             "id": "zio#9844",
@@ -1423,8 +1195,8 @@
             "url": "github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.293Z",
-            "updated_at": "2025-11-08T22:31:01.293Z"
+            "created_at": "2025-11-08T22:41:08.506Z",
+            "updated_at": "2025-11-08T22:41:08.506Z"
           },
           {
             "id": "zio#9878",
@@ -1433,8 +1205,8 @@
             "url": "github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.297Z",
-            "updated_at": "2025-11-08T22:31:01.297Z"
+            "created_at": "2025-11-08T22:41:08.560Z",
+            "updated_at": "2025-11-08T22:41:08.560Z"
           },
           {
             "id": "zio#9877",
@@ -1443,124 +1215,352 @@
             "url": "github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.300Z",
-            "updated_at": "2025-11-08T22:31:01.300Z"
+            "created_at": "2025-11-08T22:41:08.614Z",
+            "updated_at": "2025-11-08T22:41:08.614Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "ZIO#3697",
-            "title": "Issue #3697",
+            "id": "coollabsio#7113",
+            "title": "[Bug]: Deployments failing without clear cause / error",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/coollabsio/coolify/issues/7113",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:01.969Z",
-            "updated_at": "2025-11-08T22:31:01.969Z"
+            "created_at": "2025-11-08T22:41:07.551Z",
+            "updated_at": "2025-11-08T22:41:07.551Z"
           },
           {
-            "id": "ZIO#709",
-            "title": "Issue #709",
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-08T22:31:01.972Z",
-            "updated_at": "2025-11-08T22:31:01.972Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-08T22:41:07.763Z",
+            "updated_at": "2025-11-08T22:41:07.763Z"
           },
           {
-            "id": "ZIO#595",
-            "title": "Issue #595",
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/595",
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.974Z",
-            "updated_at": "2025-11-08T22:31:01.974Z"
+            "created_at": "2025-11-08T22:41:07.967Z",
+            "updated_at": "2025-11-08T22:41:07.967Z"
           },
           {
-            "id": "ZIO#3710",
-            "title": "Issue #3710",
+            "id": "coollabsio#4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/3710",
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.977Z",
-            "updated_at": "2025-11-08T22:31:01.977Z"
+            "created_at": "2025-11-08T22:41:08.196Z",
+            "updated_at": "2025-11-08T22:41:08.196Z"
           },
           {
-            "id": "ZIO#3645",
-            "title": "Issue #3645",
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/3645",
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.980Z",
-            "updated_at": "2025-11-08T22:31:01.980Z"
+            "created_at": "2025-11-08T22:41:08.407Z",
+            "updated_at": "2025-11-08T22:41:08.407Z"
           },
           {
-            "id": "ZIO#3472",
-            "title": "Issue #3472",
+            "id": "coollabsio#6566",
+            "title": "Issue #6566",
             "amount_usd": 100,
-            "url": "github.com/zio/zio-http/issues/3472",
+            "url": "github.com/coollabsio/coolify/issues/6566",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.982Z",
-            "updated_at": "2025-11-08T22:31:01.982Z"
+            "created_at": "2025-11-08T22:41:08.453Z",
+            "updated_at": "2025-11-08T22:41:08.453Z"
           },
           {
-            "id": "ZIO#9810",
-            "title": "Issue #9810",
+            "id": "coollabsio#6519",
+            "title": "Issue #6519",
             "amount_usd": 100,
-            "url": "github.com/zio/zio/issues/9810",
+            "url": "github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.985Z",
-            "updated_at": "2025-11-08T22:31:01.985Z"
+            "created_at": "2025-11-08T22:41:08.506Z",
+            "updated_at": "2025-11-08T22:41:08.506Z"
           },
           {
-            "id": "ZIO#9844",
-            "title": "Issue #9844",
+            "id": "coollabsio#4117",
+            "title": "Issue #4117",
             "amount_usd": 100,
-            "url": "github.com/zio/zio/issues/9844",
+            "url": "github.com/coollabsio/coolify/issues/4117",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.987Z",
-            "updated_at": "2025-11-08T22:31:01.987Z"
+            "created_at": "2025-11-08T22:41:08.559Z",
+            "updated_at": "2025-11-08T22:41:08.559Z"
           },
           {
-            "id": "ZIO#9878",
-            "title": "Issue #9878",
+            "id": "coollabsio#2495",
+            "title": "Issue #2495",
             "amount_usd": 100,
-            "url": "github.com/zio/zio/issues/9878",
+            "url": "github.com/coollabsio/coolify/issues/2495",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.990Z",
-            "updated_at": "2025-11-08T22:31:01.990Z"
+            "created_at": "2025-11-08T22:41:08.614Z",
+            "updated_at": "2025-11-08T22:41:08.614Z"
           },
           {
-            "id": "ZIO#9877",
-            "title": "Issue #9877",
+            "id": "coollabsio#4458",
+            "title": "Issue #4458",
             "amount_usd": 100,
-            "url": "github.com/zio/zio/issues/9877",
+            "url": "github.com/coollabsio/coolify/issues/4458",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.992Z",
-            "updated_at": "2025-11-08T22:31:01.992Z"
+            "created_at": "2025-11-08T22:41:08.667Z",
+            "updated_at": "2025-11-08T22:41:08.667Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-08T22:41:07.866Z",
+            "updated_at": "2025-11-08T22:41:07.866Z"
+          },
+          {
+            "id": "tscircuit#83",
+            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.072Z",
+            "updated_at": "2025-11-08T22:41:08.072Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.290Z",
+            "updated_at": "2025-11-08T22:41:08.290Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Issue #419",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/pcb-viewer/issues/419",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.534Z",
+            "updated_at": "2025-11-08T22:41:08.534Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Issue #1081",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.587Z",
+            "updated_at": "2025-11-08T22:41:08.587Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Issue #386",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/footprinter/issues/386",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.641Z",
+            "updated_at": "2025-11-08T22:41:08.641Z"
+          },
+          {
+            "id": "tscircuit#1498",
+            "title": "Issue #1498",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/core/issues/1498",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.694Z",
+            "updated_at": "2025-11-08T22:41:08.694Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Issue #79",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.722Z",
+            "updated_at": "2025-11-08T22:41:08.722Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Issue #78",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.749Z",
+            "updated_at": "2025-11-08T22:41:08.749Z"
+          },
+          {
+            "id": "tscircuit#176",
+            "title": "Issue #176",
+            "amount_usd": 100,
+            "url": "github.com/tscircuit/sparkfun-boards/issues/176",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.803Z",
+            "updated_at": "2025-11-08T22:41:08.803Z"
+          }
+        ],
+        "last_updated": "2025-11-08T22:41:18.832Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-08T22:41:08.054Z",
+            "updated_at": "2025-11-08T22:41:08.054Z"
+          },
+          {
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.278Z",
+            "updated_at": "2025-11-08T22:41:08.278Z"
+          },
+          {
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.548Z",
+            "updated_at": "2025-11-08T22:41:08.548Z"
+          },
+          {
+            "id": "cal#18992",
+            "title": "Issue #18992",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.588Z",
+            "updated_at": "2025-11-08T22:41:08.588Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "Issue #18987",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.641Z",
+            "updated_at": "2025-11-08T22:41:08.641Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Issue #16797",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.694Z",
+            "updated_at": "2025-11-08T22:41:08.694Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "Issue #16651",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.722Z",
+            "updated_at": "2025-11-08T22:41:08.722Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "Issue #8123",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.749Z",
+            "updated_at": "2025-11-08T22:41:08.749Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "Issue #16378",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.777Z",
+            "updated_at": "2025-11-08T22:41:08.777Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "Issue #13532",
+            "amount_usd": 100,
+            "url": "github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-08T22:41:08.830Z",
+            "updated_at": "2025-11-08T22:41:08.830Z"
+          }
+        ],
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1579,8 +1579,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:00.637Z",
-            "updated_at": "2025-11-08T22:31:00.637Z"
+            "created_at": "2025-11-08T22:41:07.578Z",
+            "updated_at": "2025-11-08T22:41:07.578Z"
           },
           {
             "id": "activepieces#9849",
@@ -1589,8 +1589,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/9849",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.739Z",
-            "updated_at": "2025-11-08T22:31:00.739Z"
+            "created_at": "2025-11-08T22:41:07.848Z",
+            "updated_at": "2025-11-08T22:41:07.848Z"
           },
           {
             "id": "activepieces#9703",
@@ -1599,8 +1599,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/9703",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.854Z",
-            "updated_at": "2025-11-08T22:31:00.854Z"
+            "created_at": "2025-11-08T22:41:08.073Z",
+            "updated_at": "2025-11-08T22:41:08.073Z"
           },
           {
             "id": "activepieces#8284",
@@ -1609,8 +1609,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/8284",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.980Z",
-            "updated_at": "2025-11-08T22:31:00.980Z"
+            "created_at": "2025-11-08T22:41:08.287Z",
+            "updated_at": "2025-11-08T22:41:08.287Z"
           },
           {
             "id": "activepieces#8135",
@@ -1619,31 +1619,31 @@
             "url": "https://github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.082Z",
-            "updated_at": "2025-11-08T22:31:01.082Z"
+            "created_at": "2025-11-08T22:41:08.551Z",
+            "updated_at": "2025-11-08T22:41:08.551Z"
           },
           {
             "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "title": "Issue #8135",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.085Z",
-            "updated_at": "2025-11-08T22:31:01.085Z"
+            "created_at": "2025-11-08T22:41:08.587Z",
+            "updated_at": "2025-11-08T22:41:08.587Z"
           },
           {
             "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "title": "Issue #8072",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "github.com/activepieces/activepieces/issues/8072",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.219Z",
-            "updated_at": "2025-11-08T22:31:01.219Z"
+            "created_at": "2025-11-08T22:41:08.641Z",
+            "updated_at": "2025-11-08T22:41:08.641Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1662,8 +1662,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:30:58.492Z",
-            "updated_at": "2025-11-08T22:30:58.492Z"
+            "created_at": "2025-11-08T22:41:07.306Z",
+            "updated_at": "2025-11-08T22:41:07.306Z"
           },
           {
             "id": "mudlet#3172",
@@ -1674,8 +1674,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:30:58.633Z",
-            "updated_at": "2025-11-08T22:30:58.633Z"
+            "created_at": "2025-11-08T22:41:07.481Z",
+            "updated_at": "2025-11-08T22:41:07.481Z"
           },
           {
             "id": "mudlet#7126",
@@ -1684,8 +1684,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/7126",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.755Z",
-            "updated_at": "2025-11-08T22:30:58.755Z"
+            "created_at": "2025-11-08T22:41:07.727Z",
+            "updated_at": "2025-11-08T22:41:07.727Z"
           },
           {
             "id": "mudlet#689",
@@ -1694,8 +1694,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.891Z",
-            "updated_at": "2025-11-08T22:30:58.891Z"
+            "created_at": "2025-11-08T22:41:07.942Z",
+            "updated_at": "2025-11-08T22:41:07.942Z"
           },
           {
             "id": "mudlet#707",
@@ -1704,8 +1704,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.996Z",
-            "updated_at": "2025-11-08T22:30:58.996Z"
+            "created_at": "2025-11-08T22:41:08.199Z",
+            "updated_at": "2025-11-08T22:41:08.199Z"
           },
           {
             "id": "mudlet#5310",
@@ -1714,11 +1714,11 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:59.105Z",
-            "updated_at": "2025-11-08T22:30:59.105Z"
+            "created_at": "2025-11-08T22:41:08.427Z",
+            "updated_at": "2025-11-08T22:41:08.427Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1737,8 +1737,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:00.517Z",
-            "updated_at": "2025-11-08T22:31:00.517Z"
+            "created_at": "2025-11-08T22:41:07.407Z",
+            "updated_at": "2025-11-08T22:41:07.407Z"
           },
           {
             "id": "Mudlet#3172",
@@ -1749,8 +1749,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:00.520Z",
-            "updated_at": "2025-11-08T22:31:00.520Z"
+            "created_at": "2025-11-08T22:41:07.481Z",
+            "updated_at": "2025-11-08T22:41:07.481Z"
           },
           {
             "id": "Mudlet#7126",
@@ -1759,8 +1759,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/7126",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.522Z",
-            "updated_at": "2025-11-08T22:31:00.522Z"
+            "created_at": "2025-11-08T22:41:07.727Z",
+            "updated_at": "2025-11-08T22:41:07.727Z"
           },
           {
             "id": "Mudlet#689",
@@ -1769,8 +1769,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.525Z",
-            "updated_at": "2025-11-08T22:31:00.525Z"
+            "created_at": "2025-11-08T22:41:07.942Z",
+            "updated_at": "2025-11-08T22:41:07.942Z"
           },
           {
             "id": "Mudlet#707",
@@ -1779,8 +1779,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.528Z",
-            "updated_at": "2025-11-08T22:31:00.528Z"
+            "created_at": "2025-11-08T22:41:08.199Z",
+            "updated_at": "2025-11-08T22:41:08.199Z"
           },
           {
             "id": "Mudlet#5310",
@@ -1789,11 +1789,11 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.531Z",
-            "updated_at": "2025-11-08T22:31:00.531Z"
+            "created_at": "2025-11-08T22:41:08.427Z",
+            "updated_at": "2025-11-08T22:41:08.427Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1812,8 +1812,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:31:00.818Z",
-            "updated_at": "2025-11-08T22:31:00.818Z"
+            "created_at": "2025-11-08T22:41:07.806Z",
+            "updated_at": "2025-11-08T22:41:07.806Z"
           },
           {
             "id": "projectdiscovery#13862",
@@ -1822,8 +1822,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13862",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:00.909Z",
-            "updated_at": "2025-11-08T22:31:00.909Z"
+            "created_at": "2025-11-08T22:41:07.993Z",
+            "updated_at": "2025-11-08T22:41:07.993Z"
           },
           {
             "id": "projectdiscovery#13820",
@@ -1832,8 +1832,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.026Z",
-            "updated_at": "2025-11-08T22:31:01.026Z"
+            "created_at": "2025-11-08T22:41:08.243Z",
+            "updated_at": "2025-11-08T22:41:08.243Z"
           },
           {
             "id": "projectdiscovery#13724",
@@ -1842,18 +1842,18 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.123Z",
-            "updated_at": "2025-11-08T22:31:01.123Z"
+            "created_at": "2025-11-08T22:41:08.444Z",
+            "updated_at": "2025-11-08T22:41:08.444Z"
           },
           {
             "id": "projectdiscovery#13435",
-            "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
+            "title": "Issue #13435",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13435",
+            "url": "github.com/projectdiscovery/nuclei-templates/issues/13435",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.250Z",
-            "updated_at": "2025-11-08T22:31:01.250Z"
+            "created_at": "2025-11-08T22:41:08.480Z",
+            "updated_at": "2025-11-08T22:41:08.480Z"
           },
           {
             "id": "projectdiscovery#13434",
@@ -1862,11 +1862,11 @@
             "url": "github.com/projectdiscovery/nuclei-templates/issues/13434",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:31:01.253Z",
-            "updated_at": "2025-11-08T22:31:01.253Z"
+            "created_at": "2025-11-08T22:41:08.533Z",
+            "updated_at": "2025-11-08T22:41:08.533Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1885,8 +1885,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-08T22:30:58.436Z",
-            "updated_at": "2025-11-08T22:30:58.436Z"
+            "created_at": "2025-11-08T22:41:07.631Z",
+            "updated_at": "2025-11-08T22:41:07.631Z"
           },
           {
             "id": "qdrant#3531",
@@ -1895,8 +1895,8 @@
             "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.540Z",
-            "updated_at": "2025-11-08T22:30:58.540Z"
+            "created_at": "2025-11-08T22:41:07.895Z",
+            "updated_at": "2025-11-08T22:41:07.895Z"
           },
           {
             "id": "qdrant#3322",
@@ -1905,8 +1905,8 @@
             "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.649Z",
-            "updated_at": "2025-11-08T22:30:58.649Z"
+            "created_at": "2025-11-08T22:41:08.165Z",
+            "updated_at": "2025-11-08T22:41:08.165Z"
           },
           {
             "id": "qdrant#3321",
@@ -1915,21 +1915,21 @@
             "url": "https://github.com/qdrant/qdrant/issues/3321",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.763Z",
-            "updated_at": "2025-11-08T22:30:58.763Z"
+            "created_at": "2025-11-08T22:41:08.362Z",
+            "updated_at": "2025-11-08T22:41:08.362Z"
           },
           {
             "id": "qdrant#2620",
-            "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+            "title": "Issue #2620",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/2620",
+            "url": "github.com/qdrant/qdrant/issues/2620",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-08T22:30:58.897Z",
-            "updated_at": "2025-11-08T22:30:58.897Z"
+            "created_at": "2025-11-08T22:41:08.399Z",
+            "updated_at": "2025-11-08T22:41:08.399Z"
           }
         ],
-        "last_updated": "2025-11-08T22:31:11.994Z",
+        "last_updated": "2025-11-08T22:41:18.832Z",
         "scrape_duration_ms": 0
       }
     ]
