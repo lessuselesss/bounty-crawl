@@ -1,256 +1,348 @@
 {
-  "generated_at": "2025-11-09T11:28:15.248Z",
-  "total_organizations": 4,
-  "total_bounties": 19,
-  "total_value_usd": 1900,
+  "generated_at": "2025-11-09T11:39:01.465Z",
+  "total_organizations": 6,
+  "total_bounties": 26,
+  "total_value_usd": 2600,
   "version": "3.0.0",
   "organizations": {
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "coollabsio#7113",
-          "title": "[Bug]: Deployments failing without clear cause / error",
+          "id": "qdrant#3957",
+          "title": "Add properties to a collection",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7113",
+          "url": "https://github.com/qdrant/qdrant/issues/3957",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-09T11:27:34.914Z",
-          "updated_at": "2025-11-09T11:27:34.914Z"
+          "created_at": "2025-11-09T11:38:14.796Z",
+          "updated_at": "2025-11-09T11:38:14.796Z"
         },
         {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-09T11:27:35.694Z",
-          "updated_at": "2025-11-09T11:27:35.694Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-09T11:27:37.259Z",
-          "updated_at": "2025-11-09T11:27:37.259Z"
+          "created_at": "2025-11-09T11:38:15.355Z",
+          "updated_at": "2025-11-09T11:38:15.355Z"
         },
         {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-09T11:27:39.745Z",
-          "updated_at": "2025-11-09T11:27:39.745Z"
+          "created_at": "2025-11-09T11:38:16.172Z",
+          "updated_at": "2025-11-09T11:38:16.172Z"
         },
         {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-09T11:27:41.209Z",
-          "updated_at": "2025-11-09T11:27:41.209Z"
+          "created_at": "2025-11-09T11:38:18.648Z",
+          "updated_at": "2025-11-09T11:38:18.648Z"
         },
         {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
+          "id": "qdrant#2620",
+          "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "url": "https://github.com/qdrant/qdrant/issues/2620",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-09T11:27:43.450Z",
-          "updated_at": "2025-11-09T11:27:43.450Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:27:45.861Z",
-          "updated_at": "2025-11-09T11:27:45.861Z"
-        },
-        {
-          "id": "coollabsio#4117",
-          "title": "[Enhancement]: Improve navigation from breadcrumb",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4117",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:27:47.498Z",
-          "updated_at": "2025-11-09T11:27:47.498Z"
-        },
-        {
-          "id": "coollabsio#2495",
-          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2495",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:27:50.457Z",
-          "updated_at": "2025-11-09T11:27:50.457Z"
-        },
-        {
-          "id": "coollabsio#4458",
-          "title": "[Enhancement]: AppFlowy Serice",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:27:51.932Z",
-          "updated_at": "2025-11-09T11:27:51.932Z"
+          "created_at": "2025-11-09T11:38:23.139Z",
+          "updated_at": "2025-11-09T11:38:23.139Z"
         }
       ],
-      "last_updated": "2025-11-09T11:28:15.248Z",
+      "last_updated": "2025-11-09T11:39:01.465Z",
       "scrape_duration_ms": 0
     },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-09T11:38:41.207Z",
+          "updated_at": "2025-11-09T11:38:41.207Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:41.304Z",
+          "updated_at": "2025-11-09T11:38:41.304Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:41.429Z",
+          "updated_at": "2025-11-09T11:38:41.429Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:41.543Z",
+          "updated_at": "2025-11-09T11:38:41.543Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:41.647Z",
+          "updated_at": "2025-11-09T11:38:41.647Z"
+        }
+      ],
+      "last_updated": "2025-11-09T11:39:01.465Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-09T11:27:58.844Z",
-          "updated_at": "2025-11-09T11:27:58.844Z"
+          "created_at": "2025-11-09T11:38:43.282Z",
+          "updated_at": "2025-11-09T11:38:43.282Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-09T11:27:59.035Z",
-          "updated_at": "2025-11-09T11:27:59.035Z"
+          "tags": [],
+          "created_at": "2025-11-09T11:38:43.473Z",
+          "updated_at": "2025-11-09T11:38:43.473Z"
         }
       ],
-      "last_updated": "2025-11-09T11:28:15.248Z",
+      "last_updated": "2025-11-09T11:39:01.465Z",
       "scrape_duration_ms": 0
     },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-09T11:28:02.672Z",
-          "updated_at": "2025-11-09T11:28:02.672Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:28:02.891Z",
-          "updated_at": "2025-11-09T11:28:02.891Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:28:03.093Z",
-          "updated_at": "2025-11-09T11:28:03.093Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:28:03.281Z",
-          "updated_at": "2025-11-09T11:28:03.281Z"
+          "created_at": "2025-11-09T11:38:45.178Z",
+          "updated_at": "2025-11-09T11:38:45.178Z"
         }
       ],
-      "last_updated": "2025-11-09T11:28:15.248Z",
+      "last_updated": "2025-11-09T11:39:01.465Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-09T11:28:04.757Z",
-          "updated_at": "2025-11-09T11:28:04.757Z"
+          "created_at": "2025-11-09T11:38:45.187Z",
+          "updated_at": "2025-11-09T11:38:45.187Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-09T11:28:05.059Z",
-          "updated_at": "2025-11-09T11:28:05.059Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-09T11:38:45.291Z",
+          "updated_at": "2025-11-09T11:38:45.291Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "Mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-09T11:28:05.246Z",
-          "updated_at": "2025-11-09T11:28:05.246Z"
+          "created_at": "2025-11-09T11:38:45.428Z",
+          "updated_at": "2025-11-09T11:38:45.428Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:45.563Z",
+          "updated_at": "2025-11-09T11:38:45.563Z"
+        },
+        {
+          "id": "Mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:45.671Z",
+          "updated_at": "2025-11-09T11:38:45.671Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:45.784Z",
+          "updated_at": "2025-11-09T11:38:45.784Z"
         }
       ],
-      "last_updated": "2025-11-09T11:28:15.248Z",
+      "last_updated": "2025-11-09T11:39:01.465Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 7,
+      "total_value_usd": 700,
+      "bounties": [
+        {
+          "id": "projectdiscovery#13872",
+          "title": "CVE-2021-4374 - WordPress Automatic Plugin - Broken Access Control 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13872",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-09T11:38:50.770Z",
+          "updated_at": "2025-11-09T11:38:50.770Z"
+        },
+        {
+          "id": "projectdiscovery#13865",
+          "title": "CVE-2023-26134 - git-commit-info - Command Injection 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13865",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:50.883Z",
+          "updated_at": "2025-11-09T11:38:50.883Z"
+        },
+        {
+          "id": "projectdiscovery#13862",
+          "title": "CVE-2023-34478 - Apache Shiro - Authentication Bypass 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13862",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:50.993Z",
+          "updated_at": "2025-11-09T11:38:50.993Z"
+        },
+        {
+          "id": "projectdiscovery#13820",
+          "title": "CVE-2025-11833 - Post SMTP WordPress Plugin - Broken Access Control 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:51.107Z",
+          "updated_at": "2025-11-09T11:38:51.107Z"
+        },
+        {
+          "id": "projectdiscovery#13724",
+          "title": "CVE-2025-61932 - Lanscope Endpoint Manager - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:51.208Z",
+          "updated_at": "2025-11-09T11:38:51.208Z"
+        },
+        {
+          "id": "projectdiscovery#13435",
+          "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13435",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:51.327Z",
+          "updated_at": "2025-11-09T11:38:51.327Z"
+        },
+        {
+          "id": "projectdiscovery#13434",
+          "title": "CVE-2022-26500 - Veeam Backup & Replication - Unrestricted File Upload 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13434",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-09T11:38:51.462Z",
+          "updated_at": "2025-11-09T11:38:51.462Z"
+        }
+      ],
+      "last_updated": "2025-11-09T11:39:01.465Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 138829,
+    "processing_time_ms": 142362,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -259,249 +351,343 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 7,
+        "total_value_usd": 700,
         "bounties": [
           {
-            "id": "coollabsio#7113",
-            "title": "[Bug]: Deployments failing without clear cause / error",
+            "id": "projectdiscovery#13872",
+            "title": "CVE-2021-4374 - WordPress Automatic Plugin - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7113",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13872",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-09T11:27:34.914Z",
-            "updated_at": "2025-11-09T11:27:34.914Z"
+            "created_at": "2025-11-09T11:38:50.770Z",
+            "updated_at": "2025-11-09T11:38:50.770Z"
           },
           {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
+            "id": "projectdiscovery#13865",
+            "title": "CVE-2023-26134 - git-commit-info - Command Injection 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-09T11:27:35.694Z",
-            "updated_at": "2025-11-09T11:27:35.694Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13865",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:37.259Z",
-            "updated_at": "2025-11-09T11:27:37.259Z"
+            "created_at": "2025-11-09T11:38:50.883Z",
+            "updated_at": "2025-11-09T11:38:50.883Z"
           },
           {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "id": "projectdiscovery#13862",
+            "title": "CVE-2023-34478 - Apache Shiro - Authentication Bypass 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13862",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:39.745Z",
-            "updated_at": "2025-11-09T11:27:39.745Z"
+            "created_at": "2025-11-09T11:38:50.993Z",
+            "updated_at": "2025-11-09T11:38:50.993Z"
           },
           {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "id": "projectdiscovery#13820",
+            "title": "CVE-2025-11833 - Post SMTP WordPress Plugin - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:41.209Z",
-            "updated_at": "2025-11-09T11:27:41.209Z"
+            "created_at": "2025-11-09T11:38:51.107Z",
+            "updated_at": "2025-11-09T11:38:51.107Z"
           },
           {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
+            "id": "projectdiscovery#13724",
+            "title": "CVE-2025-61932 - Lanscope Endpoint Manager - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:43.450Z",
-            "updated_at": "2025-11-09T11:27:43.450Z"
+            "created_at": "2025-11-09T11:38:51.208Z",
+            "updated_at": "2025-11-09T11:38:51.208Z"
           },
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "projectdiscovery#13435",
+            "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13435",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:45.861Z",
-            "updated_at": "2025-11-09T11:27:45.861Z"
+            "created_at": "2025-11-09T11:38:51.327Z",
+            "updated_at": "2025-11-09T11:38:51.327Z"
           },
           {
-            "id": "coollabsio#4117",
-            "title": "[Enhancement]: Improve navigation from breadcrumb",
+            "id": "projectdiscovery#13434",
+            "title": "CVE-2022-26500 - Veeam Backup & Replication - Unrestricted File Upload 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4117",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13434",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:27:47.498Z",
-            "updated_at": "2025-11-09T11:27:47.498Z"
-          },
-          {
-            "id": "coollabsio#2495",
-            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2495",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-09T11:27:50.457Z",
-            "updated_at": "2025-11-09T11:27:50.457Z"
-          },
-          {
-            "id": "coollabsio#4458",
-            "title": "[Enhancement]: AppFlowy Serice",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-09T11:27:51.932Z",
-            "updated_at": "2025-11-09T11:27:51.932Z"
+            "created_at": "2025-11-09T11:38:51.462Z",
+            "updated_at": "2025-11-09T11:38:51.462Z"
           }
         ],
-        "last_updated": "2025-11-09T11:28:15.248Z",
+        "last_updated": "2025-11-09T11:39:01.465Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
         "bounties": [
           {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-09T11:28:02.672Z",
-            "updated_at": "2025-11-09T11:28:02.672Z"
+            "created_at": "2025-11-09T11:38:45.187Z",
+            "updated_at": "2025-11-09T11:38:45.187Z"
           },
           {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-09T11:28:02.891Z",
-            "updated_at": "2025-11-09T11:28:02.891Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-09T11:28:03.093Z",
-            "updated_at": "2025-11-09T11:28:03.093Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-09T11:28:03.281Z",
-            "updated_at": "2025-11-09T11:28:03.281Z"
-          }
-        ],
-        "last_updated": "2025-11-09T11:28:15.248Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-09T11:28:04.757Z",
-            "updated_at": "2025-11-09T11:28:04.757Z"
+            "created_at": "2025-11-09T11:38:45.291Z",
+            "updated_at": "2025-11-09T11:38:45.291Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "Mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:28:05.059Z",
-            "updated_at": "2025-11-09T11:28:05.059Z"
+            "created_at": "2025-11-09T11:38:45.428Z",
+            "updated_at": "2025-11-09T11:38:45.428Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-09T11:28:05.246Z",
-            "updated_at": "2025-11-09T11:28:05.246Z"
+            "created_at": "2025-11-09T11:38:45.563Z",
+            "updated_at": "2025-11-09T11:38:45.563Z"
+          },
+          {
+            "id": "Mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:45.671Z",
+            "updated_at": "2025-11-09T11:38:45.671Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:45.784Z",
+            "updated_at": "2025-11-09T11:38:45.784Z"
           }
         ],
-        "last_updated": "2025-11-09T11:28:15.248Z",
+        "last_updated": "2025-11-09T11:39:01.465Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "qdrant#3957",
+            "title": "Add properties to a collection",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3957",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-09T11:38:14.796Z",
+            "updated_at": "2025-11-09T11:38:14.796Z"
+          },
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:15.355Z",
+            "updated_at": "2025-11-09T11:38:15.355Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:16.172Z",
+            "updated_at": "2025-11-09T11:38:16.172Z"
+          },
+          {
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:18.648Z",
+            "updated_at": "2025-11-09T11:38:18.648Z"
+          },
+          {
+            "id": "qdrant#2620",
+            "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/2620",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:23.139Z",
+            "updated_at": "2025-11-09T11:38:23.139Z"
+          }
+        ],
+        "last_updated": "2025-11-09T11:39:01.465Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3960",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-09T11:38:41.207Z",
+            "updated_at": "2025-11-09T11:38:41.207Z"
+          },
+          {
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3526",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:41.304Z",
+            "updated_at": "2025-11-09T11:38:41.304Z"
+          },
+          {
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3376",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:41.429Z",
+            "updated_at": "2025-11-09T11:38:41.429Z"
+          },
+          {
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3379",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:41.543Z",
+            "updated_at": "2025-11-09T11:38:41.543Z"
+          },
+          {
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/2112",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:41.647Z",
+            "updated_at": "2025-11-09T11:38:41.647Z"
+          }
+        ],
+        "last_updated": "2025-11-09T11:39:01.465Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-09T11:27:58.844Z",
-            "updated_at": "2025-11-09T11:27:58.844Z"
+            "created_at": "2025-11-09T11:38:43.282Z",
+            "updated_at": "2025-11-09T11:38:43.282Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-09T11:38:43.473Z",
+            "updated_at": "2025-11-09T11:38:43.473Z"
+          }
+        ],
+        "last_updated": "2025-11-09T11:39:01.465Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-09T11:27:59.035Z",
-            "updated_at": "2025-11-09T11:27:59.035Z"
+            "created_at": "2025-11-09T11:38:45.178Z",
+            "updated_at": "2025-11-09T11:38:45.178Z"
           }
         ],
-        "last_updated": "2025-11-09T11:28:15.248Z",
+        "last_updated": "2025-11-09T11:39:01.465Z",
         "scrape_duration_ms": 0
       }
     ]
