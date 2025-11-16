@@ -1,54 +1,146 @@
 {
-  "generated_at": "2025-11-16T13:28:38.293Z",
+  "generated_at": "2025-11-16T13:42:01.305Z",
   "total_organizations": 4,
-  "total_bounties": 14,
-  "total_value_usd": 1400,
+  "total_bounties": 16,
+  "total_value_usd": 1600,
   "version": "3.0.0",
   "organizations": {
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T13:41:16.937Z",
+          "updated_at": "2025-11-16T13:41:16.937Z"
+        }
+      ],
+      "last_updated": "2025-11-16T13:42:01.305Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-16T13:28:04.821Z",
-          "updated_at": "2025-11-16T13:28:04.821Z"
+          "created_at": "2025-11-16T13:41:16.954Z",
+          "updated_at": "2025-11-16T13:41:16.954Z"
         },
         {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T13:28:05.386Z",
-          "updated_at": "2025-11-16T13:28:05.386Z"
+          "tags": [],
+          "created_at": "2025-11-16T13:41:19.840Z",
+          "updated_at": "2025-11-16T13:41:19.840Z"
         },
         {
-          "id": "golemcloud#21",
-          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/21",
+          "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T13:28:06.842Z",
-          "updated_at": "2025-11-16T13:28:06.842Z"
+          "tags": [],
+          "created_at": "2025-11-16T13:41:21.799Z",
+          "updated_at": "2025-11-16T13:41:21.799Z"
         }
       ],
-      "last_updated": "2025-11-16T13:28:38.293Z",
+      "last_updated": "2025-11-16T13:42:01.305Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T13:41:44.237Z",
+          "updated_at": "2025-11-16T13:41:44.237Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T13:41:44.449Z",
+          "updated_at": "2025-11-16T13:41:44.449Z"
+        },
+        {
+          "id": "mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T13:41:44.653Z",
+          "updated_at": "2025-11-16T13:41:44.653Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T13:41:44.872Z",
+          "updated_at": "2025-11-16T13:41:44.872Z"
+        },
+        {
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T13:41:45.116Z",
+          "updated_at": "2025-11-16T13:41:45.116Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T13:41:45.351Z",
+          "updated_at": "2025-11-16T13:41:45.351Z"
+        }
+      ],
+      "last_updated": "2025-11-16T13:42:01.305Z",
       "scrape_duration_ms": 0
     },
     "projectdiscovery": {
@@ -66,8 +158,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-16T13:28:04.037Z",
-          "updated_at": "2025-11-16T13:28:04.037Z"
+          "created_at": "2025-11-16T13:41:50.268Z",
+          "updated_at": "2025-11-16T13:41:50.268Z"
         },
         {
           "id": "projectdiscovery#13923",
@@ -76,8 +168,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13923",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T13:28:04.820Z",
-          "updated_at": "2025-11-16T13:28:04.820Z"
+          "created_at": "2025-11-16T13:41:50.519Z",
+          "updated_at": "2025-11-16T13:41:50.519Z"
         },
         {
           "id": "projectdiscovery#13915",
@@ -86,8 +178,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13915",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T13:28:05.386Z",
-          "updated_at": "2025-11-16T13:28:05.386Z"
+          "created_at": "2025-11-16T13:41:50.697Z",
+          "updated_at": "2025-11-16T13:41:50.697Z"
         },
         {
           "id": "projectdiscovery#13886",
@@ -96,8 +188,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13886",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T13:28:06.842Z",
-          "updated_at": "2025-11-16T13:28:06.842Z"
+          "created_at": "2025-11-16T13:41:50.883Z",
+          "updated_at": "2025-11-16T13:41:50.883Z"
         },
         {
           "id": "projectdiscovery#13820",
@@ -106,8 +198,8 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T13:28:07.586Z",
-          "updated_at": "2025-11-16T13:28:07.586Z"
+          "created_at": "2025-11-16T13:41:51.084Z",
+          "updated_at": "2025-11-16T13:41:51.084Z"
         },
         {
           "id": "projectdiscovery#13724",
@@ -116,91 +208,17 @@
           "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T13:28:08.919Z",
-          "updated_at": "2025-11-16T13:28:08.919Z"
+          "created_at": "2025-11-16T13:41:51.303Z",
+          "updated_at": "2025-11-16T13:41:51.303Z"
         }
       ],
-      "last_updated": "2025-11-16T13:28:38.293Z",
-      "scrape_duration_ms": 0
-    },
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-          "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T13:28:27.701Z",
-          "updated_at": "2025-11-16T13:28:27.701Z"
-        }
-      ],
-      "last_updated": "2025-11-16T13:28:38.293Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T13:28:27.897Z",
-          "updated_at": "2025-11-16T13:28:27.897Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-16T13:28:28.066Z",
-          "updated_at": "2025-11-16T13:28:28.066Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-16T13:28:28.178Z",
-          "updated_at": "2025-11-16T13:28:28.178Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-16T13:28:28.292Z",
-          "updated_at": "2025-11-16T13:28:28.292Z"
-        }
-      ],
-      "last_updated": "2025-11-16T13:28:38.293Z",
+      "last_updated": "2025-11-16T13:42:01.305Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 125011,
+    "processing_time_ms": 135867,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -208,6 +226,81 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T13:41:44.237Z",
+            "updated_at": "2025-11-16T13:41:44.237Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T13:41:44.449Z",
+            "updated_at": "2025-11-16T13:41:44.449Z"
+          },
+          {
+            "id": "mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T13:41:44.653Z",
+            "updated_at": "2025-11-16T13:41:44.653Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T13:41:44.872Z",
+            "updated_at": "2025-11-16T13:41:44.872Z"
+          },
+          {
+            "id": "mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T13:41:45.116Z",
+            "updated_at": "2025-11-16T13:41:45.116Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T13:41:45.351Z",
+            "updated_at": "2025-11-16T13:41:45.351Z"
+          }
+        ],
+        "last_updated": "2025-11-16T13:42:01.305Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "projectdiscovery",
         "display_name": "Projectdiscovery",
@@ -224,8 +317,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-16T13:28:04.037Z",
-            "updated_at": "2025-11-16T13:28:04.037Z"
+            "created_at": "2025-11-16T13:41:50.268Z",
+            "updated_at": "2025-11-16T13:41:50.268Z"
           },
           {
             "id": "projectdiscovery#13923",
@@ -234,8 +327,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13923",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T13:28:04.820Z",
-            "updated_at": "2025-11-16T13:28:04.820Z"
+            "created_at": "2025-11-16T13:41:50.519Z",
+            "updated_at": "2025-11-16T13:41:50.519Z"
           },
           {
             "id": "projectdiscovery#13915",
@@ -244,8 +337,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13915",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T13:28:05.386Z",
-            "updated_at": "2025-11-16T13:28:05.386Z"
+            "created_at": "2025-11-16T13:41:50.697Z",
+            "updated_at": "2025-11-16T13:41:50.697Z"
           },
           {
             "id": "projectdiscovery#13886",
@@ -254,8 +347,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13886",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T13:28:06.842Z",
-            "updated_at": "2025-11-16T13:28:06.842Z"
+            "created_at": "2025-11-16T13:41:50.883Z",
+            "updated_at": "2025-11-16T13:41:50.883Z"
           },
           {
             "id": "projectdiscovery#13820",
@@ -264,8 +357,8 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T13:28:07.586Z",
-            "updated_at": "2025-11-16T13:28:07.586Z"
+            "created_at": "2025-11-16T13:41:51.084Z",
+            "updated_at": "2025-11-16T13:41:51.084Z"
           },
           {
             "id": "projectdiscovery#13724",
@@ -274,111 +367,54 @@
             "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T13:28:08.919Z",
-            "updated_at": "2025-11-16T13:28:08.919Z"
+            "created_at": "2025-11-16T13:41:51.303Z",
+            "updated_at": "2025-11-16T13:41:51.303Z"
           }
         ],
-        "last_updated": "2025-11-16T13:28:38.293Z",
+        "last_updated": "2025-11-16T13:42:01.305Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-16T13:28:27.897Z",
-            "updated_at": "2025-11-16T13:28:27.897Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-16T13:28:28.066Z",
-            "updated_at": "2025-11-16T13:28:28.066Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-16T13:28:28.178Z",
-            "updated_at": "2025-11-16T13:28:28.178Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-16T13:28:28.292Z",
-            "updated_at": "2025-11-16T13:28:28.292Z"
-          }
-        ],
-        "last_updated": "2025-11-16T13:28:38.293Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-16T13:28:04.821Z",
-            "updated_at": "2025-11-16T13:28:04.821Z"
+            "created_at": "2025-11-16T13:41:16.954Z",
+            "updated_at": "2025-11-16T13:41:16.954Z"
           },
           {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-16T13:28:05.386Z",
-            "updated_at": "2025-11-16T13:28:05.386Z"
+            "tags": [],
+            "created_at": "2025-11-16T13:41:19.840Z",
+            "updated_at": "2025-11-16T13:41:19.840Z"
           },
           {
-            "id": "golemcloud#21",
-            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/21",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-16T13:28:06.842Z",
-            "updated_at": "2025-11-16T13:28:06.842Z"
+            "tags": [],
+            "created_at": "2025-11-16T13:41:21.799Z",
+            "updated_at": "2025-11-16T13:41:21.799Z"
           }
         ],
-        "last_updated": "2025-11-16T13:28:38.293Z",
+        "last_updated": "2025-11-16T13:42:01.305Z",
         "scrape_duration_ms": 0
       },
       {
@@ -397,11 +433,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-16T13:28:27.701Z",
-            "updated_at": "2025-11-16T13:28:27.701Z"
+            "created_at": "2025-11-16T13:41:16.937Z",
+            "updated_at": "2025-11-16T13:41:16.937Z"
           }
         ],
-        "last_updated": "2025-11-16T13:28:38.293Z",
+        "last_updated": "2025-11-16T13:42:01.305Z",
         "scrape_duration_ms": 0
       }
     ]
