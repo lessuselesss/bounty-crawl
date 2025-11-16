@@ -1,172 +1,650 @@
 {
-  "generated_at": "2025-11-16T09:50:47.769Z",
-  "total_organizations": 2,
-  "total_bounties": 13,
-  "total_value_usd": 1300,
+  "generated_at": "2025-11-16T10:15:50.683Z",
+  "total_organizations": 8,
+  "total_bounties": 54,
+  "total_value_usd": 5400,
   "version": "3.0.0",
   "organizations": {
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:04.272Z",
+          "updated_at": "2025-11-16T10:15:04.272Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-16T09:50:08.362Z",
-          "updated_at": "2025-11-16T09:50:08.362Z"
+          "created_at": "2025-11-16T10:15:04.272Z",
+          "updated_at": "2025-11-16T10:15:04.272Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T09:50:08.524Z",
-          "updated_at": "2025-11-16T09:50:08.524Z"
+          "tags": [],
+          "created_at": "2025-11-16T10:15:06.169Z",
+          "updated_at": "2025-11-16T10:15:06.169Z"
         },
         {
-          "id": "GolemCloud#21",
-          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/21",
+          "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-16T09:50:08.685Z",
-          "updated_at": "2025-11-16T09:50:08.685Z"
+          "tags": [],
+          "created_at": "2025-11-16T10:15:07.289Z",
+          "updated_at": "2025-11-16T10:15:07.289Z"
         }
       ],
-      "last_updated": "2025-11-16T09:50:47.768Z",
+      "last_updated": "2025-11-16T10:15:50.683Z",
       "scrape_duration_ms": 0
     },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "qdrant#3957",
+          "title": "Add properties to a collection",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3957",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:04.354Z",
+          "updated_at": "2025-11-16T10:15:04.354Z"
+        },
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:06.169Z",
+          "updated_at": "2025-11-16T10:15:06.169Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:07.270Z",
+          "updated_at": "2025-11-16T10:15:07.270Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:08.794Z",
+          "updated_at": "2025-11-16T10:15:08.794Z"
+        },
+        {
+          "id": "qdrant#2620",
+          "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/2620",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:10.984Z",
+          "updated_at": "2025-11-16T10:15:10.984Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:04.329Z",
+          "updated_at": "2025-11-16T10:15:04.329Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:06.089Z",
+          "updated_at": "2025-11-16T10:15:06.089Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:07.270Z",
+          "updated_at": "2025-11-16T10:15:07.270Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:08.794Z",
+          "updated_at": "2025-11-16T10:15:08.794Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:11.064Z",
+          "updated_at": "2025-11-16T10:15:11.064Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-16T09:50:08.160Z",
-          "updated_at": "2025-11-16T09:50:08.160Z"
+          "created_at": "2025-11-16T10:15:04.355Z",
+          "updated_at": "2025-11-16T10:15:04.355Z"
         },
         {
-          "id": "tscircuit#83",
-          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:08.297Z",
-          "updated_at": "2025-11-16T09:50:08.297Z"
+          "created_at": "2025-11-16T10:15:06.090Z",
+          "updated_at": "2025-11-16T10:15:06.090Z"
         },
         {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:08.450Z",
-          "updated_at": "2025-11-16T09:50:08.450Z"
+          "created_at": "2025-11-16T10:15:07.290Z",
+          "updated_at": "2025-11-16T10:15:07.290Z"
         },
         {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:08.633Z",
-          "updated_at": "2025-11-16T09:50:08.633Z"
+          "created_at": "2025-11-16T10:15:08.795Z",
+          "updated_at": "2025-11-16T10:15:08.795Z"
         },
         {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:08.885Z",
-          "updated_at": "2025-11-16T09:50:08.885Z"
+          "created_at": "2025-11-16T10:15:10.983Z",
+          "updated_at": "2025-11-16T10:15:10.983Z"
         },
         {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "url": "https://github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:09.137Z",
-          "updated_at": "2025-11-16T09:50:09.137Z"
+          "created_at": "2025-11-16T10:15:13.701Z",
+          "updated_at": "2025-11-16T10:15:13.701Z"
         },
         {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
+          "url": "https://github.com/zio/zio/issues/9877",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:09.609Z",
-          "updated_at": "2025-11-16T09:50:09.609Z"
+          "created_at": "2025-11-16T10:15:16.679Z",
+          "updated_at": "2025-11-16T10:15:16.679Z"
         },
         {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "url": "https://github.com/zio/zio/issues/9874",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:10.254Z",
-          "updated_at": "2025-11-16T09:50:10.254Z"
+          "created_at": "2025-11-16T10:15:18.373Z",
+          "updated_at": "2025-11-16T10:15:18.373Z"
         },
         {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
+          "id": "ZIO#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "url": "https://github.com/zio/zio/issues/9681",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:10.689Z",
-          "updated_at": "2025-11-16T09:50:10.689Z"
+          "created_at": "2025-11-16T10:15:20.683Z",
+          "updated_at": "2025-11-16T10:15:20.683Z"
         },
         {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "id": "ZIO#9922",
+          "title": "Add tests for `ZStreamAspect`",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "url": "https://github.com/zio/zio/issues/9922",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-16T09:50:11.188Z",
-          "updated_at": "2025-11-16T09:50:11.188Z"
+          "created_at": "2025-11-16T10:15:22.896Z",
+          "updated_at": "2025-11-16T10:15:22.896Z"
         }
       ],
-      "last_updated": "2025-11-16T09:50:47.768Z",
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:04.354Z",
+          "updated_at": "2025-11-16T10:15:04.354Z"
+        },
+        {
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:06.090Z",
+          "updated_at": "2025-11-16T10:15:06.090Z"
+        },
+        {
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:07.291Z",
+          "updated_at": "2025-11-16T10:15:07.291Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:08.882Z",
+          "updated_at": "2025-11-16T10:15:08.882Z"
+        },
+        {
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:10.983Z",
+          "updated_at": "2025-11-16T10:15:10.983Z"
+        },
+        {
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:13.700Z",
+          "updated_at": "2025-11-16T10:15:13.700Z"
+        },
+        {
+          "id": "zio#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:16.680Z",
+          "updated_at": "2025-11-16T10:15:16.680Z"
+        },
+        {
+          "id": "zio#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:18.372Z",
+          "updated_at": "2025-11-16T10:15:18.372Z"
+        },
+        {
+          "id": "zio#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:20.765Z",
+          "updated_at": "2025-11-16T10:15:20.765Z"
+        },
+        {
+          "id": "zio#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:22.897Z",
+          "updated_at": "2025-11-16T10:15:22.897Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7172",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:04.271Z",
+          "updated_at": "2025-11-16T10:15:04.271Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:06.090Z",
+          "updated_at": "2025-11-16T10:15:06.090Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:07.270Z",
+          "updated_at": "2025-11-16T10:15:07.270Z"
+        },
+        {
+          "id": "coollabsio#4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:08.794Z",
+          "updated_at": "2025-11-16T10:15:08.794Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:10.984Z",
+          "updated_at": "2025-11-16T10:15:10.984Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:13.700Z",
+          "updated_at": "2025-11-16T10:15:13.700Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:16.679Z",
+          "updated_at": "2025-11-16T10:15:16.679Z"
+        },
+        {
+          "id": "coollabsio#4117",
+          "title": "[Enhancement]: Improve navigation from breadcrumb",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4117",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:18.372Z",
+          "updated_at": "2025-11-16T10:15:18.372Z"
+        },
+        {
+          "id": "coollabsio#2495",
+          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/2495",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:20.683Z",
+          "updated_at": "2025-11-16T10:15:20.683Z"
+        },
+        {
+          "id": "coollabsio#4458",
+          "title": "[Enhancement]: AppFlowy Serice",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:22.897Z",
+          "updated_at": "2025-11-16T10:15:22.897Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-16T10:15:39.605Z",
+          "updated_at": "2025-11-16T10:15:39.605Z"
+        },
+        {
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:39.723Z",
+          "updated_at": "2025-11-16T10:15:39.723Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:39.871Z",
+          "updated_at": "2025-11-16T10:15:39.871Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:39.959Z",
+          "updated_at": "2025-11-16T10:15:39.959Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.056Z",
+          "updated_at": "2025-11-16T10:15:40.056Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.169Z",
+          "updated_at": "2025-11-16T10:15:40.169Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.273Z",
+          "updated_at": "2025-11-16T10:15:40.273Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.394Z",
+          "updated_at": "2025-11-16T10:15:40.394Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.547Z",
+          "updated_at": "2025-11-16T10:15:40.547Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-16T10:15:40.680Z",
+          "updated_at": "2025-11-16T10:15:40.680Z"
+        }
+      ],
+      "last_updated": "2025-11-16T10:15:50.683Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 126777,
+    "processing_time_ms": 134054,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -175,163 +653,647 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-16T09:50:08.160Z",
-            "updated_at": "2025-11-16T09:50:08.160Z"
+            "created_at": "2025-11-16T10:15:04.355Z",
+            "updated_at": "2025-11-16T10:15:04.355Z"
           },
           {
-            "id": "tscircuit#83",
-            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:08.297Z",
-            "updated_at": "2025-11-16T09:50:08.297Z"
+            "created_at": "2025-11-16T10:15:06.090Z",
+            "updated_at": "2025-11-16T10:15:06.090Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:08.450Z",
-            "updated_at": "2025-11-16T09:50:08.450Z"
+            "created_at": "2025-11-16T10:15:07.290Z",
+            "updated_at": "2025-11-16T10:15:07.290Z"
           },
           {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:08.633Z",
-            "updated_at": "2025-11-16T09:50:08.633Z"
+            "created_at": "2025-11-16T10:15:08.795Z",
+            "updated_at": "2025-11-16T10:15:08.795Z"
           },
           {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:08.885Z",
-            "updated_at": "2025-11-16T09:50:08.885Z"
+            "created_at": "2025-11-16T10:15:10.983Z",
+            "updated_at": "2025-11-16T10:15:10.983Z"
           },
           {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:09.137Z",
-            "updated_at": "2025-11-16T09:50:09.137Z"
+            "created_at": "2025-11-16T10:15:13.701Z",
+            "updated_at": "2025-11-16T10:15:13.701Z"
           },
           {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
+            "url": "https://github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:09.609Z",
-            "updated_at": "2025-11-16T09:50:09.609Z"
+            "created_at": "2025-11-16T10:15:16.679Z",
+            "updated_at": "2025-11-16T10:15:16.679Z"
           },
           {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "url": "https://github.com/zio/zio/issues/9874",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:10.254Z",
-            "updated_at": "2025-11-16T09:50:10.254Z"
+            "created_at": "2025-11-16T10:15:18.373Z",
+            "updated_at": "2025-11-16T10:15:18.373Z"
           },
           {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
+            "id": "ZIO#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "url": "https://github.com/zio/zio/issues/9681",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:10.689Z",
-            "updated_at": "2025-11-16T09:50:10.689Z"
+            "created_at": "2025-11-16T10:15:20.683Z",
+            "updated_at": "2025-11-16T10:15:20.683Z"
           },
           {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+            "id": "ZIO#9922",
+            "title": "Add tests for `ZStreamAspect`",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+            "url": "https://github.com/zio/zio/issues/9922",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-16T09:50:11.188Z",
-            "updated_at": "2025-11-16T09:50:11.188Z"
+            "created_at": "2025-11-16T10:15:22.896Z",
+            "updated_at": "2025-11-16T10:15:22.896Z"
           }
         ],
-        "last_updated": "2025-11-16T09:50:47.768Z",
+        "last_updated": "2025-11-16T10:15:50.683Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:04.354Z",
+            "updated_at": "2025-11-16T10:15:04.354Z"
+          },
+          {
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:06.090Z",
+            "updated_at": "2025-11-16T10:15:06.090Z"
+          },
+          {
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:07.291Z",
+            "updated_at": "2025-11-16T10:15:07.291Z"
+          },
+          {
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:08.882Z",
+            "updated_at": "2025-11-16T10:15:08.882Z"
+          },
+          {
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9844",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:10.983Z",
+            "updated_at": "2025-11-16T10:15:10.983Z"
+          },
+          {
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:13.700Z",
+            "updated_at": "2025-11-16T10:15:13.700Z"
+          },
+          {
+            "id": "zio#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9877",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:16.680Z",
+            "updated_at": "2025-11-16T10:15:16.680Z"
+          },
+          {
+            "id": "zio#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:18.372Z",
+            "updated_at": "2025-11-16T10:15:18.372Z"
+          },
+          {
+            "id": "zio#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:20.765Z",
+            "updated_at": "2025-11-16T10:15:20.765Z"
+          },
+          {
+            "id": "zio#9922",
+            "title": "Add tests for `ZStreamAspect`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:22.897Z",
+            "updated_at": "2025-11-16T10:15:22.897Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#7172",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:04.271Z",
+            "updated_at": "2025-11-16T10:15:04.271Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:06.090Z",
+            "updated_at": "2025-11-16T10:15:06.090Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:07.270Z",
+            "updated_at": "2025-11-16T10:15:07.270Z"
+          },
+          {
+            "id": "coollabsio#4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:08.794Z",
+            "updated_at": "2025-11-16T10:15:08.794Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:10.984Z",
+            "updated_at": "2025-11-16T10:15:10.984Z"
+          },
+          {
+            "id": "coollabsio#6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:13.700Z",
+            "updated_at": "2025-11-16T10:15:13.700Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:16.679Z",
+            "updated_at": "2025-11-16T10:15:16.679Z"
+          },
+          {
+            "id": "coollabsio#4117",
+            "title": "[Enhancement]: Improve navigation from breadcrumb",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4117",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:18.372Z",
+            "updated_at": "2025-11-16T10:15:18.372Z"
+          },
+          {
+            "id": "coollabsio#2495",
+            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/2495",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:20.683Z",
+            "updated_at": "2025-11-16T10:15:20.683Z"
+          },
+          {
+            "id": "coollabsio#4458",
+            "title": "[Enhancement]: AppFlowy Serice",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:22.897Z",
+            "updated_at": "2025-11-16T10:15:22.897Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:39.605Z",
+            "updated_at": "2025-11-16T10:15:39.605Z"
+          },
+          {
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:39.723Z",
+            "updated_at": "2025-11-16T10:15:39.723Z"
+          },
+          {
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:39.871Z",
+            "updated_at": "2025-11-16T10:15:39.871Z"
+          },
+          {
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:39.959Z",
+            "updated_at": "2025-11-16T10:15:39.959Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.056Z",
+            "updated_at": "2025-11-16T10:15:40.056Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.169Z",
+            "updated_at": "2025-11-16T10:15:40.169Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.273Z",
+            "updated_at": "2025-11-16T10:15:40.273Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.394Z",
+            "updated_at": "2025-11-16T10:15:40.394Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.547Z",
+            "updated_at": "2025-11-16T10:15:40.547Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:40.680Z",
+            "updated_at": "2025-11-16T10:15:40.680Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "qdrant#3957",
+            "title": "Add properties to a collection",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3957",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:04.354Z",
+            "updated_at": "2025-11-16T10:15:04.354Z"
+          },
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:06.169Z",
+            "updated_at": "2025-11-16T10:15:06.169Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:07.270Z",
+            "updated_at": "2025-11-16T10:15:07.270Z"
+          },
+          {
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:08.794Z",
+            "updated_at": "2025-11-16T10:15:08.794Z"
+          },
+          {
+            "id": "qdrant#2620",
+            "title": "Local Qdrant Snapshot throwing No such file or directory (OS error 2)",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/2620",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:10.984Z",
+            "updated_at": "2025-11-16T10:15:10.984Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3960",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:04.329Z",
+            "updated_at": "2025-11-16T10:15:04.329Z"
+          },
+          {
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3526",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:06.089Z",
+            "updated_at": "2025-11-16T10:15:06.089Z"
+          },
+          {
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3376",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:07.270Z",
+            "updated_at": "2025-11-16T10:15:07.270Z"
+          },
+          {
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3379",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:08.794Z",
+            "updated_at": "2025-11-16T10:15:08.794Z"
+          },
+          {
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/2112",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-16T10:15:11.064Z",
+            "updated_at": "2025-11-16T10:15:11.064Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-16T09:50:08.362Z",
-            "updated_at": "2025-11-16T09:50:08.362Z"
+            "created_at": "2025-11-16T10:15:04.272Z",
+            "updated_at": "2025-11-16T10:15:04.272Z"
           },
           {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-16T09:50:08.524Z",
-            "updated_at": "2025-11-16T09:50:08.524Z"
+            "tags": [],
+            "created_at": "2025-11-16T10:15:06.169Z",
+            "updated_at": "2025-11-16T10:15:06.169Z"
           },
           {
-            "id": "GolemCloud#21",
-            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/21",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-16T09:50:08.685Z",
-            "updated_at": "2025-11-16T09:50:08.685Z"
+            "tags": [],
+            "created_at": "2025-11-16T10:15:07.289Z",
+            "updated_at": "2025-11-16T10:15:07.289Z"
           }
         ],
-        "last_updated": "2025-11-16T09:50:47.768Z",
+        "last_updated": "2025-11-16T10:15:50.683Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-16T10:15:04.272Z",
+            "updated_at": "2025-11-16T10:15:04.272Z"
+          }
+        ],
+        "last_updated": "2025-11-16T10:15:50.683Z",
         "scrape_duration_ms": 0
       }
     ]
