@@ -1,10 +1,98 @@
 {
-  "generated_at": "2025-11-20T15:54:16.094Z",
-  "total_organizations": 2,
-  "total_bounties": 8,
-  "total_value_usd": 800,
+  "generated_at": "2025-11-20T16:20:18.747Z",
+  "total_organizations": 3,
+  "total_bounties": 9,
+  "total_value_usd": 900,
   "version": "3.0.0",
   "organizations": {
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-20T16:19:49.338Z",
+          "updated_at": "2025-11-20T16:19:49.338Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-20T16:19:49.950Z",
+          "updated_at": "2025-11-20T16:19:49.950Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-20T16:19:50.425Z",
+          "updated_at": "2025-11-20T16:19:50.425Z"
+        }
+      ],
+      "last_updated": "2025-11-20T16:20:18.747Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-20T16:19:49.648Z",
+          "updated_at": "2025-11-20T16:19:49.648Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-20T16:19:50.239Z",
+          "updated_at": "2025-11-20T16:19:50.239Z"
+        },
+        {
+          "id": "GolemCloud#21",
+          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/21",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-20T16:19:50.749Z",
+          "updated_at": "2025-11-20T16:19:50.749Z"
+        }
+      ],
+      "last_updated": "2025-11-20T16:20:18.747Z",
+      "scrape_duration_ms": 0
+    },
     "golemcloud": {
       "display_name": "Golemcloud",
       "url": "https://algora.io/golemcloud/bounties?status=open",
@@ -20,8 +108,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-20T15:53:37.893Z",
-          "updated_at": "2025-11-20T15:53:37.893Z"
+          "created_at": "2025-11-20T16:19:49.593Z",
+          "updated_at": "2025-11-20T16:19:49.593Z"
         },
         {
           "id": "golemcloud#23",
@@ -32,8 +120,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-20T15:53:38.018Z",
-          "updated_at": "2025-11-20T15:53:38.018Z"
+          "created_at": "2025-11-20T16:19:50.239Z",
+          "updated_at": "2025-11-20T16:19:50.239Z"
         },
         {
           "id": "golemcloud#21",
@@ -44,79 +132,17 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-20T15:53:38.163Z",
-          "updated_at": "2025-11-20T15:53:38.163Z"
+          "created_at": "2025-11-20T16:19:50.749Z",
+          "updated_at": "2025-11-20T16:19:50.749Z"
         }
       ],
-      "last_updated": "2025-11-20T15:54:16.094Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-20T15:53:37.823Z",
-          "updated_at": "2025-11-20T15:53:37.823Z"
-        },
-        {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-20T15:53:38.215Z",
-          "updated_at": "2025-11-20T15:53:38.215Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-20T15:53:38.360Z",
-          "updated_at": "2025-11-20T15:53:38.360Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-20T15:53:38.418Z",
-          "updated_at": "2025-11-20T15:53:38.418Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-20T15:53:38.538Z",
-          "updated_at": "2025-11-20T15:53:38.538Z"
-        }
-      ],
-      "last_updated": "2025-11-20T15:54:16.094Z",
+      "last_updated": "2025-11-20T16:20:18.747Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 131106,
+    "processing_time_ms": 120438,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -125,66 +151,93 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-20T15:53:37.823Z",
-            "updated_at": "2025-11-20T15:53:37.823Z"
+            "created_at": "2025-11-20T16:19:49.338Z",
+            "updated_at": "2025-11-20T16:19:49.338Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-20T15:53:38.215Z",
-            "updated_at": "2025-11-20T15:53:38.215Z"
+            "created_at": "2025-11-20T16:19:49.950Z",
+            "updated_at": "2025-11-20T16:19:49.950Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-20T15:53:38.360Z",
-            "updated_at": "2025-11-20T15:53:38.360Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-20T15:53:38.418Z",
-            "updated_at": "2025-11-20T15:53:38.418Z"
-          },
-          {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-20T15:53:38.538Z",
-            "updated_at": "2025-11-20T15:53:38.538Z"
+            "created_at": "2025-11-20T16:19:50.425Z",
+            "updated_at": "2025-11-20T16:19:50.425Z"
           }
         ],
-        "last_updated": "2025-11-20T15:54:16.094Z",
+        "last_updated": "2025-11-20T16:20:18.747Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-20T16:19:49.648Z",
+            "updated_at": "2025-11-20T16:19:49.648Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-20T16:19:50.239Z",
+            "updated_at": "2025-11-20T16:19:50.239Z"
+          },
+          {
+            "id": "GolemCloud#21",
+            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/21",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-20T16:19:50.749Z",
+            "updated_at": "2025-11-20T16:19:50.749Z"
+          }
+        ],
+        "last_updated": "2025-11-20T16:20:18.747Z",
         "scrape_duration_ms": 0
       },
       {
@@ -203,8 +256,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-20T15:53:37.893Z",
-            "updated_at": "2025-11-20T15:53:37.893Z"
+            "created_at": "2025-11-20T16:19:49.593Z",
+            "updated_at": "2025-11-20T16:19:49.593Z"
           },
           {
             "id": "golemcloud#23",
@@ -215,8 +268,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-20T15:53:38.018Z",
-            "updated_at": "2025-11-20T15:53:38.018Z"
+            "created_at": "2025-11-20T16:19:50.239Z",
+            "updated_at": "2025-11-20T16:19:50.239Z"
           },
           {
             "id": "golemcloud#21",
@@ -227,11 +280,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-20T15:53:38.163Z",
-            "updated_at": "2025-11-20T15:53:38.163Z"
+            "created_at": "2025-11-20T16:19:50.749Z",
+            "updated_at": "2025-11-20T16:19:50.749Z"
           }
         ],
-        "last_updated": "2025-11-20T15:54:16.094Z",
+        "last_updated": "2025-11-20T16:20:18.747Z",
         "scrape_duration_ms": 0
       }
     ]
