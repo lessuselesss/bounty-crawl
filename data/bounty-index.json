@@ -1,50 +1,246 @@
 {
-  "generated_at": "2025-11-21T13:40:20.237Z",
-  "total_organizations": 2,
-  "total_bounties": 13,
-  "total_value_usd": 1300,
+  "generated_at": "2025-11-21T13:53:04.740Z",
+  "total_organizations": 5,
+  "total_bounties": 29,
+  "total_value_usd": 2900,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-21T13:40:01.316Z",
-          "updated_at": "2025-11-21T13:40:01.316Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-21T13:40:01.449Z",
-          "updated_at": "2025-11-21T13:40:01.449Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-21T13:40:01.575Z",
-          "updated_at": "2025-11-21T13:40:01.575Z"
+          "created_at": "2025-11-21T13:52:32.920Z",
+          "updated_at": "2025-11-21T13:52:32.920Z"
         }
       ],
-      "last_updated": "2025-11-21T13:40:20.237Z",
+      "last_updated": "2025-11-21T13:53:04.740Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-21T13:52:33.404Z",
+          "updated_at": "2025-11-21T13:52:33.404Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:34.041Z",
+          "updated_at": "2025-11-21T13:52:34.041Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:35.059Z",
+          "updated_at": "2025-11-21T13:52:35.059Z"
+        }
+      ],
+      "last_updated": "2025-11-21T13:53:04.740Z",
+      "scrape_duration_ms": 0
+    },
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-21T13:52:32.920Z",
+          "updated_at": "2025-11-21T13:52:32.920Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:33.694Z",
+          "updated_at": "2025-11-21T13:52:33.694Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:34.631Z",
+          "updated_at": "2025-11-21T13:52:34.631Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:35.561Z",
+          "updated_at": "2025-11-21T13:52:35.561Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:37.651Z",
+          "updated_at": "2025-11-21T13:52:37.651Z"
+        }
+      ],
+      "last_updated": "2025-11-21T13:53:04.740Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-21T13:52:34.631Z",
+          "updated_at": "2025-11-21T13:52:34.631Z"
+        },
+        {
+          "id": "tscircuit#83",
+          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:35.561Z",
+          "updated_at": "2025-11-21T13:52:35.561Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:37.675Z",
+          "updated_at": "2025-11-21T13:52:37.675Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:40.724Z",
+          "updated_at": "2025-11-21T13:52:40.724Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:42.426Z",
+          "updated_at": "2025-11-21T13:52:42.426Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:45.202Z",
+          "updated_at": "2025-11-21T13:52:45.202Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:47.366Z",
+          "updated_at": "2025-11-21T13:52:47.366Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:48.841Z",
+          "updated_at": "2025-11-21T13:52:48.841Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:49.616Z",
+          "updated_at": "2025-11-21T13:52:49.616Z"
+        },
+        {
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-21T13:52:50.037Z",
+          "updated_at": "2025-11-21T13:52:50.037Z"
+        }
+      ],
+      "last_updated": "2025-11-21T13:53:04.740Z",
       "scrape_duration_ms": 0
     },
     "coollabsio": {
@@ -62,8 +258,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-21T13:40:00.681Z",
-          "updated_at": "2025-11-21T13:40:00.681Z"
+          "created_at": "2025-11-21T13:52:53.103Z",
+          "updated_at": "2025-11-21T13:52:53.103Z"
         },
         {
           "id": "coollabsio#7110",
@@ -72,8 +268,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7110",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:00.824Z",
-          "updated_at": "2025-11-21T13:40:00.824Z"
+          "created_at": "2025-11-21T13:52:53.265Z",
+          "updated_at": "2025-11-21T13:52:53.265Z"
         },
         {
           "id": "coollabsio#6894",
@@ -82,8 +278,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6894",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:00.932Z",
-          "updated_at": "2025-11-21T13:40:00.932Z"
+          "created_at": "2025-11-21T13:52:53.474Z",
+          "updated_at": "2025-11-21T13:52:53.474Z"
         },
         {
           "id": "coollabsio#4523",
@@ -92,8 +288,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/4523",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.117Z",
-          "updated_at": "2025-11-21T13:40:01.117Z"
+          "created_at": "2025-11-21T13:52:53.662Z",
+          "updated_at": "2025-11-21T13:52:53.662Z"
         },
         {
           "id": "coollabsio#6567",
@@ -102,8 +298,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6567",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.239Z",
-          "updated_at": "2025-11-21T13:40:01.239Z"
+          "created_at": "2025-11-21T13:52:53.833Z",
+          "updated_at": "2025-11-21T13:52:53.833Z"
         },
         {
           "id": "coollabsio#6566",
@@ -112,8 +308,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6566",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.351Z",
-          "updated_at": "2025-11-21T13:40:01.351Z"
+          "created_at": "2025-11-21T13:52:54.002Z",
+          "updated_at": "2025-11-21T13:52:54.002Z"
         },
         {
           "id": "coollabsio#6519",
@@ -122,8 +318,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.466Z",
-          "updated_at": "2025-11-21T13:40:01.466Z"
+          "created_at": "2025-11-21T13:52:54.182Z",
+          "updated_at": "2025-11-21T13:52:54.182Z"
         },
         {
           "id": "coollabsio#4117",
@@ -132,8 +328,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/4117",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.596Z",
-          "updated_at": "2025-11-21T13:40:01.596Z"
+          "created_at": "2025-11-21T13:52:54.384Z",
+          "updated_at": "2025-11-21T13:52:54.384Z"
         },
         {
           "id": "coollabsio#2495",
@@ -142,8 +338,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/2495",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.720Z",
-          "updated_at": "2025-11-21T13:40:01.720Z"
+          "created_at": "2025-11-21T13:52:54.561Z",
+          "updated_at": "2025-11-21T13:52:54.561Z"
         },
         {
           "id": "coollabsio#4458",
@@ -152,17 +348,17 @@
           "url": "https://github.com/coollabsio/coolify/issues/4458",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-21T13:40:01.858Z",
-          "updated_at": "2025-11-21T13:40:01.858Z"
+          "created_at": "2025-11-21T13:52:54.738Z",
+          "updated_at": "2025-11-21T13:52:54.738Z"
         }
       ],
-      "last_updated": "2025-11-21T13:40:20.237Z",
+      "last_updated": "2025-11-21T13:53:04.740Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 135866,
+    "processing_time_ms": 122410,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -170,6 +366,119 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-21T13:52:34.631Z",
+            "updated_at": "2025-11-21T13:52:34.631Z"
+          },
+          {
+            "id": "tscircuit#83",
+            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:35.561Z",
+            "updated_at": "2025-11-21T13:52:35.561Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:37.675Z",
+            "updated_at": "2025-11-21T13:52:37.675Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:40.724Z",
+            "updated_at": "2025-11-21T13:52:40.724Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:42.426Z",
+            "updated_at": "2025-11-21T13:52:42.426Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:45.202Z",
+            "updated_at": "2025-11-21T13:52:45.202Z"
+          },
+          {
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/core/issues/1498",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:47.366Z",
+            "updated_at": "2025-11-21T13:52:47.366Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:48.841Z",
+            "updated_at": "2025-11-21T13:52:48.841Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:49.616Z",
+            "updated_at": "2025-11-21T13:52:49.616Z"
+          },
+          {
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:50.037Z",
+            "updated_at": "2025-11-21T13:52:50.037Z"
+          }
+        ],
+        "last_updated": "2025-11-21T13:53:04.740Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "coollabsio",
         "display_name": "Coollabsio",
@@ -186,8 +495,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-21T13:40:00.681Z",
-            "updated_at": "2025-11-21T13:40:00.681Z"
+            "created_at": "2025-11-21T13:52:53.103Z",
+            "updated_at": "2025-11-21T13:52:53.103Z"
           },
           {
             "id": "coollabsio#7110",
@@ -196,8 +505,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7110",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:00.824Z",
-            "updated_at": "2025-11-21T13:40:00.824Z"
+            "created_at": "2025-11-21T13:52:53.265Z",
+            "updated_at": "2025-11-21T13:52:53.265Z"
           },
           {
             "id": "coollabsio#6894",
@@ -206,8 +515,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6894",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:00.932Z",
-            "updated_at": "2025-11-21T13:40:00.932Z"
+            "created_at": "2025-11-21T13:52:53.474Z",
+            "updated_at": "2025-11-21T13:52:53.474Z"
           },
           {
             "id": "coollabsio#4523",
@@ -216,8 +525,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/4523",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.117Z",
-            "updated_at": "2025-11-21T13:40:01.117Z"
+            "created_at": "2025-11-21T13:52:53.662Z",
+            "updated_at": "2025-11-21T13:52:53.662Z"
           },
           {
             "id": "coollabsio#6567",
@@ -226,8 +535,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6567",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.239Z",
-            "updated_at": "2025-11-21T13:40:01.239Z"
+            "created_at": "2025-11-21T13:52:53.833Z",
+            "updated_at": "2025-11-21T13:52:53.833Z"
           },
           {
             "id": "coollabsio#6566",
@@ -236,8 +545,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6566",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.351Z",
-            "updated_at": "2025-11-21T13:40:01.351Z"
+            "created_at": "2025-11-21T13:52:54.002Z",
+            "updated_at": "2025-11-21T13:52:54.002Z"
           },
           {
             "id": "coollabsio#6519",
@@ -246,8 +555,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.466Z",
-            "updated_at": "2025-11-21T13:40:01.466Z"
+            "created_at": "2025-11-21T13:52:54.182Z",
+            "updated_at": "2025-11-21T13:52:54.182Z"
           },
           {
             "id": "coollabsio#4117",
@@ -256,8 +565,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/4117",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.596Z",
-            "updated_at": "2025-11-21T13:40:01.596Z"
+            "created_at": "2025-11-21T13:52:54.384Z",
+            "updated_at": "2025-11-21T13:52:54.384Z"
           },
           {
             "id": "coollabsio#2495",
@@ -266,8 +575,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/2495",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.720Z",
-            "updated_at": "2025-11-21T13:40:01.720Z"
+            "created_at": "2025-11-21T13:52:54.561Z",
+            "updated_at": "2025-11-21T13:52:54.561Z"
           },
           {
             "id": "coollabsio#4458",
@@ -276,54 +585,140 @@
             "url": "https://github.com/coollabsio/coolify/issues/4458",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.858Z",
-            "updated_at": "2025-11-21T13:40:01.858Z"
+            "created_at": "2025-11-21T13:52:54.738Z",
+            "updated_at": "2025-11-21T13:52:54.738Z"
           }
         ],
-        "last_updated": "2025-11-21T13:40:20.237Z",
+        "last_updated": "2025-11-21T13:53:04.740Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-21T13:40:01.316Z",
-            "updated_at": "2025-11-21T13:40:01.316Z"
+            "created_at": "2025-11-21T13:52:32.920Z",
+            "updated_at": "2025-11-21T13:52:32.920Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.449Z",
-            "updated_at": "2025-11-21T13:40:01.449Z"
+            "created_at": "2025-11-21T13:52:33.694Z",
+            "updated_at": "2025-11-21T13:52:33.694Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-21T13:40:01.575Z",
-            "updated_at": "2025-11-21T13:40:01.575Z"
+            "created_at": "2025-11-21T13:52:34.631Z",
+            "updated_at": "2025-11-21T13:52:34.631Z"
+          },
+          {
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3379",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:35.561Z",
+            "updated_at": "2025-11-21T13:52:35.561Z"
+          },
+          {
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/2112",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:37.651Z",
+            "updated_at": "2025-11-21T13:52:37.651Z"
           }
         ],
-        "last_updated": "2025-11-21T13:40:20.237Z",
+        "last_updated": "2025-11-21T13:53:04.740Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-21T13:52:33.404Z",
+            "updated_at": "2025-11-21T13:52:33.404Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:34.041Z",
+            "updated_at": "2025-11-21T13:52:34.041Z"
+          },
+          {
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-21T13:52:35.059Z",
+            "updated_at": "2025-11-21T13:52:35.059Z"
+          }
+        ],
+        "last_updated": "2025-11-21T13:53:04.740Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-21T13:52:32.920Z",
+            "updated_at": "2025-11-21T13:52:32.920Z"
+          }
+        ],
+        "last_updated": "2025-11-21T13:53:04.740Z",
         "scrape_duration_ms": 0
       }
     ]
