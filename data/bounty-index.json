@@ -1,520 +1,148 @@
 {
-  "generated_at": "2025-11-23T14:32:33.456Z",
-  "total_organizations": 8,
-  "total_bounties": 40,
-  "total_value_usd": 4000,
+  "generated_at": "2025-11-23T14:43:35.854Z",
+  "total_organizations": 2,
+  "total_bounties": 11,
+  "total_value_usd": 1100,
   "version": "3.0.0",
   "organizations": {
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.277Z",
-          "updated_at": "2025-11-23T14:31:51.277Z"
-        },
-        {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.603Z",
-          "updated_at": "2025-11-23T14:31:51.603Z"
-        },
-        {
-          "id": "golemcloud#21",
-          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/21",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:52.514Z",
-          "updated_at": "2025-11-23T14:31:52.514Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.251Z",
-          "updated_at": "2025-11-23T14:31:51.251Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:51.603Z",
-          "updated_at": "2025-11-23T14:31:51.603Z"
-        },
-        {
-          "id": "qdrant#3321",
-          "title": "Allow Qdrant to run on read-only FS",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3321",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:52.552Z",
-          "updated_at": "2025-11-23T14:31:52.552Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.105Z",
-          "updated_at": "2025-11-23T14:31:51.105Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.411Z",
-          "updated_at": "2025-11-23T14:31:51.411Z"
-        },
-        {
-          "id": "mudlet#7126",
-          "title": "Implement sentry.io's Qt SDK for crash reporting",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:51.777Z",
-          "updated_at": "2025-11-23T14:31:51.777Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:53.397Z",
-          "updated_at": "2025-11-23T14:31:53.397Z"
-        },
-        {
-          "id": "mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:54.510Z",
-          "updated_at": "2025-11-23T14:31:54.510Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:56.071Z",
-          "updated_at": "2025-11-23T14:31:56.071Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "coollabsio#7172",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:31:51.170Z",
-          "updated_at": "2025-11-23T14:31:51.170Z"
-        },
-        {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:51.411Z",
-          "updated_at": "2025-11-23T14:31:51.411Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:51.778Z",
-          "updated_at": "2025-11-23T14:31:51.778Z"
-        },
-        {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:53.397Z",
-          "updated_at": "2025-11-23T14:31:53.397Z"
-        },
-        {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:54.510Z",
-          "updated_at": "2025-11-23T14:31:54.510Z"
-        },
-        {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:56.071Z",
-          "updated_at": "2025-11-23T14:31:56.071Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:31:57.611Z",
-          "updated_at": "2025-11-23T14:31:57.611Z"
-        },
-        {
-          "id": "coollabsio#4117",
-          "title": "[Enhancement]: Improve navigation from breadcrumb",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4117",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:00.023Z",
-          "updated_at": "2025-11-23T14:32:00.023Z"
-        },
-        {
-          "id": "coollabsio#2495",
-          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2495",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:02.510Z",
-          "updated_at": "2025-11-23T14:32:02.510Z"
-        },
-        {
-          "id": "coollabsio#4458",
-          "title": "[Enhancement]: AppFlowy Serice",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:03.332Z",
-          "updated_at": "2025-11-23T14:32:03.332Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "onyx-dot-app#2282",
-          "title": "Github Pages Connector",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-23T14:32:15.295Z",
-          "updated_at": "2025-11-23T14:32:15.295Z"
+          "created_at": "2025-11-23T14:43:07.483Z",
+          "updated_at": "2025-11-23T14:43:07.483Z"
         },
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-23T14:32:15.459Z",
-          "updated_at": "2025-11-23T14:32:15.459Z"
+          "created_at": "2025-11-23T14:43:07.898Z",
+          "updated_at": "2025-11-23T14:43:07.898Z"
         }
       ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
+      "last_updated": "2025-11-23T14:43:35.854Z",
       "scrape_duration_ms": 0
     },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 9,
+      "total_value_usd": 900,
       "bounties": [
         {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
+          "id": "projectdiscovery#14017",
+          "title": "CVE-2022-23812 - node-ipc - Data Tampering 💰",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14017",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-23T14:32:16.074Z",
-          "updated_at": "2025-11-23T14:32:16.074Z"
+          "created_at": "2025-11-23T14:43:08.259Z",
+          "updated_at": "2025-11-23T14:43:08.259Z"
         },
         {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
+          "id": "projectdiscovery#13997",
+          "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-23T14:32:16.216Z",
-          "updated_at": "2025-11-23T14:32:16.216Z"
+          "created_at": "2025-11-23T14:43:08.461Z",
+          "updated_at": "2025-11-23T14:43:08.461Z"
         },
         {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "id": "projectdiscovery#13942",
+          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-23T14:32:16.342Z",
-          "updated_at": "2025-11-23T14:32:16.342Z"
+          "created_at": "2025-11-23T14:43:08.958Z",
+          "updated_at": "2025-11-23T14:43:08.958Z"
+        },
+        {
+          "id": "projectdiscovery#13942",
+          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:09.535Z",
+          "updated_at": "2025-11-23T14:43:09.535Z"
+        },
+        {
+          "id": "projectdiscovery#13933",
+          "title": "CVE-2023-25158 - GeoTools - SQL Injection 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13933",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:10.677Z",
+          "updated_at": "2025-11-23T14:43:10.677Z"
+        },
+        {
+          "id": "projectdiscovery#13923",
+          "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13923",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:12.200Z",
+          "updated_at": "2025-11-23T14:43:12.200Z"
+        },
+        {
+          "id": "projectdiscovery#13915",
+          "title": "CVE-2023-28725 - General Bytes CAS - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13915",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:14.366Z",
+          "updated_at": "2025-11-23T14:43:14.366Z"
+        },
+        {
+          "id": "projectdiscovery#13820",
+          "title": "CVE-2025-11833 - Post SMTP WordPress Plugin - Broken Access Control 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:17.016Z",
+          "updated_at": "2025-11-23T14:43:17.016Z"
+        },
+        {
+          "id": "projectdiscovery#13724",
+          "title": "CVE-2025-61932 - Lanscope Endpoint Manager - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-23T14:43:19.601Z",
+          "updated_at": "2025-11-23T14:43:19.601Z"
         }
       ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:32:16.246Z",
-          "updated_at": "2025-11-23T14:32:16.246Z"
-        },
-        {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:32:16.375Z",
-          "updated_at": "2025-11-23T14:32:16.375Z"
-        },
-        {
-          "id": "GolemCloud#21",
-          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/21",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:32:16.507Z",
-          "updated_at": "2025-11-23T14:32:16.507Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
-      "scrape_duration_ms": 0
-    },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "cal#23104",
-          "title": "Local dev crazy slow",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/23104",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-23T14:32:22.411Z",
-          "updated_at": "2025-11-23T14:32:22.411Z"
-        },
-        {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:22.523Z",
-          "updated_at": "2025-11-23T14:32:22.523Z"
-        },
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:22.634Z",
-          "updated_at": "2025-11-23T14:32:22.634Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:22.725Z",
-          "updated_at": "2025-11-23T14:32:22.725Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:22.861Z",
-          "updated_at": "2025-11-23T14:32:22.861Z"
-        },
-        {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:22.975Z",
-          "updated_at": "2025-11-23T14:32:22.975Z"
-        },
-        {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:23.069Z",
-          "updated_at": "2025-11-23T14:32:23.069Z"
-        },
-        {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:23.174Z",
-          "updated_at": "2025-11-23T14:32:23.174Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:23.320Z",
-          "updated_at": "2025-11-23T14:32:23.320Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-23T14:32:23.455Z",
-          "updated_at": "2025-11-23T14:32:23.455Z"
-        }
-      ],
-      "last_updated": "2025-11-23T14:32:33.456Z",
+      "last_updated": "2025-11-23T14:43:35.854Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 128671,
+    "processing_time_ms": 126187,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -523,517 +151,139 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 9,
+        "total_value_usd": 900,
         "bounties": [
           {
-            "id": "coollabsio#7172",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "id": "projectdiscovery#14017",
+            "title": "CVE-2022-23812 - node-ipc - Data Tampering 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7172",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14017",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-23T14:31:51.170Z",
-            "updated_at": "2025-11-23T14:31:51.170Z"
+            "created_at": "2025-11-23T14:43:08.259Z",
+            "updated_at": "2025-11-23T14:43:08.259Z"
           },
           {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
+            "id": "projectdiscovery#13997",
+            "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:51.411Z",
-            "updated_at": "2025-11-23T14:31:51.411Z"
+            "created_at": "2025-11-23T14:43:08.461Z",
+            "updated_at": "2025-11-23T14:43:08.461Z"
           },
           {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
+            "id": "projectdiscovery#13942",
+            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:51.778Z",
-            "updated_at": "2025-11-23T14:31:51.778Z"
+            "created_at": "2025-11-23T14:43:08.958Z",
+            "updated_at": "2025-11-23T14:43:08.958Z"
           },
           {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "id": "projectdiscovery#13942",
+            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:53.397Z",
-            "updated_at": "2025-11-23T14:31:53.397Z"
+            "created_at": "2025-11-23T14:43:09.535Z",
+            "updated_at": "2025-11-23T14:43:09.535Z"
           },
           {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "id": "projectdiscovery#13933",
+            "title": "CVE-2023-25158 - GeoTools - SQL Injection 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13933",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:54.510Z",
-            "updated_at": "2025-11-23T14:31:54.510Z"
+            "created_at": "2025-11-23T14:43:10.677Z",
+            "updated_at": "2025-11-23T14:43:10.677Z"
           },
           {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
+            "id": "projectdiscovery#13923",
+            "title": "CVE-2023-27532 - Veeam Backup & Replication - Credential Disclosure 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13923",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:56.071Z",
-            "updated_at": "2025-11-23T14:31:56.071Z"
+            "created_at": "2025-11-23T14:43:12.200Z",
+            "updated_at": "2025-11-23T14:43:12.200Z"
           },
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "projectdiscovery#13915",
+            "title": "CVE-2023-28725 - General Bytes CAS - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13915",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:31:57.611Z",
-            "updated_at": "2025-11-23T14:31:57.611Z"
+            "created_at": "2025-11-23T14:43:14.366Z",
+            "updated_at": "2025-11-23T14:43:14.366Z"
           },
           {
-            "id": "coollabsio#4117",
-            "title": "[Enhancement]: Improve navigation from breadcrumb",
+            "id": "projectdiscovery#13820",
+            "title": "CVE-2025-11833 - Post SMTP WordPress Plugin - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4117",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13820",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:32:00.023Z",
-            "updated_at": "2025-11-23T14:32:00.023Z"
+            "created_at": "2025-11-23T14:43:17.016Z",
+            "updated_at": "2025-11-23T14:43:17.016Z"
           },
           {
-            "id": "coollabsio#2495",
-            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+            "id": "projectdiscovery#13724",
+            "title": "CVE-2025-61932 - Lanscope Endpoint Manager - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2495",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13724",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:32:02.510Z",
-            "updated_at": "2025-11-23T14:32:02.510Z"
-          },
-          {
-            "id": "coollabsio#4458",
-            "title": "[Enhancement]: AppFlowy Serice",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:03.332Z",
-            "updated_at": "2025-11-23T14:32:03.332Z"
+            "created_at": "2025-11-23T14:43:19.601Z",
+            "updated_at": "2025-11-23T14:43:19.601Z"
           }
         ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
+        "last_updated": "2025-11-23T14:43:35.854Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "cal#23104",
-            "title": "Local dev crazy slow",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/23104",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:32:22.411Z",
-            "updated_at": "2025-11-23T14:32:22.411Z"
-          },
-          {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:22.523Z",
-            "updated_at": "2025-11-23T14:32:22.523Z"
-          },
-          {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:22.634Z",
-            "updated_at": "2025-11-23T14:32:22.634Z"
-          },
-          {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:22.725Z",
-            "updated_at": "2025-11-23T14:32:22.725Z"
-          },
-          {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:22.861Z",
-            "updated_at": "2025-11-23T14:32:22.861Z"
-          },
-          {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:22.975Z",
-            "updated_at": "2025-11-23T14:32:22.975Z"
-          },
-          {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:23.069Z",
-            "updated_at": "2025-11-23T14:32:23.069Z"
-          },
-          {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:23.174Z",
-            "updated_at": "2025-11-23T14:32:23.174Z"
-          },
-          {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:23.320Z",
-            "updated_at": "2025-11-23T14:32:23.320Z"
-          },
-          {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:23.455Z",
-            "updated_at": "2025-11-23T14:32:23.455Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
-        "bounties": [
-          {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:51.105Z",
-            "updated_at": "2025-11-23T14:31:51.105Z"
-          },
-          {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:51.411Z",
-            "updated_at": "2025-11-23T14:31:51.411Z"
-          },
-          {
-            "id": "mudlet#7126",
-            "title": "Implement sentry.io's Qt SDK for crash reporting",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:51.777Z",
-            "updated_at": "2025-11-23T14:31:51.777Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:53.397Z",
-            "updated_at": "2025-11-23T14:31:53.397Z"
-          },
-          {
-            "id": "mudlet#707",
-            "title": "Undo/redo support in editor",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:54.510Z",
-            "updated_at": "2025-11-23T14:31:54.510Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:56.071Z",
-            "updated_at": "2025-11-23T14:31:56.071Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:51.277Z",
-            "updated_at": "2025-11-23T14:31:51.277Z"
-          },
-          {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:51.603Z",
-            "updated_at": "2025-11-23T14:31:51.603Z"
-          },
-          {
-            "id": "golemcloud#21",
-            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/21",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:52.514Z",
-            "updated_at": "2025-11-23T14:31:52.514Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:31:51.251Z",
-            "updated_at": "2025-11-23T14:31:51.251Z"
-          },
-          {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:51.603Z",
-            "updated_at": "2025-11-23T14:31:51.603Z"
-          },
-          {
-            "id": "qdrant#3321",
-            "title": "Allow Qdrant to run on read-only FS",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3321",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:31:52.552Z",
-            "updated_at": "2025-11-23T14:31:52.552Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:32:16.074Z",
-            "updated_at": "2025-11-23T14:32:16.074Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:16.216Z",
-            "updated_at": "2025-11-23T14:32:16.216Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-23T14:32:16.342Z",
-            "updated_at": "2025-11-23T14:32:16.342Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:32:16.246Z",
-            "updated_at": "2025-11-23T14:32:16.246Z"
-          },
-          {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:32:16.375Z",
-            "updated_at": "2025-11-23T14:32:16.375Z"
-          },
-          {
-            "id": "GolemCloud#21",
-            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/21",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-23T14:32:16.507Z",
-            "updated_at": "2025-11-23T14:32:16.507Z"
-          }
-        ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "onyx-dot-app#2282",
-            "title": "Github Pages Connector",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-23T14:32:15.295Z",
-            "updated_at": "2025-11-23T14:32:15.295Z"
+            "created_at": "2025-11-23T14:43:07.483Z",
+            "updated_at": "2025-11-23T14:43:07.483Z"
           },
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-23T14:32:15.459Z",
-            "updated_at": "2025-11-23T14:32:15.459Z"
+            "created_at": "2025-11-23T14:43:07.898Z",
+            "updated_at": "2025-11-23T14:43:07.898Z"
           }
         ],
-        "last_updated": "2025-11-23T14:32:33.456Z",
+        "last_updated": "2025-11-23T14:43:35.854Z",
         "scrape_duration_ms": 0
       }
     ]
