@@ -1,60 +1,114 @@
 {
-  "generated_at": "2025-11-24T15:18:43.395Z",
-  "total_organizations": 4,
-  "total_bounties": 17,
-  "total_value_usd": 1700,
+  "generated_at": "2025-11-24T15:45:55.783Z",
+  "total_organizations": 5,
+  "total_bounties": 14,
+  "total_value_usd": 1400,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-24T15:18:15.374Z",
-          "updated_at": "2025-11-24T15:18:15.374Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:15.784Z",
-          "updated_at": "2025-11-24T15:18:15.784Z"
-        },
-        {
-          "id": "qdrant#3321",
-          "title": "Allow Qdrant to run on read-only FS",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3321",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:16.649Z",
-          "updated_at": "2025-11-24T15:18:16.649Z"
+          "created_at": "2025-11-24T15:45:07.028Z",
+          "updated_at": "2025-11-24T15:45:07.028Z"
         }
       ],
-      "last_updated": "2025-11-24T15:18:43.395Z",
+      "last_updated": "2025-11-24T15:45:55.782Z",
       "scrape_duration_ms": 0
     },
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "golemcloud#275",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-24T15:45:07.027Z",
+          "updated_at": "2025-11-24T15:45:07.027Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-24T15:45:09.149Z",
+          "updated_at": "2025-11-24T15:45:09.149Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-24T15:45:11.533Z",
+          "updated_at": "2025-11-24T15:45:11.533Z"
+        }
+      ],
+      "last_updated": "2025-11-24T15:45:55.782Z",
+      "scrape_duration_ms": 0
+    },
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "onyx-dot-app#2282",
+          "title": "Github Pages Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-24T15:45:07.028Z",
+          "updated_at": "2025-11-24T15:45:07.028Z"
+        },
+        {
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-24T15:45:11.546Z",
+          "updated_at": "2025-11-24T15:45:11.546Z"
+        }
+      ],
+      "last_updated": "2025-11-24T15:45:55.782Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
           "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
           "url": "https://github.com/golemcloud/golem/issues/1926",
@@ -62,11 +116,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-24T15:18:15.785Z",
-          "updated_at": "2025-11-24T15:18:15.785Z"
+          "created_at": "2025-11-24T15:45:34.042Z",
+          "updated_at": "2025-11-24T15:45:34.042Z"
         },
         {
-          "id": "golemcloud#23",
+          "id": "GolemCloud#23",
           "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
           "url": "https://github.com/golemcloud/golem-ai/issues/23",
@@ -74,11 +128,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-24T15:18:16.648Z",
-          "updated_at": "2025-11-24T15:18:16.648Z"
+          "created_at": "2025-11-24T15:45:34.151Z",
+          "updated_at": "2025-11-24T15:45:34.151Z"
         },
         {
-          "id": "golemcloud#21",
+          "id": "GolemCloud#21",
           "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
           "amount_usd": 100,
           "url": "https://github.com/golemcloud/golem-ai/issues/21",
@@ -86,153 +140,79 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-24T15:18:17.486Z",
-          "updated_at": "2025-11-24T15:18:17.486Z"
+          "created_at": "2025-11-24T15:45:34.279Z",
+          "updated_at": "2025-11-24T15:45:34.279Z"
         }
       ],
-      "last_updated": "2025-11-24T15:18:43.395Z",
+      "last_updated": "2025-11-24T15:45:55.782Z",
       "scrape_duration_ms": 0
     },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
       "bounty_count": 5,
       "total_value_usd": 500,
       "bounties": [
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-24T15:18:15.374Z",
-          "updated_at": "2025-11-24T15:18:15.374Z"
+          "created_at": "2025-11-24T15:45:36.153Z",
+          "updated_at": "2025-11-24T15:45:36.153Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-24T15:18:15.784Z",
-          "updated_at": "2025-11-24T15:18:15.784Z"
+          "created_at": "2025-11-24T15:45:36.255Z",
+          "updated_at": "2025-11-24T15:45:36.255Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/keephq/keep/issues/3376",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-24T15:18:16.648Z",
-          "updated_at": "2025-11-24T15:18:16.648Z"
+          "created_at": "2025-11-24T15:45:36.375Z",
+          "updated_at": "2025-11-24T15:45:36.375Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/keephq/keep/issues/3379",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-24T15:18:17.486Z",
-          "updated_at": "2025-11-24T15:18:17.486Z"
+          "created_at": "2025-11-24T15:45:36.500Z",
+          "updated_at": "2025-11-24T15:45:36.500Z"
         },
         {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-24T15:18:19.899Z",
-          "updated_at": "2025-11-24T15:18:19.899Z"
+          "created_at": "2025-11-24T15:45:36.669Z",
+          "updated_at": "2025-11-24T15:45:36.669Z"
         }
       ],
-      "last_updated": "2025-11-24T15:18:43.395Z",
-      "scrape_duration_ms": 0
-    },
-    "Mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
-      "bounties": [
-        {
-          "id": "Mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-24T15:18:15.374Z",
-          "updated_at": "2025-11-24T15:18:15.374Z"
-        },
-        {
-          "id": "Mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-24T15:18:15.784Z",
-          "updated_at": "2025-11-24T15:18:15.784Z"
-        },
-        {
-          "id": "Mudlet#7126",
-          "title": "Implement sentry.io's Qt SDK for crash reporting",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:16.649Z",
-          "updated_at": "2025-11-24T15:18:16.649Z"
-        },
-        {
-          "id": "Mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:17.486Z",
-          "updated_at": "2025-11-24T15:18:17.486Z"
-        },
-        {
-          "id": "Mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:19.826Z",
-          "updated_at": "2025-11-24T15:18:19.826Z"
-        },
-        {
-          "id": "Mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-24T15:18:22.310Z",
-          "updated_at": "2025-11-24T15:18:22.310Z"
-        }
-      ],
-      "last_updated": "2025-11-24T15:18:43.395Z",
+      "last_updated": "2025-11-24T15:45:55.782Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 122854,
+    "processing_time_ms": 144024,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -241,195 +221,120 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "Mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
-        "bounties": [
-          {
-            "id": "Mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-24T15:18:15.374Z",
-            "updated_at": "2025-11-24T15:18:15.374Z"
-          },
-          {
-            "id": "Mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-24T15:18:15.784Z",
-            "updated_at": "2025-11-24T15:18:15.784Z"
-          },
-          {
-            "id": "Mudlet#7126",
-            "title": "Implement sentry.io's Qt SDK for crash reporting",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-24T15:18:16.649Z",
-            "updated_at": "2025-11-24T15:18:16.649Z"
-          },
-          {
-            "id": "Mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-24T15:18:17.486Z",
-            "updated_at": "2025-11-24T15:18:17.486Z"
-          },
-          {
-            "id": "Mudlet#707",
-            "title": "Undo/redo support in editor",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-24T15:18:19.826Z",
-            "updated_at": "2025-11-24T15:18:19.826Z"
-          },
-          {
-            "id": "Mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-24T15:18:22.310Z",
-            "updated_at": "2025-11-24T15:18:22.310Z"
-          }
-        ],
-        "last_updated": "2025-11-24T15:18:43.395Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
         "bounty_count": 5,
         "total_value_usd": 500,
         "bounties": [
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-24T15:18:15.374Z",
-            "updated_at": "2025-11-24T15:18:15.374Z"
+            "created_at": "2025-11-24T15:45:36.153Z",
+            "updated_at": "2025-11-24T15:45:36.153Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:15.784Z",
-            "updated_at": "2025-11-24T15:18:15.784Z"
+            "created_at": "2025-11-24T15:45:36.255Z",
+            "updated_at": "2025-11-24T15:45:36.255Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:16.648Z",
-            "updated_at": "2025-11-24T15:18:16.648Z"
+            "created_at": "2025-11-24T15:45:36.375Z",
+            "updated_at": "2025-11-24T15:45:36.375Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:17.486Z",
-            "updated_at": "2025-11-24T15:18:17.486Z"
+            "created_at": "2025-11-24T15:45:36.500Z",
+            "updated_at": "2025-11-24T15:45:36.500Z"
           },
           {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:19.899Z",
-            "updated_at": "2025-11-24T15:18:19.899Z"
+            "created_at": "2025-11-24T15:45:36.669Z",
+            "updated_at": "2025-11-24T15:45:36.669Z"
           }
         ],
-        "last_updated": "2025-11-24T15:18:43.395Z",
+        "last_updated": "2025-11-24T15:45:55.782Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-24T15:18:15.374Z",
-            "updated_at": "2025-11-24T15:18:15.374Z"
+            "created_at": "2025-11-24T15:45:07.027Z",
+            "updated_at": "2025-11-24T15:45:07.027Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:15.784Z",
-            "updated_at": "2025-11-24T15:18:15.784Z"
+            "created_at": "2025-11-24T15:45:09.149Z",
+            "updated_at": "2025-11-24T15:45:09.149Z"
           },
           {
-            "id": "qdrant#3321",
-            "title": "Allow Qdrant to run on read-only FS",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3321",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-24T15:18:16.649Z",
-            "updated_at": "2025-11-24T15:18:16.649Z"
+            "created_at": "2025-11-24T15:45:11.533Z",
+            "updated_at": "2025-11-24T15:45:11.533Z"
           }
         ],
-        "last_updated": "2025-11-24T15:18:43.395Z",
+        "last_updated": "2025-11-24T15:45:55.782Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "golemcloud#275",
+            "id": "GolemCloud#275",
             "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
             "url": "https://github.com/golemcloud/golem/issues/1926",
@@ -437,11 +342,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-24T15:18:15.785Z",
-            "updated_at": "2025-11-24T15:18:15.785Z"
+            "created_at": "2025-11-24T15:45:34.042Z",
+            "updated_at": "2025-11-24T15:45:34.042Z"
           },
           {
-            "id": "golemcloud#23",
+            "id": "GolemCloud#23",
             "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
             "url": "https://github.com/golemcloud/golem-ai/issues/23",
@@ -449,11 +354,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-24T15:18:16.648Z",
-            "updated_at": "2025-11-24T15:18:16.648Z"
+            "created_at": "2025-11-24T15:45:34.151Z",
+            "updated_at": "2025-11-24T15:45:34.151Z"
           },
           {
-            "id": "golemcloud#21",
+            "id": "GolemCloud#21",
             "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
             "amount_usd": 100,
             "url": "https://github.com/golemcloud/golem-ai/issues/21",
@@ -461,11 +366,67 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-24T15:18:17.486Z",
-            "updated_at": "2025-11-24T15:18:17.486Z"
+            "created_at": "2025-11-24T15:45:34.279Z",
+            "updated_at": "2025-11-24T15:45:34.279Z"
           }
         ],
-        "last_updated": "2025-11-24T15:18:43.395Z",
+        "last_updated": "2025-11-24T15:45:55.782Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "onyx-dot-app#2282",
+            "title": "Github Pages Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-24T15:45:07.028Z",
+            "updated_at": "2025-11-24T15:45:07.028Z"
+          },
+          {
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-24T15:45:11.546Z",
+            "updated_at": "2025-11-24T15:45:11.546Z"
+          }
+        ],
+        "last_updated": "2025-11-24T15:45:55.782Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-24T15:45:07.028Z",
+            "updated_at": "2025-11-24T15:45:07.028Z"
+          }
+        ],
+        "last_updated": "2025-11-24T15:45:55.782Z",
         "scrape_duration_ms": 0
       }
     ]
