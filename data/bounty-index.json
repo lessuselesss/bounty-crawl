@@ -1,296 +1,232 @@
 {
-  "generated_at": "2025-11-25T17:52:36.795Z",
-  "total_organizations": 4,
-  "total_bounties": 23,
-  "total_value_usd": 2300,
+  "generated_at": "2025-11-25T18:24:26.714Z",
+  "total_organizations": 3,
+  "total_bounties": 18,
+  "total_value_usd": 1800,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T17:52:07.572Z",
-          "updated_at": "2025-11-25T17:52:07.572Z"
-        }
-      ],
-      "last_updated": "2025-11-25T17:52:36.795Z",
-      "scrape_duration_ms": 0
-    },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
-          "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-25T17:52:07.756Z",
-          "updated_at": "2025-11-25T17:52:07.756Z"
+          "created_at": "2025-11-25T18:23:42.707Z",
+          "updated_at": "2025-11-25T18:23:42.707Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:23:45.195Z",
+          "updated_at": "2025-11-25T18:23:45.195Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:23:47.668Z",
+          "updated_at": "2025-11-25T18:23:47.668Z"
+        }
+      ],
+      "last_updated": "2025-11-25T18:24:26.714Z",
+      "scrape_duration_ms": 0
+    },
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T17:52:08.774Z",
-          "updated_at": "2025-11-25T17:52:08.774Z"
+          "created_at": "2025-11-25T18:24:08.192Z",
+          "updated_at": "2025-11-25T18:24:08.192Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.387Z",
+          "updated_at": "2025-11-25T18:24:08.387Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.558Z",
+          "updated_at": "2025-11-25T18:24:08.558Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.759Z",
+          "updated_at": "2025-11-25T18:24:08.759Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.959Z",
+          "updated_at": "2025-11-25T18:24:08.959Z"
         }
       ],
-      "last_updated": "2025-11-25T17:52:36.795Z",
+      "last_updated": "2025-11-25T18:24:26.714Z",
       "scrape_duration_ms": 0
     },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "mediar-ai#378",
-          "title": "Create workflow: \"Supplier invoice reconciliation\"",
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/378",
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T17:52:07.063Z",
-          "updated_at": "2025-11-25T17:52:07.063Z"
+          "created_at": "2025-11-25T18:24:07.870Z",
+          "updated_at": "2025-11-25T18:24:07.870Z"
         },
         {
-          "id": "mediar-ai#357",
-          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
+          "id": "coollabsio#7172",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/357",
+          "url": "https://github.com/coollabsio/coolify/issues/7172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.073Z",
+          "updated_at": "2025-11-25T18:24:08.073Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.267Z",
+          "updated_at": "2025-11-25T18:24:08.267Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.465Z",
+          "updated_at": "2025-11-25T18:24:08.465Z"
+        },
+        {
+          "id": "coollabsio#4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.684Z",
+          "updated_at": "2025-11-25T18:24:08.684Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:08.861Z",
+          "updated_at": "2025-11-25T18:24:08.861Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:24:09.071Z",
+          "updated_at": "2025-11-25T18:24:09.071Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T17:52:07.669Z",
-          "updated_at": "2025-11-25T17:52:07.669Z"
+          "created_at": "2025-11-25T18:24:09.091Z",
+          "updated_at": "2025-11-25T18:24:09.091Z"
         },
         {
-          "id": "mediar-ai#353",
-          "title": "create a typescript workflow that test the browser script bridge",
+          "id": "coollabsio#4117",
+          "title": "[Enhancement]: Improve navigation from breadcrumb",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/353",
+          "url": "https://github.com/coollabsio/coolify/issues/4117",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T17:52:08.319Z",
-          "updated_at": "2025-11-25T17:52:08.319Z"
+          "created_at": "2025-11-25T18:24:09.331Z",
+          "updated_at": "2025-11-25T18:24:09.331Z"
         },
         {
-          "id": "mediar-ai#352",
-          "title": "increase success rate of browser extension workflow",
+          "id": "coollabsio#2495",
+          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/352",
+          "url": "https://github.com/coollabsio/coolify/issues/2495",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T17:52:08.941Z",
-          "updated_at": "2025-11-25T17:52:08.941Z"
-        },
-        {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:10.954Z",
-          "updated_at": "2025-11-25T17:52:10.954Z"
-        },
-        {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:12.610Z",
-          "updated_at": "2025-11-25T17:52:12.610Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:15.560Z",
-          "updated_at": "2025-11-25T17:52:15.560Z"
-        },
-        {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:18.457Z",
-          "updated_at": "2025-11-25T17:52:18.457Z"
-        },
-        {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:20.817Z",
-          "updated_at": "2025-11-25T17:52:20.817Z"
-        },
-        {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:22.468Z",
-          "updated_at": "2025-11-25T17:52:22.468Z"
+          "created_at": "2025-11-25T18:24:09.523Z",
+          "updated_at": "2025-11-25T18:24:09.523Z"
         }
       ],
-      "last_updated": "2025-11-25T17:52:36.795Z",
-      "scrape_duration_ms": 0
-    },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-25T17:52:07.571Z",
-          "updated_at": "2025-11-25T17:52:07.571Z"
-        },
-        {
-          "id": "tscircuit#83",
-          "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:08.231Z",
-          "updated_at": "2025-11-25T17:52:08.231Z"
-        },
-        {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:08.941Z",
-          "updated_at": "2025-11-25T17:52:08.941Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:12.611Z",
-          "updated_at": "2025-11-25T17:52:12.611Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:15.560Z",
-          "updated_at": "2025-11-25T17:52:15.560Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:20.818Z",
-          "updated_at": "2025-11-25T17:52:20.818Z"
-        },
-        {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:22.468Z",
-          "updated_at": "2025-11-25T17:52:22.468Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:24.712Z",
-          "updated_at": "2025-11-25T17:52:24.712Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:25.453Z",
-          "updated_at": "2025-11-25T17:52:25.453Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T17:52:25.978Z",
-          "updated_at": "2025-11-25T17:52:25.978Z"
-        }
-      ],
-      "last_updated": "2025-11-25T17:52:36.795Z",
+      "last_updated": "2025-11-25T18:24:26.714Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 125287,
+    "processing_time_ms": 151035,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -299,289 +235,224 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "mediar-ai#378",
-            "title": "Create workflow: \"Supplier invoice reconciliation\"",
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/378",
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T17:52:07.063Z",
-            "updated_at": "2025-11-25T17:52:07.063Z"
+            "created_at": "2025-11-25T18:24:07.870Z",
+            "updated_at": "2025-11-25T18:24:07.870Z"
           },
           {
-            "id": "mediar-ai#357",
-            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
+            "id": "coollabsio#7172",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/357",
+            "url": "https://github.com/coollabsio/coolify/issues/7172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:08.073Z",
+            "updated_at": "2025-11-25T18:24:08.073Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:08.267Z",
+            "updated_at": "2025-11-25T18:24:08.267Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:08.465Z",
+            "updated_at": "2025-11-25T18:24:08.465Z"
+          },
+          {
+            "id": "coollabsio#4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:08.684Z",
+            "updated_at": "2025-11-25T18:24:08.684Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:08.861Z",
+            "updated_at": "2025-11-25T18:24:08.861Z"
+          },
+          {
+            "id": "coollabsio#6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-25T18:24:09.071Z",
+            "updated_at": "2025-11-25T18:24:09.071Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T17:52:07.669Z",
-            "updated_at": "2025-11-25T17:52:07.669Z"
+            "created_at": "2025-11-25T18:24:09.091Z",
+            "updated_at": "2025-11-25T18:24:09.091Z"
           },
           {
-            "id": "mediar-ai#353",
-            "title": "create a typescript workflow that test the browser script bridge",
+            "id": "coollabsio#4117",
+            "title": "[Enhancement]: Improve navigation from breadcrumb",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/353",
+            "url": "https://github.com/coollabsio/coolify/issues/4117",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:08.319Z",
-            "updated_at": "2025-11-25T17:52:08.319Z"
+            "created_at": "2025-11-25T18:24:09.331Z",
+            "updated_at": "2025-11-25T18:24:09.331Z"
           },
           {
-            "id": "mediar-ai#352",
-            "title": "increase success rate of browser extension workflow",
+            "id": "coollabsio#2495",
+            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/352",
+            "url": "https://github.com/coollabsio/coolify/issues/2495",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:08.941Z",
-            "updated_at": "2025-11-25T17:52:08.941Z"
-          },
-          {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:10.954Z",
-            "updated_at": "2025-11-25T17:52:10.954Z"
-          },
-          {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:12.610Z",
-            "updated_at": "2025-11-25T17:52:12.610Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:15.560Z",
-            "updated_at": "2025-11-25T17:52:15.560Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:18.457Z",
-            "updated_at": "2025-11-25T17:52:18.457Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:20.817Z",
-            "updated_at": "2025-11-25T17:52:20.817Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:22.468Z",
-            "updated_at": "2025-11-25T17:52:22.468Z"
+            "created_at": "2025-11-25T18:24:09.523Z",
+            "updated_at": "2025-11-25T18:24:09.523Z"
           }
         ],
-        "last_updated": "2025-11-25T17:52:36.795Z",
+        "last_updated": "2025-11-25T18:24:26.714Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T17:52:07.571Z",
-            "updated_at": "2025-11-25T17:52:07.571Z"
+            "created_at": "2025-11-25T18:24:08.192Z",
+            "updated_at": "2025-11-25T18:24:08.192Z"
           },
           {
-            "id": "tscircuit#83",
-            "title": "In the case of multiple overlaps on a parallel line, choose to offset to minimize crossings",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/83",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:08.231Z",
-            "updated_at": "2025-11-25T17:52:08.231Z"
+            "created_at": "2025-11-25T18:24:08.387Z",
+            "updated_at": "2025-11-25T18:24:08.387Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:08.941Z",
-            "updated_at": "2025-11-25T17:52:08.941Z"
+            "created_at": "2025-11-25T18:24:08.558Z",
+            "updated_at": "2025-11-25T18:24:08.558Z"
           },
           {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:12.611Z",
-            "updated_at": "2025-11-25T17:52:12.611Z"
+            "created_at": "2025-11-25T18:24:08.759Z",
+            "updated_at": "2025-11-25T18:24:08.759Z"
           },
           {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T17:52:15.560Z",
-            "updated_at": "2025-11-25T17:52:15.560Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:20.818Z",
-            "updated_at": "2025-11-25T17:52:20.818Z"
-          },
-          {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:22.468Z",
-            "updated_at": "2025-11-25T17:52:22.468Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:24.712Z",
-            "updated_at": "2025-11-25T17:52:24.712Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:25.453Z",
-            "updated_at": "2025-11-25T17:52:25.453Z"
-          },
-          {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T17:52:25.978Z",
-            "updated_at": "2025-11-25T17:52:25.978Z"
+            "created_at": "2025-11-25T18:24:08.959Z",
+            "updated_at": "2025-11-25T18:24:08.959Z"
           }
         ],
-        "last_updated": "2025-11-25T17:52:36.795Z",
+        "last_updated": "2025-11-25T18:24:26.714Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T17:52:07.756Z",
-            "updated_at": "2025-11-25T17:52:07.756Z"
+            "created_at": "2025-11-25T18:23:42.707Z",
+            "updated_at": "2025-11-25T18:23:42.707Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-25T17:52:08.774Z",
-            "updated_at": "2025-11-25T17:52:08.774Z"
-          }
-        ],
-        "last_updated": "2025-11-25T17:52:36.795Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
+            "tags": [],
+            "created_at": "2025-11-25T18:23:45.195Z",
+            "updated_at": "2025-11-25T18:23:45.195Z"
+          },
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-25T17:52:07.572Z",
-            "updated_at": "2025-11-25T17:52:07.572Z"
+            "tags": [],
+            "created_at": "2025-11-25T18:23:47.668Z",
+            "updated_at": "2025-11-25T18:23:47.668Z"
           }
         ],
-        "last_updated": "2025-11-25T17:52:36.795Z",
+        "last_updated": "2025-11-25T18:24:26.714Z",
         "scrape_duration_ms": 0
       }
     ]
