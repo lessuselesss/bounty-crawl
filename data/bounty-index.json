@@ -1,50 +1,118 @@
 {
-  "generated_at": "2025-11-25T18:24:26.714Z",
-  "total_organizations": 3,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "generated_at": "2025-11-25T18:51:13.234Z",
+  "total_organizations": 4,
+  "total_bounties": 12,
+  "total_value_usd": 1200,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T18:23:42.707Z",
-          "updated_at": "2025-11-25T18:23:42.707Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:23:45.195Z",
-          "updated_at": "2025-11-25T18:23:45.195Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:23:47.668Z",
-          "updated_at": "2025-11-25T18:23:47.668Z"
+          "created_at": "2025-11-25T18:50:47.544Z",
+          "updated_at": "2025-11-25T18:50:47.544Z"
         }
       ],
-      "last_updated": "2025-11-25T18:24:26.714Z",
+      "last_updated": "2025-11-25T18:51:13.233Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-25T18:50:47.881Z",
+          "updated_at": "2025-11-25T18:50:47.881Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:50:48.314Z",
+          "updated_at": "2025-11-25T18:50:48.314Z"
+        },
+        {
+          "id": "qdrant#3321",
+          "title": "Allow Qdrant to run on read-only FS",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3321",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-25T18:50:49.090Z",
+          "updated_at": "2025-11-25T18:50:49.090Z"
+        }
+      ],
+      "last_updated": "2025-11-25T18:51:13.234Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-25T18:50:47.881Z",
+          "updated_at": "2025-11-25T18:50:47.881Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-25T18:50:48.315Z",
+          "updated_at": "2025-11-25T18:50:48.315Z"
+        },
+        {
+          "id": "GolemCloud#21",
+          "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/21",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-25T18:50:49.091Z",
+          "updated_at": "2025-11-25T18:50:49.091Z"
+        }
+      ],
+      "last_updated": "2025-11-25T18:51:13.234Z",
       "scrape_duration_ms": 0
     },
     "keephq": {
@@ -62,8 +130,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-25T18:24:08.192Z",
-          "updated_at": "2025-11-25T18:24:08.192Z"
+          "created_at": "2025-11-25T18:50:47.880Z",
+          "updated_at": "2025-11-25T18:50:47.880Z"
         },
         {
           "id": "keephq#3526",
@@ -72,8 +140,8 @@
           "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T18:24:08.387Z",
-          "updated_at": "2025-11-25T18:24:08.387Z"
+          "created_at": "2025-11-25T18:50:48.315Z",
+          "updated_at": "2025-11-25T18:50:48.315Z"
         },
         {
           "id": "keephq#3376",
@@ -82,8 +150,8 @@
           "url": "https://github.com/keephq/keep/issues/3376",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T18:24:08.558Z",
-          "updated_at": "2025-11-25T18:24:08.558Z"
+          "created_at": "2025-11-25T18:50:49.090Z",
+          "updated_at": "2025-11-25T18:50:49.090Z"
         },
         {
           "id": "keephq#3379",
@@ -92,8 +160,8 @@
           "url": "https://github.com/keephq/keep/issues/3379",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T18:24:08.759Z",
-          "updated_at": "2025-11-25T18:24:08.759Z"
+          "created_at": "2025-11-25T18:50:49.749Z",
+          "updated_at": "2025-11-25T18:50:49.749Z"
         },
         {
           "id": "keephq#2112",
@@ -102,131 +170,17 @@
           "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-25T18:24:08.959Z",
-          "updated_at": "2025-11-25T18:24:08.959Z"
+          "created_at": "2025-11-25T18:50:51.552Z",
+          "updated_at": "2025-11-25T18:50:51.552Z"
         }
       ],
-      "last_updated": "2025-11-25T18:24:26.714Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-25T18:24:07.870Z",
-          "updated_at": "2025-11-25T18:24:07.870Z"
-        },
-        {
-          "id": "coollabsio#7172",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:08.073Z",
-          "updated_at": "2025-11-25T18:24:08.073Z"
-        },
-        {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:08.267Z",
-          "updated_at": "2025-11-25T18:24:08.267Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:08.465Z",
-          "updated_at": "2025-11-25T18:24:08.465Z"
-        },
-        {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:08.684Z",
-          "updated_at": "2025-11-25T18:24:08.684Z"
-        },
-        {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:08.861Z",
-          "updated_at": "2025-11-25T18:24:08.861Z"
-        },
-        {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:09.071Z",
-          "updated_at": "2025-11-25T18:24:09.071Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-25T18:24:09.091Z",
-          "updated_at": "2025-11-25T18:24:09.091Z"
-        },
-        {
-          "id": "coollabsio#4117",
-          "title": "[Enhancement]: Improve navigation from breadcrumb",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4117",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:09.331Z",
-          "updated_at": "2025-11-25T18:24:09.331Z"
-        },
-        {
-          "id": "coollabsio#2495",
-          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2495",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-25T18:24:09.523Z",
-          "updated_at": "2025-11-25T18:24:09.523Z"
-        }
-      ],
-      "last_updated": "2025-11-25T18:24:26.714Z",
+      "last_updated": "2025-11-25T18:51:13.234Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 151035,
+    "processing_time_ms": 110643,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -234,121 +188,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-25T18:24:07.870Z",
-            "updated_at": "2025-11-25T18:24:07.870Z"
-          },
-          {
-            "id": "coollabsio#7172",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7172",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:08.073Z",
-            "updated_at": "2025-11-25T18:24:08.073Z"
-          },
-          {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:08.267Z",
-            "updated_at": "2025-11-25T18:24:08.267Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:08.465Z",
-            "updated_at": "2025-11-25T18:24:08.465Z"
-          },
-          {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:08.684Z",
-            "updated_at": "2025-11-25T18:24:08.684Z"
-          },
-          {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:08.861Z",
-            "updated_at": "2025-11-25T18:24:08.861Z"
-          },
-          {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:09.071Z",
-            "updated_at": "2025-11-25T18:24:09.071Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-25T18:24:09.091Z",
-            "updated_at": "2025-11-25T18:24:09.091Z"
-          },
-          {
-            "id": "coollabsio#4117",
-            "title": "[Enhancement]: Improve navigation from breadcrumb",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4117",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:09.331Z",
-            "updated_at": "2025-11-25T18:24:09.331Z"
-          },
-          {
-            "id": "coollabsio#2495",
-            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2495",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-25T18:24:09.523Z",
-            "updated_at": "2025-11-25T18:24:09.523Z"
-          }
-        ],
-        "last_updated": "2025-11-25T18:24:26.714Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "keephq",
         "display_name": "Keephq",
@@ -365,8 +204,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T18:24:08.192Z",
-            "updated_at": "2025-11-25T18:24:08.192Z"
+            "created_at": "2025-11-25T18:50:47.880Z",
+            "updated_at": "2025-11-25T18:50:47.880Z"
           },
           {
             "id": "keephq#3526",
@@ -375,8 +214,8 @@
             "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:24:08.387Z",
-            "updated_at": "2025-11-25T18:24:08.387Z"
+            "created_at": "2025-11-25T18:50:48.315Z",
+            "updated_at": "2025-11-25T18:50:48.315Z"
           },
           {
             "id": "keephq#3376",
@@ -385,8 +224,8 @@
             "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:24:08.558Z",
-            "updated_at": "2025-11-25T18:24:08.558Z"
+            "created_at": "2025-11-25T18:50:49.090Z",
+            "updated_at": "2025-11-25T18:50:49.090Z"
           },
           {
             "id": "keephq#3379",
@@ -395,8 +234,8 @@
             "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:24:08.759Z",
-            "updated_at": "2025-11-25T18:24:08.759Z"
+            "created_at": "2025-11-25T18:50:49.749Z",
+            "updated_at": "2025-11-25T18:50:49.749Z"
           },
           {
             "id": "keephq#2112",
@@ -405,54 +244,124 @@
             "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:24:08.959Z",
-            "updated_at": "2025-11-25T18:24:08.959Z"
+            "created_at": "2025-11-25T18:50:51.552Z",
+            "updated_at": "2025-11-25T18:50:51.552Z"
           }
         ],
-        "last_updated": "2025-11-25T18:24:26.714Z",
+        "last_updated": "2025-11-25T18:51:13.234Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-25T18:23:42.707Z",
-            "updated_at": "2025-11-25T18:23:42.707Z"
+            "created_at": "2025-11-25T18:50:47.881Z",
+            "updated_at": "2025-11-25T18:50:47.881Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:23:45.195Z",
-            "updated_at": "2025-11-25T18:23:45.195Z"
+            "created_at": "2025-11-25T18:50:48.314Z",
+            "updated_at": "2025-11-25T18:50:48.314Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "qdrant#3321",
+            "title": "Allow Qdrant to run on read-only FS",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/qdrant/qdrant/issues/3321",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-25T18:23:47.668Z",
-            "updated_at": "2025-11-25T18:23:47.668Z"
+            "created_at": "2025-11-25T18:50:49.090Z",
+            "updated_at": "2025-11-25T18:50:49.090Z"
           }
         ],
-        "last_updated": "2025-11-25T18:24:26.714Z",
+        "last_updated": "2025-11-25T18:51:13.234Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-25T18:50:47.881Z",
+            "updated_at": "2025-11-25T18:50:47.881Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-25T18:50:48.315Z",
+            "updated_at": "2025-11-25T18:50:48.315Z"
+          },
+          {
+            "id": "GolemCloud#21",
+            "title": "Implement Durable Vector Database Provider Components for golem:vector WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/21",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-25T18:50:49.091Z",
+            "updated_at": "2025-11-25T18:50:49.091Z"
+          }
+        ],
+        "last_updated": "2025-11-25T18:51:13.234Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-25T18:50:47.544Z",
+            "updated_at": "2025-11-25T18:50:47.544Z"
+          }
+        ],
+        "last_updated": "2025-11-25T18:51:13.233Z",
         "scrape_duration_ms": 0
       }
     ]
