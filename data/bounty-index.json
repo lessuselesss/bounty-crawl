@@ -1,10 +1,32 @@
 {
-  "generated_at": "2025-11-28T21:31:25.480Z",
-  "total_organizations": 2,
-  "total_bounties": 6,
-  "total_value_usd": 600,
+  "generated_at": "2025-11-28T21:40:49.224Z",
+  "total_organizations": 6,
+  "total_bounties": 22,
+  "total_value_usd": 2200,
   "version": "3.0.0",
   "organizations": {
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-28T21:40:02.073Z",
+          "updated_at": "2025-11-28T21:40:02.073Z"
+        }
+      ],
+      "last_updated": "2025-11-28T21:40:49.224Z",
+      "scrape_duration_ms": 0
+    },
     "qdrant": {
       "display_name": "Qdrant",
       "url": "https://algora.io/qdrant/bounties?status=open",
@@ -20,8 +42,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-28T21:30:29.216Z",
-          "updated_at": "2025-11-28T21:30:29.216Z"
+          "created_at": "2025-11-28T21:40:02.073Z",
+          "updated_at": "2025-11-28T21:40:02.073Z"
         },
         {
           "id": "qdrant#3322",
@@ -30,11 +52,53 @@
           "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-28T21:30:29.787Z",
-          "updated_at": "2025-11-28T21:30:29.787Z"
+          "created_at": "2025-11-28T21:40:02.871Z",
+          "updated_at": "2025-11-28T21:40:02.871Z"
         }
       ],
-      "last_updated": "2025-11-28T21:31:25.480Z",
+      "last_updated": "2025-11-28T21:40:49.224Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-28T21:40:05.135Z",
+          "updated_at": "2025-11-28T21:40:05.135Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:05.759Z",
+          "updated_at": "2025-11-28T21:40:05.759Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:07.327Z",
+          "updated_at": "2025-11-28T21:40:07.327Z"
+        }
+      ],
+      "last_updated": "2025-11-28T21:40:49.224Z",
       "scrape_duration_ms": 0
     },
     "highlight": {
@@ -52,8 +116,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-28T21:30:54.593Z",
-          "updated_at": "2025-11-28T21:30:54.593Z"
+          "created_at": "2025-11-28T21:40:05.136Z",
+          "updated_at": "2025-11-28T21:40:05.136Z"
         },
         {
           "id": "highlight#8614",
@@ -62,8 +126,8 @@
           "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-28T21:30:54.698Z",
-          "updated_at": "2025-11-28T21:30:54.698Z"
+          "created_at": "2025-11-28T21:40:05.759Z",
+          "updated_at": "2025-11-28T21:40:05.759Z"
         },
         {
           "id": "highlight#8032",
@@ -72,8 +136,8 @@
           "url": "https://github.com/highlight/highlight/issues/8032",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-28T21:30:54.788Z",
-          "updated_at": "2025-11-28T21:30:54.788Z"
+          "created_at": "2025-11-28T21:40:07.347Z",
+          "updated_at": "2025-11-28T21:40:07.347Z"
         },
         {
           "id": "highlight#6775",
@@ -82,17 +146,163 @@
           "url": "https://github.com/highlight/highlight/issues/6775",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-28T21:30:54.903Z",
-          "updated_at": "2025-11-28T21:30:54.903Z"
+          "created_at": "2025-11-28T21:40:07.647Z",
+          "updated_at": "2025-11-28T21:40:07.647Z"
         }
       ],
-      "last_updated": "2025-11-28T21:31:25.480Z",
+      "last_updated": "2025-11-28T21:40:49.224Z",
+      "scrape_duration_ms": 0
+    },
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "onyx-dot-app#2282",
+          "title": "Github Pages Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-28T21:40:07.327Z",
+          "updated_at": "2025-11-28T21:40:07.327Z"
+        },
+        {
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:08.135Z",
+          "updated_at": "2025-11-28T21:40:08.135Z"
+        }
+      ],
+      "last_updated": "2025-11-28T21:40:49.224Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-28T21:40:02.118Z",
+          "updated_at": "2025-11-28T21:40:02.118Z"
+        },
+        {
+          "id": "coollabsio#7172",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:02.891Z",
+          "updated_at": "2025-11-28T21:40:02.891Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:04.189Z",
+          "updated_at": "2025-11-28T21:40:04.189Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:05.446Z",
+          "updated_at": "2025-11-28T21:40:05.446Z"
+        },
+        {
+          "id": "coollabsio#4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:06.673Z",
+          "updated_at": "2025-11-28T21:40:06.673Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:07.531Z",
+          "updated_at": "2025-11-28T21:40:07.531Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:08.042Z",
+          "updated_at": "2025-11-28T21:40:08.042Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-28T21:40:08.298Z",
+          "updated_at": "2025-11-28T21:40:08.298Z"
+        },
+        {
+          "id": "coollabsio#4117",
+          "title": "[Enhancement]: Improve navigation from breadcrumb",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4117",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:08.431Z",
+          "updated_at": "2025-11-28T21:40:08.431Z"
+        },
+        {
+          "id": "coollabsio#2495",
+          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/2495",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-28T21:40:08.553Z",
+          "updated_at": "2025-11-28T21:40:08.553Z"
+        }
+      ],
+      "last_updated": "2025-11-28T21:40:49.224Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 152401,
+    "processing_time_ms": 125498,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -100,6 +310,121 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-28T21:40:02.118Z",
+            "updated_at": "2025-11-28T21:40:02.118Z"
+          },
+          {
+            "id": "coollabsio#7172",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:02.891Z",
+            "updated_at": "2025-11-28T21:40:02.891Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:04.189Z",
+            "updated_at": "2025-11-28T21:40:04.189Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:05.446Z",
+            "updated_at": "2025-11-28T21:40:05.446Z"
+          },
+          {
+            "id": "coollabsio#4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:06.673Z",
+            "updated_at": "2025-11-28T21:40:06.673Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:07.531Z",
+            "updated_at": "2025-11-28T21:40:07.531Z"
+          },
+          {
+            "id": "coollabsio#6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:08.042Z",
+            "updated_at": "2025-11-28T21:40:08.042Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-28T21:40:08.298Z",
+            "updated_at": "2025-11-28T21:40:08.298Z"
+          },
+          {
+            "id": "coollabsio#4117",
+            "title": "[Enhancement]: Improve navigation from breadcrumb",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4117",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:08.431Z",
+            "updated_at": "2025-11-28T21:40:08.431Z"
+          },
+          {
+            "id": "coollabsio#2495",
+            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/2495",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:08.553Z",
+            "updated_at": "2025-11-28T21:40:08.553Z"
+          }
+        ],
+        "last_updated": "2025-11-28T21:40:49.224Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "highlight",
         "display_name": "Highlight",
@@ -116,8 +441,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-28T21:30:54.593Z",
-            "updated_at": "2025-11-28T21:30:54.593Z"
+            "created_at": "2025-11-28T21:40:05.136Z",
+            "updated_at": "2025-11-28T21:40:05.136Z"
           },
           {
             "id": "highlight#8614",
@@ -126,8 +451,8 @@
             "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-28T21:30:54.698Z",
-            "updated_at": "2025-11-28T21:30:54.698Z"
+            "created_at": "2025-11-28T21:40:05.759Z",
+            "updated_at": "2025-11-28T21:40:05.759Z"
           },
           {
             "id": "highlight#8032",
@@ -136,8 +461,8 @@
             "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-28T21:30:54.788Z",
-            "updated_at": "2025-11-28T21:30:54.788Z"
+            "created_at": "2025-11-28T21:40:07.347Z",
+            "updated_at": "2025-11-28T21:40:07.347Z"
           },
           {
             "id": "highlight#6775",
@@ -146,11 +471,54 @@
             "url": "https://github.com/highlight/highlight/issues/6775",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-28T21:30:54.903Z",
-            "updated_at": "2025-11-28T21:30:54.903Z"
+            "created_at": "2025-11-28T21:40:07.647Z",
+            "updated_at": "2025-11-28T21:40:07.647Z"
           }
         ],
-        "last_updated": "2025-11-28T21:31:25.480Z",
+        "last_updated": "2025-11-28T21:40:49.224Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-28T21:40:05.135Z",
+            "updated_at": "2025-11-28T21:40:05.135Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:05.759Z",
+            "updated_at": "2025-11-28T21:40:05.759Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:07.327Z",
+            "updated_at": "2025-11-28T21:40:07.327Z"
+          }
+        ],
+        "last_updated": "2025-11-28T21:40:49.224Z",
         "scrape_duration_ms": 0
       },
       {
@@ -169,8 +537,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-28T21:30:29.216Z",
-            "updated_at": "2025-11-28T21:30:29.216Z"
+            "created_at": "2025-11-28T21:40:02.073Z",
+            "updated_at": "2025-11-28T21:40:02.073Z"
           },
           {
             "id": "qdrant#3322",
@@ -179,11 +547,67 @@
             "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-28T21:30:29.787Z",
-            "updated_at": "2025-11-28T21:30:29.787Z"
+            "created_at": "2025-11-28T21:40:02.871Z",
+            "updated_at": "2025-11-28T21:40:02.871Z"
           }
         ],
-        "last_updated": "2025-11-28T21:31:25.480Z",
+        "last_updated": "2025-11-28T21:40:49.224Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "onyx-dot-app#2282",
+            "title": "Github Pages Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2282",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-28T21:40:07.327Z",
+            "updated_at": "2025-11-28T21:40:07.327Z"
+          },
+          {
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-28T21:40:08.135Z",
+            "updated_at": "2025-11-28T21:40:08.135Z"
+          }
+        ],
+        "last_updated": "2025-11-28T21:40:49.224Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-28T21:40:02.073Z",
+            "updated_at": "2025-11-28T21:40:02.073Z"
+          }
+        ],
+        "last_updated": "2025-11-28T21:40:49.224Z",
         "scrape_duration_ms": 0
       }
     ]
