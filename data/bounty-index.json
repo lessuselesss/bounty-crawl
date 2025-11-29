@@ -1,222 +1,394 @@
 {
-  "generated_at": "2025-11-29T21:51:25.405Z",
-  "total_organizations": 3,
-  "total_bounties": 17,
-  "total_value_usd": 1700,
+  "generated_at": "2025-11-29T22:15:21.452Z",
+  "total_organizations": 6,
+  "total_bounties": 30,
+  "total_value_usd": 3000,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:14:48.343Z",
+          "updated_at": "2025-11-29T22:14:48.343Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:48.835Z",
+          "updated_at": "2025-11-29T22:14:48.835Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:49.624Z",
+          "updated_at": "2025-11-29T22:14:49.624Z"
+        }
+      ],
+      "last_updated": "2025-11-29T22:15:21.452Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-29T21:50:48.949Z",
-          "updated_at": "2025-11-29T21:50:48.949Z"
+          "created_at": "2025-11-29T22:14:48.835Z",
+          "updated_at": "2025-11-29T22:14:48.835Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:50:49.922Z",
-          "updated_at": "2025-11-29T21:50:49.922Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:14:49.624Z",
+          "updated_at": "2025-11-29T22:14:49.624Z"
         }
       ],
-      "last_updated": "2025-11-29T21:51:25.405Z",
+      "last_updated": "2025-11-29T22:15:21.452Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-29T21:51:13.699Z",
-          "updated_at": "2025-11-29T21:51:13.699Z"
+          "created_at": "2025-11-29T22:14:48.407Z",
+          "updated_at": "2025-11-29T22:14:48.407Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-29T21:51:13.876Z",
-          "updated_at": "2025-11-29T21:51:13.876Z"
+          "created_at": "2025-11-29T22:14:48.835Z",
+          "updated_at": "2025-11-29T22:14:48.834Z"
         },
         {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
+          "url": "https://github.com/permitio/opal/issues/634",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-29T21:51:14.113Z",
-          "updated_at": "2025-11-29T21:51:14.113Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.334Z",
-          "updated_at": "2025-11-29T21:51:14.334Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.530Z",
-          "updated_at": "2025-11-29T21:51:14.530Z"
+          "created_at": "2025-11-29T22:14:49.625Z",
+          "updated_at": "2025-11-29T22:14:49.625Z"
         }
       ],
-      "last_updated": "2025-11-29T21:51:25.405Z",
+      "last_updated": "2025-11-29T22:15:21.452Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:14:48.407Z",
+          "updated_at": "2025-11-29T22:14:48.407Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:14:48.751Z",
+          "updated_at": "2025-11-29T22:14:48.751Z"
+        },
+        {
+          "id": "Mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:49.624Z",
+          "updated_at": "2025-11-29T22:14:49.624Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:50.706Z",
+          "updated_at": "2025-11-29T22:14:50.706Z"
+        },
+        {
+          "id": "Mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:53.608Z",
+          "updated_at": "2025-11-29T22:14:53.608Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:56.485Z",
+          "updated_at": "2025-11-29T22:14:56.485Z"
+        }
+      ],
+      "last_updated": "2025-11-29T22:15:21.452Z",
+      "scrape_duration_ms": 0
+    },
+    "mediar-ai": {
+      "display_name": "Mediar-ai",
+      "url": "https://algora.io/mediar-ai/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "id": "mediar-ai#385",
+          "title": "Create workflow: \"Add mediar app to bitdefender exceptions\"",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/mediar-ai/terminator/issues/385",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-29T21:51:13.778Z",
-          "updated_at": "2025-11-29T21:51:13.778Z"
+          "created_at": "2025-11-29T22:14:48.407Z",
+          "updated_at": "2025-11-29T22:14:48.407Z"
         },
         {
-          "id": "coollabsio#7172",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "id": "mediar-ai#378",
+          "title": "Create workflow: \"Supplier invoice reconciliation\"",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:13.959Z",
-          "updated_at": "2025-11-29T21:51:13.959Z"
-        },
-        {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.161Z",
-          "updated_at": "2025-11-29T21:51:14.161Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.339Z",
-          "updated_at": "2025-11-29T21:51:14.339Z"
-        },
-        {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.595Z",
-          "updated_at": "2025-11-29T21:51:14.595Z"
-        },
-        {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.829Z",
-          "updated_at": "2025-11-29T21:51:14.829Z"
-        },
-        {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-29T21:51:14.988Z",
-          "updated_at": "2025-11-29T21:51:14.988Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/mediar-ai/terminator/issues/378",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-29T21:51:15.008Z",
-          "updated_at": "2025-11-29T21:51:15.008Z"
+          "created_at": "2025-11-29T22:14:48.835Z",
+          "updated_at": "2025-11-29T22:14:48.835Z"
         },
         {
-          "id": "coollabsio#4117",
-          "title": "[Enhancement]: Improve navigation from breadcrumb",
+          "id": "mediar-ai#357",
+          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4117",
+          "url": "https://github.com/mediar-ai/terminator/issues/357",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-29T21:51:15.211Z",
-          "updated_at": "2025-11-29T21:51:15.211Z"
+          "created_at": "2025-11-29T22:14:49.625Z",
+          "updated_at": "2025-11-29T22:14:49.625Z"
         },
         {
-          "id": "coollabsio#2495",
-          "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+          "id": "mediar-ai#353",
+          "title": "create a typescript workflow that test the browser script bridge",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/2495",
+          "url": "https://github.com/mediar-ai/terminator/issues/353",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-29T21:51:15.403Z",
-          "updated_at": "2025-11-29T21:51:15.403Z"
+          "created_at": "2025-11-29T22:14:50.706Z",
+          "updated_at": "2025-11-29T22:14:50.706Z"
+        },
+        {
+          "id": "mediar-ai#352",
+          "title": "increase success rate of browser extension workflow",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/terminator/issues/352",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:53.608Z",
+          "updated_at": "2025-11-29T22:14:53.608Z"
+        },
+        {
+          "id": "mediar-ai#315",
+          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/terminator/issues/315",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:56.485Z",
+          "updated_at": "2025-11-29T22:14:56.485Z"
+        },
+        {
+          "id": "mediar-ai#1626",
+          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:14:58.536Z",
+          "updated_at": "2025-11-29T22:14:58.536Z"
+        },
+        {
+          "id": "mediar-ai#1560",
+          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:00.386Z",
+          "updated_at": "2025-11-29T22:15:00.386Z"
+        },
+        {
+          "id": "mediar-ai#1441",
+          "title": "[bounty] general purpose scrapper",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:01.868Z",
+          "updated_at": "2025-11-29T22:15:01.868Z"
+        },
+        {
+          "id": "mediar-ai#1298",
+          "title": "[docs] document env var somewhere somehow ",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:03.454Z",
+          "updated_at": "2025-11-29T22:15:03.454Z"
         }
       ],
-      "last_updated": "2025-11-29T21:51:25.405Z",
+      "last_updated": "2025-11-29T22:15:21.452Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:15:10.991Z",
+          "updated_at": "2025-11-29T22:15:10.991Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-29T22:15:11.134Z",
+          "updated_at": "2025-11-29T22:15:11.134Z"
+        },
+        {
+          "id": "mudlet#7126",
+          "title": "Implement sentry.io's Qt SDK for crash reporting",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:11.255Z",
+          "updated_at": "2025-11-29T22:15:11.255Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:11.351Z",
+          "updated_at": "2025-11-29T22:15:11.351Z"
+        },
+        {
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:11.443Z",
+          "updated_at": "2025-11-29T22:15:11.443Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-29T22:15:11.450Z",
+          "updated_at": "2025-11-29T22:15:11.450Z"
+        }
+      ],
+      "last_updated": "2025-11-29T22:15:21.452Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 128577,
+    "processing_time_ms": 123753,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -225,214 +397,389 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "mediar-ai",
+        "display_name": "Mediar-ai",
+        "url": "https://algora.io/mediar-ai/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "mediar-ai#385",
+            "title": "Create workflow: \"Add mediar app to bitdefender exceptions\"",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/mediar-ai/terminator/issues/385",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-29T21:51:13.778Z",
-            "updated_at": "2025-11-29T21:51:13.778Z"
+            "created_at": "2025-11-29T22:14:48.407Z",
+            "updated_at": "2025-11-29T22:14:48.407Z"
           },
           {
-            "id": "coollabsio#7172",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "id": "mediar-ai#378",
+            "title": "Create workflow: \"Supplier invoice reconciliation\"",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7172",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:13.959Z",
-            "updated_at": "2025-11-29T21:51:13.959Z"
-          },
-          {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:14.161Z",
-            "updated_at": "2025-11-29T21:51:14.161Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:14.339Z",
-            "updated_at": "2025-11-29T21:51:14.339Z"
-          },
-          {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:14.595Z",
-            "updated_at": "2025-11-29T21:51:14.595Z"
-          },
-          {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:14.829Z",
-            "updated_at": "2025-11-29T21:51:14.829Z"
-          },
-          {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:14.988Z",
-            "updated_at": "2025-11-29T21:51:14.988Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/mediar-ai/terminator/issues/378",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-29T21:51:15.008Z",
-            "updated_at": "2025-11-29T21:51:15.008Z"
+            "created_at": "2025-11-29T22:14:48.835Z",
+            "updated_at": "2025-11-29T22:14:48.835Z"
           },
           {
-            "id": "coollabsio#4117",
-            "title": "[Enhancement]: Improve navigation from breadcrumb",
+            "id": "mediar-ai#357",
+            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4117",
+            "url": "https://github.com/mediar-ai/terminator/issues/357",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-29T21:51:15.211Z",
-            "updated_at": "2025-11-29T21:51:15.211Z"
+            "created_at": "2025-11-29T22:14:49.625Z",
+            "updated_at": "2025-11-29T22:14:49.625Z"
           },
           {
-            "id": "coollabsio#2495",
-            "title": "[Improvement]: Container Info and Network tab (for each container and service)",
+            "id": "mediar-ai#353",
+            "title": "create a typescript workflow that test the browser script bridge",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/2495",
+            "url": "https://github.com/mediar-ai/terminator/issues/353",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-29T21:51:15.403Z",
-            "updated_at": "2025-11-29T21:51:15.403Z"
+            "created_at": "2025-11-29T22:14:50.706Z",
+            "updated_at": "2025-11-29T22:14:50.706Z"
+          },
+          {
+            "id": "mediar-ai#352",
+            "title": "increase success rate of browser extension workflow",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/terminator/issues/352",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:53.608Z",
+            "updated_at": "2025-11-29T22:14:53.608Z"
+          },
+          {
+            "id": "mediar-ai#315",
+            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/terminator/issues/315",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:56.485Z",
+            "updated_at": "2025-11-29T22:14:56.485Z"
+          },
+          {
+            "id": "mediar-ai#1626",
+            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:58.536Z",
+            "updated_at": "2025-11-29T22:14:58.536Z"
+          },
+          {
+            "id": "mediar-ai#1560",
+            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:00.386Z",
+            "updated_at": "2025-11-29T22:15:00.386Z"
+          },
+          {
+            "id": "mediar-ai#1441",
+            "title": "[bounty] general purpose scrapper",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:01.868Z",
+            "updated_at": "2025-11-29T22:15:01.868Z"
+          },
+          {
+            "id": "mediar-ai#1298",
+            "title": "[docs] document env var somewhere somehow ",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:03.454Z",
+            "updated_at": "2025-11-29T22:15:03.454Z"
           }
         ],
-        "last_updated": "2025-11-29T21:51:25.405Z",
+        "last_updated": "2025-11-29T22:15:21.452Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-29T21:51:13.699Z",
-            "updated_at": "2025-11-29T21:51:13.699Z"
+            "created_at": "2025-11-29T22:14:48.407Z",
+            "updated_at": "2025-11-29T22:14:48.407Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:51:13.876Z",
-            "updated_at": "2025-11-29T21:51:13.876Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:14:48.751Z",
+            "updated_at": "2025-11-29T22:14:48.751Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "Mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-29T21:51:14.113Z",
-            "updated_at": "2025-11-29T21:51:14.113Z"
+            "created_at": "2025-11-29T22:14:49.624Z",
+            "updated_at": "2025-11-29T22:14:49.624Z"
           },
           {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-29T21:51:14.334Z",
-            "updated_at": "2025-11-29T21:51:14.334Z"
+            "created_at": "2025-11-29T22:14:50.706Z",
+            "updated_at": "2025-11-29T22:14:50.706Z"
           },
           {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
+            "id": "Mudlet#707",
+            "title": "Undo/redo support in editor",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-29T21:51:14.530Z",
-            "updated_at": "2025-11-29T21:51:14.530Z"
+            "created_at": "2025-11-29T22:14:53.608Z",
+            "updated_at": "2025-11-29T22:14:53.608Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:56.485Z",
+            "updated_at": "2025-11-29T22:14:56.485Z"
           }
         ],
-        "last_updated": "2025-11-29T21:51:25.405Z",
+        "last_updated": "2025-11-29T22:15:21.452Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:15:10.991Z",
+            "updated_at": "2025-11-29T22:15:10.991Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:15:11.134Z",
+            "updated_at": "2025-11-29T22:15:11.134Z"
+          },
+          {
+            "id": "mudlet#7126",
+            "title": "Implement sentry.io's Qt SDK for crash reporting",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/7126",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:11.255Z",
+            "updated_at": "2025-11-29T22:15:11.255Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:11.351Z",
+            "updated_at": "2025-11-29T22:15:11.351Z"
+          },
+          {
+            "id": "mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:11.443Z",
+            "updated_at": "2025-11-29T22:15:11.443Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:15:11.450Z",
+            "updated_at": "2025-11-29T22:15:11.450Z"
+          }
+        ],
+        "last_updated": "2025-11-29T22:15:21.452Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:14:48.343Z",
+            "updated_at": "2025-11-29T22:14:48.343Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:48.835Z",
+            "updated_at": "2025-11-29T22:14:48.835Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:49.624Z",
+            "updated_at": "2025-11-29T22:14:49.624Z"
+          }
+        ],
+        "last_updated": "2025-11-29T22:15:21.452Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:14:48.407Z",
+            "updated_at": "2025-11-29T22:14:48.407Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:48.835Z",
+            "updated_at": "2025-11-29T22:14:48.834Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-29T22:14:49.625Z",
+            "updated_at": "2025-11-29T22:14:49.625Z"
+          }
+        ],
+        "last_updated": "2025-11-29T22:15:21.452Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-29T21:50:48.949Z",
-            "updated_at": "2025-11-29T21:50:48.949Z"
+            "created_at": "2025-11-29T22:14:48.835Z",
+            "updated_at": "2025-11-29T22:14:48.835Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-29T21:50:49.922Z",
-            "updated_at": "2025-11-29T21:50:49.922Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-29T22:14:49.624Z",
+            "updated_at": "2025-11-29T22:14:49.624Z"
           }
         ],
-        "last_updated": "2025-11-29T21:51:25.405Z",
+        "last_updated": "2025-11-29T22:15:21.452Z",
         "scrape_duration_ms": 0
       }
     ]
