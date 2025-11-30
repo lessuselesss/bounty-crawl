@@ -1,170 +1,288 @@
 {
-  "generated_at": "2025-11-30T10:36:50.134Z",
-  "total_organizations": 7,
-  "total_bounties": 31,
-  "total_value_usd": 3100,
+  "generated_at": "2025-11-30T10:51:20.293Z",
+  "total_organizations": 5,
+  "total_bounties": 28,
+  "total_value_usd": 2800,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-30T10:50:41.031Z",
+          "updated_at": "2025-11-30T10:50:41.031Z"
+        }
+      ],
+      "last_updated": "2025-11-30T10:51:20.293Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-30T10:36:04.412Z",
-          "updated_at": "2025-11-30T10:36:04.412Z"
+          "created_at": "2025-11-30T10:50:41.086Z",
+          "updated_at": "2025-11-30T10:50:41.086Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:05.488Z",
-          "updated_at": "2025-11-30T10:36:05.488Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-11-30T10:50:42.395Z",
+          "updated_at": "2025-11-30T10:50:42.395Z"
         }
       ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
+      "last_updated": "2025-11-30T10:51:20.293Z",
       "scrape_duration_ms": 0
     },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-30T10:36:06.689Z",
-          "updated_at": "2025-11-30T10:36:06.689Z"
+          "created_at": "2025-11-30T10:50:40.543Z",
+          "updated_at": "2025-11-30T10:50:40.543Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-30T10:36:07.877Z",
-          "updated_at": "2025-11-30T10:36:07.877Z"
+          "created_at": "2025-11-30T10:50:41.772Z",
+          "updated_at": "2025-11-30T10:50:41.772Z"
+        },
+        {
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:42.897Z",
+          "updated_at": "2025-11-30T10:50:42.897Z"
+        },
+        {
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:45.112Z",
+          "updated_at": "2025-11-30T10:50:45.112Z"
+        },
+        {
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:47.565Z",
+          "updated_at": "2025-11-30T10:50:47.565Z"
+        },
+        {
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:50.231Z",
+          "updated_at": "2025-11-30T10:50:50.231Z"
+        },
+        {
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:52.079Z",
+          "updated_at": "2025-11-30T10:50:52.079Z"
+        },
+        {
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:54.399Z",
+          "updated_at": "2025-11-30T10:50:54.399Z"
+        },
+        {
+          "id": "ZIO#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:56.377Z",
+          "updated_at": "2025-11-30T10:50:56.377Z"
+        },
+        {
+          "id": "ZIO#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:59.126Z",
+          "updated_at": "2025-11-30T10:50:59.126Z"
         }
       ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
+      "last_updated": "2025-11-30T10:51:20.293Z",
       "scrape_duration_ms": 0
     },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/calcom/cal.com/issues/23104",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-30T10:36:10.525Z",
-          "updated_at": "2025-11-30T10:36:10.525Z"
+          "created_at": "2025-11-30T10:50:40.435Z",
+          "updated_at": "2025-11-30T10:50:40.435Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:13.069Z",
-          "updated_at": "2025-11-30T10:36:13.069Z"
+          "tags": [],
+          "created_at": "2025-11-30T10:50:41.773Z",
+          "updated_at": "2025-11-30T10:50:41.773Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:42.897Z",
+          "updated_at": "2025-11-30T10:50:42.897Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:45.189Z",
+          "updated_at": "2025-11-30T10:50:45.189Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:47.566Z",
+          "updated_at": "2025-11-30T10:50:47.566Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:50.231Z",
+          "updated_at": "2025-11-30T10:50:50.231Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:52.070Z",
+          "updated_at": "2025-11-30T10:50:52.070Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:54.400Z",
+          "updated_at": "2025-11-30T10:50:54.400Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:56.377Z",
+          "updated_at": "2025-11-30T10:50:56.377Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-11-30T10:50:59.132Z",
+          "updated_at": "2025-11-30T10:50:59.132Z"
         }
       ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
-      "scrape_duration_ms": 0
-    },
-    "Mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "Mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:10.433Z",
-          "updated_at": "2025-11-30T10:36:10.433Z"
-        },
-        {
-          "id": "Mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:13.148Z",
-          "updated_at": "2025-11-30T10:36:13.148Z"
-        },
-        {
-          "id": "Mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:14.986Z",
-          "updated_at": "2025-11-30T10:36:14.986Z"
-        },
-        {
-          "id": "Mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:17.543Z",
-          "updated_at": "2025-11-30T10:36:17.543Z"
-        },
-        {
-          "id": "Mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:19.504Z",
-          "updated_at": "2025-11-30T10:36:19.504Z"
-        }
-      ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
+      "last_updated": "2025-11-30T10:51:20.293Z",
       "scrape_duration_ms": 0
     },
     "activepieces": {
@@ -182,8 +300,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-11-30T10:36:10.525Z",
-          "updated_at": "2025-11-30T10:36:10.525Z"
+          "created_at": "2025-11-30T10:51:09.662Z",
+          "updated_at": "2025-11-30T10:51:09.662Z"
         },
         {
           "id": "activepieces#8284",
@@ -192,8 +310,8 @@
           "url": "https://github.com/activepieces/activepieces/issues/8284",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-30T10:36:13.149Z",
-          "updated_at": "2025-11-30T10:36:13.149Z"
+          "created_at": "2025-11-30T10:51:09.859Z",
+          "updated_at": "2025-11-30T10:51:09.859Z"
         },
         {
           "id": "activepieces#8135",
@@ -202,8 +320,8 @@
           "url": "https://github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-30T10:36:14.986Z",
-          "updated_at": "2025-11-30T10:36:14.986Z"
+          "created_at": "2025-11-30T10:51:10.058Z",
+          "updated_at": "2025-11-30T10:51:10.058Z"
         },
         {
           "id": "activepieces#8135",
@@ -212,8 +330,8 @@
           "url": "https://github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-30T10:36:17.543Z",
-          "updated_at": "2025-11-30T10:36:17.543Z"
+          "created_at": "2025-11-30T10:51:10.085Z",
+          "updated_at": "2025-11-30T10:51:10.085Z"
         },
         {
           "id": "activepieces#8072",
@@ -222,193 +340,17 @@
           "url": "https://github.com/activepieces/activepieces/issues/8072",
           "status": "open",
           "tags": [],
-          "created_at": "2025-11-30T10:36:19.533Z",
-          "updated_at": "2025-11-30T10:36:19.533Z"
+          "created_at": "2025-11-30T10:51:10.291Z",
+          "updated_at": "2025-11-30T10:51:10.291Z"
         }
       ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:27.850Z",
-          "updated_at": "2025-11-30T10:36:27.850Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:27.874Z",
-          "updated_at": "2025-11-30T10:36:27.874Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:27.898Z",
-          "updated_at": "2025-11-30T10:36:27.898Z"
-        },
-        {
-          "id": "mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:27.923Z",
-          "updated_at": "2025-11-30T10:36:27.923Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:27.947Z",
-          "updated_at": "2025-11-30T10:36:27.947Z"
-        }
-      ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "projectdiscovery#14132",
-          "title": "CVE-2021-23394 - studio-42/elfinder - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14132",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-11-30T10:36:31.238Z",
-          "updated_at": "2025-11-30T10:36:31.238Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.363Z",
-          "updated_at": "2025-11-30T10:36:31.363Z"
-        },
-        {
-          "id": "projectdiscovery#14092",
-          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.476Z",
-          "updated_at": "2025-11-30T10:36:31.476Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.500Z",
-          "updated_at": "2025-11-30T10:36:31.500Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.525Z",
-          "updated_at": "2025-11-30T10:36:31.525Z"
-        },
-        {
-          "id": "projectdiscovery#14060",
-          "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.654Z",
-          "updated_at": "2025-11-30T10:36:31.654Z"
-        },
-        {
-          "id": "projectdiscovery#14026",
-          "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.794Z",
-          "updated_at": "2025-11-30T10:36:31.794Z"
-        },
-        {
-          "id": "projectdiscovery#13997",
-          "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:31.929Z",
-          "updated_at": "2025-11-30T10:36:31.929Z"
-        },
-        {
-          "id": "projectdiscovery#13942",
-          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:32.059Z",
-          "updated_at": "2025-11-30T10:36:32.059Z"
-        },
-        {
-          "id": "projectdiscovery#13942",
-          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-11-30T10:36:32.085Z",
-          "updated_at": "2025-11-30T10:36:32.085Z"
-        }
-      ],
-      "last_updated": "2025-11-30T10:36:50.134Z",
+      "last_updated": "2025-11-30T10:51:20.293Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 132862,
+    "processing_time_ms": 135665,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -417,181 +359,229 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#14132",
-            "title": "CVE-2021-23394 - studio-42/elfinder - Remote Code Execution 💰",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14132",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-30T10:36:31.238Z",
-            "updated_at": "2025-11-30T10:36:31.238Z"
+            "created_at": "2025-11-30T10:50:40.543Z",
+            "updated_at": "2025-11-30T10:50:40.543Z"
           },
           {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.363Z",
-            "updated_at": "2025-11-30T10:36:31.363Z"
+            "created_at": "2025-11-30T10:50:41.772Z",
+            "updated_at": "2025-11-30T10:50:41.772Z"
           },
           {
-            "id": "projectdiscovery#14092",
-            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.476Z",
-            "updated_at": "2025-11-30T10:36:31.476Z"
+            "created_at": "2025-11-30T10:50:42.897Z",
+            "updated_at": "2025-11-30T10:50:42.897Z"
           },
           {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.500Z",
-            "updated_at": "2025-11-30T10:36:31.500Z"
+            "created_at": "2025-11-30T10:50:45.112Z",
+            "updated_at": "2025-11-30T10:50:45.112Z"
           },
           {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.525Z",
-            "updated_at": "2025-11-30T10:36:31.525Z"
+            "created_at": "2025-11-30T10:50:47.565Z",
+            "updated_at": "2025-11-30T10:50:47.565Z"
           },
           {
-            "id": "projectdiscovery#14060",
-            "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.654Z",
-            "updated_at": "2025-11-30T10:36:31.654Z"
+            "created_at": "2025-11-30T10:50:50.231Z",
+            "updated_at": "2025-11-30T10:50:50.231Z"
           },
           {
-            "id": "projectdiscovery#14026",
-            "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
+            "url": "https://github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.794Z",
-            "updated_at": "2025-11-30T10:36:31.794Z"
+            "created_at": "2025-11-30T10:50:52.079Z",
+            "updated_at": "2025-11-30T10:50:52.079Z"
           },
           {
-            "id": "projectdiscovery#13997",
-            "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
+            "url": "https://github.com/zio/zio/issues/9874",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:31.929Z",
-            "updated_at": "2025-11-30T10:36:31.929Z"
+            "created_at": "2025-11-30T10:50:54.399Z",
+            "updated_at": "2025-11-30T10:50:54.399Z"
           },
           {
-            "id": "projectdiscovery#13942",
-            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
+            "id": "ZIO#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
+            "url": "https://github.com/zio/zio/issues/9681",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:32.059Z",
-            "updated_at": "2025-11-30T10:36:32.059Z"
+            "created_at": "2025-11-30T10:50:56.377Z",
+            "updated_at": "2025-11-30T10:50:56.377Z"
           },
           {
-            "id": "projectdiscovery#13942",
-            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
+            "id": "ZIO#9922",
+            "title": "Add tests for `ZStreamAspect`",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
+            "url": "https://github.com/zio/zio/issues/9922",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:32.085Z",
-            "updated_at": "2025-11-30T10:36:32.085Z"
+            "created_at": "2025-11-30T10:50:59.126Z",
+            "updated_at": "2025-11-30T10:50:59.126Z"
           }
         ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
+        "last_updated": "2025-11-30T10:51:20.293Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "Mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "Mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/calcom/cal.com/issues/23104",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-30T10:36:10.433Z",
-            "updated_at": "2025-11-30T10:36:10.433Z"
+            "created_at": "2025-11-30T10:50:40.435Z",
+            "updated_at": "2025-11-30T10:50:40.435Z"
           },
           {
-            "id": "Mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-30T10:36:13.148Z",
-            "updated_at": "2025-11-30T10:36:13.148Z"
-          },
-          {
-            "id": "Mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:14.986Z",
-            "updated_at": "2025-11-30T10:36:14.986Z"
+            "created_at": "2025-11-30T10:50:41.773Z",
+            "updated_at": "2025-11-30T10:50:41.773Z"
           },
           {
-            "id": "Mudlet#707",
-            "title": "Undo/redo support in editor",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:17.543Z",
-            "updated_at": "2025-11-30T10:36:17.543Z"
+            "created_at": "2025-11-30T10:50:42.897Z",
+            "updated_at": "2025-11-30T10:50:42.897Z"
           },
           {
-            "id": "Mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:19.504Z",
-            "updated_at": "2025-11-30T10:36:19.504Z"
+            "created_at": "2025-11-30T10:50:45.189Z",
+            "updated_at": "2025-11-30T10:50:45.189Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:47.566Z",
+            "updated_at": "2025-11-30T10:50:47.566Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:50.231Z",
+            "updated_at": "2025-11-30T10:50:50.231Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:52.070Z",
+            "updated_at": "2025-11-30T10:50:52.070Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:54.400Z",
+            "updated_at": "2025-11-30T10:50:54.400Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:56.377Z",
+            "updated_at": "2025-11-30T10:50:56.377Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-11-30T10:50:59.132Z",
+            "updated_at": "2025-11-30T10:50:59.132Z"
           }
         ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
+        "last_updated": "2025-11-30T10:51:20.293Z",
         "scrape_duration_ms": 0
       },
       {
@@ -610,8 +600,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-30T10:36:10.525Z",
-            "updated_at": "2025-11-30T10:36:10.525Z"
+            "created_at": "2025-11-30T10:51:09.662Z",
+            "updated_at": "2025-11-30T10:51:09.662Z"
           },
           {
             "id": "activepieces#8284",
@@ -620,8 +610,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/8284",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:13.149Z",
-            "updated_at": "2025-11-30T10:36:13.149Z"
+            "created_at": "2025-11-30T10:51:09.859Z",
+            "updated_at": "2025-11-30T10:51:09.859Z"
           },
           {
             "id": "activepieces#8135",
@@ -630,8 +620,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:14.986Z",
-            "updated_at": "2025-11-30T10:36:14.986Z"
+            "created_at": "2025-11-30T10:51:10.058Z",
+            "updated_at": "2025-11-30T10:51:10.058Z"
           },
           {
             "id": "activepieces#8135",
@@ -640,8 +630,8 @@
             "url": "https://github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:17.543Z",
-            "updated_at": "2025-11-30T10:36:17.543Z"
+            "created_at": "2025-11-30T10:51:10.085Z",
+            "updated_at": "2025-11-30T10:51:10.085Z"
           },
           {
             "id": "activepieces#8072",
@@ -650,177 +640,69 @@
             "url": "https://github.com/activepieces/activepieces/issues/8072",
             "status": "open",
             "tags": [],
-            "created_at": "2025-11-30T10:36:19.533Z",
-            "updated_at": "2025-11-30T10:36:19.533Z"
+            "created_at": "2025-11-30T10:51:10.291Z",
+            "updated_at": "2025-11-30T10:51:10.291Z"
           }
         ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
+        "last_updated": "2025-11-30T10:51:20.293Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-30T10:36:27.850Z",
-            "updated_at": "2025-11-30T10:36:27.850Z"
-          },
-          {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-30T10:36:27.874Z",
-            "updated_at": "2025-11-30T10:36:27.874Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-30T10:36:27.898Z",
-            "updated_at": "2025-11-30T10:36:27.898Z"
-          },
-          {
-            "id": "mudlet#707",
-            "title": "Undo/redo support in editor",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-30T10:36:27.923Z",
-            "updated_at": "2025-11-30T10:36:27.923Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-30T10:36:27.947Z",
-            "updated_at": "2025-11-30T10:36:27.947Z"
-          }
-        ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-30T10:36:04.412Z",
-            "updated_at": "2025-11-30T10:36:04.412Z"
+            "created_at": "2025-11-30T10:50:41.086Z",
+            "updated_at": "2025-11-30T10:50:41.086Z"
           },
           {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-11-30T10:36:05.488Z",
-            "updated_at": "2025-11-30T10:36:05.488Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-11-30T10:50:42.395Z",
+            "updated_at": "2025-11-30T10:50:42.395Z"
           }
         ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
+        "last_updated": "2025-11-30T10:51:20.293Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-11-30T10:36:06.689Z",
-            "updated_at": "2025-11-30T10:36:06.689Z"
-          },
-          {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-11-30T10:36:07.877Z",
-            "updated_at": "2025-11-30T10:36:07.877Z"
+            "created_at": "2025-11-30T10:50:41.031Z",
+            "updated_at": "2025-11-30T10:50:41.031Z"
           }
         ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-30T10:36:10.525Z",
-            "updated_at": "2025-11-30T10:36:10.525Z"
-          },
-          {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-11-30T10:36:13.069Z",
-            "updated_at": "2025-11-30T10:36:13.069Z"
-          }
-        ],
-        "last_updated": "2025-11-30T10:36:50.134Z",
+        "last_updated": "2025-11-30T10:51:20.293Z",
         "scrape_duration_ms": 0
       }
     ]
