@@ -1,244 +1,300 @@
 {
-  "generated_at": "2025-12-03T06:55:07.615Z",
-  "total_organizations": 4,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "generated_at": "2025-12-03T07:19:03.018Z",
+  "total_organizations": 5,
+  "total_bounties": 22,
+  "total_value_usd": 2200,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
-          "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T06:54:31.251Z",
-          "updated_at": "2025-12-03T06:54:31.251Z"
-        }
-      ],
-      "last_updated": "2025-12-03T06:55:07.615Z",
-      "scrape_duration_ms": 0
-    },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T06:54:32.060Z",
-          "updated_at": "2025-12-03T06:54:32.060Z"
+          "created_at": "2025-12-03T07:18:25.575Z",
+          "updated_at": "2025-12-03T07:18:25.575Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T06:54:33.051Z",
-          "updated_at": "2025-12-03T06:54:33.051Z"
+          "created_at": "2025-12-03T07:18:26.077Z",
+          "updated_at": "2025-12-03T07:18:26.077Z"
         }
       ],
-      "last_updated": "2025-12-03T06:55:07.615Z",
+      "last_updated": "2025-12-03T07:19:03.018Z",
       "scrape_duration_ms": 0
     },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-03T07:18:51.885Z",
+          "updated_at": "2025-12-03T07:18:51.885Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-03T07:18:52.003Z",
+          "updated_at": "2025-12-03T07:18:52.003Z"
+        }
+      ],
+      "last_updated": "2025-12-03T07:19:03.018Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-03T07:18:52.187Z",
+          "updated_at": "2025-12-03T07:18:52.187Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-03T07:18:52.356Z",
+          "updated_at": "2025-12-03T07:18:52.356Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-03T07:18:52.516Z",
+          "updated_at": "2025-12-03T07:18:52.516Z"
+        }
+      ],
+      "last_updated": "2025-12-03T07:19:03.018Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
       "bounty_count": 5,
       "total_value_usd": 500,
       "bounties": [
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T06:54:56.927Z",
-          "updated_at": "2025-12-03T06:54:56.927Z"
+          "created_at": "2025-12-03T07:18:52.274Z",
+          "updated_at": "2025-12-03T07:18:52.274Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T06:54:57.052Z",
-          "updated_at": "2025-12-03T06:54:57.052Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-03T07:18:52.405Z",
+          "updated_at": "2025-12-03T07:18:52.405Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.173Z",
-          "updated_at": "2025-12-03T06:54:57.173Z"
+          "created_at": "2025-12-03T07:18:52.582Z",
+          "updated_at": "2025-12-03T07:18:52.582Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.176Z",
-          "updated_at": "2025-12-03T06:54:57.176Z"
+          "created_at": "2025-12-03T07:18:52.769Z",
+          "updated_at": "2025-12-03T07:18:52.769Z"
         },
         {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.376Z",
-          "updated_at": "2025-12-03T06:54:57.376Z"
+          "created_at": "2025-12-03T07:18:52.904Z",
+          "updated_at": "2025-12-03T07:18:52.904Z"
         }
       ],
-      "last_updated": "2025-12-03T06:55:07.615Z",
+      "last_updated": "2025-12-03T07:19:03.018Z",
       "scrape_duration_ms": 0
     },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "cal#23104",
-          "title": "Local dev crazy slow",
+          "id": "projectdiscovery#1471",
+          "title": "release katana v1.3.0",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "url": "https://github.com/projectdiscovery/katana/issues/1471",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T06:54:56.292Z",
-          "updated_at": "2025-12-03T06:54:56.292Z"
+          "created_at": "2025-12-03T07:18:51.933Z",
+          "updated_at": "2025-12-03T07:18:51.933Z"
         },
         {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "id": "projectdiscovery#14152",
+          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T06:54:56.552Z",
-          "updated_at": "2025-12-03T06:54:56.552Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-03T07:18:52.114Z",
+          "updated_at": "2025-12-03T07:18:52.114Z"
         },
         {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:56.696Z",
-          "updated_at": "2025-12-03T06:54:56.696Z"
+          "created_at": "2025-12-03T07:18:52.305Z",
+          "updated_at": "2025-12-03T07:18:52.305Z"
         },
         {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "id": "projectdiscovery#14092",
+          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:56.826Z",
-          "updated_at": "2025-12-03T06:54:56.826Z"
+          "created_at": "2025-12-03T07:18:52.437Z",
+          "updated_at": "2025-12-03T07:18:52.437Z"
         },
         {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:56.944Z",
-          "updated_at": "2025-12-03T06:54:56.944Z"
+          "created_at": "2025-12-03T07:18:52.462Z",
+          "updated_at": "2025-12-03T07:18:52.462Z"
         },
         {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.063Z",
-          "updated_at": "2025-12-03T06:54:57.063Z"
+          "created_at": "2025-12-03T07:18:52.488Z",
+          "updated_at": "2025-12-03T07:18:52.488Z"
         },
         {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
+          "id": "projectdiscovery#14060",
+          "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.196Z",
-          "updated_at": "2025-12-03T06:54:57.196Z"
+          "created_at": "2025-12-03T07:18:52.611Z",
+          "updated_at": "2025-12-03T07:18:52.611Z"
         },
         {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
+          "id": "projectdiscovery#14026",
+          "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.352Z",
-          "updated_at": "2025-12-03T06:54:57.352Z"
+          "created_at": "2025-12-03T07:18:52.743Z",
+          "updated_at": "2025-12-03T07:18:52.743Z"
         },
         {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "id": "projectdiscovery#13997",
+          "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.478Z",
-          "updated_at": "2025-12-03T06:54:57.478Z"
+          "created_at": "2025-12-03T07:18:52.891Z",
+          "updated_at": "2025-12-03T07:18:52.891Z"
         },
         {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "id": "projectdiscovery#13942",
+          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T06:54:57.613Z",
-          "updated_at": "2025-12-03T06:54:57.613Z"
+          "created_at": "2025-12-03T07:18:53.016Z",
+          "updated_at": "2025-12-03T07:18:53.016Z"
         }
       ],
-      "last_updated": "2025-12-03T06:55:07.615Z",
+      "last_updated": "2025-12-03T07:19:03.018Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 130143,
+    "processing_time_ms": 128038,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -247,237 +303,294 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#23104",
-            "title": "Local dev crazy slow",
+            "id": "projectdiscovery#1471",
+            "title": "release katana v1.3.0",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "url": "https://github.com/projectdiscovery/katana/issues/1471",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T06:54:56.292Z",
-            "updated_at": "2025-12-03T06:54:56.292Z"
+            "created_at": "2025-12-03T07:18:51.933Z",
+            "updated_at": "2025-12-03T07:18:51.933Z"
           },
           {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "id": "projectdiscovery#14152",
+            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T06:54:56.552Z",
-            "updated_at": "2025-12-03T06:54:56.552Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-03T07:18:52.114Z",
+            "updated_at": "2025-12-03T07:18:52.114Z"
           },
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:56.696Z",
-            "updated_at": "2025-12-03T06:54:56.696Z"
+            "created_at": "2025-12-03T07:18:52.305Z",
+            "updated_at": "2025-12-03T07:18:52.305Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "projectdiscovery#14092",
+            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:56.826Z",
-            "updated_at": "2025-12-03T06:54:56.826Z"
+            "created_at": "2025-12-03T07:18:52.437Z",
+            "updated_at": "2025-12-03T07:18:52.437Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:56.944Z",
-            "updated_at": "2025-12-03T06:54:56.944Z"
+            "created_at": "2025-12-03T07:18:52.462Z",
+            "updated_at": "2025-12-03T07:18:52.462Z"
           },
           {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.063Z",
-            "updated_at": "2025-12-03T06:54:57.063Z"
+            "created_at": "2025-12-03T07:18:52.488Z",
+            "updated_at": "2025-12-03T07:18:52.488Z"
           },
           {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
+            "id": "projectdiscovery#14060",
+            "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.196Z",
-            "updated_at": "2025-12-03T06:54:57.196Z"
+            "created_at": "2025-12-03T07:18:52.611Z",
+            "updated_at": "2025-12-03T07:18:52.611Z"
           },
           {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
+            "id": "projectdiscovery#14026",
+            "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.352Z",
-            "updated_at": "2025-12-03T06:54:57.352Z"
+            "created_at": "2025-12-03T07:18:52.743Z",
+            "updated_at": "2025-12-03T07:18:52.743Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "projectdiscovery#13997",
+            "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.478Z",
-            "updated_at": "2025-12-03T06:54:57.478Z"
+            "created_at": "2025-12-03T07:18:52.891Z",
+            "updated_at": "2025-12-03T07:18:52.891Z"
           },
           {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "id": "projectdiscovery#13942",
+            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.613Z",
-            "updated_at": "2025-12-03T06:54:57.613Z"
+            "created_at": "2025-12-03T07:18:53.016Z",
+            "updated_at": "2025-12-03T07:18:53.016Z"
           }
         ],
-        "last_updated": "2025-12-03T06:55:07.615Z",
+        "last_updated": "2025-12-03T07:19:03.018Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
         "bounty_count": 5,
         "total_value_usd": 500,
         "bounties": [
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T06:54:56.927Z",
-            "updated_at": "2025-12-03T06:54:56.927Z"
+            "created_at": "2025-12-03T07:18:52.274Z",
+            "updated_at": "2025-12-03T07:18:52.274Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T06:54:57.052Z",
-            "updated_at": "2025-12-03T06:54:57.052Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-03T07:18:52.405Z",
+            "updated_at": "2025-12-03T07:18:52.405Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.173Z",
-            "updated_at": "2025-12-03T06:54:57.173Z"
+            "created_at": "2025-12-03T07:18:52.582Z",
+            "updated_at": "2025-12-03T07:18:52.582Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "mudlet#707",
+            "title": "Undo/redo support in editor",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.176Z",
-            "updated_at": "2025-12-03T06:54:57.176Z"
+            "created_at": "2025-12-03T07:18:52.769Z",
+            "updated_at": "2025-12-03T07:18:52.769Z"
           },
           {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T06:54:57.376Z",
-            "updated_at": "2025-12-03T06:54:57.376Z"
+            "created_at": "2025-12-03T07:18:52.904Z",
+            "updated_at": "2025-12-03T07:18:52.904Z"
           }
         ],
-        "last_updated": "2025-12-03T06:55:07.615Z",
+        "last_updated": "2025-12-03T07:19:03.018Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-03T07:18:52.187Z",
+            "updated_at": "2025-12-03T07:18:52.187Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-03T07:18:52.356Z",
+            "updated_at": "2025-12-03T07:18:52.356Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-03T07:18:52.516Z",
+            "updated_at": "2025-12-03T07:18:52.516Z"
+          }
+        ],
+        "last_updated": "2025-12-03T07:19:03.018Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T06:54:32.060Z",
-            "updated_at": "2025-12-03T06:54:32.060Z"
+            "created_at": "2025-12-03T07:18:25.575Z",
+            "updated_at": "2025-12-03T07:18:25.575Z"
           },
           {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T06:54:33.051Z",
-            "updated_at": "2025-12-03T06:54:33.051Z"
+            "created_at": "2025-12-03T07:18:26.077Z",
+            "updated_at": "2025-12-03T07:18:26.077Z"
           }
         ],
-        "last_updated": "2025-12-03T06:55:07.615Z",
+        "last_updated": "2025-12-03T07:19:03.018Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T06:54:31.251Z",
-            "updated_at": "2025-12-03T06:54:31.251Z"
+            "created_at": "2025-12-03T07:18:51.885Z",
+            "updated_at": "2025-12-03T07:18:51.885Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-03T07:18:52.003Z",
+            "updated_at": "2025-12-03T07:18:52.003Z"
           }
         ],
-        "last_updated": "2025-12-03T06:55:07.615Z",
+        "last_updated": "2025-12-03T07:19:03.018Z",
         "scrape_duration_ms": 0
       }
     ]
