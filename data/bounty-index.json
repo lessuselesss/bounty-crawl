@@ -1,300 +1,158 @@
 {
-  "generated_at": "2025-12-03T07:19:03.018Z",
-  "total_organizations": 5,
-  "total_bounties": 22,
-  "total_value_usd": 2200,
+  "generated_at": "2025-12-03T07:43:35.841Z",
+  "total_organizations": 2,
+  "total_bounties": 12,
+  "total_value_usd": 1200,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T07:18:25.575Z",
-          "updated_at": "2025-12-03T07:18:25.575Z"
+          "created_at": "2025-12-03T07:42:55.054Z",
+          "updated_at": "2025-12-03T07:42:55.054Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:26.077Z",
-          "updated_at": "2025-12-03T07:18:26.077Z"
+          "tags": [],
+          "created_at": "2025-12-03T07:42:56.193Z",
+          "updated_at": "2025-12-03T07:42:56.193Z"
         }
       ],
-      "last_updated": "2025-12-03T07:19:03.018Z",
+      "last_updated": "2025-12-03T07:43:35.841Z",
       "scrape_duration_ms": 0
     },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:51.885Z",
-          "updated_at": "2025-12-03T07:18:51.885Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.003Z",
-          "updated_at": "2025-12-03T07:18:52.003Z"
-        }
-      ],
-      "last_updated": "2025-12-03T07:19:03.018Z",
-      "scrape_duration_ms": 0
-    },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:52.187Z",
-          "updated_at": "2025-12-03T07:18:52.187Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.356Z",
-          "updated_at": "2025-12-03T07:18:52.356Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.516Z",
-          "updated_at": "2025-12-03T07:18:52.516Z"
-        }
-      ],
-      "last_updated": "2025-12-03T07:19:03.018Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:52.274Z",
-          "updated_at": "2025-12-03T07:18:52.274Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:52.405Z",
-          "updated_at": "2025-12-03T07:18:52.405Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.582Z",
-          "updated_at": "2025-12-03T07:18:52.582Z"
-        },
-        {
-          "id": "mudlet#707",
-          "title": "Undo/redo support in editor",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/707",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.769Z",
-          "updated_at": "2025-12-03T07:18:52.769Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-03T07:18:52.904Z",
-          "updated_at": "2025-12-03T07:18:52.904Z"
-        }
-      ],
-      "last_updated": "2025-12-03T07:19:03.018Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "projectdiscovery#1471",
-          "title": "release katana v1.3.0",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1471",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-03T07:18:51.933Z",
-          "updated_at": "2025-12-03T07:18:51.933Z"
+          "created_at": "2025-12-03T07:42:53.662Z",
+          "updated_at": "2025-12-03T07:42:53.662Z"
         },
         {
-          "id": "projectdiscovery#14152",
-          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-03T07:18:52.114Z",
-          "updated_at": "2025-12-03T07:18:52.114Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.305Z",
-          "updated_at": "2025-12-03T07:18:52.305Z"
+          "created_at": "2025-12-03T07:42:53.932Z",
+          "updated_at": "2025-12-03T07:42:53.932Z"
         },
         {
-          "id": "projectdiscovery#14092",
-          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.437Z",
-          "updated_at": "2025-12-03T07:18:52.437Z"
+          "created_at": "2025-12-03T07:42:54.829Z",
+          "updated_at": "2025-12-03T07:42:54.829Z"
         },
         {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.462Z",
-          "updated_at": "2025-12-03T07:18:52.462Z"
+          "created_at": "2025-12-03T07:42:55.500Z",
+          "updated_at": "2025-12-03T07:42:55.500Z"
         },
         {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.488Z",
-          "updated_at": "2025-12-03T07:18:52.488Z"
+          "created_at": "2025-12-03T07:42:58.008Z",
+          "updated_at": "2025-12-03T07:42:58.008Z"
         },
         {
-          "id": "projectdiscovery#14060",
-          "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
+          "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.611Z",
-          "updated_at": "2025-12-03T07:18:52.611Z"
+          "created_at": "2025-12-03T07:42:59.494Z",
+          "updated_at": "2025-12-03T07:42:59.494Z"
         },
         {
-          "id": "projectdiscovery#14026",
-          "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.743Z",
-          "updated_at": "2025-12-03T07:18:52.743Z"
+          "created_at": "2025-12-03T07:43:01.014Z",
+          "updated_at": "2025-12-03T07:43:01.014Z"
         },
         {
-          "id": "projectdiscovery#13997",
-          "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:52.891Z",
-          "updated_at": "2025-12-03T07:18:52.891Z"
+          "created_at": "2025-12-03T07:43:02.530Z",
+          "updated_at": "2025-12-03T07:43:02.530Z"
         },
         {
-          "id": "projectdiscovery#13942",
-          "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-03T07:18:53.016Z",
-          "updated_at": "2025-12-03T07:18:53.016Z"
+          "created_at": "2025-12-03T07:43:04.101Z",
+          "updated_at": "2025-12-03T07:43:04.101Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-03T07:43:06.138Z",
+          "updated_at": "2025-12-03T07:43:06.138Z"
         }
       ],
-      "last_updated": "2025-12-03T07:19:03.018Z",
+      "last_updated": "2025-12-03T07:43:35.841Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 128038,
+    "processing_time_ms": 122839,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -303,294 +161,149 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#1471",
-            "title": "release katana v1.3.0",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1471",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T07:18:51.933Z",
-            "updated_at": "2025-12-03T07:18:51.933Z"
+            "created_at": "2025-12-03T07:42:53.662Z",
+            "updated_at": "2025-12-03T07:42:53.662Z"
           },
           {
-            "id": "projectdiscovery#14152",
-            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:52.114Z",
-            "updated_at": "2025-12-03T07:18:52.114Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.305Z",
-            "updated_at": "2025-12-03T07:18:52.305Z"
+            "created_at": "2025-12-03T07:42:53.932Z",
+            "updated_at": "2025-12-03T07:42:53.932Z"
           },
           {
-            "id": "projectdiscovery#14092",
-            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.437Z",
-            "updated_at": "2025-12-03T07:18:52.437Z"
+            "created_at": "2025-12-03T07:42:54.829Z",
+            "updated_at": "2025-12-03T07:42:54.829Z"
           },
           {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.462Z",
-            "updated_at": "2025-12-03T07:18:52.462Z"
+            "created_at": "2025-12-03T07:42:55.500Z",
+            "updated_at": "2025-12-03T07:42:55.500Z"
           },
           {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.488Z",
-            "updated_at": "2025-12-03T07:18:52.488Z"
+            "created_at": "2025-12-03T07:42:58.008Z",
+            "updated_at": "2025-12-03T07:42:58.008Z"
           },
           {
-            "id": "projectdiscovery#14060",
-            "title": "CVE-2021-4073 - RegistrationMagic - Authentication Bypass 💰",
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14060",
+            "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.611Z",
-            "updated_at": "2025-12-03T07:18:52.611Z"
+            "created_at": "2025-12-03T07:42:59.494Z",
+            "updated_at": "2025-12-03T07:42:59.494Z"
           },
           {
-            "id": "projectdiscovery#14026",
-            "title": "CVE-2021-45461 - FreePBX RestApps - Remote Code Execution 💰",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14026",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.743Z",
-            "updated_at": "2025-12-03T07:18:52.743Z"
+            "created_at": "2025-12-03T07:43:01.014Z",
+            "updated_at": "2025-12-03T07:43:01.014Z"
           },
           {
-            "id": "projectdiscovery#13997",
-            "title": "CVE-2022-21445 - Oracle Fusion Middleware - Remote Code Execution 💰",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13997",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.891Z",
-            "updated_at": "2025-12-03T07:18:52.891Z"
+            "created_at": "2025-12-03T07:43:02.530Z",
+            "updated_at": "2025-12-03T07:43:02.530Z"
           },
           {
-            "id": "projectdiscovery#13942",
-            "title": "CVE-2022-31199 - Netwrix Auditor - Remote Code Execution 💰",
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/13942",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:53.016Z",
-            "updated_at": "2025-12-03T07:18:53.016Z"
+            "created_at": "2025-12-03T07:43:04.101Z",
+            "updated_at": "2025-12-03T07:43:04.101Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-03T07:43:06.138Z",
+            "updated_at": "2025-12-03T07:43:06.138Z"
           }
         ],
-        "last_updated": "2025-12-03T07:19:03.018Z",
+        "last_updated": "2025-12-03T07:43:35.841Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:52.274Z",
-            "updated_at": "2025-12-03T07:18:52.274Z"
-          },
-          {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:52.405Z",
-            "updated_at": "2025-12-03T07:18:52.405Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T07:18:52.582Z",
-            "updated_at": "2025-12-03T07:18:52.582Z"
-          },
-          {
-            "id": "mudlet#707",
-            "title": "Undo/redo support in editor",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/707",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T07:18:52.769Z",
-            "updated_at": "2025-12-03T07:18:52.769Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T07:18:52.904Z",
-            "updated_at": "2025-12-03T07:18:52.904Z"
-          }
-        ],
-        "last_updated": "2025-12-03T07:19:03.018Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:52.187Z",
-            "updated_at": "2025-12-03T07:18:52.187Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T07:18:52.356Z",
-            "updated_at": "2025-12-03T07:18:52.356Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-03T07:18:52.516Z",
-            "updated_at": "2025-12-03T07:18:52.516Z"
-          }
-        ],
-        "last_updated": "2025-12-03T07:19:03.018Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-03T07:18:25.575Z",
-            "updated_at": "2025-12-03T07:18:25.575Z"
+            "created_at": "2025-12-03T07:42:55.054Z",
+            "updated_at": "2025-12-03T07:42:55.054Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:26.077Z",
-            "updated_at": "2025-12-03T07:18:26.077Z"
-          }
-        ],
-        "last_updated": "2025-12-03T07:19:03.018Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-03T07:18:51.885Z",
-            "updated_at": "2025-12-03T07:18:51.885Z"
-          },
-          {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-03T07:18:52.003Z",
-            "updated_at": "2025-12-03T07:18:52.003Z"
+            "created_at": "2025-12-03T07:42:56.193Z",
+            "updated_at": "2025-12-03T07:42:56.193Z"
           }
         ],
-        "last_updated": "2025-12-03T07:19:03.018Z",
+        "last_updated": "2025-12-03T07:43:35.841Z",
         "scrape_duration_ms": 0
       }
     ]
