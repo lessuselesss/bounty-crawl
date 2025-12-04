@@ -1,62 +1,218 @@
 {
-  "generated_at": "2025-12-04T15:46:54.864Z",
-  "total_organizations": 5,
-  "total_bounties": 26,
-  "total_value_usd": 2600,
+  "generated_at": "2025-12-04T15:58:01.451Z",
+  "total_organizations": 6,
+  "total_bounties": 36,
+  "total_value_usd": 3600,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-04T15:46:28.681Z",
-          "updated_at": "2025-12-04T15:46:28.681Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T15:46:28.940Z",
-          "updated_at": "2025-12-04T15:46:28.940Z"
-        }
-      ],
-      "last_updated": "2025-12-04T15:46:54.864Z",
-      "scrape_duration_ms": 0
-    },
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T15:46:29.965Z",
-          "updated_at": "2025-12-04T15:46:29.965Z"
+          "created_at": "2025-12-04T15:57:32.522Z",
+          "updated_at": "2025-12-04T15:57:32.522Z"
         }
       ],
-      "last_updated": "2025-12-04T15:46:54.864Z",
+      "last_updated": "2025-12-04T15:58:01.451Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T15:57:32.268Z",
+          "updated_at": "2025-12-04T15:57:32.268Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:32.914Z",
+          "updated_at": "2025-12-04T15:57:32.914Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:33.761Z",
+          "updated_at": "2025-12-04T15:57:33.761Z"
+        }
+      ],
+      "last_updated": "2025-12-04T15:58:01.451Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T15:57:32.914Z",
+          "updated_at": "2025-12-04T15:57:32.914Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T15:57:33.762Z",
+          "updated_at": "2025-12-04T15:57:33.762Z"
+        }
+      ],
+      "last_updated": "2025-12-04T15:58:01.451Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T15:57:32.338Z",
+          "updated_at": "2025-12-04T15:57:32.338Z"
+        },
+        {
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:32.914Z",
+          "updated_at": "2025-12-04T15:57:32.914Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:33.761Z",
+          "updated_at": "2025-12-04T15:57:33.761Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:35.515Z",
+          "updated_at": "2025-12-04T15:57:35.515Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:36.928Z",
+          "updated_at": "2025-12-04T15:57:36.928Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:38.867Z",
+          "updated_at": "2025-12-04T15:57:38.867Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:41.536Z",
+          "updated_at": "2025-12-04T15:57:41.536Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:44.355Z",
+          "updated_at": "2025-12-04T15:57:44.355Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:45.434Z",
+          "updated_at": "2025-12-04T15:57:45.434Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T15:57:47.954Z",
+          "updated_at": "2025-12-04T15:57:47.954Z"
+        }
+      ],
+      "last_updated": "2025-12-04T15:58:01.451Z",
       "scrape_duration_ms": 0
     },
     "ZIO": {
@@ -74,8 +230,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T15:46:27.768Z",
-          "updated_at": "2025-12-04T15:46:27.768Z"
+          "created_at": "2025-12-04T15:57:32.521Z",
+          "updated_at": "2025-12-04T15:57:32.521Z"
         },
         {
           "id": "ZIO#709",
@@ -84,8 +240,8 @@
           "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:28.519Z",
-          "updated_at": "2025-12-04T15:46:28.519Z"
+          "created_at": "2025-12-04T15:57:33.255Z",
+          "updated_at": "2025-12-04T15:57:33.255Z"
         },
         {
           "id": "ZIO#3472",
@@ -94,8 +250,8 @@
           "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:28.874Z",
-          "updated_at": "2025-12-04T15:46:28.874Z"
+          "created_at": "2025-12-04T15:57:34.644Z",
+          "updated_at": "2025-12-04T15:57:34.644Z"
         },
         {
           "id": "ZIO#9810",
@@ -104,8 +260,8 @@
           "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:29.460Z",
-          "updated_at": "2025-12-04T15:46:29.460Z"
+          "created_at": "2025-12-04T15:57:36.197Z",
+          "updated_at": "2025-12-04T15:57:36.197Z"
         },
         {
           "id": "ZIO#9844",
@@ -114,8 +270,8 @@
           "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:30.295Z",
-          "updated_at": "2025-12-04T15:46:30.295Z"
+          "created_at": "2025-12-04T15:57:37.858Z",
+          "updated_at": "2025-12-04T15:57:37.858Z"
         },
         {
           "id": "ZIO#9878",
@@ -124,8 +280,8 @@
           "url": "https://github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:31.366Z",
-          "updated_at": "2025-12-04T15:46:31.366Z"
+          "created_at": "2025-12-04T15:57:40.342Z",
+          "updated_at": "2025-12-04T15:57:40.342Z"
         },
         {
           "id": "ZIO#9877",
@@ -134,8 +290,8 @@
           "url": "https://github.com/zio/zio/issues/9877",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:32.373Z",
-          "updated_at": "2025-12-04T15:46:32.373Z"
+          "created_at": "2025-12-04T15:57:43.178Z",
+          "updated_at": "2025-12-04T15:57:43.178Z"
         },
         {
           "id": "ZIO#9874",
@@ -144,8 +300,8 @@
           "url": "https://github.com/zio/zio/issues/9874",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:33.130Z",
-          "updated_at": "2025-12-04T15:46:33.130Z"
+          "created_at": "2025-12-04T15:57:44.850Z",
+          "updated_at": "2025-12-04T15:57:44.850Z"
         },
         {
           "id": "ZIO#9681",
@@ -154,8 +310,8 @@
           "url": "https://github.com/zio/zio/issues/9681",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:33.977Z",
-          "updated_at": "2025-12-04T15:46:33.977Z"
+          "created_at": "2025-12-04T15:57:46.716Z",
+          "updated_at": "2025-12-04T15:57:46.716Z"
         },
         {
           "id": "ZIO#9922",
@@ -164,53 +320,11 @@
           "url": "https://github.com/zio/zio/issues/9922",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:35.025Z",
-          "updated_at": "2025-12-04T15:46:35.025Z"
+          "created_at": "2025-12-04T15:57:48.786Z",
+          "updated_at": "2025-12-04T15:57:48.786Z"
         }
       ],
-      "last_updated": "2025-12-04T15:46:54.864Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-04T15:46:33.130Z",
-          "updated_at": "2025-12-04T15:46:33.130Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T15:46:33.978Z",
-          "updated_at": "2025-12-04T15:46:33.978Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T15:46:35.026Z",
-          "updated_at": "2025-12-04T15:46:35.026Z"
-        }
-      ],
-      "last_updated": "2025-12-04T15:46:54.864Z",
+      "last_updated": "2025-12-04T15:58:01.451Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -228,8 +342,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T15:46:27.768Z",
-          "updated_at": "2025-12-04T15:46:27.768Z"
+          "created_at": "2025-12-04T15:57:32.337Z",
+          "updated_at": "2025-12-04T15:57:32.337Z"
         },
         {
           "id": "tscircuit#534",
@@ -238,8 +352,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:28.519Z",
-          "updated_at": "2025-12-04T15:46:28.519Z"
+          "created_at": "2025-12-04T15:57:32.824Z",
+          "updated_at": "2025-12-04T15:57:32.824Z"
         },
         {
           "id": "tscircuit#419",
@@ -248,8 +362,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:28.941Z",
-          "updated_at": "2025-12-04T15:46:28.941Z"
+          "created_at": "2025-12-04T15:57:35.515Z",
+          "updated_at": "2025-12-04T15:57:35.515Z"
         },
         {
           "id": "tscircuit#1081",
@@ -258,8 +372,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:29.461Z",
-          "updated_at": "2025-12-04T15:46:29.461Z"
+          "created_at": "2025-12-04T15:57:36.929Z",
+          "updated_at": "2025-12-04T15:57:36.929Z"
         },
         {
           "id": "tscircuit#386",
@@ -268,8 +382,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:31.366Z",
-          "updated_at": "2025-12-04T15:46:31.366Z"
+          "created_at": "2025-12-04T15:57:41.536Z",
+          "updated_at": "2025-12-04T15:57:41.536Z"
         },
         {
           "id": "tscircuit#1498",
@@ -278,8 +392,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:32.372Z",
-          "updated_at": "2025-12-04T15:46:32.372Z"
+          "created_at": "2025-12-04T15:57:44.355Z",
+          "updated_at": "2025-12-04T15:57:44.355Z"
         },
         {
           "id": "tscircuit#79",
@@ -288,8 +402,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:33.131Z",
-          "updated_at": "2025-12-04T15:46:33.131Z"
+          "created_at": "2025-12-04T15:57:45.434Z",
+          "updated_at": "2025-12-04T15:57:45.434Z"
         },
         {
           "id": "tscircuit#78",
@@ -298,8 +412,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:33.978Z",
-          "updated_at": "2025-12-04T15:46:33.978Z"
+          "created_at": "2025-12-04T15:57:47.968Z",
+          "updated_at": "2025-12-04T15:57:47.968Z"
         },
         {
           "id": "tscircuit#176",
@@ -308,8 +422,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:35.025Z",
-          "updated_at": "2025-12-04T15:46:35.025Z"
+          "created_at": "2025-12-04T15:57:49.766Z",
+          "updated_at": "2025-12-04T15:57:49.766Z"
         },
         {
           "id": "tscircuit#939",
@@ -318,17 +432,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T15:46:38.661Z",
-          "updated_at": "2025-12-04T15:46:38.661Z"
+          "created_at": "2025-12-04T15:57:50.778Z",
+          "updated_at": "2025-12-04T15:57:50.778Z"
         }
       ],
-      "last_updated": "2025-12-04T15:46:54.864Z",
+      "last_updated": "2025-12-04T15:58:01.451Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 118346,
+    "processing_time_ms": 123062,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -336,6 +450,119 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T15:57:32.338Z",
+            "updated_at": "2025-12-04T15:57:32.338Z"
+          },
+          {
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:32.914Z",
+            "updated_at": "2025-12-04T15:57:32.914Z"
+          },
+          {
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:33.761Z",
+            "updated_at": "2025-12-04T15:57:33.761Z"
+          },
+          {
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:35.515Z",
+            "updated_at": "2025-12-04T15:57:35.515Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:36.928Z",
+            "updated_at": "2025-12-04T15:57:36.928Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:38.867Z",
+            "updated_at": "2025-12-04T15:57:38.867Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:41.536Z",
+            "updated_at": "2025-12-04T15:57:41.536Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:44.355Z",
+            "updated_at": "2025-12-04T15:57:44.355Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:45.434Z",
+            "updated_at": "2025-12-04T15:57:45.434Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T15:57:47.954Z",
+            "updated_at": "2025-12-04T15:57:47.954Z"
+          }
+        ],
+        "last_updated": "2025-12-04T15:58:01.451Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "ZIO",
         "display_name": "ZIO",
@@ -352,8 +579,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T15:46:27.768Z",
-            "updated_at": "2025-12-04T15:46:27.768Z"
+            "created_at": "2025-12-04T15:57:32.521Z",
+            "updated_at": "2025-12-04T15:57:32.521Z"
           },
           {
             "id": "ZIO#709",
@@ -362,8 +589,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:28.519Z",
-            "updated_at": "2025-12-04T15:46:28.519Z"
+            "created_at": "2025-12-04T15:57:33.255Z",
+            "updated_at": "2025-12-04T15:57:33.255Z"
           },
           {
             "id": "ZIO#3472",
@@ -372,8 +599,8 @@
             "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:28.874Z",
-            "updated_at": "2025-12-04T15:46:28.874Z"
+            "created_at": "2025-12-04T15:57:34.644Z",
+            "updated_at": "2025-12-04T15:57:34.644Z"
           },
           {
             "id": "ZIO#9810",
@@ -382,8 +609,8 @@
             "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:29.460Z",
-            "updated_at": "2025-12-04T15:46:29.460Z"
+            "created_at": "2025-12-04T15:57:36.197Z",
+            "updated_at": "2025-12-04T15:57:36.197Z"
           },
           {
             "id": "ZIO#9844",
@@ -392,8 +619,8 @@
             "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:30.295Z",
-            "updated_at": "2025-12-04T15:46:30.295Z"
+            "created_at": "2025-12-04T15:57:37.858Z",
+            "updated_at": "2025-12-04T15:57:37.858Z"
           },
           {
             "id": "ZIO#9878",
@@ -402,8 +629,8 @@
             "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:31.366Z",
-            "updated_at": "2025-12-04T15:46:31.366Z"
+            "created_at": "2025-12-04T15:57:40.342Z",
+            "updated_at": "2025-12-04T15:57:40.342Z"
           },
           {
             "id": "ZIO#9877",
@@ -412,8 +639,8 @@
             "url": "https://github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:32.373Z",
-            "updated_at": "2025-12-04T15:46:32.373Z"
+            "created_at": "2025-12-04T15:57:43.178Z",
+            "updated_at": "2025-12-04T15:57:43.178Z"
           },
           {
             "id": "ZIO#9874",
@@ -422,8 +649,8 @@
             "url": "https://github.com/zio/zio/issues/9874",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:33.130Z",
-            "updated_at": "2025-12-04T15:46:33.130Z"
+            "created_at": "2025-12-04T15:57:44.850Z",
+            "updated_at": "2025-12-04T15:57:44.850Z"
           },
           {
             "id": "ZIO#9681",
@@ -432,8 +659,8 @@
             "url": "https://github.com/zio/zio/issues/9681",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:33.977Z",
-            "updated_at": "2025-12-04T15:46:33.977Z"
+            "created_at": "2025-12-04T15:57:46.716Z",
+            "updated_at": "2025-12-04T15:57:46.716Z"
           },
           {
             "id": "ZIO#9922",
@@ -442,11 +669,11 @@
             "url": "https://github.com/zio/zio/issues/9922",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:35.025Z",
-            "updated_at": "2025-12-04T15:46:35.025Z"
+            "created_at": "2025-12-04T15:57:48.786Z",
+            "updated_at": "2025-12-04T15:57:48.786Z"
           }
         ],
-        "last_updated": "2025-12-04T15:46:54.864Z",
+        "last_updated": "2025-12-04T15:58:01.451Z",
         "scrape_duration_ms": 0
       },
       {
@@ -465,8 +692,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T15:46:27.768Z",
-            "updated_at": "2025-12-04T15:46:27.768Z"
+            "created_at": "2025-12-04T15:57:32.337Z",
+            "updated_at": "2025-12-04T15:57:32.337Z"
           },
           {
             "id": "tscircuit#534",
@@ -475,8 +702,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:28.519Z",
-            "updated_at": "2025-12-04T15:46:28.519Z"
+            "created_at": "2025-12-04T15:57:32.824Z",
+            "updated_at": "2025-12-04T15:57:32.824Z"
           },
           {
             "id": "tscircuit#419",
@@ -485,8 +712,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:28.941Z",
-            "updated_at": "2025-12-04T15:46:28.941Z"
+            "created_at": "2025-12-04T15:57:35.515Z",
+            "updated_at": "2025-12-04T15:57:35.515Z"
           },
           {
             "id": "tscircuit#1081",
@@ -495,8 +722,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:29.461Z",
-            "updated_at": "2025-12-04T15:46:29.461Z"
+            "created_at": "2025-12-04T15:57:36.929Z",
+            "updated_at": "2025-12-04T15:57:36.929Z"
           },
           {
             "id": "tscircuit#386",
@@ -505,8 +732,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:31.366Z",
-            "updated_at": "2025-12-04T15:46:31.366Z"
+            "created_at": "2025-12-04T15:57:41.536Z",
+            "updated_at": "2025-12-04T15:57:41.536Z"
           },
           {
             "id": "tscircuit#1498",
@@ -515,8 +742,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:32.372Z",
-            "updated_at": "2025-12-04T15:46:32.372Z"
+            "created_at": "2025-12-04T15:57:44.355Z",
+            "updated_at": "2025-12-04T15:57:44.355Z"
           },
           {
             "id": "tscircuit#79",
@@ -525,8 +752,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:33.131Z",
-            "updated_at": "2025-12-04T15:46:33.131Z"
+            "created_at": "2025-12-04T15:57:45.434Z",
+            "updated_at": "2025-12-04T15:57:45.434Z"
           },
           {
             "id": "tscircuit#78",
@@ -535,8 +762,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:33.978Z",
-            "updated_at": "2025-12-04T15:46:33.978Z"
+            "created_at": "2025-12-04T15:57:47.968Z",
+            "updated_at": "2025-12-04T15:57:47.968Z"
           },
           {
             "id": "tscircuit#176",
@@ -545,8 +772,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:35.025Z",
-            "updated_at": "2025-12-04T15:46:35.025Z"
+            "created_at": "2025-12-04T15:57:49.766Z",
+            "updated_at": "2025-12-04T15:57:49.766Z"
           },
           {
             "id": "tscircuit#939",
@@ -555,110 +782,112 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:38.661Z",
-            "updated_at": "2025-12-04T15:46:38.661Z"
+            "created_at": "2025-12-04T15:57:50.778Z",
+            "updated_at": "2025-12-04T15:57:50.778Z"
           }
         ],
-        "last_updated": "2025-12-04T15:46:54.864Z",
+        "last_updated": "2025-12-04T15:58:01.451Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T15:46:33.130Z",
-            "updated_at": "2025-12-04T15:46:33.130Z"
+            "created_at": "2025-12-04T15:57:32.268Z",
+            "updated_at": "2025-12-04T15:57:32.268Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/permitio/opal/issues/677",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:33.978Z",
-            "updated_at": "2025-12-04T15:46:33.978Z"
+            "created_at": "2025-12-04T15:57:32.914Z",
+            "updated_at": "2025-12-04T15:57:32.914Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/permitio/opal/issues/634",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T15:46:35.026Z",
-            "updated_at": "2025-12-04T15:46:35.026Z"
+            "created_at": "2025-12-04T15:57:33.761Z",
+            "updated_at": "2025-12-04T15:57:33.761Z"
           }
         ],
-        "last_updated": "2025-12-04T15:46:54.864Z",
+        "last_updated": "2025-12-04T15:58:01.451Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T15:46:28.681Z",
-            "updated_at": "2025-12-04T15:46:28.681Z"
+            "created_at": "2025-12-04T15:57:32.914Z",
+            "updated_at": "2025-12-04T15:57:32.914Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T15:46:28.940Z",
-            "updated_at": "2025-12-04T15:46:28.940Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T15:57:33.762Z",
+            "updated_at": "2025-12-04T15:57:33.762Z"
           }
         ],
-        "last_updated": "2025-12-04T15:46:54.864Z",
+        "last_updated": "2025-12-04T15:58:01.451Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T15:46:29.965Z",
-            "updated_at": "2025-12-04T15:46:29.965Z"
+            "created_at": "2025-12-04T15:57:32.522Z",
+            "updated_at": "2025-12-04T15:57:32.522Z"
           }
         ],
-        "last_updated": "2025-12-04T15:46:54.864Z",
+        "last_updated": "2025-12-04T15:58:01.451Z",
         "scrape_duration_ms": 0
       }
     ]
