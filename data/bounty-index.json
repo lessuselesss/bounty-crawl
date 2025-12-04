@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-12-04T16:54:54.046Z",
-  "total_organizations": 2,
-  "total_bounties": 11,
-  "total_value_usd": 1100,
+  "generated_at": "2025-12-04T17:20:34.127Z",
+  "total_organizations": 8,
+  "total_bounties": 35,
+  "total_value_usd": 3500,
   "version": "3.0.0",
   "organizations": {
     "triggerdotdev": {
@@ -20,11 +20,151 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T16:54:16.814Z",
-          "updated_at": "2025-12-04T16:54:16.814Z"
+          "created_at": "2025-12-04T17:19:57.121Z",
+          "updated_at": "2025-12-04T17:19:57.121Z"
         }
       ],
-      "last_updated": "2025-12-04T16:54:54.046Z",
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:19:57.186Z",
+          "updated_at": "2025-12-04T17:19:57.186Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:19:58.888Z",
+          "updated_at": "2025-12-04T17:19:58.888Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:19:57.187Z",
+          "updated_at": "2025-12-04T17:19:57.187Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:19:58.916Z",
+          "updated_at": "2025-12-04T17:19:58.916Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:02.378Z",
+          "updated_at": "2025-12-04T17:20:02.378Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:19:58.898Z",
+          "updated_at": "2025-12-04T17:19:58.898Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:02.408Z",
+          "updated_at": "2025-12-04T17:20:02.408Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:19:58.916Z",
+          "updated_at": "2025-12-04T17:19:58.916Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:20:02.419Z",
+          "updated_at": "2025-12-04T17:20:02.419Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
       "scrape_duration_ms": 0
     },
     "cal": {
@@ -42,8 +182,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T16:54:16.834Z",
-          "updated_at": "2025-12-04T16:54:16.834Z"
+          "created_at": "2025-12-04T17:19:57.186Z",
+          "updated_at": "2025-12-04T17:19:57.186Z"
         },
         {
           "id": "cal#9485",
@@ -52,8 +192,8 @@
           "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:17.525Z",
-          "updated_at": "2025-12-04T16:54:17.525Z"
+          "created_at": "2025-12-04T17:19:58.915Z",
+          "updated_at": "2025-12-04T17:19:58.915Z"
         },
         {
           "id": "cal#18947",
@@ -62,8 +202,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:18.679Z",
-          "updated_at": "2025-12-04T16:54:18.679Z"
+          "created_at": "2025-12-04T17:20:02.418Z",
+          "updated_at": "2025-12-04T17:20:02.418Z"
         },
         {
           "id": "cal#18992",
@@ -72,8 +212,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:20.460Z",
-          "updated_at": "2025-12-04T16:54:20.460Z"
+          "created_at": "2025-12-04T17:20:05.082Z",
+          "updated_at": "2025-12-04T17:20:05.082Z"
         },
         {
           "id": "cal#18987",
@@ -82,8 +222,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:21.628Z",
-          "updated_at": "2025-12-04T16:54:21.628Z"
+          "created_at": "2025-12-04T17:20:07.275Z",
+          "updated_at": "2025-12-04T17:20:07.275Z"
         },
         {
           "id": "cal#16797",
@@ -92,8 +232,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:25.733Z",
-          "updated_at": "2025-12-04T16:54:25.733Z"
+          "created_at": "2025-12-04T17:20:09.248Z",
+          "updated_at": "2025-12-04T17:20:09.248Z"
         },
         {
           "id": "cal#16651",
@@ -102,8 +242,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:29.727Z",
-          "updated_at": "2025-12-04T16:54:29.727Z"
+          "created_at": "2025-12-04T17:20:11.083Z",
+          "updated_at": "2025-12-04T17:20:11.083Z"
         },
         {
           "id": "cal#8123",
@@ -112,8 +252,8 @@
           "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:32.493Z",
-          "updated_at": "2025-12-04T16:54:32.493Z"
+          "created_at": "2025-12-04T17:20:13.148Z",
+          "updated_at": "2025-12-04T17:20:13.148Z"
         },
         {
           "id": "cal#16378",
@@ -122,8 +262,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:35.786Z",
-          "updated_at": "2025-12-04T16:54:35.786Z"
+          "created_at": "2025-12-04T17:20:14.893Z",
+          "updated_at": "2025-12-04T17:20:14.893Z"
         },
         {
           "id": "cal#13532",
@@ -132,17 +272,195 @@
           "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T16:54:37.226Z",
-          "updated_at": "2025-12-04T16:54:37.226Z"
+          "created_at": "2025-12-04T17:20:15.278Z",
+          "updated_at": "2025-12-04T17:20:15.278Z"
         }
       ],
-      "last_updated": "2025-12-04T16:54:54.046Z",
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:20:21.418Z",
+          "updated_at": "2025-12-04T17:20:21.418Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:20:21.637Z",
+          "updated_at": "2025-12-04T17:20:21.637Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:21.859Z",
+          "updated_at": "2025-12-04T17:20:21.859Z"
+        },
+        {
+          "id": "Mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:22.111Z",
+          "updated_at": "2025-12-04T17:20:22.111Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:22.337Z",
+          "updated_at": "2025-12-04T17:20:22.337Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:20:22.262Z",
+          "updated_at": "2025-12-04T17:20:22.262Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T17:20:22.478Z",
+          "updated_at": "2025-12-04T17:20:22.478Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:22.722Z",
+          "updated_at": "2025-12-04T17:20:22.722Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:22.921Z",
+          "updated_at": "2025-12-04T17:20:22.921Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:23.151Z",
+          "updated_at": "2025-12-04T17:20:23.151Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:23.411Z",
+          "updated_at": "2025-12-04T17:20:23.411Z"
+        },
+        {
+          "id": "coollabsio#4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:23.621Z",
+          "updated_at": "2025-12-04T17:20:23.621Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:23.868Z",
+          "updated_at": "2025-12-04T17:20:23.868Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:24.098Z",
+          "updated_at": "2025-12-04T17:20:24.098Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T17:20:24.125Z",
+          "updated_at": "2025-12-04T17:20:24.125Z"
+        }
+      ],
+      "last_updated": "2025-12-04T17:20:34.127Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 141769,
+    "processing_time_ms": 135926,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -166,8 +484,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T16:54:16.834Z",
-            "updated_at": "2025-12-04T16:54:16.834Z"
+            "created_at": "2025-12-04T17:19:57.186Z",
+            "updated_at": "2025-12-04T17:19:57.186Z"
           },
           {
             "id": "cal#9485",
@@ -176,8 +494,8 @@
             "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:17.525Z",
-            "updated_at": "2025-12-04T16:54:17.525Z"
+            "created_at": "2025-12-04T17:19:58.915Z",
+            "updated_at": "2025-12-04T17:19:58.915Z"
           },
           {
             "id": "cal#18947",
@@ -186,8 +504,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:18.679Z",
-            "updated_at": "2025-12-04T16:54:18.679Z"
+            "created_at": "2025-12-04T17:20:02.418Z",
+            "updated_at": "2025-12-04T17:20:02.418Z"
           },
           {
             "id": "cal#18992",
@@ -196,8 +514,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:20.460Z",
-            "updated_at": "2025-12-04T16:54:20.460Z"
+            "created_at": "2025-12-04T17:20:05.082Z",
+            "updated_at": "2025-12-04T17:20:05.082Z"
           },
           {
             "id": "cal#18987",
@@ -206,8 +524,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:21.628Z",
-            "updated_at": "2025-12-04T16:54:21.628Z"
+            "created_at": "2025-12-04T17:20:07.275Z",
+            "updated_at": "2025-12-04T17:20:07.275Z"
           },
           {
             "id": "cal#16797",
@@ -216,8 +534,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:25.733Z",
-            "updated_at": "2025-12-04T16:54:25.733Z"
+            "created_at": "2025-12-04T17:20:09.248Z",
+            "updated_at": "2025-12-04T17:20:09.248Z"
           },
           {
             "id": "cal#16651",
@@ -226,8 +544,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:29.727Z",
-            "updated_at": "2025-12-04T16:54:29.727Z"
+            "created_at": "2025-12-04T17:20:11.083Z",
+            "updated_at": "2025-12-04T17:20:11.083Z"
           },
           {
             "id": "cal#8123",
@@ -236,8 +554,8 @@
             "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:32.493Z",
-            "updated_at": "2025-12-04T16:54:32.493Z"
+            "created_at": "2025-12-04T17:20:13.148Z",
+            "updated_at": "2025-12-04T17:20:13.148Z"
           },
           {
             "id": "cal#16378",
@@ -246,8 +564,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:35.786Z",
-            "updated_at": "2025-12-04T16:54:35.786Z"
+            "created_at": "2025-12-04T17:20:14.893Z",
+            "updated_at": "2025-12-04T17:20:14.893Z"
           },
           {
             "id": "cal#13532",
@@ -256,11 +574,335 @@
             "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T16:54:37.226Z",
-            "updated_at": "2025-12-04T16:54:37.226Z"
+            "created_at": "2025-12-04T17:20:15.278Z",
+            "updated_at": "2025-12-04T17:20:15.278Z"
           }
         ],
-        "last_updated": "2025-12-04T16:54:54.046Z",
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:20:22.262Z",
+            "updated_at": "2025-12-04T17:20:22.262Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:20:22.478Z",
+            "updated_at": "2025-12-04T17:20:22.478Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:22.722Z",
+            "updated_at": "2025-12-04T17:20:22.722Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:22.921Z",
+            "updated_at": "2025-12-04T17:20:22.921Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:23.151Z",
+            "updated_at": "2025-12-04T17:20:23.151Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:23.411Z",
+            "updated_at": "2025-12-04T17:20:23.411Z"
+          },
+          {
+            "id": "coollabsio#4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:23.621Z",
+            "updated_at": "2025-12-04T17:20:23.621Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:23.868Z",
+            "updated_at": "2025-12-04T17:20:23.868Z"
+          },
+          {
+            "id": "coollabsio#6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:24.098Z",
+            "updated_at": "2025-12-04T17:20:24.098Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:24.125Z",
+            "updated_at": "2025-12-04T17:20:24.125Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:20:21.418Z",
+            "updated_at": "2025-12-04T17:20:21.418Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:20:21.637Z",
+            "updated_at": "2025-12-04T17:20:21.637Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:21.859Z",
+            "updated_at": "2025-12-04T17:20:21.859Z"
+          },
+          {
+            "id": "Mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:22.111Z",
+            "updated_at": "2025-12-04T17:20:22.111Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:22.337Z",
+            "updated_at": "2025-12-04T17:20:22.337Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:19:57.187Z",
+            "updated_at": "2025-12-04T17:19:57.187Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:19:58.916Z",
+            "updated_at": "2025-12-04T17:19:58.916Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:02.378Z",
+            "updated_at": "2025-12-04T17:20:02.378Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:19:57.186Z",
+            "updated_at": "2025-12-04T17:19:57.186Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:19:58.888Z",
+            "updated_at": "2025-12-04T17:19:58.888Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:19:58.898Z",
+            "updated_at": "2025-12-04T17:19:58.898Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T17:20:02.408Z",
+            "updated_at": "2025-12-04T17:20:02.408Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:19:58.916Z",
+            "updated_at": "2025-12-04T17:19:58.916Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T17:20:02.419Z",
+            "updated_at": "2025-12-04T17:20:02.419Z"
+          }
+        ],
+        "last_updated": "2025-12-04T17:20:34.127Z",
         "scrape_duration_ms": 0
       },
       {
@@ -279,11 +921,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T16:54:16.814Z",
-            "updated_at": "2025-12-04T16:54:16.814Z"
+            "created_at": "2025-12-04T17:19:57.121Z",
+            "updated_at": "2025-12-04T17:19:57.121Z"
           }
         ],
-        "last_updated": "2025-12-04T16:54:54.046Z",
+        "last_updated": "2025-12-04T17:20:34.127Z",
         "scrape_duration_ms": 0
       }
     ]
