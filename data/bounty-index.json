@@ -1,42 +1,114 @@
 {
-  "generated_at": "2025-12-04T22:36:04.276Z",
-  "total_organizations": 8,
-  "total_bounties": 41,
-  "total_value_usd": 4100,
+  "generated_at": "2025-12-04T22:51:48.745Z",
+  "total_organizations": 9,
+  "total_bounties": 48,
+  "total_value_usd": 4800,
   "version": "3.0.0",
   "organizations": {
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:23.598Z",
-          "updated_at": "2025-12-04T22:35:23.598Z"
+          "created_at": "2025-12-04T22:51:08.225Z",
+          "updated_at": "2025-12-04T22:51:08.225Z"
         },
         {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:08.548Z",
+          "updated_at": "2025-12-04T22:51:08.548Z"
+        }
+      ],
+      "last_updated": "2025-12-04T22:51:48.745Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:24.883Z",
-          "updated_at": "2025-12-04T22:35:24.883Z"
+          "created_at": "2025-12-04T22:51:08.225Z",
+          "updated_at": "2025-12-04T22:51:08.225Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:08.562Z",
+          "updated_at": "2025-12-04T22:51:08.562Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T22:51:08.225Z",
+          "updated_at": "2025-12-04T22:51:08.225Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:08.581Z",
+          "updated_at": "2025-12-04T22:51:08.581Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:09.119Z",
+          "updated_at": "2025-12-04T22:51:09.119Z"
+        }
+      ],
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     },
     "GolemCloud": {
@@ -54,8 +126,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:24.895Z",
-          "updated_at": "2025-12-04T22:35:24.895Z"
+          "created_at": "2025-12-04T22:51:09.203Z",
+          "updated_at": "2025-12-04T22:51:09.203Z"
         },
         {
           "id": "GolemCloud#23",
@@ -66,11 +138,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:25.643Z",
-          "updated_at": "2025-12-04T22:35:25.643Z"
+          "created_at": "2025-12-04T22:51:10.699Z",
+          "updated_at": "2025-12-04T22:51:10.699Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     },
     "highlight": {
@@ -88,8 +160,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:22.667Z",
-          "updated_at": "2025-12-04T22:35:22.667Z"
+          "created_at": "2025-12-04T22:51:08.308Z",
+          "updated_at": "2025-12-04T22:51:08.308Z"
         },
         {
           "id": "highlight#8614",
@@ -98,8 +170,8 @@
           "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:23.597Z",
-          "updated_at": "2025-12-04T22:35:23.597Z"
+          "created_at": "2025-12-04T22:51:08.746Z",
+          "updated_at": "2025-12-04T22:51:08.746Z"
         },
         {
           "id": "highlight#8032",
@@ -108,8 +180,8 @@
           "url": "https://github.com/highlight/highlight/issues/8032",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:24.877Z",
-          "updated_at": "2025-12-04T22:35:24.877Z"
+          "created_at": "2025-12-04T22:51:09.808Z",
+          "updated_at": "2025-12-04T22:51:09.808Z"
         },
         {
           "id": "highlight#6775",
@@ -118,83 +190,21 @@
           "url": "https://github.com/highlight/highlight/issues/6775",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:25.686Z",
-          "updated_at": "2025-12-04T22:35:25.686Z"
+          "created_at": "2025-12-04T22:51:11.470Z",
+          "updated_at": "2025-12-04T22:51:11.470Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-04T22:35:50.458Z",
-          "updated_at": "2025-12-04T22:35:50.458Z"
-        },
-        {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:50.647Z",
-          "updated_at": "2025-12-04T22:35:50.647Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:50.833Z",
-          "updated_at": "2025-12-04T22:35:50.833Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.047Z",
-          "updated_at": "2025-12-04T22:35:51.047Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.241Z",
-          "updated_at": "2025-12-04T22:35:51.241Z"
-        }
-      ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
+    "Mudlet": {
       "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
       "bounty_count": 5,
       "total_value_usd": 500,
       "bounties": [
         {
-          "id": "mudlet#8030",
+          "id": "Mudlet#8030",
           "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -202,11 +212,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:50.510Z",
-          "updated_at": "2025-12-04T22:35:50.510Z"
+          "created_at": "2025-12-04T22:51:08.310Z",
+          "updated_at": "2025-12-04T22:51:08.310Z"
         },
         {
-          "id": "mudlet#3172",
+          "id": "Mudlet#3172",
           "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -214,155 +224,41 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:50.700Z",
-          "updated_at": "2025-12-04T22:35:50.700Z"
+          "created_at": "2025-12-04T22:51:08.745Z",
+          "updated_at": "2025-12-04T22:51:08.745Z"
         },
         {
-          "id": "mudlet#689",
+          "id": "Mudlet#689",
           "title": "Support telnet:// links",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:50.918Z",
-          "updated_at": "2025-12-04T22:35:50.918Z"
+          "created_at": "2025-12-04T22:51:09.748Z",
+          "updated_at": "2025-12-04T22:51:09.748Z"
         },
         {
-          "id": "mudlet#707",
+          "id": "Mudlet#707",
           "title": "Undo/redo support in editor",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/707",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.138Z",
-          "updated_at": "2025-12-04T22:35:51.138Z"
+          "created_at": "2025-12-04T22:51:11.492Z",
+          "updated_at": "2025-12-04T22:51:11.492Z"
         },
         {
-          "id": "mudlet#5310",
+          "id": "Mudlet#5310",
           "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.347Z",
-          "updated_at": "2025-12-04T22:35:51.347Z"
+          "created_at": "2025-12-04T22:51:12.841Z",
+          "updated_at": "2025-12-04T22:51:12.841Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
-      "scrape_duration_ms": 0
-    },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "mediar-ai#378",
-          "title": "Create workflow: \"Supplier invoice reconciliation\"",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/378",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-04T22:35:50.536Z",
-          "updated_at": "2025-12-04T22:35:50.536Z"
-        },
-        {
-          "id": "mediar-ai#357",
-          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/357",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-04T22:35:50.740Z",
-          "updated_at": "2025-12-04T22:35:50.740Z"
-        },
-        {
-          "id": "mediar-ai#353",
-          "title": "create a typescript workflow that test the browser script bridge",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/353",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:50.950Z",
-          "updated_at": "2025-12-04T22:35:50.950Z"
-        },
-        {
-          "id": "mediar-ai#352",
-          "title": "increase success rate of browser extension workflow",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/352",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.172Z",
-          "updated_at": "2025-12-04T22:35:51.172Z"
-        },
-        {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.370Z",
-          "updated_at": "2025-12-04T22:35:51.370Z"
-        },
-        {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.552Z",
-          "updated_at": "2025-12-04T22:35:51.552Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.751Z",
-          "updated_at": "2025-12-04T22:35:51.751Z"
-        },
-        {
-          "id": "mediar-ai#1441",
-          "title": "Issue #1441",
-          "amount_usd": 100,
-          "url": "github.com/mediar-ai/screenpipe/issues/1441",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.770Z",
-          "updated_at": "2025-12-04T22:35:51.770Z"
-        },
-        {
-          "id": "mediar-ai#1298",
-          "title": "Issue #1298",
-          "amount_usd": 100,
-          "url": "github.com/mediar-ai/screenpipe/issues/1298",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.790Z",
-          "updated_at": "2025-12-04T22:35:51.790Z"
-        },
-        {
-          "id": "mediar-ai#1383",
-          "title": "Issue #1383",
-          "amount_usd": 100,
-          "url": "github.com/mediar-ai/screenpipe/issues/1383",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-04T22:35:51.811Z",
-          "updated_at": "2025-12-04T22:35:51.811Z"
-        }
-      ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     },
     "coollabsio": {
@@ -380,8 +276,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:51.125Z",
-          "updated_at": "2025-12-04T22:35:51.125Z"
+          "created_at": "2025-12-04T22:51:08.387Z",
+          "updated_at": "2025-12-04T22:51:08.387Z"
         },
         {
           "id": "coollabsio#7458",
@@ -392,8 +288,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:51.309Z",
-          "updated_at": "2025-12-04T22:35:51.309Z"
+          "created_at": "2025-12-04T22:51:09.119Z",
+          "updated_at": "2025-12-04T22:51:09.119Z"
         },
         {
           "id": "coollabsio#7423",
@@ -402,8 +298,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7423",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.490Z",
-          "updated_at": "2025-12-04T22:35:51.490Z"
+          "created_at": "2025-12-04T22:51:10.787Z",
+          "updated_at": "2025-12-04T22:51:10.787Z"
         },
         {
           "id": "coollabsio#6519",
@@ -412,8 +308,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.649Z",
-          "updated_at": "2025-12-04T22:35:51.649Z"
+          "created_at": "2025-12-04T22:51:11.933Z",
+          "updated_at": "2025-12-04T22:51:11.933Z"
         },
         {
           "id": "coollabsio#7110",
@@ -422,109 +318,291 @@
           "url": "https://github.com/coollabsio/coolify/issues/7110",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.831Z",
-          "updated_at": "2025-12-04T22:35:51.831Z"
+          "created_at": "2025-12-04T22:51:13.773Z",
+          "updated_at": "2025-12-04T22:51:13.773Z"
         },
         {
           "id": "coollabsio#6894",
-          "title": "Issue #6894",
+          "title": "[Enhancement]: Project-specific members",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/6894",
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.851Z",
-          "updated_at": "2025-12-04T22:35:51.851Z"
+          "created_at": "2025-12-04T22:51:16.910Z",
+          "updated_at": "2025-12-04T22:51:16.910Z"
         },
         {
           "id": "coollabsio#4523",
-          "title": "Issue #4523",
+          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/4523",
+          "url": "https://github.com/coollabsio/coolify/issues/4523",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.870Z",
-          "updated_at": "2025-12-04T22:35:51.870Z"
+          "created_at": "2025-12-04T22:51:18.712Z",
+          "updated_at": "2025-12-04T22:51:18.712Z"
         },
         {
           "id": "coollabsio#6567",
-          "title": "Issue #6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/6567",
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.890Z",
-          "updated_at": "2025-12-04T22:35:51.890Z"
+          "created_at": "2025-12-04T22:51:20.446Z",
+          "updated_at": "2025-12-04T22:51:20.446Z"
         },
         {
           "id": "coollabsio#6566",
-          "title": "Issue #6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/6566",
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.910Z",
-          "updated_at": "2025-12-04T22:35:51.910Z"
+          "created_at": "2025-12-04T22:51:22.085Z",
+          "updated_at": "2025-12-04T22:51:22.085Z"
         },
         {
           "id": "coollabsio#6519",
-          "title": "Issue #6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
           "amount_usd": 100,
-          "url": "github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:51.930Z",
-          "updated_at": "2025-12-04T22:35:51.930Z"
+          "created_at": "2025-12-04T22:51:23.765Z",
+          "updated_at": "2025-12-04T22:51:23.765Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "permitio#716",
-          "title": "Issue #716",
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "github.com/permitio/opal/issues/716",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-04T22:35:54.235Z",
-          "updated_at": "2025-12-04T22:35:54.235Z"
+          "created_at": "2025-12-04T22:51:08.388Z",
+          "updated_at": "2025-12-04T22:51:08.388Z"
         },
         {
-          "id": "permitio#677",
-          "title": "Issue #677",
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "github.com/permitio/opal/issues/677",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:54.255Z",
-          "updated_at": "2025-12-04T22:35:54.255Z"
+          "created_at": "2025-12-04T22:51:09.118Z",
+          "updated_at": "2025-12-04T22:51:09.118Z"
         },
         {
-          "id": "permitio#634",
-          "title": "Issue #634",
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "github.com/permitio/opal/issues/634",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-04T22:35:54.274Z",
-          "updated_at": "2025-12-04T22:35:54.274Z"
+          "created_at": "2025-12-04T22:51:10.699Z",
+          "updated_at": "2025-12-04T22:51:10.699Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:11.933Z",
+          "updated_at": "2025-12-04T22:51:11.933Z"
+        },
+        {
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:13.772Z",
+          "updated_at": "2025-12-04T22:51:13.772Z"
+        },
+        {
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:16.910Z",
+          "updated_at": "2025-12-04T22:51:16.910Z"
+        },
+        {
+          "id": "zio#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:18.712Z",
+          "updated_at": "2025-12-04T22:51:18.712Z"
+        },
+        {
+          "id": "zio#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:20.509Z",
+          "updated_at": "2025-12-04T22:51:20.509Z"
+        },
+        {
+          "id": "zio#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:22.085Z",
+          "updated_at": "2025-12-04T22:51:22.085Z"
+        },
+        {
+          "id": "zio#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:23.848Z",
+          "updated_at": "2025-12-04T22:51:23.848Z"
         }
       ],
-      "last_updated": "2025-12-04T22:36:04.276Z",
+      "last_updated": "2025-12-04T22:51:48.745Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-04T22:51:37.395Z",
+          "updated_at": "2025-12-04T22:51:37.395Z"
+        },
+        {
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:37.609Z",
+          "updated_at": "2025-12-04T22:51:37.609Z"
+        },
+        {
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:37.797Z",
+          "updated_at": "2025-12-04T22:51:37.797Z"
+        },
+        {
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.007Z",
+          "updated_at": "2025-12-04T22:51:38.007Z"
+        },
+        {
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.300Z",
+          "updated_at": "2025-12-04T22:51:38.300Z"
+        },
+        {
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.479Z",
+          "updated_at": "2025-12-04T22:51:38.479Z"
+        },
+        {
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.683Z",
+          "updated_at": "2025-12-04T22:51:38.683Z"
+        },
+        {
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.703Z",
+          "updated_at": "2025-12-04T22:51:38.703Z"
+        },
+        {
+          "id": "ZIO#9681",
+          "title": "Issue #9681",
+          "amount_usd": 100,
+          "url": "github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.723Z",
+          "updated_at": "2025-12-04T22:51:38.723Z"
+        },
+        {
+          "id": "ZIO#9922",
+          "title": "Issue #9922",
+          "amount_usd": 100,
+          "url": "github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-04T22:51:38.743Z",
+          "updated_at": "2025-12-04T22:51:38.743Z"
+        }
+      ],
+      "last_updated": "2025-12-04T22:51:48.745Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 133928,
+    "processing_time_ms": 127411,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -532,121 +610,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "mediar-ai#378",
-            "title": "Create workflow: \"Supplier invoice reconciliation\"",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/378",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-04T22:35:50.536Z",
-            "updated_at": "2025-12-04T22:35:50.536Z"
-          },
-          {
-            "id": "mediar-ai#357",
-            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/357",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-04T22:35:50.740Z",
-            "updated_at": "2025-12-04T22:35:50.740Z"
-          },
-          {
-            "id": "mediar-ai#353",
-            "title": "create a typescript workflow that test the browser script bridge",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/353",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:50.950Z",
-            "updated_at": "2025-12-04T22:35:50.950Z"
-          },
-          {
-            "id": "mediar-ai#352",
-            "title": "increase success rate of browser extension workflow",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/352",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.172Z",
-            "updated_at": "2025-12-04T22:35:51.172Z"
-          },
-          {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.370Z",
-            "updated_at": "2025-12-04T22:35:51.370Z"
-          },
-          {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.552Z",
-            "updated_at": "2025-12-04T22:35:51.552Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.751Z",
-            "updated_at": "2025-12-04T22:35:51.751Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "Issue #1441",
-            "amount_usd": 100,
-            "url": "github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.770Z",
-            "updated_at": "2025-12-04T22:35:51.770Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "Issue #1298",
-            "amount_usd": 100,
-            "url": "github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.790Z",
-            "updated_at": "2025-12-04T22:35:51.790Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "Issue #1383",
-            "amount_usd": 100,
-            "url": "github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-04T22:35:51.811Z",
-            "updated_at": "2025-12-04T22:35:51.811Z"
-          }
-        ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "coollabsio",
         "display_name": "Coollabsio",
@@ -663,8 +626,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:51.125Z",
-            "updated_at": "2025-12-04T22:35:51.125Z"
+            "created_at": "2025-12-04T22:51:08.387Z",
+            "updated_at": "2025-12-04T22:51:08.387Z"
           },
           {
             "id": "coollabsio#7458",
@@ -675,8 +638,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:51.309Z",
-            "updated_at": "2025-12-04T22:35:51.309Z"
+            "created_at": "2025-12-04T22:51:09.119Z",
+            "updated_at": "2025-12-04T22:51:09.119Z"
           },
           {
             "id": "coollabsio#7423",
@@ -685,8 +648,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.490Z",
-            "updated_at": "2025-12-04T22:35:51.490Z"
+            "created_at": "2025-12-04T22:51:10.787Z",
+            "updated_at": "2025-12-04T22:51:10.787Z"
           },
           {
             "id": "coollabsio#6519",
@@ -695,8 +658,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.649Z",
-            "updated_at": "2025-12-04T22:35:51.649Z"
+            "created_at": "2025-12-04T22:51:11.933Z",
+            "updated_at": "2025-12-04T22:51:11.933Z"
           },
           {
             "id": "coollabsio#7110",
@@ -705,135 +668,298 @@
             "url": "https://github.com/coollabsio/coolify/issues/7110",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.831Z",
-            "updated_at": "2025-12-04T22:35:51.831Z"
+            "created_at": "2025-12-04T22:51:13.773Z",
+            "updated_at": "2025-12-04T22:51:13.773Z"
           },
           {
             "id": "coollabsio#6894",
-            "title": "Issue #6894",
+            "title": "[Enhancement]: Project-specific members",
             "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/6894",
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.851Z",
-            "updated_at": "2025-12-04T22:35:51.851Z"
+            "created_at": "2025-12-04T22:51:16.910Z",
+            "updated_at": "2025-12-04T22:51:16.910Z"
           },
           {
             "id": "coollabsio#4523",
-            "title": "Issue #4523",
+            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
             "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/4523",
+            "url": "https://github.com/coollabsio/coolify/issues/4523",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.870Z",
-            "updated_at": "2025-12-04T22:35:51.870Z"
+            "created_at": "2025-12-04T22:51:18.712Z",
+            "updated_at": "2025-12-04T22:51:18.712Z"
           },
           {
             "id": "coollabsio#6567",
-            "title": "Issue #6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
             "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/6567",
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.890Z",
-            "updated_at": "2025-12-04T22:35:51.890Z"
+            "created_at": "2025-12-04T22:51:20.446Z",
+            "updated_at": "2025-12-04T22:51:20.446Z"
           },
           {
             "id": "coollabsio#6566",
-            "title": "Issue #6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
             "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/6566",
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.910Z",
-            "updated_at": "2025-12-04T22:35:51.910Z"
+            "created_at": "2025-12-04T22:51:22.085Z",
+            "updated_at": "2025-12-04T22:51:22.085Z"
           },
           {
             "id": "coollabsio#6519",
-            "title": "Issue #6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
             "amount_usd": 100,
-            "url": "github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.930Z",
-            "updated_at": "2025-12-04T22:35:51.930Z"
+            "created_at": "2025-12-04T22:51:23.765Z",
+            "updated_at": "2025-12-04T22:51:23.765Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:50.458Z",
-            "updated_at": "2025-12-04T22:35:50.458Z"
+            "created_at": "2025-12-04T22:51:08.388Z",
+            "updated_at": "2025-12-04T22:51:08.388Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:50.647Z",
-            "updated_at": "2025-12-04T22:35:50.647Z"
+            "created_at": "2025-12-04T22:51:09.118Z",
+            "updated_at": "2025-12-04T22:51:09.118Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:50.833Z",
-            "updated_at": "2025-12-04T22:35:50.833Z"
+            "created_at": "2025-12-04T22:51:10.699Z",
+            "updated_at": "2025-12-04T22:51:10.699Z"
           },
           {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.047Z",
-            "updated_at": "2025-12-04T22:35:51.047Z"
+            "created_at": "2025-12-04T22:51:11.933Z",
+            "updated_at": "2025-12-04T22:51:11.933Z"
           },
           {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.241Z",
-            "updated_at": "2025-12-04T22:35:51.241Z"
+            "created_at": "2025-12-04T22:51:13.772Z",
+            "updated_at": "2025-12-04T22:51:13.772Z"
+          },
+          {
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:16.910Z",
+            "updated_at": "2025-12-04T22:51:16.910Z"
+          },
+          {
+            "id": "zio#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9877",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:18.712Z",
+            "updated_at": "2025-12-04T22:51:18.712Z"
+          },
+          {
+            "id": "zio#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:20.509Z",
+            "updated_at": "2025-12-04T22:51:20.509Z"
+          },
+          {
+            "id": "zio#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:22.085Z",
+            "updated_at": "2025-12-04T22:51:22.085Z"
+          },
+          {
+            "id": "zio#9922",
+            "title": "Add tests for `ZStreamAspect`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:23.848Z",
+            "updated_at": "2025-12-04T22:51:23.848Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-04T22:51:37.395Z",
+            "updated_at": "2025-12-04T22:51:37.395Z"
+          },
+          {
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:37.609Z",
+            "updated_at": "2025-12-04T22:51:37.609Z"
+          },
+          {
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:37.797Z",
+            "updated_at": "2025-12-04T22:51:37.797Z"
+          },
+          {
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.007Z",
+            "updated_at": "2025-12-04T22:51:38.007Z"
+          },
+          {
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9844",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.300Z",
+            "updated_at": "2025-12-04T22:51:38.300Z"
+          },
+          {
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.479Z",
+            "updated_at": "2025-12-04T22:51:38.479Z"
+          },
+          {
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9877",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.683Z",
+            "updated_at": "2025-12-04T22:51:38.683Z"
+          },
+          {
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.703Z",
+            "updated_at": "2025-12-04T22:51:38.703Z"
+          },
+          {
+            "id": "ZIO#9681",
+            "title": "Issue #9681",
+            "amount_usd": 100,
+            "url": "github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.723Z",
+            "updated_at": "2025-12-04T22:51:38.723Z"
+          },
+          {
+            "id": "ZIO#9922",
+            "title": "Issue #9922",
+            "amount_usd": 100,
+            "url": "github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:38.743Z",
+            "updated_at": "2025-12-04T22:51:38.743Z"
+          }
+        ],
+        "last_updated": "2025-12-04T22:51:48.745Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
         "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
         "bounty_count": 5,
         "total_value_usd": 500,
         "bounties": [
           {
-            "id": "mudlet#8030",
+            "id": "Mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -841,11 +967,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:50.510Z",
-            "updated_at": "2025-12-04T22:35:50.510Z"
+            "created_at": "2025-12-04T22:51:08.310Z",
+            "updated_at": "2025-12-04T22:51:08.310Z"
           },
           {
-            "id": "mudlet#3172",
+            "id": "Mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -853,41 +979,41 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:50.700Z",
-            "updated_at": "2025-12-04T22:35:50.700Z"
+            "created_at": "2025-12-04T22:51:08.745Z",
+            "updated_at": "2025-12-04T22:51:08.745Z"
           },
           {
-            "id": "mudlet#689",
+            "id": "Mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:50.918Z",
-            "updated_at": "2025-12-04T22:35:50.918Z"
+            "created_at": "2025-12-04T22:51:09.748Z",
+            "updated_at": "2025-12-04T22:51:09.748Z"
           },
           {
-            "id": "mudlet#707",
+            "id": "Mudlet#707",
             "title": "Undo/redo support in editor",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.138Z",
-            "updated_at": "2025-12-04T22:35:51.138Z"
+            "created_at": "2025-12-04T22:51:11.492Z",
+            "updated_at": "2025-12-04T22:51:11.492Z"
           },
           {
-            "id": "mudlet#5310",
+            "id": "Mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:51.347Z",
-            "updated_at": "2025-12-04T22:35:51.347Z"
+            "created_at": "2025-12-04T22:51:12.841Z",
+            "updated_at": "2025-12-04T22:51:12.841Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
@@ -906,8 +1032,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:22.667Z",
-            "updated_at": "2025-12-04T22:35:22.667Z"
+            "created_at": "2025-12-04T22:51:08.308Z",
+            "updated_at": "2025-12-04T22:51:08.308Z"
           },
           {
             "id": "highlight#8614",
@@ -916,8 +1042,8 @@
             "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:23.597Z",
-            "updated_at": "2025-12-04T22:35:23.597Z"
+            "created_at": "2025-12-04T22:51:08.746Z",
+            "updated_at": "2025-12-04T22:51:08.746Z"
           },
           {
             "id": "highlight#8032",
@@ -926,8 +1052,8 @@
             "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:24.877Z",
-            "updated_at": "2025-12-04T22:35:24.877Z"
+            "created_at": "2025-12-04T22:51:09.808Z",
+            "updated_at": "2025-12-04T22:51:09.808Z"
           },
           {
             "id": "highlight#6775",
@@ -936,89 +1062,120 @@
             "url": "https://github.com/highlight/highlight/issues/6775",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:25.686Z",
-            "updated_at": "2025-12-04T22:35:25.686Z"
+            "created_at": "2025-12-04T22:51:11.470Z",
+            "updated_at": "2025-12-04T22:51:11.470Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Issue #716",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "github.com/permitio/opal/issues/716",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:54.235Z",
-            "updated_at": "2025-12-04T22:35:54.235Z"
+            "created_at": "2025-12-04T22:51:08.225Z",
+            "updated_at": "2025-12-04T22:51:08.225Z"
           },
           {
-            "id": "permitio#677",
-            "title": "Issue #677",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "github.com/permitio/opal/issues/677",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:54.255Z",
-            "updated_at": "2025-12-04T22:35:54.255Z"
+            "created_at": "2025-12-04T22:51:08.581Z",
+            "updated_at": "2025-12-04T22:51:08.581Z"
           },
           {
-            "id": "permitio#634",
-            "title": "Issue #634",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "github.com/permitio/opal/issues/634",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-04T22:35:54.274Z",
-            "updated_at": "2025-12-04T22:35:54.274Z"
+            "created_at": "2025-12-04T22:51:09.119Z",
+            "updated_at": "2025-12-04T22:51:09.119Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:23.598Z",
-            "updated_at": "2025-12-04T22:35:23.598Z"
+            "created_at": "2025-12-04T22:51:08.225Z",
+            "updated_at": "2025-12-04T22:51:08.225Z"
           },
           {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:08.548Z",
+            "updated_at": "2025-12-04T22:51:08.548Z"
+          }
+        ],
+        "last_updated": "2025-12-04T22:51:48.745Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:24.883Z",
-            "updated_at": "2025-12-04T22:35:24.883Z"
+            "created_at": "2025-12-04T22:51:08.225Z",
+            "updated_at": "2025-12-04T22:51:08.225Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-04T22:51:08.562Z",
+            "updated_at": "2025-12-04T22:51:08.562Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1037,8 +1194,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:24.895Z",
-            "updated_at": "2025-12-04T22:35:24.895Z"
+            "created_at": "2025-12-04T22:51:09.203Z",
+            "updated_at": "2025-12-04T22:51:09.203Z"
           },
           {
             "id": "GolemCloud#23",
@@ -1049,11 +1206,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-04T22:35:25.643Z",
-            "updated_at": "2025-12-04T22:35:25.643Z"
+            "created_at": "2025-12-04T22:51:10.699Z",
+            "updated_at": "2025-12-04T22:51:10.699Z"
           }
         ],
-        "last_updated": "2025-12-04T22:36:04.276Z",
+        "last_updated": "2025-12-04T22:51:48.745Z",
         "scrape_duration_ms": 0
       }
     ]
