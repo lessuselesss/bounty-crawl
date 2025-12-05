@@ -1,128 +1,366 @@
 {
-  "generated_at": "2025-12-05T05:17:12.223Z",
-  "total_organizations": 1,
-  "total_bounties": 10,
-  "total_value_usd": 1000,
+  "generated_at": "2025-12-05T05:38:07.222Z",
+  "total_organizations": 5,
+  "total_bounties": 29,
+  "total_value_usd": 2900,
   "version": "3.0.0",
   "organizations": {
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-05T05:37:26.348Z",
+          "updated_at": "2025-12-05T05:37:26.348Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:26.525Z",
+          "updated_at": "2025-12-05T05:37:26.525Z"
+        }
+      ],
+      "last_updated": "2025-12-05T05:38:07.222Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-05T05:37:26.988Z",
+          "updated_at": "2025-12-05T05:37:26.988Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:27.586Z",
+          "updated_at": "2025-12-05T05:37:27.586Z"
+        }
+      ],
+      "last_updated": "2025-12-05T05:38:07.222Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-05T05:37:35.873Z",
+          "updated_at": "2025-12-05T05:37:35.873Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-05T05:37:36.459Z",
+          "updated_at": "2025-12-05T05:37:36.459Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:36.826Z",
+          "updated_at": "2025-12-05T05:37:36.826Z"
+        },
+        {
+          "id": "mudlet#707",
+          "title": "Undo/redo support in editor",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/707",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:38.229Z",
+          "updated_at": "2025-12-05T05:37:38.229Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:38.989Z",
+          "updated_at": "2025-12-05T05:37:38.989Z"
+        }
+      ],
+      "last_updated": "2025-12-05T05:38:07.222Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "mediar-ai#378",
-          "title": "Create workflow: \"Supplier invoice reconciliation\"",
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/378",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-05T05:17:00.268Z",
-          "updated_at": "2025-12-05T05:17:00.268Z"
+          "created_at": "2025-12-05T05:37:36.459Z",
+          "updated_at": "2025-12-05T05:37:36.459Z"
         },
         {
-          "id": "mediar-ai#357",
-          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/357",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-05T05:17:00.476Z",
-          "updated_at": "2025-12-05T05:17:00.476Z"
-        },
-        {
-          "id": "mediar-ai#353",
-          "title": "create a typescript workflow that test the browser script bridge",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/353",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:00.781Z",
-          "updated_at": "2025-12-05T05:17:00.781Z"
+          "created_at": "2025-12-05T05:37:36.851Z",
+          "updated_at": "2025-12-05T05:37:36.851Z"
         },
         {
-          "id": "mediar-ai#352",
-          "title": "increase success rate of browser extension workflow",
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/352",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:00.980Z",
-          "updated_at": "2025-12-05T05:17:00.980Z"
+          "created_at": "2025-12-05T05:37:38.229Z",
+          "updated_at": "2025-12-05T05:37:38.229Z"
         },
         {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
+          "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:01.209Z",
-          "updated_at": "2025-12-05T05:17:01.209Z"
+          "created_at": "2025-12-05T05:37:39.039Z",
+          "updated_at": "2025-12-05T05:37:39.039Z"
         },
         {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+          "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:01.416Z",
-          "updated_at": "2025-12-05T05:17:01.416Z"
+          "created_at": "2025-12-05T05:37:40.524Z",
+          "updated_at": "2025-12-05T05:37:40.524Z"
         },
         {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "url": "https://github.com/zio/zio/issues/9878",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:01.602Z",
-          "updated_at": "2025-12-05T05:17:01.602Z"
+          "created_at": "2025-12-05T05:37:41.336Z",
+          "updated_at": "2025-12-05T05:37:41.336Z"
         },
         {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "url": "https://github.com/zio/zio/issues/9877",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:01.821Z",
-          "updated_at": "2025-12-05T05:17:01.821Z"
+          "created_at": "2025-12-05T05:37:42.522Z",
+          "updated_at": "2025-12-05T05:37:42.522Z"
         },
         {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "url": "https://github.com/zio/zio/issues/9874",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:02.024Z",
-          "updated_at": "2025-12-05T05:17:02.024Z"
+          "created_at": "2025-12-05T05:37:45.864Z",
+          "updated_at": "2025-12-05T05:37:45.864Z"
         },
         {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
+          "id": "ZIO#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+          "url": "https://github.com/zio/zio/issues/9681",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-05T05:17:02.222Z",
-          "updated_at": "2025-12-05T05:17:02.222Z"
+          "created_at": "2025-12-05T05:37:47.498Z",
+          "updated_at": "2025-12-05T05:37:47.498Z"
+        },
+        {
+          "id": "ZIO#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:49.649Z",
+          "updated_at": "2025-12-05T05:37:49.649Z"
         }
       ],
-      "last_updated": "2025-12-05T05:17:12.223Z",
+      "last_updated": "2025-12-05T05:38:07.222Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-05T05:37:48.621Z",
+          "updated_at": "2025-12-05T05:37:48.621Z"
+        },
+        {
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:50.358Z",
+          "updated_at": "2025-12-05T05:37:50.358Z"
+        },
+        {
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:51.137Z",
+          "updated_at": "2025-12-05T05:37:51.137Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:52.260Z",
+          "updated_at": "2025-12-05T05:37:52.260Z"
+        },
+        {
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:54.611Z",
+          "updated_at": "2025-12-05T05:37:54.611Z"
+        },
+        {
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:55.523Z",
+          "updated_at": "2025-12-05T05:37:55.523Z"
+        },
+        {
+          "id": "zio#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:56.514Z",
+          "updated_at": "2025-12-05T05:37:56.514Z"
+        },
+        {
+          "id": "zio#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:56.661Z",
+          "updated_at": "2025-12-05T05:37:56.661Z"
+        },
+        {
+          "id": "zio#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:56.835Z",
+          "updated_at": "2025-12-05T05:37:56.835Z"
+        },
+        {
+          "id": "zio#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-05T05:37:57.068Z",
+          "updated_at": "2025-12-05T05:37:57.068Z"
+        }
+      ],
+      "last_updated": "2025-12-05T05:38:07.222Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 130746,
+    "processing_time_ms": 114002,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -131,118 +369,360 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "mediar-ai#378",
-            "title": "Create workflow: \"Supplier invoice reconciliation\"",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/378",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-05T05:17:00.268Z",
-            "updated_at": "2025-12-05T05:17:00.268Z"
+            "created_at": "2025-12-05T05:37:36.459Z",
+            "updated_at": "2025-12-05T05:37:36.459Z"
           },
           {
-            "id": "mediar-ai#357",
-            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/357",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-05T05:17:00.476Z",
-            "updated_at": "2025-12-05T05:17:00.476Z"
-          },
-          {
-            "id": "mediar-ai#353",
-            "title": "create a typescript workflow that test the browser script bridge",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/353",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:00.781Z",
-            "updated_at": "2025-12-05T05:17:00.781Z"
+            "created_at": "2025-12-05T05:37:36.851Z",
+            "updated_at": "2025-12-05T05:37:36.851Z"
           },
           {
-            "id": "mediar-ai#352",
-            "title": "increase success rate of browser extension workflow",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/352",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:00.980Z",
-            "updated_at": "2025-12-05T05:17:00.980Z"
+            "created_at": "2025-12-05T05:37:38.229Z",
+            "updated_at": "2025-12-05T05:37:38.229Z"
           },
           {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:01.209Z",
-            "updated_at": "2025-12-05T05:17:01.209Z"
+            "created_at": "2025-12-05T05:37:39.039Z",
+            "updated_at": "2025-12-05T05:37:39.039Z"
           },
           {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:01.416Z",
-            "updated_at": "2025-12-05T05:17:01.416Z"
+            "created_at": "2025-12-05T05:37:40.524Z",
+            "updated_at": "2025-12-05T05:37:40.524Z"
           },
           {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:01.602Z",
-            "updated_at": "2025-12-05T05:17:01.602Z"
+            "created_at": "2025-12-05T05:37:41.336Z",
+            "updated_at": "2025-12-05T05:37:41.336Z"
           },
           {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+            "url": "https://github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:01.821Z",
-            "updated_at": "2025-12-05T05:17:01.821Z"
+            "created_at": "2025-12-05T05:37:42.522Z",
+            "updated_at": "2025-12-05T05:37:42.522Z"
           },
           {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+            "url": "https://github.com/zio/zio/issues/9874",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:02.024Z",
-            "updated_at": "2025-12-05T05:17:02.024Z"
+            "created_at": "2025-12-05T05:37:45.864Z",
+            "updated_at": "2025-12-05T05:37:45.864Z"
           },
           {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
+            "id": "ZIO#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+            "url": "https://github.com/zio/zio/issues/9681",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-05T05:17:02.222Z",
-            "updated_at": "2025-12-05T05:17:02.222Z"
+            "created_at": "2025-12-05T05:37:47.498Z",
+            "updated_at": "2025-12-05T05:37:47.498Z"
+          },
+          {
+            "id": "ZIO#9922",
+            "title": "Add tests for `ZStreamAspect`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:49.649Z",
+            "updated_at": "2025-12-05T05:37:49.649Z"
           }
         ],
-        "last_updated": "2025-12-05T05:17:12.223Z",
+        "last_updated": "2025-12-05T05:38:07.222Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-05T05:37:48.621Z",
+            "updated_at": "2025-12-05T05:37:48.621Z"
+          },
+          {
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:50.358Z",
+            "updated_at": "2025-12-05T05:37:50.358Z"
+          },
+          {
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:51.137Z",
+            "updated_at": "2025-12-05T05:37:51.137Z"
+          },
+          {
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:52.260Z",
+            "updated_at": "2025-12-05T05:37:52.260Z"
+          },
+          {
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9844",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:54.611Z",
+            "updated_at": "2025-12-05T05:37:54.611Z"
+          },
+          {
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:55.523Z",
+            "updated_at": "2025-12-05T05:37:55.523Z"
+          },
+          {
+            "id": "zio#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9877",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:56.514Z",
+            "updated_at": "2025-12-05T05:37:56.514Z"
+          },
+          {
+            "id": "zio#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:56.661Z",
+            "updated_at": "2025-12-05T05:37:56.661Z"
+          },
+          {
+            "id": "zio#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:56.835Z",
+            "updated_at": "2025-12-05T05:37:56.835Z"
+          },
+          {
+            "id": "zio#9922",
+            "title": "Add tests for `ZStreamAspect`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:57.068Z",
+            "updated_at": "2025-12-05T05:37:57.068Z"
+          }
+        ],
+        "last_updated": "2025-12-05T05:38:07.222Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-05T05:37:35.873Z",
+            "updated_at": "2025-12-05T05:37:35.873Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-05T05:37:36.459Z",
+            "updated_at": "2025-12-05T05:37:36.459Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:36.826Z",
+            "updated_at": "2025-12-05T05:37:36.826Z"
+          },
+          {
+            "id": "mudlet#707",
+            "title": "Undo/redo support in editor",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/707",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:38.229Z",
+            "updated_at": "2025-12-05T05:37:38.229Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:38.989Z",
+            "updated_at": "2025-12-05T05:37:38.989Z"
+          }
+        ],
+        "last_updated": "2025-12-05T05:38:07.222Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-05T05:37:26.348Z",
+            "updated_at": "2025-12-05T05:37:26.348Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:26.525Z",
+            "updated_at": "2025-12-05T05:37:26.525Z"
+          }
+        ],
+        "last_updated": "2025-12-05T05:38:07.222Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-05T05:37:26.988Z",
+            "updated_at": "2025-12-05T05:37:26.988Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-05T05:37:27.586Z",
+            "updated_at": "2025-12-05T05:37:27.586Z"
+          }
+        ],
+        "last_updated": "2025-12-05T05:38:07.222Z",
         "scrape_duration_ms": 0
       }
     ]
