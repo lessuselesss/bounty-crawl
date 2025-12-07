@@ -1,108 +1,82 @@
 {
-  "generated_at": "2025-12-07T11:50:38.311Z",
-  "total_organizations": 7,
-  "total_bounties": 40,
-  "total_value_usd": 4000,
+  "generated_at": "2025-12-07T12:27:33.625Z",
+  "total_organizations": 4,
+  "total_bounties": 12,
+  "total_value_usd": 1200,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-          "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-07T11:49:56.179Z",
-          "updated_at": "2025-12-07T11:49:56.179Z"
-        }
-      ],
-      "last_updated": "2025-12-07T11:50:38.310Z",
-      "scrape_duration_ms": 0
-    },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-07T11:49:54.754Z",
-          "updated_at": "2025-12-07T11:49:54.754Z"
+          "created_at": "2025-12-07T12:26:53.996Z",
+          "updated_at": "2025-12-07T12:26:53.996Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-07T11:49:56.204Z",
-          "updated_at": "2025-12-07T11:49:56.204Z"
+          "tags": [],
+          "created_at": "2025-12-07T12:26:54.823Z",
+          "updated_at": "2025-12-07T12:26:54.823Z"
         }
       ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
+      "last_updated": "2025-12-07T12:27:33.625Z",
       "scrape_duration_ms": 0
     },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-07T11:49:56.205Z",
-          "updated_at": "2025-12-07T11:49:56.205Z"
+          "created_at": "2025-12-07T12:26:53.995Z",
+          "updated_at": "2025-12-07T12:26:53.995Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-07T11:49:57.162Z",
-          "updated_at": "2025-12-07T11:49:57.162Z"
+          "tags": [],
+          "created_at": "2025-12-07T12:26:54.837Z",
+          "updated_at": "2025-12-07T12:26:54.837Z"
         }
       ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
+      "last_updated": "2025-12-07T12:27:33.625Z",
       "scrape_duration_ms": 0
     },
-    "Mudlet": {
+    "mudlet": {
       "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "url": "https://algora.io/mudlet/bounties?status=open",
       "bounty_count": 5,
       "total_value_usd": 500,
       "bounties": [
         {
-          "id": "Mudlet#8030",
+          "id": "mudlet#8030",
           "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -110,11 +84,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-07T11:49:54.753Z",
-          "updated_at": "2025-12-07T11:49:54.753Z"
+          "created_at": "2025-12-07T12:26:53.995Z",
+          "updated_at": "2025-12-07T12:26:53.995Z"
         },
         {
-          "id": "Mudlet#3172",
+          "id": "mudlet#3172",
           "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -122,383 +96,89 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-07T11:49:56.204Z",
-          "updated_at": "2025-12-07T11:49:56.204Z"
+          "created_at": "2025-12-07T12:26:54.851Z",
+          "updated_at": "2025-12-07T12:26:54.851Z"
         },
         {
-          "id": "Mudlet#689",
+          "id": "mudlet#689",
           "title": "Support telnet:// links",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-07T11:49:57.215Z",
-          "updated_at": "2025-12-07T11:49:57.215Z"
+          "created_at": "2025-12-07T12:26:55.389Z",
+          "updated_at": "2025-12-07T12:26:55.389Z"
         },
         {
-          "id": "Mudlet#707",
+          "id": "mudlet#707",
           "title": "Undo/redo support in editor",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/707",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-07T11:49:58.721Z",
-          "updated_at": "2025-12-07T11:49:58.721Z"
+          "created_at": "2025-12-07T12:26:56.272Z",
+          "updated_at": "2025-12-07T12:26:56.272Z"
         },
         {
-          "id": "Mudlet#5310",
+          "id": "mudlet#5310",
           "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-07T11:50:02.388Z",
-          "updated_at": "2025-12-07T11:50:02.388Z"
+          "created_at": "2025-12-07T12:26:57.376Z",
+          "updated_at": "2025-12-07T12:26:57.376Z"
         }
       ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
+      "last_updated": "2025-12-07T12:27:33.625Z",
       "scrape_duration_ms": 0
     },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-07T11:49:54.754Z",
-          "updated_at": "2025-12-07T11:49:54.754Z"
+          "created_at": "2025-12-07T12:27:23.252Z",
+          "updated_at": "2025-12-07T12:27:23.252Z"
         },
         {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-07T11:49:56.205Z",
-          "updated_at": "2025-12-07T11:49:56.205Z"
+          "created_at": "2025-12-07T12:27:23.456Z",
+          "updated_at": "2025-12-07T12:27:23.456Z"
         },
         {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/permitio/opal/issues/634",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-07T11:49:58.722Z",
-          "updated_at": "2025-12-07T11:49:58.722Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:02.388Z",
-          "updated_at": "2025-12-07T11:50:02.388Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:07.753Z",
-          "updated_at": "2025-12-07T11:50:07.753Z"
-        },
-        {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:09.575Z",
-          "updated_at": "2025-12-07T11:50:09.575Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:12.389Z",
-          "updated_at": "2025-12-07T11:50:12.389Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:14.359Z",
-          "updated_at": "2025-12-07T11:50:14.359Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:17.436Z",
-          "updated_at": "2025-12-07T11:50:17.436Z"
-        },
-        {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:19.014Z",
-          "updated_at": "2025-12-07T11:50:19.014Z"
+          "created_at": "2025-12-07T12:27:23.624Z",
+          "updated_at": "2025-12-07T12:27:23.624Z"
         }
       ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-07T11:50:21.788Z",
-          "updated_at": "2025-12-07T11:50:21.788Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:21.926Z",
-          "updated_at": "2025-12-07T11:50:21.926Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.064Z",
-          "updated_at": "2025-12-07T11:50:22.064Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.236Z",
-          "updated_at": "2025-12-07T11:50:22.236Z"
-        },
-        {
-          "id": "zio#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.347Z",
-          "updated_at": "2025-12-07T11:50:22.347Z"
-        },
-        {
-          "id": "zio#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.505Z",
-          "updated_at": "2025-12-07T11:50:22.505Z"
-        },
-        {
-          "id": "zio#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.639Z",
-          "updated_at": "2025-12-07T11:50:22.639Z"
-        },
-        {
-          "id": "zio#9874",
-          "title": "Handling errors allows recovering from defects",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9874",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.789Z",
-          "updated_at": "2025-12-07T11:50:22.789Z"
-        },
-        {
-          "id": "zio#9681",
-          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:22.939Z",
-          "updated_at": "2025-12-07T11:50:22.939Z"
-        },
-        {
-          "id": "zio#9922",
-          "title": "Add tests for `ZStreamAspect`",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9922",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:23.057Z",
-          "updated_at": "2025-12-07T11:50:23.057Z"
-        }
-      ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-07T11:50:28.092Z",
-          "updated_at": "2025-12-07T11:50:28.092Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.116Z",
-          "updated_at": "2025-12-07T11:50:28.116Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.141Z",
-          "updated_at": "2025-12-07T11:50:28.141Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.165Z",
-          "updated_at": "2025-12-07T11:50:28.165Z"
-        },
-        {
-          "id": "ZIO#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.189Z",
-          "updated_at": "2025-12-07T11:50:28.189Z"
-        },
-        {
-          "id": "ZIO#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.213Z",
-          "updated_at": "2025-12-07T11:50:28.213Z"
-        },
-        {
-          "id": "ZIO#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.237Z",
-          "updated_at": "2025-12-07T11:50:28.237Z"
-        },
-        {
-          "id": "ZIO#9874",
-          "title": "Handling errors allows recovering from defects",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9874",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.261Z",
-          "updated_at": "2025-12-07T11:50:28.261Z"
-        },
-        {
-          "id": "ZIO#9681",
-          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.285Z",
-          "updated_at": "2025-12-07T11:50:28.285Z"
-        },
-        {
-          "id": "ZIO#9922",
-          "title": "Add tests for `ZStreamAspect`",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9922",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-07T11:50:28.309Z",
-          "updated_at": "2025-12-07T11:50:28.309Z"
-        }
-      ],
-      "last_updated": "2025-12-07T11:50:38.311Z",
+      "last_updated": "2025-12-07T12:27:33.625Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 136800,
+    "processing_time_ms": 133250,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -507,353 +187,14 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:49:54.754Z",
-            "updated_at": "2025-12-07T11:49:54.754Z"
-          },
-          {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:49:56.205Z",
-            "updated_at": "2025-12-07T11:49:56.205Z"
-          },
-          {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:49:58.722Z",
-            "updated_at": "2025-12-07T11:49:58.722Z"
-          },
-          {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:02.388Z",
-            "updated_at": "2025-12-07T11:50:02.388Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:07.753Z",
-            "updated_at": "2025-12-07T11:50:07.753Z"
-          },
-          {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:09.575Z",
-            "updated_at": "2025-12-07T11:50:09.575Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:12.389Z",
-            "updated_at": "2025-12-07T11:50:12.389Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:14.359Z",
-            "updated_at": "2025-12-07T11:50:14.359Z"
-          },
-          {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:17.436Z",
-            "updated_at": "2025-12-07T11:50:17.436Z"
-          },
-          {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:19.014Z",
-            "updated_at": "2025-12-07T11:50:19.014Z"
-          }
-        ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:50:21.788Z",
-            "updated_at": "2025-12-07T11:50:21.788Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:21.926Z",
-            "updated_at": "2025-12-07T11:50:21.926Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.064Z",
-            "updated_at": "2025-12-07T11:50:22.064Z"
-          },
-          {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.236Z",
-            "updated_at": "2025-12-07T11:50:22.236Z"
-          },
-          {
-            "id": "zio#9844",
-            "title": "improved `Queue` shutdown functionality",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.347Z",
-            "updated_at": "2025-12-07T11:50:22.347Z"
-          },
-          {
-            "id": "zio#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.505Z",
-            "updated_at": "2025-12-07T11:50:22.505Z"
-          },
-          {
-            "id": "zio#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.639Z",
-            "updated_at": "2025-12-07T11:50:22.639Z"
-          },
-          {
-            "id": "zio#9874",
-            "title": "Handling errors allows recovering from defects",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9874",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.789Z",
-            "updated_at": "2025-12-07T11:50:22.789Z"
-          },
-          {
-            "id": "zio#9681",
-            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:22.939Z",
-            "updated_at": "2025-12-07T11:50:22.939Z"
-          },
-          {
-            "id": "zio#9922",
-            "title": "Add tests for `ZStreamAspect`",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9922",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:23.057Z",
-            "updated_at": "2025-12-07T11:50:23.057Z"
-          }
-        ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:50:28.092Z",
-            "updated_at": "2025-12-07T11:50:28.092Z"
-          },
-          {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.116Z",
-            "updated_at": "2025-12-07T11:50:28.116Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.141Z",
-            "updated_at": "2025-12-07T11:50:28.141Z"
-          },
-          {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.165Z",
-            "updated_at": "2025-12-07T11:50:28.165Z"
-          },
-          {
-            "id": "ZIO#9844",
-            "title": "improved `Queue` shutdown functionality",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.189Z",
-            "updated_at": "2025-12-07T11:50:28.189Z"
-          },
-          {
-            "id": "ZIO#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.213Z",
-            "updated_at": "2025-12-07T11:50:28.213Z"
-          },
-          {
-            "id": "ZIO#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.237Z",
-            "updated_at": "2025-12-07T11:50:28.237Z"
-          },
-          {
-            "id": "ZIO#9874",
-            "title": "Handling errors allows recovering from defects",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9874",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.261Z",
-            "updated_at": "2025-12-07T11:50:28.261Z"
-          },
-          {
-            "id": "ZIO#9681",
-            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.285Z",
-            "updated_at": "2025-12-07T11:50:28.285Z"
-          },
-          {
-            "id": "ZIO#9922",
-            "title": "Add tests for `ZStreamAspect`",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9922",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-07T11:50:28.309Z",
-            "updated_at": "2025-12-07T11:50:28.309Z"
-          }
-        ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "Mudlet",
+        "handle": "mudlet",
         "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "url": "https://algora.io/mudlet/bounties?status=open",
         "bounty_count": 5,
         "total_value_usd": 500,
         "bounties": [
           {
-            "id": "Mudlet#8030",
+            "id": "mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -861,11 +202,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-07T11:49:54.753Z",
-            "updated_at": "2025-12-07T11:49:54.753Z"
+            "created_at": "2025-12-07T12:26:53.995Z",
+            "updated_at": "2025-12-07T12:26:53.995Z"
           },
           {
-            "id": "Mudlet#3172",
+            "id": "mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -873,134 +214,150 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-07T11:49:56.204Z",
-            "updated_at": "2025-12-07T11:49:56.204Z"
+            "created_at": "2025-12-07T12:26:54.851Z",
+            "updated_at": "2025-12-07T12:26:54.851Z"
           },
           {
-            "id": "Mudlet#689",
+            "id": "mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-07T11:49:57.215Z",
-            "updated_at": "2025-12-07T11:49:57.215Z"
+            "created_at": "2025-12-07T12:26:55.389Z",
+            "updated_at": "2025-12-07T12:26:55.389Z"
           },
           {
-            "id": "Mudlet#707",
+            "id": "mudlet#707",
             "title": "Undo/redo support in editor",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/707",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-07T11:49:58.721Z",
-            "updated_at": "2025-12-07T11:49:58.721Z"
+            "created_at": "2025-12-07T12:26:56.272Z",
+            "updated_at": "2025-12-07T12:26:56.272Z"
           },
           {
-            "id": "Mudlet#5310",
+            "id": "mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-07T11:50:02.388Z",
-            "updated_at": "2025-12-07T11:50:02.388Z"
+            "created_at": "2025-12-07T12:26:57.376Z",
+            "updated_at": "2025-12-07T12:26:57.376Z"
           }
         ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
+        "last_updated": "2025-12-07T12:27:33.625Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-07T12:27:23.252Z",
+            "updated_at": "2025-12-07T12:27:23.252Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-07T12:27:23.456Z",
+            "updated_at": "2025-12-07T12:27:23.456Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-07T12:27:23.624Z",
+            "updated_at": "2025-12-07T12:27:23.624Z"
+          }
+        ],
+        "last_updated": "2025-12-07T12:27:33.625Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-07T11:49:54.754Z",
-            "updated_at": "2025-12-07T11:49:54.754Z"
+            "created_at": "2025-12-07T12:26:53.996Z",
+            "updated_at": "2025-12-07T12:26:53.996Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:49:56.204Z",
-            "updated_at": "2025-12-07T11:49:56.204Z"
+            "tags": [],
+            "created_at": "2025-12-07T12:26:54.823Z",
+            "updated_at": "2025-12-07T12:26:54.823Z"
           }
         ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
+        "last_updated": "2025-12-07T12:27:33.625Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-07T11:49:56.205Z",
-            "updated_at": "2025-12-07T11:49:56.205Z"
+            "created_at": "2025-12-07T12:26:53.995Z",
+            "updated_at": "2025-12-07T12:26:53.995Z"
           },
           {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:49:57.162Z",
-            "updated_at": "2025-12-07T11:49:57.162Z"
+            "tags": [],
+            "created_at": "2025-12-07T12:26:54.837Z",
+            "updated_at": "2025-12-07T12:26:54.837Z"
           }
         ],
-        "last_updated": "2025-12-07T11:50:38.311Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-            "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-07T11:49:56.179Z",
-            "updated_at": "2025-12-07T11:49:56.179Z"
-          }
-        ],
-        "last_updated": "2025-12-07T11:50:38.310Z",
+        "last_updated": "2025-12-07T12:27:33.625Z",
         "scrape_duration_ms": 0
       }
     ]
