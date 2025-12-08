@@ -1,376 +1,150 @@
 {
-  "generated_at": "2025-12-08T08:25:18.021Z",
-  "total_organizations": 5,
-  "total_bounties": 30,
-  "total_value_usd": 3000,
+  "generated_at": "2025-12-08T08:54:35.030Z",
+  "total_organizations": 2,
+  "total_bounties": 11,
+  "total_value_usd": 1100,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-08T08:24:59.946Z",
-          "updated_at": "2025-12-08T08:24:59.946Z"
-        },
-        {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:00.061Z",
-          "updated_at": "2025-12-08T08:25:00.061Z"
+          "created_at": "2025-12-08T08:53:48.088Z",
+          "updated_at": "2025-12-08T08:53:48.088Z"
         }
       ],
-      "last_updated": "2025-12-08T08:25:18.021Z",
+      "last_updated": "2025-12-08T08:54:35.030Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-08T08:24:59.936Z",
-          "updated_at": "2025-12-08T08:24:59.936Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:00.081Z",
-          "updated_at": "2025-12-08T08:25:00.081Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:00.210Z",
-          "updated_at": "2025-12-08T08:25:00.210Z"
-        }
-      ],
-      "last_updated": "2025-12-08T08:25:18.021Z",
-      "scrape_duration_ms": 0
-    },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-08T08:25:01.916Z",
-          "updated_at": "2025-12-08T08:25:01.916Z"
-        },
-        {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:02.047Z",
-          "updated_at": "2025-12-08T08:25:02.047Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:02.202Z",
-          "updated_at": "2025-12-08T08:25:02.202Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:02.367Z",
-          "updated_at": "2025-12-08T08:25:02.367Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:02.473Z",
-          "updated_at": "2025-12-08T08:25:02.473Z"
-        }
-      ],
-      "last_updated": "2025-12-08T08:25:18.021Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "mediar-ai": {
+      "display_name": "Mediar-ai",
+      "url": "https://algora.io/mediar-ai/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+          "id": "mediar-ai#378",
+          "title": "Create workflow: \"Supplier invoice reconciliation\"",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "url": "https://github.com/mediar-ai/terminator/issues/378",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-08T08:25:03.385Z",
-          "updated_at": "2025-12-08T08:25:03.385Z"
+          "created_at": "2025-12-08T08:54:23.742Z",
+          "updated_at": "2025-12-08T08:54:23.742Z"
         },
         {
-          "id": "coollabsio#7529",
-          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
+          "id": "mediar-ai#357",
+          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7529",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:03.550Z",
-          "updated_at": "2025-12-08T08:25:03.550Z"
-        },
-        {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:03.684Z",
-          "updated_at": "2025-12-08T08:25:03.684Z"
-        },
-        {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:03.815Z",
-          "updated_at": "2025-12-08T08:25:03.815Z"
-        },
-        {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:03.903Z",
-          "updated_at": "2025-12-08T08:25:03.903Z"
-        },
-        {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.088Z",
-          "updated_at": "2025-12-08T08:25:04.088Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.187Z",
-          "updated_at": "2025-12-08T08:25:04.187Z"
-        },
-        {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.317Z",
-          "updated_at": "2025-12-08T08:25:04.317Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.428Z",
-          "updated_at": "2025-12-08T08:25:04.428Z"
-        },
-        {
-          "id": "coollabsio#4523",
-          "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/4523",
+          "url": "https://github.com/mediar-ai/terminator/issues/357",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-08T08:25:04.434Z",
-          "updated_at": "2025-12-08T08:25:04.434Z"
+          "created_at": "2025-12-08T08:54:23.912Z",
+          "updated_at": "2025-12-08T08:54:23.912Z"
+        },
+        {
+          "id": "mediar-ai#353",
+          "title": "create a typescript workflow that test the browser script bridge",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/terminator/issues/353",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.067Z",
+          "updated_at": "2025-12-08T08:54:24.067Z"
+        },
+        {
+          "id": "mediar-ai#352",
+          "title": "increase success rate of browser extension workflow",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/terminator/issues/352",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.178Z",
+          "updated_at": "2025-12-08T08:54:24.178Z"
+        },
+        {
+          "id": "mediar-ai#315",
+          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/terminator/issues/315",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.324Z",
+          "updated_at": "2025-12-08T08:54:24.324Z"
+        },
+        {
+          "id": "mediar-ai#1626",
+          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.451Z",
+          "updated_at": "2025-12-08T08:54:24.451Z"
+        },
+        {
+          "id": "mediar-ai#1560",
+          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.580Z",
+          "updated_at": "2025-12-08T08:54:24.580Z"
+        },
+        {
+          "id": "mediar-ai#1441",
+          "title": "[bounty] general purpose scrapper",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.726Z",
+          "updated_at": "2025-12-08T08:54:24.726Z"
+        },
+        {
+          "id": "mediar-ai#1298",
+          "title": "[docs] document env var somewhere somehow ",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:24.912Z",
+          "updated_at": "2025-12-08T08:54:24.912Z"
+        },
+        {
+          "id": "mediar-ai#1383",
+          "title": "[bounty] implement deep research in search pipe",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-08T08:54:25.027Z",
+          "updated_at": "2025-12-08T08:54:25.027Z"
         }
       ],
-      "last_updated": "2025-12-08T08:25:18.021Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-08T08:25:04.013Z",
-          "updated_at": "2025-12-08T08:25:04.013Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.137Z",
-          "updated_at": "2025-12-08T08:25:04.137Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.280Z",
-          "updated_at": "2025-12-08T08:25:04.280Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.404Z",
-          "updated_at": "2025-12-08T08:25:04.404Z"
-        },
-        {
-          "id": "zio#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.514Z",
-          "updated_at": "2025-12-08T08:25:04.514Z"
-        },
-        {
-          "id": "zio#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.645Z",
-          "updated_at": "2025-12-08T08:25:04.645Z"
-        },
-        {
-          "id": "zio#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.758Z",
-          "updated_at": "2025-12-08T08:25:04.758Z"
-        },
-        {
-          "id": "zio#9874",
-          "title": "Handling errors allows recovering from defects",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9874",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:04.888Z",
-          "updated_at": "2025-12-08T08:25:04.888Z"
-        },
-        {
-          "id": "zio#9681",
-          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:05.050Z",
-          "updated_at": "2025-12-08T08:25:05.050Z"
-        },
-        {
-          "id": "zio#9922",
-          "title": "Add tests for `ZStreamAspect`",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9922",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-08T08:25:05.224Z",
-          "updated_at": "2025-12-08T08:25:05.224Z"
-        }
-      ],
-      "last_updated": "2025-12-08T08:25:18.021Z",
+      "last_updated": "2025-12-08T08:54:35.030Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 144540,
+    "processing_time_ms": 129937,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -379,370 +153,141 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "mediar-ai",
+        "display_name": "Mediar-ai",
+        "url": "https://algora.io/mediar-ai/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
+            "id": "mediar-ai#378",
+            "title": "Create workflow: \"Supplier invoice reconciliation\"",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "url": "https://github.com/mediar-ai/terminator/issues/378",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-08T08:25:03.385Z",
-            "updated_at": "2025-12-08T08:25:03.385Z"
+            "created_at": "2025-12-08T08:54:23.742Z",
+            "updated_at": "2025-12-08T08:54:23.742Z"
           },
           {
-            "id": "coollabsio#7529",
-            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
+            "id": "mediar-ai#357",
+            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7529",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:03.550Z",
-            "updated_at": "2025-12-08T08:25:03.550Z"
-          },
-          {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:03.684Z",
-            "updated_at": "2025-12-08T08:25:03.684Z"
-          },
-          {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:03.815Z",
-            "updated_at": "2025-12-08T08:25:03.815Z"
-          },
-          {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:03.903Z",
-            "updated_at": "2025-12-08T08:25:03.903Z"
-          },
-          {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.088Z",
-            "updated_at": "2025-12-08T08:25:04.088Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.187Z",
-            "updated_at": "2025-12-08T08:25:04.187Z"
-          },
-          {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.317Z",
-            "updated_at": "2025-12-08T08:25:04.317Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.428Z",
-            "updated_at": "2025-12-08T08:25:04.428Z"
-          },
-          {
-            "id": "coollabsio#4523",
-            "title": "[Bug]: Arch Linux is not handled in InstallDocker.php",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/4523",
+            "url": "https://github.com/mediar-ai/terminator/issues/357",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-08T08:25:04.434Z",
-            "updated_at": "2025-12-08T08:25:04.434Z"
+            "created_at": "2025-12-08T08:54:23.912Z",
+            "updated_at": "2025-12-08T08:54:23.912Z"
+          },
+          {
+            "id": "mediar-ai#353",
+            "title": "create a typescript workflow that test the browser script bridge",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/terminator/issues/353",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.067Z",
+            "updated_at": "2025-12-08T08:54:24.067Z"
+          },
+          {
+            "id": "mediar-ai#352",
+            "title": "increase success rate of browser extension workflow",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/terminator/issues/352",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.178Z",
+            "updated_at": "2025-12-08T08:54:24.178Z"
+          },
+          {
+            "id": "mediar-ai#315",
+            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/terminator/issues/315",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.324Z",
+            "updated_at": "2025-12-08T08:54:24.324Z"
+          },
+          {
+            "id": "mediar-ai#1626",
+            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.451Z",
+            "updated_at": "2025-12-08T08:54:24.451Z"
+          },
+          {
+            "id": "mediar-ai#1560",
+            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.580Z",
+            "updated_at": "2025-12-08T08:54:24.580Z"
+          },
+          {
+            "id": "mediar-ai#1441",
+            "title": "[bounty] general purpose scrapper",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.726Z",
+            "updated_at": "2025-12-08T08:54:24.726Z"
+          },
+          {
+            "id": "mediar-ai#1298",
+            "title": "[docs] document env var somewhere somehow ",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:24.912Z",
+            "updated_at": "2025-12-08T08:54:24.912Z"
+          },
+          {
+            "id": "mediar-ai#1383",
+            "title": "[bounty] implement deep research in search pipe",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-08T08:54:25.027Z",
+            "updated_at": "2025-12-08T08:54:25.027Z"
           }
         ],
-        "last_updated": "2025-12-08T08:25:18.021Z",
+        "last_updated": "2025-12-08T08:54:35.030Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-08T08:25:04.013Z",
-            "updated_at": "2025-12-08T08:25:04.013Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.137Z",
-            "updated_at": "2025-12-08T08:25:04.137Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.280Z",
-            "updated_at": "2025-12-08T08:25:04.280Z"
-          },
-          {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.404Z",
-            "updated_at": "2025-12-08T08:25:04.404Z"
-          },
-          {
-            "id": "zio#9844",
-            "title": "improved `Queue` shutdown functionality",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.514Z",
-            "updated_at": "2025-12-08T08:25:04.514Z"
-          },
-          {
-            "id": "zio#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.645Z",
-            "updated_at": "2025-12-08T08:25:04.645Z"
-          },
-          {
-            "id": "zio#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.758Z",
-            "updated_at": "2025-12-08T08:25:04.758Z"
-          },
-          {
-            "id": "zio#9874",
-            "title": "Handling errors allows recovering from defects",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9874",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:04.888Z",
-            "updated_at": "2025-12-08T08:25:04.888Z"
-          },
-          {
-            "id": "zio#9681",
-            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:05.050Z",
-            "updated_at": "2025-12-08T08:25:05.050Z"
-          },
-          {
-            "id": "zio#9922",
-            "title": "Add tests for `ZStreamAspect`",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9922",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:05.224Z",
-            "updated_at": "2025-12-08T08:25:05.224Z"
+            "created_at": "2025-12-08T08:53:48.088Z",
+            "updated_at": "2025-12-08T08:53:48.088Z"
           }
         ],
-        "last_updated": "2025-12-08T08:25:18.021Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-08T08:25:01.916Z",
-            "updated_at": "2025-12-08T08:25:01.916Z"
-          },
-          {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:02.047Z",
-            "updated_at": "2025-12-08T08:25:02.047Z"
-          },
-          {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:02.202Z",
-            "updated_at": "2025-12-08T08:25:02.202Z"
-          },
-          {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:02.367Z",
-            "updated_at": "2025-12-08T08:25:02.367Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:02.473Z",
-            "updated_at": "2025-12-08T08:25:02.473Z"
-          }
-        ],
-        "last_updated": "2025-12-08T08:25:18.021Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-08T08:24:59.936Z",
-            "updated_at": "2025-12-08T08:24:59.936Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:00.081Z",
-            "updated_at": "2025-12-08T08:25:00.081Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:00.210Z",
-            "updated_at": "2025-12-08T08:25:00.210Z"
-          }
-        ],
-        "last_updated": "2025-12-08T08:25:18.021Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-08T08:24:59.946Z",
-            "updated_at": "2025-12-08T08:24:59.946Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-08T08:25:00.061Z",
-            "updated_at": "2025-12-08T08:25:00.061Z"
-          }
-        ],
-        "last_updated": "2025-12-08T08:25:18.021Z",
+        "last_updated": "2025-12-08T08:54:35.030Z",
         "scrape_duration_ms": 0
       }
     ]
