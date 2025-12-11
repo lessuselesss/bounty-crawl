@@ -1,156 +1,50 @@
 {
-  "generated_at": "2025-12-11T09:59:05.674Z",
+  "generated_at": "2025-12-11T10:21:55.367Z",
   "total_organizations": 5,
-  "total_bounties": 36,
-  "total_value_usd": 3600,
+  "total_bounties": 26,
+  "total_value_usd": 2600,
   "version": "3.0.0",
   "organizations": {
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T09:58:00.856Z",
-          "updated_at": "2025-12-11T09:58:00.856Z"
+          "created_at": "2025-12-11T10:21:17.261Z",
+          "updated_at": "2025-12-11T10:21:17.261Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T09:58:03.651Z",
-          "updated_at": "2025-12-11T09:58:03.651Z"
+          "tags": [],
+          "created_at": "2025-12-11T10:21:18.055Z",
+          "updated_at": "2025-12-11T10:21:18.055Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:19.425Z",
+          "updated_at": "2025-12-11T10:21:19.425Z"
         }
       ],
-      "last_updated": "2025-12-11T09:59:05.674Z",
-      "scrape_duration_ms": 0
-    },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "mediar-ai#378",
-          "title": "Create workflow: \"Supplier invoice reconciliation\"",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/378",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T09:58:18.172Z",
-          "updated_at": "2025-12-11T09:58:18.172Z"
-        },
-        {
-          "id": "mediar-ai#357",
-          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/357",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T09:58:21.851Z",
-          "updated_at": "2025-12-11T09:58:21.851Z"
-        },
-        {
-          "id": "mediar-ai#353",
-          "title": "create a typescript workflow that test the browser script bridge",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/353",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:25.180Z",
-          "updated_at": "2025-12-11T09:58:25.180Z"
-        },
-        {
-          "id": "mediar-ai#352",
-          "title": "increase success rate of browser extension workflow",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/352",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:27.445Z",
-          "updated_at": "2025-12-11T09:58:27.445Z"
-        },
-        {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:29.165Z",
-          "updated_at": "2025-12-11T09:58:29.165Z"
-        },
-        {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:29.755Z",
-          "updated_at": "2025-12-11T09:58:29.755Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:30.104Z",
-          "updated_at": "2025-12-11T09:58:30.104Z"
-        },
-        {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:30.249Z",
-          "updated_at": "2025-12-11T09:58:30.249Z"
-        },
-        {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:30.393Z",
-          "updated_at": "2025-12-11T09:58:30.393Z"
-        },
-        {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:30.514Z",
-          "updated_at": "2025-12-11T09:58:30.514Z"
-        }
-      ],
-      "last_updated": "2025-12-11T09:59:05.674Z",
+      "last_updated": "2025-12-11T10:21:55.367Z",
       "scrape_duration_ms": 0
     },
     "Mudlet": {
@@ -168,8 +62,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T09:58:35.457Z",
-          "updated_at": "2025-12-11T09:58:35.457Z"
+          "created_at": "2025-12-11T10:21:19.424Z",
+          "updated_at": "2025-12-11T10:21:19.424Z"
         },
         {
           "id": "Mudlet#3172",
@@ -180,8 +74,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T09:58:35.572Z",
-          "updated_at": "2025-12-11T09:58:35.572Z"
+          "created_at": "2025-12-11T10:21:21.095Z",
+          "updated_at": "2025-12-11T10:21:21.095Z"
         },
         {
           "id": "Mudlet#689",
@@ -190,8 +84,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:35.715Z",
-          "updated_at": "2025-12-11T09:58:35.715Z"
+          "created_at": "2025-12-11T10:21:22.021Z",
+          "updated_at": "2025-12-11T10:21:22.021Z"
         },
         {
           "id": "Mudlet#5310",
@@ -200,11 +94,125 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:35.841Z",
-          "updated_at": "2025-12-11T09:58:35.841Z"
+          "created_at": "2025-12-11T10:21:23.314Z",
+          "updated_at": "2025-12-11T10:21:23.314Z"
         }
       ],
-      "last_updated": "2025-12-11T09:59:05.674Z",
+      "last_updated": "2025-12-11T10:21:55.367Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-11T10:21:19.425Z",
+          "updated_at": "2025-12-11T10:21:19.425Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:21.095Z",
+          "updated_at": "2025-12-11T10:21:21.095Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:22.020Z",
+          "updated_at": "2025-12-11T10:21:22.020Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:23.314Z",
+          "updated_at": "2025-12-11T10:21:23.314Z"
+        }
+      ],
+      "last_updated": "2025-12-11T10:21:55.367Z",
+      "scrape_duration_ms": 0
+    },
+    "activepieces": {
+      "display_name": "Activepieces",
+      "url": "https://algora.io/activepieces/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "activepieces#9703",
+          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-11T10:21:19.425Z",
+          "updated_at": "2025-12-11T10:21:19.425Z"
+        },
+        {
+          "id": "activepieces#8284",
+          "title": "[MCP] Klaviyo",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:21.095Z",
+          "updated_at": "2025-12-11T10:21:21.095Z"
+        },
+        {
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:21.933Z",
+          "updated_at": "2025-12-11T10:21:21.933Z"
+        },
+        {
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:23.313Z",
+          "updated_at": "2025-12-11T10:21:23.313Z"
+        },
+        {
+          "id": "activepieces#8072",
+          "title": "[MCP] Gmail",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-11T10:21:26.681Z",
+          "updated_at": "2025-12-11T10:21:26.681Z"
+        }
+      ],
+      "last_updated": "2025-12-11T10:21:55.367Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -222,8 +230,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T09:58:37.426Z",
-          "updated_at": "2025-12-11T09:58:37.426Z"
+          "created_at": "2025-12-11T10:21:43.001Z",
+          "updated_at": "2025-12-11T10:21:43.001Z"
         },
         {
           "id": "tscircuit#534",
@@ -232,8 +240,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:37.569Z",
-          "updated_at": "2025-12-11T09:58:37.569Z"
+          "created_at": "2025-12-11T10:21:43.235Z",
+          "updated_at": "2025-12-11T10:21:43.235Z"
         },
         {
           "id": "tscircuit#419",
@@ -242,8 +250,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:37.636Z",
-          "updated_at": "2025-12-11T09:58:37.636Z"
+          "created_at": "2025-12-11T10:21:43.407Z",
+          "updated_at": "2025-12-11T10:21:43.407Z"
         },
         {
           "id": "tscircuit#1081",
@@ -252,8 +260,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:37.759Z",
-          "updated_at": "2025-12-11T09:58:37.759Z"
+          "created_at": "2025-12-11T10:21:43.639Z",
+          "updated_at": "2025-12-11T10:21:43.639Z"
         },
         {
           "id": "tscircuit#386",
@@ -262,8 +270,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:37.924Z",
-          "updated_at": "2025-12-11T09:58:37.924Z"
+          "created_at": "2025-12-11T10:21:44.047Z",
+          "updated_at": "2025-12-11T10:21:44.047Z"
         },
         {
           "id": "tscircuit#1498",
@@ -272,8 +280,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:38.046Z",
-          "updated_at": "2025-12-11T09:58:38.046Z"
+          "created_at": "2025-12-11T10:21:44.279Z",
+          "updated_at": "2025-12-11T10:21:44.279Z"
         },
         {
           "id": "tscircuit#79",
@@ -282,8 +290,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:38.277Z",
-          "updated_at": "2025-12-11T09:58:38.277Z"
+          "created_at": "2025-12-11T10:21:44.502Z",
+          "updated_at": "2025-12-11T10:21:44.502Z"
         },
         {
           "id": "tscircuit#78",
@@ -292,8 +300,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:38.390Z",
-          "updated_at": "2025-12-11T09:58:38.390Z"
+          "created_at": "2025-12-11T10:21:44.713Z",
+          "updated_at": "2025-12-11T10:21:44.713Z"
         },
         {
           "id": "tscircuit#176",
@@ -302,8 +310,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:38.526Z",
-          "updated_at": "2025-12-11T09:58:38.526Z"
+          "created_at": "2025-12-11T10:21:44.960Z",
+          "updated_at": "2025-12-11T10:21:44.960Z"
         },
         {
           "id": "tscircuit#939",
@@ -312,129 +320,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T09:58:38.735Z",
-          "updated_at": "2025-12-11T09:58:38.735Z"
+          "created_at": "2025-12-11T10:21:45.331Z",
+          "updated_at": "2025-12-11T10:21:45.331Z"
         }
       ],
-      "last_updated": "2025-12-11T09:59:05.674Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "projectdiscovery#14328",
-          "title": "CVE-2025-34299 - Monsta FTP - Unrestricted File Upload 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14328",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T09:58:54.540Z",
-          "updated_at": "2025-12-11T09:58:54.540Z"
-        },
-        {
-          "id": "projectdiscovery#14310",
-          "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:54.676Z",
-          "updated_at": "2025-12-11T09:58:54.676Z"
-        },
-        {
-          "id": "projectdiscovery#14297",
-          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:54.797Z",
-          "updated_at": "2025-12-11T09:58:54.797Z"
-        },
-        {
-          "id": "projectdiscovery#14278",
-          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:54.928Z",
-          "updated_at": "2025-12-11T09:58:54.928Z"
-        },
-        {
-          "id": "projectdiscovery#14236",
-          "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.025Z",
-          "updated_at": "2025-12-11T09:58:55.025Z"
-        },
-        {
-          "id": "projectdiscovery#14212",
-          "title": "CVE-2025-13486 - Advanced Custom Fields: Extended - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14212",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.171Z",
-          "updated_at": "2025-12-11T09:58:55.171Z"
-        },
-        {
-          "id": "projectdiscovery#1471",
-          "title": "release katana v1.3.0",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.307Z",
-          "updated_at": "2025-12-11T09:58:55.307Z"
-        },
-        {
-          "id": "projectdiscovery#14152",
-          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.436Z",
-          "updated_at": "2025-12-11T09:58:55.436Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.554Z",
-          "updated_at": "2025-12-11T09:58:55.554Z"
-        },
-        {
-          "id": "projectdiscovery#14092",
-          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T09:58:55.672Z",
-          "updated_at": "2025-12-11T09:58:55.672Z"
-        }
-      ],
-      "last_updated": "2025-12-11T09:59:05.674Z",
+      "last_updated": "2025-12-11T10:21:55.367Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 139297,
+    "processing_time_ms": 110901,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -442,121 +338,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "mediar-ai#378",
-            "title": "Create workflow: \"Supplier invoice reconciliation\"",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/378",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-11T09:58:18.172Z",
-            "updated_at": "2025-12-11T09:58:18.172Z"
-          },
-          {
-            "id": "mediar-ai#357",
-            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/357",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-11T09:58:21.851Z",
-            "updated_at": "2025-12-11T09:58:21.851Z"
-          },
-          {
-            "id": "mediar-ai#353",
-            "title": "create a typescript workflow that test the browser script bridge",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/353",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:25.180Z",
-            "updated_at": "2025-12-11T09:58:25.180Z"
-          },
-          {
-            "id": "mediar-ai#352",
-            "title": "increase success rate of browser extension workflow",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/352",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:27.445Z",
-            "updated_at": "2025-12-11T09:58:27.445Z"
-          },
-          {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:29.165Z",
-            "updated_at": "2025-12-11T09:58:29.165Z"
-          },
-          {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:29.755Z",
-            "updated_at": "2025-12-11T09:58:29.755Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:30.104Z",
-            "updated_at": "2025-12-11T09:58:30.104Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:30.249Z",
-            "updated_at": "2025-12-11T09:58:30.249Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:30.393Z",
-            "updated_at": "2025-12-11T09:58:30.393Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:30.514Z",
-            "updated_at": "2025-12-11T09:58:30.514Z"
-          }
-        ],
-        "last_updated": "2025-12-11T09:59:05.674Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "tscircuit",
         "display_name": "Tscircuit",
@@ -573,8 +354,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:37.426Z",
-            "updated_at": "2025-12-11T09:58:37.426Z"
+            "created_at": "2025-12-11T10:21:43.001Z",
+            "updated_at": "2025-12-11T10:21:43.001Z"
           },
           {
             "id": "tscircuit#534",
@@ -583,8 +364,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:37.569Z",
-            "updated_at": "2025-12-11T09:58:37.569Z"
+            "created_at": "2025-12-11T10:21:43.235Z",
+            "updated_at": "2025-12-11T10:21:43.235Z"
           },
           {
             "id": "tscircuit#419",
@@ -593,8 +374,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:37.636Z",
-            "updated_at": "2025-12-11T09:58:37.636Z"
+            "created_at": "2025-12-11T10:21:43.407Z",
+            "updated_at": "2025-12-11T10:21:43.407Z"
           },
           {
             "id": "tscircuit#1081",
@@ -603,8 +384,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:37.759Z",
-            "updated_at": "2025-12-11T09:58:37.759Z"
+            "created_at": "2025-12-11T10:21:43.639Z",
+            "updated_at": "2025-12-11T10:21:43.639Z"
           },
           {
             "id": "tscircuit#386",
@@ -613,8 +394,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:37.924Z",
-            "updated_at": "2025-12-11T09:58:37.924Z"
+            "created_at": "2025-12-11T10:21:44.047Z",
+            "updated_at": "2025-12-11T10:21:44.047Z"
           },
           {
             "id": "tscircuit#1498",
@@ -623,8 +404,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:38.046Z",
-            "updated_at": "2025-12-11T09:58:38.046Z"
+            "created_at": "2025-12-11T10:21:44.279Z",
+            "updated_at": "2025-12-11T10:21:44.279Z"
           },
           {
             "id": "tscircuit#79",
@@ -633,8 +414,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:38.277Z",
-            "updated_at": "2025-12-11T09:58:38.277Z"
+            "created_at": "2025-12-11T10:21:44.502Z",
+            "updated_at": "2025-12-11T10:21:44.502Z"
           },
           {
             "id": "tscircuit#78",
@@ -643,8 +424,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:38.390Z",
-            "updated_at": "2025-12-11T09:58:38.390Z"
+            "created_at": "2025-12-11T10:21:44.713Z",
+            "updated_at": "2025-12-11T10:21:44.713Z"
           },
           {
             "id": "tscircuit#176",
@@ -653,8 +434,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:38.526Z",
-            "updated_at": "2025-12-11T09:58:38.526Z"
+            "created_at": "2025-12-11T10:21:44.960Z",
+            "updated_at": "2025-12-11T10:21:44.960Z"
           },
           {
             "id": "tscircuit#939",
@@ -663,124 +444,74 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:38.735Z",
-            "updated_at": "2025-12-11T09:58:38.735Z"
+            "created_at": "2025-12-11T10:21:45.331Z",
+            "updated_at": "2025-12-11T10:21:45.331Z"
           }
         ],
-        "last_updated": "2025-12-11T09:59:05.674Z",
+        "last_updated": "2025-12-11T10:21:55.367Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "activepieces",
+        "display_name": "Activepieces",
+        "url": "https://algora.io/activepieces/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "projectdiscovery#14328",
-            "title": "CVE-2025-34299 - Monsta FTP - Unrestricted File Upload 💰",
+            "id": "activepieces#9703",
+            "title": "[MCP] Oracle Fusion Cloud ERP",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14328",
+            "url": "https://github.com/activepieces/activepieces/issues/9703",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:54.540Z",
-            "updated_at": "2025-12-11T09:58:54.540Z"
+            "created_at": "2025-12-11T10:21:19.425Z",
+            "updated_at": "2025-12-11T10:21:19.425Z"
           },
           {
-            "id": "projectdiscovery#14310",
-            "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
+            "id": "activepieces#8284",
+            "title": "[MCP] Klaviyo",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
+            "url": "https://github.com/activepieces/activepieces/issues/8284",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:54.676Z",
-            "updated_at": "2025-12-11T09:58:54.676Z"
+            "created_at": "2025-12-11T10:21:21.095Z",
+            "updated_at": "2025-12-11T10:21:21.095Z"
           },
           {
-            "id": "projectdiscovery#14297",
-            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:54.797Z",
-            "updated_at": "2025-12-11T09:58:54.797Z"
+            "created_at": "2025-12-11T10:21:21.933Z",
+            "updated_at": "2025-12-11T10:21:21.933Z"
           },
           {
-            "id": "projectdiscovery#14278",
-            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:54.928Z",
-            "updated_at": "2025-12-11T09:58:54.928Z"
+            "created_at": "2025-12-11T10:21:23.313Z",
+            "updated_at": "2025-12-11T10:21:23.313Z"
           },
           {
-            "id": "projectdiscovery#14236",
-            "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
+            "id": "activepieces#8072",
+            "title": "[MCP] Gmail",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
+            "url": "https://github.com/activepieces/activepieces/issues/8072",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:55.025Z",
-            "updated_at": "2025-12-11T09:58:55.025Z"
-          },
-          {
-            "id": "projectdiscovery#14212",
-            "title": "CVE-2025-13486 - Advanced Custom Fields: Extended - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14212",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:55.171Z",
-            "updated_at": "2025-12-11T09:58:55.171Z"
-          },
-          {
-            "id": "projectdiscovery#1471",
-            "title": "release katana v1.3.0",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:55.307Z",
-            "updated_at": "2025-12-11T09:58:55.307Z"
-          },
-          {
-            "id": "projectdiscovery#14152",
-            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:55.436Z",
-            "updated_at": "2025-12-11T09:58:55.436Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:55.554Z",
-            "updated_at": "2025-12-11T09:58:55.554Z"
-          },
-          {
-            "id": "projectdiscovery#14092",
-            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T09:58:55.672Z",
-            "updated_at": "2025-12-11T09:58:55.672Z"
+            "created_at": "2025-12-11T10:21:26.681Z",
+            "updated_at": "2025-12-11T10:21:26.681Z"
           }
         ],
-        "last_updated": "2025-12-11T09:59:05.674Z",
+        "last_updated": "2025-12-11T10:21:55.367Z",
         "scrape_duration_ms": 0
       },
       {
@@ -799,8 +530,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:35.457Z",
-            "updated_at": "2025-12-11T09:58:35.457Z"
+            "created_at": "2025-12-11T10:21:19.424Z",
+            "updated_at": "2025-12-11T10:21:19.424Z"
           },
           {
             "id": "Mudlet#3172",
@@ -811,8 +542,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:35.572Z",
-            "updated_at": "2025-12-11T09:58:35.572Z"
+            "created_at": "2025-12-11T10:21:21.095Z",
+            "updated_at": "2025-12-11T10:21:21.095Z"
           },
           {
             "id": "Mudlet#689",
@@ -821,8 +552,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:35.715Z",
-            "updated_at": "2025-12-11T09:58:35.715Z"
+            "created_at": "2025-12-11T10:21:22.021Z",
+            "updated_at": "2025-12-11T10:21:22.021Z"
           },
           {
             "id": "Mudlet#5310",
@@ -831,46 +562,107 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T09:58:35.841Z",
-            "updated_at": "2025-12-11T09:58:35.841Z"
+            "created_at": "2025-12-11T10:21:23.314Z",
+            "updated_at": "2025-12-11T10:21:23.314Z"
           }
         ],
-        "last_updated": "2025-12-11T09:59:05.674Z",
+        "last_updated": "2025-12-11T10:21:55.367Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:00.856Z",
-            "updated_at": "2025-12-11T09:58:00.856Z"
+            "created_at": "2025-12-11T10:21:19.425Z",
+            "updated_at": "2025-12-11T10:21:19.425Z"
           },
           {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/highlight/highlight/issues/8614",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-11T10:21:21.095Z",
+            "updated_at": "2025-12-11T10:21:21.095Z"
+          },
+          {
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8032",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-11T10:21:22.020Z",
+            "updated_at": "2025-12-11T10:21:22.020Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-11T10:21:23.314Z",
+            "updated_at": "2025-12-11T10:21:23.314Z"
+          }
+        ],
+        "last_updated": "2025-12-11T10:21:55.367Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T09:58:03.651Z",
-            "updated_at": "2025-12-11T09:58:03.651Z"
+            "created_at": "2025-12-11T10:21:17.261Z",
+            "updated_at": "2025-12-11T10:21:17.261Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-11T10:21:18.055Z",
+            "updated_at": "2025-12-11T10:21:18.055Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-11T10:21:19.425Z",
+            "updated_at": "2025-12-11T10:21:19.425Z"
           }
         ],
-        "last_updated": "2025-12-11T09:59:05.674Z",
+        "last_updated": "2025-12-11T10:21:55.367Z",
         "scrape_duration_ms": 0
       }
     ]
