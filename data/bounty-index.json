@@ -1,290 +1,70 @@
 {
-  "generated_at": "2025-12-12T14:16:57.510Z",
-  "total_organizations": 7,
-  "total_bounties": 42,
-  "total_value_usd": 4200,
+  "generated_at": "2025-12-12T14:36:53.733Z",
+  "total_organizations": 2,
+  "total_bounties": 15,
+  "total_value_usd": 1500,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-12T14:16:16.342Z",
-          "updated_at": "2025-12-12T14:16:16.342Z"
+          "created_at": "2025-12-12T14:35:40.487Z",
+          "updated_at": "2025-12-12T14:35:40.487Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:17.429Z",
-          "updated_at": "2025-12-12T14:16:17.429Z"
+          "created_at": "2025-12-12T14:35:40.821Z",
+          "updated_at": "2025-12-12T14:35:40.821Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T14:35:40.972Z",
+          "updated_at": "2025-12-12T14:35:40.972Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T14:35:41.251Z",
+          "updated_at": "2025-12-12T14:35:41.251Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T14:35:41.406Z",
+          "updated_at": "2025-12-12T14:35:41.406Z"
         }
       ],
-      "last_updated": "2025-12-12T14:16:57.509Z",
-      "scrape_duration_ms": 0
-    },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:16.438Z",
-          "updated_at": "2025-12-12T14:16:16.438Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:17.430Z",
-          "updated_at": "2025-12-12T14:16:17.430Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:18.534Z",
-          "updated_at": "2025-12-12T14:16:18.534Z"
-        }
-      ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:16.993Z",
-          "updated_at": "2025-12-12T14:16:16.993Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:17.794Z",
-          "updated_at": "2025-12-12T14:16:17.794Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:18.535Z",
-          "updated_at": "2025-12-12T14:16:18.535Z"
-        }
-      ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:16.438Z",
-          "updated_at": "2025-12-12T14:16:16.438Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:17.429Z",
-          "updated_at": "2025-12-12T14:16:17.429Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:18.534Z",
-          "updated_at": "2025-12-12T14:16:18.534Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:19.398Z",
-          "updated_at": "2025-12-12T14:16:19.398Z"
-        }
-      ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
-      "scrape_duration_ms": 0
-    },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "mediar-ai#378",
-          "title": "Create workflow: \"Supplier invoice reconciliation\"",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/378",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:16.341Z",
-          "updated_at": "2025-12-12T14:16:16.341Z"
-        },
-        {
-          "id": "mediar-ai#357",
-          "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/357",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:17.429Z",
-          "updated_at": "2025-12-12T14:16:17.429Z"
-        },
-        {
-          "id": "mediar-ai#353",
-          "title": "create a typescript workflow that test the browser script bridge",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/353",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:17.795Z",
-          "updated_at": "2025-12-12T14:16:17.795Z"
-        },
-        {
-          "id": "mediar-ai#352",
-          "title": "increase success rate of browser extension workflow",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/352",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:18.618Z",
-          "updated_at": "2025-12-12T14:16:18.618Z"
-        },
-        {
-          "id": "mediar-ai#315",
-          "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/terminator/issues/315",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:19.397Z",
-          "updated_at": "2025-12-12T14:16:19.397Z"
-        },
-        {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:20.762Z",
-          "updated_at": "2025-12-12T14:16:20.762Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:23.643Z",
-          "updated_at": "2025-12-12T14:16:23.643Z"
-        },
-        {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:27.549Z",
-          "updated_at": "2025-12-12T14:16:27.549Z"
-        },
-        {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:31.464Z",
-          "updated_at": "2025-12-12T14:16:31.464Z"
-        },
-        {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:35.323Z",
-          "updated_at": "2025-12-12T14:16:35.323Z"
-        }
-      ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
+      "last_updated": "2025-12-12T14:36:53.733Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -302,8 +82,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-12T14:16:16.341Z",
-          "updated_at": "2025-12-12T14:16:16.341Z"
+          "created_at": "2025-12-12T14:35:40.559Z",
+          "updated_at": "2025-12-12T14:35:40.559Z"
         },
         {
           "id": "tscircuit#534",
@@ -312,8 +92,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:17.430Z",
-          "updated_at": "2025-12-12T14:16:17.430Z"
+          "created_at": "2025-12-12T14:35:40.822Z",
+          "updated_at": "2025-12-12T14:35:40.821Z"
         },
         {
           "id": "tscircuit#419",
@@ -322,8 +102,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:18.619Z",
-          "updated_at": "2025-12-12T14:16:18.619Z"
+          "created_at": "2025-12-12T14:35:40.972Z",
+          "updated_at": "2025-12-12T14:35:40.972Z"
         },
         {
           "id": "tscircuit#1081",
@@ -332,8 +112,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:19.399Z",
-          "updated_at": "2025-12-12T14:16:19.399Z"
+          "created_at": "2025-12-12T14:35:41.188Z",
+          "updated_at": "2025-12-12T14:35:41.188Z"
         },
         {
           "id": "tscircuit#386",
@@ -342,8 +122,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:23.643Z",
-          "updated_at": "2025-12-12T14:16:23.643Z"
+          "created_at": "2025-12-12T14:35:41.473Z",
+          "updated_at": "2025-12-12T14:35:41.473Z"
         },
         {
           "id": "tscircuit#1498",
@@ -352,8 +132,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:27.657Z",
-          "updated_at": "2025-12-12T14:16:27.657Z"
+          "created_at": "2025-12-12T14:35:41.644Z",
+          "updated_at": "2025-12-12T14:35:41.644Z"
         },
         {
           "id": "tscircuit#79",
@@ -362,8 +142,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:31.379Z",
-          "updated_at": "2025-12-12T14:16:31.379Z"
+          "created_at": "2025-12-12T14:35:41.769Z",
+          "updated_at": "2025-12-12T14:35:41.769Z"
         },
         {
           "id": "tscircuit#78",
@@ -372,8 +152,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:35.323Z",
-          "updated_at": "2025-12-12T14:16:35.323Z"
+          "created_at": "2025-12-12T14:35:41.885Z",
+          "updated_at": "2025-12-12T14:35:41.885Z"
         },
         {
           "id": "tscircuit#176",
@@ -382,8 +162,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:36.055Z",
-          "updated_at": "2025-12-12T14:16:36.055Z"
+          "created_at": "2025-12-12T14:35:42.206Z",
+          "updated_at": "2025-12-12T14:35:42.206Z"
         },
         {
           "id": "tscircuit#939",
@@ -392,129 +172,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-12T14:16:36.585Z",
-          "updated_at": "2025-12-12T14:16:36.585Z"
+          "created_at": "2025-12-12T14:35:44.122Z",
+          "updated_at": "2025-12-12T14:35:44.122Z"
         }
       ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "projectdiscovery#14310",
-          "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-12T14:16:46.525Z",
-          "updated_at": "2025-12-12T14:16:46.525Z"
-        },
-        {
-          "id": "projectdiscovery#14297",
-          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:46.618Z",
-          "updated_at": "2025-12-12T14:16:46.618Z"
-        },
-        {
-          "id": "projectdiscovery#14278",
-          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:46.715Z",
-          "updated_at": "2025-12-12T14:16:46.715Z"
-        },
-        {
-          "id": "projectdiscovery#14236",
-          "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:46.845Z",
-          "updated_at": "2025-12-12T14:16:46.845Z"
-        },
-        {
-          "id": "projectdiscovery#14212",
-          "title": "CVE-2025-13486 - Advanced Custom Fields: Extended - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14212",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:46.938Z",
-          "updated_at": "2025-12-12T14:16:46.938Z"
-        },
-        {
-          "id": "projectdiscovery#1471",
-          "title": "release katana v1.3.0",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:47.136Z",
-          "updated_at": "2025-12-12T14:16:47.136Z"
-        },
-        {
-          "id": "projectdiscovery#14152",
-          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:47.241Z",
-          "updated_at": "2025-12-12T14:16:47.241Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:47.346Z",
-          "updated_at": "2025-12-12T14:16:47.346Z"
-        },
-        {
-          "id": "projectdiscovery#14092",
-          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:47.468Z",
-          "updated_at": "2025-12-12T14:16:47.468Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-12T14:16:47.475Z",
-          "updated_at": "2025-12-12T14:16:47.475Z"
-        }
-      ],
-      "last_updated": "2025-12-12T14:16:57.510Z",
+      "last_updated": "2025-12-12T14:36:53.733Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 118660,
+    "processing_time_ms": 156800,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -522,121 +190,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "mediar-ai#378",
-            "title": "Create workflow: \"Supplier invoice reconciliation\"",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/378",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:16.341Z",
-            "updated_at": "2025-12-12T14:16:16.341Z"
-          },
-          {
-            "id": "mediar-ai#357",
-            "title": "create a TS workflow that delete the oldest version of PyPI before publishing to PyPI",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/357",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:17.429Z",
-            "updated_at": "2025-12-12T14:16:17.429Z"
-          },
-          {
-            "id": "mediar-ai#353",
-            "title": "create a typescript workflow that test the browser script bridge",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/353",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:17.795Z",
-            "updated_at": "2025-12-12T14:16:17.795Z"
-          },
-          {
-            "id": "mediar-ai#352",
-            "title": "increase success rate of browser extension workflow",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/352",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:18.618Z",
-            "updated_at": "2025-12-12T14:16:18.618Z"
-          },
-          {
-            "id": "mediar-ai#315",
-            "title": "[bounty] test and showcase the new gemini computer use model with terminator MCP",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/terminator/issues/315",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:19.397Z",
-            "updated_at": "2025-12-12T14:16:19.397Z"
-          },
-          {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:20.762Z",
-            "updated_at": "2025-12-12T14:16:20.762Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:23.643Z",
-            "updated_at": "2025-12-12T14:16:23.643Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:27.549Z",
-            "updated_at": "2025-12-12T14:16:27.549Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:31.464Z",
-            "updated_at": "2025-12-12T14:16:31.464Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:35.323Z",
-            "updated_at": "2025-12-12T14:16:35.323Z"
-          }
-        ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "tscircuit",
         "display_name": "Tscircuit",
@@ -653,8 +206,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-12T14:16:16.341Z",
-            "updated_at": "2025-12-12T14:16:16.341Z"
+            "created_at": "2025-12-12T14:35:40.559Z",
+            "updated_at": "2025-12-12T14:35:40.559Z"
           },
           {
             "id": "tscircuit#534",
@@ -663,8 +216,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:17.430Z",
-            "updated_at": "2025-12-12T14:16:17.430Z"
+            "created_at": "2025-12-12T14:35:40.822Z",
+            "updated_at": "2025-12-12T14:35:40.821Z"
           },
           {
             "id": "tscircuit#419",
@@ -673,8 +226,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:18.619Z",
-            "updated_at": "2025-12-12T14:16:18.619Z"
+            "created_at": "2025-12-12T14:35:40.972Z",
+            "updated_at": "2025-12-12T14:35:40.972Z"
           },
           {
             "id": "tscircuit#1081",
@@ -683,8 +236,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:19.399Z",
-            "updated_at": "2025-12-12T14:16:19.399Z"
+            "created_at": "2025-12-12T14:35:41.188Z",
+            "updated_at": "2025-12-12T14:35:41.188Z"
           },
           {
             "id": "tscircuit#386",
@@ -693,8 +246,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:23.643Z",
-            "updated_at": "2025-12-12T14:16:23.643Z"
+            "created_at": "2025-12-12T14:35:41.473Z",
+            "updated_at": "2025-12-12T14:35:41.473Z"
           },
           {
             "id": "tscircuit#1498",
@@ -703,8 +256,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:27.657Z",
-            "updated_at": "2025-12-12T14:16:27.657Z"
+            "created_at": "2025-12-12T14:35:41.644Z",
+            "updated_at": "2025-12-12T14:35:41.644Z"
           },
           {
             "id": "tscircuit#79",
@@ -713,8 +266,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:31.379Z",
-            "updated_at": "2025-12-12T14:16:31.379Z"
+            "created_at": "2025-12-12T14:35:41.769Z",
+            "updated_at": "2025-12-12T14:35:41.769Z"
           },
           {
             "id": "tscircuit#78",
@@ -723,8 +276,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:35.323Z",
-            "updated_at": "2025-12-12T14:16:35.323Z"
+            "created_at": "2025-12-12T14:35:41.885Z",
+            "updated_at": "2025-12-12T14:35:41.885Z"
           },
           {
             "id": "tscircuit#176",
@@ -733,8 +286,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:36.055Z",
-            "updated_at": "2025-12-12T14:16:36.055Z"
+            "created_at": "2025-12-12T14:35:42.206Z",
+            "updated_at": "2025-12-12T14:35:42.206Z"
           },
           {
             "id": "tscircuit#939",
@@ -743,296 +296,74 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:36.585Z",
-            "updated_at": "2025-12-12T14:16:36.585Z"
+            "created_at": "2025-12-12T14:35:44.122Z",
+            "updated_at": "2025-12-12T14:35:44.122Z"
           }
         ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
+        "last_updated": "2025-12-12T14:36:53.733Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "projectdiscovery#14310",
-            "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-12T14:16:46.525Z",
-            "updated_at": "2025-12-12T14:16:46.525Z"
+            "created_at": "2025-12-12T14:35:40.487Z",
+            "updated_at": "2025-12-12T14:35:40.487Z"
           },
           {
-            "id": "projectdiscovery#14297",
-            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:46.618Z",
-            "updated_at": "2025-12-12T14:16:46.618Z"
+            "created_at": "2025-12-12T14:35:40.821Z",
+            "updated_at": "2025-12-12T14:35:40.821Z"
           },
           {
-            "id": "projectdiscovery#14278",
-            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:46.715Z",
-            "updated_at": "2025-12-12T14:16:46.715Z"
+            "created_at": "2025-12-12T14:35:40.972Z",
+            "updated_at": "2025-12-12T14:35:40.972Z"
           },
           {
-            "id": "projectdiscovery#14236",
-            "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:46.845Z",
-            "updated_at": "2025-12-12T14:16:46.845Z"
+            "created_at": "2025-12-12T14:35:41.251Z",
+            "updated_at": "2025-12-12T14:35:41.251Z"
           },
           {
-            "id": "projectdiscovery#14212",
-            "title": "CVE-2025-13486 - Advanced Custom Fields: Extended - Remote Code Execution 💰",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14212",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-12T14:16:46.938Z",
-            "updated_at": "2025-12-12T14:16:46.938Z"
-          },
-          {
-            "id": "projectdiscovery#1471",
-            "title": "release katana v1.3.0",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:47.136Z",
-            "updated_at": "2025-12-12T14:16:47.136Z"
-          },
-          {
-            "id": "projectdiscovery#14152",
-            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:47.241Z",
-            "updated_at": "2025-12-12T14:16:47.241Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:47.346Z",
-            "updated_at": "2025-12-12T14:16:47.346Z"
-          },
-          {
-            "id": "projectdiscovery#14092",
-            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:47.468Z",
-            "updated_at": "2025-12-12T14:16:47.468Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:47.475Z",
-            "updated_at": "2025-12-12T14:16:47.475Z"
+            "created_at": "2025-12-12T14:35:41.406Z",
+            "updated_at": "2025-12-12T14:35:41.406Z"
           }
         ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:16.438Z",
-            "updated_at": "2025-12-12T14:16:16.438Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:17.429Z",
-            "updated_at": "2025-12-12T14:16:17.429Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:18.534Z",
-            "updated_at": "2025-12-12T14:16:18.534Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:19.398Z",
-            "updated_at": "2025-12-12T14:16:19.398Z"
-          }
-        ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:16.438Z",
-            "updated_at": "2025-12-12T14:16:16.438Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:17.430Z",
-            "updated_at": "2025-12-12T14:16:17.430Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:18.534Z",
-            "updated_at": "2025-12-12T14:16:18.534Z"
-          }
-        ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:16.993Z",
-            "updated_at": "2025-12-12T14:16:16.993Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:17.794Z",
-            "updated_at": "2025-12-12T14:16:17.794Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:18.535Z",
-            "updated_at": "2025-12-12T14:16:18.535Z"
-          }
-        ],
-        "last_updated": "2025-12-12T14:16:57.510Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-12T14:16:16.342Z",
-            "updated_at": "2025-12-12T14:16:16.342Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-12T14:16:17.429Z",
-            "updated_at": "2025-12-12T14:16:17.429Z"
-          }
-        ],
-        "last_updated": "2025-12-12T14:16:57.509Z",
+        "last_updated": "2025-12-12T14:36:53.733Z",
         "scrape_duration_ms": 0
       }
     ]
