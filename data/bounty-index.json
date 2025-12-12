@@ -1,290 +1,64 @@
 {
-  "generated_at": "2025-12-11T23:51:40.090Z",
-  "total_organizations": 6,
-  "total_bounties": 32,
-  "total_value_usd": 3200,
+  "generated_at": "2025-12-12T01:10:33.928Z",
+  "total_organizations": 5,
+  "total_bounties": 33,
+  "total_value_usd": 3300,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-12T01:09:39.427Z",
+          "updated_at": "2025-12-12T01:09:39.427Z"
+        }
+      ],
+      "last_updated": "2025-12-12T01:10:33.928Z",
+      "scrape_duration_ms": 0
+    },
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T23:50:47.001Z",
-          "updated_at": "2025-12-11T23:50:47.001Z"
+          "created_at": "2025-12-12T01:09:40.862Z",
+          "updated_at": "2025-12-12T01:09:40.862Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:47.361Z",
-          "updated_at": "2025-12-11T23:50:47.361Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-12T01:09:43.258Z",
+          "updated_at": "2025-12-12T01:09:43.258Z"
         }
       ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
-      "scrape_duration_ms": 0
-    },
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T23:50:47.280Z",
-          "updated_at": "2025-12-11T23:50:47.280Z"
-        },
-        {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T23:50:47.463Z",
-          "updated_at": "2025-12-11T23:50:47.463Z"
-        }
-      ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "coollabsio#7529",
-          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7529",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T23:50:47.362Z",
-          "updated_at": "2025-12-11T23:50:47.362Z"
-        },
-        {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:47.571Z",
-          "updated_at": "2025-12-11T23:50:47.571Z"
-        },
-        {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:47.772Z",
-          "updated_at": "2025-12-11T23:50:47.772Z"
-        },
-        {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:47.968Z",
-          "updated_at": "2025-12-11T23:50:47.968Z"
-        },
-        {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:48.153Z",
-          "updated_at": "2025-12-11T23:50:48.153Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:48.339Z",
-          "updated_at": "2025-12-11T23:50:48.339Z"
-        },
-        {
-          "id": "coollabsio#7110",
-          "title": "[Enhancement]: Update Clickhouse template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7110",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:50.617Z",
-          "updated_at": "2025-12-11T23:50:50.617Z"
-        },
-        {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:53.636Z",
-          "updated_at": "2025-12-11T23:50:53.636Z"
-        },
-        {
-          "id": "coollabsio#6567",
-          "title": "[Enhancement]: Add Soju IRC bouncer",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:55.315Z",
-          "updated_at": "2025-12-11T23:50:55.315Z"
-        },
-        {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:55.513Z",
-          "updated_at": "2025-12-11T23:50:55.513Z"
-        }
-      ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T23:50:56.051Z",
-          "updated_at": "2025-12-11T23:50:56.051Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:56.290Z",
-          "updated_at": "2025-12-11T23:50:56.290Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:50:56.600Z",
-          "updated_at": "2025-12-11T23:50:56.600Z"
-        }
-      ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-11T23:50:59.064Z",
-          "updated_at": "2025-12-11T23:50:59.064Z"
-        },
-        {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:51:00.440Z",
-          "updated_at": "2025-12-11T23:51:00.440Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:51:04.216Z",
-          "updated_at": "2025-12-11T23:51:04.216Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:51:07.235Z",
-          "updated_at": "2025-12-11T23:51:07.235Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-11T23:51:09.421Z",
-          "updated_at": "2025-12-11T23:51:09.421Z"
-        }
-      ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
+      "last_updated": "2025-12-12T01:10:33.928Z",
       "scrape_duration_ms": 0
     },
     "cal": {
@@ -302,8 +76,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-11T23:51:28.140Z",
-          "updated_at": "2025-12-11T23:51:28.140Z"
+          "created_at": "2025-12-12T01:09:47.155Z",
+          "updated_at": "2025-12-12T01:09:47.155Z"
         },
         {
           "id": "cal#9485",
@@ -312,8 +86,8 @@
           "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:28.343Z",
-          "updated_at": "2025-12-11T23:51:28.343Z"
+          "created_at": "2025-12-12T01:09:50.407Z",
+          "updated_at": "2025-12-12T01:09:50.407Z"
         },
         {
           "id": "cal#18947",
@@ -322,8 +96,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:28.629Z",
-          "updated_at": "2025-12-11T23:51:28.629Z"
+          "created_at": "2025-12-12T01:09:53.335Z",
+          "updated_at": "2025-12-12T01:09:53.335Z"
         },
         {
           "id": "cal#18992",
@@ -332,8 +106,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:28.821Z",
-          "updated_at": "2025-12-11T23:51:28.821Z"
+          "created_at": "2025-12-12T01:09:54.032Z",
+          "updated_at": "2025-12-12T01:09:54.032Z"
         },
         {
           "id": "cal#18987",
@@ -342,8 +116,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:29.061Z",
-          "updated_at": "2025-12-11T23:51:29.061Z"
+          "created_at": "2025-12-12T01:09:54.370Z",
+          "updated_at": "2025-12-12T01:09:54.370Z"
         },
         {
           "id": "cal#16797",
@@ -352,8 +126,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:29.292Z",
-          "updated_at": "2025-12-11T23:51:29.292Z"
+          "created_at": "2025-12-12T01:09:54.598Z",
+          "updated_at": "2025-12-12T01:09:54.598Z"
         },
         {
           "id": "cal#16651",
@@ -362,8 +136,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:29.474Z",
-          "updated_at": "2025-12-11T23:51:29.474Z"
+          "created_at": "2025-12-12T01:09:54.814Z",
+          "updated_at": "2025-12-12T01:09:54.814Z"
         },
         {
           "id": "cal#8123",
@@ -372,8 +146,8 @@
           "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:29.706Z",
-          "updated_at": "2025-12-11T23:51:29.706Z"
+          "created_at": "2025-12-12T01:09:54.987Z",
+          "updated_at": "2025-12-12T01:09:54.987Z"
         },
         {
           "id": "cal#16378",
@@ -382,8 +156,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:29.896Z",
-          "updated_at": "2025-12-11T23:51:29.896Z"
+          "created_at": "2025-12-12T01:09:55.206Z",
+          "updated_at": "2025-12-12T01:09:55.206Z"
         },
         {
           "id": "cal#13532",
@@ -392,17 +166,241 @@
           "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-11T23:51:30.087Z",
-          "updated_at": "2025-12-11T23:51:30.087Z"
+          "created_at": "2025-12-12T01:09:55.388Z",
+          "updated_at": "2025-12-12T01:09:55.388Z"
         }
       ],
-      "last_updated": "2025-12-11T23:51:40.090Z",
+      "last_updated": "2025-12-12T01:10:33.928Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-12T01:09:50.407Z",
+          "updated_at": "2025-12-12T01:09:50.407Z"
+        },
+        {
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:53.331Z",
+          "updated_at": "2025-12-12T01:09:53.331Z"
+        },
+        {
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.033Z",
+          "updated_at": "2025-12-12T01:09:54.033Z"
+        },
+        {
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.370Z",
+          "updated_at": "2025-12-12T01:09:54.370Z"
+        },
+        {
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.579Z",
+          "updated_at": "2025-12-12T01:09:54.579Z"
+        },
+        {
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.771Z",
+          "updated_at": "2025-12-12T01:09:54.771Z"
+        },
+        {
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.933Z",
+          "updated_at": "2025-12-12T01:09:54.933Z"
+        },
+        {
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.120Z",
+          "updated_at": "2025-12-12T01:09:55.120Z"
+        },
+        {
+          "id": "ZIO#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.303Z",
+          "updated_at": "2025-12-12T01:09:55.303Z"
+        },
+        {
+          "id": "ZIO#9922",
+          "title": "Add tests for `ZStreamAspect`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9922",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.566Z",
+          "updated_at": "2025-12-12T01:09:55.566Z"
+        }
+      ],
+      "last_updated": "2025-12-12T01:10:33.928Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7529",
+          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7529",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-12T01:09:54.361Z",
+          "updated_at": "2025-12-12T01:09:54.361Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.597Z",
+          "updated_at": "2025-12-12T01:09:54.597Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.794Z",
+          "updated_at": "2025-12-12T01:09:54.794Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:54.999Z",
+          "updated_at": "2025-12-12T01:09:54.999Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.239Z",
+          "updated_at": "2025-12-12T01:09:55.239Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.452Z",
+          "updated_at": "2025-12-12T01:09:55.452Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.603Z",
+          "updated_at": "2025-12-12T01:09:55.603Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.758Z",
+          "updated_at": "2025-12-12T01:09:55.758Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:55.917Z",
+          "updated_at": "2025-12-12T01:09:55.917Z"
+        },
+        {
+          "id": "coollabsio#6566",
+          "title": "[Bug]: Scheduled tasks fails without logs",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-12T01:09:56.064Z",
+          "updated_at": "2025-12-12T01:09:56.064Z"
+        }
+      ],
+      "last_updated": "2025-12-12T01:10:33.928Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 126306,
+    "processing_time_ms": 135573,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -410,119 +408,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#7529",
-            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7529",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-11T23:50:47.362Z",
-            "updated_at": "2025-12-11T23:50:47.362Z"
-          },
-          {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:47.571Z",
-            "updated_at": "2025-12-11T23:50:47.571Z"
-          },
-          {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:47.772Z",
-            "updated_at": "2025-12-11T23:50:47.772Z"
-          },
-          {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:47.968Z",
-            "updated_at": "2025-12-11T23:50:47.968Z"
-          },
-          {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:48.153Z",
-            "updated_at": "2025-12-11T23:50:48.153Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:48.339Z",
-            "updated_at": "2025-12-11T23:50:48.339Z"
-          },
-          {
-            "id": "coollabsio#7110",
-            "title": "[Enhancement]: Update Clickhouse template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7110",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:50.617Z",
-            "updated_at": "2025-12-11T23:50:50.617Z"
-          },
-          {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:53.636Z",
-            "updated_at": "2025-12-11T23:50:53.636Z"
-          },
-          {
-            "id": "coollabsio#6567",
-            "title": "[Enhancement]: Add Soju IRC bouncer",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6567",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:55.315Z",
-            "updated_at": "2025-12-11T23:50:55.315Z"
-          },
-          {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:55.513Z",
-            "updated_at": "2025-12-11T23:50:55.513Z"
-          }
-        ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "cal",
         "display_name": "Cal",
@@ -539,8 +424,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T23:51:28.140Z",
-            "updated_at": "2025-12-11T23:51:28.140Z"
+            "created_at": "2025-12-12T01:09:47.155Z",
+            "updated_at": "2025-12-12T01:09:47.155Z"
           },
           {
             "id": "cal#9485",
@@ -549,8 +434,8 @@
             "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:28.343Z",
-            "updated_at": "2025-12-11T23:51:28.343Z"
+            "created_at": "2025-12-12T01:09:50.407Z",
+            "updated_at": "2025-12-12T01:09:50.407Z"
           },
           {
             "id": "cal#18947",
@@ -559,8 +444,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:28.629Z",
-            "updated_at": "2025-12-11T23:51:28.629Z"
+            "created_at": "2025-12-12T01:09:53.335Z",
+            "updated_at": "2025-12-12T01:09:53.335Z"
           },
           {
             "id": "cal#18992",
@@ -569,8 +454,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:28.821Z",
-            "updated_at": "2025-12-11T23:51:28.821Z"
+            "created_at": "2025-12-12T01:09:54.032Z",
+            "updated_at": "2025-12-12T01:09:54.032Z"
           },
           {
             "id": "cal#18987",
@@ -579,8 +464,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:29.061Z",
-            "updated_at": "2025-12-11T23:51:29.061Z"
+            "created_at": "2025-12-12T01:09:54.370Z",
+            "updated_at": "2025-12-12T01:09:54.370Z"
           },
           {
             "id": "cal#16797",
@@ -589,8 +474,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:29.292Z",
-            "updated_at": "2025-12-11T23:51:29.292Z"
+            "created_at": "2025-12-12T01:09:54.598Z",
+            "updated_at": "2025-12-12T01:09:54.598Z"
           },
           {
             "id": "cal#16651",
@@ -599,8 +484,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:29.474Z",
-            "updated_at": "2025-12-11T23:51:29.474Z"
+            "created_at": "2025-12-12T01:09:54.814Z",
+            "updated_at": "2025-12-12T01:09:54.814Z"
           },
           {
             "id": "cal#8123",
@@ -609,8 +494,8 @@
             "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:29.706Z",
-            "updated_at": "2025-12-11T23:51:29.706Z"
+            "created_at": "2025-12-12T01:09:54.987Z",
+            "updated_at": "2025-12-12T01:09:54.987Z"
           },
           {
             "id": "cal#16378",
@@ -619,8 +504,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:29.896Z",
-            "updated_at": "2025-12-11T23:51:29.896Z"
+            "created_at": "2025-12-12T01:09:55.206Z",
+            "updated_at": "2025-12-12T01:09:55.206Z"
           },
           {
             "id": "cal#13532",
@@ -629,185 +514,295 @@
             "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:30.087Z",
-            "updated_at": "2025-12-11T23:51:30.087Z"
+            "created_at": "2025-12-12T01:09:55.388Z",
+            "updated_at": "2025-12-12T01:09:55.388Z"
           }
         ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
+        "last_updated": "2025-12-12T01:10:33.928Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T23:50:59.064Z",
-            "updated_at": "2025-12-11T23:50:59.064Z"
+            "created_at": "2025-12-12T01:09:50.407Z",
+            "updated_at": "2025-12-12T01:09:50.407Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:00.440Z",
-            "updated_at": "2025-12-11T23:51:00.440Z"
+            "created_at": "2025-12-12T01:09:53.331Z",
+            "updated_at": "2025-12-12T01:09:53.331Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:04.216Z",
-            "updated_at": "2025-12-11T23:51:04.216Z"
+            "created_at": "2025-12-12T01:09:54.033Z",
+            "updated_at": "2025-12-12T01:09:54.033Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:07.235Z",
-            "updated_at": "2025-12-11T23:51:07.235Z"
+            "created_at": "2025-12-12T01:09:54.370Z",
+            "updated_at": "2025-12-12T01:09:54.370Z"
           },
           {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:51:09.421Z",
-            "updated_at": "2025-12-11T23:51:09.421Z"
+            "created_at": "2025-12-12T01:09:54.579Z",
+            "updated_at": "2025-12-12T01:09:54.579Z"
+          },
+          {
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:54.771Z",
+            "updated_at": "2025-12-12T01:09:54.771Z"
+          },
+          {
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9877",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:54.933Z",
+            "updated_at": "2025-12-12T01:09:54.933Z"
+          },
+          {
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.120Z",
+            "updated_at": "2025-12-12T01:09:55.120Z"
+          },
+          {
+            "id": "ZIO#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.303Z",
+            "updated_at": "2025-12-12T01:09:55.303Z"
+          },
+          {
+            "id": "ZIO#9922",
+            "title": "Add tests for `ZStreamAspect`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9922",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.566Z",
+            "updated_at": "2025-12-12T01:09:55.566Z"
           }
         ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
+        "last_updated": "2025-12-12T01:10:33.928Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "coollabsio#7529",
+            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/coollabsio/coolify/issues/7529",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T23:50:56.051Z",
-            "updated_at": "2025-12-11T23:50:56.051Z"
+            "created_at": "2025-12-12T01:09:54.361Z",
+            "updated_at": "2025-12-12T01:09:54.361Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:50:56.290Z",
-            "updated_at": "2025-12-11T23:50:56.290Z"
+            "created_at": "2025-12-12T01:09:54.597Z",
+            "updated_at": "2025-12-12T01:09:54.597Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-11T23:50:56.600Z",
-            "updated_at": "2025-12-11T23:50:56.600Z"
+            "created_at": "2025-12-12T01:09:54.794Z",
+            "updated_at": "2025-12-12T01:09:54.794Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:54.999Z",
+            "updated_at": "2025-12-12T01:09:54.999Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.239Z",
+            "updated_at": "2025-12-12T01:09:55.239Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.452Z",
+            "updated_at": "2025-12-12T01:09:55.452Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.603Z",
+            "updated_at": "2025-12-12T01:09:55.603Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.758Z",
+            "updated_at": "2025-12-12T01:09:55.758Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:55.917Z",
+            "updated_at": "2025-12-12T01:09:55.917Z"
+          },
+          {
+            "id": "coollabsio#6566",
+            "title": "[Bug]: Scheduled tasks fails without logs",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-12T01:09:56.064Z",
+            "updated_at": "2025-12-12T01:09:56.064Z"
           }
         ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
+        "last_updated": "2025-12-12T01:10:33.928Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T23:50:47.001Z",
-            "updated_at": "2025-12-11T23:50:47.001Z"
+            "created_at": "2025-12-12T01:09:40.862Z",
+            "updated_at": "2025-12-12T01:09:40.862Z"
           },
           {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-11T23:50:47.361Z",
-            "updated_at": "2025-12-11T23:50:47.361Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-12T01:09:43.258Z",
+            "updated_at": "2025-12-12T01:09:43.258Z"
           }
         ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
+        "last_updated": "2025-12-12T01:10:33.928Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-11T23:50:47.280Z",
-            "updated_at": "2025-12-11T23:50:47.280Z"
-          },
-          {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-11T23:50:47.463Z",
-            "updated_at": "2025-12-11T23:50:47.463Z"
+            "created_at": "2025-12-12T01:09:39.427Z",
+            "updated_at": "2025-12-12T01:09:39.427Z"
           }
         ],
-        "last_updated": "2025-12-11T23:51:40.090Z",
+        "last_updated": "2025-12-12T01:10:33.928Z",
         "scrape_duration_ms": 0
       }
     ]
