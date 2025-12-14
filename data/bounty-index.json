@@ -1,10 +1,52 @@
 {
-  "generated_at": "2025-12-14T19:13:28.098Z",
-  "total_organizations": 5,
-  "total_bounties": 21,
-  "total_value_usd": 2100,
+  "generated_at": "2025-12-14T19:28:40.590Z",
+  "total_organizations": 4,
+  "total_bounties": 19,
+  "total_value_usd": 1900,
   "version": "3.0.0",
   "organizations": {
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-14T19:27:36.847Z",
+          "updated_at": "2025-12-14T19:27:36.846Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-14T19:27:37.125Z",
+          "updated_at": "2025-12-14T19:27:37.125Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-14T19:27:37.236Z",
+          "updated_at": "2025-12-14T19:27:37.236Z"
+        }
+      ],
+      "last_updated": "2025-12-14T19:28:40.590Z",
+      "scrape_duration_ms": 0
+    },
     "PX4": {
       "display_name": "PX4",
       "url": "https://algora.io/PX4/bounties?status=open",
@@ -20,8 +62,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-14T19:12:49.307Z",
-          "updated_at": "2025-12-14T19:12:49.307Z"
+          "created_at": "2025-12-14T19:27:43.561Z",
+          "updated_at": "2025-12-14T19:27:43.561Z"
         },
         {
           "id": "PX4#19970",
@@ -32,141 +74,65 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-14T19:12:49.582Z",
-          "updated_at": "2025-12-14T19:12:49.582Z"
+          "created_at": "2025-12-14T19:27:45.010Z",
+          "updated_at": "2025-12-14T19:27:45.010Z"
         }
       ],
-      "last_updated": "2025-12-14T19:13:28.098Z",
+      "last_updated": "2025-12-14T19:28:40.590Z",
       "scrape_duration_ms": 0
     },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-14T19:12:49.582Z",
-          "updated_at": "2025-12-14T19:12:49.582Z"
+          "created_at": "2025-12-14T19:27:43.562Z",
+          "updated_at": "2025-12-14T19:27:43.562Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-14T19:12:49.990Z",
-          "updated_at": "2025-12-14T19:12:49.990Z"
+          "created_at": "2025-12-14T19:27:45.010Z",
+          "updated_at": "2025-12-14T19:27:45.010Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-14T19:27:45.970Z",
+          "updated_at": "2025-12-14T19:27:45.970Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-14T19:27:46.483Z",
+          "updated_at": "2025-12-14T19:27:46.483Z"
         }
       ],
-      "last_updated": "2025-12-14T19:13:28.098Z",
-      "scrape_duration_ms": 0
-    },
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-14T19:12:49.583Z",
-          "updated_at": "2025-12-14T19:12:49.583Z"
-        },
-        {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-14T19:12:50.066Z",
-          "updated_at": "2025-12-14T19:12:50.066Z"
-        }
-      ],
-      "last_updated": "2025-12-14T19:13:28.098Z",
-      "scrape_duration_ms": 0
-    },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-14T19:13:16.852Z",
-          "updated_at": "2025-12-14T19:13:16.852Z"
-        },
-        {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-14T19:13:16.956Z",
-          "updated_at": "2025-12-14T19:13:16.956Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-14T19:13:17.232Z",
-          "updated_at": "2025-12-14T19:13:17.232Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-14T19:13:17.343Z",
-          "updated_at": "2025-12-14T19:13:17.343Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-14T19:13:17.475Z",
-          "updated_at": "2025-12-14T19:13:17.475Z"
-        }
-      ],
-      "last_updated": "2025-12-14T19:13:28.098Z",
+      "last_updated": "2025-12-14T19:28:40.590Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -184,8 +150,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-14T19:13:16.961Z",
-          "updated_at": "2025-12-14T19:13:16.961Z"
+          "created_at": "2025-12-14T19:27:45.010Z",
+          "updated_at": "2025-12-14T19:27:45.010Z"
         },
         {
           "id": "tscircuit#534",
@@ -194,8 +160,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.051Z",
-          "updated_at": "2025-12-14T19:13:17.051Z"
+          "created_at": "2025-12-14T19:27:45.971Z",
+          "updated_at": "2025-12-14T19:27:45.971Z"
         },
         {
           "id": "tscircuit#419",
@@ -204,8 +170,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.112Z",
-          "updated_at": "2025-12-14T19:13:17.112Z"
+          "created_at": "2025-12-14T19:27:46.680Z",
+          "updated_at": "2025-12-14T19:27:46.680Z"
         },
         {
           "id": "tscircuit#1081",
@@ -214,8 +180,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.208Z",
-          "updated_at": "2025-12-14T19:13:17.208Z"
+          "created_at": "2025-12-14T19:27:46.817Z",
+          "updated_at": "2025-12-14T19:27:46.817Z"
         },
         {
           "id": "tscircuit#386",
@@ -224,8 +190,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.422Z",
-          "updated_at": "2025-12-14T19:13:17.422Z"
+          "created_at": "2025-12-14T19:27:47.039Z",
+          "updated_at": "2025-12-14T19:27:47.039Z"
         },
         {
           "id": "tscircuit#1498",
@@ -234,8 +200,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.604Z",
-          "updated_at": "2025-12-14T19:13:17.604Z"
+          "created_at": "2025-12-14T19:27:47.153Z",
+          "updated_at": "2025-12-14T19:27:47.153Z"
         },
         {
           "id": "tscircuit#79",
@@ -244,8 +210,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.716Z",
-          "updated_at": "2025-12-14T19:13:17.716Z"
+          "created_at": "2025-12-14T19:27:47.308Z",
+          "updated_at": "2025-12-14T19:27:47.308Z"
         },
         {
           "id": "tscircuit#78",
@@ -254,8 +220,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.827Z",
-          "updated_at": "2025-12-14T19:13:17.827Z"
+          "created_at": "2025-12-14T19:27:47.685Z",
+          "updated_at": "2025-12-14T19:27:47.685Z"
         },
         {
           "id": "tscircuit#176",
@@ -264,8 +230,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:17.925Z",
-          "updated_at": "2025-12-14T19:13:17.925Z"
+          "created_at": "2025-12-14T19:27:48.110Z",
+          "updated_at": "2025-12-14T19:27:48.110Z"
         },
         {
           "id": "tscircuit#939",
@@ -274,17 +240,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-14T19:13:18.096Z",
-          "updated_at": "2025-12-14T19:13:18.096Z"
+          "created_at": "2025-12-14T19:27:49.124Z",
+          "updated_at": "2025-12-14T19:27:49.124Z"
         }
       ],
-      "last_updated": "2025-12-14T19:13:28.098Z",
+      "last_updated": "2025-12-14T19:28:40.590Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 113398,
+    "processing_time_ms": 131856,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -308,8 +274,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-14T19:13:16.961Z",
-            "updated_at": "2025-12-14T19:13:16.961Z"
+            "created_at": "2025-12-14T19:27:45.010Z",
+            "updated_at": "2025-12-14T19:27:45.010Z"
           },
           {
             "id": "tscircuit#534",
@@ -318,8 +284,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.051Z",
-            "updated_at": "2025-12-14T19:13:17.051Z"
+            "created_at": "2025-12-14T19:27:45.971Z",
+            "updated_at": "2025-12-14T19:27:45.971Z"
           },
           {
             "id": "tscircuit#419",
@@ -328,8 +294,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.112Z",
-            "updated_at": "2025-12-14T19:13:17.112Z"
+            "created_at": "2025-12-14T19:27:46.680Z",
+            "updated_at": "2025-12-14T19:27:46.680Z"
           },
           {
             "id": "tscircuit#1081",
@@ -338,8 +304,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.208Z",
-            "updated_at": "2025-12-14T19:13:17.208Z"
+            "created_at": "2025-12-14T19:27:46.817Z",
+            "updated_at": "2025-12-14T19:27:46.817Z"
           },
           {
             "id": "tscircuit#386",
@@ -348,8 +314,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.422Z",
-            "updated_at": "2025-12-14T19:13:17.422Z"
+            "created_at": "2025-12-14T19:27:47.039Z",
+            "updated_at": "2025-12-14T19:27:47.039Z"
           },
           {
             "id": "tscircuit#1498",
@@ -358,8 +324,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.604Z",
-            "updated_at": "2025-12-14T19:13:17.604Z"
+            "created_at": "2025-12-14T19:27:47.153Z",
+            "updated_at": "2025-12-14T19:27:47.153Z"
           },
           {
             "id": "tscircuit#79",
@@ -368,8 +334,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.716Z",
-            "updated_at": "2025-12-14T19:13:17.716Z"
+            "created_at": "2025-12-14T19:27:47.308Z",
+            "updated_at": "2025-12-14T19:27:47.308Z"
           },
           {
             "id": "tscircuit#78",
@@ -378,8 +344,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.827Z",
-            "updated_at": "2025-12-14T19:13:17.827Z"
+            "created_at": "2025-12-14T19:27:47.685Z",
+            "updated_at": "2025-12-14T19:27:47.685Z"
           },
           {
             "id": "tscircuit#176",
@@ -388,8 +354,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.925Z",
-            "updated_at": "2025-12-14T19:13:17.925Z"
+            "created_at": "2025-12-14T19:27:48.110Z",
+            "updated_at": "2025-12-14T19:27:48.110Z"
           },
           {
             "id": "tscircuit#939",
@@ -398,74 +364,109 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:18.096Z",
-            "updated_at": "2025-12-14T19:13:18.096Z"
+            "created_at": "2025-12-14T19:27:49.124Z",
+            "updated_at": "2025-12-14T19:27:49.124Z"
           }
         ],
-        "last_updated": "2025-12-14T19:13:28.098Z",
+        "last_updated": "2025-12-14T19:28:40.590Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-14T19:13:16.852Z",
-            "updated_at": "2025-12-14T19:13:16.852Z"
+            "created_at": "2025-12-14T19:27:43.562Z",
+            "updated_at": "2025-12-14T19:27:43.562Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-14T19:13:16.956Z",
-            "updated_at": "2025-12-14T19:13:16.956Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-14T19:27:45.010Z",
+            "updated_at": "2025-12-14T19:27:45.010Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.232Z",
-            "updated_at": "2025-12-14T19:13:17.232Z"
+            "created_at": "2025-12-14T19:27:45.970Z",
+            "updated_at": "2025-12-14T19:27:45.970Z"
           },
           {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-14T19:13:17.343Z",
-            "updated_at": "2025-12-14T19:13:17.343Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-14T19:13:17.475Z",
-            "updated_at": "2025-12-14T19:13:17.475Z"
+            "created_at": "2025-12-14T19:27:46.483Z",
+            "updated_at": "2025-12-14T19:27:46.483Z"
           }
         ],
-        "last_updated": "2025-12-14T19:13:28.098Z",
+        "last_updated": "2025-12-14T19:28:40.590Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-14T19:27:36.847Z",
+            "updated_at": "2025-12-14T19:27:36.846Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-14T19:27:37.125Z",
+            "updated_at": "2025-12-14T19:27:37.125Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-14T19:27:37.236Z",
+            "updated_at": "2025-12-14T19:27:37.236Z"
+          }
+        ],
+        "last_updated": "2025-12-14T19:28:40.590Z",
         "scrape_duration_ms": 0
       },
       {
@@ -484,8 +485,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-14T19:12:49.307Z",
-            "updated_at": "2025-12-14T19:12:49.307Z"
+            "created_at": "2025-12-14T19:27:43.561Z",
+            "updated_at": "2025-12-14T19:27:43.561Z"
           },
           {
             "id": "PX4#19970",
@@ -496,81 +497,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-14T19:12:49.582Z",
-            "updated_at": "2025-12-14T19:12:49.582Z"
+            "created_at": "2025-12-14T19:27:45.010Z",
+            "updated_at": "2025-12-14T19:27:45.010Z"
           }
         ],
-        "last_updated": "2025-12-14T19:13:28.098Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-14T19:12:49.582Z",
-            "updated_at": "2025-12-14T19:12:49.582Z"
-          },
-          {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-14T19:12:49.990Z",
-            "updated_at": "2025-12-14T19:12:49.990Z"
-          }
-        ],
-        "last_updated": "2025-12-14T19:13:28.098Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-14T19:12:49.583Z",
-            "updated_at": "2025-12-14T19:12:49.583Z"
-          },
-          {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-14T19:12:50.066Z",
-            "updated_at": "2025-12-14T19:12:50.066Z"
-          }
-        ],
-        "last_updated": "2025-12-14T19:13:28.098Z",
+        "last_updated": "2025-12-14T19:28:40.590Z",
         "scrape_duration_ms": 0
       }
     ]
