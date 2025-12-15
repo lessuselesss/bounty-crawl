@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-12-15T09:27:37.013Z",
-  "total_organizations": 7,
-  "total_bounties": 26,
-  "total_value_usd": 2600,
+  "generated_at": "2025-12-15T09:55:00.030Z",
+  "total_organizations": 6,
+  "total_bounties": 35,
+  "total_value_usd": 3500,
   "version": "3.0.0",
   "organizations": {
     "triggerdotdev": {
@@ -20,11 +20,43 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:09.624Z",
-          "updated_at": "2025-12-15T09:27:09.624Z"
+          "created_at": "2025-12-15T09:54:20.080Z",
+          "updated_at": "2025-12-15T09:54:20.080Z"
         }
       ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
+      "last_updated": "2025-12-15T09:55:00.030Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-15T09:54:20.079Z",
+          "updated_at": "2025-12-15T09:54:20.079Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:24.461Z",
+          "updated_at": "2025-12-15T09:54:24.461Z"
+        }
+      ],
+      "last_updated": "2025-12-15T09:55:00.030Z",
       "scrape_duration_ms": 0
     },
     "outerbase": {
@@ -42,8 +74,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:09.624Z",
-          "updated_at": "2025-12-15T09:27:09.624Z"
+          "created_at": "2025-12-15T09:54:20.107Z",
+          "updated_at": "2025-12-15T09:54:20.107Z"
         },
         {
           "id": "outerbase#72",
@@ -52,193 +84,237 @@
           "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:09.879Z",
-          "updated_at": "2025-12-15T09:27:09.879Z"
+          "created_at": "2025-12-15T09:54:24.552Z",
+          "updated_at": "2025-12-15T09:54:24.551Z"
         }
       ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
+      "last_updated": "2025-12-15T09:55:00.030Z",
       "scrape_duration_ms": 0
     },
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:10.113Z",
-          "updated_at": "2025-12-15T09:27:10.113Z"
+          "created_at": "2025-12-15T09:54:20.106Z",
+          "updated_at": "2025-12-15T09:54:20.106Z"
         },
         {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "coollabsio#7529",
+          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/coollabsio/coolify/issues/7529",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:10.915Z",
-          "updated_at": "2025-12-15T09:27:10.915Z"
+          "created_at": "2025-12-15T09:54:24.524Z",
+          "updated_at": "2025-12-15T09:54:24.524Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:28.451Z",
+          "updated_at": "2025-12-15T09:54:28.451Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:30.834Z",
+          "updated_at": "2025-12-15T09:54:30.834Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:35.087Z",
+          "updated_at": "2025-12-15T09:54:35.087Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:37.289Z",
+          "updated_at": "2025-12-15T09:54:37.289Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:37.738Z",
+          "updated_at": "2025-12-15T09:54:37.738Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:37.978Z",
+          "updated_at": "2025-12-15T09:54:37.978Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.185Z",
+          "updated_at": "2025-12-15T09:54:38.185Z"
+        },
+        {
+          "id": "coollabsio#6567",
+          "title": "[Enhancement]: Add Soju IRC bouncer",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6567",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.383Z",
+          "updated_at": "2025-12-15T09:54:38.383Z"
         }
       ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
+      "last_updated": "2025-12-15T09:55:00.030Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/calcom/cal.com/issues/23104",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:09.879Z",
-          "updated_at": "2025-12-15T09:27:09.879Z"
+          "created_at": "2025-12-15T09:54:30.833Z",
+          "updated_at": "2025-12-15T09:54:30.833Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:10.841Z",
-          "updated_at": "2025-12-15T09:27:10.841Z"
+          "created_at": "2025-12-15T09:54:35.087Z",
+          "updated_at": "2025-12-15T09:54:35.087Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:13.502Z",
-          "updated_at": "2025-12-15T09:27:13.502Z"
+          "created_at": "2025-12-15T09:54:37.290Z",
+          "updated_at": "2025-12-15T09:54:37.290Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:37.738Z",
+          "updated_at": "2025-12-15T09:54:37.738Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:37.963Z",
+          "updated_at": "2025-12-15T09:54:37.963Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.208Z",
+          "updated_at": "2025-12-15T09:54:38.208Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.406Z",
+          "updated_at": "2025-12-15T09:54:38.406Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.638Z",
+          "updated_at": "2025-12-15T09:54:38.638Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:38.835Z",
+          "updated_at": "2025-12-15T09:54:38.835Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-15T09:54:39.056Z",
+          "updated_at": "2025-12-15T09:54:39.056Z"
         }
       ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
-      "scrape_duration_ms": 0
-    },
-    "Mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "Mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-15T09:27:09.624Z",
-          "updated_at": "2025-12-15T09:27:09.624Z"
-        },
-        {
-          "id": "Mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-15T09:27:10.112Z",
-          "updated_at": "2025-12-15T09:27:10.112Z"
-        },
-        {
-          "id": "Mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-15T09:27:10.842Z",
-          "updated_at": "2025-12-15T09:27:10.842Z"
-        },
-        {
-          "id": "Mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-15T09:27:13.516Z",
-          "updated_at": "2025-12-15T09:27:13.516Z"
-        }
-      ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-15T09:27:09.879Z",
-          "updated_at": "2025-12-15T09:27:09.879Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-15T09:27:10.841Z",
-          "updated_at": "2025-12-15T09:27:10.841Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-15T09:27:13.515Z",
-          "updated_at": "2025-12-15T09:27:13.515Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-15T09:27:17.242Z",
-          "updated_at": "2025-12-15T09:27:17.242Z"
-        }
-      ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
+      "last_updated": "2025-12-15T09:55:00.030Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -256,8 +332,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-15T09:27:09.879Z",
-          "updated_at": "2025-12-15T09:27:09.879Z"
+          "created_at": "2025-12-15T09:54:47.945Z",
+          "updated_at": "2025-12-15T09:54:47.945Z"
         },
         {
           "id": "tscircuit#534",
@@ -266,8 +342,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:10.842Z",
-          "updated_at": "2025-12-15T09:27:10.842Z"
+          "created_at": "2025-12-15T09:54:48.139Z",
+          "updated_at": "2025-12-15T09:54:48.139Z"
         },
         {
           "id": "tscircuit#419",
@@ -276,8 +352,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:17.277Z",
-          "updated_at": "2025-12-15T09:27:17.277Z"
+          "created_at": "2025-12-15T09:54:48.289Z",
+          "updated_at": "2025-12-15T09:54:48.289Z"
         },
         {
           "id": "tscircuit#1081",
@@ -286,8 +362,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:20.575Z",
-          "updated_at": "2025-12-15T09:27:20.575Z"
+          "created_at": "2025-12-15T09:54:48.515Z",
+          "updated_at": "2025-12-15T09:54:48.515Z"
         },
         {
           "id": "tscircuit#386",
@@ -296,8 +372,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:25.827Z",
-          "updated_at": "2025-12-15T09:27:25.827Z"
+          "created_at": "2025-12-15T09:54:48.867Z",
+          "updated_at": "2025-12-15T09:54:48.867Z"
         },
         {
           "id": "tscircuit#1498",
@@ -306,8 +382,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:26.197Z",
-          "updated_at": "2025-12-15T09:27:26.197Z"
+          "created_at": "2025-12-15T09:54:49.081Z",
+          "updated_at": "2025-12-15T09:54:49.081Z"
         },
         {
           "id": "tscircuit#79",
@@ -316,8 +392,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:26.487Z",
-          "updated_at": "2025-12-15T09:27:26.487Z"
+          "created_at": "2025-12-15T09:54:49.279Z",
+          "updated_at": "2025-12-15T09:54:49.279Z"
         },
         {
           "id": "tscircuit#78",
@@ -326,8 +402,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:26.669Z",
-          "updated_at": "2025-12-15T09:27:26.669Z"
+          "created_at": "2025-12-15T09:54:49.472Z",
+          "updated_at": "2025-12-15T09:54:49.472Z"
         },
         {
           "id": "tscircuit#176",
@@ -336,8 +412,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:26.797Z",
-          "updated_at": "2025-12-15T09:27:26.797Z"
+          "created_at": "2025-12-15T09:54:49.671Z",
+          "updated_at": "2025-12-15T09:54:49.671Z"
         },
         {
           "id": "tscircuit#939",
@@ -346,17 +422,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-15T09:27:27.010Z",
-          "updated_at": "2025-12-15T09:27:27.010Z"
+          "created_at": "2025-12-15T09:54:49.995Z",
+          "updated_at": "2025-12-15T09:54:49.995Z"
         }
       ],
-      "last_updated": "2025-12-15T09:27:37.013Z",
+      "last_updated": "2025-12-15T09:55:00.030Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 106417,
+    "processing_time_ms": 118797,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -364,6 +440,234 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-15T09:54:20.106Z",
+            "updated_at": "2025-12-15T09:54:20.106Z"
+          },
+          {
+            "id": "coollabsio#7529",
+            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7529",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-15T09:54:24.524Z",
+            "updated_at": "2025-12-15T09:54:24.524Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:28.451Z",
+            "updated_at": "2025-12-15T09:54:28.451Z"
+          },
+          {
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:30.834Z",
+            "updated_at": "2025-12-15T09:54:30.834Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:35.087Z",
+            "updated_at": "2025-12-15T09:54:35.087Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.289Z",
+            "updated_at": "2025-12-15T09:54:37.289Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.738Z",
+            "updated_at": "2025-12-15T09:54:37.738Z"
+          },
+          {
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.978Z",
+            "updated_at": "2025-12-15T09:54:37.978Z"
+          },
+          {
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.185Z",
+            "updated_at": "2025-12-15T09:54:38.185Z"
+          },
+          {
+            "id": "coollabsio#6567",
+            "title": "[Enhancement]: Add Soju IRC bouncer",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6567",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.383Z",
+            "updated_at": "2025-12-15T09:54:38.383Z"
+          }
+        ],
+        "last_updated": "2025-12-15T09:55:00.030Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-15T09:54:30.833Z",
+            "updated_at": "2025-12-15T09:54:30.833Z"
+          },
+          {
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:35.087Z",
+            "updated_at": "2025-12-15T09:54:35.087Z"
+          },
+          {
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.290Z",
+            "updated_at": "2025-12-15T09:54:37.290Z"
+          },
+          {
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.738Z",
+            "updated_at": "2025-12-15T09:54:37.738Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:37.963Z",
+            "updated_at": "2025-12-15T09:54:37.963Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.208Z",
+            "updated_at": "2025-12-15T09:54:38.208Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.406Z",
+            "updated_at": "2025-12-15T09:54:38.406Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.638Z",
+            "updated_at": "2025-12-15T09:54:38.638Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:38.835Z",
+            "updated_at": "2025-12-15T09:54:38.835Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-15T09:54:39.056Z",
+            "updated_at": "2025-12-15T09:54:39.056Z"
+          }
+        ],
+        "last_updated": "2025-12-15T09:55:00.030Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "tscircuit",
         "display_name": "Tscircuit",
@@ -380,8 +684,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-15T09:27:09.879Z",
-            "updated_at": "2025-12-15T09:27:09.879Z"
+            "created_at": "2025-12-15T09:54:47.945Z",
+            "updated_at": "2025-12-15T09:54:47.945Z"
           },
           {
             "id": "tscircuit#534",
@@ -390,8 +694,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:10.842Z",
-            "updated_at": "2025-12-15T09:27:10.842Z"
+            "created_at": "2025-12-15T09:54:48.139Z",
+            "updated_at": "2025-12-15T09:54:48.139Z"
           },
           {
             "id": "tscircuit#419",
@@ -400,8 +704,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:17.277Z",
-            "updated_at": "2025-12-15T09:27:17.277Z"
+            "created_at": "2025-12-15T09:54:48.289Z",
+            "updated_at": "2025-12-15T09:54:48.289Z"
           },
           {
             "id": "tscircuit#1081",
@@ -410,8 +714,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:20.575Z",
-            "updated_at": "2025-12-15T09:27:20.575Z"
+            "created_at": "2025-12-15T09:54:48.515Z",
+            "updated_at": "2025-12-15T09:54:48.515Z"
           },
           {
             "id": "tscircuit#386",
@@ -420,8 +724,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:25.827Z",
-            "updated_at": "2025-12-15T09:27:25.827Z"
+            "created_at": "2025-12-15T09:54:48.867Z",
+            "updated_at": "2025-12-15T09:54:48.867Z"
           },
           {
             "id": "tscircuit#1498",
@@ -430,8 +734,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:26.197Z",
-            "updated_at": "2025-12-15T09:27:26.197Z"
+            "created_at": "2025-12-15T09:54:49.081Z",
+            "updated_at": "2025-12-15T09:54:49.081Z"
           },
           {
             "id": "tscircuit#79",
@@ -440,8 +744,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:26.487Z",
-            "updated_at": "2025-12-15T09:27:26.487Z"
+            "created_at": "2025-12-15T09:54:49.279Z",
+            "updated_at": "2025-12-15T09:54:49.279Z"
           },
           {
             "id": "tscircuit#78",
@@ -450,8 +754,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:26.669Z",
-            "updated_at": "2025-12-15T09:27:26.669Z"
+            "created_at": "2025-12-15T09:54:49.472Z",
+            "updated_at": "2025-12-15T09:54:49.472Z"
           },
           {
             "id": "tscircuit#176",
@@ -460,8 +764,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:26.797Z",
-            "updated_at": "2025-12-15T09:27:26.797Z"
+            "created_at": "2025-12-15T09:54:49.671Z",
+            "updated_at": "2025-12-15T09:54:49.671Z"
           },
           {
             "id": "tscircuit#939",
@@ -470,162 +774,44 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:27.010Z",
-            "updated_at": "2025-12-15T09:27:27.010Z"
+            "created_at": "2025-12-15T09:54:49.995Z",
+            "updated_at": "2025-12-15T09:54:49.995Z"
           }
         ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
+        "last_updated": "2025-12-15T09:55:00.030Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "Mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "Mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-15T09:27:09.624Z",
-            "updated_at": "2025-12-15T09:27:09.624Z"
+            "created_at": "2025-12-15T09:54:20.079Z",
+            "updated_at": "2025-12-15T09:54:20.079Z"
           },
           {
-            "id": "Mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-15T09:27:10.112Z",
-            "updated_at": "2025-12-15T09:27:10.112Z"
-          },
-          {
-            "id": "Mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:10.842Z",
-            "updated_at": "2025-12-15T09:27:10.842Z"
-          },
-          {
-            "id": "Mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:13.516Z",
-            "updated_at": "2025-12-15T09:27:13.516Z"
+            "created_at": "2025-12-15T09:54:24.461Z",
+            "updated_at": "2025-12-15T09:54:24.461Z"
           }
         ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-15T09:27:09.879Z",
-            "updated_at": "2025-12-15T09:27:09.879Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:10.841Z",
-            "updated_at": "2025-12-15T09:27:10.841Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:13.515Z",
-            "updated_at": "2025-12-15T09:27:13.515Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:17.242Z",
-            "updated_at": "2025-12-15T09:27:17.242Z"
-          }
-        ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-15T09:27:09.879Z",
-            "updated_at": "2025-12-15T09:27:09.879Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:10.841Z",
-            "updated_at": "2025-12-15T09:27:10.841Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-15T09:27:13.502Z",
-            "updated_at": "2025-12-15T09:27:13.502Z"
-          }
-        ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
+        "last_updated": "2025-12-15T09:55:00.030Z",
         "scrape_duration_ms": 0
       },
       {
@@ -644,8 +830,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-15T09:27:09.624Z",
-            "updated_at": "2025-12-15T09:27:09.624Z"
+            "created_at": "2025-12-15T09:54:20.107Z",
+            "updated_at": "2025-12-15T09:54:20.107Z"
           },
           {
             "id": "outerbase#72",
@@ -654,46 +840,11 @@
             "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-15T09:27:09.879Z",
-            "updated_at": "2025-12-15T09:27:09.879Z"
+            "created_at": "2025-12-15T09:54:24.552Z",
+            "updated_at": "2025-12-15T09:54:24.551Z"
           }
         ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-15T09:27:10.113Z",
-            "updated_at": "2025-12-15T09:27:10.113Z"
-          },
-          {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-15T09:27:10.915Z",
-            "updated_at": "2025-12-15T09:27:10.915Z"
-          }
-        ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
+        "last_updated": "2025-12-15T09:55:00.030Z",
         "scrape_duration_ms": 0
       },
       {
@@ -712,11 +863,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-15T09:27:09.624Z",
-            "updated_at": "2025-12-15T09:27:09.624Z"
+            "created_at": "2025-12-15T09:54:20.080Z",
+            "updated_at": "2025-12-15T09:54:20.080Z"
           }
         ],
-        "last_updated": "2025-12-15T09:27:37.013Z",
+        "last_updated": "2025-12-15T09:55:00.030Z",
         "scrape_duration_ms": 0
       }
     ]
