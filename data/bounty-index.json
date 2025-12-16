@@ -1,232 +1,320 @@
 {
-  "generated_at": "2025-12-16T22:16:32.779Z",
-  "total_organizations": 4,
-  "total_bounties": 17,
-  "total_value_usd": 1700,
+  "generated_at": "2025-12-16T22:37:08.667Z",
+  "total_organizations": 5,
+  "total_bounties": 24,
+  "total_value_usd": 2400,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "GolemCloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/golemcloud/golem/issues/2497",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-16T22:15:53.851Z",
-          "updated_at": "2025-12-16T22:15:53.851Z"
+          "created_at": "2025-12-16T22:36:21.105Z",
+          "updated_at": "2025-12-16T22:36:21.105Z"
+        },
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-16T22:36:25.272Z",
+          "updated_at": "2025-12-16T22:36:25.272Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-16T22:36:25.813Z",
+          "updated_at": "2025-12-16T22:36:25.813Z"
         }
       ],
-      "last_updated": "2025-12-16T22:16:32.779Z",
+      "last_updated": "2025-12-16T22:37:08.667Z",
       "scrape_duration_ms": 0
     },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-16T22:36:21.105Z",
+          "updated_at": "2025-12-16T22:36:21.105Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-16T22:36:22.995Z",
+          "updated_at": "2025-12-16T22:36:22.995Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-16T22:36:25.272Z",
+          "updated_at": "2025-12-16T22:36:25.272Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-16T22:36:25.813Z",
+          "updated_at": "2025-12-16T22:36:25.813Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-16T22:36:30.520Z",
+          "updated_at": "2025-12-16T22:36:30.520Z"
+        }
+      ],
+      "last_updated": "2025-12-16T22:37:08.667Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-16T22:15:53.636Z",
-          "updated_at": "2025-12-16T22:15:53.636Z"
+          "created_at": "2025-12-16T22:36:25.813Z",
+          "updated_at": "2025-12-16T22:36:25.813Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:15:54.107Z",
-          "updated_at": "2025-12-16T22:15:54.107Z"
+          "created_at": "2025-12-16T22:36:30.586Z",
+          "updated_at": "2025-12-16T22:36:30.586Z"
         }
       ],
-      "last_updated": "2025-12-16T22:16:32.779Z",
+      "last_updated": "2025-12-16T22:37:08.667Z",
       "scrape_duration_ms": 0
     },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
       "bounty_count": 4,
       "total_value_usd": 400,
       "bounties": [
         {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-16T22:16:00.840Z",
-          "updated_at": "2025-12-16T22:16:00.840Z"
+          "created_at": "2025-12-16T22:36:25.812Z",
+          "updated_at": "2025-12-16T22:36:25.812Z"
         },
         {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-16T22:16:01.004Z",
-          "updated_at": "2025-12-16T22:16:01.004Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-16T22:36:30.567Z",
+          "updated_at": "2025-12-16T22:36:30.567Z"
         },
         {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:01.169Z",
-          "updated_at": "2025-12-16T22:16:01.169Z"
+          "created_at": "2025-12-16T22:36:34.909Z",
+          "updated_at": "2025-12-16T22:36:34.909Z"
         },
         {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:01.359Z",
-          "updated_at": "2025-12-16T22:16:01.359Z"
+          "created_at": "2025-12-16T22:36:37.609Z",
+          "updated_at": "2025-12-16T22:36:37.609Z"
         }
       ],
-      "last_updated": "2025-12-16T22:16:32.779Z",
+      "last_updated": "2025-12-16T22:37:08.667Z",
       "scrape_duration_ms": 0
     },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
+          "id": "cal#23104",
+          "title": "Local dev crazy slow",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "url": "https://github.com/calcom/cal.com/issues/23104",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-16T22:15:53.851Z",
-          "updated_at": "2025-12-16T22:15:53.851Z"
+          "created_at": "2025-12-16T22:36:43.864Z",
+          "updated_at": "2025-12-16T22:36:43.864Z"
         },
         {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:15:54.557Z",
-          "updated_at": "2025-12-16T22:15:54.557Z"
+          "created_at": "2025-12-16T22:36:44.008Z",
+          "updated_at": "2025-12-16T22:36:44.008Z"
         },
         {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:15:55.099Z",
-          "updated_at": "2025-12-16T22:15:55.099Z"
+          "created_at": "2025-12-16T22:36:44.194Z",
+          "updated_at": "2025-12-16T22:36:44.194Z"
         },
         {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:15:57.288Z",
-          "updated_at": "2025-12-16T22:15:57.288Z"
+          "created_at": "2025-12-16T22:36:44.318Z",
+          "updated_at": "2025-12-16T22:36:44.318Z"
         },
         {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:00.419Z",
-          "updated_at": "2025-12-16T22:16:00.418Z"
+          "created_at": "2025-12-16T22:36:44.462Z",
+          "updated_at": "2025-12-16T22:36:44.462Z"
         },
         {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
+          "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:00.709Z",
-          "updated_at": "2025-12-16T22:16:00.709Z"
+          "created_at": "2025-12-16T22:36:44.580Z",
+          "updated_at": "2025-12-16T22:36:44.580Z"
         },
         {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:00.941Z",
-          "updated_at": "2025-12-16T22:16:00.941Z"
+          "created_at": "2025-12-16T22:36:44.742Z",
+          "updated_at": "2025-12-16T22:36:44.742Z"
         },
         {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:01.067Z",
-          "updated_at": "2025-12-16T22:16:01.067Z"
+          "created_at": "2025-12-16T22:36:44.876Z",
+          "updated_at": "2025-12-16T22:36:44.876Z"
         },
         {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:01.248Z",
-          "updated_at": "2025-12-16T22:16:01.248Z"
+          "created_at": "2025-12-16T22:36:45.029Z",
+          "updated_at": "2025-12-16T22:36:45.029Z"
         },
         {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-16T22:16:01.840Z",
-          "updated_at": "2025-12-16T22:16:01.840Z"
+          "created_at": "2025-12-16T22:36:45.207Z",
+          "updated_at": "2025-12-16T22:36:45.207Z"
         }
       ],
-      "last_updated": "2025-12-16T22:16:32.779Z",
+      "last_updated": "2025-12-16T22:37:08.667Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 109180,
+    "processing_time_ms": 124127,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -235,225 +323,314 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "cal#23104",
+            "title": "Local dev crazy slow",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/calcom/cal.com/issues/23104",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-16T22:15:53.851Z",
-            "updated_at": "2025-12-16T22:15:53.851Z"
+            "created_at": "2025-12-16T22:36:43.864Z",
+            "updated_at": "2025-12-16T22:36:43.864Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:15:54.557Z",
-            "updated_at": "2025-12-16T22:15:54.557Z"
+            "created_at": "2025-12-16T22:36:44.008Z",
+            "updated_at": "2025-12-16T22:36:44.008Z"
           },
           {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:15:55.099Z",
-            "updated_at": "2025-12-16T22:15:55.099Z"
+            "created_at": "2025-12-16T22:36:44.194Z",
+            "updated_at": "2025-12-16T22:36:44.194Z"
           },
           {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:15:57.288Z",
-            "updated_at": "2025-12-16T22:15:57.288Z"
+            "created_at": "2025-12-16T22:36:44.318Z",
+            "updated_at": "2025-12-16T22:36:44.318Z"
           },
           {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:00.419Z",
-            "updated_at": "2025-12-16T22:16:00.418Z"
+            "created_at": "2025-12-16T22:36:44.462Z",
+            "updated_at": "2025-12-16T22:36:44.462Z"
           },
           {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
+            "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:00.709Z",
-            "updated_at": "2025-12-16T22:16:00.709Z"
+            "created_at": "2025-12-16T22:36:44.580Z",
+            "updated_at": "2025-12-16T22:36:44.580Z"
           },
           {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:00.941Z",
-            "updated_at": "2025-12-16T22:16:00.941Z"
+            "created_at": "2025-12-16T22:36:44.742Z",
+            "updated_at": "2025-12-16T22:36:44.742Z"
           },
           {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:01.067Z",
-            "updated_at": "2025-12-16T22:16:01.067Z"
+            "created_at": "2025-12-16T22:36:44.876Z",
+            "updated_at": "2025-12-16T22:36:44.876Z"
           },
           {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+            "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:01.248Z",
-            "updated_at": "2025-12-16T22:16:01.248Z"
+            "created_at": "2025-12-16T22:36:45.029Z",
+            "updated_at": "2025-12-16T22:36:45.029Z"
           },
           {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:01.840Z",
-            "updated_at": "2025-12-16T22:16:01.840Z"
+            "created_at": "2025-12-16T22:36:45.207Z",
+            "updated_at": "2025-12-16T22:36:45.207Z"
           }
         ],
-        "last_updated": "2025-12-16T22:16:32.779Z",
+        "last_updated": "2025-12-16T22:37:08.667Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3960",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-16T22:36:21.105Z",
+            "updated_at": "2025-12-16T22:36:21.105Z"
+          },
+          {
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3526",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-16T22:36:22.995Z",
+            "updated_at": "2025-12-16T22:36:22.995Z"
+          },
+          {
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3376",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-16T22:36:25.272Z",
+            "updated_at": "2025-12-16T22:36:25.272Z"
+          },
+          {
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3379",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-16T22:36:25.813Z",
+            "updated_at": "2025-12-16T22:36:25.813Z"
+          },
+          {
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/2112",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-16T22:36:30.520Z",
+            "updated_at": "2025-12-16T22:36:30.520Z"
+          }
+        ],
+        "last_updated": "2025-12-16T22:37:08.667Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-16T22:16:00.840Z",
-            "updated_at": "2025-12-16T22:16:00.840Z"
+            "created_at": "2025-12-16T22:36:25.812Z",
+            "updated_at": "2025-12-16T22:36:25.812Z"
           },
           {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-16T22:16:01.004Z",
-            "updated_at": "2025-12-16T22:16:01.004Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-16T22:36:30.567Z",
+            "updated_at": "2025-12-16T22:36:30.567Z"
           },
           {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:01.169Z",
-            "updated_at": "2025-12-16T22:16:01.169Z"
+            "created_at": "2025-12-16T22:36:34.909Z",
+            "updated_at": "2025-12-16T22:36:34.909Z"
           },
           {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:16:01.359Z",
-            "updated_at": "2025-12-16T22:16:01.359Z"
+            "created_at": "2025-12-16T22:36:37.609Z",
+            "updated_at": "2025-12-16T22:36:37.609Z"
           }
         ],
-        "last_updated": "2025-12-16T22:16:32.779Z",
+        "last_updated": "2025-12-16T22:37:08.667Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "GolemCloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/2497",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-16T22:36:21.105Z",
+            "updated_at": "2025-12-16T22:36:21.105Z"
+          },
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-16T22:36:25.272Z",
+            "updated_at": "2025-12-16T22:36:25.272Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-16T22:36:25.813Z",
+            "updated_at": "2025-12-16T22:36:25.813Z"
+          }
+        ],
+        "last_updated": "2025-12-16T22:37:08.667Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-16T22:15:53.636Z",
-            "updated_at": "2025-12-16T22:15:53.636Z"
+            "created_at": "2025-12-16T22:36:25.813Z",
+            "updated_at": "2025-12-16T22:36:25.813Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-16T22:15:54.107Z",
-            "updated_at": "2025-12-16T22:15:54.107Z"
+            "created_at": "2025-12-16T22:36:30.586Z",
+            "updated_at": "2025-12-16T22:36:30.586Z"
           }
         ],
-        "last_updated": "2025-12-16T22:16:32.779Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
-            "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-16T22:15:53.851Z",
-            "updated_at": "2025-12-16T22:15:53.851Z"
-          }
-        ],
-        "last_updated": "2025-12-16T22:16:32.779Z",
+        "last_updated": "2025-12-16T22:37:08.667Z",
         "scrape_duration_ms": 0
       }
     ]
