@@ -1,478 +1,64 @@
 {
-  "generated_at": "2025-12-17T17:47:31.448Z",
-  "total_organizations": 8,
-  "total_bounties": 41,
-  "total_value_usd": 4100,
+  "generated_at": "2025-12-17T17:57:31.899Z",
+  "total_organizations": 7,
+  "total_bounties": 27,
+  "total_value_usd": 2700,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T17:46:58.169Z",
-          "updated_at": "2025-12-17T17:46:58.169Z"
+          "created_at": "2025-12-17T17:56:50.061Z",
+          "updated_at": "2025-12-17T17:56:50.061Z"
         }
       ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
+      "last_updated": "2025-12-17T17:57:31.899Z",
       "scrape_duration_ms": 0
     },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:46.999Z",
-          "updated_at": "2025-12-17T17:46:46.999Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:47.321Z",
-          "updated_at": "2025-12-17T17:46:47.321Z"
-        },
-        {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:47.771Z",
-          "updated_at": "2025-12-17T17:46:47.771Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:48.333Z",
-          "updated_at": "2025-12-17T17:46:48.333Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:49.048Z",
-          "updated_at": "2025-12-17T17:46:49.048Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:52.902Z",
-          "updated_at": "2025-12-17T17:46:52.902Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:56.678Z",
-          "updated_at": "2025-12-17T17:46:56.678Z"
-        },
-        {
-          "id": "zio#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:57.718Z",
-          "updated_at": "2025-12-17T17:46:57.718Z"
-        },
-        {
-          "id": "zio#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:58.169Z",
-          "updated_at": "2025-12-17T17:46:58.169Z"
-        },
-        {
-          "id": "zio#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:58.417Z",
-          "updated_at": "2025-12-17T17:46:58.417Z"
-        }
-      ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
-      "scrape_duration_ms": 0
-    },
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T17:46:58.604Z",
-          "updated_at": "2025-12-17T17:46:58.604Z"
+          "created_at": "2025-12-17T17:56:50.060Z",
+          "updated_at": "2025-12-17T17:56:50.060Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.089Z",
-          "updated_at": "2025-12-17T17:46:59.089Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:56:51.491Z",
+          "updated_at": "2025-12-17T17:56:51.491Z"
         }
       ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
-      "scrape_duration_ms": 0
-    },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
-          "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:59.090Z",
-          "updated_at": "2025-12-17T17:46:59.090Z"
-        }
-      ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:58.417Z",
-          "updated_at": "2025-12-17T17:46:58.417Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:59.060Z",
-          "updated_at": "2025-12-17T17:46:59.060Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.831Z",
-          "updated_at": "2025-12-17T17:46:59.831Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:00.925Z",
-          "updated_at": "2025-12-17T17:47:00.925Z"
-        }
-      ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:58.273Z",
-          "updated_at": "2025-12-17T17:46:58.273Z"
-        },
-        {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:58.417Z",
-          "updated_at": "2025-12-17T17:46:58.417Z"
-        },
-        {
-          "id": "ZIO#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:58.790Z",
-          "updated_at": "2025-12-17T17:46:58.790Z"
-        },
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.122Z",
-          "updated_at": "2025-12-17T17:46:59.122Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.831Z",
-          "updated_at": "2025-12-17T17:46:59.831Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:00.925Z",
-          "updated_at": "2025-12-17T17:47:00.925Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:02.463Z",
-          "updated_at": "2025-12-17T17:47:02.463Z"
-        },
-        {
-          "id": "ZIO#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:03.776Z",
-          "updated_at": "2025-12-17T17:47:03.776Z"
-        },
-        {
-          "id": "ZIO#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:07.059Z",
-          "updated_at": "2025-12-17T17:47:07.059Z"
-        },
-        {
-          "id": "ZIO#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:09.519Z",
-          "updated_at": "2025-12-17T17:47:09.519Z"
-        }
-      ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "projectdiscovery#14392",
-          "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T17:46:58.605Z",
-          "updated_at": "2025-12-17T17:46:58.605Z"
-        },
-        {
-          "id": "projectdiscovery#14382",
-          "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.061Z",
-          "updated_at": "2025-12-17T17:46:59.061Z"
-        },
-        {
-          "id": "projectdiscovery#14310",
-          "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:46:59.832Z",
-          "updated_at": "2025-12-17T17:46:59.832Z"
-        },
-        {
-          "id": "projectdiscovery#14297",
-          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:00.989Z",
-          "updated_at": "2025-12-17T17:47:00.989Z"
-        },
-        {
-          "id": "projectdiscovery#14278",
-          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:02.463Z",
-          "updated_at": "2025-12-17T17:47:02.463Z"
-        },
-        {
-          "id": "projectdiscovery#14236",
-          "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:03.776Z",
-          "updated_at": "2025-12-17T17:47:03.776Z"
-        },
-        {
-          "id": "projectdiscovery#1471",
-          "title": "release katana v1.3.0",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:07.060Z",
-          "updated_at": "2025-12-17T17:47:07.060Z"
-        },
-        {
-          "id": "projectdiscovery#14152",
-          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:09.519Z",
-          "updated_at": "2025-12-17T17:47:09.519Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:09.965Z",
-          "updated_at": "2025-12-17T17:47:09.965Z"
-        },
-        {
-          "id": "projectdiscovery#14092",
-          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T17:47:10.560Z",
-          "updated_at": "2025-12-17T17:47:10.560Z"
-        }
-      ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
+      "last_updated": "2025-12-17T17:57:31.899Z",
       "scrape_duration_ms": 0
     },
     "golemcloud": {
@@ -490,8 +76,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T17:47:20.837Z",
-          "updated_at": "2025-12-17T17:47:20.837Z"
+          "created_at": "2025-12-17T17:56:49.066Z",
+          "updated_at": "2025-12-17T17:56:49.066Z"
         },
         {
           "id": "golemcloud#275",
@@ -502,8 +88,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T17:47:21.193Z",
-          "updated_at": "2025-12-17T17:47:21.193Z"
+          "created_at": "2025-12-17T17:56:51.565Z",
+          "updated_at": "2025-12-17T17:56:51.565Z"
         },
         {
           "id": "golemcloud#23",
@@ -514,17 +100,277 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T17:47:21.446Z",
-          "updated_at": "2025-12-17T17:47:21.446Z"
+          "created_at": "2025-12-17T17:56:52.244Z",
+          "updated_at": "2025-12-17T17:56:52.244Z"
         }
       ],
-      "last_updated": "2025-12-17T17:47:31.448Z",
+      "last_updated": "2025-12-17T17:57:31.899Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:56:50.120Z",
+          "updated_at": "2025-12-17T17:56:50.120Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:56:51.564Z",
+          "updated_at": "2025-12-17T17:56:51.564Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:56:52.264Z",
+          "updated_at": "2025-12-17T17:56:52.264Z"
+        }
+      ],
+      "last_updated": "2025-12-17T17:57:31.899Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:56:50.121Z",
+          "updated_at": "2025-12-17T17:56:50.121Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:56:51.491Z",
+          "updated_at": "2025-12-17T17:56:51.491Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:56:52.244Z",
+          "updated_at": "2025-12-17T17:56:52.244Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:56:52.763Z",
+          "updated_at": "2025-12-17T17:56:52.763Z"
+        }
+      ],
+      "last_updated": "2025-12-17T17:57:31.899Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:57:15.328Z",
+          "updated_at": "2025-12-17T17:57:15.328Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:57:15.472Z",
+          "updated_at": "2025-12-17T17:57:15.472Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:15.650Z",
+          "updated_at": "2025-12-17T17:57:15.650Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:15.789Z",
+          "updated_at": "2025-12-17T17:57:15.789Z"
+        }
+      ],
+      "last_updated": "2025-12-17T17:57:31.899Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T17:57:20.288Z",
+          "updated_at": "2025-12-17T17:57:20.288Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:20.505Z",
+          "updated_at": "2025-12-17T17:57:20.505Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:20.602Z",
+          "updated_at": "2025-12-17T17:57:20.602Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:20.817Z",
+          "updated_at": "2025-12-17T17:57:20.817Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.071Z",
+          "updated_at": "2025-12-17T17:57:21.071Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.204Z",
+          "updated_at": "2025-12-17T17:57:21.204Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.343Z",
+          "updated_at": "2025-12-17T17:57:21.343Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.471Z",
+          "updated_at": "2025-12-17T17:57:21.471Z"
+        },
+        {
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.627Z",
+          "updated_at": "2025-12-17T17:57:21.627Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T17:57:21.897Z",
+          "updated_at": "2025-12-17T17:57:21.897Z"
+        }
+      ],
+      "last_updated": "2025-12-17T17:57:31.899Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 116435,
+    "processing_time_ms": 120924,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -533,357 +379,180 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:46.999Z",
-            "updated_at": "2025-12-17T17:46:46.999Z"
+            "created_at": "2025-12-17T17:57:20.288Z",
+            "updated_at": "2025-12-17T17:57:20.288Z"
           },
           {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-17T17:46:47.321Z",
-            "updated_at": "2025-12-17T17:46:47.321Z"
-          },
-          {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:47.771Z",
-            "updated_at": "2025-12-17T17:46:47.771Z"
+            "created_at": "2025-12-17T17:57:20.505Z",
+            "updated_at": "2025-12-17T17:57:20.505Z"
           },
           {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:48.333Z",
-            "updated_at": "2025-12-17T17:46:48.333Z"
+            "created_at": "2025-12-17T17:57:20.602Z",
+            "updated_at": "2025-12-17T17:57:20.602Z"
           },
           {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:49.048Z",
-            "updated_at": "2025-12-17T17:46:49.048Z"
+            "created_at": "2025-12-17T17:57:20.817Z",
+            "updated_at": "2025-12-17T17:57:20.817Z"
           },
           {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:52.902Z",
-            "updated_at": "2025-12-17T17:46:52.902Z"
+            "created_at": "2025-12-17T17:57:21.071Z",
+            "updated_at": "2025-12-17T17:57:21.071Z"
           },
           {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:56.678Z",
-            "updated_at": "2025-12-17T17:46:56.678Z"
+            "created_at": "2025-12-17T17:57:21.204Z",
+            "updated_at": "2025-12-17T17:57:21.204Z"
           },
           {
-            "id": "zio#9844",
-            "title": "improved `Queue` shutdown functionality",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:57.718Z",
-            "updated_at": "2025-12-17T17:46:57.718Z"
+            "created_at": "2025-12-17T17:57:21.343Z",
+            "updated_at": "2025-12-17T17:57:21.343Z"
           },
           {
-            "id": "zio#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:58.169Z",
-            "updated_at": "2025-12-17T17:46:58.169Z"
+            "created_at": "2025-12-17T17:57:21.471Z",
+            "updated_at": "2025-12-17T17:57:21.471Z"
           },
           {
-            "id": "zio#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:58.417Z",
-            "updated_at": "2025-12-17T17:46:58.417Z"
+            "created_at": "2025-12-17T17:57:21.627Z",
+            "updated_at": "2025-12-17T17:57:21.627Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:57:21.897Z",
+            "updated_at": "2025-12-17T17:57:21.897Z"
           }
         ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
+        "last_updated": "2025-12-17T17:57:31.899Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-17T17:46:58.273Z",
-            "updated_at": "2025-12-17T17:46:58.273Z"
-          },
-          {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-17T17:46:58.417Z",
-            "updated_at": "2025-12-17T17:46:58.417Z"
-          },
-          {
-            "id": "ZIO#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:58.790Z",
-            "updated_at": "2025-12-17T17:46:58.790Z"
-          },
-          {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:59.122Z",
-            "updated_at": "2025-12-17T17:46:59.122Z"
-          },
-          {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:59.831Z",
-            "updated_at": "2025-12-17T17:46:59.831Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:00.925Z",
-            "updated_at": "2025-12-17T17:47:00.925Z"
-          },
-          {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:02.463Z",
-            "updated_at": "2025-12-17T17:47:02.463Z"
-          },
-          {
-            "id": "ZIO#9844",
-            "title": "improved `Queue` shutdown functionality",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:03.776Z",
-            "updated_at": "2025-12-17T17:47:03.776Z"
-          },
-          {
-            "id": "ZIO#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:07.059Z",
-            "updated_at": "2025-12-17T17:47:07.059Z"
-          },
-          {
-            "id": "ZIO#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:09.519Z",
-            "updated_at": "2025-12-17T17:47:09.519Z"
-          }
-        ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "projectdiscovery#14392",
-            "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-17T17:46:58.605Z",
-            "updated_at": "2025-12-17T17:46:58.605Z"
-          },
-          {
-            "id": "projectdiscovery#14382",
-            "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:59.061Z",
-            "updated_at": "2025-12-17T17:46:59.061Z"
-          },
-          {
-            "id": "projectdiscovery#14310",
-            "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:59.832Z",
-            "updated_at": "2025-12-17T17:46:59.832Z"
-          },
-          {
-            "id": "projectdiscovery#14297",
-            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:00.989Z",
-            "updated_at": "2025-12-17T17:47:00.989Z"
-          },
-          {
-            "id": "projectdiscovery#14278",
-            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:02.463Z",
-            "updated_at": "2025-12-17T17:47:02.463Z"
-          },
-          {
-            "id": "projectdiscovery#14236",
-            "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:03.776Z",
-            "updated_at": "2025-12-17T17:47:03.776Z"
-          },
-          {
-            "id": "projectdiscovery#1471",
-            "title": "release katana v1.3.0",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:07.060Z",
-            "updated_at": "2025-12-17T17:47:07.060Z"
-          },
-          {
-            "id": "projectdiscovery#14152",
-            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:09.519Z",
-            "updated_at": "2025-12-17T17:47:09.519Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:09.965Z",
-            "updated_at": "2025-12-17T17:47:09.965Z"
-          },
-          {
-            "id": "projectdiscovery#14092",
-            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:47:10.560Z",
-            "updated_at": "2025-12-17T17:47:10.560Z"
-          }
-        ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "mudlet#8030",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8635",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T17:56:50.121Z",
+            "updated_at": "2025-12-17T17:56:50.121Z"
+          },
+          {
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8614",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:56:51.491Z",
+            "updated_at": "2025-12-17T17:56:51.491Z"
+          },
+          {
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8032",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:56:52.244Z",
+            "updated_at": "2025-12-17T17:56:52.244Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:56:52.763Z",
+            "updated_at": "2025-12-17T17:56:52.763Z"
+          }
+        ],
+        "last_updated": "2025-12-17T17:57:31.899Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "Mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -891,11 +560,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:58.417Z",
-            "updated_at": "2025-12-17T17:46:58.417Z"
+            "created_at": "2025-12-17T17:57:15.328Z",
+            "updated_at": "2025-12-17T17:57:15.328Z"
           },
           {
-            "id": "mudlet#3172",
+            "id": "Mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -903,31 +572,31 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:59.060Z",
-            "updated_at": "2025-12-17T17:46:59.060Z"
+            "created_at": "2025-12-17T17:57:15.472Z",
+            "updated_at": "2025-12-17T17:57:15.472Z"
           },
           {
-            "id": "mudlet#689",
+            "id": "Mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:46:59.831Z",
-            "updated_at": "2025-12-17T17:46:59.831Z"
+            "created_at": "2025-12-17T17:57:15.650Z",
+            "updated_at": "2025-12-17T17:57:15.650Z"
           },
           {
-            "id": "mudlet#5310",
+            "id": "Mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T17:47:00.925Z",
-            "updated_at": "2025-12-17T17:47:00.925Z"
+            "created_at": "2025-12-17T17:57:15.789Z",
+            "updated_at": "2025-12-17T17:57:15.789Z"
           }
         ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
+        "last_updated": "2025-12-17T17:57:31.899Z",
         "scrape_duration_ms": 0
       },
       {
@@ -946,8 +615,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:47:20.837Z",
-            "updated_at": "2025-12-17T17:47:20.837Z"
+            "created_at": "2025-12-17T17:56:49.066Z",
+            "updated_at": "2025-12-17T17:56:49.066Z"
           },
           {
             "id": "golemcloud#275",
@@ -958,8 +627,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:47:21.193Z",
-            "updated_at": "2025-12-17T17:47:21.193Z"
+            "created_at": "2025-12-17T17:56:51.565Z",
+            "updated_at": "2025-12-17T17:56:51.565Z"
           },
           {
             "id": "golemcloud#23",
@@ -970,90 +639,112 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:47:21.446Z",
-            "updated_at": "2025-12-17T17:47:21.446Z"
+            "created_at": "2025-12-17T17:56:52.244Z",
+            "updated_at": "2025-12-17T17:56:52.244Z"
           }
         ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
+        "last_updated": "2025-12-17T17:57:31.899Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T17:56:50.120Z",
+            "updated_at": "2025-12-17T17:56:50.120Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:56:51.564Z",
+            "updated_at": "2025-12-17T17:56:51.564Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T17:56:52.264Z",
+            "updated_at": "2025-12-17T17:56:52.264Z"
+          }
+        ],
+        "last_updated": "2025-12-17T17:57:31.899Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:58.604Z",
-            "updated_at": "2025-12-17T17:46:58.604Z"
+            "created_at": "2025-12-17T17:56:50.060Z",
+            "updated_at": "2025-12-17T17:56:50.060Z"
           },
           {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T17:46:59.089Z",
-            "updated_at": "2025-12-17T17:46:59.089Z"
-          }
-        ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-            "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:58.169Z",
-            "updated_at": "2025-12-17T17:46:58.169Z"
+            "created_at": "2025-12-17T17:56:51.491Z",
+            "updated_at": "2025-12-17T17:56:51.491Z"
           }
         ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
+        "last_updated": "2025-12-17T17:57:31.899Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T17:46:59.090Z",
-            "updated_at": "2025-12-17T17:46:59.090Z"
+            "created_at": "2025-12-17T17:56:50.061Z",
+            "updated_at": "2025-12-17T17:56:50.061Z"
           }
         ],
-        "last_updated": "2025-12-17T17:47:31.448Z",
+        "last_updated": "2025-12-17T17:57:31.899Z",
         "scrape_duration_ms": 0
       }
     ]
