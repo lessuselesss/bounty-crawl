@@ -1,154 +1,62 @@
 {
-  "generated_at": "2025-12-17T12:33:02.009Z",
-  "total_organizations": 4,
-  "total_bounties": 24,
-  "total_value_usd": 2400,
+  "generated_at": "2025-12-17T13:22:14.192Z",
+  "total_organizations": 7,
+  "total_bounties": 29,
+  "total_value_usd": 2900,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T13:21:34.382Z",
+          "updated_at": "2025-12-17T13:21:34.382Z"
+        }
+      ],
+      "last_updated": "2025-12-17T13:22:14.192Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T12:31:53.395Z",
-          "updated_at": "2025-12-17T12:31:53.395Z"
+          "created_at": "2025-12-17T13:21:34.382Z",
+          "updated_at": "2025-12-17T13:21:34.382Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T12:31:53.739Z",
-          "updated_at": "2025-12-17T12:31:53.739Z"
+          "tags": [],
+          "created_at": "2025-12-17T13:21:34.728Z",
+          "updated_at": "2025-12-17T13:21:34.728Z"
         }
       ],
-      "last_updated": "2025-12-17T12:33:02.008Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-17T12:31:53.396Z",
-          "updated_at": "2025-12-17T12:31:53.396Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:31:53.739Z",
-          "updated_at": "2025-12-17T12:31:53.739Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:31:54.812Z",
-          "updated_at": "2025-12-17T12:31:54.812Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:31:56.296Z",
-          "updated_at": "2025-12-17T12:31:56.296Z"
-        },
-        {
-          "id": "ZIO#9844",
-          "title": "improved `Queue` shutdown functionality",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:31:57.423Z",
-          "updated_at": "2025-12-17T12:31:57.423Z"
-        },
-        {
-          "id": "ZIO#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:00.015Z",
-          "updated_at": "2025-12-17T12:32:00.015Z"
-        },
-        {
-          "id": "ZIO#9877",
-          "title": "Can Fiber(Runtime) and Promise be merged?",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9877",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:03.604Z",
-          "updated_at": "2025-12-17T12:32:03.604Z"
-        },
-        {
-          "id": "ZIO#9874",
-          "title": "Handling errors allows recovering from defects",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9874",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:07.508Z",
-          "updated_at": "2025-12-17T12:32:07.508Z"
-        },
-        {
-          "id": "ZIO#9681",
-          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:11.528Z",
-          "updated_at": "2025-12-17T12:32:11.528Z"
-        },
-        {
-          "id": "ZIO#9922",
-          "title": "Add tests for `ZStreamAspect`",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9922",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:13.331Z",
-          "updated_at": "2025-12-17T12:32:13.331Z"
-        }
-      ],
-      "last_updated": "2025-12-17T12:33:02.008Z",
+      "last_updated": "2025-12-17T13:22:14.192Z",
       "scrape_duration_ms": 0
     },
     "outerbase": {
@@ -166,8 +74,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T12:32:35.020Z",
-          "updated_at": "2025-12-17T12:32:35.020Z"
+          "created_at": "2025-12-17T13:21:34.382Z",
+          "updated_at": "2025-12-17T13:21:34.382Z"
         },
         {
           "id": "outerbase#72",
@@ -176,129 +84,307 @@
           "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-17T12:32:35.326Z",
-          "updated_at": "2025-12-17T12:32:35.326Z"
+          "created_at": "2025-12-17T13:21:34.728Z",
+          "updated_at": "2025-12-17T13:21:34.728Z"
         }
       ],
-      "last_updated": "2025-12-17T12:33:02.008Z",
+      "last_updated": "2025-12-17T13:22:14.192Z",
       "scrape_duration_ms": 0
     },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "cal#23104",
-          "title": "Local dev crazy slow",
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-17T12:32:35.037Z",
-          "updated_at": "2025-12-17T12:32:35.037Z"
-        },
-        {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:35.305Z",
-          "updated_at": "2025-12-17T12:32:35.305Z"
-        },
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:35.581Z",
-          "updated_at": "2025-12-17T12:32:35.581Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:35.827Z",
-          "updated_at": "2025-12-17T12:32:35.827Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:36.080Z",
-          "updated_at": "2025-12-17T12:32:36.080Z"
-        },
-        {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:36.312Z",
-          "updated_at": "2025-12-17T12:32:36.312Z"
-        },
-        {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:36.584Z",
-          "updated_at": "2025-12-17T12:32:36.584Z"
-        },
-        {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:36.796Z",
-          "updated_at": "2025-12-17T12:32:36.796Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:37.054Z",
-          "updated_at": "2025-12-17T12:32:37.054Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-17T12:32:37.381Z",
-          "updated_at": "2025-12-17T12:32:37.381Z"
+          "created_at": "2025-12-17T13:21:36.900Z",
+          "updated_at": "2025-12-17T13:21:36.900Z"
         }
       ],
-      "last_updated": "2025-12-17T12:33:02.008Z",
+      "last_updated": "2025-12-17T13:22:14.192Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T13:21:36.244Z",
+          "updated_at": "2025-12-17T13:21:36.244Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:37.482Z",
+          "updated_at": "2025-12-17T13:21:37.482Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:38.591Z",
+          "updated_at": "2025-12-17T13:21:38.591Z"
+        }
+      ],
+      "last_updated": "2025-12-17T13:22:14.192Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T13:21:35.624Z",
+          "updated_at": "2025-12-17T13:21:35.624Z"
+        },
+        {
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T13:21:36.899Z",
+          "updated_at": "2025-12-17T13:21:36.899Z"
+        },
+        {
+          "id": "coollabsio#7529",
+          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7529",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:38.590Z",
+          "updated_at": "2025-12-17T13:21:38.590Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:40.005Z",
+          "updated_at": "2025-12-17T13:21:40.005Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:43.435Z",
+          "updated_at": "2025-12-17T13:21:43.435Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:47.870Z",
+          "updated_at": "2025-12-17T13:21:47.870Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:50.536Z",
+          "updated_at": "2025-12-17T13:21:50.536Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:53.859Z",
+          "updated_at": "2025-12-17T13:21:53.859Z"
+        },
+        {
+          "id": "coollabsio#7110",
+          "title": "[Enhancement]: Update Clickhouse template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7110",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:54.273Z",
+          "updated_at": "2025-12-17T13:21:54.273Z"
+        },
+        {
+          "id": "coollabsio#6894",
+          "title": "[Enhancement]: Project-specific members",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:54.651Z",
+          "updated_at": "2025-12-17T13:21:54.651Z"
+        }
+      ],
+      "last_updated": "2025-12-17T13:22:14.192Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "projectdiscovery#14392",
+          "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-17T13:21:37.483Z",
+          "updated_at": "2025-12-17T13:21:37.483Z"
+        },
+        {
+          "id": "projectdiscovery#14382",
+          "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:38.591Z",
+          "updated_at": "2025-12-17T13:21:38.591Z"
+        },
+        {
+          "id": "projectdiscovery#14310",
+          "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:40.006Z",
+          "updated_at": "2025-12-17T13:21:40.006Z"
+        },
+        {
+          "id": "projectdiscovery#14297",
+          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:43.434Z",
+          "updated_at": "2025-12-17T13:21:43.434Z"
+        },
+        {
+          "id": "projectdiscovery#14278",
+          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:47.871Z",
+          "updated_at": "2025-12-17T13:21:47.871Z"
+        },
+        {
+          "id": "projectdiscovery#14236",
+          "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:50.537Z",
+          "updated_at": "2025-12-17T13:21:50.537Z"
+        },
+        {
+          "id": "projectdiscovery#1471",
+          "title": "release katana v1.3.0",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/katana/issues/1471",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:53.859Z",
+          "updated_at": "2025-12-17T13:21:53.859Z"
+        },
+        {
+          "id": "projectdiscovery#14152",
+          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:54.273Z",
+          "updated_at": "2025-12-17T13:21:54.273Z"
+        },
+        {
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:54.652Z",
+          "updated_at": "2025-12-17T13:21:54.652Z"
+        },
+        {
+          "id": "projectdiscovery#14092",
+          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-17T13:21:54.880Z",
+          "updated_at": "2025-12-17T13:21:54.880Z"
+        }
+      ],
+      "last_updated": "2025-12-17T13:22:14.192Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 136314,
+    "processing_time_ms": 117462,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -307,264 +393,307 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T12:31:53.396Z",
-            "updated_at": "2025-12-17T12:31:53.396Z"
+            "created_at": "2025-12-17T13:21:35.624Z",
+            "updated_at": "2025-12-17T13:21:35.624Z"
           },
           {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-17T12:31:53.739Z",
-            "updated_at": "2025-12-17T12:31:53.739Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T13:21:36.899Z",
+            "updated_at": "2025-12-17T13:21:36.899Z"
           },
           {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
+            "id": "coollabsio#7529",
+            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/coollabsio/coolify/issues/7529",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:31:54.812Z",
-            "updated_at": "2025-12-17T12:31:54.812Z"
+            "created_at": "2025-12-17T13:21:38.590Z",
+            "updated_at": "2025-12-17T13:21:38.590Z"
           },
           {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:31:56.296Z",
-            "updated_at": "2025-12-17T12:31:56.296Z"
+            "created_at": "2025-12-17T13:21:40.005Z",
+            "updated_at": "2025-12-17T13:21:40.005Z"
           },
           {
-            "id": "ZIO#9844",
-            "title": "improved `Queue` shutdown functionality",
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:31:57.423Z",
-            "updated_at": "2025-12-17T12:31:57.423Z"
+            "created_at": "2025-12-17T13:21:43.435Z",
+            "updated_at": "2025-12-17T13:21:43.435Z"
           },
           {
-            "id": "ZIO#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:00.015Z",
-            "updated_at": "2025-12-17T12:32:00.015Z"
+            "created_at": "2025-12-17T13:21:47.870Z",
+            "updated_at": "2025-12-17T13:21:47.870Z"
           },
           {
-            "id": "ZIO#9877",
-            "title": "Can Fiber(Runtime) and Promise be merged?",
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9877",
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:03.604Z",
-            "updated_at": "2025-12-17T12:32:03.604Z"
+            "created_at": "2025-12-17T13:21:50.536Z",
+            "updated_at": "2025-12-17T13:21:50.536Z"
           },
           {
-            "id": "ZIO#9874",
-            "title": "Handling errors allows recovering from defects",
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9874",
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:07.508Z",
-            "updated_at": "2025-12-17T12:32:07.508Z"
+            "created_at": "2025-12-17T13:21:53.859Z",
+            "updated_at": "2025-12-17T13:21:53.859Z"
           },
           {
-            "id": "ZIO#9681",
-            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "id": "coollabsio#7110",
+            "title": "[Enhancement]: Update Clickhouse template",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9681",
+            "url": "https://github.com/coollabsio/coolify/issues/7110",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:11.528Z",
-            "updated_at": "2025-12-17T12:32:11.528Z"
+            "created_at": "2025-12-17T13:21:54.273Z",
+            "updated_at": "2025-12-17T13:21:54.273Z"
           },
           {
-            "id": "ZIO#9922",
-            "title": "Add tests for `ZStreamAspect`",
+            "id": "coollabsio#6894",
+            "title": "[Enhancement]: Project-specific members",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9922",
+            "url": "https://github.com/coollabsio/coolify/issues/6894",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:13.331Z",
-            "updated_at": "2025-12-17T12:32:13.331Z"
+            "created_at": "2025-12-17T13:21:54.651Z",
+            "updated_at": "2025-12-17T13:21:54.651Z"
           }
         ],
-        "last_updated": "2025-12-17T12:33:02.008Z",
+        "last_updated": "2025-12-17T13:22:14.192Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#23104",
-            "title": "Local dev crazy slow",
+            "id": "projectdiscovery#14392",
+            "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T12:32:35.037Z",
-            "updated_at": "2025-12-17T12:32:35.037Z"
+            "created_at": "2025-12-17T13:21:37.483Z",
+            "updated_at": "2025-12-17T13:21:37.483Z"
           },
           {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "id": "projectdiscovery#14382",
+            "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:35.305Z",
-            "updated_at": "2025-12-17T12:32:35.305Z"
+            "created_at": "2025-12-17T13:21:38.591Z",
+            "updated_at": "2025-12-17T13:21:38.591Z"
           },
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "projectdiscovery#14310",
+            "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:35.581Z",
-            "updated_at": "2025-12-17T12:32:35.581Z"
+            "created_at": "2025-12-17T13:21:40.006Z",
+            "updated_at": "2025-12-17T13:21:40.006Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "projectdiscovery#14297",
+            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:35.827Z",
-            "updated_at": "2025-12-17T12:32:35.827Z"
+            "created_at": "2025-12-17T13:21:43.434Z",
+            "updated_at": "2025-12-17T13:21:43.434Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "projectdiscovery#14278",
+            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:36.080Z",
-            "updated_at": "2025-12-17T12:32:36.080Z"
+            "created_at": "2025-12-17T13:21:47.871Z",
+            "updated_at": "2025-12-17T13:21:47.871Z"
           },
           {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
+            "id": "projectdiscovery#14236",
+            "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:36.312Z",
-            "updated_at": "2025-12-17T12:32:36.312Z"
+            "created_at": "2025-12-17T13:21:50.537Z",
+            "updated_at": "2025-12-17T13:21:50.537Z"
           },
           {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
+            "id": "projectdiscovery#1471",
+            "title": "release katana v1.3.0",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "url": "https://github.com/projectdiscovery/katana/issues/1471",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:36.584Z",
-            "updated_at": "2025-12-17T12:32:36.584Z"
+            "created_at": "2025-12-17T13:21:53.859Z",
+            "updated_at": "2025-12-17T13:21:53.859Z"
           },
           {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
+            "id": "projectdiscovery#14152",
+            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:36.796Z",
-            "updated_at": "2025-12-17T12:32:36.796Z"
+            "created_at": "2025-12-17T13:21:54.273Z",
+            "updated_at": "2025-12-17T13:21:54.273Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:37.054Z",
-            "updated_at": "2025-12-17T12:32:37.054Z"
+            "created_at": "2025-12-17T13:21:54.652Z",
+            "updated_at": "2025-12-17T13:21:54.652Z"
           },
           {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "id": "projectdiscovery#14092",
+            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:37.381Z",
-            "updated_at": "2025-12-17T12:32:37.381Z"
+            "created_at": "2025-12-17T13:21:54.880Z",
+            "updated_at": "2025-12-17T13:21:54.880Z"
           }
         ],
-        "last_updated": "2025-12-17T12:33:02.008Z",
+        "last_updated": "2025-12-17T13:22:14.192Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T13:21:36.244Z",
+            "updated_at": "2025-12-17T13:21:36.244Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T13:21:37.482Z",
+            "updated_at": "2025-12-17T13:21:37.482Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-17T13:21:38.591Z",
+            "updated_at": "2025-12-17T13:21:38.591Z"
+          }
+        ],
+        "last_updated": "2025-12-17T13:22:14.192Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T12:31:53.395Z",
-            "updated_at": "2025-12-17T12:31:53.395Z"
+            "created_at": "2025-12-17T13:21:34.382Z",
+            "updated_at": "2025-12-17T13:21:34.382Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-17T12:31:53.739Z",
-            "updated_at": "2025-12-17T12:31:53.739Z"
+            "tags": [],
+            "created_at": "2025-12-17T13:21:34.728Z",
+            "updated_at": "2025-12-17T13:21:34.728Z"
           }
         ],
-        "last_updated": "2025-12-17T12:33:02.008Z",
+        "last_updated": "2025-12-17T13:22:14.192Z",
         "scrape_duration_ms": 0
       },
       {
@@ -583,8 +712,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-17T12:32:35.020Z",
-            "updated_at": "2025-12-17T12:32:35.020Z"
+            "created_at": "2025-12-17T13:21:34.382Z",
+            "updated_at": "2025-12-17T13:21:34.382Z"
           },
           {
             "id": "outerbase#72",
@@ -593,11 +722,57 @@
             "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-17T12:32:35.326Z",
-            "updated_at": "2025-12-17T12:32:35.326Z"
+            "created_at": "2025-12-17T13:21:34.728Z",
+            "updated_at": "2025-12-17T13:21:34.728Z"
           }
         ],
-        "last_updated": "2025-12-17T12:33:02.008Z",
+        "last_updated": "2025-12-17T13:22:14.192Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T13:21:34.382Z",
+            "updated_at": "2025-12-17T13:21:34.382Z"
+          }
+        ],
+        "last_updated": "2025-12-17T13:22:14.192Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-17T13:21:36.900Z",
+            "updated_at": "2025-12-17T13:21:36.900Z"
+          }
+        ],
+        "last_updated": "2025-12-17T13:22:14.192Z",
         "scrape_duration_ms": 0
       }
     ]
