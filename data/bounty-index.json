@@ -1,262 +1,404 @@
 {
-  "generated_at": "2025-12-18T02:59:37.202Z",
-  "total_organizations": 3,
-  "total_bounties": 21,
-  "total_value_usd": 2100,
+  "generated_at": "2025-12-18T03:57:00.228Z",
+  "total_organizations": 7,
+  "total_bounties": 30,
+  "total_value_usd": 3000,
   "version": "3.0.0",
   "organizations": {
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-18T02:58:48.107Z",
-          "updated_at": "2025-12-18T02:58:48.107Z"
+          "created_at": "2025-12-18T03:56:05.707Z",
+          "updated_at": "2025-12-18T03:56:05.707Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:08.126Z",
+          "updated_at": "2025-12-18T03:56:08.126Z"
         }
       ],
-      "last_updated": "2025-12-18T02:59:37.202Z",
+      "last_updated": "2025-12-18T03:57:00.228Z",
       "scrape_duration_ms": 0
     },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:11.653Z",
+          "updated_at": "2025-12-18T03:56:11.653Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:12.753Z",
+          "updated_at": "2025-12-18T03:56:12.753Z"
+        }
+      ],
+      "last_updated": "2025-12-18T03:57:00.228Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:12.680Z",
+          "updated_at": "2025-12-18T03:56:12.680Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:15.033Z",
+          "updated_at": "2025-12-18T03:56:15.033Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:17.079Z",
+          "updated_at": "2025-12-18T03:56:17.079Z"
+        }
+      ],
+      "last_updated": "2025-12-18T03:57:00.228Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "golemcloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/2497",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:12.679Z",
+          "updated_at": "2025-12-18T03:56:12.679Z"
+        },
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:17.109Z",
+          "updated_at": "2025-12-18T03:56:17.109Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:21.152Z",
+          "updated_at": "2025-12-18T03:56:21.152Z"
+        }
+      ],
+      "last_updated": "2025-12-18T03:57:00.228Z",
+      "scrape_duration_ms": 0
+    },
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
+      "bounties": [
+        {
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3960",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-18T03:56:12.680Z",
+          "updated_at": "2025-12-18T03:56:12.680Z"
+        },
+        {
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3526",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:15.034Z",
+          "updated_at": "2025-12-18T03:56:15.034Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:17.109Z",
+          "updated_at": "2025-12-18T03:56:17.109Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:21.215Z",
+          "updated_at": "2025-12-18T03:56:21.215Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-18T03:56:25.054Z",
+          "updated_at": "2025-12-18T03:56:25.054Z"
+        }
+      ],
+      "last_updated": "2025-12-18T03:57:00.228Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "cal#23104",
-          "title": "Local dev crazy slow",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/23104",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-18T02:58:51.132Z",
-          "updated_at": "2025-12-18T02:58:51.132Z"
+          "created_at": "2025-12-18T03:56:11.246Z",
+          "updated_at": "2025-12-18T03:56:11.246Z"
         },
         {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.266Z",
-          "updated_at": "2025-12-18T02:58:51.266Z"
+          "created_at": "2025-12-18T03:56:11.653Z",
+          "updated_at": "2025-12-18T03:56:11.653Z"
         },
         {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.365Z",
-          "updated_at": "2025-12-18T02:58:51.365Z"
+          "created_at": "2025-12-18T03:56:15.034Z",
+          "updated_at": "2025-12-18T03:56:15.034Z"
         },
         {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.484Z",
-          "updated_at": "2025-12-18T02:58:51.484Z"
+          "created_at": "2025-12-18T03:56:17.079Z",
+          "updated_at": "2025-12-18T03:56:17.079Z"
         },
         {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.649Z",
-          "updated_at": "2025-12-18T02:58:51.649Z"
+          "created_at": "2025-12-18T03:56:25.099Z",
+          "updated_at": "2025-12-18T03:56:25.099Z"
         },
         {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.778Z",
-          "updated_at": "2025-12-18T02:58:51.778Z"
+          "created_at": "2025-12-18T03:56:27.686Z",
+          "updated_at": "2025-12-18T03:56:27.686Z"
         },
         {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:51.944Z",
-          "updated_at": "2025-12-18T02:58:51.944Z"
+          "created_at": "2025-12-18T03:56:29.980Z",
+          "updated_at": "2025-12-18T03:56:29.980Z"
         },
         {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:52.126Z",
-          "updated_at": "2025-12-18T02:58:52.126Z"
+          "created_at": "2025-12-18T03:56:30.438Z",
+          "updated_at": "2025-12-18T03:56:30.438Z"
         },
         {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:52.369Z",
-          "updated_at": "2025-12-18T02:58:52.369Z"
+          "created_at": "2025-12-18T03:56:30.693Z",
+          "updated_at": "2025-12-18T03:56:30.693Z"
         },
         {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:58:52.574Z",
-          "updated_at": "2025-12-18T02:58:52.574Z"
+          "created_at": "2025-12-18T03:56:30.911Z",
+          "updated_at": "2025-12-18T03:56:30.911Z"
         }
       ],
-      "last_updated": "2025-12-18T02:59:37.202Z",
+      "last_updated": "2025-12-18T03:57:00.228Z",
       "scrape_duration_ms": 0
     },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "activepieces": {
+      "display_name": "Activepieces",
+      "url": "https://algora.io/activepieces/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "projectdiscovery#14436",
-          "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
+          "id": "activepieces#9703",
+          "title": "[MCP] Oracle Fusion Cloud ERP",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
+          "url": "https://github.com/activepieces/activepieces/issues/9703",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-18T02:59:26.143Z",
-          "updated_at": "2025-12-18T02:59:26.143Z"
+          "created_at": "2025-12-18T03:56:49.838Z",
+          "updated_at": "2025-12-18T03:56:49.838Z"
         },
         {
-          "id": "projectdiscovery#14392",
-          "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
+          "id": "activepieces#8284",
+          "title": "[MCP] Klaviyo",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-18T02:59:26.285Z",
-          "updated_at": "2025-12-18T02:59:26.285Z"
-        },
-        {
-          "id": "projectdiscovery#14382",
-          "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
+          "url": "https://github.com/activepieces/activepieces/issues/8284",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:59:26.414Z",
-          "updated_at": "2025-12-18T02:59:26.414Z"
+          "created_at": "2025-12-18T03:56:49.952Z",
+          "updated_at": "2025-12-18T03:56:49.952Z"
         },
         {
-          "id": "projectdiscovery#14310",
-          "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:59:26.500Z",
-          "updated_at": "2025-12-18T02:59:26.500Z"
+          "created_at": "2025-12-18T03:56:50.091Z",
+          "updated_at": "2025-12-18T03:56:50.091Z"
         },
         {
-          "id": "projectdiscovery#14297",
-          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:59:26.602Z",
-          "updated_at": "2025-12-18T02:59:26.602Z"
+          "created_at": "2025-12-18T03:56:50.098Z",
+          "updated_at": "2025-12-18T03:56:50.098Z"
         },
         {
-          "id": "projectdiscovery#14278",
-          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
+          "id": "activepieces#8072",
+          "title": "[MCP] Gmail",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
+          "url": "https://github.com/activepieces/activepieces/issues/8072",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-18T02:59:26.713Z",
-          "updated_at": "2025-12-18T02:59:26.713Z"
-        },
-        {
-          "id": "projectdiscovery#14236",
-          "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-18T02:59:26.807Z",
-          "updated_at": "2025-12-18T02:59:26.807Z"
-        },
-        {
-          "id": "projectdiscovery#1471",
-          "title": "release katana v1.3.0",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-18T02:59:26.939Z",
-          "updated_at": "2025-12-18T02:59:26.939Z"
-        },
-        {
-          "id": "projectdiscovery#14152",
-          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-18T02:59:27.094Z",
-          "updated_at": "2025-12-18T02:59:27.094Z"
-        },
-        {
-          "id": "projectdiscovery#14077",
-          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-18T02:59:27.199Z",
-          "updated_at": "2025-12-18T02:59:27.199Z"
+          "created_at": "2025-12-18T03:56:50.226Z",
+          "updated_at": "2025-12-18T03:56:50.226Z"
         }
       ],
-      "last_updated": "2025-12-18T02:59:37.202Z",
+      "last_updated": "2025-12-18T03:57:00.228Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 124318,
+    "processing_time_ms": 130156,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -265,254 +407,400 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#23104",
-            "title": "Local dev crazy slow",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/23104",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-18T02:58:51.132Z",
-            "updated_at": "2025-12-18T02:58:51.132Z"
+            "created_at": "2025-12-18T03:56:11.246Z",
+            "updated_at": "2025-12-18T03:56:11.246Z"
           },
           {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.266Z",
-            "updated_at": "2025-12-18T02:58:51.266Z"
+            "created_at": "2025-12-18T03:56:11.653Z",
+            "updated_at": "2025-12-18T03:56:11.653Z"
           },
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.365Z",
-            "updated_at": "2025-12-18T02:58:51.365Z"
+            "created_at": "2025-12-18T03:56:15.034Z",
+            "updated_at": "2025-12-18T03:56:15.034Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.484Z",
-            "updated_at": "2025-12-18T02:58:51.484Z"
+            "created_at": "2025-12-18T03:56:17.079Z",
+            "updated_at": "2025-12-18T03:56:17.079Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.649Z",
-            "updated_at": "2025-12-18T02:58:51.649Z"
+            "created_at": "2025-12-18T03:56:25.099Z",
+            "updated_at": "2025-12-18T03:56:25.099Z"
           },
           {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.778Z",
-            "updated_at": "2025-12-18T02:58:51.778Z"
+            "created_at": "2025-12-18T03:56:27.686Z",
+            "updated_at": "2025-12-18T03:56:27.686Z"
           },
           {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:51.944Z",
-            "updated_at": "2025-12-18T02:58:51.944Z"
+            "created_at": "2025-12-18T03:56:29.980Z",
+            "updated_at": "2025-12-18T03:56:29.980Z"
           },
           {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:52.126Z",
-            "updated_at": "2025-12-18T02:58:52.126Z"
+            "created_at": "2025-12-18T03:56:30.438Z",
+            "updated_at": "2025-12-18T03:56:30.438Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:52.369Z",
-            "updated_at": "2025-12-18T02:58:52.369Z"
+            "created_at": "2025-12-18T03:56:30.693Z",
+            "updated_at": "2025-12-18T03:56:30.693Z"
           },
           {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:58:52.574Z",
-            "updated_at": "2025-12-18T02:58:52.574Z"
+            "created_at": "2025-12-18T03:56:30.911Z",
+            "updated_at": "2025-12-18T03:56:30.911Z"
           }
         ],
-        "last_updated": "2025-12-18T02:59:37.202Z",
+        "last_updated": "2025-12-18T03:57:00.228Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "projectdiscovery#14436",
-            "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-18T02:59:26.143Z",
-            "updated_at": "2025-12-18T02:59:26.143Z"
+            "created_at": "2025-12-18T03:56:12.680Z",
+            "updated_at": "2025-12-18T03:56:12.680Z"
           },
           {
-            "id": "projectdiscovery#14392",
-            "title": "CVE-2025-14611 - Gladinet CentreStack & Triofox - Hardcoded Credentials 💰",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14392",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-18T02:59:26.285Z",
-            "updated_at": "2025-12-18T02:59:26.285Z"
-          },
-          {
-            "id": "projectdiscovery#14382",
-            "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:59:26.414Z",
-            "updated_at": "2025-12-18T02:59:26.414Z"
+            "created_at": "2025-12-18T03:56:15.034Z",
+            "updated_at": "2025-12-18T03:56:15.034Z"
           },
           {
-            "id": "projectdiscovery#14310",
-            "title": "CVE-2024-44902 - Thinkphp - Insecure Deserialization 💰",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14310",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:59:26.500Z",
-            "updated_at": "2025-12-18T02:59:26.500Z"
+            "created_at": "2025-12-18T03:56:17.109Z",
+            "updated_at": "2025-12-18T03:56:17.109Z"
           },
           {
-            "id": "projectdiscovery#14297",
-            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:59:26.602Z",
-            "updated_at": "2025-12-18T02:59:26.602Z"
+            "created_at": "2025-12-18T03:56:21.215Z",
+            "updated_at": "2025-12-18T03:56:21.215Z"
           },
           {
-            "id": "projectdiscovery#14278",
-            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-18T02:59:26.713Z",
-            "updated_at": "2025-12-18T02:59:26.713Z"
-          },
-          {
-            "id": "projectdiscovery#14236",
-            "title": "CVE-2021-3007 - Laminas Project laminas-http - Insecure Deserialization 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14236",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-18T02:59:26.807Z",
-            "updated_at": "2025-12-18T02:59:26.807Z"
-          },
-          {
-            "id": "projectdiscovery#1471",
-            "title": "release katana v1.3.0",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-18T02:59:26.939Z",
-            "updated_at": "2025-12-18T02:59:26.939Z"
-          },
-          {
-            "id": "projectdiscovery#14152",
-            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-18T02:59:27.094Z",
-            "updated_at": "2025-12-18T02:59:27.094Z"
-          },
-          {
-            "id": "projectdiscovery#14077",
-            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-18T02:59:27.199Z",
-            "updated_at": "2025-12-18T02:59:27.199Z"
+            "created_at": "2025-12-18T03:56:25.054Z",
+            "updated_at": "2025-12-18T03:56:25.054Z"
           }
         ],
-        "last_updated": "2025-12-18T02:59:37.202Z",
+        "last_updated": "2025-12-18T03:57:00.228Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "activepieces",
+        "display_name": "Activepieces",
+        "url": "https://algora.io/activepieces/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "activepieces#9703",
+            "title": "[MCP] Oracle Fusion Cloud ERP",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/activepieces/activepieces/issues/9703",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-18T02:58:48.107Z",
-            "updated_at": "2025-12-18T02:58:48.107Z"
+            "created_at": "2025-12-18T03:56:49.838Z",
+            "updated_at": "2025-12-18T03:56:49.838Z"
+          },
+          {
+            "id": "activepieces#8284",
+            "title": "[MCP] Klaviyo",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:49.952Z",
+            "updated_at": "2025-12-18T03:56:49.952Z"
+          },
+          {
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:50.091Z",
+            "updated_at": "2025-12-18T03:56:50.091Z"
+          },
+          {
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:50.098Z",
+            "updated_at": "2025-12-18T03:56:50.098Z"
+          },
+          {
+            "id": "activepieces#8072",
+            "title": "[MCP] Gmail",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:50.226Z",
+            "updated_at": "2025-12-18T03:56:50.226Z"
           }
         ],
-        "last_updated": "2025-12-18T02:59:37.202Z",
+        "last_updated": "2025-12-18T03:57:00.228Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:12.680Z",
+            "updated_at": "2025-12-18T03:56:12.680Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:15.033Z",
+            "updated_at": "2025-12-18T03:56:15.033Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:17.079Z",
+            "updated_at": "2025-12-18T03:56:17.079Z"
+          }
+        ],
+        "last_updated": "2025-12-18T03:57:00.228Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "golemcloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/2497",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:12.679Z",
+            "updated_at": "2025-12-18T03:56:12.679Z"
+          },
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:17.109Z",
+            "updated_at": "2025-12-18T03:56:17.109Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:21.152Z",
+            "updated_at": "2025-12-18T03:56:21.152Z"
+          }
+        ],
+        "last_updated": "2025-12-18T03:57:00.228Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:05.707Z",
+            "updated_at": "2025-12-18T03:56:05.707Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:08.126Z",
+            "updated_at": "2025-12-18T03:56:08.126Z"
+          }
+        ],
+        "last_updated": "2025-12-18T03:57:00.228Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-18T03:56:11.653Z",
+            "updated_at": "2025-12-18T03:56:11.653Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-18T03:56:12.753Z",
+            "updated_at": "2025-12-18T03:56:12.753Z"
+          }
+        ],
+        "last_updated": "2025-12-18T03:57:00.228Z",
         "scrape_duration_ms": 0
       }
     ]
