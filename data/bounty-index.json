@@ -1,170 +1,514 @@
 {
-  "generated_at": "2025-12-19T23:33:23.580Z",
-  "total_organizations": 2,
-  "total_bounties": 13,
-  "total_value_usd": 1300,
+  "generated_at": "2025-12-19T23:51:21.418Z",
+  "total_organizations": 7,
+  "total_bounties": 41,
+  "total_value_usd": 4100,
   "version": "3.0.0",
   "organizations": {
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T23:32:50.674Z",
-          "updated_at": "2025-12-19T23:32:50.674Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T23:32:51.332Z",
-          "updated_at": "2025-12-19T23:32:51.332Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T23:32:52.220Z",
-          "updated_at": "2025-12-19T23:32:52.220Z"
+          "created_at": "2025-12-19T23:50:38.443Z",
+          "updated_at": "2025-12-19T23:50:38.443Z"
         }
       ],
-      "last_updated": "2025-12-19T23:33:23.579Z",
+      "last_updated": "2025-12-19T23:51:21.418Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.363Z",
+          "updated_at": "2025-12-19T23:50:47.363Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.541Z",
+          "updated_at": "2025-12-19T23:50:47.541Z"
+        }
+      ],
+      "last_updated": "2025-12-19T23:51:21.418Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "id": "projectdiscovery#14451",
+          "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T23:32:50.673Z",
-          "updated_at": "2025-12-19T23:32:50.673Z"
+          "created_at": "2025-12-19T23:50:38.546Z",
+          "updated_at": "2025-12-19T23:50:38.546Z"
         },
         {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
+          "id": "projectdiscovery#14436",
+          "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-19T23:32:51.332Z",
-          "updated_at": "2025-12-19T23:32:51.332Z"
-        },
-        {
-          "id": "coollabsio#7529",
-          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7529",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:32:52.313Z",
-          "updated_at": "2025-12-19T23:32:52.313Z"
+          "created_at": "2025-12-19T23:50:38.851Z",
+          "updated_at": "2025-12-19T23:50:38.851Z"
         },
         {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "id": "projectdiscovery#14382",
+          "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:32:52.969Z",
-          "updated_at": "2025-12-19T23:32:52.969Z"
+          "created_at": "2025-12-19T23:50:39.097Z",
+          "updated_at": "2025-12-19T23:50:39.097Z"
         },
         {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "id": "projectdiscovery#14297",
+          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:32:53.916Z",
-          "updated_at": "2025-12-19T23:32:53.916Z"
+          "created_at": "2025-12-19T23:50:39.517Z",
+          "updated_at": "2025-12-19T23:50:39.517Z"
         },
         {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "id": "projectdiscovery#14278",
+          "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:32:55.888Z",
-          "updated_at": "2025-12-19T23:32:55.888Z"
+          "created_at": "2025-12-19T23:50:42.417Z",
+          "updated_at": "2025-12-19T23:50:42.417Z"
         },
         {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "id": "projectdiscovery#1471",
+          "title": "release katana v1.3.0",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "url": "https://github.com/projectdiscovery/katana/issues/1471",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:33:00.060Z",
-          "updated_at": "2025-12-19T23:33:00.060Z"
+          "created_at": "2025-12-19T23:50:45.707Z",
+          "updated_at": "2025-12-19T23:50:45.707Z"
         },
         {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "id": "projectdiscovery#14152",
+          "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:33:03.295Z",
-          "updated_at": "2025-12-19T23:33:03.295Z"
+          "created_at": "2025-12-19T23:50:47.111Z",
+          "updated_at": "2025-12-19T23:50:47.111Z"
         },
         {
-          "id": "coollabsio#6894",
-          "title": "[Enhancement]: Project-specific members",
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6894",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:33:06.162Z",
-          "updated_at": "2025-12-19T23:33:06.162Z"
+          "created_at": "2025-12-19T23:50:47.363Z",
+          "updated_at": "2025-12-19T23:50:47.363Z"
         },
         {
-          "id": "coollabsio#6566",
-          "title": "[Bug]: Scheduled tasks fails without logs",
+          "id": "projectdiscovery#14092",
+          "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6566",
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T23:33:07.011Z",
-          "updated_at": "2025-12-19T23:33:07.011Z"
+          "created_at": "2025-12-19T23:50:47.583Z",
+          "updated_at": "2025-12-19T23:50:47.583Z"
+        },
+        {
+          "id": "projectdiscovery#14077",
+          "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.673Z",
+          "updated_at": "2025-12-19T23:50:47.673Z"
         }
       ],
-      "last_updated": "2025-12-19T23:33:23.579Z",
+      "last_updated": "2025-12-19T23:51:21.418Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.293Z",
+          "updated_at": "2025-12-19T23:50:47.293Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.540Z",
+          "updated_at": "2025-12-19T23:50:47.540Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.747Z",
+          "updated_at": "2025-12-19T23:50:47.747Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.015Z",
+          "updated_at": "2025-12-19T23:50:48.015Z"
+        }
+      ],
+      "last_updated": "2025-12-19T23:51:21.418Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.363Z",
+          "updated_at": "2025-12-19T23:50:47.363Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.541Z",
+          "updated_at": "2025-12-19T23:50:47.541Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.811Z",
+          "updated_at": "2025-12-19T23:50:47.811Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.015Z",
+          "updated_at": "2025-12-19T23:50:48.015Z"
+        }
+      ],
+      "last_updated": "2025-12-19T23:51:21.418Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "ZIO#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.540Z",
+          "updated_at": "2025-12-19T23:50:47.540Z"
+        },
+        {
+          "id": "ZIO#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.747Z",
+          "updated_at": "2025-12-19T23:50:47.747Z"
+        },
+        {
+          "id": "ZIO#517",
+          "title": "Add structural schemas",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.929Z",
+          "updated_at": "2025-12-19T23:50:47.929Z"
+        },
+        {
+          "id": "ZIO#516",
+          "title": "Finalize Patch & Diffing",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.061Z",
+          "updated_at": "2025-12-19T23:50:48.061Z"
+        },
+        {
+          "id": "ZIO#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.196Z",
+          "updated_at": "2025-12-19T23:50:48.196Z"
+        },
+        {
+          "id": "ZIO#514",
+          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/514",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.311Z",
+          "updated_at": "2025-12-19T23:50:48.311Z"
+        },
+        {
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.469Z",
+          "updated_at": "2025-12-19T23:50:48.469Z"
+        },
+        {
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:49.018Z",
+          "updated_at": "2025-12-19T23:50:49.018Z"
+        },
+        {
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:49.635Z",
+          "updated_at": "2025-12-19T23:50:49.635Z"
+        },
+        {
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:50.782Z",
+          "updated_at": "2025-12-19T23:50:50.782Z"
+        }
+      ],
+      "last_updated": "2025-12-19T23:51:21.418Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T23:50:47.540Z",
+          "updated_at": "2025-12-19T23:50:47.540Z"
+        },
+        {
+          "id": "zio#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.746Z",
+          "updated_at": "2025-12-19T23:50:47.746Z"
+        },
+        {
+          "id": "zio#517",
+          "title": "Add structural schemas",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:47.928Z",
+          "updated_at": "2025-12-19T23:50:47.928Z"
+        },
+        {
+          "id": "zio#516",
+          "title": "Finalize Patch & Diffing",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.062Z",
+          "updated_at": "2025-12-19T23:50:48.062Z"
+        },
+        {
+          "id": "zio#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.196Z",
+          "updated_at": "2025-12-19T23:50:48.196Z"
+        },
+        {
+          "id": "zio#514",
+          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/514",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.311Z",
+          "updated_at": "2025-12-19T23:50:48.311Z"
+        },
+        {
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:48.470Z",
+          "updated_at": "2025-12-19T23:50:48.470Z"
+        },
+        {
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:49.018Z",
+          "updated_at": "2025-12-19T23:50:49.018Z"
+        },
+        {
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:49.635Z",
+          "updated_at": "2025-12-19T23:50:49.635Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T23:50:50.845Z",
+          "updated_at": "2025-12-19T23:50:50.845Z"
+        }
+      ],
+      "last_updated": "2025-12-19T23:51:21.418Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 113944,
+    "processing_time_ms": 116296,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -173,161 +517,510 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "id": "projectdiscovery#14451",
+            "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T23:32:50.673Z",
-            "updated_at": "2025-12-19T23:32:50.673Z"
+            "created_at": "2025-12-19T23:50:38.546Z",
+            "updated_at": "2025-12-19T23:50:38.546Z"
           },
           {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
+            "id": "projectdiscovery#14436",
+            "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T23:32:51.332Z",
-            "updated_at": "2025-12-19T23:32:51.332Z"
-          },
-          {
-            "id": "coollabsio#7529",
-            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7529",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:52.313Z",
-            "updated_at": "2025-12-19T23:32:52.313Z"
+            "created_at": "2025-12-19T23:50:38.851Z",
+            "updated_at": "2025-12-19T23:50:38.851Z"
           },
           {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "id": "projectdiscovery#14382",
+            "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:52.969Z",
-            "updated_at": "2025-12-19T23:32:52.969Z"
+            "created_at": "2025-12-19T23:50:39.097Z",
+            "updated_at": "2025-12-19T23:50:39.097Z"
           },
           {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "id": "projectdiscovery#14297",
+            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:53.916Z",
-            "updated_at": "2025-12-19T23:32:53.916Z"
+            "created_at": "2025-12-19T23:50:39.517Z",
+            "updated_at": "2025-12-19T23:50:39.517Z"
           },
           {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "id": "projectdiscovery#14278",
+            "title": "CVE-2019-18935 - Progress Telerik UI for ASP.NET AJAX - Insecure Deserialization 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14278",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:55.888Z",
-            "updated_at": "2025-12-19T23:32:55.888Z"
+            "created_at": "2025-12-19T23:50:42.417Z",
+            "updated_at": "2025-12-19T23:50:42.417Z"
           },
           {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "id": "projectdiscovery#1471",
+            "title": "release katana v1.3.0",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "url": "https://github.com/projectdiscovery/katana/issues/1471",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:33:00.060Z",
-            "updated_at": "2025-12-19T23:33:00.060Z"
+            "created_at": "2025-12-19T23:50:45.707Z",
+            "updated_at": "2025-12-19T23:50:45.707Z"
           },
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "projectdiscovery#14152",
+            "title": "CVE-2020-14756 - Oracle Coherence - Remote Code Execution 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14152",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:33:03.295Z",
-            "updated_at": "2025-12-19T23:33:03.295Z"
+            "created_at": "2025-12-19T23:50:47.111Z",
+            "updated_at": "2025-12-19T23:50:47.111Z"
           },
           {
-            "id": "coollabsio#6894",
-            "title": "[Enhancement]: Project-specific members",
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6894",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:33:06.162Z",
-            "updated_at": "2025-12-19T23:33:06.162Z"
+            "created_at": "2025-12-19T23:50:47.363Z",
+            "updated_at": "2025-12-19T23:50:47.363Z"
           },
           {
-            "id": "coollabsio#6566",
-            "title": "[Bug]: Scheduled tasks fails without logs",
+            "id": "projectdiscovery#14092",
+            "title": "CVE-2021-22941 - Citrix ShareFile - Broken Access Control 💰",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6566",
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14092",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:33:07.011Z",
-            "updated_at": "2025-12-19T23:33:07.011Z"
+            "created_at": "2025-12-19T23:50:47.583Z",
+            "updated_at": "2025-12-19T23:50:47.583Z"
+          },
+          {
+            "id": "projectdiscovery#14077",
+            "title": "CVE-2021-21980 - vSphere Web Client - Path Traversal 💰",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14077",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:47.673Z",
+            "updated_at": "2025-12-19T23:50:47.673Z"
           }
         ],
-        "last_updated": "2025-12-19T23:33:23.579Z",
+        "last_updated": "2025-12-19T23:51:21.418Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
+            "id": "ZIO#519",
+            "title": "Schema Migration System for ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
+            "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T23:32:50.674Z",
-            "updated_at": "2025-12-19T23:32:50.674Z"
+            "created_at": "2025-12-19T23:50:47.540Z",
+            "updated_at": "2025-12-19T23:50:47.540Z"
           },
           {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
+            "id": "ZIO#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
+            "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:51.332Z",
-            "updated_at": "2025-12-19T23:32:51.332Z"
+            "created_at": "2025-12-19T23:50:47.747Z",
+            "updated_at": "2025-12-19T23:50:47.747Z"
           },
           {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "id": "ZIO#517",
+            "title": "Add structural schemas",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
+            "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T23:32:52.220Z",
-            "updated_at": "2025-12-19T23:32:52.220Z"
+            "created_at": "2025-12-19T23:50:47.929Z",
+            "updated_at": "2025-12-19T23:50:47.929Z"
+          },
+          {
+            "id": "ZIO#516",
+            "title": "Finalize Patch & Diffing",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.061Z",
+            "updated_at": "2025-12-19T23:50:48.061Z"
+          },
+          {
+            "id": "ZIO#471",
+            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.196Z",
+            "updated_at": "2025-12-19T23:50:48.196Z"
+          },
+          {
+            "id": "ZIO#514",
+            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.311Z",
+            "updated_at": "2025-12-19T23:50:48.311Z"
+          },
+          {
+            "id": "ZIO#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.469Z",
+            "updated_at": "2025-12-19T23:50:48.469Z"
+          },
+          {
+            "id": "ZIO#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:49.018Z",
+            "updated_at": "2025-12-19T23:50:49.018Z"
+          },
+          {
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:49.635Z",
+            "updated_at": "2025-12-19T23:50:49.635Z"
+          },
+          {
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:50.782Z",
+            "updated_at": "2025-12-19T23:50:50.782Z"
           }
         ],
-        "last_updated": "2025-12-19T23:33:23.579Z",
+        "last_updated": "2025-12-19T23:51:21.418Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.540Z",
+            "updated_at": "2025-12-19T23:50:47.540Z"
+          },
+          {
+            "id": "zio#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:47.746Z",
+            "updated_at": "2025-12-19T23:50:47.746Z"
+          },
+          {
+            "id": "zio#517",
+            "title": "Add structural schemas",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:47.928Z",
+            "updated_at": "2025-12-19T23:50:47.928Z"
+          },
+          {
+            "id": "zio#516",
+            "title": "Finalize Patch & Diffing",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.062Z",
+            "updated_at": "2025-12-19T23:50:48.062Z"
+          },
+          {
+            "id": "zio#471",
+            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.196Z",
+            "updated_at": "2025-12-19T23:50:48.196Z"
+          },
+          {
+            "id": "zio#514",
+            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.311Z",
+            "updated_at": "2025-12-19T23:50:48.311Z"
+          },
+          {
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.470Z",
+            "updated_at": "2025-12-19T23:50:48.470Z"
+          },
+          {
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:49.018Z",
+            "updated_at": "2025-12-19T23:50:49.018Z"
+          },
+          {
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:49.635Z",
+            "updated_at": "2025-12-19T23:50:49.635Z"
+          },
+          {
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:50.845Z",
+            "updated_at": "2025-12-19T23:50:50.845Z"
+          }
+        ],
+        "last_updated": "2025-12-19T23:51:21.418Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.293Z",
+            "updated_at": "2025-12-19T23:50:47.293Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.540Z",
+            "updated_at": "2025-12-19T23:50:47.540Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:47.747Z",
+            "updated_at": "2025-12-19T23:50:47.747Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.015Z",
+            "updated_at": "2025-12-19T23:50:48.015Z"
+          }
+        ],
+        "last_updated": "2025-12-19T23:51:21.418Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.363Z",
+            "updated_at": "2025-12-19T23:50:47.363Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.541Z",
+            "updated_at": "2025-12-19T23:50:47.541Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:47.811Z",
+            "updated_at": "2025-12-19T23:50:47.811Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T23:50:48.015Z",
+            "updated_at": "2025-12-19T23:50:48.015Z"
+          }
+        ],
+        "last_updated": "2025-12-19T23:51:21.418Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.363Z",
+            "updated_at": "2025-12-19T23:50:47.363Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:47.541Z",
+            "updated_at": "2025-12-19T23:50:47.541Z"
+          }
+        ],
+        "last_updated": "2025-12-19T23:51:21.418Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T23:50:38.443Z",
+            "updated_at": "2025-12-19T23:50:38.443Z"
+          }
+        ],
+        "last_updated": "2025-12-19T23:51:21.418Z",
         "scrape_duration_ms": 0
       }
     ]
