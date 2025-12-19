@@ -1,84 +1,188 @@
 {
-  "generated_at": "2025-12-19T12:30:32.160Z",
-  "total_organizations": 4,
-  "total_bounties": 12,
-  "total_value_usd": 1200,
+  "generated_at": "2025-12-19T13:11:58.636Z",
+  "total_organizations": 6,
+  "total_bounties": 21,
+  "total_value_usd": 2100,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T13:11:09.979Z",
+          "updated_at": "2025-12-19T13:11:09.979Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T13:11:11.307Z",
+          "updated_at": "2025-12-19T13:11:11.307Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:14.572Z",
+          "updated_at": "2025-12-19T13:11:14.572Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:17.142Z",
+          "updated_at": "2025-12-19T13:11:17.142Z"
+        }
+      ],
+      "last_updated": "2025-12-19T13:11:58.635Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:05.776Z",
-          "updated_at": "2025-12-19T12:30:05.776Z"
+          "created_at": "2025-12-19T13:11:17.987Z",
+          "updated_at": "2025-12-19T13:11:17.987Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:18.128Z",
+          "updated_at": "2025-12-19T13:11:18.128Z"
+        }
+      ],
+      "last_updated": "2025-12-19T13:11:58.635Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:06.881Z",
-          "updated_at": "2025-12-19T12:30:06.881Z"
+          "created_at": "2025-12-19T13:11:43.190Z",
+          "updated_at": "2025-12-19T13:11:43.190Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:43.364Z",
+          "updated_at": "2025-12-19T13:11:43.364Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:43.509Z",
+          "updated_at": "2025-12-19T13:11:43.509Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:43.664Z",
+          "updated_at": "2025-12-19T13:11:43.664Z"
         }
       ],
-      "last_updated": "2025-12-19T12:30:32.160Z",
+      "last_updated": "2025-12-19T13:11:58.635Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:05.776Z",
-          "updated_at": "2025-12-19T12:30:05.776Z"
+          "created_at": "2025-12-19T13:11:43.723Z",
+          "updated_at": "2025-12-19T13:11:43.723Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T12:30:06.881Z",
-          "updated_at": "2025-12-19T12:30:06.881Z"
+          "created_at": "2025-12-19T13:11:43.853Z",
+          "updated_at": "2025-12-19T13:11:43.853Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/permitio/opal/issues/634",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T12:30:08.579Z",
-          "updated_at": "2025-12-19T12:30:08.579Z"
+          "created_at": "2025-12-19T13:11:43.998Z",
+          "updated_at": "2025-12-19T13:11:43.998Z"
         }
       ],
-      "last_updated": "2025-12-19T12:30:32.160Z",
+      "last_updated": "2025-12-19T13:11:58.635Z",
       "scrape_duration_ms": 0
     },
     "GolemCloud": {
@@ -96,8 +200,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:05.699Z",
-          "updated_at": "2025-12-19T12:30:05.699Z"
+          "created_at": "2025-12-19T13:11:47.940Z",
+          "updated_at": "2025-12-19T13:11:47.940Z"
         },
         {
           "id": "GolemCloud#275",
@@ -108,8 +212,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:08.651Z",
-          "updated_at": "2025-12-19T12:30:08.651Z"
+          "created_at": "2025-12-19T13:11:48.154Z",
+          "updated_at": "2025-12-19T13:11:48.154Z"
         },
         {
           "id": "GolemCloud#23",
@@ -120,71 +224,79 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:12.157Z",
-          "updated_at": "2025-12-19T12:30:12.157Z"
+          "created_at": "2025-12-19T13:11:48.326Z",
+          "updated_at": "2025-12-19T13:11:48.326Z"
         }
       ],
-      "last_updated": "2025-12-19T12:30:32.160Z",
+      "last_updated": "2025-12-19T13:11:58.636Z",
       "scrape_duration_ms": 0
     },
-    "Mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "Mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T12:30:08.579Z",
-          "updated_at": "2025-12-19T12:30:08.579Z"
+          "created_at": "2025-12-19T13:11:48.098Z",
+          "updated_at": "2025-12-19T13:11:48.098Z"
         },
         {
-          "id": "Mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-19T12:30:12.157Z",
-          "updated_at": "2025-12-19T12:30:12.157Z"
-        },
-        {
-          "id": "Mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T12:30:15.014Z",
-          "updated_at": "2025-12-19T12:30:15.014Z"
+          "created_at": "2025-12-19T13:11:48.205Z",
+          "updated_at": "2025-12-19T13:11:48.205Z"
         },
         {
-          "id": "Mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "url": "https://github.com/keephq/keep/issues/3376",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T12:30:17.746Z",
-          "updated_at": "2025-12-19T12:30:17.746Z"
+          "created_at": "2025-12-19T13:11:48.380Z",
+          "updated_at": "2025-12-19T13:11:48.380Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:48.513Z",
+          "updated_at": "2025-12-19T13:11:48.513Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-19T13:11:48.634Z",
+          "updated_at": "2025-12-19T13:11:48.634Z"
         }
       ],
-      "last_updated": "2025-12-19T12:30:32.160Z",
+      "last_updated": "2025-12-19T13:11:58.636Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 104167,
+    "processing_time_ms": 121138,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -193,14 +305,77 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "Mudlet",
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
+        "bounties": [
+          {
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3960",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T13:11:48.098Z",
+            "updated_at": "2025-12-19T13:11:48.098Z"
+          },
+          {
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3526",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:48.205Z",
+            "updated_at": "2025-12-19T13:11:48.205Z"
+          },
+          {
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3376",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:48.380Z",
+            "updated_at": "2025-12-19T13:11:48.380Z"
+          },
+          {
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/3379",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:48.513Z",
+            "updated_at": "2025-12-19T13:11:48.513Z"
+          },
+          {
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
+            "amount_usd": 100,
+            "url": "https://github.com/keephq/keep/issues/2112",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:48.634Z",
+            "updated_at": "2025-12-19T13:11:48.634Z"
+          }
+        ],
+        "last_updated": "2025-12-19T13:11:58.636Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
         "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "url": "https://algora.io/mudlet/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "Mudlet#8030",
+            "id": "mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -208,11 +383,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:08.579Z",
-            "updated_at": "2025-12-19T12:30:08.579Z"
+            "created_at": "2025-12-19T13:11:09.979Z",
+            "updated_at": "2025-12-19T13:11:09.979Z"
           },
           {
-            "id": "Mudlet#3172",
+            "id": "mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -220,74 +395,127 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:12.157Z",
-            "updated_at": "2025-12-19T12:30:12.157Z"
+            "created_at": "2025-12-19T13:11:11.307Z",
+            "updated_at": "2025-12-19T13:11:11.307Z"
           },
           {
-            "id": "Mudlet#689",
+            "id": "mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T12:30:15.014Z",
-            "updated_at": "2025-12-19T12:30:15.014Z"
+            "created_at": "2025-12-19T13:11:14.572Z",
+            "updated_at": "2025-12-19T13:11:14.572Z"
           },
           {
-            "id": "Mudlet#5310",
+            "id": "mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T12:30:17.746Z",
-            "updated_at": "2025-12-19T12:30:17.746Z"
+            "created_at": "2025-12-19T13:11:17.142Z",
+            "updated_at": "2025-12-19T13:11:17.142Z"
           }
         ],
-        "last_updated": "2025-12-19T12:30:32.160Z",
+        "last_updated": "2025-12-19T13:11:58.635Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:05.776Z",
-            "updated_at": "2025-12-19T12:30:05.776Z"
+            "created_at": "2025-12-19T13:11:43.190Z",
+            "updated_at": "2025-12-19T13:11:43.190Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T12:30:06.881Z",
-            "updated_at": "2025-12-19T12:30:06.881Z"
+            "created_at": "2025-12-19T13:11:43.364Z",
+            "updated_at": "2025-12-19T13:11:43.364Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T12:30:08.579Z",
-            "updated_at": "2025-12-19T12:30:08.579Z"
+            "created_at": "2025-12-19T13:11:43.509Z",
+            "updated_at": "2025-12-19T13:11:43.509Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:43.664Z",
+            "updated_at": "2025-12-19T13:11:43.664Z"
           }
         ],
-        "last_updated": "2025-12-19T12:30:32.160Z",
+        "last_updated": "2025-12-19T13:11:58.635Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T13:11:43.723Z",
+            "updated_at": "2025-12-19T13:11:43.723Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:43.853Z",
+            "updated_at": "2025-12-19T13:11:43.853Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-19T13:11:43.998Z",
+            "updated_at": "2025-12-19T13:11:43.998Z"
+          }
+        ],
+        "last_updated": "2025-12-19T13:11:58.635Z",
         "scrape_duration_ms": 0
       },
       {
@@ -306,8 +534,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:05.699Z",
-            "updated_at": "2025-12-19T12:30:05.699Z"
+            "created_at": "2025-12-19T13:11:47.940Z",
+            "updated_at": "2025-12-19T13:11:47.940Z"
           },
           {
             "id": "GolemCloud#275",
@@ -318,8 +546,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:08.651Z",
-            "updated_at": "2025-12-19T12:30:08.651Z"
+            "created_at": "2025-12-19T13:11:48.154Z",
+            "updated_at": "2025-12-19T13:11:48.154Z"
           },
           {
             "id": "GolemCloud#23",
@@ -330,46 +558,44 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:12.157Z",
-            "updated_at": "2025-12-19T12:30:12.157Z"
+            "created_at": "2025-12-19T13:11:48.326Z",
+            "updated_at": "2025-12-19T13:11:48.326Z"
           }
         ],
-        "last_updated": "2025-12-19T12:30:32.160Z",
+        "last_updated": "2025-12-19T13:11:58.636Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T12:30:05.776Z",
-            "updated_at": "2025-12-19T12:30:05.776Z"
+            "created_at": "2025-12-19T13:11:17.987Z",
+            "updated_at": "2025-12-19T13:11:17.987Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T12:30:06.881Z",
-            "updated_at": "2025-12-19T12:30:06.881Z"
+            "tags": [],
+            "created_at": "2025-12-19T13:11:18.128Z",
+            "updated_at": "2025-12-19T13:11:18.128Z"
           }
         ],
-        "last_updated": "2025-12-19T12:30:32.160Z",
+        "last_updated": "2025-12-19T13:11:58.635Z",
         "scrape_duration_ms": 0
       }
     ]
