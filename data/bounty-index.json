@@ -1,260 +1,166 @@
 {
-  "generated_at": "2025-12-19T07:19:21.427Z",
-  "total_organizations": 6,
-  "total_bounties": 29,
-  "total_value_usd": 2900,
+  "generated_at": "2025-12-19T07:42:43.196Z",
+  "total_organizations": 3,
+  "total_bounties": 23,
+  "total_value_usd": 2300,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "golemcloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/golemcloud/golem/issues/2497",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T07:18:41.293Z",
-          "updated_at": "2025-12-19T07:18:41.293Z"
+          "created_at": "2025-12-19T07:42:04.805Z",
+          "updated_at": "2025-12-19T07:42:04.805Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T07:18:42.996Z",
-          "updated_at": "2025-12-19T07:18:42.996Z"
+          "created_at": "2025-12-19T07:42:12.095Z",
+          "updated_at": "2025-12-19T07:42:12.095Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-19T07:42:16.015Z",
+          "updated_at": "2025-12-19T07:42:16.015Z"
         }
       ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
+      "last_updated": "2025-12-19T07:42:43.196Z",
       "scrape_duration_ms": 0
     },
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-19T07:18:41.370Z",
-          "updated_at": "2025-12-19T07:18:41.370Z"
-        },
-        {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T07:18:42.996Z",
-          "updated_at": "2025-12-19T07:18:42.996Z"
-        }
-      ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-19T07:18:41.371Z",
-          "updated_at": "2025-12-19T07:18:41.371Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T07:18:42.996Z",
-          "updated_at": "2025-12-19T07:18:42.996Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T07:18:44.519Z",
-          "updated_at": "2025-12-19T07:18:44.519Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-19T07:18:45.003Z",
-          "updated_at": "2025-12-19T07:18:45.003Z"
-        }
-      ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
-      "scrape_duration_ms": 0
-    },
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-          "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-19T07:18:45.668Z",
-          "updated_at": "2025-12-19T07:18:45.668Z"
-        }
-      ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T07:18:42.978Z",
-          "updated_at": "2025-12-19T07:18:42.978Z"
+          "created_at": "2025-12-19T07:42:19.135Z",
+          "updated_at": "2025-12-19T07:42:19.135Z"
         },
         {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:44.518Z",
-          "updated_at": "2025-12-19T07:18:44.518Z"
+          "created_at": "2025-12-19T07:42:19.357Z",
+          "updated_at": "2025-12-19T07:42:19.357Z"
         },
         {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.003Z",
-          "updated_at": "2025-12-19T07:18:45.003Z"
+          "created_at": "2025-12-19T07:42:19.527Z",
+          "updated_at": "2025-12-19T07:42:19.527Z"
         },
         {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.286Z",
-          "updated_at": "2025-12-19T07:18:45.286Z"
+          "created_at": "2025-12-19T07:42:19.723Z",
+          "updated_at": "2025-12-19T07:42:19.723Z"
         },
         {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.457Z",
-          "updated_at": "2025-12-19T07:18:45.457Z"
+          "created_at": "2025-12-19T07:42:19.983Z",
+          "updated_at": "2025-12-19T07:42:19.983Z"
         },
         {
-          "id": "ZIO#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
+          "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.585Z",
-          "updated_at": "2025-12-19T07:18:45.585Z"
+          "created_at": "2025-12-19T07:42:20.174Z",
+          "updated_at": "2025-12-19T07:42:20.174Z"
         },
         {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
+          "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.736Z",
-          "updated_at": "2025-12-19T07:18:45.736Z"
+          "created_at": "2025-12-19T07:42:20.400Z",
+          "updated_at": "2025-12-19T07:42:20.400Z"
         },
         {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
+          "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.859Z",
-          "updated_at": "2025-12-19T07:18:45.859Z"
+          "created_at": "2025-12-19T07:42:20.614Z",
+          "updated_at": "2025-12-19T07:42:20.614Z"
         },
         {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
+          "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.995Z",
-          "updated_at": "2025-12-19T07:18:45.995Z"
+          "created_at": "2025-12-19T07:42:20.805Z",
+          "updated_at": "2025-12-19T07:42:20.805Z"
         },
         {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
+          "id": "cal#11340",
+          "title": "Add Lawpay as a payment option",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
+          "url": "https://github.com/calcom/cal.com/issues/11340",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:46.171Z",
-          "updated_at": "2025-12-19T07:18:46.171Z"
+          "created_at": "2025-12-19T07:42:21.051Z",
+          "updated_at": "2025-12-19T07:42:21.051Z"
         }
       ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
+      "last_updated": "2025-12-19T07:42:43.196Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -272,8 +178,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-19T07:18:42.996Z",
-          "updated_at": "2025-12-19T07:18:42.996Z"
+          "created_at": "2025-12-19T07:42:31.223Z",
+          "updated_at": "2025-12-19T07:42:31.223Z"
         },
         {
           "id": "tscircuit#534",
@@ -282,8 +188,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:44.438Z",
-          "updated_at": "2025-12-19T07:18:44.438Z"
+          "created_at": "2025-12-19T07:42:31.387Z",
+          "updated_at": "2025-12-19T07:42:31.387Z"
         },
         {
           "id": "tscircuit#419",
@@ -292,8 +198,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.156Z",
-          "updated_at": "2025-12-19T07:18:45.156Z"
+          "created_at": "2025-12-19T07:42:31.583Z",
+          "updated_at": "2025-12-19T07:42:31.583Z"
         },
         {
           "id": "tscircuit#1081",
@@ -302,8 +208,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.359Z",
-          "updated_at": "2025-12-19T07:18:45.359Z"
+          "created_at": "2025-12-19T07:42:31.756Z",
+          "updated_at": "2025-12-19T07:42:31.756Z"
         },
         {
           "id": "tscircuit#386",
@@ -312,8 +218,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.668Z",
-          "updated_at": "2025-12-19T07:18:45.668Z"
+          "created_at": "2025-12-19T07:42:32.111Z",
+          "updated_at": "2025-12-19T07:42:32.111Z"
         },
         {
           "id": "tscircuit#1498",
@@ -322,8 +228,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.809Z",
-          "updated_at": "2025-12-19T07:18:45.809Z"
+          "created_at": "2025-12-19T07:42:32.275Z",
+          "updated_at": "2025-12-19T07:42:32.275Z"
         },
         {
           "id": "tscircuit#79",
@@ -332,8 +238,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:45.934Z",
-          "updated_at": "2025-12-19T07:18:45.934Z"
+          "created_at": "2025-12-19T07:42:32.483Z",
+          "updated_at": "2025-12-19T07:42:32.483Z"
         },
         {
           "id": "tscircuit#78",
@@ -342,8 +248,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:46.122Z",
-          "updated_at": "2025-12-19T07:18:46.122Z"
+          "created_at": "2025-12-19T07:42:32.662Z",
+          "updated_at": "2025-12-19T07:42:32.662Z"
         },
         {
           "id": "tscircuit#176",
@@ -352,8 +258,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:46.286Z",
-          "updated_at": "2025-12-19T07:18:46.286Z"
+          "created_at": "2025-12-19T07:42:32.857Z",
+          "updated_at": "2025-12-19T07:42:32.857Z"
         },
         {
           "id": "tscircuit#939",
@@ -362,17 +268,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-19T07:18:46.554Z",
-          "updated_at": "2025-12-19T07:18:46.554Z"
+          "created_at": "2025-12-19T07:42:33.194Z",
+          "updated_at": "2025-12-19T07:42:33.194Z"
         }
       ],
-      "last_updated": "2025-12-19T07:19:21.427Z",
+      "last_updated": "2025-12-19T07:42:43.196Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 118966,
+    "processing_time_ms": 125392,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -381,116 +287,116 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T07:18:42.978Z",
-            "updated_at": "2025-12-19T07:18:42.978Z"
+            "created_at": "2025-12-19T07:42:19.135Z",
+            "updated_at": "2025-12-19T07:42:19.135Z"
           },
           {
-            "id": "ZIO#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:44.518Z",
-            "updated_at": "2025-12-19T07:18:44.518Z"
+            "created_at": "2025-12-19T07:42:19.357Z",
+            "updated_at": "2025-12-19T07:42:19.357Z"
           },
           {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.003Z",
-            "updated_at": "2025-12-19T07:18:45.003Z"
+            "created_at": "2025-12-19T07:42:19.527Z",
+            "updated_at": "2025-12-19T07:42:19.527Z"
           },
           {
-            "id": "ZIO#516",
-            "title": "Finalize Patch & Diffing",
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.286Z",
-            "updated_at": "2025-12-19T07:18:45.286Z"
+            "created_at": "2025-12-19T07:42:19.723Z",
+            "updated_at": "2025-12-19T07:42:19.723Z"
           },
           {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.457Z",
-            "updated_at": "2025-12-19T07:18:45.457Z"
+            "created_at": "2025-12-19T07:42:19.983Z",
+            "updated_at": "2025-12-19T07:42:19.983Z"
           },
           {
-            "id": "ZIO#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.585Z",
-            "updated_at": "2025-12-19T07:18:45.585Z"
+            "created_at": "2025-12-19T07:42:20.174Z",
+            "updated_at": "2025-12-19T07:42:20.174Z"
           },
           {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.736Z",
-            "updated_at": "2025-12-19T07:18:45.736Z"
+            "created_at": "2025-12-19T07:42:20.400Z",
+            "updated_at": "2025-12-19T07:42:20.400Z"
           },
           {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.859Z",
-            "updated_at": "2025-12-19T07:18:45.859Z"
+            "created_at": "2025-12-19T07:42:20.614Z",
+            "updated_at": "2025-12-19T07:42:20.614Z"
           },
           {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.995Z",
-            "updated_at": "2025-12-19T07:18:45.995Z"
+            "created_at": "2025-12-19T07:42:20.805Z",
+            "updated_at": "2025-12-19T07:42:20.805Z"
           },
           {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "cal#11340",
+            "title": "Add Lawpay as a payment option",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "https://github.com/calcom/cal.com/issues/11340",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:46.171Z",
-            "updated_at": "2025-12-19T07:18:46.171Z"
+            "created_at": "2025-12-19T07:42:21.051Z",
+            "updated_at": "2025-12-19T07:42:21.051Z"
           }
         ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
+        "last_updated": "2025-12-19T07:42:43.196Z",
         "scrape_duration_ms": 0
       },
       {
@@ -509,8 +415,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T07:18:42.996Z",
-            "updated_at": "2025-12-19T07:18:42.996Z"
+            "created_at": "2025-12-19T07:42:31.223Z",
+            "updated_at": "2025-12-19T07:42:31.223Z"
           },
           {
             "id": "tscircuit#534",
@@ -519,8 +425,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:44.438Z",
-            "updated_at": "2025-12-19T07:18:44.438Z"
+            "created_at": "2025-12-19T07:42:31.387Z",
+            "updated_at": "2025-12-19T07:42:31.387Z"
           },
           {
             "id": "tscircuit#419",
@@ -529,8 +435,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.156Z",
-            "updated_at": "2025-12-19T07:18:45.156Z"
+            "created_at": "2025-12-19T07:42:31.583Z",
+            "updated_at": "2025-12-19T07:42:31.583Z"
           },
           {
             "id": "tscircuit#1081",
@@ -539,8 +445,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.359Z",
-            "updated_at": "2025-12-19T07:18:45.359Z"
+            "created_at": "2025-12-19T07:42:31.756Z",
+            "updated_at": "2025-12-19T07:42:31.756Z"
           },
           {
             "id": "tscircuit#386",
@@ -549,8 +455,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.668Z",
-            "updated_at": "2025-12-19T07:18:45.668Z"
+            "created_at": "2025-12-19T07:42:32.111Z",
+            "updated_at": "2025-12-19T07:42:32.111Z"
           },
           {
             "id": "tscircuit#1498",
@@ -559,8 +465,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.809Z",
-            "updated_at": "2025-12-19T07:18:45.809Z"
+            "created_at": "2025-12-19T07:42:32.275Z",
+            "updated_at": "2025-12-19T07:42:32.275Z"
           },
           {
             "id": "tscircuit#79",
@@ -569,8 +475,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:45.934Z",
-            "updated_at": "2025-12-19T07:18:45.934Z"
+            "created_at": "2025-12-19T07:42:32.483Z",
+            "updated_at": "2025-12-19T07:42:32.483Z"
           },
           {
             "id": "tscircuit#78",
@@ -579,8 +485,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:46.122Z",
-            "updated_at": "2025-12-19T07:18:46.122Z"
+            "created_at": "2025-12-19T07:42:32.662Z",
+            "updated_at": "2025-12-19T07:42:32.662Z"
           },
           {
             "id": "tscircuit#176",
@@ -589,8 +495,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:46.286Z",
-            "updated_at": "2025-12-19T07:18:46.286Z"
+            "created_at": "2025-12-19T07:42:32.857Z",
+            "updated_at": "2025-12-19T07:42:32.857Z"
           },
           {
             "id": "tscircuit#939",
@@ -599,155 +505,58 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-19T07:18:46.554Z",
-            "updated_at": "2025-12-19T07:18:46.554Z"
+            "created_at": "2025-12-19T07:42:33.194Z",
+            "updated_at": "2025-12-19T07:42:33.194Z"
           }
         ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
+        "last_updated": "2025-12-19T07:42:43.196Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
+            "id": "golemcloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
+            "url": "https://github.com/golemcloud/golem/issues/2497",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-19T07:18:41.371Z",
-            "updated_at": "2025-12-19T07:18:41.371Z"
+            "created_at": "2025-12-19T07:42:04.805Z",
+            "updated_at": "2025-12-19T07:42:04.805Z"
           },
           {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-19T07:18:42.996Z",
-            "updated_at": "2025-12-19T07:18:42.996Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T07:42:12.095Z",
+            "updated_at": "2025-12-19T07:42:12.095Z"
           },
           {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-19T07:18:44.519Z",
-            "updated_at": "2025-12-19T07:18:44.519Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-19T07:18:45.003Z",
-            "updated_at": "2025-12-19T07:18:45.003Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-19T07:42:16.015Z",
+            "updated_at": "2025-12-19T07:42:16.015Z"
           }
         ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T07:18:41.293Z",
-            "updated_at": "2025-12-19T07:18:41.293Z"
-          },
-          {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
-            "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T07:18:42.996Z",
-            "updated_at": "2025-12-19T07:18:42.996Z"
-          }
-        ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T07:18:41.370Z",
-            "updated_at": "2025-12-19T07:18:41.370Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-19T07:18:42.996Z",
-            "updated_at": "2025-12-19T07:18:42.996Z"
-          }
-        ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-            "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-19T07:18:45.668Z",
-            "updated_at": "2025-12-19T07:18:45.668Z"
-          }
-        ],
-        "last_updated": "2025-12-19T07:19:21.427Z",
+        "last_updated": "2025-12-19T07:42:43.196Z",
         "scrape_duration_ms": 0
       }
     ]
