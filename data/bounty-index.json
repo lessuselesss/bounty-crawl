@@ -1,62 +1,114 @@
 {
-  "generated_at": "2025-12-20T14:14:50.446Z",
-  "total_organizations": 4,
+  "generated_at": "2025-12-20T14:34:14.390Z",
+  "total_organizations": 5,
   "total_bounties": 27,
   "total_value_usd": 2700,
   "version": "3.0.0",
   "organizations": {
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T14:14:04.603Z",
-          "updated_at": "2025-12-20T14:14:04.603Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T14:14:04.751Z",
-          "updated_at": "2025-12-20T14:14:04.751Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T14:14:04.938Z",
-          "updated_at": "2025-12-20T14:14:04.938Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T14:14:05.093Z",
-          "updated_at": "2025-12-20T14:14:05.093Z"
+          "created_at": "2025-12-20T14:33:48.763Z",
+          "updated_at": "2025-12-20T14:33:48.763Z"
         }
       ],
-      "last_updated": "2025-12-20T14:14:50.446Z",
+      "last_updated": "2025-12-20T14:34:14.389Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-20T14:33:48.149Z",
+          "updated_at": "2025-12-20T14:33:48.149Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T14:33:48.633Z",
+          "updated_at": "2025-12-20T14:33:48.633Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T14:33:48.784Z",
+          "updated_at": "2025-12-20T14:33:48.784Z"
+        }
+      ],
+      "last_updated": "2025-12-20T14:34:14.389Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-20T14:33:48.150Z",
+          "updated_at": "2025-12-20T14:33:48.150Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T14:33:48.633Z",
+          "updated_at": "2025-12-20T14:33:48.633Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T14:33:48.785Z",
+          "updated_at": "2025-12-20T14:33:48.785Z"
+        }
+      ],
+      "last_updated": "2025-12-20T14:34:14.389Z",
       "scrape_duration_ms": 0
     },
     "mediar-ai": {
@@ -74,8 +126,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T14:14:04.843Z",
-          "updated_at": "2025-12-20T14:14:04.843Z"
+          "created_at": "2025-12-20T14:33:48.760Z",
+          "updated_at": "2025-12-20T14:33:48.760Z"
         },
         {
           "id": "mediar-ai#1626",
@@ -86,8 +138,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T14:14:05.002Z",
-          "updated_at": "2025-12-20T14:14:05.002Z"
+          "created_at": "2025-12-20T14:33:48.892Z",
+          "updated_at": "2025-12-20T14:33:48.892Z"
         },
         {
           "id": "mediar-ai#1560",
@@ -96,8 +148,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.203Z",
-          "updated_at": "2025-12-20T14:14:05.203Z"
+          "created_at": "2025-12-20T14:33:49.373Z",
+          "updated_at": "2025-12-20T14:33:49.373Z"
         },
         {
           "id": "mediar-ai#1441",
@@ -106,8 +158,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.344Z",
-          "updated_at": "2025-12-20T14:14:05.344Z"
+          "created_at": "2025-12-20T14:33:50.394Z",
+          "updated_at": "2025-12-20T14:33:50.394Z"
         },
         {
           "id": "mediar-ai#1298",
@@ -116,8 +168,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.476Z",
-          "updated_at": "2025-12-20T14:14:05.476Z"
+          "created_at": "2025-12-20T14:33:52.727Z",
+          "updated_at": "2025-12-20T14:33:52.727Z"
         },
         {
           "id": "mediar-ai#1383",
@@ -126,8 +178,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.594Z",
-          "updated_at": "2025-12-20T14:14:05.594Z"
+          "created_at": "2025-12-20T14:33:56.905Z",
+          "updated_at": "2025-12-20T14:33:56.905Z"
         },
         {
           "id": "mediar-ai#1382",
@@ -136,8 +188,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.733Z",
-          "updated_at": "2025-12-20T14:14:05.733Z"
+          "created_at": "2025-12-20T14:34:01.264Z",
+          "updated_at": "2025-12-20T14:34:01.264Z"
         },
         {
           "id": "mediar-ai#1380",
@@ -146,8 +198,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:05.851Z",
-          "updated_at": "2025-12-20T14:14:05.851Z"
+          "created_at": "2025-12-20T14:34:03.516Z",
+          "updated_at": "2025-12-20T14:34:03.516Z"
         },
         {
           "id": "mediar-ai#1160",
@@ -156,8 +208,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:06.011Z",
-          "updated_at": "2025-12-20T14:14:06.011Z"
+          "created_at": "2025-12-20T14:34:04.051Z",
+          "updated_at": "2025-12-20T14:34:04.051Z"
         },
         {
           "id": "mediar-ai#1142",
@@ -166,57 +218,11 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:06.141Z",
-          "updated_at": "2025-12-20T14:14:06.141Z"
+          "created_at": "2025-12-20T14:34:04.293Z",
+          "updated_at": "2025-12-20T14:34:04.293Z"
         }
       ],
-      "last_updated": "2025-12-20T14:14:50.446Z",
-      "scrape_duration_ms": 0
-    },
-    "golemcloud": {
-      "display_name": "Golemcloud",
-      "url": "https://algora.io/golemcloud/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "golemcloud#2497",
-          "title": "add pgvector types to golem rdbms postgres",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/2497",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T14:14:07.575Z",
-          "updated_at": "2025-12-20T14:14:07.575Z"
-        },
-        {
-          "id": "golemcloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T14:14:09.308Z",
-          "updated_at": "2025-12-20T14:14:09.308Z"
-        },
-        {
-          "id": "golemcloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T14:14:11.551Z",
-          "updated_at": "2025-12-20T14:14:11.551Z"
-        }
-      ],
-      "last_updated": "2025-12-20T14:14:50.446Z",
+      "last_updated": "2025-12-20T14:34:14.389Z",
       "scrape_duration_ms": 0
     },
     "coollabsio": {
@@ -234,8 +240,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T14:14:07.575Z",
-          "updated_at": "2025-12-20T14:14:07.575Z"
+          "created_at": "2025-12-20T14:33:48.892Z",
+          "updated_at": "2025-12-20T14:33:48.892Z"
         },
         {
           "id": "coollabsio#7596",
@@ -246,8 +252,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T14:14:08.889Z",
-          "updated_at": "2025-12-20T14:14:08.889Z"
+          "created_at": "2025-12-20T14:33:49.373Z",
+          "updated_at": "2025-12-20T14:33:49.373Z"
         },
         {
           "id": "coollabsio#7529",
@@ -256,8 +262,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7529",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:09.937Z",
-          "updated_at": "2025-12-20T14:14:09.937Z"
+          "created_at": "2025-12-20T14:33:50.394Z",
+          "updated_at": "2025-12-20T14:33:50.394Z"
         },
         {
           "id": "coollabsio#7528",
@@ -266,8 +272,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7528",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:11.552Z",
-          "updated_at": "2025-12-20T14:14:11.552Z"
+          "created_at": "2025-12-20T14:33:52.726Z",
+          "updated_at": "2025-12-20T14:33:52.726Z"
         },
         {
           "id": "coollabsio#7473",
@@ -276,8 +282,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7473",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:11.669Z",
-          "updated_at": "2025-12-20T14:14:11.669Z"
+          "created_at": "2025-12-20T14:33:56.904Z",
+          "updated_at": "2025-12-20T14:33:56.904Z"
         },
         {
           "id": "coollabsio#7458",
@@ -286,8 +292,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7458",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:11.795Z",
-          "updated_at": "2025-12-20T14:14:11.795Z"
+          "created_at": "2025-12-20T14:34:01.263Z",
+          "updated_at": "2025-12-20T14:34:01.263Z"
         },
         {
           "id": "coollabsio#7423",
@@ -296,8 +302,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7423",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:11.911Z",
-          "updated_at": "2025-12-20T14:14:11.911Z"
+          "created_at": "2025-12-20T14:34:03.516Z",
+          "updated_at": "2025-12-20T14:34:03.516Z"
         },
         {
           "id": "coollabsio#6519",
@@ -306,8 +312,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:12.051Z",
-          "updated_at": "2025-12-20T14:14:12.051Z"
+          "created_at": "2025-12-20T14:34:04.050Z",
+          "updated_at": "2025-12-20T14:34:04.050Z"
         },
         {
           "id": "coollabsio#6894",
@@ -316,8 +322,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/6894",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:12.176Z",
-          "updated_at": "2025-12-20T14:14:12.176Z"
+          "created_at": "2025-12-20T14:34:04.262Z",
+          "updated_at": "2025-12-20T14:34:04.262Z"
         },
         {
           "id": "coollabsio#6566",
@@ -326,17 +332,17 @@
           "url": "https://github.com/coollabsio/coolify/issues/6566",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T14:14:12.311Z",
-          "updated_at": "2025-12-20T14:14:12.311Z"
+          "created_at": "2025-12-20T14:34:04.387Z",
+          "updated_at": "2025-12-20T14:34:04.387Z"
         }
       ],
-      "last_updated": "2025-12-20T14:14:50.446Z",
+      "last_updated": "2025-12-20T14:34:14.389Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 108022,
+    "processing_time_ms": 99367,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -360,8 +366,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T14:14:04.843Z",
-            "updated_at": "2025-12-20T14:14:04.843Z"
+            "created_at": "2025-12-20T14:33:48.760Z",
+            "updated_at": "2025-12-20T14:33:48.760Z"
           },
           {
             "id": "mediar-ai#1626",
@@ -372,8 +378,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T14:14:05.002Z",
-            "updated_at": "2025-12-20T14:14:05.002Z"
+            "created_at": "2025-12-20T14:33:48.892Z",
+            "updated_at": "2025-12-20T14:33:48.892Z"
           },
           {
             "id": "mediar-ai#1560",
@@ -382,8 +388,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.203Z",
-            "updated_at": "2025-12-20T14:14:05.203Z"
+            "created_at": "2025-12-20T14:33:49.373Z",
+            "updated_at": "2025-12-20T14:33:49.373Z"
           },
           {
             "id": "mediar-ai#1441",
@@ -392,8 +398,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.344Z",
-            "updated_at": "2025-12-20T14:14:05.344Z"
+            "created_at": "2025-12-20T14:33:50.394Z",
+            "updated_at": "2025-12-20T14:33:50.394Z"
           },
           {
             "id": "mediar-ai#1298",
@@ -402,8 +408,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.476Z",
-            "updated_at": "2025-12-20T14:14:05.476Z"
+            "created_at": "2025-12-20T14:33:52.727Z",
+            "updated_at": "2025-12-20T14:33:52.727Z"
           },
           {
             "id": "mediar-ai#1383",
@@ -412,8 +418,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.594Z",
-            "updated_at": "2025-12-20T14:14:05.594Z"
+            "created_at": "2025-12-20T14:33:56.905Z",
+            "updated_at": "2025-12-20T14:33:56.905Z"
           },
           {
             "id": "mediar-ai#1382",
@@ -422,8 +428,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.733Z",
-            "updated_at": "2025-12-20T14:14:05.733Z"
+            "created_at": "2025-12-20T14:34:01.264Z",
+            "updated_at": "2025-12-20T14:34:01.264Z"
           },
           {
             "id": "mediar-ai#1380",
@@ -432,8 +438,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:05.851Z",
-            "updated_at": "2025-12-20T14:14:05.851Z"
+            "created_at": "2025-12-20T14:34:03.516Z",
+            "updated_at": "2025-12-20T14:34:03.516Z"
           },
           {
             "id": "mediar-ai#1160",
@@ -442,8 +448,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:06.011Z",
-            "updated_at": "2025-12-20T14:14:06.011Z"
+            "created_at": "2025-12-20T14:34:04.051Z",
+            "updated_at": "2025-12-20T14:34:04.051Z"
           },
           {
             "id": "mediar-ai#1142",
@@ -452,11 +458,11 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:06.141Z",
-            "updated_at": "2025-12-20T14:14:06.141Z"
+            "created_at": "2025-12-20T14:34:04.293Z",
+            "updated_at": "2025-12-20T14:34:04.293Z"
           }
         ],
-        "last_updated": "2025-12-20T14:14:50.446Z",
+        "last_updated": "2025-12-20T14:34:14.389Z",
         "scrape_duration_ms": 0
       },
       {
@@ -475,8 +481,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T14:14:07.575Z",
-            "updated_at": "2025-12-20T14:14:07.575Z"
+            "created_at": "2025-12-20T14:33:48.892Z",
+            "updated_at": "2025-12-20T14:33:48.892Z"
           },
           {
             "id": "coollabsio#7596",
@@ -487,8 +493,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T14:14:08.889Z",
-            "updated_at": "2025-12-20T14:14:08.889Z"
+            "created_at": "2025-12-20T14:33:49.373Z",
+            "updated_at": "2025-12-20T14:33:49.373Z"
           },
           {
             "id": "coollabsio#7529",
@@ -497,8 +503,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7529",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:09.937Z",
-            "updated_at": "2025-12-20T14:14:09.937Z"
+            "created_at": "2025-12-20T14:33:50.394Z",
+            "updated_at": "2025-12-20T14:33:50.394Z"
           },
           {
             "id": "coollabsio#7528",
@@ -507,8 +513,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:11.552Z",
-            "updated_at": "2025-12-20T14:14:11.552Z"
+            "created_at": "2025-12-20T14:33:52.726Z",
+            "updated_at": "2025-12-20T14:33:52.726Z"
           },
           {
             "id": "coollabsio#7473",
@@ -517,8 +523,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:11.669Z",
-            "updated_at": "2025-12-20T14:14:11.669Z"
+            "created_at": "2025-12-20T14:33:56.904Z",
+            "updated_at": "2025-12-20T14:33:56.904Z"
           },
           {
             "id": "coollabsio#7458",
@@ -527,8 +533,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7458",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:11.795Z",
-            "updated_at": "2025-12-20T14:14:11.795Z"
+            "created_at": "2025-12-20T14:34:01.263Z",
+            "updated_at": "2025-12-20T14:34:01.263Z"
           },
           {
             "id": "coollabsio#7423",
@@ -537,8 +543,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:11.911Z",
-            "updated_at": "2025-12-20T14:14:11.911Z"
+            "created_at": "2025-12-20T14:34:03.516Z",
+            "updated_at": "2025-12-20T14:34:03.516Z"
           },
           {
             "id": "coollabsio#6519",
@@ -547,8 +553,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:12.051Z",
-            "updated_at": "2025-12-20T14:14:12.051Z"
+            "created_at": "2025-12-20T14:34:04.050Z",
+            "updated_at": "2025-12-20T14:34:04.050Z"
           },
           {
             "id": "coollabsio#6894",
@@ -557,8 +563,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/6894",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:12.176Z",
-            "updated_at": "2025-12-20T14:14:12.176Z"
+            "created_at": "2025-12-20T14:34:04.262Z",
+            "updated_at": "2025-12-20T14:34:04.262Z"
           },
           {
             "id": "coollabsio#6566",
@@ -567,113 +573,120 @@
             "url": "https://github.com/coollabsio/coolify/issues/6566",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T14:14:12.311Z",
-            "updated_at": "2025-12-20T14:14:12.311Z"
+            "created_at": "2025-12-20T14:34:04.387Z",
+            "updated_at": "2025-12-20T14:34:04.387Z"
           }
         ],
-        "last_updated": "2025-12-20T14:14:50.446Z",
+        "last_updated": "2025-12-20T14:34:14.389Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T14:14:04.603Z",
-            "updated_at": "2025-12-20T14:14:04.603Z"
-          },
-          {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T14:14:04.751Z",
-            "updated_at": "2025-12-20T14:14:04.751Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T14:14:04.938Z",
-            "updated_at": "2025-12-20T14:14:04.938Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T14:14:05.093Z",
-            "updated_at": "2025-12-20T14:14:05.093Z"
-          }
-        ],
-        "last_updated": "2025-12-20T14:14:50.446Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "golemcloud",
-        "display_name": "Golemcloud",
-        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "golemcloud#2497",
-            "title": "add pgvector types to golem rdbms postgres",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/2497",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T14:14:07.575Z",
-            "updated_at": "2025-12-20T14:14:07.575Z"
+            "created_at": "2025-12-20T14:33:48.149Z",
+            "updated_at": "2025-12-20T14:33:48.149Z"
           },
           {
-            "id": "golemcloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T14:14:09.308Z",
-            "updated_at": "2025-12-20T14:14:09.308Z"
+            "tags": [],
+            "created_at": "2025-12-20T14:33:48.633Z",
+            "updated_at": "2025-12-20T14:33:48.633Z"
           },
           {
-            "id": "golemcloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T14:14:11.551Z",
-            "updated_at": "2025-12-20T14:14:11.551Z"
+            "tags": [],
+            "created_at": "2025-12-20T14:33:48.784Z",
+            "updated_at": "2025-12-20T14:33:48.784Z"
           }
         ],
-        "last_updated": "2025-12-20T14:14:50.446Z",
+        "last_updated": "2025-12-20T14:34:14.389Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-20T14:33:48.150Z",
+            "updated_at": "2025-12-20T14:33:48.150Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-20T14:33:48.633Z",
+            "updated_at": "2025-12-20T14:33:48.633Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-20T14:33:48.785Z",
+            "updated_at": "2025-12-20T14:33:48.785Z"
+          }
+        ],
+        "last_updated": "2025-12-20T14:34:14.389Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-20T14:33:48.763Z",
+            "updated_at": "2025-12-20T14:33:48.763Z"
+          }
+        ],
+        "last_updated": "2025-12-20T14:34:14.389Z",
         "scrape_duration_ms": 0
       }
     ]
