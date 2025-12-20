@@ -1,326 +1,134 @@
 {
-  "generated_at": "2025-12-20T05:54:53.096Z",
-  "total_organizations": 5,
-  "total_bounties": 25,
-  "total_value_usd": 2500,
+  "generated_at": "2025-12-20T06:24:50.124Z",
+  "total_organizations": 3,
+  "total_bounties": 8,
+  "total_value_usd": 800,
   "version": "3.0.0",
   "organizations": {
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T05:54:06.229Z",
-          "updated_at": "2025-12-20T05:54:06.229Z"
+          "created_at": "2025-12-20T06:23:15.220Z",
+          "updated_at": "2025-12-20T06:23:15.220Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T06:23:16.513Z",
+          "updated_at": "2025-12-20T06:23:16.513Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-20T06:23:18.077Z",
+          "updated_at": "2025-12-20T06:23:18.077Z"
         }
       ],
-      "last_updated": "2025-12-20T05:54:53.096Z",
+      "last_updated": "2025-12-20T06:24:50.124Z",
       "scrape_duration_ms": 0
     },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T05:53:58.579Z",
-          "updated_at": "2025-12-20T05:53:58.579Z"
+          "created_at": "2025-12-20T06:24:21.073Z",
+          "updated_at": "2025-12-20T06:24:21.073Z"
         },
         {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-20T05:54:00.066Z",
-          "updated_at": "2025-12-20T05:54:00.066Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:04.573Z",
-          "updated_at": "2025-12-20T05:54:04.573Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:05.464Z",
-          "updated_at": "2025-12-20T05:54:05.464Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:07.315Z",
-          "updated_at": "2025-12-20T05:54:07.315Z"
-        },
-        {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:08.915Z",
-          "updated_at": "2025-12-20T05:54:08.915Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:10.740Z",
-          "updated_at": "2025-12-20T05:54:10.740Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:14.376Z",
-          "updated_at": "2025-12-20T05:54:14.376Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:18.468Z",
-          "updated_at": "2025-12-20T05:54:18.468Z"
-        },
-        {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:22.352Z",
-          "updated_at": "2025-12-20T05:54:22.352Z"
+          "created_at": "2025-12-20T06:24:21.264Z",
+          "updated_at": "2025-12-20T06:24:21.264Z"
         }
       ],
-      "last_updated": "2025-12-20T05:54:53.096Z",
+      "last_updated": "2025-12-20T06:24:50.124Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "golemcloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/golemcloud/golem/issues/2497",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-20T05:54:27.996Z",
-          "updated_at": "2025-12-20T05:54:27.996Z"
+          "created_at": "2025-12-20T06:24:21.089Z",
+          "updated_at": "2025-12-20T06:24:21.089Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:28.168Z",
-          "updated_at": "2025-12-20T05:54:28.168Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-20T06:24:21.313Z",
+          "updated_at": "2025-12-20T06:24:21.313Z"
         },
         {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:28.338Z",
-          "updated_at": "2025-12-20T05:54:28.338Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:28.568Z",
-          "updated_at": "2025-12-20T05:54:28.568Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:28.774Z",
-          "updated_at": "2025-12-20T05:54:28.774Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-20T06:24:21.443Z",
+          "updated_at": "2025-12-20T06:24:21.443Z"
         }
       ],
-      "last_updated": "2025-12-20T05:54:53.096Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T05:54:29.460Z",
-          "updated_at": "2025-12-20T05:54:29.460Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T05:54:29.685Z",
-          "updated_at": "2025-12-20T05:54:29.685Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:29.872Z",
-          "updated_at": "2025-12-20T05:54:29.872Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:30.085Z",
-          "updated_at": "2025-12-20T05:54:30.085Z"
-        }
-      ],
-      "last_updated": "2025-12-20T05:54:53.096Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-20T05:54:32.437Z",
-          "updated_at": "2025-12-20T05:54:32.437Z"
-        },
-        {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:32.620Z",
-          "updated_at": "2025-12-20T05:54:32.620Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:32.792Z",
-          "updated_at": "2025-12-20T05:54:32.792Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:32.812Z",
-          "updated_at": "2025-12-20T05:54:32.812Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-20T05:54:33.052Z",
-          "updated_at": "2025-12-20T05:54:33.052Z"
-        }
-      ],
-      "last_updated": "2025-12-20T05:54:53.096Z",
+      "last_updated": "2025-12-20T06:24:50.124Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 125277,
+    "processing_time_ms": 172997,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -329,320 +137,126 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T05:53:58.579Z",
-            "updated_at": "2025-12-20T05:53:58.579Z"
+            "created_at": "2025-12-20T06:23:15.220Z",
+            "updated_at": "2025-12-20T06:23:15.220Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T05:54:00.066Z",
-            "updated_at": "2025-12-20T05:54:00.066Z"
+            "created_at": "2025-12-20T06:23:16.513Z",
+            "updated_at": "2025-12-20T06:23:16.513Z"
           },
           {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T05:54:04.573Z",
-            "updated_at": "2025-12-20T05:54:04.573Z"
-          },
-          {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:05.464Z",
-            "updated_at": "2025-12-20T05:54:05.464Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:07.315Z",
-            "updated_at": "2025-12-20T05:54:07.315Z"
-          },
-          {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:08.915Z",
-            "updated_at": "2025-12-20T05:54:08.915Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:10.740Z",
-            "updated_at": "2025-12-20T05:54:10.740Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:14.376Z",
-            "updated_at": "2025-12-20T05:54:14.376Z"
-          },
-          {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:18.468Z",
-            "updated_at": "2025-12-20T05:54:18.468Z"
-          },
-          {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:22.352Z",
-            "updated_at": "2025-12-20T05:54:22.352Z"
+            "created_at": "2025-12-20T06:23:18.077Z",
+            "updated_at": "2025-12-20T06:23:18.077Z"
           }
         ],
-        "last_updated": "2025-12-20T05:54:53.096Z",
+        "last_updated": "2025-12-20T06:24:50.124Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "golemcloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/golemcloud/golem/issues/2497",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T05:54:27.996Z",
-            "updated_at": "2025-12-20T05:54:27.996Z"
+            "created_at": "2025-12-20T06:24:21.089Z",
+            "updated_at": "2025-12-20T06:24:21.089Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:28.168Z",
-            "updated_at": "2025-12-20T05:54:28.168Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-20T06:24:21.313Z",
+            "updated_at": "2025-12-20T06:24:21.313Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:28.338Z",
-            "updated_at": "2025-12-20T05:54:28.338Z"
-          },
-          {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:28.568Z",
-            "updated_at": "2025-12-20T05:54:28.568Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:28.774Z",
-            "updated_at": "2025-12-20T05:54:28.774Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-20T06:24:21.443Z",
+            "updated_at": "2025-12-20T06:24:21.443Z"
           }
         ],
-        "last_updated": "2025-12-20T05:54:53.096Z",
+        "last_updated": "2025-12-20T06:24:50.124Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-20T05:54:32.437Z",
-            "updated_at": "2025-12-20T05:54:32.437Z"
+            "created_at": "2025-12-20T06:24:21.073Z",
+            "updated_at": "2025-12-20T06:24:21.073Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-20T05:54:32.620Z",
-            "updated_at": "2025-12-20T05:54:32.620Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:32.792Z",
-            "updated_at": "2025-12-20T05:54:32.792Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:32.812Z",
-            "updated_at": "2025-12-20T05:54:32.812Z"
-          },
-          {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:33.052Z",
-            "updated_at": "2025-12-20T05:54:33.052Z"
+            "created_at": "2025-12-20T06:24:21.264Z",
+            "updated_at": "2025-12-20T06:24:21.264Z"
           }
         ],
-        "last_updated": "2025-12-20T05:54:53.096Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T05:54:29.460Z",
-            "updated_at": "2025-12-20T05:54:29.460Z"
-          },
-          {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T05:54:29.685Z",
-            "updated_at": "2025-12-20T05:54:29.685Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:29.872Z",
-            "updated_at": "2025-12-20T05:54:29.872Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-20T05:54:30.085Z",
-            "updated_at": "2025-12-20T05:54:30.085Z"
-          }
-        ],
-        "last_updated": "2025-12-20T05:54:53.096Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
-            "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-20T05:54:06.229Z",
-            "updated_at": "2025-12-20T05:54:06.229Z"
-          }
-        ],
-        "last_updated": "2025-12-20T05:54:53.096Z",
+        "last_updated": "2025-12-20T06:24:50.124Z",
         "scrape_duration_ms": 0
       }
     ]
