@@ -1,50 +1,142 @@
 {
-  "generated_at": "2025-12-21T10:16:59.493Z",
+  "generated_at": "2025-12-21T10:38:43.111Z",
   "total_organizations": 4,
-  "total_bounties": 27,
-  "total_value_usd": 2700,
+  "total_bounties": 19,
+  "total_value_usd": 1900,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-21T10:15:52.372Z",
-          "updated_at": "2025-12-21T10:15:52.372Z"
+          "created_at": "2025-12-21T10:38:12.457Z",
+          "updated_at": "2025-12-21T10:38:12.457Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:15:52.577Z",
-          "updated_at": "2025-12-21T10:15:52.577Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:15:52.759Z",
-          "updated_at": "2025-12-21T10:15:52.759Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:14.784Z",
+          "updated_at": "2025-12-21T10:38:14.784Z"
         }
       ],
-      "last_updated": "2025-12-21T10:16:59.493Z",
+      "last_updated": "2025-12-21T10:38:43.111Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:12.875Z",
+          "updated_at": "2025-12-21T10:38:12.875Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:14.784Z",
+          "updated_at": "2025-12-21T10:38:14.784Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-21T10:38:17.188Z",
+          "updated_at": "2025-12-21T10:38:17.188Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-21T10:38:17.592Z",
+          "updated_at": "2025-12-21T10:38:17.592Z"
+        }
+      ],
+      "last_updated": "2025-12-21T10:38:43.111Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "golemcloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/2497",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:17.189Z",
+          "updated_at": "2025-12-21T10:38:17.189Z"
+        },
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:18.221Z",
+          "updated_at": "2025-12-21T10:38:18.221Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-21T10:38:20.104Z",
+          "updated_at": "2025-12-21T10:38:20.104Z"
+        }
+      ],
+      "last_updated": "2025-12-21T10:38:43.111Z",
       "scrape_duration_ms": 0
     },
     "cal": {
@@ -62,8 +154,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-21T10:15:52.267Z",
-          "updated_at": "2025-12-21T10:15:52.267Z"
+          "created_at": "2025-12-21T10:38:17.474Z",
+          "updated_at": "2025-12-21T10:38:17.474Z"
         },
         {
           "id": "cal#18947",
@@ -72,8 +164,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:52.576Z",
-          "updated_at": "2025-12-21T10:15:52.576Z"
+          "created_at": "2025-12-21T10:38:18.220Z",
+          "updated_at": "2025-12-21T10:38:18.220Z"
         },
         {
           "id": "cal#18992",
@@ -82,8 +174,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:52.791Z",
-          "updated_at": "2025-12-21T10:15:52.791Z"
+          "created_at": "2025-12-21T10:38:20.145Z",
+          "updated_at": "2025-12-21T10:38:20.145Z"
         },
         {
           "id": "cal#18987",
@@ -92,8 +184,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:53.053Z",
-          "updated_at": "2025-12-21T10:15:53.053Z"
+          "created_at": "2025-12-21T10:38:20.957Z",
+          "updated_at": "2025-12-21T10:38:20.957Z"
         },
         {
           "id": "cal#16797",
@@ -102,8 +194,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:53.236Z",
-          "updated_at": "2025-12-21T10:15:53.236Z"
+          "created_at": "2025-12-21T10:38:22.391Z",
+          "updated_at": "2025-12-21T10:38:22.391Z"
         },
         {
           "id": "cal#16651",
@@ -112,8 +204,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:56.309Z",
-          "updated_at": "2025-12-21T10:15:56.309Z"
+          "created_at": "2025-12-21T10:38:24.264Z",
+          "updated_at": "2025-12-21T10:38:24.264Z"
         },
         {
           "id": "cal#8123",
@@ -122,8 +214,8 @@
           "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:15:59.685Z",
-          "updated_at": "2025-12-21T10:15:59.685Z"
+          "created_at": "2025-12-21T10:38:28.574Z",
+          "updated_at": "2025-12-21T10:38:28.574Z"
         },
         {
           "id": "cal#16378",
@@ -132,8 +224,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:16:00.590Z",
-          "updated_at": "2025-12-21T10:16:00.590Z"
+          "created_at": "2025-12-21T10:38:31.879Z",
+          "updated_at": "2025-12-21T10:38:31.879Z"
         },
         {
           "id": "cal#13532",
@@ -142,8 +234,8 @@
           "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:16:00.927Z",
-          "updated_at": "2025-12-21T10:16:00.927Z"
+          "created_at": "2025-12-21T10:38:32.333Z",
+          "updated_at": "2025-12-21T10:38:32.333Z"
         },
         {
           "id": "cal#11340",
@@ -152,183 +244,17 @@
           "url": "https://github.com/calcom/cal.com/issues/11340",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-21T10:16:01.155Z",
-          "updated_at": "2025-12-21T10:16:01.155Z"
+          "created_at": "2025-12-21T10:38:32.751Z",
+          "updated_at": "2025-12-21T10:38:32.751Z"
         }
       ],
-      "last_updated": "2025-12-21T10:16:59.493Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-21T10:16:09.951Z",
-          "updated_at": "2025-12-21T10:16:09.951Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-21T10:16:11.385Z",
-          "updated_at": "2025-12-21T10:16:11.385Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:11.786Z",
-          "updated_at": "2025-12-21T10:16:11.786Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:11.990Z",
-          "updated_at": "2025-12-21T10:16:11.990Z"
-        }
-      ],
-      "last_updated": "2025-12-21T10:16:59.493Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2025-12-21T10:16:11.224Z",
-          "updated_at": "2025-12-21T10:16:11.224Z"
-        },
-        {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:11.480Z",
-          "updated_at": "2025-12-21T10:16:11.480Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:11.762Z",
-          "updated_at": "2025-12-21T10:16:11.762Z"
-        },
-        {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:12.019Z",
-          "updated_at": "2025-12-21T10:16:12.019Z"
-        },
-        {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:12.226Z",
-          "updated_at": "2025-12-21T10:16:12.226Z"
-        },
-        {
-          "id": "ZIO#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:12.408Z",
-          "updated_at": "2025-12-21T10:16:12.408Z"
-        },
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:12.615Z",
-          "updated_at": "2025-12-21T10:16:12.615Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:12.893Z",
-          "updated_at": "2025-12-21T10:16:12.893Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:13.095Z",
-          "updated_at": "2025-12-21T10:16:13.095Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-21T10:16:13.279Z",
-          "updated_at": "2025-12-21T10:16:13.279Z"
-        }
-      ],
-      "last_updated": "2025-12-21T10:16:59.493Z",
+      "last_updated": "2025-12-21T10:38:43.111Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 126235,
+    "processing_time_ms": 105060,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -352,8 +278,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-21T10:15:52.267Z",
-            "updated_at": "2025-12-21T10:15:52.267Z"
+            "created_at": "2025-12-21T10:38:17.474Z",
+            "updated_at": "2025-12-21T10:38:17.474Z"
           },
           {
             "id": "cal#18947",
@@ -362,8 +288,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:52.576Z",
-            "updated_at": "2025-12-21T10:15:52.576Z"
+            "created_at": "2025-12-21T10:38:18.220Z",
+            "updated_at": "2025-12-21T10:38:18.220Z"
           },
           {
             "id": "cal#18992",
@@ -372,8 +298,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:52.791Z",
-            "updated_at": "2025-12-21T10:15:52.791Z"
+            "created_at": "2025-12-21T10:38:20.145Z",
+            "updated_at": "2025-12-21T10:38:20.145Z"
           },
           {
             "id": "cal#18987",
@@ -382,8 +308,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:53.053Z",
-            "updated_at": "2025-12-21T10:15:53.053Z"
+            "created_at": "2025-12-21T10:38:20.957Z",
+            "updated_at": "2025-12-21T10:38:20.957Z"
           },
           {
             "id": "cal#16797",
@@ -392,8 +318,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:53.236Z",
-            "updated_at": "2025-12-21T10:15:53.236Z"
+            "created_at": "2025-12-21T10:38:22.391Z",
+            "updated_at": "2025-12-21T10:38:22.391Z"
           },
           {
             "id": "cal#16651",
@@ -402,8 +328,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:56.309Z",
-            "updated_at": "2025-12-21T10:15:56.309Z"
+            "created_at": "2025-12-21T10:38:24.264Z",
+            "updated_at": "2025-12-21T10:38:24.264Z"
           },
           {
             "id": "cal#8123",
@@ -412,8 +338,8 @@
             "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:15:59.685Z",
-            "updated_at": "2025-12-21T10:15:59.685Z"
+            "created_at": "2025-12-21T10:38:28.574Z",
+            "updated_at": "2025-12-21T10:38:28.574Z"
           },
           {
             "id": "cal#16378",
@@ -422,8 +348,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:16:00.590Z",
-            "updated_at": "2025-12-21T10:16:00.590Z"
+            "created_at": "2025-12-21T10:38:31.879Z",
+            "updated_at": "2025-12-21T10:38:31.879Z"
           },
           {
             "id": "cal#13532",
@@ -432,8 +358,8 @@
             "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:16:00.927Z",
-            "updated_at": "2025-12-21T10:16:00.927Z"
+            "created_at": "2025-12-21T10:38:32.333Z",
+            "updated_at": "2025-12-21T10:38:32.333Z"
           },
           {
             "id": "cal#11340",
@@ -442,135 +368,22 @@
             "url": "https://github.com/calcom/cal.com/issues/11340",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:16:01.155Z",
-            "updated_at": "2025-12-21T10:16:01.155Z"
+            "created_at": "2025-12-21T10:38:32.751Z",
+            "updated_at": "2025-12-21T10:38:32.751Z"
           }
         ],
-        "last_updated": "2025-12-21T10:16:59.493Z",
+        "last_updated": "2025-12-21T10:38:43.111Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2025-12-21T10:16:11.224Z",
-            "updated_at": "2025-12-21T10:16:11.224Z"
-          },
-          {
-            "id": "ZIO#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:11.480Z",
-            "updated_at": "2025-12-21T10:16:11.480Z"
-          },
-          {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:11.762Z",
-            "updated_at": "2025-12-21T10:16:11.762Z"
-          },
-          {
-            "id": "ZIO#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:12.019Z",
-            "updated_at": "2025-12-21T10:16:12.019Z"
-          },
-          {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:12.226Z",
-            "updated_at": "2025-12-21T10:16:12.226Z"
-          },
-          {
-            "id": "ZIO#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:12.408Z",
-            "updated_at": "2025-12-21T10:16:12.408Z"
-          },
-          {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:12.615Z",
-            "updated_at": "2025-12-21T10:16:12.615Z"
-          },
-          {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:12.893Z",
-            "updated_at": "2025-12-21T10:16:12.893Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:13.095Z",
-            "updated_at": "2025-12-21T10:16:13.095Z"
-          },
-          {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:16:13.279Z",
-            "updated_at": "2025-12-21T10:16:13.279Z"
-          }
-        ],
-        "last_updated": "2025-12-21T10:16:59.493Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "mudlet",
+        "handle": "Mudlet",
         "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "mudlet#8030",
+            "id": "Mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
@@ -578,11 +391,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-21T10:16:09.951Z",
-            "updated_at": "2025-12-21T10:16:09.951Z"
+            "created_at": "2025-12-21T10:38:12.875Z",
+            "updated_at": "2025-12-21T10:38:12.875Z"
           },
           {
-            "id": "mudlet#3172",
+            "id": "Mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
@@ -590,74 +403,113 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-21T10:16:11.385Z",
-            "updated_at": "2025-12-21T10:16:11.385Z"
+            "created_at": "2025-12-21T10:38:14.784Z",
+            "updated_at": "2025-12-21T10:38:14.784Z"
           },
           {
-            "id": "mudlet#689",
+            "id": "Mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:16:11.786Z",
-            "updated_at": "2025-12-21T10:16:11.786Z"
+            "created_at": "2025-12-21T10:38:17.188Z",
+            "updated_at": "2025-12-21T10:38:17.188Z"
           },
           {
-            "id": "mudlet#5310",
+            "id": "Mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-21T10:16:11.990Z",
-            "updated_at": "2025-12-21T10:16:11.990Z"
+            "created_at": "2025-12-21T10:38:17.592Z",
+            "updated_at": "2025-12-21T10:38:17.592Z"
           }
         ],
-        "last_updated": "2025-12-21T10:16:59.493Z",
+        "last_updated": "2025-12-21T10:38:43.111Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "golemcloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/golemcloud/golem/issues/2497",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-21T10:15:52.372Z",
-            "updated_at": "2025-12-21T10:15:52.372Z"
+            "created_at": "2025-12-21T10:38:17.189Z",
+            "updated_at": "2025-12-21T10:38:17.189Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:15:52.577Z",
-            "updated_at": "2025-12-21T10:15:52.577Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-21T10:38:18.221Z",
+            "updated_at": "2025-12-21T10:38:18.221Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2025-12-21T10:15:52.759Z",
-            "updated_at": "2025-12-21T10:15:52.759Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-21T10:38:20.104Z",
+            "updated_at": "2025-12-21T10:38:20.104Z"
           }
         ],
-        "last_updated": "2025-12-21T10:16:59.493Z",
+        "last_updated": "2025-12-21T10:38:43.111Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-21T10:38:12.457Z",
+            "updated_at": "2025-12-21T10:38:12.457Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-21T10:38:14.784Z",
+            "updated_at": "2025-12-21T10:38:14.784Z"
+          }
+        ],
+        "last_updated": "2025-12-21T10:38:43.111Z",
         "scrape_duration_ms": 0
       }
     ]
