@@ -1,19 +1,102 @@
 {
-  "generated_at": "2025-12-24T19:17:39.001Z",
-  "total_organizations": 0,
-  "total_bounties": 0,
-  "total_value_usd": 0,
+  "generated_at": "2025-12-24T19:32:07.785Z",
+  "total_organizations": 1,
+  "total_bounties": 3,
+  "total_value_usd": 300,
   "version": "3.0.0",
-  "organizations": {},
+  "organizations": {
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-24T19:29:13.818Z",
+          "updated_at": "2025-12-24T19:29:13.818Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-24T19:29:13.933Z",
+          "updated_at": "2025-12-24T19:29:13.933Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-24T19:29:14.047Z",
+          "updated_at": "2025-12-24T19:29:14.047Z"
+        }
+      ],
+      "last_updated": "2025-12-24T19:32:07.785Z",
+      "scrape_duration_ms": 0
+    }
+  },
   "metadata": {
-    "success_rate": 0,
-    "processing_time_ms": 165703,
+    "success_rate": 1,
+    "processing_time_ms": 211365,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
   "stats": {
-    "avg_bounty_value": 0,
-    "median_bounty_value": 0,
-    "top_organizations": []
+    "avg_bounty_value": 100,
+    "median_bounty_value": 100,
+    "top_organizations": [
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-24T19:29:13.818Z",
+            "updated_at": "2025-12-24T19:29:13.818Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-24T19:29:13.933Z",
+            "updated_at": "2025-12-24T19:29:13.933Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-24T19:29:14.047Z",
+            "updated_at": "2025-12-24T19:29:14.047Z"
+          }
+        ],
+        "last_updated": "2025-12-24T19:32:07.785Z",
+        "scrape_duration_ms": 0
+      }
+    ]
   }
 }
