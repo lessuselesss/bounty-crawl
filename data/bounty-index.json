@@ -1,19 +1,980 @@
 {
-  "generated_at": "2025-12-25T08:25:41.900Z",
-  "total_organizations": 0,
-  "total_bounties": 0,
-  "total_value_usd": 0,
+  "generated_at": "2025-12-25T08:56:46.831Z",
+  "total_organizations": 7,
+  "total_bounties": 40,
+  "total_value_usd": 4000,
   "version": "3.0.0",
-  "organizations": {},
+  "organizations": {
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.926Z",
+          "updated_at": "2025-12-25T08:56:15.926Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.111Z",
+          "updated_at": "2025-12-25T08:56:16.111Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.725Z",
+          "updated_at": "2025-12-25T08:56:15.725Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.938Z",
+          "updated_at": "2025-12-25T08:56:15.938Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.160Z",
+          "updated_at": "2025-12-25T08:56:16.160Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.342Z",
+          "updated_at": "2025-12-25T08:56:16.342Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.543Z",
+          "updated_at": "2025-12-25T08:56:16.543Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:14.984Z",
+          "updated_at": "2025-12-25T08:56:14.984Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.200Z",
+          "updated_at": "2025-12-25T08:56:15.200Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.400Z",
+          "updated_at": "2025-12-25T08:56:15.400Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.605Z",
+          "updated_at": "2025-12-25T08:56:15.605Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.807Z",
+          "updated_at": "2025-12-25T08:56:15.807Z"
+        },
+        {
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.043Z",
+          "updated_at": "2025-12-25T08:56:16.043Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.209Z",
+          "updated_at": "2025-12-25T08:56:16.209Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.420Z",
+          "updated_at": "2025-12-25T08:56:16.420Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.624Z",
+          "updated_at": "2025-12-25T08:56:16.624Z"
+        },
+        {
+          "id": "cal#11340",
+          "title": "Add Lawpay as a payment option",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/11340",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.795Z",
+          "updated_at": "2025-12-25T08:56:16.795Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "mediar-ai": {
+      "display_name": "Mediar-ai",
+      "url": "https://algora.io/mediar-ai/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "mediar-ai#1626",
+          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.725Z",
+          "updated_at": "2025-12-25T08:56:15.725Z"
+        },
+        {
+          "id": "mediar-ai#1560",
+          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:15.898Z",
+          "updated_at": "2025-12-25T08:56:15.897Z"
+        },
+        {
+          "id": "mediar-ai#1441",
+          "title": "[bounty] general purpose scrapper",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.106Z",
+          "updated_at": "2025-12-25T08:56:16.106Z"
+        },
+        {
+          "id": "mediar-ai#1298",
+          "title": "[docs] document env var somewhere somehow ",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.305Z",
+          "updated_at": "2025-12-25T08:56:16.305Z"
+        },
+        {
+          "id": "mediar-ai#1383",
+          "title": "[bounty] implement deep research in search pipe",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.468Z",
+          "updated_at": "2025-12-25T08:56:16.468Z"
+        },
+        {
+          "id": "mediar-ai#1382",
+          "title": "[bounty] implement history for search pipe",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.707Z",
+          "updated_at": "2025-12-25T08:56:16.707Z"
+        },
+        {
+          "id": "mediar-ai#1380",
+          "title": "[bounty] implement device control and make --use-all-monitors work",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.878Z",
+          "updated_at": "2025-12-25T08:56:16.878Z"
+        },
+        {
+          "id": "mediar-ai#1160",
+          "title": "[bounty] list webcam, iphone, etc. in list-monitors",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.073Z",
+          "updated_at": "2025-12-25T08:56:17.073Z"
+        },
+        {
+          "id": "mediar-ai#1142",
+          "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.287Z",
+          "updated_at": "2025-12-25T08:56:17.287Z"
+        },
+        {
+          "id": "mediar-ai#1131",
+          "title": "[feature] improve visibility of pipes, audio, monitor devices",
+          "amount_usd": 100,
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.467Z",
+          "updated_at": "2025-12-25T08:56:17.467Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.059Z",
+          "updated_at": "2025-12-25T08:56:16.059Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.282Z",
+          "updated_at": "2025-12-25T08:56:16.282Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.431Z",
+          "updated_at": "2025-12-25T08:56:16.431Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:16.675Z",
+          "updated_at": "2025-12-25T08:56:16.675Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.022Z",
+          "updated_at": "2025-12-25T08:56:17.022Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.221Z",
+          "updated_at": "2025-12-25T08:56:17.221Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.413Z",
+          "updated_at": "2025-12-25T08:56:17.413Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.705Z",
+          "updated_at": "2025-12-25T08:56:17.705Z"
+        },
+        {
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:17.873Z",
+          "updated_at": "2025-12-25T08:56:17.873Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-25T08:56:18.198Z",
+          "updated_at": "2025-12-25T08:56:18.198Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "golemcloud#2497",
+          "title": "add pgvector types to golem rdbms postgres",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/2497",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-25T08:56:26.675Z",
+          "updated_at": "2025-12-25T08:56:26.675Z"
+        },
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-25T08:56:27.012Z",
+          "updated_at": "2025-12-25T08:56:27.012Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-25T08:56:27.228Z",
+          "updated_at": "2025-12-25T08:56:27.228Z"
+        }
+      ],
+      "last_updated": "2025-12-25T08:56:46.831Z",
+      "scrape_duration_ms": 0
+    }
+  },
   "metadata": {
-    "success_rate": 0,
-    "processing_time_ms": 131099,
+    "success_rate": 1,
+    "processing_time_ms": 264567,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
   "stats": {
-    "avg_bounty_value": 0,
-    "median_bounty_value": 0,
-    "top_organizations": []
+    "avg_bounty_value": 100,
+    "median_bounty_value": 100,
+    "top_organizations": [
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:14.984Z",
+            "updated_at": "2025-12-25T08:56:14.984Z"
+          },
+          {
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.200Z",
+            "updated_at": "2025-12-25T08:56:15.200Z"
+          },
+          {
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.400Z",
+            "updated_at": "2025-12-25T08:56:15.400Z"
+          },
+          {
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.605Z",
+            "updated_at": "2025-12-25T08:56:15.605Z"
+          },
+          {
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.807Z",
+            "updated_at": "2025-12-25T08:56:15.807Z"
+          },
+          {
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.043Z",
+            "updated_at": "2025-12-25T08:56:16.043Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.209Z",
+            "updated_at": "2025-12-25T08:56:16.209Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.420Z",
+            "updated_at": "2025-12-25T08:56:16.420Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.624Z",
+            "updated_at": "2025-12-25T08:56:16.624Z"
+          },
+          {
+            "id": "cal#11340",
+            "title": "Add Lawpay as a payment option",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/11340",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.795Z",
+            "updated_at": "2025-12-25T08:56:16.795Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mediar-ai",
+        "display_name": "Mediar-ai",
+        "url": "https://algora.io/mediar-ai/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "mediar-ai#1626",
+            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.725Z",
+            "updated_at": "2025-12-25T08:56:15.725Z"
+          },
+          {
+            "id": "mediar-ai#1560",
+            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.898Z",
+            "updated_at": "2025-12-25T08:56:15.897Z"
+          },
+          {
+            "id": "mediar-ai#1441",
+            "title": "[bounty] general purpose scrapper",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.106Z",
+            "updated_at": "2025-12-25T08:56:16.106Z"
+          },
+          {
+            "id": "mediar-ai#1298",
+            "title": "[docs] document env var somewhere somehow ",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.305Z",
+            "updated_at": "2025-12-25T08:56:16.305Z"
+          },
+          {
+            "id": "mediar-ai#1383",
+            "title": "[bounty] implement deep research in search pipe",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.468Z",
+            "updated_at": "2025-12-25T08:56:16.468Z"
+          },
+          {
+            "id": "mediar-ai#1382",
+            "title": "[bounty] implement history for search pipe",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.707Z",
+            "updated_at": "2025-12-25T08:56:16.707Z"
+          },
+          {
+            "id": "mediar-ai#1380",
+            "title": "[bounty] implement device control and make --use-all-monitors work",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.878Z",
+            "updated_at": "2025-12-25T08:56:16.878Z"
+          },
+          {
+            "id": "mediar-ai#1160",
+            "title": "[bounty] list webcam, iphone, etc. in list-monitors",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.073Z",
+            "updated_at": "2025-12-25T08:56:17.073Z"
+          },
+          {
+            "id": "mediar-ai#1142",
+            "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.287Z",
+            "updated_at": "2025-12-25T08:56:17.287Z"
+          },
+          {
+            "id": "mediar-ai#1131",
+            "title": "[feature] improve visibility of pipes, audio, monitor devices",
+            "amount_usd": 100,
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.467Z",
+            "updated_at": "2025-12-25T08:56:17.467Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.059Z",
+            "updated_at": "2025-12-25T08:56:16.059Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.282Z",
+            "updated_at": "2025-12-25T08:56:16.282Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.431Z",
+            "updated_at": "2025-12-25T08:56:16.431Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.675Z",
+            "updated_at": "2025-12-25T08:56:16.675Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.022Z",
+            "updated_at": "2025-12-25T08:56:17.022Z"
+          },
+          {
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/core/issues/1498",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.221Z",
+            "updated_at": "2025-12-25T08:56:17.221Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.413Z",
+            "updated_at": "2025-12-25T08:56:17.413Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.705Z",
+            "updated_at": "2025-12-25T08:56:17.705Z"
+          },
+          {
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:17.873Z",
+            "updated_at": "2025-12-25T08:56:17.873Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:18.198Z",
+            "updated_at": "2025-12-25T08:56:18.198Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.725Z",
+            "updated_at": "2025-12-25T08:56:15.725Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.938Z",
+            "updated_at": "2025-12-25T08:56:15.938Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.160Z",
+            "updated_at": "2025-12-25T08:56:16.160Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "golemcloud#2497",
+            "title": "add pgvector types to golem rdbms postgres",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/2497",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-25T08:56:26.675Z",
+            "updated_at": "2025-12-25T08:56:26.675Z"
+          },
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-25T08:56:27.012Z",
+            "updated_at": "2025-12-25T08:56:27.012Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-25T08:56:27.228Z",
+            "updated_at": "2025-12-25T08:56:27.228Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:15.926Z",
+            "updated_at": "2025-12-25T08:56:15.926Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.111Z",
+            "updated_at": "2025-12-25T08:56:16.111Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.342Z",
+            "updated_at": "2025-12-25T08:56:16.342Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-25T08:56:16.543Z",
+            "updated_at": "2025-12-25T08:56:16.543Z"
+          }
+        ],
+        "last_updated": "2025-12-25T08:56:46.831Z",
+        "scrape_duration_ms": 0
+      }
+    ]
   }
 }
