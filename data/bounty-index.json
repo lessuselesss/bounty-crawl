@@ -1,218 +1,108 @@
 {
-  "generated_at": "2025-12-27T09:51:45.621Z",
-  "total_organizations": 6,
-  "total_bounties": 33,
-  "total_value_usd": 3300,
+  "generated_at": "2025-12-27T10:16:29.026Z",
+  "total_organizations": 4,
+  "total_bounties": 17,
+  "total_value_usd": 1700,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T10:16:16.564Z",
+          "updated_at": "2025-12-27T10:16:16.564Z"
+        }
+      ],
+      "last_updated": "2025-12-27T10:16:29.026Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T10:16:16.495Z",
+          "updated_at": "2025-12-27T10:16:16.495Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T10:16:16.633Z",
+          "updated_at": "2025-12-27T10:16:16.633Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T10:16:16.744Z",
+          "updated_at": "2025-12-27T10:16:16.744Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T10:16:16.840Z",
+          "updated_at": "2025-12-27T10:16:16.840Z"
+        }
+      ],
+      "last_updated": "2025-12-27T10:16:29.026Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:50:50.413Z",
-          "updated_at": "2025-12-27T09:50:50.413Z"
+          "created_at": "2025-12-27T10:16:17.873Z",
+          "updated_at": "2025-12-27T10:16:17.873Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:50:50.582Z",
-          "updated_at": "2025-12-27T09:50:50.582Z"
+          "created_at": "2025-12-27T10:16:17.964Z",
+          "updated_at": "2025-12-27T10:16:17.964Z"
         }
       ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:50.414Z",
-          "updated_at": "2025-12-27T09:50:50.414Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:50.525Z",
-          "updated_at": "2025-12-27T09:50:50.525Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:50.667Z",
-          "updated_at": "2025-12-27T09:50:50.667Z"
-        }
-      ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.061Z",
-          "updated_at": "2025-12-27T09:50:58.061Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.181Z",
-          "updated_at": "2025-12-27T09:50:58.181Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.325Z",
-          "updated_at": "2025-12-27T09:50:58.325Z"
-        },
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.484Z",
-          "updated_at": "2025-12-27T09:50:58.484Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.648Z",
-          "updated_at": "2025-12-27T09:50:58.648Z"
-        },
-        {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.758Z",
-          "updated_at": "2025-12-27T09:50:58.758Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:58.881Z",
-          "updated_at": "2025-12-27T09:50:58.881Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:50:59.621Z",
-          "updated_at": "2025-12-27T09:50:59.621Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:01.913Z",
-          "updated_at": "2025-12-27T09:51:01.913Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:06.993Z",
-          "updated_at": "2025-12-27T09:51:06.993Z"
-        }
-      ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
-      "scrape_duration_ms": 0
-    },
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:23.570Z",
-          "updated_at": "2025-12-27T09:51:23.570Z"
-        },
-        {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:23.739Z",
-          "updated_at": "2025-12-27T09:51:23.739Z"
-        }
-      ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
+      "last_updated": "2025-12-27T10:16:29.026Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -228,8 +118,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:32.287Z",
-          "updated_at": "2025-12-27T09:51:32.287Z"
+          "created_at": "2025-12-27T10:16:17.914Z",
+          "updated_at": "2025-12-27T10:16:17.914Z"
         },
         {
           "id": "tscircuit#534",
@@ -238,8 +128,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:32.449Z",
-          "updated_at": "2025-12-27T09:51:32.449Z"
+          "created_at": "2025-12-27T10:16:18.026Z",
+          "updated_at": "2025-12-27T10:16:18.026Z"
         },
         {
           "id": "tscircuit#419",
@@ -248,8 +138,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:32.536Z",
-          "updated_at": "2025-12-27T09:51:32.536Z"
+          "created_at": "2025-12-27T10:16:18.093Z",
+          "updated_at": "2025-12-27T10:16:18.093Z"
         },
         {
           "id": "tscircuit#1081",
@@ -258,8 +148,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:32.689Z",
-          "updated_at": "2025-12-27T09:51:32.689Z"
+          "created_at": "2025-12-27T10:16:18.208Z",
+          "updated_at": "2025-12-27T10:16:18.208Z"
         },
         {
           "id": "tscircuit#386",
@@ -268,8 +158,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:32.863Z",
-          "updated_at": "2025-12-27T09:51:32.863Z"
+          "created_at": "2025-12-27T10:16:18.387Z",
+          "updated_at": "2025-12-27T10:16:18.387Z"
         },
         {
           "id": "tscircuit#1498",
@@ -278,8 +168,8 @@
           "url": "https://github.com/tscircuit/core/issues/1498",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:33.004Z",
-          "updated_at": "2025-12-27T09:51:33.004Z"
+          "created_at": "2025-12-27T10:16:18.507Z",
+          "updated_at": "2025-12-27T10:16:18.507Z"
         },
         {
           "id": "tscircuit#79",
@@ -288,8 +178,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:33.364Z",
-          "updated_at": "2025-12-27T09:51:33.364Z"
+          "created_at": "2025-12-27T10:16:18.625Z",
+          "updated_at": "2025-12-27T10:16:18.625Z"
         },
         {
           "id": "tscircuit#78",
@@ -298,8 +188,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:33.468Z",
-          "updated_at": "2025-12-27T09:51:33.468Z"
+          "created_at": "2025-12-27T10:16:18.733Z",
+          "updated_at": "2025-12-27T10:16:18.733Z"
         },
         {
           "id": "tscircuit#176",
@@ -308,8 +198,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:33.578Z",
-          "updated_at": "2025-12-27T09:51:33.578Z"
+          "created_at": "2025-12-27T10:16:18.827Z",
+          "updated_at": "2025-12-27T10:16:18.827Z"
         },
         {
           "id": "tscircuit#939",
@@ -318,87 +208,17 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T09:51:33.783Z",
-          "updated_at": "2025-12-27T09:51:33.783Z"
+          "created_at": "2025-12-27T10:16:19.024Z",
+          "updated_at": "2025-12-27T10:16:19.024Z"
         }
       ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
-      "scrape_duration_ms": 0
-    },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
-      "bounties": [
-        {
-          "id": "activepieces#10618",
-          "title": "Native AI Selector",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/10618",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.091Z",
-          "updated_at": "2025-12-27T09:51:35.091Z"
-        },
-        {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.214Z",
-          "updated_at": "2025-12-27T09:51:35.214Z"
-        },
-        {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.341Z",
-          "updated_at": "2025-12-27T09:51:35.341Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.485Z",
-          "updated_at": "2025-12-27T09:51:35.485Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.503Z",
-          "updated_at": "2025-12-27T09:51:35.503Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T09:51:35.620Z",
-          "updated_at": "2025-12-27T09:51:35.620Z"
-        }
-      ],
-      "last_updated": "2025-12-27T09:51:45.621Z",
+      "last_updated": "2025-12-27T10:16:29.026Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 126438,
+    "processing_time_ms": 114651,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -406,117 +226,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.061Z",
-            "updated_at": "2025-12-27T09:50:58.061Z"
-          },
-          {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.181Z",
-            "updated_at": "2025-12-27T09:50:58.181Z"
-          },
-          {
-            "id": "zio#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.325Z",
-            "updated_at": "2025-12-27T09:50:58.325Z"
-          },
-          {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.484Z",
-            "updated_at": "2025-12-27T09:50:58.484Z"
-          },
-          {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.648Z",
-            "updated_at": "2025-12-27T09:50:58.648Z"
-          },
-          {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.758Z",
-            "updated_at": "2025-12-27T09:50:58.758Z"
-          },
-          {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:58.881Z",
-            "updated_at": "2025-12-27T09:50:58.881Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:59.621Z",
-            "updated_at": "2025-12-27T09:50:59.621Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:51:01.913Z",
-            "updated_at": "2025-12-27T09:51:01.913Z"
-          },
-          {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:51:06.993Z",
-            "updated_at": "2025-12-27T09:51:06.993Z"
-          }
-        ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "tscircuit",
         "display_name": "Tscircuit",
@@ -531,8 +240,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:32.287Z",
-            "updated_at": "2025-12-27T09:51:32.287Z"
+            "created_at": "2025-12-27T10:16:17.914Z",
+            "updated_at": "2025-12-27T10:16:17.914Z"
           },
           {
             "id": "tscircuit#534",
@@ -541,8 +250,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:32.449Z",
-            "updated_at": "2025-12-27T09:51:32.449Z"
+            "created_at": "2025-12-27T10:16:18.026Z",
+            "updated_at": "2025-12-27T10:16:18.026Z"
           },
           {
             "id": "tscircuit#419",
@@ -551,8 +260,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:32.536Z",
-            "updated_at": "2025-12-27T09:51:32.536Z"
+            "created_at": "2025-12-27T10:16:18.093Z",
+            "updated_at": "2025-12-27T10:16:18.093Z"
           },
           {
             "id": "tscircuit#1081",
@@ -561,8 +270,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:32.689Z",
-            "updated_at": "2025-12-27T09:51:32.689Z"
+            "created_at": "2025-12-27T10:16:18.208Z",
+            "updated_at": "2025-12-27T10:16:18.208Z"
           },
           {
             "id": "tscircuit#386",
@@ -571,8 +280,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:32.863Z",
-            "updated_at": "2025-12-27T09:51:32.863Z"
+            "created_at": "2025-12-27T10:16:18.387Z",
+            "updated_at": "2025-12-27T10:16:18.387Z"
           },
           {
             "id": "tscircuit#1498",
@@ -581,8 +290,8 @@
             "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:33.004Z",
-            "updated_at": "2025-12-27T09:51:33.004Z"
+            "created_at": "2025-12-27T10:16:18.507Z",
+            "updated_at": "2025-12-27T10:16:18.507Z"
           },
           {
             "id": "tscircuit#79",
@@ -591,8 +300,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:33.364Z",
-            "updated_at": "2025-12-27T09:51:33.364Z"
+            "created_at": "2025-12-27T10:16:18.625Z",
+            "updated_at": "2025-12-27T10:16:18.625Z"
           },
           {
             "id": "tscircuit#78",
@@ -601,8 +310,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:33.468Z",
-            "updated_at": "2025-12-27T09:51:33.468Z"
+            "created_at": "2025-12-27T10:16:18.733Z",
+            "updated_at": "2025-12-27T10:16:18.733Z"
           },
           {
             "id": "tscircuit#176",
@@ -611,8 +320,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:33.578Z",
-            "updated_at": "2025-12-27T09:51:33.578Z"
+            "created_at": "2025-12-27T10:16:18.827Z",
+            "updated_at": "2025-12-27T10:16:18.827Z"
           },
           {
             "id": "tscircuit#939",
@@ -621,185 +330,114 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:33.783Z",
-            "updated_at": "2025-12-27T09:51:33.783Z"
+            "created_at": "2025-12-27T10:16:19.024Z",
+            "updated_at": "2025-12-27T10:16:19.024Z"
           }
         ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
+        "last_updated": "2025-12-27T10:16:29.026Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "activepieces#10618",
-            "title": "Native AI Selector",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/10618",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:35.091Z",
-            "updated_at": "2025-12-27T09:51:35.091Z"
+            "created_at": "2025-12-27T10:16:16.495Z",
+            "updated_at": "2025-12-27T10:16:16.495Z"
           },
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:35.214Z",
-            "updated_at": "2025-12-27T09:51:35.214Z"
+            "created_at": "2025-12-27T10:16:16.633Z",
+            "updated_at": "2025-12-27T10:16:16.633Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:35.341Z",
-            "updated_at": "2025-12-27T09:51:35.341Z"
+            "created_at": "2025-12-27T10:16:16.744Z",
+            "updated_at": "2025-12-27T10:16:16.744Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:35.485Z",
-            "updated_at": "2025-12-27T09:51:35.485Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:51:35.503Z",
-            "updated_at": "2025-12-27T09:51:35.503Z"
-          },
-          {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:51:35.620Z",
-            "updated_at": "2025-12-27T09:51:35.620Z"
+            "created_at": "2025-12-27T10:16:16.840Z",
+            "updated_at": "2025-12-27T10:16:16.840Z"
           }
         ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
+        "last_updated": "2025-12-27T10:16:29.026Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:50.414Z",
-            "updated_at": "2025-12-27T09:50:50.414Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:50.525Z",
-            "updated_at": "2025-12-27T09:50:50.525Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:50:50.667Z",
-            "updated_at": "2025-12-27T09:50:50.667Z"
-          }
-        ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:50:50.413Z",
-            "updated_at": "2025-12-27T09:50:50.413Z"
+            "created_at": "2025-12-27T10:16:17.873Z",
+            "updated_at": "2025-12-27T10:16:17.873Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:50:50.582Z",
-            "updated_at": "2025-12-27T09:50:50.582Z"
+            "created_at": "2025-12-27T10:16:17.964Z",
+            "updated_at": "2025-12-27T10:16:17.964Z"
           }
         ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
+        "last_updated": "2025-12-27T10:16:29.026Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T09:51:23.570Z",
-            "updated_at": "2025-12-27T09:51:23.570Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T09:51:23.739Z",
-            "updated_at": "2025-12-27T09:51:23.739Z"
+            "created_at": "2025-12-27T10:16:16.564Z",
+            "updated_at": "2025-12-27T10:16:16.564Z"
           }
         ],
-        "last_updated": "2025-12-27T09:51:45.621Z",
+        "last_updated": "2025-12-27T10:16:29.026Z",
         "scrape_duration_ms": 0
       }
     ]
