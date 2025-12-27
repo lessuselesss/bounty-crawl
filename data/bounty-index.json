@@ -1,28 +1,38 @@
 {
-  "generated_at": "2025-12-27T17:15:07.130Z",
-  "total_organizations": 7,
-  "total_bounties": 42,
-  "total_value_usd": 4200,
+  "generated_at": "2025-12-27T17:33:21.615Z",
+  "total_organizations": 3,
+  "total_bounties": 15,
+  "total_value_usd": 1500,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:41.202Z",
-          "updated_at": "2025-12-27T17:14:41.202Z"
+          "created_at": "2025-12-27T17:32:53.484Z",
+          "updated_at": "2025-12-27T17:32:53.484Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-27T17:32:54.837Z",
+          "updated_at": "2025-12-27T17:32:54.837Z"
         }
       ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
+      "last_updated": "2025-12-27T17:33:21.615Z",
       "scrape_duration_ms": 0
     },
     "prisma": {
@@ -38,8 +48,8 @@
           "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:41.201Z",
-          "updated_at": "2025-12-27T17:14:41.201Z"
+          "created_at": "2025-12-27T17:32:53.569Z",
+          "updated_at": "2025-12-27T17:32:53.569Z"
         },
         {
           "id": "prisma#8548",
@@ -48,8 +58,8 @@
           "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:45.522Z",
-          "updated_at": "2025-12-27T17:14:45.522Z"
+          "created_at": "2025-12-27T17:32:54.920Z",
+          "updated_at": "2025-12-27T17:32:54.920Z"
         },
         {
           "id": "prisma#7771",
@@ -58,271 +68,11 @@
           "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:47.863Z",
-          "updated_at": "2025-12-27T17:14:47.863Z"
+          "created_at": "2025-12-27T17:32:57.222Z",
+          "updated_at": "2025-12-27T17:32:57.222Z"
         }
       ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
-      "scrape_duration_ms": 0
-    },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:41.201Z",
-          "updated_at": "2025-12-27T17:14:41.201Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:45.522Z",
-          "updated_at": "2025-12-27T17:14:45.522Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:47.863Z",
-          "updated_at": "2025-12-27T17:14:47.863Z"
-        }
-      ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
-      "scrape_duration_ms": 0
-    },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:41.201Z",
-          "updated_at": "2025-12-27T17:14:41.201Z"
-        },
-        {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:45.521Z",
-          "updated_at": "2025-12-27T17:14:45.521Z"
-        },
-        {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:47.863Z",
-          "updated_at": "2025-12-27T17:14:47.863Z"
-        },
-        {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.146Z",
-          "updated_at": "2025-12-27T17:14:48.146Z"
-        },
-        {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.260Z",
-          "updated_at": "2025-12-27T17:14:48.260Z"
-        },
-        {
-          "id": "mediar-ai#1382",
-          "title": "[bounty] implement history for search pipe",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.365Z",
-          "updated_at": "2025-12-27T17:14:48.365Z"
-        },
-        {
-          "id": "mediar-ai#1380",
-          "title": "[bounty] implement device control and make --use-all-monitors work",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.478Z",
-          "updated_at": "2025-12-27T17:14:48.478Z"
-        },
-        {
-          "id": "mediar-ai#1160",
-          "title": "[bounty] list webcam, iphone, etc. in list-monitors",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.572Z",
-          "updated_at": "2025-12-27T17:14:48.572Z"
-        },
-        {
-          "id": "mediar-ai#1142",
-          "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.662Z",
-          "updated_at": "2025-12-27T17:14:48.662Z"
-        },
-        {
-          "id": "mediar-ai#1131",
-          "title": "[feature] improve visibility of pipes, audio, monitor devices",
-          "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.756Z",
-          "updated_at": "2025-12-27T17:14:48.756Z"
-        }
-      ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:41.200Z",
-          "updated_at": "2025-12-27T17:14:41.200Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:45.522Z",
-          "updated_at": "2025-12-27T17:14:45.522Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:47.863Z",
-          "updated_at": "2025-12-27T17:14:47.863Z"
-        },
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.148Z",
-          "updated_at": "2025-12-27T17:14:48.148Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.267Z",
-          "updated_at": "2025-12-27T17:14:48.267Z"
-        },
-        {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.376Z",
-          "updated_at": "2025-12-27T17:14:48.376Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.473Z",
-          "updated_at": "2025-12-27T17:14:48.473Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.585Z",
-          "updated_at": "2025-12-27T17:14:48.585Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.735Z",
-          "updated_at": "2025-12-27T17:14:48.735Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:48.829Z",
-          "updated_at": "2025-12-27T17:14:48.829Z"
-        }
-      ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
+      "last_updated": "2025-12-27T17:33:21.615Z",
       "scrape_duration_ms": 0
     },
     "ZIO": {
@@ -338,8 +88,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:41.201Z",
-          "updated_at": "2025-12-27T17:14:41.201Z"
+          "created_at": "2025-12-27T17:32:53.569Z",
+          "updated_at": "2025-12-27T17:32:53.569Z"
         },
         {
           "id": "ZIO#518",
@@ -348,8 +98,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:45.522Z",
-          "updated_at": "2025-12-27T17:14:45.522Z"
+          "created_at": "2025-12-27T17:32:54.838Z",
+          "updated_at": "2025-12-27T17:32:54.838Z"
         },
         {
           "id": "ZIO#517",
@@ -358,8 +108,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:47.863Z",
-          "updated_at": "2025-12-27T17:14:47.863Z"
+          "created_at": "2025-12-27T17:32:57.222Z",
+          "updated_at": "2025-12-27T17:32:57.222Z"
         },
         {
           "id": "ZIO#516",
@@ -368,8 +118,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/516",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.148Z",
-          "updated_at": "2025-12-27T17:14:48.148Z"
+          "created_at": "2025-12-27T17:33:02.954Z",
+          "updated_at": "2025-12-27T17:33:02.954Z"
         },
         {
           "id": "ZIO#471",
@@ -378,8 +128,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/471",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.267Z",
-          "updated_at": "2025-12-27T17:14:48.267Z"
+          "created_at": "2025-12-27T17:33:05.098Z",
+          "updated_at": "2025-12-27T17:33:05.098Z"
         },
         {
           "id": "ZIO#514",
@@ -388,8 +138,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/514",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.375Z",
-          "updated_at": "2025-12-27T17:14:48.375Z"
+          "created_at": "2025-12-27T17:33:10.109Z",
+          "updated_at": "2025-12-27T17:33:10.109Z"
         },
         {
           "id": "ZIO#3697",
@@ -398,8 +148,8 @@
           "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.472Z",
-          "updated_at": "2025-12-27T17:14:48.472Z"
+          "created_at": "2025-12-27T17:33:11.090Z",
+          "updated_at": "2025-12-27T17:33:11.090Z"
         },
         {
           "id": "ZIO#709",
@@ -408,8 +158,8 @@
           "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.585Z",
-          "updated_at": "2025-12-27T17:14:48.585Z"
+          "created_at": "2025-12-27T17:33:11.340Z",
+          "updated_at": "2025-12-27T17:33:11.340Z"
         },
         {
           "id": "ZIO#3472",
@@ -418,8 +168,8 @@
           "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.736Z",
-          "updated_at": "2025-12-27T17:14:48.736Z"
+          "created_at": "2025-12-27T17:33:11.495Z",
+          "updated_at": "2025-12-27T17:33:11.495Z"
         },
         {
           "id": "ZIO#9810",
@@ -428,77 +178,17 @@
           "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-27T17:14:48.830Z",
-          "updated_at": "2025-12-27T17:14:48.830Z"
+          "created_at": "2025-12-27T17:33:11.613Z",
+          "updated_at": "2025-12-27T17:33:11.613Z"
         }
       ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
-      "scrape_duration_ms": 0
-    },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:56.711Z",
-          "updated_at": "2025-12-27T17:14:56.711Z"
-        },
-        {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:56.800Z",
-          "updated_at": "2025-12-27T17:14:56.800Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:56.895Z",
-          "updated_at": "2025-12-27T17:14:56.895Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:56.991Z",
-          "updated_at": "2025-12-27T17:14:56.991Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-27T17:14:57.096Z",
-          "updated_at": "2025-12-27T17:14:57.096Z"
-        }
-      ],
-      "last_updated": "2025-12-27T17:15:07.130Z",
+      "last_updated": "2025-12-27T17:33:21.615Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 113855,
+    "processing_time_ms": 107603,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -506,228 +196,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:41.201Z",
-            "updated_at": "2025-12-27T17:14:41.201Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:45.521Z",
-            "updated_at": "2025-12-27T17:14:45.521Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:47.863Z",
-            "updated_at": "2025-12-27T17:14:47.863Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.146Z",
-            "updated_at": "2025-12-27T17:14:48.146Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.260Z",
-            "updated_at": "2025-12-27T17:14:48.260Z"
-          },
-          {
-            "id": "mediar-ai#1382",
-            "title": "[bounty] implement history for search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.365Z",
-            "updated_at": "2025-12-27T17:14:48.365Z"
-          },
-          {
-            "id": "mediar-ai#1380",
-            "title": "[bounty] implement device control and make --use-all-monitors work",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.478Z",
-            "updated_at": "2025-12-27T17:14:48.478Z"
-          },
-          {
-            "id": "mediar-ai#1160",
-            "title": "[bounty] list webcam, iphone, etc. in list-monitors",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.572Z",
-            "updated_at": "2025-12-27T17:14:48.572Z"
-          },
-          {
-            "id": "mediar-ai#1142",
-            "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.662Z",
-            "updated_at": "2025-12-27T17:14:48.662Z"
-          },
-          {
-            "id": "mediar-ai#1131",
-            "title": "[feature] improve visibility of pipes, audio, monitor devices",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.756Z",
-            "updated_at": "2025-12-27T17:14:48.756Z"
-          }
-        ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:41.200Z",
-            "updated_at": "2025-12-27T17:14:41.200Z"
-          },
-          {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:45.522Z",
-            "updated_at": "2025-12-27T17:14:45.522Z"
-          },
-          {
-            "id": "zio#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:47.863Z",
-            "updated_at": "2025-12-27T17:14:47.863Z"
-          },
-          {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.148Z",
-            "updated_at": "2025-12-27T17:14:48.148Z"
-          },
-          {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.267Z",
-            "updated_at": "2025-12-27T17:14:48.267Z"
-          },
-          {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.376Z",
-            "updated_at": "2025-12-27T17:14:48.376Z"
-          },
-          {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.473Z",
-            "updated_at": "2025-12-27T17:14:48.473Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.585Z",
-            "updated_at": "2025-12-27T17:14:48.585Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.735Z",
-            "updated_at": "2025-12-27T17:14:48.735Z"
-          },
-          {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:48.829Z",
-            "updated_at": "2025-12-27T17:14:48.829Z"
-          }
-        ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "ZIO",
         "display_name": "ZIO",
@@ -742,8 +210,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:41.201Z",
-            "updated_at": "2025-12-27T17:14:41.201Z"
+            "created_at": "2025-12-27T17:32:53.569Z",
+            "updated_at": "2025-12-27T17:32:53.569Z"
           },
           {
             "id": "ZIO#518",
@@ -752,8 +220,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:45.522Z",
-            "updated_at": "2025-12-27T17:14:45.522Z"
+            "created_at": "2025-12-27T17:32:54.838Z",
+            "updated_at": "2025-12-27T17:32:54.838Z"
           },
           {
             "id": "ZIO#517",
@@ -762,8 +230,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:47.863Z",
-            "updated_at": "2025-12-27T17:14:47.863Z"
+            "created_at": "2025-12-27T17:32:57.222Z",
+            "updated_at": "2025-12-27T17:32:57.222Z"
           },
           {
             "id": "ZIO#516",
@@ -772,8 +240,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.148Z",
-            "updated_at": "2025-12-27T17:14:48.148Z"
+            "created_at": "2025-12-27T17:33:02.954Z",
+            "updated_at": "2025-12-27T17:33:02.954Z"
           },
           {
             "id": "ZIO#471",
@@ -782,8 +250,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.267Z",
-            "updated_at": "2025-12-27T17:14:48.267Z"
+            "created_at": "2025-12-27T17:33:05.098Z",
+            "updated_at": "2025-12-27T17:33:05.098Z"
           },
           {
             "id": "ZIO#514",
@@ -792,8 +260,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/514",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.375Z",
-            "updated_at": "2025-12-27T17:14:48.375Z"
+            "created_at": "2025-12-27T17:33:10.109Z",
+            "updated_at": "2025-12-27T17:33:10.109Z"
           },
           {
             "id": "ZIO#3697",
@@ -802,8 +270,8 @@
             "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.472Z",
-            "updated_at": "2025-12-27T17:14:48.472Z"
+            "created_at": "2025-12-27T17:33:11.090Z",
+            "updated_at": "2025-12-27T17:33:11.090Z"
           },
           {
             "id": "ZIO#709",
@@ -812,8 +280,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.585Z",
-            "updated_at": "2025-12-27T17:14:48.585Z"
+            "created_at": "2025-12-27T17:33:11.340Z",
+            "updated_at": "2025-12-27T17:33:11.340Z"
           },
           {
             "id": "ZIO#3472",
@@ -822,8 +290,8 @@
             "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.736Z",
-            "updated_at": "2025-12-27T17:14:48.736Z"
+            "created_at": "2025-12-27T17:33:11.495Z",
+            "updated_at": "2025-12-27T17:33:11.495Z"
           },
           {
             "id": "ZIO#9810",
@@ -832,72 +300,11 @@
             "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:48.830Z",
-            "updated_at": "2025-12-27T17:14:48.830Z"
+            "created_at": "2025-12-27T17:33:11.613Z",
+            "updated_at": "2025-12-27T17:33:11.613Z"
           }
         ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:56.711Z",
-            "updated_at": "2025-12-27T17:14:56.711Z"
-          },
-          {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:56.800Z",
-            "updated_at": "2025-12-27T17:14:56.800Z"
-          },
-          {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:56.895Z",
-            "updated_at": "2025-12-27T17:14:56.895Z"
-          },
-          {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:56.991Z",
-            "updated_at": "2025-12-27T17:14:56.991Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:57.096Z",
-            "updated_at": "2025-12-27T17:14:57.096Z"
-          }
-        ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
+        "last_updated": "2025-12-27T17:33:21.615Z",
         "scrape_duration_ms": 0
       },
       {
@@ -914,8 +321,8 @@
             "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:41.201Z",
-            "updated_at": "2025-12-27T17:14:41.201Z"
+            "created_at": "2025-12-27T17:32:53.569Z",
+            "updated_at": "2025-12-27T17:32:53.569Z"
           },
           {
             "id": "prisma#8548",
@@ -924,8 +331,8 @@
             "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:45.522Z",
-            "updated_at": "2025-12-27T17:14:45.522Z"
+            "created_at": "2025-12-27T17:32:54.920Z",
+            "updated_at": "2025-12-27T17:32:54.920Z"
           },
           {
             "id": "prisma#7771",
@@ -934,73 +341,42 @@
             "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:47.863Z",
-            "updated_at": "2025-12-27T17:14:47.863Z"
+            "created_at": "2025-12-27T17:32:57.222Z",
+            "updated_at": "2025-12-27T17:32:57.222Z"
           }
         ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
+        "last_updated": "2025-12-27T17:33:21.615Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:41.201Z",
-            "updated_at": "2025-12-27T17:14:41.201Z"
+            "created_at": "2025-12-27T17:32:53.484Z",
+            "updated_at": "2025-12-27T17:32:53.484Z"
           },
           {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-27T17:14:45.522Z",
-            "updated_at": "2025-12-27T17:14:45.522Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:47.863Z",
-            "updated_at": "2025-12-27T17:14:47.863Z"
+            "created_at": "2025-12-27T17:32:54.837Z",
+            "updated_at": "2025-12-27T17:32:54.837Z"
           }
         ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
-            "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-27T17:14:41.202Z",
-            "updated_at": "2025-12-27T17:14:41.202Z"
-          }
-        ],
-        "last_updated": "2025-12-27T17:15:07.130Z",
+        "last_updated": "2025-12-27T17:33:21.615Z",
         "scrape_duration_ms": 0
       }
     ]
