@@ -1,28 +1,232 @@
 {
-  "generated_at": "2025-12-28T08:21:26.828Z",
-  "total_organizations": 3,
-  "total_bounties": 14,
-  "total_value_usd": 1400,
+  "generated_at": "2025-12-28T08:48:46.989Z",
+  "total_organizations": 7,
+  "total_bounties": 30,
+  "total_value_usd": 3000,
   "version": "3.0.0",
   "organizations": {
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:10.649Z",
+          "updated_at": "2025-12-28T08:48:10.649Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:10.853Z",
+          "updated_at": "2025-12-28T08:48:10.853Z"
+        }
+      ],
+      "last_updated": "2025-12-28T08:48:46.989Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-28T08:48:10.751Z",
+          "updated_at": "2025-12-28T08:48:10.751Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-28T08:48:10.983Z",
+          "updated_at": "2025-12-28T08:48:10.983Z"
+        }
+      ],
+      "last_updated": "2025-12-28T08:48:46.989Z",
+      "scrape_duration_ms": 0
+    },
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:55.739Z",
-          "updated_at": "2025-12-28T08:20:55.739Z"
+          "created_at": "2025-12-28T08:48:16.519Z",
+          "updated_at": "2025-12-28T08:48:16.519Z"
         }
       ],
-      "last_updated": "2025-12-28T08:21:26.828Z",
+      "last_updated": "2025-12-28T08:48:46.989Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:16.552Z",
+          "updated_at": "2025-12-28T08:48:16.552Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:16.751Z",
+          "updated_at": "2025-12-28T08:48:16.751Z"
+        }
+      ],
+      "last_updated": "2025-12-28T08:48:46.989Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:34.935Z",
+          "updated_at": "2025-12-28T08:48:34.935Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:35.113Z",
+          "updated_at": "2025-12-28T08:48:35.113Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:35.259Z",
+          "updated_at": "2025-12-28T08:48:35.259Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:35.444Z",
+          "updated_at": "2025-12-28T08:48:35.444Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:35.747Z",
+          "updated_at": "2025-12-28T08:48:35.747Z"
+        },
+        {
+          "id": "tscircuit#1498",
+          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/core/issues/1498",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:36.007Z",
+          "updated_at": "2025-12-28T08:48:36.007Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:36.201Z",
+          "updated_at": "2025-12-28T08:48:36.201Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:36.371Z",
+          "updated_at": "2025-12-28T08:48:36.371Z"
+        },
+        {
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:36.557Z",
+          "updated_at": "2025-12-28T08:48:36.557Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Issue #939",
+          "amount_usd": 100,
+          "url": "github.com/tscircuit/tscircuit/issues/939",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-28T08:48:36.577Z",
+          "updated_at": "2025-12-28T08:48:36.577Z"
+        }
+      ],
+      "last_updated": "2025-12-28T08:48:46.989Z",
       "scrape_duration_ms": 0
     },
     "permitio": {
@@ -38,8 +242,8 @@
           "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:55.738Z",
-          "updated_at": "2025-12-28T08:20:55.738Z"
+          "created_at": "2025-12-28T08:48:36.529Z",
+          "updated_at": "2025-12-28T08:48:36.529Z"
         },
         {
           "id": "permitio#677",
@@ -48,137 +252,137 @@
           "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:55.940Z",
-          "updated_at": "2025-12-28T08:20:55.940Z"
+          "created_at": "2025-12-28T08:48:36.740Z",
+          "updated_at": "2025-12-28T08:48:36.740Z"
         },
         {
           "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "title": "Issue #634",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
+          "url": "github.com/permitio/opal/issues/634",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:56.086Z",
-          "updated_at": "2025-12-28T08:20:56.086Z"
+          "created_at": "2025-12-28T08:48:36.760Z",
+          "updated_at": "2025-12-28T08:48:36.760Z"
         }
       ],
-      "last_updated": "2025-12-28T08:21:26.828Z",
+      "last_updated": "2025-12-28T08:48:46.989Z",
       "scrape_duration_ms": 0
     },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:55.737Z",
-          "updated_at": "2025-12-28T08:20:55.737Z"
+          "created_at": "2025-12-28T08:48:36.804Z",
+          "updated_at": "2025-12-28T08:48:36.804Z"
         },
         {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "id": "coollabsio#7738",
+          "title": "Issue #7738",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "url": "github.com/coollabsio/coolify/issues/7738",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:55.853Z",
-          "updated_at": "2025-12-28T08:20:55.853Z"
+          "created_at": "2025-12-28T08:48:36.825Z",
+          "updated_at": "2025-12-28T08:48:36.825Z"
         },
         {
-          "id": "zio#517",
-          "title": "Add structural schemas",
+          "id": "coollabsio#7724",
+          "title": "Issue #7724",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "github.com/coollabsio/coolify/issues/7724",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:56.015Z",
-          "updated_at": "2025-12-28T08:20:56.015Z"
+          "created_at": "2025-12-28T08:48:36.845Z",
+          "updated_at": "2025-12-28T08:48:36.845Z"
         },
         {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
+          "id": "coollabsio#7642",
+          "title": "Issue #7642",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "url": "github.com/coollabsio/coolify/issues/7642",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:57.281Z",
-          "updated_at": "2025-12-28T08:20:57.281Z"
+          "created_at": "2025-12-28T08:48:36.864Z",
+          "updated_at": "2025-12-28T08:48:36.864Z"
         },
         {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "id": "coollabsio#7596",
+          "title": "Issue #7596",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "url": "github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:58.051Z",
-          "updated_at": "2025-12-28T08:20:58.051Z"
+          "created_at": "2025-12-28T08:48:36.884Z",
+          "updated_at": "2025-12-28T08:48:36.884Z"
         },
         {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+          "id": "coollabsio#7529",
+          "title": "Issue #7529",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
+          "url": "github.com/coollabsio/coolify/issues/7529",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:20:58.596Z",
-          "updated_at": "2025-12-28T08:20:58.596Z"
+          "created_at": "2025-12-28T08:48:36.905Z",
+          "updated_at": "2025-12-28T08:48:36.905Z"
         },
         {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
+          "id": "coollabsio#7528",
+          "title": "Issue #7528",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
+          "url": "github.com/coollabsio/coolify/issues/7528",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:21:00.379Z",
-          "updated_at": "2025-12-28T08:21:00.379Z"
+          "created_at": "2025-12-28T08:48:36.925Z",
+          "updated_at": "2025-12-28T08:48:36.925Z"
         },
         {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
+          "id": "coollabsio#7473",
+          "title": "Issue #7473",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
+          "url": "github.com/coollabsio/coolify/issues/7473",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:21:02.563Z",
-          "updated_at": "2025-12-28T08:21:02.563Z"
+          "created_at": "2025-12-28T08:48:36.945Z",
+          "updated_at": "2025-12-28T08:48:36.945Z"
         },
         {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
+          "id": "coollabsio#7458",
+          "title": "Issue #7458",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
+          "url": "github.com/coollabsio/coolify/issues/7458",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:21:06.355Z",
-          "updated_at": "2025-12-28T08:21:06.355Z"
+          "created_at": "2025-12-28T08:48:36.966Z",
+          "updated_at": "2025-12-28T08:48:36.966Z"
         },
         {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
+          "id": "coollabsio#7423",
+          "title": "Issue #7423",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
+          "url": "github.com/coollabsio/coolify/issues/7423",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-28T08:21:07.718Z",
-          "updated_at": "2025-12-28T08:21:07.718Z"
+          "created_at": "2025-12-28T08:48:36.986Z",
+          "updated_at": "2025-12-28T08:48:36.986Z"
         }
       ],
-      "last_updated": "2025-12-28T08:21:26.828Z",
+      "last_updated": "2025-12-28T08:48:46.989Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 111508,
+    "processing_time_ms": 103719,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -187,114 +391,225 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:55.737Z",
-            "updated_at": "2025-12-28T08:20:55.737Z"
+            "created_at": "2025-12-28T08:48:34.935Z",
+            "updated_at": "2025-12-28T08:48:34.935Z"
           },
           {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:55.853Z",
-            "updated_at": "2025-12-28T08:20:55.853Z"
+            "created_at": "2025-12-28T08:48:35.113Z",
+            "updated_at": "2025-12-28T08:48:35.113Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:56.015Z",
-            "updated_at": "2025-12-28T08:20:56.015Z"
+            "created_at": "2025-12-28T08:48:35.259Z",
+            "updated_at": "2025-12-28T08:48:35.259Z"
           },
           {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:57.281Z",
-            "updated_at": "2025-12-28T08:20:57.281Z"
+            "created_at": "2025-12-28T08:48:35.444Z",
+            "updated_at": "2025-12-28T08:48:35.444Z"
           },
           {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:58.051Z",
-            "updated_at": "2025-12-28T08:20:58.051Z"
+            "created_at": "2025-12-28T08:48:35.747Z",
+            "updated_at": "2025-12-28T08:48:35.747Z"
           },
           {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "id": "tscircuit#1498",
+            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "url": "https://github.com/tscircuit/core/issues/1498",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:58.596Z",
-            "updated_at": "2025-12-28T08:20:58.596Z"
+            "created_at": "2025-12-28T08:48:36.007Z",
+            "updated_at": "2025-12-28T08:48:36.007Z"
           },
           {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:21:00.379Z",
-            "updated_at": "2025-12-28T08:21:00.379Z"
+            "created_at": "2025-12-28T08:48:36.201Z",
+            "updated_at": "2025-12-28T08:48:36.201Z"
           },
           {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:21:02.563Z",
-            "updated_at": "2025-12-28T08:21:02.563Z"
+            "created_at": "2025-12-28T08:48:36.371Z",
+            "updated_at": "2025-12-28T08:48:36.371Z"
           },
           {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:21:06.355Z",
-            "updated_at": "2025-12-28T08:21:06.355Z"
+            "created_at": "2025-12-28T08:48:36.557Z",
+            "updated_at": "2025-12-28T08:48:36.557Z"
           },
           {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "tscircuit#939",
+            "title": "Issue #939",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "github.com/tscircuit/tscircuit/issues/939",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:21:07.718Z",
-            "updated_at": "2025-12-28T08:21:07.718Z"
+            "created_at": "2025-12-28T08:48:36.577Z",
+            "updated_at": "2025-12-28T08:48:36.577Z"
           }
         ],
-        "last_updated": "2025-12-28T08:21:26.828Z",
+        "last_updated": "2025-12-28T08:48:46.989Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.804Z",
+            "updated_at": "2025-12-28T08:48:36.804Z"
+          },
+          {
+            "id": "coollabsio#7738",
+            "title": "Issue #7738",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7738",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.825Z",
+            "updated_at": "2025-12-28T08:48:36.825Z"
+          },
+          {
+            "id": "coollabsio#7724",
+            "title": "Issue #7724",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7724",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.845Z",
+            "updated_at": "2025-12-28T08:48:36.845Z"
+          },
+          {
+            "id": "coollabsio#7642",
+            "title": "Issue #7642",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7642",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.864Z",
+            "updated_at": "2025-12-28T08:48:36.864Z"
+          },
+          {
+            "id": "coollabsio#7596",
+            "title": "Issue #7596",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.884Z",
+            "updated_at": "2025-12-28T08:48:36.884Z"
+          },
+          {
+            "id": "coollabsio#7529",
+            "title": "Issue #7529",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7529",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.905Z",
+            "updated_at": "2025-12-28T08:48:36.905Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "Issue #7528",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.925Z",
+            "updated_at": "2025-12-28T08:48:36.925Z"
+          },
+          {
+            "id": "coollabsio#7473",
+            "title": "Issue #7473",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7473",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.945Z",
+            "updated_at": "2025-12-28T08:48:36.945Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "Issue #7458",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.966Z",
+            "updated_at": "2025-12-28T08:48:36.966Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "Issue #7423",
+            "amount_usd": 100,
+            "url": "github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:36.986Z",
+            "updated_at": "2025-12-28T08:48:36.986Z"
+          }
+        ],
+        "last_updated": "2025-12-28T08:48:46.989Z",
         "scrape_duration_ms": 0
       },
       {
@@ -311,8 +626,8 @@
             "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:55.738Z",
-            "updated_at": "2025-12-28T08:20:55.738Z"
+            "created_at": "2025-12-28T08:48:36.529Z",
+            "updated_at": "2025-12-28T08:48:36.529Z"
           },
           {
             "id": "permitio#677",
@@ -321,42 +636,139 @@
             "url": "https://github.com/permitio/opal/issues/677",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:55.940Z",
-            "updated_at": "2025-12-28T08:20:55.940Z"
+            "created_at": "2025-12-28T08:48:36.740Z",
+            "updated_at": "2025-12-28T08:48:36.740Z"
           },
           {
             "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "title": "Issue #634",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
+            "url": "github.com/permitio/opal/issues/634",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:56.086Z",
-            "updated_at": "2025-12-28T08:20:56.086Z"
+            "created_at": "2025-12-28T08:48:36.760Z",
+            "updated_at": "2025-12-28T08:48:36.760Z"
           }
         ],
-        "last_updated": "2025-12-28T08:21:26.828Z",
+        "last_updated": "2025-12-28T08:48:46.989Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:10.649Z",
+            "updated_at": "2025-12-28T08:48:10.649Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:10.853Z",
+            "updated_at": "2025-12-28T08:48:10.853Z"
+          }
+        ],
+        "last_updated": "2025-12-28T08:48:46.989Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-28T08:48:10.751Z",
+            "updated_at": "2025-12-28T08:48:10.751Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-28T08:48:10.983Z",
+            "updated_at": "2025-12-28T08:48:10.983Z"
+          }
+        ],
+        "last_updated": "2025-12-28T08:48:46.989Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:16.552Z",
+            "updated_at": "2025-12-28T08:48:16.552Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-28T08:48:16.751Z",
+            "updated_at": "2025-12-28T08:48:16.751Z"
+          }
+        ],
+        "last_updated": "2025-12-28T08:48:46.989Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-28T08:20:55.739Z",
-            "updated_at": "2025-12-28T08:20:55.739Z"
+            "created_at": "2025-12-28T08:48:16.519Z",
+            "updated_at": "2025-12-28T08:48:16.519Z"
           }
         ],
-        "last_updated": "2025-12-28T08:21:26.828Z",
+        "last_updated": "2025-12-28T08:48:46.989Z",
         "scrape_duration_ms": 0
       }
     ]
