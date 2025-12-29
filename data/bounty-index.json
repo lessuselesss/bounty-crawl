@@ -1,234 +1,408 @@
 {
-  "generated_at": "2025-12-29T14:47:18.546Z",
-  "total_organizations": 4,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "generated_at": "2025-12-29T14:59:15.623Z",
+  "total_organizations": 7,
+  "total_bounties": 32,
+  "total_value_usd": 3200,
   "version": "3.0.0",
   "organizations": {
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:58:34.491Z",
+          "updated_at": "2025-12-29T14:58:34.491Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:58:35.119Z",
+          "updated_at": "2025-12-29T14:58:35.119Z"
+        }
+      ],
+      "last_updated": "2025-12-29T14:59:15.623Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:43.280Z",
-          "updated_at": "2025-12-29T14:46:43.280Z"
+          "created_at": "2025-12-29T14:58:34.833Z",
+          "updated_at": "2025-12-29T14:58:34.833Z"
         },
         {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:44.229Z",
-          "updated_at": "2025-12-29T14:46:44.229Z"
+          "created_at": "2025-12-29T14:58:35.197Z",
+          "updated_at": "2025-12-29T14:58:35.197Z"
         },
         {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
           "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
+          "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:44.444Z",
-          "updated_at": "2025-12-29T14:46:44.444Z"
+          "created_at": "2025-12-29T14:58:35.878Z",
+          "updated_at": "2025-12-29T14:58:35.878Z"
         }
       ],
-      "last_updated": "2025-12-29T14:47:18.546Z",
+      "last_updated": "2025-12-29T14:59:15.623Z",
       "scrape_duration_ms": 0
     },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
-          "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-29T14:46:45.917Z",
-          "updated_at": "2025-12-29T14:46:45.917Z"
-        }
-      ],
-      "last_updated": "2025-12-29T14:47:18.546Z",
-      "scrape_duration_ms": 0
-    },
-    "Mudlet": {
+    "mudlet": {
       "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "url": "https://algora.io/mudlet/bounties?status=open",
       "bounty_count": 4,
       "total_value_usd": 400,
       "bounties": [
         {
-          "id": "Mudlet#8030",
+          "id": "mudlet#8030",
           "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:44.844Z",
-          "updated_at": "2025-12-29T14:46:44.844Z"
+          "created_at": "2025-12-29T14:58:34.408Z",
+          "updated_at": "2025-12-29T14:58:34.408Z"
         },
         {
-          "id": "Mudlet#3172",
+          "id": "mudlet#3172",
           "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:45.917Z",
-          "updated_at": "2025-12-29T14:46:45.917Z"
+          "created_at": "2025-12-29T14:58:35.119Z",
+          "updated_at": "2025-12-29T14:58:35.119Z"
         },
         {
-          "id": "Mudlet#689",
+          "id": "mudlet#689",
           "title": "Support telnet:// links",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:48.171Z",
-          "updated_at": "2025-12-29T14:46:48.171Z"
+          "created_at": "2025-12-29T14:58:35.537Z",
+          "updated_at": "2025-12-29T14:58:35.537Z"
         },
         {
-          "id": "Mudlet#5310",
+          "id": "mudlet#5310",
           "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:49.598Z",
-          "updated_at": "2025-12-29T14:46:49.598Z"
+          "created_at": "2025-12-29T14:58:36.045Z",
+          "updated_at": "2025-12-29T14:58:36.045Z"
         }
       ],
-      "last_updated": "2025-12-29T14:47:18.546Z",
+      "last_updated": "2025-12-29T14:59:15.623Z",
       "scrape_duration_ms": 0
     },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:58:43.406Z",
+          "updated_at": "2025-12-29T14:58:43.406Z"
+        }
+      ],
+      "last_updated": "2025-12-29T14:59:15.623Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-29T14:58:44.275Z",
+          "updated_at": "2025-12-29T14:58:44.275Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2025-12-29T14:58:45.004Z",
+          "updated_at": "2025-12-29T14:58:45.004Z"
+        }
+      ],
+      "last_updated": "2025-12-29T14:59:15.623Z",
+      "scrape_duration_ms": 0
+    },
+    "mediar-ai": {
+      "display_name": "Mediar-ai",
+      "url": "https://algora.io/mediar-ai/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "projectdiscovery#14603",
-          "title": "CVE-2018-8298 - ChakraCore - Remote Code Execution 💰",
+          "id": "mediar-ai#1626",
+          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14603",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:53.557Z",
-          "updated_at": "2025-12-29T14:46:53.557Z"
+          "created_at": "2025-12-29T14:58:43.924Z",
+          "updated_at": "2025-12-29T14:58:43.924Z"
         },
         {
-          "id": "projectdiscovery#14598",
-          "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
+          "id": "mediar-ai#1560",
+          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:46:56.516Z",
-          "updated_at": "2025-12-29T14:46:56.516Z"
+          "created_at": "2025-12-29T14:58:44.917Z",
+          "updated_at": "2025-12-29T14:58:44.917Z"
         },
         {
-          "id": "projectdiscovery#14587",
-          "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
+          "id": "mediar-ai#1441",
+          "title": "[bounty] general purpose scrapper",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:00.953Z",
-          "updated_at": "2025-12-29T14:47:00.953Z"
+          "created_at": "2025-12-29T14:58:46.085Z",
+          "updated_at": "2025-12-29T14:58:46.085Z"
         },
         {
-          "id": "projectdiscovery#14576",
-          "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+          "id": "mediar-ai#1298",
+          "title": "[docs] document env var somewhere somehow ",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:05.532Z",
-          "updated_at": "2025-12-29T14:47:05.532Z"
+          "created_at": "2025-12-29T14:58:49.927Z",
+          "updated_at": "2025-12-29T14:58:49.927Z"
         },
         {
-          "id": "projectdiscovery#14559",
-          "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+          "id": "mediar-ai#1383",
+          "title": "[bounty] implement deep research in search pipe",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:07.854Z",
-          "updated_at": "2025-12-29T14:47:07.854Z"
+          "created_at": "2025-12-29T14:58:55.226Z",
+          "updated_at": "2025-12-29T14:58:55.226Z"
         },
         {
-          "id": "projectdiscovery#14535",
-          "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+          "id": "mediar-ai#1382",
+          "title": "[bounty] implement history for search pipe",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:08.132Z",
-          "updated_at": "2025-12-29T14:47:08.132Z"
+          "created_at": "2025-12-29T14:58:56.146Z",
+          "updated_at": "2025-12-29T14:58:56.146Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "mediar-ai#1380",
+          "title": "[bounty] implement device control and make --use-all-monitors work",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:08.253Z",
-          "updated_at": "2025-12-29T14:47:08.253Z"
+          "created_at": "2025-12-29T14:58:56.576Z",
+          "updated_at": "2025-12-29T14:58:56.576Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "mediar-ai#1160",
+          "title": "[bounty] list webcam, iphone, etc. in list-monitors",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:08.260Z",
-          "updated_at": "2025-12-29T14:47:08.260Z"
+          "created_at": "2025-12-29T14:58:56.879Z",
+          "updated_at": "2025-12-29T14:58:56.879Z"
         },
         {
-          "id": "projectdiscovery#14478",
-          "title": "CVE-2012-10018 - Mapplic & Mapplic Lite - Server Side Request Forgery & Stored XSS 💰",
+          "id": "mediar-ai#1142",
+          "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14478",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:08.406Z",
-          "updated_at": "2025-12-29T14:47:08.406Z"
+          "created_at": "2025-12-29T14:58:57.192Z",
+          "updated_at": "2025-12-29T14:58:57.192Z"
         },
         {
-          "id": "projectdiscovery#14451",
-          "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+          "id": "mediar-ai#1131",
+          "title": "[feature] improve visibility of pipes, audio, monitor devices",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+          "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-29T14:47:08.526Z",
-          "updated_at": "2025-12-29T14:47:08.526Z"
+          "created_at": "2025-12-29T14:58:57.366Z",
+          "updated_at": "2025-12-29T14:58:57.366Z"
         }
       ],
-      "last_updated": "2025-12-29T14:47:18.546Z",
+      "last_updated": "2025-12-29T14:59:15.623Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:04.376Z",
+          "updated_at": "2025-12-29T14:59:04.376Z"
+        },
+        {
+          "id": "zio#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:04.510Z",
+          "updated_at": "2025-12-29T14:59:04.510Z"
+        },
+        {
+          "id": "zio#517",
+          "title": "Add structural schemas",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:04.621Z",
+          "updated_at": "2025-12-29T14:59:04.621Z"
+        },
+        {
+          "id": "zio#516",
+          "title": "Finalize Patch & Diffing",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:04.756Z",
+          "updated_at": "2025-12-29T14:59:04.756Z"
+        },
+        {
+          "id": "zio#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:04.887Z",
+          "updated_at": "2025-12-29T14:59:04.887Z"
+        },
+        {
+          "id": "zio#514",
+          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/514",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:05.025Z",
+          "updated_at": "2025-12-29T14:59:05.025Z"
+        },
+        {
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:05.167Z",
+          "updated_at": "2025-12-29T14:59:05.167Z"
+        },
+        {
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:05.320Z",
+          "updated_at": "2025-12-29T14:59:05.320Z"
+        },
+        {
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:05.440Z",
+          "updated_at": "2025-12-29T14:59:05.440Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-29T14:59:05.588Z",
+          "updated_at": "2025-12-29T14:59:05.588Z"
+        }
+      ],
+      "last_updated": "2025-12-29T14:59:15.623Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 106145,
+    "processing_time_ms": 110813,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -237,227 +411,404 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "mediar-ai",
+        "display_name": "Mediar-ai",
+        "url": "https://algora.io/mediar-ai/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#14603",
-            "title": "CVE-2018-8298 - ChakraCore - Remote Code Execution 💰",
+            "id": "mediar-ai#1626",
+            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14603",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:53.557Z",
-            "updated_at": "2025-12-29T14:46:53.557Z"
+            "created_at": "2025-12-29T14:58:43.924Z",
+            "updated_at": "2025-12-29T14:58:43.924Z"
           },
           {
-            "id": "projectdiscovery#14598",
-            "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
+            "id": "mediar-ai#1560",
+            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:56.516Z",
-            "updated_at": "2025-12-29T14:46:56.516Z"
+            "created_at": "2025-12-29T14:58:44.917Z",
+            "updated_at": "2025-12-29T14:58:44.917Z"
           },
           {
-            "id": "projectdiscovery#14587",
-            "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
+            "id": "mediar-ai#1441",
+            "title": "[bounty] general purpose scrapper",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:00.953Z",
-            "updated_at": "2025-12-29T14:47:00.953Z"
+            "created_at": "2025-12-29T14:58:46.085Z",
+            "updated_at": "2025-12-29T14:58:46.085Z"
           },
           {
-            "id": "projectdiscovery#14576",
-            "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+            "id": "mediar-ai#1298",
+            "title": "[docs] document env var somewhere somehow ",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:05.532Z",
-            "updated_at": "2025-12-29T14:47:05.532Z"
+            "created_at": "2025-12-29T14:58:49.927Z",
+            "updated_at": "2025-12-29T14:58:49.927Z"
           },
           {
-            "id": "projectdiscovery#14559",
-            "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+            "id": "mediar-ai#1383",
+            "title": "[bounty] implement deep research in search pipe",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:07.854Z",
-            "updated_at": "2025-12-29T14:47:07.854Z"
+            "created_at": "2025-12-29T14:58:55.226Z",
+            "updated_at": "2025-12-29T14:58:55.226Z"
           },
           {
-            "id": "projectdiscovery#14535",
-            "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+            "id": "mediar-ai#1382",
+            "title": "[bounty] implement history for search pipe",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:08.132Z",
-            "updated_at": "2025-12-29T14:47:08.132Z"
+            "created_at": "2025-12-29T14:58:56.146Z",
+            "updated_at": "2025-12-29T14:58:56.146Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "mediar-ai#1380",
+            "title": "[bounty] implement device control and make --use-all-monitors work",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:08.253Z",
-            "updated_at": "2025-12-29T14:47:08.253Z"
+            "created_at": "2025-12-29T14:58:56.576Z",
+            "updated_at": "2025-12-29T14:58:56.576Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "mediar-ai#1160",
+            "title": "[bounty] list webcam, iphone, etc. in list-monitors",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:08.260Z",
-            "updated_at": "2025-12-29T14:47:08.260Z"
+            "created_at": "2025-12-29T14:58:56.879Z",
+            "updated_at": "2025-12-29T14:58:56.879Z"
           },
           {
-            "id": "projectdiscovery#14478",
-            "title": "CVE-2012-10018 - Mapplic & Mapplic Lite - Server Side Request Forgery & Stored XSS 💰",
+            "id": "mediar-ai#1142",
+            "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14478",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:08.406Z",
-            "updated_at": "2025-12-29T14:47:08.406Z"
+            "created_at": "2025-12-29T14:58:57.192Z",
+            "updated_at": "2025-12-29T14:58:57.192Z"
           },
           {
-            "id": "projectdiscovery#14451",
-            "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+            "id": "mediar-ai#1131",
+            "title": "[feature] improve visibility of pipes, audio, monitor devices",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+            "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:47:08.526Z",
-            "updated_at": "2025-12-29T14:47:08.526Z"
+            "created_at": "2025-12-29T14:58:57.366Z",
+            "updated_at": "2025-12-29T14:58:57.366Z"
           }
         ],
-        "last_updated": "2025-12-29T14:47:18.546Z",
+        "last_updated": "2025-12-29T14:59:15.623Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "Mudlet",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:04.376Z",
+            "updated_at": "2025-12-29T14:59:04.376Z"
+          },
+          {
+            "id": "zio#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:04.510Z",
+            "updated_at": "2025-12-29T14:59:04.510Z"
+          },
+          {
+            "id": "zio#517",
+            "title": "Add structural schemas",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:04.621Z",
+            "updated_at": "2025-12-29T14:59:04.621Z"
+          },
+          {
+            "id": "zio#516",
+            "title": "Finalize Patch & Diffing",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:04.756Z",
+            "updated_at": "2025-12-29T14:59:04.756Z"
+          },
+          {
+            "id": "zio#471",
+            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:04.887Z",
+            "updated_at": "2025-12-29T14:59:04.887Z"
+          },
+          {
+            "id": "zio#514",
+            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:05.025Z",
+            "updated_at": "2025-12-29T14:59:05.025Z"
+          },
+          {
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3697",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:05.167Z",
+            "updated_at": "2025-12-29T14:59:05.167Z"
+          },
+          {
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/709",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:05.320Z",
+            "updated_at": "2025-12-29T14:59:05.320Z"
+          },
+          {
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3472",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:05.440Z",
+            "updated_at": "2025-12-29T14:59:05.440Z"
+          },
+          {
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:59:05.588Z",
+            "updated_at": "2025-12-29T14:59:05.588Z"
+          }
+        ],
+        "last_updated": "2025-12-29T14:59:15.623Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
         "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "url": "https://algora.io/mudlet/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "Mudlet#8030",
+            "id": "mudlet#8030",
             "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:44.844Z",
-            "updated_at": "2025-12-29T14:46:44.844Z"
+            "created_at": "2025-12-29T14:58:34.408Z",
+            "updated_at": "2025-12-29T14:58:34.408Z"
           },
           {
-            "id": "Mudlet#3172",
+            "id": "mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:45.917Z",
-            "updated_at": "2025-12-29T14:46:45.917Z"
+            "created_at": "2025-12-29T14:58:35.119Z",
+            "updated_at": "2025-12-29T14:58:35.119Z"
           },
           {
-            "id": "Mudlet#689",
+            "id": "mudlet#689",
             "title": "Support telnet:// links",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:48.171Z",
-            "updated_at": "2025-12-29T14:46:48.171Z"
+            "created_at": "2025-12-29T14:58:35.537Z",
+            "updated_at": "2025-12-29T14:58:35.537Z"
           },
           {
-            "id": "Mudlet#5310",
+            "id": "mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:49.598Z",
-            "updated_at": "2025-12-29T14:46:49.598Z"
+            "created_at": "2025-12-29T14:58:36.045Z",
+            "updated_at": "2025-12-29T14:58:36.045Z"
           }
         ],
-        "last_updated": "2025-12-29T14:47:18.546Z",
+        "last_updated": "2025-12-29T14:59:15.623Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:43.280Z",
-            "updated_at": "2025-12-29T14:46:43.280Z"
+            "created_at": "2025-12-29T14:58:34.833Z",
+            "updated_at": "2025-12-29T14:58:34.833Z"
           },
           {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:44.229Z",
-            "updated_at": "2025-12-29T14:46:44.229Z"
+            "created_at": "2025-12-29T14:58:35.197Z",
+            "updated_at": "2025-12-29T14:58:35.197Z"
           },
           {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:44.444Z",
-            "updated_at": "2025-12-29T14:46:44.444Z"
+            "created_at": "2025-12-29T14:58:35.878Z",
+            "updated_at": "2025-12-29T14:58:35.878Z"
           }
         ],
-        "last_updated": "2025-12-29T14:47:18.546Z",
+        "last_updated": "2025-12-29T14:59:15.623Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:58:34.491Z",
+            "updated_at": "2025-12-29T14:58:34.491Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-29T14:58:35.119Z",
+            "updated_at": "2025-12-29T14:58:35.119Z"
+          }
+        ],
+        "last_updated": "2025-12-29T14:59:15.623Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-29T14:58:44.275Z",
+            "updated_at": "2025-12-29T14:58:44.275Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2025-12-29T14:58:45.004Z",
+            "updated_at": "2025-12-29T14:58:45.004Z"
+          }
+        ],
+        "last_updated": "2025-12-29T14:59:15.623Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-29T14:46:45.917Z",
-            "updated_at": "2025-12-29T14:46:45.917Z"
+            "created_at": "2025-12-29T14:58:43.406Z",
+            "updated_at": "2025-12-29T14:58:43.406Z"
           }
         ],
-        "last_updated": "2025-12-29T14:47:18.546Z",
+        "last_updated": "2025-12-29T14:59:15.623Z",
         "scrape_duration_ms": 0
       }
     ]
