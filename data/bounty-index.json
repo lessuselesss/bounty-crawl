@@ -1,138 +1,68 @@
 {
-  "generated_at": "2025-12-30T07:20:48.807Z",
-  "total_organizations": 7,
-  "total_bounties": 34,
-  "total_value_usd": 3400,
+  "generated_at": "2025-12-30T07:44:06.507Z",
+  "total_organizations": 4,
+  "total_bounties": 15,
+  "total_value_usd": 1500,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2025-12-30T07:43:36.167Z",
+          "updated_at": "2025-12-30T07:43:36.167Z"
+        }
+      ],
+      "last_updated": "2025-12-30T07:44:06.506Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:06.003Z",
-          "updated_at": "2025-12-30T07:20:06.003Z"
+          "created_at": "2025-12-30T07:43:36.194Z",
+          "updated_at": "2025-12-30T07:43:36.194Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:07.236Z",
-          "updated_at": "2025-12-30T07:20:07.236Z"
+          "created_at": "2025-12-30T07:43:38.412Z",
+          "updated_at": "2025-12-30T07:43:38.412Z"
         }
       ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
+      "last_updated": "2025-12-30T07:44:06.506Z",
       "scrape_duration_ms": 0
     },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:05.834Z",
-          "updated_at": "2025-12-30T07:20:05.834Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:06.492Z",
-          "updated_at": "2025-12-30T07:20:06.492Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:08.339Z",
-          "updated_at": "2025-12-30T07:20:08.339Z"
-        }
-      ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:05.834Z",
-          "updated_at": "2025-12-30T07:20:05.834Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:06.492Z",
-          "updated_at": "2025-12-30T07:20:06.492Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:08.339Z",
-          "updated_at": "2025-12-30T07:20:08.339Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:10.480Z",
-          "updated_at": "2025-12-30T07:20:10.480Z"
-        }
-      ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
-      "scrape_duration_ms": 0
-    },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "GolemCloud#275",
+          "id": "golemcloud#275",
           "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
           "url": "https://github.com/golemcloud/golem/issues/1926",
@@ -140,11 +70,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-30T07:20:08.339Z",
-          "updated_at": "2025-12-30T07:20:08.339Z"
+          "created_at": "2025-12-30T07:43:50.120Z",
+          "updated_at": "2025-12-30T07:43:50.120Z"
         },
         {
-          "id": "GolemCloud#23",
+          "id": "golemcloud#23",
           "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
           "url": "https://github.com/golemcloud/golem-ai/issues/23",
@@ -152,277 +82,127 @@
           "tags": [
             "go"
           ],
-          "created_at": "2025-12-30T07:20:10.480Z",
-          "updated_at": "2025-12-30T07:20:10.480Z"
+          "created_at": "2025-12-30T07:43:53.394Z",
+          "updated_at": "2025-12-30T07:43:53.394Z"
         }
       ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
+      "last_updated": "2025-12-30T07:44:06.506Z",
       "scrape_duration_ms": 0
     },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "projectdiscovery#14623",
-          "title": "CVE-2018-6961 - VMware NSX SD-WAN Edge - Command Injection 💰",
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14623",
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:10.659Z",
-          "updated_at": "2025-12-30T07:20:10.659Z"
+          "created_at": "2025-12-30T07:43:35.491Z",
+          "updated_at": "2025-12-30T07:43:35.491Z"
         },
         {
-          "id": "projectdiscovery#14598",
-          "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
+          "id": "coollabsio#7738",
+          "title": "[Enhancement]: Environment variables for each server that are auto-added to each application deployed on it",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
+          "url": "https://github.com/coollabsio/coolify/issues/7738",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:11.066Z",
-          "updated_at": "2025-12-30T07:20:11.066Z"
+          "created_at": "2025-12-30T07:43:37.360Z",
+          "updated_at": "2025-12-30T07:43:37.360Z"
         },
         {
-          "id": "projectdiscovery#14587",
-          "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
+          "id": "coollabsio#7724",
+          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
+          "url": "https://github.com/coollabsio/coolify/issues/7724",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:12.666Z",
-          "updated_at": "2025-12-30T07:20:12.666Z"
+          "created_at": "2025-12-30T07:43:39.513Z",
+          "updated_at": "2025-12-30T07:43:39.513Z"
         },
         {
-          "id": "projectdiscovery#14576",
-          "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:17.803Z",
-          "updated_at": "2025-12-30T07:20:17.803Z"
+          "created_at": "2025-12-30T07:43:44.343Z",
+          "updated_at": "2025-12-30T07:43:44.343Z"
         },
         {
-          "id": "projectdiscovery#14559",
-          "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:20.430Z",
-          "updated_at": "2025-12-30T07:20:20.430Z"
+          "created_at": "2025-12-30T07:43:50.119Z",
+          "updated_at": "2025-12-30T07:43:50.119Z"
         },
         {
-          "id": "projectdiscovery#14535",
-          "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+          "id": "coollabsio#7529",
+          "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+          "url": "https://github.com/coollabsio/coolify/issues/7529",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:25.328Z",
-          "updated_at": "2025-12-30T07:20:25.328Z"
+          "created_at": "2025-12-30T07:43:53.394Z",
+          "updated_at": "2025-12-30T07:43:53.394Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:27.751Z",
-          "updated_at": "2025-12-30T07:20:27.751Z"
+          "created_at": "2025-12-30T07:43:55.793Z",
+          "updated_at": "2025-12-30T07:43:55.793Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:27.899Z",
-          "updated_at": "2025-12-30T07:20:27.899Z"
+          "created_at": "2025-12-30T07:43:56.237Z",
+          "updated_at": "2025-12-30T07:43:56.237Z"
         },
         {
-          "id": "projectdiscovery#14478",
-          "title": "CVE-2012-10018 - Mapplic & Mapplic Lite - Server Side Request Forgery & Stored XSS 💰",
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14478",
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:28.028Z",
-          "updated_at": "2025-12-30T07:20:28.028Z"
+          "created_at": "2025-12-30T07:43:56.395Z",
+          "updated_at": "2025-12-30T07:43:56.395Z"
         },
         {
-          "id": "projectdiscovery#14451",
-          "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
           "status": "open",
           "tags": [],
-          "created_at": "2025-12-30T07:20:28.151Z",
-          "updated_at": "2025-12-30T07:20:28.151Z"
+          "created_at": "2025-12-30T07:43:56.504Z",
+          "updated_at": "2025-12-30T07:43:56.504Z"
         }
       ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:30.045Z",
-          "updated_at": "2025-12-30T07:20:30.045Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:30.190Z",
-          "updated_at": "2025-12-30T07:20:30.190Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:30.341Z",
-          "updated_at": "2025-12-30T07:20:30.341Z"
-        }
-      ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
-      "scrape_duration_ms": 0
-    },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:31.585Z",
-          "updated_at": "2025-12-30T07:20:31.585Z"
-        },
-        {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:31.734Z",
-          "updated_at": "2025-12-30T07:20:31.734Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:31.837Z",
-          "updated_at": "2025-12-30T07:20:31.837Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:31.970Z",
-          "updated_at": "2025-12-30T07:20:31.970Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.175Z",
-          "updated_at": "2025-12-30T07:20:32.175Z"
-        },
-        {
-          "id": "tscircuit#1498",
-          "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/core/issues/1498",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.313Z",
-          "updated_at": "2025-12-30T07:20:32.313Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.437Z",
-          "updated_at": "2025-12-30T07:20:32.437Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.556Z",
-          "updated_at": "2025-12-30T07:20:32.556Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.689Z",
-          "updated_at": "2025-12-30T07:20:32.689Z"
-        },
-        {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-          "status": "open",
-          "tags": [],
-          "created_at": "2025-12-30T07:20:32.907Z",
-          "updated_at": "2025-12-30T07:20:32.907Z"
-        }
-      ],
-      "last_updated": "2025-12-30T07:20:48.807Z",
+      "last_updated": "2025-12-30T07:44:06.506Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 120614,
+    "processing_time_ms": 111602,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -431,400 +211,156 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#14623",
-            "title": "CVE-2018-6961 - VMware NSX SD-WAN Edge - Command Injection 💰",
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14623",
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:10.659Z",
-            "updated_at": "2025-12-30T07:20:10.659Z"
+            "created_at": "2025-12-30T07:43:35.491Z",
+            "updated_at": "2025-12-30T07:43:35.491Z"
           },
           {
-            "id": "projectdiscovery#14598",
-            "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
+            "id": "coollabsio#7738",
+            "title": "[Enhancement]: Environment variables for each server that are auto-added to each application deployed on it",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
+            "url": "https://github.com/coollabsio/coolify/issues/7738",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:11.066Z",
-            "updated_at": "2025-12-30T07:20:11.066Z"
+            "created_at": "2025-12-30T07:43:37.360Z",
+            "updated_at": "2025-12-30T07:43:37.360Z"
           },
           {
-            "id": "projectdiscovery#14587",
-            "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
+            "id": "coollabsio#7724",
+            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
+            "url": "https://github.com/coollabsio/coolify/issues/7724",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:12.666Z",
-            "updated_at": "2025-12-30T07:20:12.666Z"
+            "created_at": "2025-12-30T07:43:39.513Z",
+            "updated_at": "2025-12-30T07:43:39.513Z"
           },
           {
-            "id": "projectdiscovery#14576",
-            "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:17.803Z",
-            "updated_at": "2025-12-30T07:20:17.803Z"
+            "created_at": "2025-12-30T07:43:44.343Z",
+            "updated_at": "2025-12-30T07:43:44.343Z"
           },
           {
-            "id": "projectdiscovery#14559",
-            "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:20.430Z",
-            "updated_at": "2025-12-30T07:20:20.430Z"
+            "created_at": "2025-12-30T07:43:50.119Z",
+            "updated_at": "2025-12-30T07:43:50.119Z"
           },
           {
-            "id": "projectdiscovery#14535",
-            "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+            "id": "coollabsio#7529",
+            "title": "[Enhancement]: Enable backup restore/import for ServiceDatabase (Docker Compose databases)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+            "url": "https://github.com/coollabsio/coolify/issues/7529",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:25.328Z",
-            "updated_at": "2025-12-30T07:20:25.328Z"
+            "created_at": "2025-12-30T07:43:53.394Z",
+            "updated_at": "2025-12-30T07:43:53.394Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:27.751Z",
-            "updated_at": "2025-12-30T07:20:27.751Z"
+            "created_at": "2025-12-30T07:43:55.793Z",
+            "updated_at": "2025-12-30T07:43:55.793Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:27.899Z",
-            "updated_at": "2025-12-30T07:20:27.899Z"
+            "created_at": "2025-12-30T07:43:56.237Z",
+            "updated_at": "2025-12-30T07:43:56.237Z"
           },
           {
-            "id": "projectdiscovery#14478",
-            "title": "CVE-2012-10018 - Mapplic & Mapplic Lite - Server Side Request Forgery & Stored XSS 💰",
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14478",
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:28.028Z",
-            "updated_at": "2025-12-30T07:20:28.028Z"
+            "created_at": "2025-12-30T07:43:56.395Z",
+            "updated_at": "2025-12-30T07:43:56.395Z"
           },
           {
-            "id": "projectdiscovery#14451",
-            "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:28.151Z",
-            "updated_at": "2025-12-30T07:20:28.151Z"
+            "created_at": "2025-12-30T07:43:56.504Z",
+            "updated_at": "2025-12-30T07:43:56.504Z"
           }
         ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
+        "last_updated": "2025-12-30T07:44:06.506Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:31.585Z",
-            "updated_at": "2025-12-30T07:20:31.585Z"
-          },
-          {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:31.734Z",
-            "updated_at": "2025-12-30T07:20:31.734Z"
-          },
-          {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:31.837Z",
-            "updated_at": "2025-12-30T07:20:31.837Z"
-          },
-          {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:31.970Z",
-            "updated_at": "2025-12-30T07:20:31.970Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.175Z",
-            "updated_at": "2025-12-30T07:20:32.175Z"
-          },
-          {
-            "id": "tscircuit#1498",
-            "title": "Bug schematic traces with the same net name jumpeing to eachother ",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/core/issues/1498",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.313Z",
-            "updated_at": "2025-12-30T07:20:32.313Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.437Z",
-            "updated_at": "2025-12-30T07:20:32.437Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.556Z",
-            "updated_at": "2025-12-30T07:20:32.556Z"
-          },
-          {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.689Z",
-            "updated_at": "2025-12-30T07:20:32.689Z"
-          },
-          {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:32.907Z",
-            "updated_at": "2025-12-30T07:20:32.907Z"
-          }
-        ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:05.834Z",
-            "updated_at": "2025-12-30T07:20:05.834Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:06.492Z",
-            "updated_at": "2025-12-30T07:20:06.492Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:08.339Z",
-            "updated_at": "2025-12-30T07:20:08.339Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:10.480Z",
-            "updated_at": "2025-12-30T07:20:10.480Z"
-          }
-        ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:05.834Z",
-            "updated_at": "2025-12-30T07:20:05.834Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:06.492Z",
-            "updated_at": "2025-12-30T07:20:06.492Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:08.339Z",
-            "updated_at": "2025-12-30T07:20:08.339Z"
-          }
-        ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:30.045Z",
-            "updated_at": "2025-12-30T07:20:30.045Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:30.190Z",
-            "updated_at": "2025-12-30T07:20:30.190Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2025-12-30T07:20:30.341Z",
-            "updated_at": "2025-12-30T07:20:30.341Z"
-          }
-        ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:06.003Z",
-            "updated_at": "2025-12-30T07:20:06.003Z"
+            "created_at": "2025-12-30T07:43:36.194Z",
+            "updated_at": "2025-12-30T07:43:36.194Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2025-12-30T07:20:07.236Z",
-            "updated_at": "2025-12-30T07:20:07.236Z"
+            "created_at": "2025-12-30T07:43:38.412Z",
+            "updated_at": "2025-12-30T07:43:38.412Z"
           }
         ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
+        "last_updated": "2025-12-30T07:44:06.506Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "GolemCloud#275",
+            "id": "golemcloud#275",
             "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
             "url": "https://github.com/golemcloud/golem/issues/1926",
@@ -832,11 +368,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-30T07:20:08.339Z",
-            "updated_at": "2025-12-30T07:20:08.339Z"
+            "created_at": "2025-12-30T07:43:50.120Z",
+            "updated_at": "2025-12-30T07:43:50.120Z"
           },
           {
-            "id": "GolemCloud#23",
+            "id": "golemcloud#23",
             "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
             "url": "https://github.com/golemcloud/golem-ai/issues/23",
@@ -844,11 +380,32 @@
             "tags": [
               "go"
             ],
-            "created_at": "2025-12-30T07:20:10.480Z",
-            "updated_at": "2025-12-30T07:20:10.480Z"
+            "created_at": "2025-12-30T07:43:53.394Z",
+            "updated_at": "2025-12-30T07:43:53.394Z"
           }
         ],
-        "last_updated": "2025-12-30T07:20:48.807Z",
+        "last_updated": "2025-12-30T07:44:06.506Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [],
+            "created_at": "2025-12-30T07:43:36.167Z",
+            "updated_at": "2025-12-30T07:43:36.167Z"
+          }
+        ],
+        "last_updated": "2025-12-30T07:44:06.506Z",
         "scrape_duration_ms": 0
       }
     ]
