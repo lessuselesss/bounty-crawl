@@ -1,138 +1,72 @@
 {
-  "generated_at": "2026-01-01T19:30:28.679Z",
-  "total_organizations": 6,
-  "total_bounties": 29,
-  "total_value_usd": 2900,
+  "generated_at": "2026-01-01T19:41:12.306Z",
+  "total_organizations": 3,
+  "total_bounties": 14,
+  "total_value_usd": 1400,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:01.717Z",
-          "updated_at": "2026-01-01T19:30:01.717Z"
+          "created_at": "2026-01-01T19:40:35.419Z",
+          "updated_at": "2026-01-01T19:40:35.419Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-01T19:40:35.638Z",
+          "updated_at": "2026-01-01T19:40:35.638Z"
         }
       ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
+      "last_updated": "2026-01-01T19:41:12.306Z",
       "scrape_duration_ms": 0
     },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:06.438Z",
-          "updated_at": "2026-01-01T19:30:06.438Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-01T19:40:35.497Z",
+          "updated_at": "2026-01-01T19:40:35.497Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-01T19:40:35.712Z",
+          "updated_at": "2026-01-01T19:40:35.712Z"
         }
       ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:01.740Z",
-          "updated_at": "2026-01-01T19:30:01.740Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:06.438Z",
-          "updated_at": "2026-01-01T19:30:06.438Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:11.035Z",
-          "updated_at": "2026-01-01T19:30:11.035Z"
-        }
-      ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:01.641Z",
-          "updated_at": "2026-01-01T19:30:01.641Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:06.437Z",
-          "updated_at": "2026-01-01T19:30:06.437Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:11.034Z",
-          "updated_at": "2026-01-01T19:30:11.034Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:14.932Z",
-          "updated_at": "2026-01-01T19:30:14.932Z"
-        }
-      ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
+      "last_updated": "2026-01-01T19:41:12.306Z",
       "scrape_duration_ms": 0
     },
     "ZIO": {
@@ -148,8 +82,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/584",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:01.740Z",
-          "updated_at": "2026-01-01T19:30:01.740Z"
+          "created_at": "2026-01-01T19:41:00.551Z",
+          "updated_at": "2026-01-01T19:41:00.551Z"
         },
         {
           "id": "ZIO#519",
@@ -158,8 +92,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:06.438Z",
-          "updated_at": "2026-01-01T19:30:06.438Z"
+          "created_at": "2026-01-01T19:41:00.740Z",
+          "updated_at": "2026-01-01T19:41:00.740Z"
         },
         {
           "id": "ZIO#518",
@@ -168,8 +102,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:11.053Z",
-          "updated_at": "2026-01-01T19:30:11.053Z"
+          "created_at": "2026-01-01T19:41:00.932Z",
+          "updated_at": "2026-01-01T19:41:00.932Z"
         },
         {
           "id": "ZIO#517",
@@ -178,8 +112,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:14.932Z",
-          "updated_at": "2026-01-01T19:30:14.932Z"
+          "created_at": "2026-01-01T19:41:01.129Z",
+          "updated_at": "2026-01-01T19:41:01.129Z"
         },
         {
           "id": "ZIO#516",
@@ -188,8 +122,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/516",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:16.998Z",
-          "updated_at": "2026-01-01T19:30:16.998Z"
+          "created_at": "2026-01-01T19:41:01.329Z",
+          "updated_at": "2026-01-01T19:41:01.329Z"
         },
         {
           "id": "ZIO#471",
@@ -198,8 +132,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/471",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:17.861Z",
-          "updated_at": "2026-01-01T19:30:17.861Z"
+          "created_at": "2026-01-01T19:41:01.529Z",
+          "updated_at": "2026-01-01T19:41:01.529Z"
         },
         {
           "id": "ZIO#514",
@@ -208,8 +142,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/514",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:17.996Z",
-          "updated_at": "2026-01-01T19:30:17.996Z"
+          "created_at": "2026-01-01T19:41:01.728Z",
+          "updated_at": "2026-01-01T19:41:01.728Z"
         },
         {
           "id": "ZIO#3697",
@@ -218,8 +152,8 @@
           "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:18.138Z",
-          "updated_at": "2026-01-01T19:30:18.138Z"
+          "created_at": "2026-01-01T19:41:01.935Z",
+          "updated_at": "2026-01-01T19:41:01.935Z"
         },
         {
           "id": "ZIO#709",
@@ -228,8 +162,8 @@
           "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:18.273Z",
-          "updated_at": "2026-01-01T19:30:18.273Z"
+          "created_at": "2026-01-01T19:41:02.127Z",
+          "updated_at": "2026-01-01T19:41:02.127Z"
         },
         {
           "id": "ZIO#3472",
@@ -238,127 +172,17 @@
           "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-01T19:30:18.399Z",
-          "updated_at": "2026-01-01T19:30:18.399Z"
+          "created_at": "2026-01-01T19:41:02.304Z",
+          "updated_at": "2026-01-01T19:41:02.304Z"
         }
       ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
-      "scrape_duration_ms": 0
-    },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:01.716Z",
-          "updated_at": "2026-01-01T19:30:01.716Z"
-        },
-        {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:06.437Z",
-          "updated_at": "2026-01-01T19:30:06.437Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:14.982Z",
-          "updated_at": "2026-01-01T19:30:14.982Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:16.998Z",
-          "updated_at": "2026-01-01T19:30:16.998Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:17.963Z",
-          "updated_at": "2026-01-01T19:30:17.963Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:18.087Z",
-          "updated_at": "2026-01-01T19:30:18.087Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:18.188Z",
-          "updated_at": "2026-01-01T19:30:18.188Z"
-        },
-        {
-          "id": "tscircuit#176",
-          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:18.311Z",
-          "updated_at": "2026-01-01T19:30:18.311Z"
-        },
-        {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:18.516Z",
-          "updated_at": "2026-01-01T19:30:18.516Z"
-        },
-        {
-          "id": "tscircuit#175",
-          "title": "SparkFun MicroMod RP2040 Processor",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-01T19:30:18.676Z",
-          "updated_at": "2026-01-01T19:30:18.676Z"
-        }
-      ],
-      "last_updated": "2026-01-01T19:30:28.678Z",
+      "last_updated": "2026-01-01T19:41:12.306Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 108499,
+    "processing_time_ms": 111042,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -380,8 +204,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/584",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:01.740Z",
-            "updated_at": "2026-01-01T19:30:01.740Z"
+            "created_at": "2026-01-01T19:41:00.551Z",
+            "updated_at": "2026-01-01T19:41:00.551Z"
           },
           {
             "id": "ZIO#519",
@@ -390,8 +214,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:06.438Z",
-            "updated_at": "2026-01-01T19:30:06.438Z"
+            "created_at": "2026-01-01T19:41:00.740Z",
+            "updated_at": "2026-01-01T19:41:00.740Z"
           },
           {
             "id": "ZIO#518",
@@ -400,8 +224,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:11.053Z",
-            "updated_at": "2026-01-01T19:30:11.053Z"
+            "created_at": "2026-01-01T19:41:00.932Z",
+            "updated_at": "2026-01-01T19:41:00.932Z"
           },
           {
             "id": "ZIO#517",
@@ -410,8 +234,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:14.932Z",
-            "updated_at": "2026-01-01T19:30:14.932Z"
+            "created_at": "2026-01-01T19:41:01.129Z",
+            "updated_at": "2026-01-01T19:41:01.129Z"
           },
           {
             "id": "ZIO#516",
@@ -420,8 +244,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:16.998Z",
-            "updated_at": "2026-01-01T19:30:16.998Z"
+            "created_at": "2026-01-01T19:41:01.329Z",
+            "updated_at": "2026-01-01T19:41:01.329Z"
           },
           {
             "id": "ZIO#471",
@@ -430,8 +254,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:17.861Z",
-            "updated_at": "2026-01-01T19:30:17.861Z"
+            "created_at": "2026-01-01T19:41:01.529Z",
+            "updated_at": "2026-01-01T19:41:01.529Z"
           },
           {
             "id": "ZIO#514",
@@ -440,8 +264,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/514",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:17.996Z",
-            "updated_at": "2026-01-01T19:30:17.996Z"
+            "created_at": "2026-01-01T19:41:01.728Z",
+            "updated_at": "2026-01-01T19:41:01.728Z"
           },
           {
             "id": "ZIO#3697",
@@ -450,8 +274,8 @@
             "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:18.138Z",
-            "updated_at": "2026-01-01T19:30:18.138Z"
+            "created_at": "2026-01-01T19:41:01.935Z",
+            "updated_at": "2026-01-01T19:41:01.935Z"
           },
           {
             "id": "ZIO#709",
@@ -460,8 +284,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:18.273Z",
-            "updated_at": "2026-01-01T19:30:18.273Z"
+            "created_at": "2026-01-01T19:41:02.127Z",
+            "updated_at": "2026-01-01T19:41:02.127Z"
           },
           {
             "id": "ZIO#3472",
@@ -470,256 +294,77 @@
             "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:18.399Z",
-            "updated_at": "2026-01-01T19:30:18.399Z"
+            "created_at": "2026-01-01T19:41:02.304Z",
+            "updated_at": "2026-01-01T19:41:02.304Z"
           }
         ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
+        "last_updated": "2026-01-01T19:41:12.306Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:01.716Z",
-            "updated_at": "2026-01-01T19:30:01.716Z"
+            "created_at": "2026-01-01T19:40:35.419Z",
+            "updated_at": "2026-01-01T19:40:35.419Z"
           },
           {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-01T19:30:06.437Z",
-            "updated_at": "2026-01-01T19:30:06.437Z"
-          },
-          {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:14.982Z",
-            "updated_at": "2026-01-01T19:30:14.982Z"
-          },
-          {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:16.998Z",
-            "updated_at": "2026-01-01T19:30:16.998Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:17.963Z",
-            "updated_at": "2026-01-01T19:30:17.963Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:18.087Z",
-            "updated_at": "2026-01-01T19:30:18.087Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:18.188Z",
-            "updated_at": "2026-01-01T19:30:18.188Z"
-          },
-          {
-            "id": "tscircuit#176",
-            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:18.311Z",
-            "updated_at": "2026-01-01T19:30:18.311Z"
-          },
-          {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:18.516Z",
-            "updated_at": "2026-01-01T19:30:18.516Z"
-          },
-          {
-            "id": "tscircuit#175",
-            "title": "SparkFun MicroMod RP2040 Processor",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:18.676Z",
-            "updated_at": "2026-01-01T19:30:18.676Z"
+            "created_at": "2026-01-01T19:40:35.638Z",
+            "updated_at": "2026-01-01T19:40:35.638Z"
           }
         ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
+        "last_updated": "2026-01-01T19:41:12.306Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:01.641Z",
-            "updated_at": "2026-01-01T19:30:01.641Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-01T19:40:35.497Z",
+            "updated_at": "2026-01-01T19:40:35.497Z"
           },
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:06.437Z",
-            "updated_at": "2026-01-01T19:30:06.437Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:11.034Z",
-            "updated_at": "2026-01-01T19:30:11.034Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:14.932Z",
-            "updated_at": "2026-01-01T19:30:14.932Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-01T19:40:35.712Z",
+            "updated_at": "2026-01-01T19:40:35.712Z"
           }
         ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:01.740Z",
-            "updated_at": "2026-01-01T19:30:01.740Z"
-          },
-          {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:06.438Z",
-            "updated_at": "2026-01-01T19:30:06.438Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:11.035Z",
-            "updated_at": "2026-01-01T19:30:11.035Z"
-          }
-        ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-            "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:01.717Z",
-            "updated_at": "2026-01-01T19:30:01.717Z"
-          }
-        ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
-            "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-01T19:30:06.438Z",
-            "updated_at": "2026-01-01T19:30:06.438Z"
-          }
-        ],
-        "last_updated": "2026-01-01T19:30:28.678Z",
+        "last_updated": "2026-01-01T19:41:12.306Z",
         "scrape_duration_ms": 0
       }
     ]
