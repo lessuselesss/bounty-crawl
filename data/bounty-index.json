@@ -1,38 +1,58 @@
 {
-  "generated_at": "2026-01-03T21:33:03.534Z",
-  "total_organizations": 6,
-  "total_bounties": 38,
-  "total_value_usd": 3800,
+  "generated_at": "2026-01-03T21:50:52.093Z",
+  "total_organizations": 8,
+  "total_bounties": 33,
+  "total_value_usd": 3300,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-03T21:49:54.845Z",
+          "updated_at": "2026-01-03T21:49:54.845Z"
+        }
+      ],
+      "last_updated": "2026-01-03T21:50:52.093Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:20.774Z",
-          "updated_at": "2026-01-03T21:32:20.774Z"
+          "created_at": "2026-01-03T21:49:54.864Z",
+          "updated_at": "2026-01-03T21:49:54.864Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:21.085Z",
-          "updated_at": "2026-01-03T21:32:21.085Z"
+          "created_at": "2026-01-03T21:49:54.980Z",
+          "updated_at": "2026-01-03T21:49:54.980Z"
         }
       ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
+      "last_updated": "2026-01-03T21:50:52.093Z",
       "scrape_duration_ms": 0
     },
     "golemcloud": {
@@ -50,8 +70,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-03T21:32:20.928Z",
-          "updated_at": "2026-01-03T21:32:20.928Z"
+          "created_at": "2026-01-03T21:49:55.074Z",
+          "updated_at": "2026-01-03T21:49:55.074Z"
         },
         {
           "id": "golemcloud#23",
@@ -62,11 +82,71 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-03T21:32:21.146Z",
-          "updated_at": "2026-01-03T21:32:21.146Z"
+          "created_at": "2026-01-03T21:49:55.202Z",
+          "updated_at": "2026-01-03T21:49:55.202Z"
         }
       ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
+      "last_updated": "2026-01-03T21:50:52.093Z",
+      "scrape_duration_ms": 0
+    },
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
+          "amount_usd": 100,
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-03T21:50:00.273Z",
+          "updated_at": "2026-01-03T21:50:00.273Z"
+        }
+      ],
+      "last_updated": "2026-01-03T21:50:52.093Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-03T21:50:00.210Z",
+          "updated_at": "2026-01-03T21:50:00.210Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-03T21:50:00.346Z",
+          "updated_at": "2026-01-03T21:50:00.346Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-03T21:50:00.505Z",
+          "updated_at": "2026-01-03T21:50:00.505Z"
+        }
+      ],
+      "last_updated": "2026-01-03T21:50:52.093Z",
       "scrape_duration_ms": 0
     },
     "mudlet": {
@@ -82,8 +162,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:23.989Z",
-          "updated_at": "2026-01-03T21:32:23.989Z"
+          "created_at": "2026-01-03T21:50:22.908Z",
+          "updated_at": "2026-01-03T21:50:22.908Z"
         },
         {
           "id": "mudlet#3172",
@@ -92,8 +172,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:27.946Z",
-          "updated_at": "2026-01-03T21:32:27.946Z"
+          "created_at": "2026-01-03T21:50:23.001Z",
+          "updated_at": "2026-01-03T21:50:23.001Z"
         },
         {
           "id": "mudlet#689",
@@ -102,8 +182,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.016Z",
-          "updated_at": "2026-01-03T21:32:30.016Z"
+          "created_at": "2026-01-03T21:50:23.109Z",
+          "updated_at": "2026-01-03T21:50:23.109Z"
         },
         {
           "id": "mudlet#5310",
@@ -112,11 +192,11 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.224Z",
-          "updated_at": "2026-01-03T21:32:30.224Z"
+          "created_at": "2026-01-03T21:50:23.263Z",
+          "updated_at": "2026-01-03T21:50:23.263Z"
         }
       ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
+      "last_updated": "2026-01-03T21:50:52.093Z",
       "scrape_duration_ms": 0
     },
     "coollabsio": {
@@ -132,8 +212,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7743",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:23.989Z",
-          "updated_at": "2026-01-03T21:32:23.989Z"
+          "created_at": "2026-01-03T21:50:23.491Z",
+          "updated_at": "2026-01-03T21:50:23.491Z"
         },
         {
           "id": "coollabsio#7738",
@@ -142,8 +222,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7738",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:27.947Z",
-          "updated_at": "2026-01-03T21:32:27.947Z"
+          "created_at": "2026-01-03T21:50:23.706Z",
+          "updated_at": "2026-01-03T21:50:23.706Z"
         },
         {
           "id": "coollabsio#7724",
@@ -152,8 +232,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7724",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.016Z",
-          "updated_at": "2026-01-03T21:32:30.016Z"
+          "created_at": "2026-01-03T21:50:23.796Z",
+          "updated_at": "2026-01-03T21:50:23.796Z"
         },
         {
           "id": "coollabsio#7642",
@@ -162,8 +242,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7642",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.250Z",
-          "updated_at": "2026-01-03T21:32:30.250Z"
+          "created_at": "2026-01-03T21:50:23.876Z",
+          "updated_at": "2026-01-03T21:50:23.876Z"
         },
         {
           "id": "coollabsio#7596",
@@ -172,8 +252,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.550Z",
-          "updated_at": "2026-01-03T21:32:30.550Z"
+          "created_at": "2026-01-03T21:50:23.990Z",
+          "updated_at": "2026-01-03T21:50:23.990Z"
         },
         {
           "id": "coollabsio#7528",
@@ -182,8 +262,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7528",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:30.814Z",
-          "updated_at": "2026-01-03T21:32:30.814Z"
+          "created_at": "2026-01-03T21:50:24.106Z",
+          "updated_at": "2026-01-03T21:50:24.106Z"
         },
         {
           "id": "coollabsio#7473",
@@ -192,8 +272,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7473",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:31.045Z",
-          "updated_at": "2026-01-03T21:32:31.045Z"
+          "created_at": "2026-01-03T21:50:24.221Z",
+          "updated_at": "2026-01-03T21:50:24.221Z"
         },
         {
           "id": "coollabsio#7458",
@@ -202,8 +282,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7458",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:31.270Z",
-          "updated_at": "2026-01-03T21:32:31.270Z"
+          "created_at": "2026-01-03T21:50:24.312Z",
+          "updated_at": "2026-01-03T21:50:24.312Z"
         },
         {
           "id": "coollabsio#7423",
@@ -212,8 +292,8 @@
           "url": "https://github.com/coollabsio/coolify/issues/7423",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:31.490Z",
-          "updated_at": "2026-01-03T21:32:31.490Z"
+          "created_at": "2026-01-03T21:50:24.409Z",
+          "updated_at": "2026-01-03T21:50:24.409Z"
         },
         {
           "id": "coollabsio#6519",
@@ -222,121 +302,11 @@
           "url": "https://github.com/coollabsio/coolify/issues/6519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:32.068Z",
-          "updated_at": "2026-01-03T21:32:32.068Z"
+          "created_at": "2026-01-03T21:50:24.495Z",
+          "updated_at": "2026-01-03T21:50:24.495Z"
         }
       ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#584",
-          "title": "Replicate ZIO Chunk (from zio/zio) into here",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/584",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:30.324Z",
-          "updated_at": "2026-01-03T21:32:30.324Z"
-        },
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:30.550Z",
-          "updated_at": "2026-01-03T21:32:30.550Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:30.867Z",
-          "updated_at": "2026-01-03T21:32:30.867Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:31.136Z",
-          "updated_at": "2026-01-03T21:32:31.136Z"
-        },
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:31.358Z",
-          "updated_at": "2026-01-03T21:32:31.358Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:31.740Z",
-          "updated_at": "2026-01-03T21:32:31.740Z"
-        },
-        {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:32.456Z",
-          "updated_at": "2026-01-03T21:32:32.456Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:33.648Z",
-          "updated_at": "2026-01-03T21:32:33.648Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:34.909Z",
-          "updated_at": "2026-01-03T21:32:34.909Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-03T21:32:38.780Z",
-          "updated_at": "2026-01-03T21:32:38.780Z"
-        }
-      ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
+      "last_updated": "2026-01-03T21:50:52.093Z",
       "scrape_duration_ms": 0
     },
     "mediar-ai": {
@@ -352,8 +322,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:51.740Z",
-          "updated_at": "2026-01-03T21:32:51.740Z"
+          "created_at": "2026-01-03T21:50:40.948Z",
+          "updated_at": "2026-01-03T21:50:40.948Z"
         },
         {
           "id": "mediar-ai#1560",
@@ -362,8 +332,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:51.936Z",
-          "updated_at": "2026-01-03T21:32:51.936Z"
+          "created_at": "2026-01-03T21:50:41.095Z",
+          "updated_at": "2026-01-03T21:50:41.095Z"
         },
         {
           "id": "mediar-ai#1441",
@@ -372,8 +342,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:52.159Z",
-          "updated_at": "2026-01-03T21:32:52.159Z"
+          "created_at": "2026-01-03T21:50:41.217Z",
+          "updated_at": "2026-01-03T21:50:41.217Z"
         },
         {
           "id": "mediar-ai#1298",
@@ -382,8 +352,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:52.393Z",
-          "updated_at": "2026-01-03T21:32:52.393Z"
+          "created_at": "2026-01-03T21:50:41.393Z",
+          "updated_at": "2026-01-03T21:50:41.393Z"
         },
         {
           "id": "mediar-ai#1383",
@@ -392,8 +362,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:52.573Z",
-          "updated_at": "2026-01-03T21:32:52.573Z"
+          "created_at": "2026-01-03T21:50:41.519Z",
+          "updated_at": "2026-01-03T21:50:41.519Z"
         },
         {
           "id": "mediar-ai#1382",
@@ -402,8 +372,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:52.780Z",
-          "updated_at": "2026-01-03T21:32:52.780Z"
+          "created_at": "2026-01-03T21:50:41.641Z",
+          "updated_at": "2026-01-03T21:50:41.641Z"
         },
         {
           "id": "mediar-ai#1380",
@@ -412,8 +382,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:52.972Z",
-          "updated_at": "2026-01-03T21:32:52.972Z"
+          "created_at": "2026-01-03T21:50:41.763Z",
+          "updated_at": "2026-01-03T21:50:41.763Z"
         },
         {
           "id": "mediar-ai#1160",
@@ -422,8 +392,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:53.166Z",
-          "updated_at": "2026-01-03T21:32:53.166Z"
+          "created_at": "2026-01-03T21:50:41.889Z",
+          "updated_at": "2026-01-03T21:50:41.889Z"
         },
         {
           "id": "mediar-ai#1142",
@@ -432,8 +402,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:53.348Z",
-          "updated_at": "2026-01-03T21:32:53.348Z"
+          "created_at": "2026-01-03T21:50:41.992Z",
+          "updated_at": "2026-01-03T21:50:41.992Z"
         },
         {
           "id": "mediar-ai#1131",
@@ -442,17 +412,17 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-03T21:32:53.532Z",
-          "updated_at": "2026-01-03T21:32:53.532Z"
+          "created_at": "2026-01-03T21:50:42.091Z",
+          "updated_at": "2026-01-03T21:50:42.091Z"
         }
       ],
-      "last_updated": "2026-01-03T21:33:03.534Z",
+      "last_updated": "2026-01-03T21:50:52.093Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 114165,
+    "processing_time_ms": 124853,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -474,8 +444,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7743",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:23.989Z",
-            "updated_at": "2026-01-03T21:32:23.989Z"
+            "created_at": "2026-01-03T21:50:23.491Z",
+            "updated_at": "2026-01-03T21:50:23.491Z"
           },
           {
             "id": "coollabsio#7738",
@@ -484,8 +454,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7738",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:27.947Z",
-            "updated_at": "2026-01-03T21:32:27.947Z"
+            "created_at": "2026-01-03T21:50:23.706Z",
+            "updated_at": "2026-01-03T21:50:23.706Z"
           },
           {
             "id": "coollabsio#7724",
@@ -494,8 +464,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7724",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.016Z",
-            "updated_at": "2026-01-03T21:32:30.016Z"
+            "created_at": "2026-01-03T21:50:23.796Z",
+            "updated_at": "2026-01-03T21:50:23.796Z"
           },
           {
             "id": "coollabsio#7642",
@@ -504,8 +474,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7642",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.250Z",
-            "updated_at": "2026-01-03T21:32:30.250Z"
+            "created_at": "2026-01-03T21:50:23.876Z",
+            "updated_at": "2026-01-03T21:50:23.876Z"
           },
           {
             "id": "coollabsio#7596",
@@ -514,8 +484,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7596",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.550Z",
-            "updated_at": "2026-01-03T21:32:30.550Z"
+            "created_at": "2026-01-03T21:50:23.990Z",
+            "updated_at": "2026-01-03T21:50:23.990Z"
           },
           {
             "id": "coollabsio#7528",
@@ -524,8 +494,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.814Z",
-            "updated_at": "2026-01-03T21:32:30.814Z"
+            "created_at": "2026-01-03T21:50:24.106Z",
+            "updated_at": "2026-01-03T21:50:24.106Z"
           },
           {
             "id": "coollabsio#7473",
@@ -534,8 +504,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:31.045Z",
-            "updated_at": "2026-01-03T21:32:31.045Z"
+            "created_at": "2026-01-03T21:50:24.221Z",
+            "updated_at": "2026-01-03T21:50:24.221Z"
           },
           {
             "id": "coollabsio#7458",
@@ -544,8 +514,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7458",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:31.270Z",
-            "updated_at": "2026-01-03T21:32:31.270Z"
+            "created_at": "2026-01-03T21:50:24.312Z",
+            "updated_at": "2026-01-03T21:50:24.312Z"
           },
           {
             "id": "coollabsio#7423",
@@ -554,8 +524,8 @@
             "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:31.490Z",
-            "updated_at": "2026-01-03T21:32:31.490Z"
+            "created_at": "2026-01-03T21:50:24.409Z",
+            "updated_at": "2026-01-03T21:50:24.409Z"
           },
           {
             "id": "coollabsio#6519",
@@ -564,122 +534,11 @@
             "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:32.068Z",
-            "updated_at": "2026-01-03T21:32:32.068Z"
+            "created_at": "2026-01-03T21:50:24.495Z",
+            "updated_at": "2026-01-03T21:50:24.495Z"
           }
         ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "zio#584",
-            "title": "Replicate ZIO Chunk (from zio/zio) into here",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/584",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:30.324Z",
-            "updated_at": "2026-01-03T21:32:30.324Z"
-          },
-          {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:30.550Z",
-            "updated_at": "2026-01-03T21:32:30.550Z"
-          },
-          {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:30.867Z",
-            "updated_at": "2026-01-03T21:32:30.867Z"
-          },
-          {
-            "id": "zio#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:31.136Z",
-            "updated_at": "2026-01-03T21:32:31.136Z"
-          },
-          {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:31.358Z",
-            "updated_at": "2026-01-03T21:32:31.358Z"
-          },
-          {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:31.740Z",
-            "updated_at": "2026-01-03T21:32:31.740Z"
-          },
-          {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:32.456Z",
-            "updated_at": "2026-01-03T21:32:32.456Z"
-          },
-          {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:33.648Z",
-            "updated_at": "2026-01-03T21:32:33.648Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:34.909Z",
-            "updated_at": "2026-01-03T21:32:34.909Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-03T21:32:38.780Z",
-            "updated_at": "2026-01-03T21:32:38.780Z"
-          }
-        ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
+        "last_updated": "2026-01-03T21:50:52.093Z",
         "scrape_duration_ms": 0
       },
       {
@@ -696,8 +555,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:51.740Z",
-            "updated_at": "2026-01-03T21:32:51.740Z"
+            "created_at": "2026-01-03T21:50:40.948Z",
+            "updated_at": "2026-01-03T21:50:40.948Z"
           },
           {
             "id": "mediar-ai#1560",
@@ -706,8 +565,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:51.936Z",
-            "updated_at": "2026-01-03T21:32:51.936Z"
+            "created_at": "2026-01-03T21:50:41.095Z",
+            "updated_at": "2026-01-03T21:50:41.095Z"
           },
           {
             "id": "mediar-ai#1441",
@@ -716,8 +575,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:52.159Z",
-            "updated_at": "2026-01-03T21:32:52.159Z"
+            "created_at": "2026-01-03T21:50:41.217Z",
+            "updated_at": "2026-01-03T21:50:41.217Z"
           },
           {
             "id": "mediar-ai#1298",
@@ -726,8 +585,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:52.393Z",
-            "updated_at": "2026-01-03T21:32:52.393Z"
+            "created_at": "2026-01-03T21:50:41.393Z",
+            "updated_at": "2026-01-03T21:50:41.393Z"
           },
           {
             "id": "mediar-ai#1383",
@@ -736,8 +595,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:52.573Z",
-            "updated_at": "2026-01-03T21:32:52.573Z"
+            "created_at": "2026-01-03T21:50:41.519Z",
+            "updated_at": "2026-01-03T21:50:41.519Z"
           },
           {
             "id": "mediar-ai#1382",
@@ -746,8 +605,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:52.780Z",
-            "updated_at": "2026-01-03T21:32:52.780Z"
+            "created_at": "2026-01-03T21:50:41.641Z",
+            "updated_at": "2026-01-03T21:50:41.641Z"
           },
           {
             "id": "mediar-ai#1380",
@@ -756,8 +615,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:52.972Z",
-            "updated_at": "2026-01-03T21:32:52.972Z"
+            "created_at": "2026-01-03T21:50:41.763Z",
+            "updated_at": "2026-01-03T21:50:41.763Z"
           },
           {
             "id": "mediar-ai#1160",
@@ -766,8 +625,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:53.166Z",
-            "updated_at": "2026-01-03T21:32:53.166Z"
+            "created_at": "2026-01-03T21:50:41.889Z",
+            "updated_at": "2026-01-03T21:50:41.889Z"
           },
           {
             "id": "mediar-ai#1142",
@@ -776,8 +635,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:53.348Z",
-            "updated_at": "2026-01-03T21:32:53.348Z"
+            "created_at": "2026-01-03T21:50:41.992Z",
+            "updated_at": "2026-01-03T21:50:41.992Z"
           },
           {
             "id": "mediar-ai#1131",
@@ -786,11 +645,11 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:53.532Z",
-            "updated_at": "2026-01-03T21:32:53.532Z"
+            "created_at": "2026-01-03T21:50:42.091Z",
+            "updated_at": "2026-01-03T21:50:42.091Z"
           }
         ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
+        "last_updated": "2026-01-03T21:50:52.093Z",
         "scrape_duration_ms": 0
       },
       {
@@ -807,8 +666,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:23.989Z",
-            "updated_at": "2026-01-03T21:32:23.989Z"
+            "created_at": "2026-01-03T21:50:22.908Z",
+            "updated_at": "2026-01-03T21:50:22.908Z"
           },
           {
             "id": "mudlet#3172",
@@ -817,8 +676,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:27.946Z",
-            "updated_at": "2026-01-03T21:32:27.946Z"
+            "created_at": "2026-01-03T21:50:23.001Z",
+            "updated_at": "2026-01-03T21:50:23.001Z"
           },
           {
             "id": "mudlet#689",
@@ -827,8 +686,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.016Z",
-            "updated_at": "2026-01-03T21:32:30.016Z"
+            "created_at": "2026-01-03T21:50:23.109Z",
+            "updated_at": "2026-01-03T21:50:23.109Z"
           },
           {
             "id": "mudlet#5310",
@@ -837,42 +696,83 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:30.224Z",
-            "updated_at": "2026-01-03T21:32:30.224Z"
+            "created_at": "2026-01-03T21:50:23.263Z",
+            "updated_at": "2026-01-03T21:50:23.263Z"
           }
         ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
+        "last_updated": "2026-01-03T21:50:52.093Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/716",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-03T21:50:00.210Z",
+            "updated_at": "2026-01-03T21:50:00.210Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-03T21:50:00.346Z",
+            "updated_at": "2026-01-03T21:50:00.346Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-03T21:50:00.505Z",
+            "updated_at": "2026-01-03T21:50:00.505Z"
+          }
+        ],
+        "last_updated": "2026-01-03T21:50:52.093Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:20.774Z",
-            "updated_at": "2026-01-03T21:32:20.774Z"
+            "created_at": "2026-01-03T21:49:54.864Z",
+            "updated_at": "2026-01-03T21:49:54.864Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-03T21:32:21.085Z",
-            "updated_at": "2026-01-03T21:32:21.085Z"
+            "created_at": "2026-01-03T21:49:54.980Z",
+            "updated_at": "2026-01-03T21:49:54.980Z"
           }
         ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
+        "last_updated": "2026-01-03T21:50:52.093Z",
         "scrape_duration_ms": 0
       },
       {
@@ -891,8 +791,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-03T21:32:20.928Z",
-            "updated_at": "2026-01-03T21:32:20.928Z"
+            "created_at": "2026-01-03T21:49:55.074Z",
+            "updated_at": "2026-01-03T21:49:55.074Z"
           },
           {
             "id": "golemcloud#23",
@@ -903,11 +803,53 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-03T21:32:21.146Z",
-            "updated_at": "2026-01-03T21:32:21.146Z"
+            "created_at": "2026-01-03T21:49:55.202Z",
+            "updated_at": "2026-01-03T21:49:55.202Z"
           }
         ],
-        "last_updated": "2026-01-03T21:33:03.534Z",
+        "last_updated": "2026-01-03T21:50:52.093Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-03T21:49:54.845Z",
+            "updated_at": "2026-01-03T21:49:54.845Z"
+          }
+        ],
+        "last_updated": "2026-01-03T21:50:52.093Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
+            "amount_usd": 100,
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-03T21:50:00.273Z",
+            "updated_at": "2026-01-03T21:50:00.273Z"
+          }
+        ],
+        "last_updated": "2026-01-03T21:50:52.093Z",
         "scrape_duration_ms": 0
       }
     ]
