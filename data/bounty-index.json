@@ -1,596 +1,232 @@
 {
-  "generated_at": "2026-01-04T15:51:46.362Z",
-  "total_organizations": 8,
-  "total_bounties": 50,
-  "total_value_usd": 5000,
+  "generated_at": "2026-01-04T16:18:54.774Z",
+  "total_organizations": 5,
+  "total_bounties": 16,
+  "total_value_usd": 1600,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-04T16:18:15.960Z",
+          "updated_at": "2026-01-04T16:18:15.960Z"
+        }
+      ],
+      "last_updated": "2026-01-04T16:18:54.773Z",
+      "scrape_duration_ms": 0
+    },
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-04T16:18:16.044Z",
+          "updated_at": "2026-01-04T16:18:16.044Z"
+        }
+      ],
+      "last_updated": "2026-01-04T16:18:54.773Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:03.200Z",
-          "updated_at": "2026-01-04T15:51:03.200Z"
-        },
-        {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
-          "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:03.590Z",
-          "updated_at": "2026-01-04T15:51:03.590Z"
-        }
-      ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#584",
-          "title": "Replicate ZIO Chunk (from zio/zio) into here",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/584",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:50:54.652Z",
-          "updated_at": "2026-01-04T15:50:54.652Z"
-        },
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:00.208Z",
-          "updated_at": "2026-01-04T15:51:00.208Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:02.478Z",
-          "updated_at": "2026-01-04T15:51:02.478Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:02.953Z",
-          "updated_at": "2026-01-04T15:51:02.953Z"
-        },
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:03.200Z",
-          "updated_at": "2026-01-04T15:51:03.200Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:03.591Z",
-          "updated_at": "2026-01-04T15:51:03.591Z"
-        },
-        {
-          "id": "zio#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:04.815Z",
-          "updated_at": "2026-01-04T15:51:04.815Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:06.410Z",
-          "updated_at": "2026-01-04T15:51:06.410Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:11.708Z",
-          "updated_at": "2026-01-04T15:51:11.708Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:16.353Z",
-          "updated_at": "2026-01-04T15:51:16.353Z"
-        }
-      ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 7,
-      "total_value_usd": 700,
-      "bounties": [
-        {
-          "id": "projectdiscovery#14693",
-          "title": "CVE-2019-14206 - Nevma Adaptive Images - Arbitrary File Deletion 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14693",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-04T15:51:24.520Z",
-          "updated_at": "2026-01-04T15:51:24.520Z"
+          "created_at": "2026-01-04T16:18:16.564Z",
+          "updated_at": "2026-01-04T16:18:16.564Z"
         },
         {
-          "id": "projectdiscovery#1693",
-          "title": "test - pls ignore",
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/subfinder/issues/1693",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.272Z",
-          "updated_at": "2026-01-04T15:51:26.272Z"
-        },
-        {
-          "id": "projectdiscovery#14673",
-          "title": "CVE-2016-15043 - WP Mobile Detector WordPress plugin - Unrestricted File Upload 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14673",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.435Z",
-          "updated_at": "2026-01-04T15:51:26.435Z"
-        },
-        {
-          "id": "projectdiscovery#14623",
-          "title": "CVE-2018-6961 - VMware NSX SD-WAN Edge - Command Injection 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14623",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.556Z",
-          "updated_at": "2026-01-04T15:51:26.556Z"
-        },
-        {
-          "id": "projectdiscovery#14598",
-          "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.671Z",
-          "updated_at": "2026-01-04T15:51:26.671Z"
-        },
-        {
-          "id": "projectdiscovery#14587",
-          "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.808Z",
-          "updated_at": "2026-01-04T15:51:26.808Z"
-        },
-        {
-          "id": "projectdiscovery#14576",
-          "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:26.911Z",
-          "updated_at": "2026-01-04T15:51:26.911Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-04T16:18:18.088Z",
+          "updated_at": "2026-01-04T16:18:18.088Z"
         }
       ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
+      "last_updated": "2026-01-04T16:18:54.773Z",
       "scrape_duration_ms": 0
     },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.551Z",
-          "updated_at": "2026-01-04T15:51:28.551Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-04T16:18:16.564Z",
+          "updated_at": "2026-01-04T16:18:16.564Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.668Z",
-          "updated_at": "2026-01-04T15:51:28.668Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-04T16:18:18.088Z",
+          "updated_at": "2026-01-04T16:18:18.088Z"
         }
       ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
+      "last_updated": "2026-01-04T16:18:54.773Z",
       "scrape_duration_ms": 0
     },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.626Z",
-          "updated_at": "2026-01-04T15:51:28.626Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.821Z",
-          "updated_at": "2026-01-04T15:51:28.821Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.943Z",
-          "updated_at": "2026-01-04T15:51:28.943Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:29.075Z",
-          "updated_at": "2026-01-04T15:51:29.075Z"
-        }
-      ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
-      "scrape_duration_ms": 0
-    },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
-      "bounties": [
-        {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.593Z",
-          "updated_at": "2026-01-04T15:51:28.593Z"
-        },
-        {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.702Z",
-          "updated_at": "2026-01-04T15:51:28.702Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.835Z",
-          "updated_at": "2026-01-04T15:51:28.835Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:28.960Z",
-          "updated_at": "2026-01-04T15:51:28.960Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:29.091Z",
-          "updated_at": "2026-01-04T15:51:29.091Z"
-        }
-      ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
-      "scrape_duration_ms": 0
-    },
-    "mediar-ai": {
-      "display_name": "Mediar-ai",
-      "url": "https://algora.io/mediar-ai/bounties?status=open",
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "mediar-ai#1626",
-          "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:28.611Z",
-          "updated_at": "2026-01-04T15:51:28.611Z"
+          "created_at": "2026-01-04T16:18:41.749Z",
+          "updated_at": "2026-01-04T16:18:41.749Z"
         },
         {
-          "id": "mediar-ai#1560",
-          "title": "[feature]  Implement Session Tracking for Application and Window Usage",
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
+          "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:28.747Z",
-          "updated_at": "2026-01-04T15:51:28.747Z"
+          "created_at": "2026-01-04T16:18:42.000Z",
+          "updated_at": "2026-01-04T16:18:42.000Z"
         },
         {
-          "id": "mediar-ai#1441",
-          "title": "[bounty] general purpose scrapper",
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
+          "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:28.888Z",
-          "updated_at": "2026-01-04T15:51:28.888Z"
+          "created_at": "2026-01-04T16:18:42.206Z",
+          "updated_at": "2026-01-04T16:18:42.206Z"
         },
         {
-          "id": "mediar-ai#1298",
-          "title": "[docs] document env var somewhere somehow ",
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
+          "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.168Z",
-          "updated_at": "2026-01-04T15:51:29.168Z"
+          "created_at": "2026-01-04T16:18:42.447Z",
+          "updated_at": "2026-01-04T16:18:42.447Z"
         },
         {
-          "id": "mediar-ai#1383",
-          "title": "[bounty] implement deep research in search pipe",
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
+          "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.285Z",
-          "updated_at": "2026-01-04T15:51:29.285Z"
+          "created_at": "2026-01-04T16:18:42.682Z",
+          "updated_at": "2026-01-04T16:18:42.682Z"
         },
         {
-          "id": "mediar-ai#1382",
-          "title": "[bounty] implement history for search pipe",
+          "id": "cal#16651",
+          "title": "[CAL-4716] Missing Notifications for Events",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
+          "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.428Z",
-          "updated_at": "2026-01-04T15:51:29.428Z"
+          "created_at": "2026-01-04T16:18:42.878Z",
+          "updated_at": "2026-01-04T16:18:42.878Z"
         },
         {
-          "id": "mediar-ai#1380",
-          "title": "[bounty] implement device control and make --use-all-monitors work",
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
+          "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.549Z",
-          "updated_at": "2026-01-04T15:51:29.549Z"
+          "created_at": "2026-01-04T16:18:43.071Z",
+          "updated_at": "2026-01-04T16:18:43.071Z"
         },
         {
-          "id": "mediar-ai#1160",
-          "title": "[bounty] list webcam, iphone, etc. in list-monitors",
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
+          "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.659Z",
-          "updated_at": "2026-01-04T15:51:29.659Z"
+          "created_at": "2026-01-04T16:18:43.279Z",
+          "updated_at": "2026-01-04T16:18:43.279Z"
         },
         {
-          "id": "mediar-ai#1142",
-          "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
+          "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.792Z",
-          "updated_at": "2026-01-04T15:51:29.792Z"
+          "created_at": "2026-01-04T16:18:44.554Z",
+          "updated_at": "2026-01-04T16:18:44.554Z"
         },
         {
-          "id": "mediar-ai#1131",
-          "title": "[feature] improve visibility of pipes, audio, monitor devices",
+          "id": "cal#11340",
+          "title": "Add Lawpay as a payment option",
           "amount_usd": 100,
-          "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
+          "url": "https://github.com/calcom/cal.com/issues/11340",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T15:51:29.900Z",
-          "updated_at": "2026-01-04T15:51:29.900Z"
+          "created_at": "2026-01-04T16:18:44.740Z",
+          "updated_at": "2026-01-04T16:18:44.740Z"
         }
       ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#584",
-          "title": "Replicate ZIO Chunk (from zio/zio) into here",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/584",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.241Z",
-          "updated_at": "2026-01-04T15:51:35.241Z"
-        },
-        {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.394Z",
-          "updated_at": "2026-01-04T15:51:35.394Z"
-        },
-        {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.511Z",
-          "updated_at": "2026-01-04T15:51:35.511Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.645Z",
-          "updated_at": "2026-01-04T15:51:35.645Z"
-        },
-        {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.755Z",
-          "updated_at": "2026-01-04T15:51:35.755Z"
-        },
-        {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.874Z",
-          "updated_at": "2026-01-04T15:51:35.874Z"
-        },
-        {
-          "id": "ZIO#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:35.993Z",
-          "updated_at": "2026-01-04T15:51:35.993Z"
-        },
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:36.099Z",
-          "updated_at": "2026-01-04T15:51:36.099Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:36.215Z",
-          "updated_at": "2026-01-04T15:51:36.215Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T15:51:36.360Z",
-          "updated_at": "2026-01-04T15:51:36.360Z"
-        }
-      ],
-      "last_updated": "2026-01-04T15:51:46.362Z",
+      "last_updated": "2026-01-04T16:18:54.773Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 138057,
+    "processing_time_ms": 113809,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -599,593 +235,226 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "zio#584",
-            "title": "Replicate ZIO Chunk (from zio/zio) into here",
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/584",
+            "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:50:54.652Z",
-            "updated_at": "2026-01-04T15:50:54.652Z"
+            "created_at": "2026-01-04T16:18:41.749Z",
+            "updated_at": "2026-01-04T16:18:41.749Z"
           },
           {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:00.208Z",
-            "updated_at": "2026-01-04T15:51:00.208Z"
+            "created_at": "2026-01-04T16:18:42.000Z",
+            "updated_at": "2026-01-04T16:18:42.000Z"
           },
           {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:02.478Z",
-            "updated_at": "2026-01-04T15:51:02.478Z"
+            "created_at": "2026-01-04T16:18:42.206Z",
+            "updated_at": "2026-01-04T16:18:42.206Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:02.953Z",
-            "updated_at": "2026-01-04T15:51:02.953Z"
+            "created_at": "2026-01-04T16:18:42.447Z",
+            "updated_at": "2026-01-04T16:18:42.447Z"
           },
           {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:03.200Z",
-            "updated_at": "2026-01-04T15:51:03.200Z"
+            "created_at": "2026-01-04T16:18:42.682Z",
+            "updated_at": "2026-01-04T16:18:42.682Z"
           },
           {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "cal#16651",
+            "title": "[CAL-4716] Missing Notifications for Events",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:03.591Z",
-            "updated_at": "2026-01-04T15:51:03.591Z"
+            "created_at": "2026-01-04T16:18:42.878Z",
+            "updated_at": "2026-01-04T16:18:42.878Z"
           },
           {
-            "id": "zio#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
+            "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:04.815Z",
-            "updated_at": "2026-01-04T15:51:04.815Z"
+            "created_at": "2026-01-04T16:18:43.071Z",
+            "updated_at": "2026-01-04T16:18:43.071Z"
           },
           {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
+            "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:06.410Z",
-            "updated_at": "2026-01-04T15:51:06.410Z"
+            "created_at": "2026-01-04T16:18:43.279Z",
+            "updated_at": "2026-01-04T16:18:43.279Z"
           },
           {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
+            "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:11.708Z",
-            "updated_at": "2026-01-04T15:51:11.708Z"
+            "created_at": "2026-01-04T16:18:44.554Z",
+            "updated_at": "2026-01-04T16:18:44.554Z"
           },
           {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
+            "id": "cal#11340",
+            "title": "Add Lawpay as a payment option",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/calcom/cal.com/issues/11340",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:16.353Z",
-            "updated_at": "2026-01-04T15:51:16.353Z"
+            "created_at": "2026-01-04T16:18:44.740Z",
+            "updated_at": "2026-01-04T16:18:44.740Z"
           }
         ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
+        "last_updated": "2026-01-04T16:18:54.773Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mediar-ai",
-        "display_name": "Mediar-ai",
-        "url": "https://algora.io/mediar-ai/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "mediar-ai#1626",
-            "title": "[bounty] $400 fix audio device randomly stopping sometimes",
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.611Z",
-            "updated_at": "2026-01-04T15:51:28.611Z"
-          },
-          {
-            "id": "mediar-ai#1560",
-            "title": "[feature]  Implement Session Tracking for Application and Window Usage",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.747Z",
-            "updated_at": "2026-01-04T15:51:28.747Z"
-          },
-          {
-            "id": "mediar-ai#1441",
-            "title": "[bounty] general purpose scrapper",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.888Z",
-            "updated_at": "2026-01-04T15:51:28.888Z"
-          },
-          {
-            "id": "mediar-ai#1298",
-            "title": "[docs] document env var somewhere somehow ",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.168Z",
-            "updated_at": "2026-01-04T15:51:29.168Z"
-          },
-          {
-            "id": "mediar-ai#1383",
-            "title": "[bounty] implement deep research in search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.285Z",
-            "updated_at": "2026-01-04T15:51:29.285Z"
-          },
-          {
-            "id": "mediar-ai#1382",
-            "title": "[bounty] implement history for search pipe",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.428Z",
-            "updated_at": "2026-01-04T15:51:29.428Z"
-          },
-          {
-            "id": "mediar-ai#1380",
-            "title": "[bounty] implement device control and make --use-all-monitors work",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.549Z",
-            "updated_at": "2026-01-04T15:51:29.549Z"
-          },
-          {
-            "id": "mediar-ai#1160",
-            "title": "[bounty] list webcam, iphone, etc. in list-monitors",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.659Z",
-            "updated_at": "2026-01-04T15:51:29.659Z"
-          },
-          {
-            "id": "mediar-ai#1142",
-            "title": "[bounty] support for video and voice LLM in search, timeline, meeting",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.792Z",
-            "updated_at": "2026-01-04T15:51:29.792Z"
-          },
-          {
-            "id": "mediar-ai#1131",
-            "title": "[feature] improve visibility of pipes, audio, monitor devices",
-            "amount_usd": 100,
-            "url": "https://github.com/mediar-ai/screenpipe/issues/1131",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.900Z",
-            "updated_at": "2026-01-04T15:51:29.900Z"
-          }
-        ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#584",
-            "title": "Replicate ZIO Chunk (from zio/zio) into here",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/584",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.241Z",
-            "updated_at": "2026-01-04T15:51:35.241Z"
-          },
-          {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.394Z",
-            "updated_at": "2026-01-04T15:51:35.394Z"
-          },
-          {
-            "id": "ZIO#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.511Z",
-            "updated_at": "2026-01-04T15:51:35.511Z"
-          },
-          {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.645Z",
-            "updated_at": "2026-01-04T15:51:35.645Z"
-          },
-          {
-            "id": "ZIO#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.755Z",
-            "updated_at": "2026-01-04T15:51:35.755Z"
-          },
-          {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.874Z",
-            "updated_at": "2026-01-04T15:51:35.874Z"
-          },
-          {
-            "id": "ZIO#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:35.993Z",
-            "updated_at": "2026-01-04T15:51:35.993Z"
-          },
-          {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:36.099Z",
-            "updated_at": "2026-01-04T15:51:36.099Z"
-          },
-          {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:36.215Z",
-            "updated_at": "2026-01-04T15:51:36.215Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:36.360Z",
-            "updated_at": "2026-01-04T15:51:36.360Z"
-          }
-        ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
-        "bounty_count": 7,
-        "total_value_usd": 700,
-        "bounties": [
-          {
-            "id": "projectdiscovery#14693",
-            "title": "CVE-2019-14206 - Nevma Adaptive Images - Arbitrary File Deletion 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14693",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-04T15:51:24.520Z",
-            "updated_at": "2026-01-04T15:51:24.520Z"
+            "created_at": "2026-01-04T16:18:16.564Z",
+            "updated_at": "2026-01-04T16:18:16.564Z"
           },
           {
-            "id": "projectdiscovery#1693",
-            "title": "test - pls ignore",
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/subfinder/issues/1693",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.272Z",
-            "updated_at": "2026-01-04T15:51:26.272Z"
-          },
-          {
-            "id": "projectdiscovery#14673",
-            "title": "CVE-2016-15043 - WP Mobile Detector WordPress plugin - Unrestricted File Upload 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14673",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.435Z",
-            "updated_at": "2026-01-04T15:51:26.435Z"
-          },
-          {
-            "id": "projectdiscovery#14623",
-            "title": "CVE-2018-6961 - VMware NSX SD-WAN Edge - Command Injection 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14623",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.556Z",
-            "updated_at": "2026-01-04T15:51:26.556Z"
-          },
-          {
-            "id": "projectdiscovery#14598",
-            "title": "CVE-2018-15133 - Laravel Framework - Remote Code Execution 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14598",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.671Z",
-            "updated_at": "2026-01-04T15:51:26.671Z"
-          },
-          {
-            "id": "projectdiscovery#14587",
-            "title": "CVE-2018-9206 - Blueimp jQuery-File-Upload - Unrestricted File Upload 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14587",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.808Z",
-            "updated_at": "2026-01-04T15:51:26.808Z"
-          },
-          {
-            "id": "projectdiscovery#14576",
-            "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
-            "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:26.911Z",
-            "updated_at": "2026-01-04T15:51:26.911Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-04T16:18:18.088Z",
+            "updated_at": "2026-01-04T16:18:18.088Z"
           }
         ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
+        "last_updated": "2026-01-04T16:18:54.773Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.593Z",
-            "updated_at": "2026-01-04T15:51:28.593Z"
-          },
-          {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.702Z",
-            "updated_at": "2026-01-04T15:51:28.702Z"
-          },
-          {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.835Z",
-            "updated_at": "2026-01-04T15:51:28.835Z"
-          },
-          {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.960Z",
-            "updated_at": "2026-01-04T15:51:28.960Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.091Z",
-            "updated_at": "2026-01-04T15:51:29.091Z"
-          }
-        ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.626Z",
-            "updated_at": "2026-01-04T15:51:28.626Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.821Z",
-            "updated_at": "2026-01-04T15:51:28.821Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.943Z",
-            "updated_at": "2026-01-04T15:51:28.943Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:29.075Z",
-            "updated_at": "2026-01-04T15:51:29.075Z"
-          }
-        ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:03.200Z",
-            "updated_at": "2026-01-04T15:51:03.200Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-04T16:18:16.564Z",
+            "updated_at": "2026-01-04T16:18:16.564Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:03.590Z",
-            "updated_at": "2026-01-04T15:51:03.590Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-04T16:18:18.088Z",
+            "updated_at": "2026-01-04T16:18:18.088Z"
           }
         ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
+        "last_updated": "2026-01-04T16:18:54.773Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T15:51:28.551Z",
-            "updated_at": "2026-01-04T15:51:28.551Z"
-          },
-          {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T15:51:28.668Z",
-            "updated_at": "2026-01-04T15:51:28.668Z"
+            "created_at": "2026-01-04T16:18:15.960Z",
+            "updated_at": "2026-01-04T16:18:15.960Z"
           }
         ],
-        "last_updated": "2026-01-04T15:51:46.362Z",
+        "last_updated": "2026-01-04T16:18:54.773Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-04T16:18:16.044Z",
+            "updated_at": "2026-01-04T16:18:16.044Z"
+          }
+        ],
+        "last_updated": "2026-01-04T16:18:54.773Z",
         "scrape_duration_ms": 0
       }
     ]
