@@ -1,38 +1,68 @@
 {
-  "generated_at": "2026-01-04T06:24:23.041Z",
-  "total_organizations": 7,
-  "total_bounties": 23,
-  "total_value_usd": 2300,
+  "generated_at": "2026-01-04T06:55:19.270Z",
+  "total_organizations": 5,
+  "total_bounties": 19,
+  "total_value_usd": 1900,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:23:49.470Z",
-          "updated_at": "2026-01-04T06:23:49.470Z"
+          "created_at": "2026-01-04T06:54:55.636Z",
+          "updated_at": "2026-01-04T06:54:55.636Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:23:49.635Z",
-          "updated_at": "2026-01-04T06:23:49.635Z"
+          "created_at": "2026-01-04T06:54:56.687Z",
+          "updated_at": "2026-01-04T06:54:56.687Z"
         }
       ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
+      "last_updated": "2026-01-04T06:55:19.270Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-04T06:54:55.598Z",
+          "updated_at": "2026-01-04T06:54:55.598Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-04T06:54:56.721Z",
+          "updated_at": "2026-01-04T06:54:56.721Z"
+        }
+      ],
+      "last_updated": "2026-01-04T06:55:19.270Z",
       "scrape_duration_ms": 0
     },
     "golemcloud": {
@@ -50,8 +80,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-04T06:23:49.634Z",
-          "updated_at": "2026-01-04T06:23:49.634Z"
+          "created_at": "2026-01-04T06:54:55.684Z",
+          "updated_at": "2026-01-04T06:54:55.684Z"
         },
         {
           "id": "golemcloud#23",
@@ -62,51 +92,11 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-04T06:23:49.971Z",
-          "updated_at": "2026-01-04T06:23:49.971Z"
+          "created_at": "2026-01-04T06:54:56.948Z",
+          "updated_at": "2026-01-04T06:54:56.948Z"
         }
       ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
-      "scrape_duration_ms": 0
-    },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:23:49.557Z",
-          "updated_at": "2026-01-04T06:23:49.557Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:23:49.711Z",
-          "updated_at": "2026-01-04T06:23:49.711Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:23:50.686Z",
-          "updated_at": "2026-01-04T06:23:50.686Z"
-        }
-      ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
+      "last_updated": "2026-01-04T06:55:19.270Z",
       "scrape_duration_ms": 0
     },
     "prisma": {
@@ -122,8 +112,8 @@
           "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:23:49.557Z",
-          "updated_at": "2026-01-04T06:23:49.557Z"
+          "created_at": "2026-01-04T06:54:55.635Z",
+          "updated_at": "2026-01-04T06:54:55.635Z"
         },
         {
           "id": "prisma#8548",
@@ -132,8 +122,8 @@
           "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:23:49.799Z",
-          "updated_at": "2026-01-04T06:23:49.799Z"
+          "created_at": "2026-01-04T06:54:56.733Z",
+          "updated_at": "2026-01-04T06:54:56.733Z"
         },
         {
           "id": "prisma#7771",
@@ -142,177 +132,127 @@
           "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:23:50.772Z",
-          "updated_at": "2026-01-04T06:23:50.772Z"
+          "created_at": "2026-01-04T06:54:58.330Z",
+          "updated_at": "2026-01-04T06:54:58.330Z"
         }
       ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
+      "last_updated": "2026-01-04T06:55:19.270Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:10.916Z",
-          "updated_at": "2026-01-04T06:24:10.916Z"
+          "created_at": "2026-01-04T06:54:55.599Z",
+          "updated_at": "2026-01-04T06:54:55.599Z"
         },
         {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.052Z",
-          "updated_at": "2026-01-04T06:24:11.052Z"
+          "created_at": "2026-01-04T06:54:56.759Z",
+          "updated_at": "2026-01-04T06:54:56.759Z"
         },
         {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.202Z",
-          "updated_at": "2026-01-04T06:24:11.202Z"
+          "created_at": "2026-01-04T06:55:02.091Z",
+          "updated_at": "2026-01-04T06:55:02.091Z"
         },
         {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.352Z",
-          "updated_at": "2026-01-04T06:24:11.352Z"
+          "created_at": "2026-01-04T06:55:06.118Z",
+          "updated_at": "2026-01-04T06:55:06.118Z"
         },
         {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.469Z",
-          "updated_at": "2026-01-04T06:24:11.469Z"
+          "created_at": "2026-01-04T06:55:08.317Z",
+          "updated_at": "2026-01-04T06:55:08.317Z"
         },
         {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.593Z",
-          "updated_at": "2026-01-04T06:24:11.593Z"
+          "created_at": "2026-01-04T06:55:08.532Z",
+          "updated_at": "2026-01-04T06:55:08.532Z"
         },
         {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.786Z",
-          "updated_at": "2026-01-04T06:24:11.786Z"
+          "created_at": "2026-01-04T06:55:08.798Z",
+          "updated_at": "2026-01-04T06:55:08.798Z"
         },
         {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "id": "tscircuit#176",
+          "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:11.899Z",
-          "updated_at": "2026-01-04T06:24:11.899Z"
+          "created_at": "2026-01-04T06:55:08.935Z",
+          "updated_at": "2026-01-04T06:55:08.935Z"
         },
         {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:12.046Z",
-          "updated_at": "2026-01-04T06:24:12.046Z"
+          "created_at": "2026-01-04T06:55:09.152Z",
+          "updated_at": "2026-01-04T06:55:09.152Z"
         },
         {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "id": "tscircuit#175",
+          "title": "SparkFun MicroMod RP2040 Processor",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-04T06:24:12.169Z",
-          "updated_at": "2026-01-04T06:24:12.169Z"
+          "created_at": "2026-01-04T06:55:09.267Z",
+          "updated_at": "2026-01-04T06:55:09.267Z"
         }
       ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
-      "scrape_duration_ms": 0
-    },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:24:12.922Z",
-          "updated_at": "2026-01-04T06:24:12.922Z"
-        },
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:24:13.027Z",
-          "updated_at": "2026-01-04T06:24:13.027Z"
-        }
-      ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
-      "scrape_duration_ms": 0
-    },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
-          "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-04T06:24:13.038Z",
-          "updated_at": "2026-01-04T06:24:13.038Z"
-        }
-      ],
-      "last_updated": "2026-01-04T06:24:23.041Z",
+      "last_updated": "2026-01-04T06:55:19.270Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 118309,
+    "processing_time_ms": 100699,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -321,155 +261,114 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:10.916Z",
-            "updated_at": "2026-01-04T06:24:10.916Z"
+            "created_at": "2026-01-04T06:54:55.599Z",
+            "updated_at": "2026-01-04T06:54:55.599Z"
           },
           {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.052Z",
-            "updated_at": "2026-01-04T06:24:11.052Z"
+            "created_at": "2026-01-04T06:54:56.759Z",
+            "updated_at": "2026-01-04T06:54:56.759Z"
           },
           {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.202Z",
-            "updated_at": "2026-01-04T06:24:11.202Z"
+            "created_at": "2026-01-04T06:55:02.091Z",
+            "updated_at": "2026-01-04T06:55:02.091Z"
           },
           {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.352Z",
-            "updated_at": "2026-01-04T06:24:11.352Z"
+            "created_at": "2026-01-04T06:55:06.118Z",
+            "updated_at": "2026-01-04T06:55:06.118Z"
           },
           {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.469Z",
-            "updated_at": "2026-01-04T06:24:11.469Z"
+            "created_at": "2026-01-04T06:55:08.317Z",
+            "updated_at": "2026-01-04T06:55:08.317Z"
           },
           {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.593Z",
-            "updated_at": "2026-01-04T06:24:11.593Z"
+            "created_at": "2026-01-04T06:55:08.532Z",
+            "updated_at": "2026-01-04T06:55:08.532Z"
           },
           {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.786Z",
-            "updated_at": "2026-01-04T06:24:11.786Z"
+            "created_at": "2026-01-04T06:55:08.798Z",
+            "updated_at": "2026-01-04T06:55:08.798Z"
           },
           {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "id": "tscircuit#176",
+            "title": "Proposal: Add SparkFun MicroMod STM32 Processor (STM32F405)",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/176",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:11.899Z",
-            "updated_at": "2026-01-04T06:24:11.899Z"
+            "created_at": "2026-01-04T06:55:08.935Z",
+            "updated_at": "2026-01-04T06:55:08.935Z"
           },
           {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:12.046Z",
-            "updated_at": "2026-01-04T06:24:12.046Z"
+            "created_at": "2026-01-04T06:55:09.152Z",
+            "updated_at": "2026-01-04T06:55:09.152Z"
           },
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "tscircuit#175",
+            "title": "SparkFun MicroMod RP2040 Processor",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:24:12.169Z",
-            "updated_at": "2026-01-04T06:24:12.169Z"
+            "created_at": "2026-01-04T06:55:09.267Z",
+            "updated_at": "2026-01-04T06:55:09.267Z"
           }
         ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
-        "bounties": [
-          {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:23:49.557Z",
-            "updated_at": "2026-01-04T06:23:49.557Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:23:49.711Z",
-            "updated_at": "2026-01-04T06:23:49.711Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:23:50.686Z",
-            "updated_at": "2026-01-04T06:23:50.686Z"
-          }
-        ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
+        "last_updated": "2026-01-04T06:55:19.270Z",
         "scrape_duration_ms": 0
       },
       {
@@ -486,8 +385,8 @@
             "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:23:49.557Z",
-            "updated_at": "2026-01-04T06:23:49.557Z"
+            "created_at": "2026-01-04T06:54:55.635Z",
+            "updated_at": "2026-01-04T06:54:55.635Z"
           },
           {
             "id": "prisma#8548",
@@ -496,8 +395,8 @@
             "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:23:49.799Z",
-            "updated_at": "2026-01-04T06:23:49.799Z"
+            "created_at": "2026-01-04T06:54:56.733Z",
+            "updated_at": "2026-01-04T06:54:56.733Z"
           },
           {
             "id": "prisma#7771",
@@ -506,42 +405,73 @@
             "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:23:50.772Z",
-            "updated_at": "2026-01-04T06:23:50.772Z"
+            "created_at": "2026-01-04T06:54:58.330Z",
+            "updated_at": "2026-01-04T06:54:58.330Z"
           }
         ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
+        "last_updated": "2026-01-04T06:55:19.270Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:23:49.470Z",
-            "updated_at": "2026-01-04T06:23:49.470Z"
+            "created_at": "2026-01-04T06:54:55.636Z",
+            "updated_at": "2026-01-04T06:54:55.636Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-04T06:23:49.635Z",
-            "updated_at": "2026-01-04T06:23:49.635Z"
+            "created_at": "2026-01-04T06:54:56.687Z",
+            "updated_at": "2026-01-04T06:54:56.687Z"
           }
         ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
+        "last_updated": "2026-01-04T06:55:19.270Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-04T06:54:55.598Z",
+            "updated_at": "2026-01-04T06:54:55.598Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-04T06:54:56.721Z",
+            "updated_at": "2026-01-04T06:54:56.721Z"
+          }
+        ],
+        "last_updated": "2026-01-04T06:55:19.270Z",
         "scrape_duration_ms": 0
       },
       {
@@ -560,8 +490,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-04T06:23:49.634Z",
-            "updated_at": "2026-01-04T06:23:49.634Z"
+            "created_at": "2026-01-04T06:54:55.684Z",
+            "updated_at": "2026-01-04T06:54:55.684Z"
           },
           {
             "id": "golemcloud#23",
@@ -572,63 +502,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-04T06:23:49.971Z",
-            "updated_at": "2026-01-04T06:23:49.971Z"
+            "created_at": "2026-01-04T06:54:56.948Z",
+            "updated_at": "2026-01-04T06:54:56.948Z"
           }
         ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
-        "bounties": [
-          {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:24:12.922Z",
-            "updated_at": "2026-01-04T06:24:12.922Z"
-          },
-          {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
-            "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:24:13.027Z",
-            "updated_at": "2026-01-04T06:24:13.027Z"
-          }
-        ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
-          {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
-            "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-04T06:24:13.038Z",
-            "updated_at": "2026-01-04T06:24:13.038Z"
-          }
-        ],
-        "last_updated": "2026-01-04T06:24:23.041Z",
+        "last_updated": "2026-01-04T06:55:19.270Z",
         "scrape_duration_ms": 0
       }
     ]
