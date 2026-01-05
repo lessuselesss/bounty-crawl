@@ -1,124 +1,188 @@
 {
-  "generated_at": "2026-01-05T06:32:53.544Z",
-  "total_organizations": 1,
-  "total_bounties": 10,
-  "total_value_usd": 1000,
+  "generated_at": "2026-01-05T07:06:14.014Z",
+  "total_organizations": 3,
+  "total_bounties": 14,
+  "total_value_usd": 1400,
   "version": "3.0.0",
   "organizations": {
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-05T07:05:22.276Z",
+          "updated_at": "2026-01-05T07:05:22.276Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-05T07:05:23.319Z",
+          "updated_at": "2026-01-05T07:05:23.319Z"
+        }
+      ],
+      "last_updated": "2026-01-05T07:06:14.014Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-05T07:05:28.595Z",
+          "updated_at": "2026-01-05T07:05:28.595Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-05T07:05:31.714Z",
+          "updated_at": "2026-01-05T07:05:31.714Z"
+        }
+      ],
+      "last_updated": "2026-01-05T07:06:14.014Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "cal#9485",
-          "title": "Issue #9485",
+          "id": "zio#584",
+          "title": "Replicate ZIO Chunk (from zio/zio) into here",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/9485",
+          "url": "https://github.com/zio/zio-blocks/issues/584",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:31:21.264Z",
-          "updated_at": "2026-01-05T06:31:21.264Z"
+          "created_at": "2026-01-05T07:05:22.277Z",
+          "updated_at": "2026-01-05T07:05:22.277Z"
         },
         {
-          "id": "cal#18947",
-          "title": "Issue #18947",
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/18947",
+          "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:31:33.819Z",
-          "updated_at": "2026-01-05T06:31:33.819Z"
+          "created_at": "2026-01-05T07:05:23.311Z",
+          "updated_at": "2026-01-05T07:05:23.311Z"
         },
         {
-          "id": "cal#18992",
-          "title": "Issue #18992",
+          "id": "zio#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/18992",
+          "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:31:44.907Z",
-          "updated_at": "2026-01-05T06:31:44.907Z"
+          "created_at": "2026-01-05T07:05:24.011Z",
+          "updated_at": "2026-01-05T07:05:24.011Z"
         },
         {
-          "id": "cal#18987",
-          "title": "Issue #18987",
+          "id": "zio#517",
+          "title": "Add structural schemas",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/18987",
+          "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:31:55.965Z",
-          "updated_at": "2026-01-05T06:31:55.965Z"
+          "created_at": "2026-01-05T07:05:24.962Z",
+          "updated_at": "2026-01-05T07:05:24.962Z"
         },
         {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
+          "id": "zio#516",
+          "title": "Finalize Patch & Diffing",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "url": "https://github.com/zio/zio-blocks/issues/516",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:06.489Z",
-          "updated_at": "2026-01-05T06:32:06.489Z"
+          "created_at": "2026-01-05T07:05:28.595Z",
+          "updated_at": "2026-01-05T07:05:28.595Z"
         },
         {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
+          "id": "zio#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
+          "url": "https://github.com/zio/zio-blocks/issues/471",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:10.809Z",
-          "updated_at": "2026-01-05T06:32:10.809Z"
+          "created_at": "2026-01-05T07:05:31.632Z",
+          "updated_at": "2026-01-05T07:05:31.632Z"
         },
         {
-          "id": "cal#8123",
-          "title": "Issue #8123",
+          "id": "zio#514",
+          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/8123",
+          "url": "https://github.com/zio/zio-blocks/issues/514",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:21.869Z",
-          "updated_at": "2026-01-05T06:32:21.869Z"
+          "created_at": "2026-01-05T07:05:33.949Z",
+          "updated_at": "2026-01-05T07:05:33.949Z"
         },
         {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:31.514Z",
-          "updated_at": "2026-01-05T06:32:31.514Z"
+          "created_at": "2026-01-05T07:05:35.905Z",
+          "updated_at": "2026-01-05T07:05:35.905Z"
         },
         {
-          "id": "cal#13532",
-          "title": "Issue #13532",
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "github.com/calcom/cal.com/issues/13532",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:42.573Z",
-          "updated_at": "2026-01-05T06:32:42.573Z"
+          "created_at": "2026-01-05T07:05:37.372Z",
+          "updated_at": "2026-01-05T07:05:37.372Z"
         },
         {
-          "id": "cal#11340",
-          "title": "Add Lawpay as a payment option",
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/11340",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-05T06:32:43.542Z",
-          "updated_at": "2026-01-05T06:32:43.542Z"
+          "created_at": "2026-01-05T07:05:37.848Z",
+          "updated_at": "2026-01-05T07:05:37.848Z"
         }
       ],
-      "last_updated": "2026-01-05T06:32:53.544Z",
+      "last_updated": "2026-01-05T07:06:14.014Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 179544,
+    "processing_time_ms": 139349,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -127,114 +191,180 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#9485",
-            "title": "Issue #9485",
+            "id": "zio#584",
+            "title": "Replicate ZIO Chunk (from zio/zio) into here",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/zio/zio-blocks/issues/584",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:31:21.264Z",
-            "updated_at": "2026-01-05T06:31:21.264Z"
+            "created_at": "2026-01-05T07:05:22.277Z",
+            "updated_at": "2026-01-05T07:05:22.277Z"
           },
           {
-            "id": "cal#18947",
-            "title": "Issue #18947",
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:31:33.819Z",
-            "updated_at": "2026-01-05T06:31:33.819Z"
+            "created_at": "2026-01-05T07:05:23.311Z",
+            "updated_at": "2026-01-05T07:05:23.311Z"
           },
           {
-            "id": "cal#18992",
-            "title": "Issue #18992",
+            "id": "zio#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:31:44.907Z",
-            "updated_at": "2026-01-05T06:31:44.907Z"
+            "created_at": "2026-01-05T07:05:24.011Z",
+            "updated_at": "2026-01-05T07:05:24.011Z"
           },
           {
-            "id": "cal#18987",
-            "title": "Issue #18987",
+            "id": "zio#517",
+            "title": "Add structural schemas",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:31:55.965Z",
-            "updated_at": "2026-01-05T06:31:55.965Z"
+            "created_at": "2026-01-05T07:05:24.962Z",
+            "updated_at": "2026-01-05T07:05:24.962Z"
           },
           {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
+            "id": "zio#516",
+            "title": "Finalize Patch & Diffing",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:06.489Z",
-            "updated_at": "2026-01-05T06:32:06.489Z"
+            "created_at": "2026-01-05T07:05:28.595Z",
+            "updated_at": "2026-01-05T07:05:28.595Z"
           },
           {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
+            "id": "zio#471",
+            "title": "Replace TypeName by TypeId & Macro Derivation",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:10.809Z",
-            "updated_at": "2026-01-05T06:32:10.809Z"
+            "created_at": "2026-01-05T07:05:31.632Z",
+            "updated_at": "2026-01-05T07:05:31.632Z"
           },
           {
-            "id": "cal#8123",
-            "title": "Issue #8123",
+            "id": "zio#514",
+            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/8123",
+            "url": "https://github.com/zio/zio-blocks/issues/514",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:21.869Z",
-            "updated_at": "2026-01-05T06:32:21.869Z"
+            "created_at": "2026-01-05T07:05:33.949Z",
+            "updated_at": "2026-01-05T07:05:33.949Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:31.514Z",
-            "updated_at": "2026-01-05T06:32:31.514Z"
+            "created_at": "2026-01-05T07:05:35.905Z",
+            "updated_at": "2026-01-05T07:05:35.905Z"
           },
           {
-            "id": "cal#13532",
-            "title": "Issue #13532",
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:42.573Z",
-            "updated_at": "2026-01-05T06:32:42.573Z"
+            "created_at": "2026-01-05T07:05:37.372Z",
+            "updated_at": "2026-01-05T07:05:37.372Z"
           },
           {
-            "id": "cal#11340",
-            "title": "Add Lawpay as a payment option",
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/11340",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-05T06:32:43.542Z",
-            "updated_at": "2026-01-05T06:32:43.542Z"
+            "created_at": "2026-01-05T07:05:37.848Z",
+            "updated_at": "2026-01-05T07:05:37.848Z"
           }
         ],
-        "last_updated": "2026-01-05T06:32:53.544Z",
+        "last_updated": "2026-01-05T07:06:14.014Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-05T07:05:22.276Z",
+            "updated_at": "2026-01-05T07:05:22.276Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-05T07:05:23.319Z",
+            "updated_at": "2026-01-05T07:05:23.319Z"
+          }
+        ],
+        "last_updated": "2026-01-05T07:06:14.014Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-05T07:05:28.595Z",
+            "updated_at": "2026-01-05T07:05:28.595Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-05T07:05:31.714Z",
+            "updated_at": "2026-01-05T07:05:31.714Z"
+          }
+        ],
+        "last_updated": "2026-01-05T07:06:14.014Z",
         "scrape_duration_ms": 0
       }
     ]
