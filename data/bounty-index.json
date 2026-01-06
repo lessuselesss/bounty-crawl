@@ -1,232 +1,48 @@
 {
-  "generated_at": "2026-01-06T10:50:23.691Z",
-  "total_organizations": 7,
-  "total_bounties": 33,
-  "total_value_usd": 3300,
+  "generated_at": "2026-01-06T11:16:41.524Z",
+  "total_organizations": 5,
+  "total_bounties": 20,
+  "total_value_usd": 2000,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:28.825Z",
-          "updated_at": "2026-01-06T10:49:28.825Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:29.830Z",
-          "updated_at": "2026-01-06T10:49:29.830Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:31.446Z",
-          "updated_at": "2026-01-06T10:49:31.446Z"
+          "created_at": "2026-01-06T11:15:39.517Z",
+          "updated_at": "2026-01-06T11:15:39.517Z"
         }
       ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
+      "last_updated": "2026-01-06T11:16:41.523Z",
       "scrape_duration_ms": 0
     },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:26.748Z",
-          "updated_at": "2026-01-06T10:49:26.748Z"
-        },
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:26.973Z",
-          "updated_at": "2026-01-06T10:49:26.973Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:27.148Z",
-          "updated_at": "2026-01-06T10:49:27.148Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:27.709Z",
-          "updated_at": "2026-01-06T10:49:27.709Z"
-        },
-        {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:28.425Z",
-          "updated_at": "2026-01-06T10:49:28.425Z"
-        },
-        {
-          "id": "cal#16651",
-          "title": "[CAL-4716] Missing Notifications for Events",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16651",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:29.224Z",
-          "updated_at": "2026-01-06T10:49:29.224Z"
-        },
-        {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:30.674Z",
-          "updated_at": "2026-01-06T10:49:30.674Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:32.668Z",
-          "updated_at": "2026-01-06T10:49:32.668Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:34.458Z",
-          "updated_at": "2026-01-06T10:49:34.458Z"
-        },
-        {
-          "id": "cal#11340",
-          "title": "Add Lawpay as a payment option",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/11340",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:34.935Z",
-          "updated_at": "2026-01-06T10:49:34.935Z"
+          "created_at": "2026-01-06T11:15:39.518Z",
+          "updated_at": "2026-01-06T11:15:39.518Z"
         }
       ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
-      "scrape_duration_ms": 0
-    },
-    "permitio": {
-      "display_name": "Permitio",
-      "url": "https://algora.io/permitio/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "permitio#716",
-          "title": "Error resolving broadcast hostname being swallowed",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/716",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:35.547Z",
-          "updated_at": "2026-01-06T10:49:35.547Z"
-        },
-        {
-          "id": "permitio#677",
-          "title": "Create E2E tests framework using PyTest",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/677",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:36.332Z",
-          "updated_at": "2026-01-06T10:49:36.332Z"
-        },
-        {
-          "id": "permitio#634",
-          "title": "OPAL Server doesn't clean up symbolic links when github is down",
-          "amount_usd": 100,
-          "url": "https://github.com/permitio/opal/issues/634",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:37.162Z",
-          "updated_at": "2026-01-06T10:49:37.162Z"
-        }
-      ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
-      "scrape_duration_ms": 0
-    },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-06T10:49:37.826Z",
-          "updated_at": "2026-01-06T10:49:37.826Z"
-        },
-        {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-06T10:49:38.440Z",
-          "updated_at": "2026-01-06T10:49:38.440Z"
-        }
-      ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
+      "last_updated": "2026-01-06T11:16:41.524Z",
       "scrape_duration_ms": 0
     },
     "Mudlet": {
@@ -242,8 +58,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:36.266Z",
-          "updated_at": "2026-01-06T10:49:36.266Z"
+          "created_at": "2026-01-06T11:15:39.519Z",
+          "updated_at": "2026-01-06T11:15:39.519Z"
         },
         {
           "id": "Mudlet#3172",
@@ -252,8 +68,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:37.163Z",
-          "updated_at": "2026-01-06T10:49:37.163Z"
+          "created_at": "2026-01-06T11:15:39.804Z",
+          "updated_at": "2026-01-06T11:15:39.804Z"
         },
         {
           "id": "Mudlet#689",
@@ -262,8 +78,8 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:37.826Z",
-          "updated_at": "2026-01-06T10:49:37.826Z"
+          "created_at": "2026-01-06T11:15:40.784Z",
+          "updated_at": "2026-01-06T11:15:40.784Z"
         },
         {
           "id": "Mudlet#5310",
@@ -272,147 +88,177 @@
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:38.477Z",
-          "updated_at": "2026-01-06T10:49:38.477Z"
+          "created_at": "2026-01-06T11:15:41.647Z",
+          "updated_at": "2026-01-06T11:15:41.647Z"
         }
       ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
+      "last_updated": "2026-01-06T11:16:41.524Z",
       "scrape_duration_ms": 0
     },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
       "bounties": [
         {
-          "id": "activepieces#10618",
-          "title": "Native AI Selector",
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/10618",
+          "url": "https://github.com/highlight/highlight/issues/8635",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:37.162Z",
-          "updated_at": "2026-01-06T10:49:37.162Z"
+          "created_at": "2026-01-06T11:15:46.281Z",
+          "updated_at": "2026-01-06T11:15:46.281Z"
         },
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:37.749Z",
-          "updated_at": "2026-01-06T10:49:37.749Z"
+          "created_at": "2026-01-06T11:15:46.425Z",
+          "updated_at": "2026-01-06T11:15:46.425Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/highlight/highlight/issues/8032",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:38.439Z",
-          "updated_at": "2026-01-06T10:49:38.439Z"
+          "created_at": "2026-01-06T11:15:46.591Z",
+          "updated_at": "2026-01-06T11:15:46.591Z"
         },
         {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "url": "https://github.com/highlight/highlight/issues/6775",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:38.809Z",
-          "updated_at": "2026-01-06T10:49:38.809Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:39.248Z",
-          "updated_at": "2026-01-06T10:49:39.248Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T10:49:41.695Z",
-          "updated_at": "2026-01-06T10:49:41.695Z"
+          "created_at": "2026-01-06T11:15:46.766Z",
+          "updated_at": "2026-01-06T11:15:46.766Z"
         }
       ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
+      "last_updated": "2026-01-06T11:16:41.524Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:56.967Z",
-          "updated_at": "2026-01-06T10:49:56.967Z"
+          "created_at": "2026-01-06T11:16:03.147Z",
+          "updated_at": "2026-01-06T11:16:03.147Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "coollabsio#7738",
+          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/coollabsio/coolify/issues/7738",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:57.104Z",
-          "updated_at": "2026-01-06T10:49:57.104Z"
+          "created_at": "2026-01-06T11:16:03.269Z",
+          "updated_at": "2026-01-06T11:16:03.269Z"
         },
         {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "id": "coollabsio#7724",
+          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
+          "url": "https://github.com/coollabsio/coolify/issues/7724",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:57.270Z",
-          "updated_at": "2026-01-06T10:49:57.270Z"
+          "created_at": "2026-01-06T11:16:03.390Z",
+          "updated_at": "2026-01-06T11:16:03.390Z"
         },
         {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:57.386Z",
-          "updated_at": "2026-01-06T10:49:57.386Z"
+          "created_at": "2026-01-06T11:16:03.496Z",
+          "updated_at": "2026-01-06T11:16:03.496Z"
         },
         {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T10:49:57.513Z",
-          "updated_at": "2026-01-06T10:49:57.513Z"
+          "created_at": "2026-01-06T11:16:03.605Z",
+          "updated_at": "2026-01-06T11:16:03.605Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T11:16:03.736Z",
+          "updated_at": "2026-01-06T11:16:03.736Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T11:16:03.851Z",
+          "updated_at": "2026-01-06T11:16:03.851Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T11:16:04.034Z",
+          "updated_at": "2026-01-06T11:16:04.034Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T11:16:04.171Z",
+          "updated_at": "2026-01-06T11:16:04.171Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T11:16:04.286Z",
+          "updated_at": "2026-01-06T11:16:04.286Z"
         }
       ],
-      "last_updated": "2026-01-06T10:50:23.691Z",
+      "last_updated": "2026-01-06T11:16:41.524Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 128363,
+    "processing_time_ms": 136402,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -421,246 +267,114 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:26.748Z",
-            "updated_at": "2026-01-06T10:49:26.748Z"
+            "created_at": "2026-01-06T11:16:03.147Z",
+            "updated_at": "2026-01-06T11:16:03.147Z"
           },
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "coollabsio#7738",
+            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/coollabsio/coolify/issues/7738",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:26.973Z",
-            "updated_at": "2026-01-06T10:49:26.973Z"
+            "created_at": "2026-01-06T11:16:03.269Z",
+            "updated_at": "2026-01-06T11:16:03.269Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "coollabsio#7724",
+            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/coollabsio/coolify/issues/7724",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:27.148Z",
-            "updated_at": "2026-01-06T10:49:27.148Z"
+            "created_at": "2026-01-06T11:16:03.390Z",
+            "updated_at": "2026-01-06T11:16:03.390Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:27.709Z",
-            "updated_at": "2026-01-06T10:49:27.709Z"
+            "created_at": "2026-01-06T11:16:03.496Z",
+            "updated_at": "2026-01-06T11:16:03.496Z"
           },
           {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:28.425Z",
-            "updated_at": "2026-01-06T10:49:28.425Z"
+            "created_at": "2026-01-06T11:16:03.605Z",
+            "updated_at": "2026-01-06T11:16:03.605Z"
           },
           {
-            "id": "cal#16651",
-            "title": "[CAL-4716] Missing Notifications for Events",
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16651",
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:29.224Z",
-            "updated_at": "2026-01-06T10:49:29.224Z"
+            "created_at": "2026-01-06T11:16:03.736Z",
+            "updated_at": "2026-01-06T11:16:03.736Z"
           },
           {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:30.674Z",
-            "updated_at": "2026-01-06T10:49:30.674Z"
+            "created_at": "2026-01-06T11:16:03.851Z",
+            "updated_at": "2026-01-06T11:16:03.851Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:32.668Z",
-            "updated_at": "2026-01-06T10:49:32.668Z"
+            "created_at": "2026-01-06T11:16:04.034Z",
+            "updated_at": "2026-01-06T11:16:04.034Z"
           },
           {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:34.458Z",
-            "updated_at": "2026-01-06T10:49:34.458Z"
+            "created_at": "2026-01-06T11:16:04.171Z",
+            "updated_at": "2026-01-06T11:16:04.171Z"
           },
           {
-            "id": "cal#11340",
-            "title": "Add Lawpay as a payment option",
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/11340",
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:34.935Z",
-            "updated_at": "2026-01-06T10:49:34.935Z"
+            "created_at": "2026-01-06T11:16:04.286Z",
+            "updated_at": "2026-01-06T11:16:04.286Z"
           }
         ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
-        "bounties": [
-          {
-            "id": "activepieces#10618",
-            "title": "Native AI Selector",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/10618",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:37.162Z",
-            "updated_at": "2026-01-06T10:49:37.162Z"
-          },
-          {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:37.749Z",
-            "updated_at": "2026-01-06T10:49:37.749Z"
-          },
-          {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:38.439Z",
-            "updated_at": "2026-01-06T10:49:38.439Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:38.809Z",
-            "updated_at": "2026-01-06T10:49:38.809Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:39.248Z",
-            "updated_at": "2026-01-06T10:49:39.248Z"
-          },
-          {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:41.695Z",
-            "updated_at": "2026-01-06T10:49:41.695Z"
-          }
-        ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
-        "bounties": [
-          {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:56.967Z",
-            "updated_at": "2026-01-06T10:49:56.967Z"
-          },
-          {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:57.104Z",
-            "updated_at": "2026-01-06T10:49:57.104Z"
-          },
-          {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:57.270Z",
-            "updated_at": "2026-01-06T10:49:57.270Z"
-          },
-          {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:57.386Z",
-            "updated_at": "2026-01-06T10:49:57.386Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:57.513Z",
-            "updated_at": "2026-01-06T10:49:57.513Z"
-          }
-        ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
+        "last_updated": "2026-01-06T11:16:41.524Z",
         "scrape_duration_ms": 0
       },
       {
@@ -677,8 +391,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:36.266Z",
-            "updated_at": "2026-01-06T10:49:36.266Z"
+            "created_at": "2026-01-06T11:15:39.519Z",
+            "updated_at": "2026-01-06T11:15:39.519Z"
           },
           {
             "id": "Mudlet#3172",
@@ -687,8 +401,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:37.163Z",
-            "updated_at": "2026-01-06T10:49:37.163Z"
+            "created_at": "2026-01-06T11:15:39.804Z",
+            "updated_at": "2026-01-06T11:15:39.804Z"
           },
           {
             "id": "Mudlet#689",
@@ -697,8 +411,8 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:37.826Z",
-            "updated_at": "2026-01-06T10:49:37.826Z"
+            "created_at": "2026-01-06T11:15:40.784Z",
+            "updated_at": "2026-01-06T11:15:40.784Z"
           },
           {
             "id": "Mudlet#5310",
@@ -707,128 +421,104 @@
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:38.477Z",
-            "updated_at": "2026-01-06T10:49:38.477Z"
+            "created_at": "2026-01-06T11:15:41.647Z",
+            "updated_at": "2026-01-06T11:15:41.647Z"
           }
         ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
+        "last_updated": "2026-01-06T11:16:41.524Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:28.825Z",
-            "updated_at": "2026-01-06T10:49:28.825Z"
+            "created_at": "2026-01-06T11:15:46.281Z",
+            "updated_at": "2026-01-06T11:15:46.281Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:29.830Z",
-            "updated_at": "2026-01-06T10:49:29.830Z"
+            "created_at": "2026-01-06T11:15:46.425Z",
+            "updated_at": "2026-01-06T11:15:46.425Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:31.446Z",
-            "updated_at": "2026-01-06T10:49:31.446Z"
+            "created_at": "2026-01-06T11:15:46.591Z",
+            "updated_at": "2026-01-06T11:15:46.591Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T11:15:46.766Z",
+            "updated_at": "2026-01-06T11:15:46.766Z"
           }
         ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
+        "last_updated": "2026-01-06T11:16:41.524Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "permitio",
-        "display_name": "Permitio",
-        "url": "https://algora.io/permitio/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "permitio#716",
-            "title": "Error resolving broadcast hostname being swallowed",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/716",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T10:49:35.547Z",
-            "updated_at": "2026-01-06T10:49:35.547Z"
-          },
-          {
-            "id": "permitio#677",
-            "title": "Create E2E tests framework using PyTest",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/677",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:36.332Z",
-            "updated_at": "2026-01-06T10:49:36.332Z"
-          },
-          {
-            "id": "permitio#634",
-            "title": "OPAL Server doesn't clean up symbolic links when github is down",
-            "amount_usd": 100,
-            "url": "https://github.com/permitio/opal/issues/634",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T10:49:37.162Z",
-            "updated_at": "2026-01-06T10:49:37.162Z"
+            "created_at": "2026-01-06T11:15:39.517Z",
+            "updated_at": "2026-01-06T11:15:39.517Z"
           }
         ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
+        "last_updated": "2026-01-06T11:16:41.523Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2026-01-06T10:49:37.826Z",
-            "updated_at": "2026-01-06T10:49:37.826Z"
-          },
-          {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2026-01-06T10:49:38.440Z",
-            "updated_at": "2026-01-06T10:49:38.440Z"
+            "tags": [],
+            "created_at": "2026-01-06T11:15:39.518Z",
+            "updated_at": "2026-01-06T11:15:39.518Z"
           }
         ],
-        "last_updated": "2026-01-06T10:50:23.691Z",
+        "last_updated": "2026-01-06T11:16:41.524Z",
         "scrape_duration_ms": 0
       }
     ]
