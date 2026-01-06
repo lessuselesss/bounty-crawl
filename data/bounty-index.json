@@ -1,154 +1,364 @@
 {
-  "generated_at": "2026-01-06T19:53:34.533Z",
-  "total_organizations": 2,
-  "total_bounties": 12,
-  "total_value_usd": 1200,
+  "generated_at": "2026-01-06T20:19:28.827Z",
+  "total_organizations": 6,
+  "total_bounties": 29,
+  "total_value_usd": 2900,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:23.730Z",
-          "updated_at": "2026-01-06T19:52:23.730Z"
+          "created_at": "2026-01-06T20:18:28.187Z",
+          "updated_at": "2026-01-06T20:18:28.187Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:23.951Z",
-          "updated_at": "2026-01-06T19:52:23.951Z"
+          "created_at": "2026-01-06T20:18:28.456Z",
+          "updated_at": "2026-01-06T20:18:28.456Z"
         }
       ],
-      "last_updated": "2026-01-06T19:53:34.533Z",
+      "last_updated": "2026-01-06T20:19:28.827Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.296Z",
+          "updated_at": "2026-01-06T20:18:28.296Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.651Z",
+          "updated_at": "2026-01-06T20:18:28.651Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:30.253Z",
+          "updated_at": "2026-01-06T20:18:30.253Z"
+        }
+      ],
+      "last_updated": "2026-01-06T20:19:28.827Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.341Z",
+          "updated_at": "2026-01-06T20:18:28.341Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.653Z",
+          "updated_at": "2026-01-06T20:18:28.653Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:30.254Z",
+          "updated_at": "2026-01-06T20:18:30.254Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:33.889Z",
+          "updated_at": "2026-01-06T20:18:33.889Z"
+        }
+      ],
+      "last_updated": "2026-01-06T20:19:28.827Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.341Z",
+          "updated_at": "2026-01-06T20:18:28.341Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:28.651Z",
+          "updated_at": "2026-01-06T20:18:28.651Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:30.253Z",
+          "updated_at": "2026-01-06T20:18:30.253Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:18:33.890Z",
+          "updated_at": "2026-01-06T20:18:33.890Z"
+        }
+      ],
+      "last_updated": "2026-01-06T20:19:28.827Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+          "id": "zio#584",
+          "title": "Replicate ZIO Chunk (from zio/zio) into here",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
+          "url": "https://github.com/zio/zio-blocks/issues/584",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:30.901Z",
-          "updated_at": "2026-01-06T19:52:30.901Z"
+          "created_at": "2026-01-06T20:18:52.915Z",
+          "updated_at": "2026-01-06T20:18:52.915Z"
         },
         {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
+          "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:31.427Z",
-          "updated_at": "2026-01-06T19:52:31.427Z"
+          "created_at": "2026-01-06T20:18:53.116Z",
+          "updated_at": "2026-01-06T20:18:53.116Z"
         },
         {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+          "id": "zio#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
+          "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:31.541Z",
-          "updated_at": "2026-01-06T19:52:31.541Z"
+          "created_at": "2026-01-06T20:18:53.328Z",
+          "updated_at": "2026-01-06T20:18:53.328Z"
         },
         {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "id": "zio#517",
+          "title": "Add structural schemas",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:31.677Z",
-          "updated_at": "2026-01-06T19:52:31.677Z"
+          "created_at": "2026-01-06T20:18:53.525Z",
+          "updated_at": "2026-01-06T20:18:53.525Z"
         },
         {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
+          "id": "zio#516",
+          "title": "Finalize Patch & Diffing",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "url": "https://github.com/zio/zio-blocks/issues/516",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:31.778Z",
-          "updated_at": "2026-01-06T19:52:31.778Z"
+          "created_at": "2026-01-06T20:18:53.736Z",
+          "updated_at": "2026-01-06T20:18:53.736Z"
         },
         {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "id": "zio#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "url": "https://github.com/zio/zio-blocks/issues/471",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:31.994Z",
-          "updated_at": "2026-01-06T19:52:31.994Z"
+          "created_at": "2026-01-06T20:18:53.917Z",
+          "updated_at": "2026-01-06T20:18:53.917Z"
         },
         {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "id": "zio#514",
+          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "url": "https://github.com/zio/zio-blocks/issues/514",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:32.162Z",
-          "updated_at": "2026-01-06T19:52:32.162Z"
+          "created_at": "2026-01-06T20:18:54.132Z",
+          "updated_at": "2026-01-06T20:18:54.132Z"
         },
         {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "id": "zio#3697",
+          "title": "Datastar requests from Endpoint",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:32.287Z",
-          "updated_at": "2026-01-06T19:52:32.287Z"
+          "created_at": "2026-01-06T20:18:54.411Z",
+          "updated_at": "2026-01-06T20:18:54.411Z"
         },
         {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "id": "zio#709",
+          "title": "Support Http Range header on request for Files",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:32.403Z",
-          "updated_at": "2026-01-06T19:52:32.403Z"
+          "created_at": "2026-01-06T20:18:54.617Z",
+          "updated_at": "2026-01-06T20:18:54.617Z"
         },
         {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "id": "zio#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T19:52:32.522Z",
-          "updated_at": "2026-01-06T19:52:32.522Z"
+          "created_at": "2026-01-06T20:18:54.802Z",
+          "updated_at": "2026-01-06T20:18:54.802Z"
         }
       ],
-      "last_updated": "2026-01-06T19:53:34.533Z",
+      "last_updated": "2026-01-06T20:19:28.827Z",
+      "scrape_duration_ms": 0
+    },
+    "activepieces": {
+      "display_name": "Activepieces",
+      "url": "https://algora.io/activepieces/bounties?status=open",
+      "bounty_count": 6,
+      "total_value_usd": 600,
+      "bounties": [
+        {
+          "id": "activepieces#10618",
+          "title": "Native AI Selector",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/10618",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:10.574Z",
+          "updated_at": "2026-01-06T20:19:10.574Z"
+        },
+        {
+          "id": "activepieces#9703",
+          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:10.822Z",
+          "updated_at": "2026-01-06T20:19:10.822Z"
+        },
+        {
+          "id": "activepieces#8284",
+          "title": "[MCP] Klaviyo",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:11.031Z",
+          "updated_at": "2026-01-06T20:19:11.031Z"
+        },
+        {
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:11.233Z",
+          "updated_at": "2026-01-06T20:19:11.233Z"
+        },
+        {
+          "id": "activepieces#8135",
+          "title": "[MCP] Canva",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8135",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:11.253Z",
+          "updated_at": "2026-01-06T20:19:11.253Z"
+        },
+        {
+          "id": "activepieces#8072",
+          "title": "[MCP] Gmail",
+          "amount_usd": 100,
+          "url": "https://github.com/activepieces/activepieces/issues/8072",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-06T20:19:11.463Z",
+          "updated_at": "2026-01-06T20:19:11.463Z"
+        }
+      ],
+      "last_updated": "2026-01-06T20:19:28.827Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 145364,
+    "processing_time_ms": 133948,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -157,145 +367,359 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "id": "zio#584",
+            "title": "Replicate ZIO Chunk (from zio/zio) into here",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "url": "https://github.com/zio/zio-blocks/issues/584",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:30.901Z",
-            "updated_at": "2026-01-06T19:52:30.901Z"
+            "created_at": "2026-01-06T20:18:52.915Z",
+            "updated_at": "2026-01-06T20:18:52.915Z"
           },
           {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
+            "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:31.427Z",
-            "updated_at": "2026-01-06T19:52:31.427Z"
+            "created_at": "2026-01-06T20:18:53.116Z",
+            "updated_at": "2026-01-06T20:18:53.116Z"
           },
           {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+            "id": "zio#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
+            "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:31.541Z",
-            "updated_at": "2026-01-06T19:52:31.541Z"
+            "created_at": "2026-01-06T20:18:53.328Z",
+            "updated_at": "2026-01-06T20:18:53.328Z"
           },
           {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "id": "zio#517",
+            "title": "Add structural schemas",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:31.677Z",
-            "updated_at": "2026-01-06T19:52:31.677Z"
+            "created_at": "2026-01-06T20:18:53.525Z",
+            "updated_at": "2026-01-06T20:18:53.525Z"
           },
           {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
+            "id": "zio#516",
+            "title": "Finalize Patch & Diffing",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:31.778Z",
-            "updated_at": "2026-01-06T19:52:31.778Z"
+            "created_at": "2026-01-06T20:18:53.736Z",
+            "updated_at": "2026-01-06T20:18:53.736Z"
           },
           {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "id": "zio#471",
+            "title": "Replace TypeName by TypeId & Macro Derivation",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:31.994Z",
-            "updated_at": "2026-01-06T19:52:31.994Z"
+            "created_at": "2026-01-06T20:18:53.917Z",
+            "updated_at": "2026-01-06T20:18:53.917Z"
           },
           {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "id": "zio#514",
+            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "url": "https://github.com/zio/zio-blocks/issues/514",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:32.162Z",
-            "updated_at": "2026-01-06T19:52:32.162Z"
+            "created_at": "2026-01-06T20:18:54.132Z",
+            "updated_at": "2026-01-06T20:18:54.132Z"
           },
           {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "id": "zio#3697",
+            "title": "Datastar requests from Endpoint",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:32.287Z",
-            "updated_at": "2026-01-06T19:52:32.287Z"
+            "created_at": "2026-01-06T20:18:54.411Z",
+            "updated_at": "2026-01-06T20:18:54.411Z"
           },
           {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "id": "zio#709",
+            "title": "Support Http Range header on request for Files",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:32.403Z",
-            "updated_at": "2026-01-06T19:52:32.403Z"
+            "created_at": "2026-01-06T20:18:54.617Z",
+            "updated_at": "2026-01-06T20:18:54.617Z"
           },
           {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "id": "zio#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:32.522Z",
-            "updated_at": "2026-01-06T19:52:32.522Z"
+            "created_at": "2026-01-06T20:18:54.802Z",
+            "updated_at": "2026-01-06T20:18:54.802Z"
           }
         ],
-        "last_updated": "2026-01-06T19:53:34.533Z",
+        "last_updated": "2026-01-06T20:19:28.827Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
+        "handle": "activepieces",
+        "display_name": "Activepieces",
+        "url": "https://algora.io/activepieces/bounties?status=open",
+        "bounty_count": 6,
+        "total_value_usd": 600,
+        "bounties": [
+          {
+            "id": "activepieces#10618",
+            "title": "Native AI Selector",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/10618",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:10.574Z",
+            "updated_at": "2026-01-06T20:19:10.574Z"
+          },
+          {
+            "id": "activepieces#9703",
+            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:10.822Z",
+            "updated_at": "2026-01-06T20:19:10.822Z"
+          },
+          {
+            "id": "activepieces#8284",
+            "title": "[MCP] Klaviyo",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:11.031Z",
+            "updated_at": "2026-01-06T20:19:11.031Z"
+          },
+          {
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:11.233Z",
+            "updated_at": "2026-01-06T20:19:11.233Z"
+          },
+          {
+            "id": "activepieces#8135",
+            "title": "[MCP] Canva",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:11.253Z",
+            "updated_at": "2026-01-06T20:19:11.253Z"
+          },
+          {
+            "id": "activepieces#8072",
+            "title": "[MCP] Gmail",
+            "amount_usd": 100,
+            "url": "https://github.com/activepieces/activepieces/issues/8072",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:19:11.463Z",
+            "updated_at": "2026-01-06T20:19:11.463Z"
+          }
+        ],
+        "last_updated": "2026-01-06T20:19:28.827Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.341Z",
+            "updated_at": "2026-01-06T20:18:28.341Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.653Z",
+            "updated_at": "2026-01-06T20:18:28.653Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:30.254Z",
+            "updated_at": "2026-01-06T20:18:30.254Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:33.889Z",
+            "updated_at": "2026-01-06T20:18:33.889Z"
+          }
+        ],
+        "last_updated": "2026-01-06T20:19:28.827Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8635",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.341Z",
+            "updated_at": "2026-01-06T20:18:28.341Z"
+          },
+          {
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8614",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.651Z",
+            "updated_at": "2026-01-06T20:18:28.651Z"
+          },
+          {
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8032",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:30.253Z",
+            "updated_at": "2026-01-06T20:18:30.253Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:33.890Z",
+            "updated_at": "2026-01-06T20:18:33.890Z"
+          }
+        ],
+        "last_updated": "2026-01-06T20:19:28.827Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.296Z",
+            "updated_at": "2026-01-06T20:18:28.296Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:28.651Z",
+            "updated_at": "2026-01-06T20:18:28.651Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-06T20:18:30.253Z",
+            "updated_at": "2026-01-06T20:18:30.253Z"
+          }
+        ],
+        "last_updated": "2026-01-06T20:19:28.827Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:23.730Z",
-            "updated_at": "2026-01-06T19:52:23.730Z"
+            "created_at": "2026-01-06T20:18:28.187Z",
+            "updated_at": "2026-01-06T20:18:28.187Z"
           },
           {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T19:52:23.951Z",
-            "updated_at": "2026-01-06T19:52:23.951Z"
+            "created_at": "2026-01-06T20:18:28.456Z",
+            "updated_at": "2026-01-06T20:18:28.456Z"
           }
         ],
-        "last_updated": "2026-01-06T19:53:34.533Z",
+        "last_updated": "2026-01-06T20:19:28.827Z",
         "scrape_duration_ms": 0
       }
     ]
