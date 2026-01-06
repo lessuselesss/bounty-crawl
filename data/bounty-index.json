@@ -1,342 +1,58 @@
 {
-  "generated_at": "2026-01-06T03:07:08.513Z",
-  "total_organizations": 6,
-  "total_bounties": 38,
-  "total_value_usd": 3800,
+  "generated_at": "2026-01-06T04:11:31.615Z",
+  "total_organizations": 4,
+  "total_bounties": 15,
+  "total_value_usd": 1500,
   "version": "3.0.0",
   "organizations": {
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-06T03:06:35.199Z",
-          "updated_at": "2026-01-06T03:06:35.199Z"
+          "tags": [],
+          "created_at": "2026-01-06T04:10:35.616Z",
+          "updated_at": "2026-01-06T04:10:35.616Z"
         },
         {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-06T03:06:35.912Z",
-          "updated_at": "2026-01-06T03:06:35.912Z"
+          "tags": [],
+          "created_at": "2026-01-06T04:10:35.869Z",
+          "updated_at": "2026-01-06T04:10:35.869Z"
         }
       ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
+      "last_updated": "2026-01-06T04:11:31.615Z",
       "scrape_duration_ms": 0
     },
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/omnigres/omnigres/issues/823",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:35.198Z",
-          "updated_at": "2026-01-06T03:06:35.198Z"
-        },
-        {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
-          "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:35.941Z",
-          "updated_at": "2026-01-06T03:06:35.941Z"
+          "created_at": "2026-01-06T04:10:36.756Z",
+          "updated_at": "2026-01-06T04:10:36.756Z"
         }
       ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:34.981Z",
-          "updated_at": "2026-01-06T03:06:34.981Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:35.330Z",
-          "updated_at": "2026-01-06T03:06:35.330Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:36.274Z",
-          "updated_at": "2026-01-06T03:06:36.274Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:39.869Z",
-          "updated_at": "2026-01-06T03:06:39.869Z"
-        }
-      ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
-      "scrape_duration_ms": 0
-    },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:35.198Z",
-          "updated_at": "2026-01-06T03:06:35.198Z"
-        },
-        {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:35.911Z",
-          "updated_at": "2026-01-06T03:06:35.911Z"
-        },
-        {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:37.527Z",
-          "updated_at": "2026-01-06T03:06:37.527Z"
-        },
-        {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:42.244Z",
-          "updated_at": "2026-01-06T03:06:42.244Z"
-        },
-        {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:46.753Z",
-          "updated_at": "2026-01-06T03:06:46.753Z"
-        },
-        {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:48.977Z",
-          "updated_at": "2026-01-06T03:06:48.977Z"
-        },
-        {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:50.822Z",
-          "updated_at": "2026-01-06T03:06:50.822Z"
-        },
-        {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.296Z",
-          "updated_at": "2026-01-06T03:06:51.296Z"
-        },
-        {
-          "id": "coollabsio#7423",
-          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7423",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.464Z",
-          "updated_at": "2026-01-06T03:06:51.464Z"
-        },
-        {
-          "id": "coollabsio#6519",
-          "title": "[Enhancement]: Filebrowser for Containerlevel",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/6519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.630Z",
-          "updated_at": "2026-01-06T03:06:51.630Z"
-        }
-      ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#584",
-          "title": "Replicate ZIO Chunk (from zio/zio) into here",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/584",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:34.981Z",
-          "updated_at": "2026-01-06T03:06:34.981Z"
-        },
-        {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:35.330Z",
-          "updated_at": "2026-01-06T03:06:35.330Z"
-        },
-        {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:36.276Z",
-          "updated_at": "2026-01-06T03:06:36.276Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:39.904Z",
-          "updated_at": "2026-01-06T03:06:39.904Z"
-        },
-        {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:44.660Z",
-          "updated_at": "2026-01-06T03:06:44.660Z"
-        },
-        {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:48.888Z",
-          "updated_at": "2026-01-06T03:06:48.888Z"
-        },
-        {
-          "id": "ZIO#514",
-          "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/514",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:50.823Z",
-          "updated_at": "2026-01-06T03:06:50.823Z"
-        },
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.296Z",
-          "updated_at": "2026-01-06T03:06:51.296Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.476Z",
-          "updated_at": "2026-01-06T03:06:51.476Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-06T03:06:51.665Z",
-          "updated_at": "2026-01-06T03:06:51.665Z"
-        }
-      ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
+      "last_updated": "2026-01-06T04:11:31.615Z",
       "scrape_duration_ms": 0
     },
     "cal": {
@@ -352,8 +68,8 @@
           "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:56.761Z",
-          "updated_at": "2026-01-06T03:06:56.761Z"
+          "created_at": "2026-01-06T04:10:34.503Z",
+          "updated_at": "2026-01-06T04:10:34.503Z"
         },
         {
           "id": "cal#18947",
@@ -362,8 +78,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:56.951Z",
-          "updated_at": "2026-01-06T03:06:56.951Z"
+          "created_at": "2026-01-06T04:10:34.659Z",
+          "updated_at": "2026-01-06T04:10:34.659Z"
         },
         {
           "id": "cal#18992",
@@ -372,8 +88,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:57.103Z",
-          "updated_at": "2026-01-06T03:06:57.103Z"
+          "created_at": "2026-01-06T04:10:34.800Z",
+          "updated_at": "2026-01-06T04:10:34.800Z"
         },
         {
           "id": "cal#18987",
@@ -382,8 +98,8 @@
           "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:57.288Z",
-          "updated_at": "2026-01-06T03:06:57.288Z"
+          "created_at": "2026-01-06T04:10:34.936Z",
+          "updated_at": "2026-01-06T04:10:34.936Z"
         },
         {
           "id": "cal#16797",
@@ -392,8 +108,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16797",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:57.496Z",
-          "updated_at": "2026-01-06T03:06:57.496Z"
+          "created_at": "2026-01-06T04:10:35.138Z",
+          "updated_at": "2026-01-06T04:10:35.138Z"
         },
         {
           "id": "cal#16651",
@@ -402,8 +118,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16651",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:57.672Z",
-          "updated_at": "2026-01-06T03:06:57.672Z"
+          "created_at": "2026-01-06T04:10:35.364Z",
+          "updated_at": "2026-01-06T04:10:35.364Z"
         },
         {
           "id": "cal#8123",
@@ -412,8 +128,8 @@
           "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:57.843Z",
-          "updated_at": "2026-01-06T03:06:57.843Z"
+          "created_at": "2026-01-06T04:10:35.509Z",
+          "updated_at": "2026-01-06T04:10:35.509Z"
         },
         {
           "id": "cal#16378",
@@ -422,8 +138,8 @@
           "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:58.036Z",
-          "updated_at": "2026-01-06T03:06:58.036Z"
+          "created_at": "2026-01-06T04:10:35.695Z",
+          "updated_at": "2026-01-06T04:10:35.695Z"
         },
         {
           "id": "cal#13532",
@@ -432,8 +148,8 @@
           "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:58.212Z",
-          "updated_at": "2026-01-06T03:06:58.212Z"
+          "created_at": "2026-01-06T04:10:35.997Z",
+          "updated_at": "2026-01-06T04:10:35.997Z"
         },
         {
           "id": "cal#11340",
@@ -442,17 +158,51 @@
           "url": "https://github.com/calcom/cal.com/issues/11340",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-06T03:06:58.510Z",
-          "updated_at": "2026-01-06T03:06:58.510Z"
+          "created_at": "2026-01-06T04:10:36.791Z",
+          "updated_at": "2026-01-06T04:10:36.791Z"
         }
       ],
-      "last_updated": "2026-01-06T03:07:08.513Z",
+      "last_updated": "2026-01-06T04:11:31.615Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-06T04:11:21.438Z",
+          "updated_at": "2026-01-06T04:11:21.438Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-06T04:11:21.613Z",
+          "updated_at": "2026-01-06T04:11:21.613Z"
+        }
+      ],
+      "last_updated": "2026-01-06T04:11:31.615Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 112795,
+    "processing_time_ms": 123759,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -460,228 +210,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:35.198Z",
-            "updated_at": "2026-01-06T03:06:35.198Z"
-          },
-          {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:35.911Z",
-            "updated_at": "2026-01-06T03:06:35.911Z"
-          },
-          {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:37.527Z",
-            "updated_at": "2026-01-06T03:06:37.527Z"
-          },
-          {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:42.244Z",
-            "updated_at": "2026-01-06T03:06:42.244Z"
-          },
-          {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:46.753Z",
-            "updated_at": "2026-01-06T03:06:46.753Z"
-          },
-          {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:48.977Z",
-            "updated_at": "2026-01-06T03:06:48.977Z"
-          },
-          {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:50.822Z",
-            "updated_at": "2026-01-06T03:06:50.822Z"
-          },
-          {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.296Z",
-            "updated_at": "2026-01-06T03:06:51.296Z"
-          },
-          {
-            "id": "coollabsio#7423",
-            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7423",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.464Z",
-            "updated_at": "2026-01-06T03:06:51.464Z"
-          },
-          {
-            "id": "coollabsio#6519",
-            "title": "[Enhancement]: Filebrowser for Containerlevel",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/6519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.630Z",
-            "updated_at": "2026-01-06T03:06:51.630Z"
-          }
-        ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#584",
-            "title": "Replicate ZIO Chunk (from zio/zio) into here",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/584",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:34.981Z",
-            "updated_at": "2026-01-06T03:06:34.981Z"
-          },
-          {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:35.330Z",
-            "updated_at": "2026-01-06T03:06:35.330Z"
-          },
-          {
-            "id": "ZIO#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:36.276Z",
-            "updated_at": "2026-01-06T03:06:36.276Z"
-          },
-          {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:39.904Z",
-            "updated_at": "2026-01-06T03:06:39.904Z"
-          },
-          {
-            "id": "ZIO#516",
-            "title": "Finalize Patch & Diffing",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:44.660Z",
-            "updated_at": "2026-01-06T03:06:44.660Z"
-          },
-          {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:48.888Z",
-            "updated_at": "2026-01-06T03:06:48.888Z"
-          },
-          {
-            "id": "ZIO#514",
-            "title": "Add annotation macros for Scala 2.13 and Scala 3.5+",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/514",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:50.823Z",
-            "updated_at": "2026-01-06T03:06:50.823Z"
-          },
-          {
-            "id": "ZIO#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.296Z",
-            "updated_at": "2026-01-06T03:06:51.296Z"
-          },
-          {
-            "id": "ZIO#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.476Z",
-            "updated_at": "2026-01-06T03:06:51.476Z"
-          },
-          {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:51.665Z",
-            "updated_at": "2026-01-06T03:06:51.665Z"
-          }
-        ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "cal",
         "display_name": "Cal",
@@ -696,8 +224,8 @@
             "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:56.761Z",
-            "updated_at": "2026-01-06T03:06:56.761Z"
+            "created_at": "2026-01-06T04:10:34.503Z",
+            "updated_at": "2026-01-06T04:10:34.503Z"
           },
           {
             "id": "cal#18947",
@@ -706,8 +234,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:56.951Z",
-            "updated_at": "2026-01-06T03:06:56.951Z"
+            "created_at": "2026-01-06T04:10:34.659Z",
+            "updated_at": "2026-01-06T04:10:34.659Z"
           },
           {
             "id": "cal#18992",
@@ -716,8 +244,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:57.103Z",
-            "updated_at": "2026-01-06T03:06:57.103Z"
+            "created_at": "2026-01-06T04:10:34.800Z",
+            "updated_at": "2026-01-06T04:10:34.800Z"
           },
           {
             "id": "cal#18987",
@@ -726,8 +254,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:57.288Z",
-            "updated_at": "2026-01-06T03:06:57.288Z"
+            "created_at": "2026-01-06T04:10:34.936Z",
+            "updated_at": "2026-01-06T04:10:34.936Z"
           },
           {
             "id": "cal#16797",
@@ -736,8 +264,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:57.496Z",
-            "updated_at": "2026-01-06T03:06:57.496Z"
+            "created_at": "2026-01-06T04:10:35.138Z",
+            "updated_at": "2026-01-06T04:10:35.138Z"
           },
           {
             "id": "cal#16651",
@@ -746,8 +274,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16651",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:57.672Z",
-            "updated_at": "2026-01-06T03:06:57.672Z"
+            "created_at": "2026-01-06T04:10:35.364Z",
+            "updated_at": "2026-01-06T04:10:35.364Z"
           },
           {
             "id": "cal#8123",
@@ -756,8 +284,8 @@
             "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:57.843Z",
-            "updated_at": "2026-01-06T03:06:57.843Z"
+            "created_at": "2026-01-06T04:10:35.509Z",
+            "updated_at": "2026-01-06T04:10:35.509Z"
           },
           {
             "id": "cal#16378",
@@ -766,8 +294,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:58.036Z",
-            "updated_at": "2026-01-06T03:06:58.036Z"
+            "created_at": "2026-01-06T04:10:35.695Z",
+            "updated_at": "2026-01-06T04:10:35.695Z"
           },
           {
             "id": "cal#13532",
@@ -776,8 +304,8 @@
             "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:58.212Z",
-            "updated_at": "2026-01-06T03:06:58.212Z"
+            "created_at": "2026-01-06T04:10:35.997Z",
+            "updated_at": "2026-01-06T04:10:35.997Z"
           },
           {
             "id": "cal#11340",
@@ -786,62 +314,42 @@
             "url": "https://github.com/calcom/cal.com/issues/11340",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:58.510Z",
-            "updated_at": "2026-01-06T03:06:58.510Z"
+            "created_at": "2026-01-06T04:10:36.791Z",
+            "updated_at": "2026-01-06T04:10:36.791Z"
           }
         ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
+        "last_updated": "2026-01-06T04:11:31.615Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:34.981Z",
-            "updated_at": "2026-01-06T03:06:34.981Z"
+            "created_at": "2026-01-06T04:10:35.616Z",
+            "updated_at": "2026-01-06T04:10:35.616Z"
           },
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:35.330Z",
-            "updated_at": "2026-01-06T03:06:35.330Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:36.274Z",
-            "updated_at": "2026-01-06T03:06:36.274Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:39.869Z",
-            "updated_at": "2026-01-06T03:06:39.869Z"
+            "created_at": "2026-01-06T04:10:35.869Z",
+            "updated_at": "2026-01-06T04:10:35.869Z"
           }
         ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
+        "last_updated": "2026-01-06T04:11:31.615Z",
         "scrape_duration_ms": 0
       },
       {
@@ -860,8 +368,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-06T03:06:35.199Z",
-            "updated_at": "2026-01-06T03:06:35.199Z"
+            "created_at": "2026-01-06T04:11:21.438Z",
+            "updated_at": "2026-01-06T04:11:21.438Z"
           },
           {
             "id": "GolemCloud#23",
@@ -872,42 +380,32 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-06T03:06:35.912Z",
-            "updated_at": "2026-01-06T03:06:35.912Z"
+            "created_at": "2026-01-06T04:11:21.613Z",
+            "updated_at": "2026-01-06T04:11:21.613Z"
           }
         ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
+        "last_updated": "2026-01-06T04:11:31.615Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-06T03:06:35.198Z",
-            "updated_at": "2026-01-06T03:06:35.198Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-06T03:06:35.941Z",
-            "updated_at": "2026-01-06T03:06:35.941Z"
+            "created_at": "2026-01-06T04:10:36.756Z",
+            "updated_at": "2026-01-06T04:10:36.756Z"
           }
         ],
-        "last_updated": "2026-01-06T03:07:08.513Z",
+        "last_updated": "2026-01-06T04:11:31.615Z",
         "scrape_duration_ms": 0
       }
     ]
