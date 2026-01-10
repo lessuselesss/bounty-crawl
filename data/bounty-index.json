@@ -1,168 +1,278 @@
 {
-  "generated_at": "2026-01-10T23:16:45.561Z",
-  "total_organizations": 4,
-  "total_bounties": 25,
-  "total_value_usd": 2500,
+  "generated_at": "2026-01-10T23:34:19.135Z",
+  "total_organizations": 6,
+  "total_bounties": 32,
+  "total_value_usd": 3200,
   "version": "3.0.0",
   "organizations": {
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.409Z",
+          "updated_at": "2026-01-10T23:33:46.409Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.589Z",
+          "updated_at": "2026-01-10T23:33:46.589Z"
+        }
+      ],
+      "last_updated": "2026-01-10T23:34:19.135Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.410Z",
+          "updated_at": "2026-01-10T23:33:46.410Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.655Z",
+          "updated_at": "2026-01-10T23:33:46.655Z"
+        }
+      ],
+      "last_updated": "2026-01-10T23:34:19.135Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
       "bounty_count": 4,
       "total_value_usd": 400,
       "bounties": [
         {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.148Z",
-          "updated_at": "2026-01-10T23:15:46.148Z"
+          "created_at": "2026-01-10T23:33:46.514Z",
+          "updated_at": "2026-01-10T23:33:46.514Z"
         },
         {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.288Z",
-          "updated_at": "2026-01-10T23:15:46.288Z"
+          "created_at": "2026-01-10T23:33:46.740Z",
+          "updated_at": "2026-01-10T23:33:46.740Z"
         },
         {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.650Z",
-          "updated_at": "2026-01-10T23:15:46.650Z"
+          "created_at": "2026-01-10T23:33:47.389Z",
+          "updated_at": "2026-01-10T23:33:47.389Z"
         },
         {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:47.572Z",
-          "updated_at": "2026-01-10T23:15:47.572Z"
+          "created_at": "2026-01-10T23:33:48.621Z",
+          "updated_at": "2026-01-10T23:33:48.621Z"
         }
       ],
-      "last_updated": "2026-01-10T23:16:45.561Z",
+      "last_updated": "2026-01-10T23:34:19.135Z",
       "scrape_duration_ms": 0
     },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.513Z",
+          "updated_at": "2026-01-10T23:33:46.513Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:46.740Z",
+          "updated_at": "2026-01-10T23:33:46.740Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:47.390Z",
+          "updated_at": "2026-01-10T23:33:47.390Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-10T23:33:48.660Z",
+          "updated_at": "2026-01-10T23:33:48.660Z"
+        }
+      ],
+      "last_updated": "2026-01-10T23:34:19.135Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "projectdiscovery#1693",
-          "title": "test - pls ignore",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/subfinder/issues/1693",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.052Z",
-          "updated_at": "2026-01-10T23:15:46.052Z"
+          "created_at": "2026-01-10T23:33:46.315Z",
+          "updated_at": "2026-01-10T23:33:46.315Z"
         },
         {
-          "id": "projectdiscovery#14576",
-          "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.213Z",
-          "updated_at": "2026-01-10T23:15:46.213Z"
+          "created_at": "2026-01-10T23:33:46.589Z",
+          "updated_at": "2026-01-10T23:33:46.589Z"
         },
         {
-          "id": "projectdiscovery#14559",
-          "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.544Z",
-          "updated_at": "2026-01-10T23:15:46.544Z"
+          "created_at": "2026-01-10T23:33:46.985Z",
+          "updated_at": "2026-01-10T23:33:46.985Z"
         },
         {
-          "id": "projectdiscovery#14535",
-          "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.984Z",
-          "updated_at": "2026-01-10T23:15:46.984Z"
+          "created_at": "2026-01-10T23:33:47.581Z",
+          "updated_at": "2026-01-10T23:33:47.581Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:48.166Z",
-          "updated_at": "2026-01-10T23:15:48.166Z"
+          "created_at": "2026-01-10T23:33:51.006Z",
+          "updated_at": "2026-01-10T23:33:51.006Z"
         },
         {
-          "id": "projectdiscovery#14488",
-          "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:50.630Z",
-          "updated_at": "2026-01-10T23:15:50.630Z"
+          "created_at": "2026-01-10T23:33:53.002Z",
+          "updated_at": "2026-01-10T23:33:53.002Z"
         },
         {
-          "id": "projectdiscovery#14451",
-          "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:52.508Z",
-          "updated_at": "2026-01-10T23:15:52.508Z"
+          "created_at": "2026-01-10T23:33:57.375Z",
+          "updated_at": "2026-01-10T23:33:57.375Z"
         },
         {
-          "id": "projectdiscovery#14436",
-          "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:57.469Z",
-          "updated_at": "2026-01-10T23:15:57.469Z"
+          "created_at": "2026-01-10T23:34:00.094Z",
+          "updated_at": "2026-01-10T23:34:00.094Z"
         },
         {
-          "id": "projectdiscovery#14382",
-          "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
+          "id": "tscircuit#175",
+          "title": "SparkFun MicroMod RP2040 Processor",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:16:01.367Z",
-          "updated_at": "2026-01-10T23:16:01.367Z"
+          "created_at": "2026-01-10T23:34:01.185Z",
+          "updated_at": "2026-01-10T23:34:01.185Z"
         },
         {
-          "id": "projectdiscovery#14297",
-          "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:16:05.825Z",
-          "updated_at": "2026-01-10T23:16:05.825Z"
+          "created_at": "2026-01-10T23:34:01.476Z",
+          "updated_at": "2026-01-10T23:34:01.476Z"
         }
       ],
-      "last_updated": "2026-01-10T23:16:45.561Z",
+      "last_updated": "2026-01-10T23:34:19.135Z",
       "scrape_duration_ms": 0
     },
     "zio": {
@@ -178,8 +288,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.051Z",
-          "updated_at": "2026-01-10T23:15:46.051Z"
+          "created_at": "2026-01-10T23:34:07.125Z",
+          "updated_at": "2026-01-10T23:34:07.125Z"
         },
         {
           "id": "zio#519",
@@ -188,8 +298,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.213Z",
-          "updated_at": "2026-01-10T23:15:46.213Z"
+          "created_at": "2026-01-10T23:34:07.315Z",
+          "updated_at": "2026-01-10T23:34:07.315Z"
         },
         {
           "id": "zio#518",
@@ -198,8 +308,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.543Z",
-          "updated_at": "2026-01-10T23:15:46.543Z"
+          "created_at": "2026-01-10T23:34:07.513Z",
+          "updated_at": "2026-01-10T23:34:07.513Z"
         },
         {
           "id": "zio#517",
@@ -208,8 +318,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:46.984Z",
-          "updated_at": "2026-01-10T23:15:46.984Z"
+          "created_at": "2026-01-10T23:34:07.719Z",
+          "updated_at": "2026-01-10T23:34:07.719Z"
         },
         {
           "id": "zio#516",
@@ -218,8 +328,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/516",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:48.165Z",
-          "updated_at": "2026-01-10T23:15:48.165Z"
+          "created_at": "2026-01-10T23:34:07.895Z",
+          "updated_at": "2026-01-10T23:34:07.895Z"
         },
         {
           "id": "zio#471",
@@ -228,8 +338,8 @@
           "url": "https://github.com/zio/zio-blocks/issues/471",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:50.630Z",
-          "updated_at": "2026-01-10T23:15:50.630Z"
+          "created_at": "2026-01-10T23:34:08.091Z",
+          "updated_at": "2026-01-10T23:34:08.091Z"
         },
         {
           "id": "zio#3697",
@@ -238,8 +348,8 @@
           "url": "https://github.com/zio/zio-http/issues/3697",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:52.508Z",
-          "updated_at": "2026-01-10T23:15:52.508Z"
+          "created_at": "2026-01-10T23:34:08.282Z",
+          "updated_at": "2026-01-10T23:34:08.282Z"
         },
         {
           "id": "zio#709",
@@ -248,8 +358,8 @@
           "url": "https://github.com/zio/zio-http/issues/709",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:15:57.469Z",
-          "updated_at": "2026-01-10T23:15:57.469Z"
+          "created_at": "2026-01-10T23:34:08.466Z",
+          "updated_at": "2026-01-10T23:34:08.466Z"
         },
         {
           "id": "zio#3472",
@@ -258,8 +368,8 @@
           "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:16:01.367Z",
-          "updated_at": "2026-01-10T23:16:01.367Z"
+          "created_at": "2026-01-10T23:34:08.658Z",
+          "updated_at": "2026-01-10T23:34:08.658Z"
         },
         {
           "id": "zio#9810",
@@ -268,37 +378,17 @@
           "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-10T23:16:05.838Z",
-          "updated_at": "2026-01-10T23:16:05.838Z"
+          "created_at": "2026-01-10T23:34:09.108Z",
+          "updated_at": "2026-01-10T23:34:09.108Z"
         }
       ],
-      "last_updated": "2026-01-10T23:16:45.561Z",
-      "scrape_duration_ms": 0
-    },
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
-          "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-10T23:16:26.639Z",
-          "updated_at": "2026-01-10T23:16:26.639Z"
-        }
-      ],
-      "last_updated": "2026-01-10T23:16:45.561Z",
+      "last_updated": "2026-01-10T23:34:19.135Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 144107,
+    "processing_time_ms": 109992,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -307,114 +397,114 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#1693",
-            "title": "test - pls ignore",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/subfinder/issues/1693",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.052Z",
-            "updated_at": "2026-01-10T23:15:46.052Z"
+            "created_at": "2026-01-10T23:33:46.315Z",
+            "updated_at": "2026-01-10T23:33:46.315Z"
           },
           {
-            "id": "projectdiscovery#14576",
-            "title": "CVE-2018-8581 - Microsoft Exchange Server - Elevation of Privilege 💰",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14576",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.213Z",
-            "updated_at": "2026-01-10T23:15:46.213Z"
+            "created_at": "2026-01-10T23:33:46.589Z",
+            "updated_at": "2026-01-10T23:33:46.589Z"
           },
           {
-            "id": "projectdiscovery#14559",
-            "title": "CVE-2016-15041 - MainWP Dashboard - Stored XSS 💰",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14559",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.544Z",
-            "updated_at": "2026-01-10T23:15:46.544Z"
+            "created_at": "2026-01-10T23:33:46.985Z",
+            "updated_at": "2026-01-10T23:33:46.985Z"
           },
           {
-            "id": "projectdiscovery#14535",
-            "title": "CVE-2018-20753 - Kaseya VSA - Command Injection 💰",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14535",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.984Z",
-            "updated_at": "2026-01-10T23:15:46.984Z"
+            "created_at": "2026-01-10T23:33:47.581Z",
+            "updated_at": "2026-01-10T23:33:47.581Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:48.166Z",
-            "updated_at": "2026-01-10T23:15:48.166Z"
+            "created_at": "2026-01-10T23:33:51.006Z",
+            "updated_at": "2026-01-10T23:33:51.006Z"
           },
           {
-            "id": "projectdiscovery#14488",
-            "title": "CVE-2024-3408 - man-group/dtale - Authentication Bypass & Remote Code Execution 💰",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14488",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:50.630Z",
-            "updated_at": "2026-01-10T23:15:50.630Z"
+            "created_at": "2026-01-10T23:33:53.002Z",
+            "updated_at": "2026-01-10T23:33:53.002Z"
           },
           {
-            "id": "projectdiscovery#14451",
-            "title": "CVE-2017-18365 - GitHub Enterprise - Insecure Deserialization 💰",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14451",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:52.508Z",
-            "updated_at": "2026-01-10T23:15:52.508Z"
+            "created_at": "2026-01-10T23:33:57.375Z",
+            "updated_at": "2026-01-10T23:33:57.375Z"
           },
           {
-            "id": "projectdiscovery#14436",
-            "title": "CVE-2019-8978 - Ellucian Banner - Broken Authentication 💰",
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14436",
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:57.469Z",
-            "updated_at": "2026-01-10T23:15:57.469Z"
+            "created_at": "2026-01-10T23:34:00.094Z",
+            "updated_at": "2026-01-10T23:34:00.094Z"
           },
           {
-            "id": "projectdiscovery#14382",
-            "title": "CVE-2018-19629 - Hyland Perceptive Content Server - Denial of Service 💰",
+            "id": "tscircuit#175",
+            "title": "SparkFun MicroMod RP2040 Processor",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14382",
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:16:01.367Z",
-            "updated_at": "2026-01-10T23:16:01.367Z"
+            "created_at": "2026-01-10T23:34:01.185Z",
+            "updated_at": "2026-01-10T23:34:01.185Z"
           },
           {
-            "id": "projectdiscovery#14297",
-            "title": "CVE-2019-3980 - Solarwinds Dameware Mini Remote Client - Remote Code Execution 💰",
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei-templates/issues/14297",
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:16:05.825Z",
-            "updated_at": "2026-01-10T23:16:05.825Z"
+            "created_at": "2026-01-10T23:34:01.476Z",
+            "updated_at": "2026-01-10T23:34:01.476Z"
           }
         ],
-        "last_updated": "2026-01-10T23:16:45.561Z",
+        "last_updated": "2026-01-10T23:34:19.135Z",
         "scrape_duration_ms": 0
       },
       {
@@ -431,8 +521,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.051Z",
-            "updated_at": "2026-01-10T23:15:46.051Z"
+            "created_at": "2026-01-10T23:34:07.125Z",
+            "updated_at": "2026-01-10T23:34:07.125Z"
           },
           {
             "id": "zio#519",
@@ -441,8 +531,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.213Z",
-            "updated_at": "2026-01-10T23:15:46.213Z"
+            "created_at": "2026-01-10T23:34:07.315Z",
+            "updated_at": "2026-01-10T23:34:07.315Z"
           },
           {
             "id": "zio#518",
@@ -451,8 +541,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.543Z",
-            "updated_at": "2026-01-10T23:15:46.543Z"
+            "created_at": "2026-01-10T23:34:07.513Z",
+            "updated_at": "2026-01-10T23:34:07.513Z"
           },
           {
             "id": "zio#517",
@@ -461,8 +551,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.984Z",
-            "updated_at": "2026-01-10T23:15:46.984Z"
+            "created_at": "2026-01-10T23:34:07.719Z",
+            "updated_at": "2026-01-10T23:34:07.719Z"
           },
           {
             "id": "zio#516",
@@ -471,8 +561,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:48.165Z",
-            "updated_at": "2026-01-10T23:15:48.165Z"
+            "created_at": "2026-01-10T23:34:07.895Z",
+            "updated_at": "2026-01-10T23:34:07.895Z"
           },
           {
             "id": "zio#471",
@@ -481,8 +571,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:50.630Z",
-            "updated_at": "2026-01-10T23:15:50.630Z"
+            "created_at": "2026-01-10T23:34:08.091Z",
+            "updated_at": "2026-01-10T23:34:08.091Z"
           },
           {
             "id": "zio#3697",
@@ -491,8 +581,8 @@
             "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:52.508Z",
-            "updated_at": "2026-01-10T23:15:52.508Z"
+            "created_at": "2026-01-10T23:34:08.282Z",
+            "updated_at": "2026-01-10T23:34:08.282Z"
           },
           {
             "id": "zio#709",
@@ -501,8 +591,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:57.469Z",
-            "updated_at": "2026-01-10T23:15:57.469Z"
+            "created_at": "2026-01-10T23:34:08.466Z",
+            "updated_at": "2026-01-10T23:34:08.466Z"
           },
           {
             "id": "zio#3472",
@@ -511,8 +601,8 @@
             "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:16:01.367Z",
-            "updated_at": "2026-01-10T23:16:01.367Z"
+            "created_at": "2026-01-10T23:34:08.658Z",
+            "updated_at": "2026-01-10T23:34:08.658Z"
           },
           {
             "id": "zio#9810",
@@ -521,83 +611,175 @@
             "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:16:05.838Z",
-            "updated_at": "2026-01-10T23:16:05.838Z"
+            "created_at": "2026-01-10T23:34:09.108Z",
+            "updated_at": "2026-01-10T23:34:09.108Z"
           }
         ],
-        "last_updated": "2026-01-10T23:16:45.561Z",
+        "last_updated": "2026-01-10T23:34:19.135Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
         "bounty_count": 4,
         "total_value_usd": 400,
         "bounties": [
           {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.148Z",
-            "updated_at": "2026-01-10T23:15:46.148Z"
+            "created_at": "2026-01-10T23:33:46.514Z",
+            "updated_at": "2026-01-10T23:33:46.514Z"
           },
           {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.288Z",
-            "updated_at": "2026-01-10T23:15:46.288Z"
+            "created_at": "2026-01-10T23:33:46.740Z",
+            "updated_at": "2026-01-10T23:33:46.740Z"
           },
           {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:46.650Z",
-            "updated_at": "2026-01-10T23:15:46.650Z"
+            "created_at": "2026-01-10T23:33:47.389Z",
+            "updated_at": "2026-01-10T23:33:47.389Z"
           },
           {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:15:47.572Z",
-            "updated_at": "2026-01-10T23:15:47.572Z"
+            "created_at": "2026-01-10T23:33:48.621Z",
+            "updated_at": "2026-01-10T23:33:48.621Z"
           }
         ],
-        "last_updated": "2026-01-10T23:16:45.561Z",
+        "last_updated": "2026-01-10T23:34:19.135Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-10T23:16:26.639Z",
-            "updated_at": "2026-01-10T23:16:26.639Z"
+            "created_at": "2026-01-10T23:33:46.513Z",
+            "updated_at": "2026-01-10T23:33:46.513Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:46.740Z",
+            "updated_at": "2026-01-10T23:33:46.740Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:47.390Z",
+            "updated_at": "2026-01-10T23:33:47.390Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:48.660Z",
+            "updated_at": "2026-01-10T23:33:48.660Z"
           }
         ],
-        "last_updated": "2026-01-10T23:16:45.561Z",
+        "last_updated": "2026-01-10T23:34:19.135Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:46.409Z",
+            "updated_at": "2026-01-10T23:33:46.409Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:46.589Z",
+            "updated_at": "2026-01-10T23:33:46.589Z"
+          }
+        ],
+        "last_updated": "2026-01-10T23:34:19.135Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:46.410Z",
+            "updated_at": "2026-01-10T23:33:46.410Z"
+          },
+          {
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
+            "amount_usd": 100,
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-10T23:33:46.655Z",
+            "updated_at": "2026-01-10T23:33:46.655Z"
+          }
+        ],
+        "last_updated": "2026-01-10T23:34:19.135Z",
         "scrape_duration_ms": 0
       }
     ]
