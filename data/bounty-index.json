@@ -1,158 +1,38 @@
 {
-  "generated_at": "2026-01-11T20:44:50.831Z",
-  "total_organizations": 3,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "generated_at": "2026-01-11T20:55:08.460Z",
+  "total_organizations": 5,
+  "total_bounties": 37,
+  "total_value_usd": 3700,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:43:54.944Z",
-          "updated_at": "2026-01-11T20:43:54.944Z"
+          "created_at": "2026-01-11T20:54:26.085Z",
+          "updated_at": "2026-01-11T20:54:26.085Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:43:55.744Z",
-          "updated_at": "2026-01-11T20:43:55.744Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:43:55.986Z",
-          "updated_at": "2026-01-11T20:43:55.986Z"
+          "created_at": "2026-01-11T20:54:26.583Z",
+          "updated_at": "2026-01-11T20:54:26.583Z"
         }
       ],
-      "last_updated": "2026-01-11T20:44:50.830Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#654",
-          "title": "Add TOON support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/654",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:43:56.437Z",
-          "updated_at": "2026-01-11T20:43:56.437Z"
-        },
-        {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:43:56.626Z",
-          "updated_at": "2026-01-11T20:43:56.626Z"
-        },
-        {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:43:57.608Z",
-          "updated_at": "2026-01-11T20:43:57.608Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:43:59.961Z",
-          "updated_at": "2026-01-11T20:43:59.961Z"
-        },
-        {
-          "id": "ZIO#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:02.575Z",
-          "updated_at": "2026-01-11T20:44:02.575Z"
-        },
-        {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:07.580Z",
-          "updated_at": "2026-01-11T20:44:07.580Z"
-        },
-        {
-          "id": "ZIO#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:11.042Z",
-          "updated_at": "2026-01-11T20:44:11.042Z"
-        },
-        {
-          "id": "ZIO#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:11.890Z",
-          "updated_at": "2026-01-11T20:44:11.890Z"
-        },
-        {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:12.117Z",
-          "updated_at": "2026-01-11T20:44:12.117Z"
-        },
-        {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T20:44:12.401Z",
-          "updated_at": "2026-01-11T20:44:12.401Z"
-        }
-      ],
-      "last_updated": "2026-01-11T20:44:50.830Z",
+      "last_updated": "2026-01-11T20:55:08.460Z",
       "scrape_duration_ms": 0
     },
     "keephq": {
@@ -168,8 +48,8 @@
           "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:44:13.830Z",
-          "updated_at": "2026-01-11T20:44:13.830Z"
+          "created_at": "2026-01-11T20:54:26.085Z",
+          "updated_at": "2026-01-11T20:54:26.085Z"
         },
         {
           "id": "keephq#3526",
@@ -178,8 +58,8 @@
           "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:44:14.002Z",
-          "updated_at": "2026-01-11T20:44:14.002Z"
+          "created_at": "2026-01-11T20:54:26.582Z",
+          "updated_at": "2026-01-11T20:54:26.582Z"
         },
         {
           "id": "keephq#3376",
@@ -188,8 +68,8 @@
           "url": "https://github.com/keephq/keep/issues/3376",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:44:14.185Z",
-          "updated_at": "2026-01-11T20:44:14.185Z"
+          "created_at": "2026-01-11T20:54:27.151Z",
+          "updated_at": "2026-01-11T20:54:27.151Z"
         },
         {
           "id": "keephq#3379",
@@ -198,8 +78,8 @@
           "url": "https://github.com/keephq/keep/issues/3379",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:44:14.381Z",
-          "updated_at": "2026-01-11T20:44:14.381Z"
+          "created_at": "2026-01-11T20:54:27.294Z",
+          "updated_at": "2026-01-11T20:54:27.294Z"
         },
         {
           "id": "keephq#2112",
@@ -208,17 +88,347 @@
           "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T20:44:14.592Z",
-          "updated_at": "2026-01-11T20:44:14.592Z"
+          "created_at": "2026-01-11T20:54:27.436Z",
+          "updated_at": "2026-01-11T20:54:27.436Z"
         }
       ],
-      "last_updated": "2026-01-11T20:44:50.831Z",
+      "last_updated": "2026-01-11T20:55:08.460Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.364Z",
+          "updated_at": "2026-01-11T20:54:57.364Z"
+        },
+        {
+          "id": "coollabsio#7738",
+          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7738",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.502Z",
+          "updated_at": "2026-01-11T20:54:57.502Z"
+        },
+        {
+          "id": "coollabsio#7724",
+          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7724",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.596Z",
+          "updated_at": "2026-01-11T20:54:57.596Z"
+        },
+        {
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.707Z",
+          "updated_at": "2026-01-11T20:54:57.707Z"
+        },
+        {
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.805Z",
+          "updated_at": "2026-01-11T20:54:57.805Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.901Z",
+          "updated_at": "2026-01-11T20:54:57.901Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.034Z",
+          "updated_at": "2026-01-11T20:54:58.034Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.168Z",
+          "updated_at": "2026-01-11T20:54:58.168Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.265Z",
+          "updated_at": "2026-01-11T20:54:58.265Z"
+        },
+        {
+          "id": "coollabsio#6519",
+          "title": "[Enhancement]: Filebrowser for Containerlevel",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/6519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.380Z",
+          "updated_at": "2026-01-11T20:54:58.380Z"
+        }
+      ],
+      "last_updated": "2026-01-11T20:55:08.460Z",
+      "scrape_duration_ms": 0
+    },
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "ZIO#654",
+          "title": "Add TOON support to ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.383Z",
+          "updated_at": "2026-01-11T20:54:57.383Z"
+        },
+        {
+          "id": "ZIO#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.505Z",
+          "updated_at": "2026-01-11T20:54:57.505Z"
+        },
+        {
+          "id": "ZIO#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/518",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.659Z",
+          "updated_at": "2026-01-11T20:54:57.659Z"
+        },
+        {
+          "id": "ZIO#517",
+          "title": "Add structural schemas",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.777Z",
+          "updated_at": "2026-01-11T20:54:57.777Z"
+        },
+        {
+          "id": "ZIO#516",
+          "title": "Finalize Patch & Diffing",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/516",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.881Z",
+          "updated_at": "2026-01-11T20:54:57.881Z"
+        },
+        {
+          "id": "ZIO#471",
+          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.009Z",
+          "updated_at": "2026-01-11T20:54:58.009Z"
+        },
+        {
+          "id": "ZIO#3697",
+          "title": "Datastar requests from Endpoint",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3697",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.098Z",
+          "updated_at": "2026-01-11T20:54:58.098Z"
+        },
+        {
+          "id": "ZIO#709",
+          "title": "Support Http Range header on request for Files",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/709",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.251Z",
+          "updated_at": "2026-01-11T20:54:58.251Z"
+        },
+        {
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3472",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.344Z",
+          "updated_at": "2026-01-11T20:54:58.344Z"
+        },
+        {
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.447Z",
+          "updated_at": "2026-01-11T20:54:58.447Z"
+        }
+      ],
+      "last_updated": "2026-01-11T20:55:08.460Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.372Z",
+          "updated_at": "2026-01-11T20:54:57.372Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.477Z",
+          "updated_at": "2026-01-11T20:54:57.477Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.528Z",
+          "updated_at": "2026-01-11T20:54:57.528Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.658Z",
+          "updated_at": "2026-01-11T20:54:57.658Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.841Z",
+          "updated_at": "2026-01-11T20:54:57.841Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:57.961Z",
+          "updated_at": "2026-01-11T20:54:57.961Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.071Z",
+          "updated_at": "2026-01-11T20:54:58.071Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.243Z",
+          "updated_at": "2026-01-11T20:54:58.243Z"
+        },
+        {
+          "id": "tscircuit#175",
+          "title": "SparkFun MicroMod RP2040 Processor",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.360Z",
+          "updated_at": "2026-01-11T20:54:58.360Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T20:54:58.459Z",
+          "updated_at": "2026-01-11T20:54:58.459Z"
+        }
+      ],
+      "last_updated": "2026-01-11T20:55:08.460Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 135217,
+    "processing_time_ms": 124095,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -226,6 +436,117 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.364Z",
+            "updated_at": "2026-01-11T20:54:57.364Z"
+          },
+          {
+            "id": "coollabsio#7738",
+            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7738",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.502Z",
+            "updated_at": "2026-01-11T20:54:57.502Z"
+          },
+          {
+            "id": "coollabsio#7724",
+            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7724",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.596Z",
+            "updated_at": "2026-01-11T20:54:57.596Z"
+          },
+          {
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.707Z",
+            "updated_at": "2026-01-11T20:54:57.707Z"
+          },
+          {
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.805Z",
+            "updated_at": "2026-01-11T20:54:57.805Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.901Z",
+            "updated_at": "2026-01-11T20:54:57.901Z"
+          },
+          {
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.034Z",
+            "updated_at": "2026-01-11T20:54:58.034Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.168Z",
+            "updated_at": "2026-01-11T20:54:58.168Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.265Z",
+            "updated_at": "2026-01-11T20:54:58.265Z"
+          },
+          {
+            "id": "coollabsio#6519",
+            "title": "[Enhancement]: Filebrowser for Containerlevel",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/6519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.380Z",
+            "updated_at": "2026-01-11T20:54:58.380Z"
+          }
+        ],
+        "last_updated": "2026-01-11T20:55:08.460Z",
+        "scrape_duration_ms": 0
+      },
       {
         "handle": "ZIO",
         "display_name": "ZIO",
@@ -240,8 +561,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:56.437Z",
-            "updated_at": "2026-01-11T20:43:56.437Z"
+            "created_at": "2026-01-11T20:54:57.383Z",
+            "updated_at": "2026-01-11T20:54:57.383Z"
           },
           {
             "id": "ZIO#519",
@@ -250,8 +571,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:56.626Z",
-            "updated_at": "2026-01-11T20:43:56.626Z"
+            "created_at": "2026-01-11T20:54:57.505Z",
+            "updated_at": "2026-01-11T20:54:57.505Z"
           },
           {
             "id": "ZIO#518",
@@ -260,8 +581,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:57.608Z",
-            "updated_at": "2026-01-11T20:43:57.608Z"
+            "created_at": "2026-01-11T20:54:57.659Z",
+            "updated_at": "2026-01-11T20:54:57.659Z"
           },
           {
             "id": "ZIO#517",
@@ -270,8 +591,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:59.961Z",
-            "updated_at": "2026-01-11T20:43:59.961Z"
+            "created_at": "2026-01-11T20:54:57.777Z",
+            "updated_at": "2026-01-11T20:54:57.777Z"
           },
           {
             "id": "ZIO#516",
@@ -280,8 +601,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/516",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:02.575Z",
-            "updated_at": "2026-01-11T20:44:02.575Z"
+            "created_at": "2026-01-11T20:54:57.881Z",
+            "updated_at": "2026-01-11T20:54:57.881Z"
           },
           {
             "id": "ZIO#471",
@@ -290,8 +611,8 @@
             "url": "https://github.com/zio/zio-blocks/issues/471",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:07.580Z",
-            "updated_at": "2026-01-11T20:44:07.580Z"
+            "created_at": "2026-01-11T20:54:58.009Z",
+            "updated_at": "2026-01-11T20:54:58.009Z"
           },
           {
             "id": "ZIO#3697",
@@ -300,8 +621,8 @@
             "url": "https://github.com/zio/zio-http/issues/3697",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:11.042Z",
-            "updated_at": "2026-01-11T20:44:11.042Z"
+            "created_at": "2026-01-11T20:54:58.098Z",
+            "updated_at": "2026-01-11T20:54:58.098Z"
           },
           {
             "id": "ZIO#709",
@@ -310,8 +631,8 @@
             "url": "https://github.com/zio/zio-http/issues/709",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:11.890Z",
-            "updated_at": "2026-01-11T20:44:11.890Z"
+            "created_at": "2026-01-11T20:54:58.251Z",
+            "updated_at": "2026-01-11T20:54:58.251Z"
           },
           {
             "id": "ZIO#3472",
@@ -320,8 +641,8 @@
             "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:12.117Z",
-            "updated_at": "2026-01-11T20:44:12.117Z"
+            "created_at": "2026-01-11T20:54:58.344Z",
+            "updated_at": "2026-01-11T20:54:58.344Z"
           },
           {
             "id": "ZIO#9810",
@@ -330,11 +651,122 @@
             "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:12.401Z",
-            "updated_at": "2026-01-11T20:44:12.401Z"
+            "created_at": "2026-01-11T20:54:58.447Z",
+            "updated_at": "2026-01-11T20:54:58.447Z"
           }
         ],
-        "last_updated": "2026-01-11T20:44:50.830Z",
+        "last_updated": "2026-01-11T20:55:08.460Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.372Z",
+            "updated_at": "2026-01-11T20:54:57.372Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.477Z",
+            "updated_at": "2026-01-11T20:54:57.477Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.528Z",
+            "updated_at": "2026-01-11T20:54:57.528Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.658Z",
+            "updated_at": "2026-01-11T20:54:57.658Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.841Z",
+            "updated_at": "2026-01-11T20:54:57.841Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:57.961Z",
+            "updated_at": "2026-01-11T20:54:57.961Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.071Z",
+            "updated_at": "2026-01-11T20:54:58.071Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.243Z",
+            "updated_at": "2026-01-11T20:54:58.243Z"
+          },
+          {
+            "id": "tscircuit#175",
+            "title": "SparkFun MicroMod RP2040 Processor",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.360Z",
+            "updated_at": "2026-01-11T20:54:58.360Z"
+          },
+          {
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-11T20:54:58.459Z",
+            "updated_at": "2026-01-11T20:54:58.459Z"
+          }
+        ],
+        "last_updated": "2026-01-11T20:55:08.460Z",
         "scrape_duration_ms": 0
       },
       {
@@ -351,8 +783,8 @@
             "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:13.830Z",
-            "updated_at": "2026-01-11T20:44:13.830Z"
+            "created_at": "2026-01-11T20:54:26.085Z",
+            "updated_at": "2026-01-11T20:54:26.085Z"
           },
           {
             "id": "keephq#3526",
@@ -361,8 +793,8 @@
             "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:14.002Z",
-            "updated_at": "2026-01-11T20:44:14.002Z"
+            "created_at": "2026-01-11T20:54:26.582Z",
+            "updated_at": "2026-01-11T20:54:26.582Z"
           },
           {
             "id": "keephq#3376",
@@ -371,8 +803,8 @@
             "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:14.185Z",
-            "updated_at": "2026-01-11T20:44:14.185Z"
+            "created_at": "2026-01-11T20:54:27.151Z",
+            "updated_at": "2026-01-11T20:54:27.151Z"
           },
           {
             "id": "keephq#3379",
@@ -381,8 +813,8 @@
             "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:14.381Z",
-            "updated_at": "2026-01-11T20:44:14.381Z"
+            "created_at": "2026-01-11T20:54:27.294Z",
+            "updated_at": "2026-01-11T20:54:27.294Z"
           },
           {
             "id": "keephq#2112",
@@ -391,52 +823,42 @@
             "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:44:14.592Z",
-            "updated_at": "2026-01-11T20:44:14.592Z"
+            "created_at": "2026-01-11T20:54:27.436Z",
+            "updated_at": "2026-01-11T20:54:27.436Z"
           }
         ],
-        "last_updated": "2026-01-11T20:44:50.831Z",
+        "last_updated": "2026-01-11T20:55:08.460Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:54.944Z",
-            "updated_at": "2026-01-11T20:43:54.944Z"
+            "created_at": "2026-01-11T20:54:26.085Z",
+            "updated_at": "2026-01-11T20:54:26.085Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T20:43:55.744Z",
-            "updated_at": "2026-01-11T20:43:55.744Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T20:43:55.986Z",
-            "updated_at": "2026-01-11T20:43:55.986Z"
+            "created_at": "2026-01-11T20:54:26.583Z",
+            "updated_at": "2026-01-11T20:54:26.583Z"
           }
         ],
-        "last_updated": "2026-01-11T20:44:50.830Z",
+        "last_updated": "2026-01-11T20:55:08.460Z",
         "scrape_duration_ms": 0
       }
     ]
