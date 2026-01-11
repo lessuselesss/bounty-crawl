@@ -1,344 +1,128 @@
 {
-  "generated_at": "2026-01-11T07:18:51.376Z",
-  "total_organizations": 5,
-  "total_bounties": 28,
-  "total_value_usd": 2800,
+  "generated_at": "2026-01-11T07:41:29.940Z",
+  "total_organizations": 3,
+  "total_bounties": 8,
+  "total_value_usd": 800,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T07:41:10.076Z",
+          "updated_at": "2026-01-11T07:41:10.076Z"
+        }
+      ],
+      "last_updated": "2026-01-11T07:41:29.940Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:53.269Z",
-          "updated_at": "2026-01-11T07:17:53.269Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-11T07:41:11.803Z",
+          "updated_at": "2026-01-11T07:41:11.803Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:53.433Z",
-          "updated_at": "2026-01-11T07:17:53.433Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-11T07:41:16.220Z",
+          "updated_at": "2026-01-11T07:41:16.220Z"
         }
       ],
-      "last_updated": "2026-01-11T07:18:51.376Z",
+      "last_updated": "2026-01-11T07:41:29.940Z",
       "scrape_duration_ms": 0
     },
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T07:17:53.340Z",
-          "updated_at": "2026-01-11T07:17:53.340Z"
+          "created_at": "2026-01-11T07:41:10.150Z",
+          "updated_at": "2026-01-11T07:41:10.150Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-11T07:17:55.016Z",
-          "updated_at": "2026-01-11T07:17:55.016Z"
+          "created_at": "2026-01-11T07:41:11.701Z",
+          "updated_at": "2026-01-11T07:41:11.701Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T07:41:16.219Z",
+          "updated_at": "2026-01-11T07:41:16.219Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T07:41:17.340Z",
+          "updated_at": "2026-01-11T07:41:17.340Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-11T07:41:18.487Z",
+          "updated_at": "2026-01-11T07:41:18.487Z"
         }
       ],
-      "last_updated": "2026-01-11T07:18:51.376Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#654",
-          "title": "Add TOON support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/654",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:53.340Z",
-          "updated_at": "2026-01-11T07:17:53.340Z"
-        },
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:53.671Z",
-          "updated_at": "2026-01-11T07:17:53.671Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:55.217Z",
-          "updated_at": "2026-01-11T07:17:55.217Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:17:58.279Z",
-          "updated_at": "2026-01-11T07:17:58.279Z"
-        },
-        {
-          "id": "zio#516",
-          "title": "Finalize Patch & Diffing",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/516",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:00.128Z",
-          "updated_at": "2026-01-11T07:18:00.128Z"
-        },
-        {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:00.504Z",
-          "updated_at": "2026-01-11T07:18:00.504Z"
-        },
-        {
-          "id": "zio#3697",
-          "title": "Datastar requests from Endpoint",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3697",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:00.757Z",
-          "updated_at": "2026-01-11T07:18:00.757Z"
-        },
-        {
-          "id": "zio#709",
-          "title": "Support Http Range header on request for Files",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/709",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:00.922Z",
-          "updated_at": "2026-01-11T07:18:00.922Z"
-        },
-        {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:01.094Z",
-          "updated_at": "2026-01-11T07:18:01.094Z"
-        },
-        {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:01.296Z",
-          "updated_at": "2026-01-11T07:18:01.296Z"
-        }
-      ],
-      "last_updated": "2026-01-11T07:18:51.376Z",
-      "scrape_duration_ms": 0
-    },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:00.832Z",
-          "updated_at": "2026-01-11T07:18:00.832Z"
-        },
-        {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:01.047Z",
-          "updated_at": "2026-01-11T07:18:01.047Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:01.218Z",
-          "updated_at": "2026-01-11T07:18:01.218Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:01.376Z",
-          "updated_at": "2026-01-11T07:18:01.376Z"
-        }
-      ],
-      "last_updated": "2026-01-11T07:18:51.376Z",
-      "scrape_duration_ms": 0
-    },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:39.566Z",
-          "updated_at": "2026-01-11T07:18:39.566Z"
-        },
-        {
-          "id": "tscircuit#534",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:39.755Z",
-          "updated_at": "2026-01-11T07:18:39.755Z"
-        },
-        {
-          "id": "tscircuit#419",
-          "title": "Texture Support (PCB should have texture on box)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:39.940Z",
-          "updated_at": "2026-01-11T07:18:39.940Z"
-        },
-        {
-          "id": "tscircuit#1081",
-          "title": "Make sure kicad component components create courtyards",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:40.126Z",
-          "updated_at": "2026-01-11T07:18:40.126Z"
-        },
-        {
-          "id": "tscircuit#386",
-          "title": "Add support for qfn32",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:40.415Z",
-          "updated_at": "2026-01-11T07:18:40.415Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:40.584Z",
-          "updated_at": "2026-01-11T07:18:40.584Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:40.751Z",
-          "updated_at": "2026-01-11T07:18:40.751Z"
-        },
-        {
-          "id": "tscircuit#939",
-          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:41.031Z",
-          "updated_at": "2026-01-11T07:18:41.031Z"
-        },
-        {
-          "id": "tscircuit#175",
-          "title": "SparkFun MicroMod RP2040 Processor",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:41.215Z",
-          "updated_at": "2026-01-11T07:18:41.215Z"
-        },
-        {
-          "id": "tscircuit#6",
-          "title": "Determine why rectangles are missing in output",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-11T07:18:41.373Z",
-          "updated_at": "2026-01-11T07:18:41.373Z"
-        }
-      ],
-      "last_updated": "2026-01-11T07:18:51.376Z",
+      "last_updated": "2026-01-11T07:41:29.940Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 125606,
+    "processing_time_ms": 97127,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -347,338 +131,120 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "zio#654",
-            "title": "Add TOON support to ZIO Schema 2",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/654",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:17:53.340Z",
-            "updated_at": "2026-01-11T07:17:53.340Z"
+            "created_at": "2026-01-11T07:41:10.150Z",
+            "updated_at": "2026-01-11T07:41:10.150Z"
           },
           {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:17:53.671Z",
-            "updated_at": "2026-01-11T07:17:53.671Z"
+            "created_at": "2026-01-11T07:41:11.701Z",
+            "updated_at": "2026-01-11T07:41:11.701Z"
           },
           {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:17:55.217Z",
-            "updated_at": "2026-01-11T07:17:55.217Z"
+            "created_at": "2026-01-11T07:41:16.219Z",
+            "updated_at": "2026-01-11T07:41:16.219Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:17:58.279Z",
-            "updated_at": "2026-01-11T07:17:58.279Z"
+            "created_at": "2026-01-11T07:41:17.340Z",
+            "updated_at": "2026-01-11T07:41:17.340Z"
           },
           {
-            "id": "zio#516",
-            "title": "Finalize Patch & Diffing",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/516",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:18:00.128Z",
-            "updated_at": "2026-01-11T07:18:00.128Z"
-          },
-          {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:00.504Z",
-            "updated_at": "2026-01-11T07:18:00.504Z"
-          },
-          {
-            "id": "zio#3697",
-            "title": "Datastar requests from Endpoint",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3697",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:00.757Z",
-            "updated_at": "2026-01-11T07:18:00.757Z"
-          },
-          {
-            "id": "zio#709",
-            "title": "Support Http Range header on request for Files",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/709",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:00.922Z",
-            "updated_at": "2026-01-11T07:18:00.922Z"
-          },
-          {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:01.094Z",
-            "updated_at": "2026-01-11T07:18:01.094Z"
-          },
-          {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:01.296Z",
-            "updated_at": "2026-01-11T07:18:01.296Z"
+            "created_at": "2026-01-11T07:41:18.487Z",
+            "updated_at": "2026-01-11T07:41:18.487Z"
           }
         ],
-        "last_updated": "2026-01-11T07:18:51.376Z",
+        "last_updated": "2026-01-11T07:41:29.940Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:39.566Z",
-            "updated_at": "2026-01-11T07:18:39.566Z"
-          },
-          {
-            "id": "tscircuit#534",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:39.755Z",
-            "updated_at": "2026-01-11T07:18:39.755Z"
-          },
-          {
-            "id": "tscircuit#419",
-            "title": "Texture Support (PCB should have texture on box)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:39.940Z",
-            "updated_at": "2026-01-11T07:18:39.940Z"
-          },
-          {
-            "id": "tscircuit#1081",
-            "title": "Make sure kicad component components create courtyards",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:40.126Z",
-            "updated_at": "2026-01-11T07:18:40.126Z"
-          },
-          {
-            "id": "tscircuit#386",
-            "title": "Add support for qfn32",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:40.415Z",
-            "updated_at": "2026-01-11T07:18:40.415Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:40.584Z",
-            "updated_at": "2026-01-11T07:18:40.584Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:40.751Z",
-            "updated_at": "2026-01-11T07:18:40.751Z"
-          },
-          {
-            "id": "tscircuit#939",
-            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:41.031Z",
-            "updated_at": "2026-01-11T07:18:41.031Z"
-          },
-          {
-            "id": "tscircuit#175",
-            "title": "SparkFun MicroMod RP2040 Processor",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:41.215Z",
-            "updated_at": "2026-01-11T07:18:41.215Z"
-          },
-          {
-            "id": "tscircuit#6",
-            "title": "Determine why rectangles are missing in output",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:41.373Z",
-            "updated_at": "2026-01-11T07:18:41.373Z"
-          }
-        ],
-        "last_updated": "2026-01-11T07:18:51.376Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
-        "bounties": [
-          {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:00.832Z",
-            "updated_at": "2026-01-11T07:18:00.832Z"
-          },
-          {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:01.047Z",
-            "updated_at": "2026-01-11T07:18:01.047Z"
-          },
-          {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:01.218Z",
-            "updated_at": "2026-01-11T07:18:01.218Z"
-          },
-          {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
-            "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:18:01.376Z",
-            "updated_at": "2026-01-11T07:18:01.376Z"
-          }
-        ],
-        "last_updated": "2026-01-11T07:18:51.376Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:17:53.269Z",
-            "updated_at": "2026-01-11T07:17:53.269Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-11T07:41:11.803Z",
+            "updated_at": "2026-01-11T07:41:11.803Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:17:53.433Z",
-            "updated_at": "2026-01-11T07:17:53.433Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-11T07:41:16.220Z",
+            "updated_at": "2026-01-11T07:41:16.220Z"
           }
         ],
-        "last_updated": "2026-01-11T07:18:51.376Z",
+        "last_updated": "2026-01-11T07:41:29.940Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-11T07:17:53.340Z",
-            "updated_at": "2026-01-11T07:17:53.340Z"
-          },
-          {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
-            "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-11T07:17:55.016Z",
-            "updated_at": "2026-01-11T07:17:55.016Z"
+            "created_at": "2026-01-11T07:41:10.076Z",
+            "updated_at": "2026-01-11T07:41:10.076Z"
           }
         ],
-        "last_updated": "2026-01-11T07:18:51.376Z",
+        "last_updated": "2026-01-11T07:41:29.940Z",
         "scrape_duration_ms": 0
       }
     ]
