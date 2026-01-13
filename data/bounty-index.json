@@ -1,19 +1,525 @@
 {
-  "generated_at": "2026-01-13T19:43:15.678Z",
-  "total_organizations": 0,
-  "total_bounties": 0,
-  "total_value_usd": 0,
+  "generated_at": "2026-01-13T19:56:13.656Z",
+  "total_organizations": 4,
+  "total_bounties": 21,
+  "total_value_usd": 2100,
   "version": "3.0.0",
-  "organizations": {},
+  "organizations": {
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:28.600Z",
+          "updated_at": "2026-01-13T19:53:28.600Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:28.850Z",
+          "updated_at": "2026-01-13T19:53:28.850Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:29.103Z",
+          "updated_at": "2026-01-13T19:53:29.103Z"
+        }
+      ],
+      "last_updated": "2026-01-13T19:56:13.656Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:28.534Z",
+          "updated_at": "2026-01-13T19:53:28.534Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:28.777Z",
+          "updated_at": "2026-01-13T19:53:28.777Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:28.983Z",
+          "updated_at": "2026-01-13T19:53:28.983Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:29.234Z",
+          "updated_at": "2026-01-13T19:53:29.234Z"
+        }
+      ],
+      "last_updated": "2026-01-13T19:56:13.656Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:32.368Z",
+          "updated_at": "2026-01-13T19:53:32.368Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:32.397Z",
+          "updated_at": "2026-01-13T19:53:32.397Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:32.426Z",
+          "updated_at": "2026-01-13T19:53:32.426Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:53:32.455Z",
+          "updated_at": "2026-01-13T19:53:32.455Z"
+        }
+      ],
+      "last_updated": "2026-01-13T19:56:13.656Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:55.060Z",
+          "updated_at": "2026-01-13T19:55:55.060Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:55.312Z",
+          "updated_at": "2026-01-13T19:55:55.312Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:55.477Z",
+          "updated_at": "2026-01-13T19:55:55.477Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:55.706Z",
+          "updated_at": "2026-01-13T19:55:55.706Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:56.103Z",
+          "updated_at": "2026-01-13T19:55:56.103Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:56.339Z",
+          "updated_at": "2026-01-13T19:55:56.339Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:56.527Z",
+          "updated_at": "2026-01-13T19:55:56.527Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:56.950Z",
+          "updated_at": "2026-01-13T19:55:56.950Z"
+        },
+        {
+          "id": "tscircuit#175",
+          "title": "SparkFun MicroMod RP2040 Processor",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:57.209Z",
+          "updated_at": "2026-01-13T19:55:57.209Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-13T19:55:57.401Z",
+          "updated_at": "2026-01-13T19:55:57.401Z"
+        }
+      ],
+      "last_updated": "2026-01-13T19:56:13.656Z",
+      "scrape_duration_ms": 0
+    }
+  },
   "metadata": {
-    "success_rate": 0,
-    "processing_time_ms": 148716,
+    "success_rate": 1,
+    "processing_time_ms": 231283,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
   "stats": {
-    "avg_bounty_value": 0,
-    "median_bounty_value": 0,
-    "top_organizations": []
+    "avg_bounty_value": 100,
+    "median_bounty_value": 100,
+    "top_organizations": [
+      {
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:55.060Z",
+            "updated_at": "2026-01-13T19:55:55.060Z"
+          },
+          {
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:55.312Z",
+            "updated_at": "2026-01-13T19:55:55.312Z"
+          },
+          {
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:55.477Z",
+            "updated_at": "2026-01-13T19:55:55.477Z"
+          },
+          {
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:55.706Z",
+            "updated_at": "2026-01-13T19:55:55.706Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:56.103Z",
+            "updated_at": "2026-01-13T19:55:56.103Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:56.339Z",
+            "updated_at": "2026-01-13T19:55:56.339Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:56.527Z",
+            "updated_at": "2026-01-13T19:55:56.527Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:56.950Z",
+            "updated_at": "2026-01-13T19:55:56.950Z"
+          },
+          {
+            "id": "tscircuit#175",
+            "title": "SparkFun MicroMod RP2040 Processor",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:57.209Z",
+            "updated_at": "2026-01-13T19:55:57.209Z"
+          },
+          {
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:55:57.401Z",
+            "updated_at": "2026-01-13T19:55:57.401Z"
+          }
+        ],
+        "last_updated": "2026-01-13T19:56:13.656Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:28.534Z",
+            "updated_at": "2026-01-13T19:53:28.534Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:28.777Z",
+            "updated_at": "2026-01-13T19:53:28.777Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:28.983Z",
+            "updated_at": "2026-01-13T19:53:28.983Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:29.234Z",
+            "updated_at": "2026-01-13T19:53:29.234Z"
+          }
+        ],
+        "last_updated": "2026-01-13T19:56:13.656Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:32.368Z",
+            "updated_at": "2026-01-13T19:53:32.368Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:32.397Z",
+            "updated_at": "2026-01-13T19:53:32.397Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:32.426Z",
+            "updated_at": "2026-01-13T19:53:32.426Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:32.455Z",
+            "updated_at": "2026-01-13T19:53:32.455Z"
+          }
+        ],
+        "last_updated": "2026-01-13T19:56:13.656Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:28.600Z",
+            "updated_at": "2026-01-13T19:53:28.600Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:28.850Z",
+            "updated_at": "2026-01-13T19:53:28.850Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-13T19:53:29.103Z",
+            "updated_at": "2026-01-13T19:53:29.103Z"
+          }
+        ],
+        "last_updated": "2026-01-13T19:56:13.656Z",
+        "scrape_duration_ms": 0
+      }
+    ]
   }
 }
