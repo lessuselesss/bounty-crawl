@@ -1,224 +1,184 @@
 {
-  "generated_at": "2026-01-15T18:30:46.262Z",
-  "total_organizations": 3,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "generated_at": "2026-01-15T19:03:36.270Z",
+  "total_organizations": 4,
+  "total_bounties": 13,
+  "total_value_usd": 1300,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "qdrant#3531",
-          "title": "Better error response for wrong datetime format in REST filter",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3531",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:11.985Z",
-          "updated_at": "2026-01-15T18:30:11.985Z"
+          "created_at": "2026-01-15T19:03:09.428Z",
+          "updated_at": "2026-01-15T19:03:09.428Z"
         },
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:13.370Z",
-          "updated_at": "2026-01-15T18:30:13.370Z"
+          "created_at": "2026-01-15T19:03:10.287Z",
+          "updated_at": "2026-01-15T19:03:10.287Z"
+        },
+        {
+          "id": "keephq#3376",
+          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3376",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:10.556Z",
+          "updated_at": "2026-01-15T19:03:10.556Z"
+        },
+        {
+          "id": "keephq#3379",
+          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/3379",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:10.757Z",
+          "updated_at": "2026-01-15T19:03:10.757Z"
+        },
+        {
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
+          "amount_usd": 100,
+          "url": "https://github.com/keephq/keep/issues/2112",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:11.613Z",
+          "updated_at": "2026-01-15T19:03:11.613Z"
         }
       ],
-      "last_updated": "2026-01-15T18:30:46.261Z",
+      "last_updated": "2026-01-15T19:03:36.270Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "remotion": {
+      "display_name": "Remotion",
+      "url": "https://algora.io/remotion/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
       "bounties": [
         {
-          "id": "coollabsio#7655",
-          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "id": "remotion#6176",
+          "title": "Recorder: Cmd+I conflicts with new Ask AI modal",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "url": "https://github.com/remotion-dev/remotion/issues/6176",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:12.070Z",
-          "updated_at": "2026-01-15T18:30:12.070Z"
-        },
-        {
-          "id": "coollabsio#7941",
-          "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7941",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:13.371Z",
-          "updated_at": "2026-01-15T18:30:13.371Z"
-        },
-        {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:15.421Z",
-          "updated_at": "2026-01-15T18:30:15.421Z"
-        },
-        {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:16.280Z",
-          "updated_at": "2026-01-15T18:30:16.280Z"
-        },
-        {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:16.614Z",
-          "updated_at": "2026-01-15T18:30:16.614Z"
-        },
-        {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:17.485Z",
-          "updated_at": "2026-01-15T18:30:17.485Z"
-        },
-        {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:20.014Z",
-          "updated_at": "2026-01-15T18:30:20.014Z"
-        },
-        {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:25.773Z",
-          "updated_at": "2026-01-15T18:30:25.773Z"
-        },
-        {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:30.201Z",
-          "updated_at": "2026-01-15T18:30:30.201Z"
-        },
-        {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:32.835Z",
-          "updated_at": "2026-01-15T18:30:32.835Z"
+          "created_at": "2026-01-15T19:03:12.800Z",
+          "updated_at": "2026-01-15T19:03:12.800Z"
         }
       ],
-      "last_updated": "2026-01-15T18:30:46.262Z",
+      "last_updated": "2026-01-15T19:03:36.270Z",
       "scrape_duration_ms": 0
     },
-    "activepieces": {
-      "display_name": "Activepieces",
-      "url": "https://algora.io/activepieces/bounties?status=open",
-      "bounty_count": 6,
-      "total_value_usd": 600,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "activepieces#10618",
-          "title": "Native AI Selector",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/10618",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:35.298Z",
-          "updated_at": "2026-01-15T18:30:35.298Z"
+          "created_at": "2026-01-15T19:03:12.632Z",
+          "updated_at": "2026-01-15T19:03:12.632Z"
         },
         {
-          "id": "activepieces#9703",
-          "title": "[MCP] Oracle Fusion Cloud ERP",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/9703",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:35.532Z",
-          "updated_at": "2026-01-15T18:30:35.532Z"
+          "created_at": "2026-01-15T19:03:12.959Z",
+          "updated_at": "2026-01-15T19:03:12.959Z"
         },
         {
-          "id": "activepieces#8284",
-          "title": "[MCP] Klaviyo",
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
           "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8284",
+          "url": "https://github.com/prisma/prisma/issues/7771",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-15T18:30:35.736Z",
-          "updated_at": "2026-01-15T18:30:35.736Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:35.984Z",
-          "updated_at": "2026-01-15T18:30:35.984Z"
-        },
-        {
-          "id": "activepieces#8135",
-          "title": "[MCP] Canva",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8135",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:36.005Z",
-          "updated_at": "2026-01-15T18:30:36.005Z"
-        },
-        {
-          "id": "activepieces#8072",
-          "title": "[MCP] Gmail",
-          "amount_usd": 100,
-          "url": "https://github.com/activepieces/activepieces/issues/8072",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-15T18:30:36.241Z",
-          "updated_at": "2026-01-15T18:30:36.241Z"
+          "created_at": "2026-01-15T19:03:13.173Z",
+          "updated_at": "2026-01-15T19:03:13.173Z"
         }
       ],
-      "last_updated": "2026-01-15T18:30:46.262Z",
+      "last_updated": "2026-01-15T19:03:36.270Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:12.365Z",
+          "updated_at": "2026-01-15T19:03:12.365Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:12.800Z",
+          "updated_at": "2026-01-15T19:03:12.800Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:13.001Z",
+          "updated_at": "2026-01-15T19:03:13.001Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-15T19:03:13.377Z",
+          "updated_at": "2026-01-15T19:03:13.377Z"
+        }
+      ],
+      "last_updated": "2026-01-15T19:03:36.270Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 109826,
+    "processing_time_ms": 93621,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -227,216 +187,177 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "coollabsio#7655",
-            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7655",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:12.070Z",
-            "updated_at": "2026-01-15T18:30:12.070Z"
+            "created_at": "2026-01-15T19:03:09.428Z",
+            "updated_at": "2026-01-15T19:03:09.428Z"
           },
           {
-            "id": "coollabsio#7941",
-            "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7941",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:13.371Z",
-            "updated_at": "2026-01-15T18:30:13.371Z"
+            "created_at": "2026-01-15T19:03:10.287Z",
+            "updated_at": "2026-01-15T19:03:10.287Z"
           },
           {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "id": "keephq#3376",
+            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "url": "https://github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:15.421Z",
-            "updated_at": "2026-01-15T18:30:15.421Z"
+            "created_at": "2026-01-15T19:03:10.556Z",
+            "updated_at": "2026-01-15T19:03:10.556Z"
           },
           {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+            "id": "keephq#3379",
+            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
+            "url": "https://github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:16.280Z",
-            "updated_at": "2026-01-15T18:30:16.280Z"
+            "created_at": "2026-01-15T19:03:10.757Z",
+            "updated_at": "2026-01-15T19:03:10.757Z"
           },
           {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:16.614Z",
-            "updated_at": "2026-01-15T18:30:16.614Z"
-          },
-          {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:17.485Z",
-            "updated_at": "2026-01-15T18:30:17.485Z"
-          },
-          {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:20.014Z",
-            "updated_at": "2026-01-15T18:30:20.014Z"
-          },
-          {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:25.773Z",
-            "updated_at": "2026-01-15T18:30:25.773Z"
-          },
-          {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:30.201Z",
-            "updated_at": "2026-01-15T18:30:30.201Z"
-          },
-          {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:32.835Z",
-            "updated_at": "2026-01-15T18:30:32.835Z"
+            "created_at": "2026-01-15T19:03:11.613Z",
+            "updated_at": "2026-01-15T19:03:11.613Z"
           }
         ],
-        "last_updated": "2026-01-15T18:30:46.262Z",
+        "last_updated": "2026-01-15T19:03:36.270Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "activepieces",
-        "display_name": "Activepieces",
-        "url": "https://algora.io/activepieces/bounties?status=open",
-        "bounty_count": 6,
-        "total_value_usd": 600,
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "activepieces#10618",
-            "title": "Native AI Selector",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/10618",
+            "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:35.298Z",
-            "updated_at": "2026-01-15T18:30:35.298Z"
+            "created_at": "2026-01-15T19:03:12.365Z",
+            "updated_at": "2026-01-15T19:03:12.365Z"
           },
           {
-            "id": "activepieces#9703",
-            "title": "[MCP] Oracle Fusion Cloud ERP",
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/9703",
+            "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:35.532Z",
-            "updated_at": "2026-01-15T18:30:35.532Z"
+            "created_at": "2026-01-15T19:03:12.800Z",
+            "updated_at": "2026-01-15T19:03:12.800Z"
           },
           {
-            "id": "activepieces#8284",
-            "title": "[MCP] Klaviyo",
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8284",
+            "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:35.736Z",
-            "updated_at": "2026-01-15T18:30:35.736Z"
+            "created_at": "2026-01-15T19:03:13.001Z",
+            "updated_at": "2026-01-15T19:03:13.001Z"
           },
           {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
             "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
+            "url": "https://github.com/highlight/highlight/issues/6775",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:35.984Z",
-            "updated_at": "2026-01-15T18:30:35.984Z"
-          },
-          {
-            "id": "activepieces#8135",
-            "title": "[MCP] Canva",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8135",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:36.005Z",
-            "updated_at": "2026-01-15T18:30:36.005Z"
-          },
-          {
-            "id": "activepieces#8072",
-            "title": "[MCP] Gmail",
-            "amount_usd": 100,
-            "url": "https://github.com/activepieces/activepieces/issues/8072",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-15T18:30:36.241Z",
-            "updated_at": "2026-01-15T18:30:36.241Z"
+            "created_at": "2026-01-15T19:03:13.377Z",
+            "updated_at": "2026-01-15T19:03:13.377Z"
           }
         ],
-        "last_updated": "2026-01-15T18:30:46.262Z",
+        "last_updated": "2026-01-15T19:03:36.270Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "qdrant#3531",
-            "title": "Better error response for wrong datetime format in REST filter",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3531",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:11.985Z",
-            "updated_at": "2026-01-15T18:30:11.985Z"
+            "created_at": "2026-01-15T19:03:12.632Z",
+            "updated_at": "2026-01-15T19:03:12.632Z"
           },
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-15T18:30:13.370Z",
-            "updated_at": "2026-01-15T18:30:13.370Z"
+            "created_at": "2026-01-15T19:03:12.959Z",
+            "updated_at": "2026-01-15T19:03:12.959Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-15T19:03:13.173Z",
+            "updated_at": "2026-01-15T19:03:13.173Z"
           }
         ],
-        "last_updated": "2026-01-15T18:30:46.261Z",
+        "last_updated": "2026-01-15T19:03:36.270Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "remotion",
+        "display_name": "Remotion",
+        "url": "https://algora.io/remotion/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "remotion#6176",
+            "title": "Recorder: Cmd+I conflicts with new Ask AI modal",
+            "amount_usd": 100,
+            "url": "https://github.com/remotion-dev/remotion/issues/6176",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-15T19:03:12.800Z",
+            "updated_at": "2026-01-15T19:03:12.800Z"
+          }
+        ],
+        "last_updated": "2026-01-15T19:03:36.270Z",
         "scrape_duration_ms": 0
       }
     ]
