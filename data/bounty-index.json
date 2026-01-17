@@ -1,108 +1,92 @@
 {
-  "generated_at": "2026-01-17T19:38:54.529Z",
-  "total_organizations": 6,
-  "total_bounties": 22,
-  "total_value_usd": 2200,
+  "generated_at": "2026-01-17T19:50:51.226Z",
+  "total_organizations": 7,
+  "total_bounties": 32,
+  "total_value_usd": 3200,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:37:41.390Z",
-          "updated_at": "2026-01-17T19:37:41.390Z"
+          "created_at": "2026-01-17T19:49:57.769Z",
+          "updated_at": "2026-01-17T19:49:57.769Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T19:37:41.790Z",
-          "updated_at": "2026-01-17T19:37:41.790Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T19:49:57.869Z",
+          "updated_at": "2026-01-17T19:49:57.869Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T19:49:58.076Z",
+          "updated_at": "2026-01-17T19:49:58.076Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:37:41.686Z",
-          "updated_at": "2026-01-17T19:37:41.686Z"
+          "created_at": "2026-01-17T19:50:06.449Z",
+          "updated_at": "2026-01-17T19:50:06.449Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:37:41.881Z",
-          "updated_at": "2026-01-17T19:37:41.881Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T19:37:42.097Z",
-          "updated_at": "2026-01-17T19:37:42.097Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T19:37:42.283Z",
-          "updated_at": "2026-01-17T19:37:42.283Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T19:37:42.471Z",
-          "updated_at": "2026-01-17T19:37:42.471Z"
+          "created_at": "2026-01-17T19:50:06.643Z",
+          "updated_at": "2026-01-17T19:50:06.643Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     },
     "mediar-ai": {
@@ -118,8 +102,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:17.346Z",
-          "updated_at": "2026-01-17T19:38:17.346Z"
+          "created_at": "2026-01-17T19:49:57.787Z",
+          "updated_at": "2026-01-17T19:49:57.787Z"
         },
         {
           "id": "mediar-ai#1626",
@@ -128,8 +112,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:17.540Z",
-          "updated_at": "2026-01-17T19:38:17.540Z"
+          "created_at": "2026-01-17T19:49:58.027Z",
+          "updated_at": "2026-01-17T19:49:58.027Z"
         },
         {
           "id": "mediar-ai#1560",
@@ -138,8 +122,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:17.560Z",
-          "updated_at": "2026-01-17T19:38:17.560Z"
+          "created_at": "2026-01-17T19:49:58.075Z",
+          "updated_at": "2026-01-17T19:49:58.075Z"
         },
         {
           "id": "mediar-ai#1441",
@@ -148,8 +132,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:17.762Z",
-          "updated_at": "2026-01-17T19:38:17.762Z"
+          "created_at": "2026-01-17T19:49:58.298Z",
+          "updated_at": "2026-01-17T19:49:58.298Z"
         },
         {
           "id": "mediar-ai#1298",
@@ -158,8 +142,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:17.943Z",
-          "updated_at": "2026-01-17T19:38:17.943Z"
+          "created_at": "2026-01-17T19:49:58.513Z",
+          "updated_at": "2026-01-17T19:49:58.513Z"
         },
         {
           "id": "mediar-ai#1383",
@@ -168,8 +152,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:18.188Z",
-          "updated_at": "2026-01-17T19:38:18.188Z"
+          "created_at": "2026-01-17T19:49:58.944Z",
+          "updated_at": "2026-01-17T19:49:58.944Z"
         },
         {
           "id": "mediar-ai#1382",
@@ -178,8 +162,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:18.374Z",
-          "updated_at": "2026-01-17T19:38:18.374Z"
+          "created_at": "2026-01-17T19:50:00.590Z",
+          "updated_at": "2026-01-17T19:50:00.590Z"
         },
         {
           "id": "mediar-ai#1380",
@@ -188,8 +172,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:18.575Z",
-          "updated_at": "2026-01-17T19:38:18.575Z"
+          "created_at": "2026-01-17T19:50:04.443Z",
+          "updated_at": "2026-01-17T19:50:04.443Z"
         },
         {
           "id": "mediar-ai#1160",
@@ -198,8 +182,8 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:18.770Z",
-          "updated_at": "2026-01-17T19:38:18.770Z"
+          "created_at": "2026-01-17T19:50:06.291Z",
+          "updated_at": "2026-01-17T19:50:06.291Z"
         },
         {
           "id": "mediar-ai#1142",
@@ -208,11 +192,51 @@
           "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:18.948Z",
-          "updated_at": "2026-01-17T19:38:18.948Z"
+          "created_at": "2026-01-17T19:50:06.718Z",
+          "updated_at": "2026-01-17T19:50:06.718Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:06.642Z",
+          "updated_at": "2026-01-17T19:50:06.642Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:06.838Z",
+          "updated_at": "2026-01-17T19:50:06.838Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:07.059Z",
+          "updated_at": "2026-01-17T19:50:07.059Z"
+        }
+      ],
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     },
     "highlight": {
@@ -228,8 +252,8 @@
           "url": "https://github.com/highlight/highlight/issues/8635",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:25.115Z",
-          "updated_at": "2026-01-17T19:38:25.115Z"
+          "created_at": "2026-01-17T19:50:06.643Z",
+          "updated_at": "2026-01-17T19:50:06.643Z"
         },
         {
           "id": "highlight#8614",
@@ -238,8 +262,8 @@
           "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:25.325Z",
-          "updated_at": "2026-01-17T19:38:25.325Z"
+          "created_at": "2026-01-17T19:50:06.872Z",
+          "updated_at": "2026-01-17T19:50:06.872Z"
         },
         {
           "id": "highlight#8032",
@@ -248,8 +272,8 @@
           "url": "https://github.com/highlight/highlight/issues/8032",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:25.508Z",
-          "updated_at": "2026-01-17T19:38:25.508Z"
+          "created_at": "2026-01-17T19:50:07.088Z",
+          "updated_at": "2026-01-17T19:50:07.088Z"
         },
         {
           "id": "highlight#6775",
@@ -258,37 +282,127 @@
           "url": "https://github.com/highlight/highlight/issues/6775",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:25.691Z",
-          "updated_at": "2026-01-17T19:38:25.691Z"
+          "created_at": "2026-01-17T19:50:07.278Z",
+          "updated_at": "2026-01-17T19:50:07.278Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     },
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "cal#9485",
+          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/calcom/cal.com/issues/9485",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T19:38:26.871Z",
-          "updated_at": "2026-01-17T19:38:26.871Z"
+          "created_at": "2026-01-17T19:50:39.123Z",
+          "updated_at": "2026-01-17T19:50:39.123Z"
+        },
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:39.306Z",
+          "updated_at": "2026-01-17T19:50:39.306Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:39.495Z",
+          "updated_at": "2026-01-17T19:50:39.495Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:39.699Z",
+          "updated_at": "2026-01-17T19:50:39.699Z"
+        },
+        {
+          "id": "cal#16797",
+          "title": "Native Pipedrive integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16797",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:39.924Z",
+          "updated_at": "2026-01-17T19:50:39.924Z"
+        },
+        {
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/8123",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:40.130Z",
+          "updated_at": "2026-01-17T19:50:40.130Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:40.411Z",
+          "updated_at": "2026-01-17T19:50:40.411Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:40.613Z",
+          "updated_at": "2026-01-17T19:50:40.613Z"
+        },
+        {
+          "id": "cal#11340",
+          "title": "Add Lawpay as a payment option",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/11340",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:40.842Z",
+          "updated_at": "2026-01-17T19:50:40.842Z"
+        },
+        {
+          "id": "cal#2",
+          "title": "Plans on weights?",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/sans/issues/2",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T19:50:41.224Z",
+          "updated_at": "2026-01-17T19:50:41.224Z"
         }
       ],
-      "last_updated": "2026-01-17T19:38:54.529Z",
+      "last_updated": "2026-01-17T19:50:51.226Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 144429,
+    "processing_time_ms": 121080,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -310,8 +424,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:17.346Z",
-            "updated_at": "2026-01-17T19:38:17.346Z"
+            "created_at": "2026-01-17T19:49:57.787Z",
+            "updated_at": "2026-01-17T19:49:57.787Z"
           },
           {
             "id": "mediar-ai#1626",
@@ -320,8 +434,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1626",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:17.540Z",
-            "updated_at": "2026-01-17T19:38:17.540Z"
+            "created_at": "2026-01-17T19:49:58.027Z",
+            "updated_at": "2026-01-17T19:49:58.027Z"
           },
           {
             "id": "mediar-ai#1560",
@@ -330,8 +444,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1560",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:17.560Z",
-            "updated_at": "2026-01-17T19:38:17.560Z"
+            "created_at": "2026-01-17T19:49:58.075Z",
+            "updated_at": "2026-01-17T19:49:58.075Z"
           },
           {
             "id": "mediar-ai#1441",
@@ -340,8 +454,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1441",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:17.762Z",
-            "updated_at": "2026-01-17T19:38:17.762Z"
+            "created_at": "2026-01-17T19:49:58.298Z",
+            "updated_at": "2026-01-17T19:49:58.298Z"
           },
           {
             "id": "mediar-ai#1298",
@@ -350,8 +464,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1298",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:17.943Z",
-            "updated_at": "2026-01-17T19:38:17.943Z"
+            "created_at": "2026-01-17T19:49:58.513Z",
+            "updated_at": "2026-01-17T19:49:58.513Z"
           },
           {
             "id": "mediar-ai#1383",
@@ -360,8 +474,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1383",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:18.188Z",
-            "updated_at": "2026-01-17T19:38:18.188Z"
+            "created_at": "2026-01-17T19:49:58.944Z",
+            "updated_at": "2026-01-17T19:49:58.944Z"
           },
           {
             "id": "mediar-ai#1382",
@@ -370,8 +484,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1382",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:18.374Z",
-            "updated_at": "2026-01-17T19:38:18.374Z"
+            "created_at": "2026-01-17T19:50:00.590Z",
+            "updated_at": "2026-01-17T19:50:00.590Z"
           },
           {
             "id": "mediar-ai#1380",
@@ -380,8 +494,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1380",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:18.575Z",
-            "updated_at": "2026-01-17T19:38:18.575Z"
+            "created_at": "2026-01-17T19:50:04.443Z",
+            "updated_at": "2026-01-17T19:50:04.443Z"
           },
           {
             "id": "mediar-ai#1160",
@@ -390,8 +504,8 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1160",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:18.770Z",
-            "updated_at": "2026-01-17T19:38:18.770Z"
+            "created_at": "2026-01-17T19:50:06.291Z",
+            "updated_at": "2026-01-17T19:50:06.291Z"
           },
           {
             "id": "mediar-ai#1142",
@@ -400,72 +514,122 @@
             "url": "https://github.com/mediar-ai/screenpipe/issues/1142",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:18.948Z",
-            "updated_at": "2026-01-17T19:38:18.948Z"
+            "created_at": "2026-01-17T19:50:06.718Z",
+            "updated_at": "2026-01-17T19:50:06.718Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "cal#9485",
+            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/calcom/cal.com/issues/9485",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:41.686Z",
-            "updated_at": "2026-01-17T19:37:41.686Z"
+            "created_at": "2026-01-17T19:50:39.123Z",
+            "updated_at": "2026-01-17T19:50:39.123Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:41.881Z",
-            "updated_at": "2026-01-17T19:37:41.881Z"
+            "created_at": "2026-01-17T19:50:39.306Z",
+            "updated_at": "2026-01-17T19:50:39.306Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:42.097Z",
-            "updated_at": "2026-01-17T19:37:42.097Z"
+            "created_at": "2026-01-17T19:50:39.495Z",
+            "updated_at": "2026-01-17T19:50:39.495Z"
           },
           {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:42.283Z",
-            "updated_at": "2026-01-17T19:37:42.283Z"
+            "created_at": "2026-01-17T19:50:39.699Z",
+            "updated_at": "2026-01-17T19:50:39.699Z"
           },
           {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
+            "id": "cal#16797",
+            "title": "Native Pipedrive integration",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
+            "url": "https://github.com/calcom/cal.com/issues/16797",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:42.471Z",
-            "updated_at": "2026-01-17T19:37:42.471Z"
+            "created_at": "2026-01-17T19:50:39.924Z",
+            "updated_at": "2026-01-17T19:50:39.924Z"
+          },
+          {
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/8123",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:40.130Z",
+            "updated_at": "2026-01-17T19:50:40.130Z"
+          },
+          {
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:40.411Z",
+            "updated_at": "2026-01-17T19:50:40.411Z"
+          },
+          {
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:40.613Z",
+            "updated_at": "2026-01-17T19:50:40.613Z"
+          },
+          {
+            "id": "cal#11340",
+            "title": "Add Lawpay as a payment option",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.com/issues/11340",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:40.842Z",
+            "updated_at": "2026-01-17T19:50:40.842Z"
+          },
+          {
+            "id": "cal#2",
+            "title": "Plans on weights?",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/sans/issues/2",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:41.224Z",
+            "updated_at": "2026-01-17T19:50:41.224Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       },
       {
@@ -482,8 +646,8 @@
             "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:25.115Z",
-            "updated_at": "2026-01-17T19:38:25.115Z"
+            "created_at": "2026-01-17T19:50:06.643Z",
+            "updated_at": "2026-01-17T19:50:06.643Z"
           },
           {
             "id": "highlight#8614",
@@ -492,8 +656,8 @@
             "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:25.325Z",
-            "updated_at": "2026-01-17T19:38:25.325Z"
+            "created_at": "2026-01-17T19:50:06.872Z",
+            "updated_at": "2026-01-17T19:50:06.872Z"
           },
           {
             "id": "highlight#8032",
@@ -502,8 +666,8 @@
             "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:25.508Z",
-            "updated_at": "2026-01-17T19:38:25.508Z"
+            "created_at": "2026-01-17T19:50:07.088Z",
+            "updated_at": "2026-01-17T19:50:07.088Z"
           },
           {
             "id": "highlight#6775",
@@ -512,53 +676,118 @@
             "url": "https://github.com/highlight/highlight/issues/6775",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:25.691Z",
-            "updated_at": "2026-01-17T19:38:25.691Z"
+            "created_at": "2026-01-17T19:50:07.278Z",
+            "updated_at": "2026-01-17T19:50:07.278Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
             "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:37:41.390Z",
-            "updated_at": "2026-01-17T19:37:41.390Z"
+            "created_at": "2026-01-17T19:50:06.642Z",
+            "updated_at": "2026-01-17T19:50:06.642Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:06.838Z",
+            "updated_at": "2026-01-17T19:50:06.838Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:07.059Z",
+            "updated_at": "2026-01-17T19:50:07.059Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T19:37:41.790Z",
-            "updated_at": "2026-01-17T19:37:41.790Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T19:49:57.869Z",
+            "updated_at": "2026-01-17T19:49:57.869Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T19:49:58.076Z",
+            "updated_at": "2026-01-17T19:49:58.076Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:06.449Z",
+            "updated_at": "2026-01-17T19:50:06.449Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T19:50:06.643Z",
+            "updated_at": "2026-01-17T19:50:06.643Z"
+          }
+        ],
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       },
       {
@@ -575,11 +804,11 @@
             "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T19:38:26.871Z",
-            "updated_at": "2026-01-17T19:38:26.871Z"
+            "created_at": "2026-01-17T19:49:57.769Z",
+            "updated_at": "2026-01-17T19:49:57.769Z"
           }
         ],
-        "last_updated": "2026-01-17T19:38:54.529Z",
+        "last_updated": "2026-01-17T19:50:51.226Z",
         "scrape_duration_ms": 0
       }
     ]
