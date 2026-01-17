@@ -1,254 +1,382 @@
 {
-  "generated_at": "2026-01-17T16:43:19.493Z",
-  "total_organizations": 3,
-  "total_bounties": 21,
-  "total_value_usd": 2100,
+  "generated_at": "2026-01-17T16:56:23.540Z",
+  "total_organizations": 8,
+  "total_bounties": 28,
+  "total_value_usd": 2800,
   "version": "3.0.0",
   "organizations": {
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:27.333Z",
+          "updated_at": "2026-01-17T16:55:27.333Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:28.884Z",
+          "updated_at": "2026-01-17T16:55:28.884Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:28.884Z",
+          "updated_at": "2026-01-17T16:55:28.884Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:30.795Z",
+          "updated_at": "2026-01-17T16:55:30.795Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T16:55:30.835Z",
+          "updated_at": "2026-01-17T16:55:30.835Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T16:55:32.350Z",
+          "updated_at": "2026-01-17T16:55:32.350Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "GolemCloud": {
+      "display_name": "GolemCloud",
+      "url": "https://algora.io/GolemCloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "GolemCloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem/issues/1926",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T16:55:31.454Z",
+          "updated_at": "2026-01-17T16:55:31.454Z"
+        },
+        {
+          "id": "GolemCloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T16:55:33.347Z",
+          "updated_at": "2026-01-17T16:55:33.347Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:27.945Z",
+          "updated_at": "2026-01-17T16:55:27.945Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:29.904Z",
+          "updated_at": "2026-01-17T16:55:29.904Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:31.381Z",
+          "updated_at": "2026-01-17T16:55:31.381Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:33.433Z",
+          "updated_at": "2026-01-17T16:55:33.433Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/716",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:31.382Z",
+          "updated_at": "2026-01-17T16:55:31.382Z"
+        },
+        {
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/677",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:33.433Z",
+          "updated_at": "2026-01-17T16:55:33.433Z"
+        },
+        {
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
+          "amount_usd": 100,
+          "url": "https://github.com/permitio/opal/issues/634",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:38.127Z",
+          "updated_at": "2026-01-17T16:55:38.127Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:31.454Z",
+          "updated_at": "2026-01-17T16:55:31.454Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:33.434Z",
+          "updated_at": "2026-01-17T16:55:33.434Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T16:55:38.150Z",
+          "updated_at": "2026-01-17T16:55:38.150Z"
+        }
+      ],
+      "last_updated": "2026-01-17T16:56:23.540Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "coollabsio#7655",
-          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "id": "zio#679",
+          "title": "Add Json data type",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "url": "https://github.com/zio/zio-blocks/issues/679",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:22.128Z",
-          "updated_at": "2026-01-17T16:42:22.128Z"
+          "created_at": "2026-01-17T16:55:31.381Z",
+          "updated_at": "2026-01-17T16:55:31.381Z"
         },
         {
-          "id": "coollabsio#7941",
-          "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
+          "id": "zio#685",
+          "title": "Add JsonPatch - Depends on #679",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7941",
+          "url": "https://github.com/zio/zio-blocks/issues/685",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:22.709Z",
-          "updated_at": "2026-01-17T16:42:22.709Z"
+          "created_at": "2026-01-17T16:55:33.347Z",
+          "updated_at": "2026-01-17T16:55:33.347Z"
         },
         {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+          "id": "zio#517",
+          "title": "Add structural schemas",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
+          "url": "https://github.com/zio/zio-blocks/issues/517",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:23.565Z",
-          "updated_at": "2026-01-17T16:42:23.565Z"
+          "created_at": "2026-01-17T16:55:38.127Z",
+          "updated_at": "2026-01-17T16:55:38.127Z"
         },
         {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+          "id": "zio#685",
+          "title": "Add JsonPatch - Depends on #679",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
+          "url": "https://github.com/zio/zio-blocks/issues/685",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:25.738Z",
-          "updated_at": "2026-01-17T16:42:25.738Z"
+          "created_at": "2026-01-17T16:55:41.190Z",
+          "updated_at": "2026-01-17T16:55:41.190Z"
         },
         {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+          "id": "zio#683",
+          "title": "Port BSON Support to ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
+          "url": "https://github.com/zio/zio-blocks/issues/683",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:29.888Z",
-          "updated_at": "2026-01-17T16:42:29.888Z"
+          "created_at": "2026-01-17T16:55:44.975Z",
+          "updated_at": "2026-01-17T16:55:44.975Z"
         },
         {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "id": "zio#682",
+          "title": "Port Message Pack Support to ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "url": "https://github.com/zio/zio-blocks/issues/682",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:35.016Z",
-          "updated_at": "2026-01-17T16:42:35.016Z"
+          "created_at": "2026-01-17T16:55:45.502Z",
+          "updated_at": "2026-01-17T16:55:45.502Z"
         },
         {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
+          "id": "zio#681",
+          "title": "Port Thrift Support to ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "url": "https://github.com/zio/zio-blocks/issues/681",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:39.595Z",
-          "updated_at": "2026-01-17T16:42:39.595Z"
+          "created_at": "2026-01-17T16:55:45.856Z",
+          "updated_at": "2026-01-17T16:55:45.856Z"
         },
         {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "id": "zio#679",
+          "title": "Add Json data type",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "url": "https://github.com/zio/zio-blocks/issues/679",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:41.427Z",
-          "updated_at": "2026-01-17T16:42:41.427Z"
+          "created_at": "2026-01-17T16:55:45.884Z",
+          "updated_at": "2026-01-17T16:55:45.884Z"
         },
         {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:42.055Z",
-          "updated_at": "2026-01-17T16:42:42.055Z"
+          "created_at": "2026-01-17T16:55:46.057Z",
+          "updated_at": "2026-01-17T16:55:46.057Z"
         },
         {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "id": "zio#518",
+          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "url": "https://github.com/zio/zio-blocks/issues/518",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T16:42:42.263Z",
-          "updated_at": "2026-01-17T16:42:42.263Z"
+          "created_at": "2026-01-17T16:55:46.257Z",
+          "updated_at": "2026-01-17T16:55:46.257Z"
         }
       ],
-      "last_updated": "2026-01-17T16:43:19.493Z",
-      "scrape_duration_ms": 0
-    },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "cal#9485",
-          "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/9485",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:22.129Z",
-          "updated_at": "2026-01-17T16:42:22.129Z"
-        },
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:22.784Z",
-          "updated_at": "2026-01-17T16:42:22.784Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:23.642Z",
-          "updated_at": "2026-01-17T16:42:23.641Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:25.808Z",
-          "updated_at": "2026-01-17T16:42:25.808Z"
-        },
-        {
-          "id": "cal#16797",
-          "title": "Native Pipedrive integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16797",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:29.889Z",
-          "updated_at": "2026-01-17T16:42:29.889Z"
-        },
-        {
-          "id": "cal#8123",
-          "title": "[CAL-1425] Exchange on Premise 2016",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/8123",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:35.017Z",
-          "updated_at": "2026-01-17T16:42:35.017Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:39.595Z",
-          "updated_at": "2026-01-17T16:42:39.595Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:41.457Z",
-          "updated_at": "2026-01-17T16:42:41.457Z"
-        },
-        {
-          "id": "cal#11340",
-          "title": "Add Lawpay as a payment option",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/11340",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:42.055Z",
-          "updated_at": "2026-01-17T16:42:42.055Z"
-        },
-        {
-          "id": "cal#2",
-          "title": "Plans on weights?",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/sans/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:42:42.412Z",
-          "updated_at": "2026-01-17T16:42:42.412Z"
-        }
-      ],
-      "last_updated": "2026-01-17T16:43:19.493Z",
-      "scrape_duration_ms": 0
-    },
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
-          "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T16:43:00.854Z",
-          "updated_at": "2026-01-17T16:43:00.854Z"
-        }
-      ],
-      "last_updated": "2026-01-17T16:43:19.493Z",
+      "last_updated": "2026-01-17T16:56:23.540Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 141293,
+    "processing_time_ms": 134301,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -257,246 +385,379 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "coollabsio#7655",
-            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+            "id": "zio#679",
+            "title": "Add Json data type",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7655",
+            "url": "https://github.com/zio/zio-blocks/issues/679",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:22.128Z",
-            "updated_at": "2026-01-17T16:42:22.128Z"
+            "created_at": "2026-01-17T16:55:31.381Z",
+            "updated_at": "2026-01-17T16:55:31.381Z"
           },
           {
-            "id": "coollabsio#7941",
-            "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
+            "id": "zio#685",
+            "title": "Add JsonPatch - Depends on #679",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7941",
+            "url": "https://github.com/zio/zio-blocks/issues/685",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:22.709Z",
-            "updated_at": "2026-01-17T16:42:22.709Z"
+            "created_at": "2026-01-17T16:55:33.347Z",
+            "updated_at": "2026-01-17T16:55:33.347Z"
           },
           {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+            "id": "zio#517",
+            "title": "Add structural schemas",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
+            "url": "https://github.com/zio/zio-blocks/issues/517",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:23.565Z",
-            "updated_at": "2026-01-17T16:42:23.565Z"
+            "created_at": "2026-01-17T16:55:38.127Z",
+            "updated_at": "2026-01-17T16:55:38.127Z"
           },
           {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+            "id": "zio#685",
+            "title": "Add JsonPatch - Depends on #679",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
+            "url": "https://github.com/zio/zio-blocks/issues/685",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:25.738Z",
-            "updated_at": "2026-01-17T16:42:25.738Z"
+            "created_at": "2026-01-17T16:55:41.190Z",
+            "updated_at": "2026-01-17T16:55:41.190Z"
           },
           {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+            "id": "zio#683",
+            "title": "Port BSON Support to ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
+            "url": "https://github.com/zio/zio-blocks/issues/683",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:29.888Z",
-            "updated_at": "2026-01-17T16:42:29.888Z"
+            "created_at": "2026-01-17T16:55:44.975Z",
+            "updated_at": "2026-01-17T16:55:44.975Z"
           },
           {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "id": "zio#682",
+            "title": "Port Message Pack Support to ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "url": "https://github.com/zio/zio-blocks/issues/682",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:35.016Z",
-            "updated_at": "2026-01-17T16:42:35.016Z"
+            "created_at": "2026-01-17T16:55:45.502Z",
+            "updated_at": "2026-01-17T16:55:45.502Z"
           },
           {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
+            "id": "zio#681",
+            "title": "Port Thrift Support to ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "url": "https://github.com/zio/zio-blocks/issues/681",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:39.595Z",
-            "updated_at": "2026-01-17T16:42:39.595Z"
+            "created_at": "2026-01-17T16:55:45.856Z",
+            "updated_at": "2026-01-17T16:55:45.856Z"
           },
           {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "id": "zio#679",
+            "title": "Add Json data type",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "url": "https://github.com/zio/zio-blocks/issues/679",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:41.427Z",
-            "updated_at": "2026-01-17T16:42:41.427Z"
+            "created_at": "2026-01-17T16:55:45.884Z",
+            "updated_at": "2026-01-17T16:55:45.884Z"
           },
           {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:42.055Z",
-            "updated_at": "2026-01-17T16:42:42.055Z"
+            "created_at": "2026-01-17T16:55:46.057Z",
+            "updated_at": "2026-01-17T16:55:46.057Z"
           },
           {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "id": "zio#518",
+            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
             "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "url": "https://github.com/zio/zio-blocks/issues/518",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:42.263Z",
-            "updated_at": "2026-01-17T16:42:42.263Z"
+            "created_at": "2026-01-17T16:55:46.257Z",
+            "updated_at": "2026-01-17T16:55:46.257Z"
           }
         ],
-        "last_updated": "2026-01-17T16:43:19.493Z",
+        "last_updated": "2026-01-17T16:56:23.540Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "cal#9485",
-            "title": "CalDAV integration with Fastmail is generating duplicate, erroneous invitation emails.",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/9485",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:22.129Z",
-            "updated_at": "2026-01-17T16:42:22.129Z"
+            "created_at": "2026-01-17T16:55:27.945Z",
+            "updated_at": "2026-01-17T16:55:27.945Z"
           },
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:22.784Z",
-            "updated_at": "2026-01-17T16:42:22.784Z"
+            "created_at": "2026-01-17T16:55:29.904Z",
+            "updated_at": "2026-01-17T16:55:29.904Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:23.642Z",
-            "updated_at": "2026-01-17T16:42:23.641Z"
+            "created_at": "2026-01-17T16:55:31.381Z",
+            "updated_at": "2026-01-17T16:55:31.381Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:42:25.808Z",
-            "updated_at": "2026-01-17T16:42:25.808Z"
-          },
-          {
-            "id": "cal#16797",
-            "title": "Native Pipedrive integration",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16797",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:29.889Z",
-            "updated_at": "2026-01-17T16:42:29.889Z"
-          },
-          {
-            "id": "cal#8123",
-            "title": "[CAL-1425] Exchange on Premise 2016",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/8123",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:35.017Z",
-            "updated_at": "2026-01-17T16:42:35.017Z"
-          },
-          {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:39.595Z",
-            "updated_at": "2026-01-17T16:42:39.595Z"
-          },
-          {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:41.457Z",
-            "updated_at": "2026-01-17T16:42:41.457Z"
-          },
-          {
-            "id": "cal#11340",
-            "title": "Add Lawpay as a payment option",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/11340",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:42.055Z",
-            "updated_at": "2026-01-17T16:42:42.055Z"
-          },
-          {
-            "id": "cal#2",
-            "title": "Plans on weights?",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/sans/issues/2",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T16:42:42.412Z",
-            "updated_at": "2026-01-17T16:42:42.412Z"
+            "created_at": "2026-01-17T16:55:33.433Z",
+            "updated_at": "2026-01-17T16:55:33.433Z"
           }
         ],
-        "last_updated": "2026-01-17T16:43:19.493Z",
+        "last_updated": "2026-01-17T16:56:23.540Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T16:43:00.854Z",
-            "updated_at": "2026-01-17T16:43:00.854Z"
+            "created_at": "2026-01-17T16:55:31.382Z",
+            "updated_at": "2026-01-17T16:55:31.382Z"
+          },
+          {
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/677",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:33.433Z",
+            "updated_at": "2026-01-17T16:55:33.433Z"
+          },
+          {
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
+            "amount_usd": 100,
+            "url": "https://github.com/permitio/opal/issues/634",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:38.127Z",
+            "updated_at": "2026-01-17T16:55:38.127Z"
           }
         ],
-        "last_updated": "2026-01-17T16:43:19.493Z",
+        "last_updated": "2026-01-17T16:56:23.540Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:31.454Z",
+            "updated_at": "2026-01-17T16:55:31.454Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:33.434Z",
+            "updated_at": "2026-01-17T16:55:33.434Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:38.150Z",
+            "updated_at": "2026-01-17T16:55:38.150Z"
+          }
+        ],
+        "last_updated": "2026-01-17T16:56:23.540Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:27.333Z",
+            "updated_at": "2026-01-17T16:55:27.333Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:28.884Z",
+            "updated_at": "2026-01-17T16:55:28.884Z"
+          }
+        ],
+        "last_updated": "2026-01-17T16:56:23.540Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:28.884Z",
+            "updated_at": "2026-01-17T16:55:28.884Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-17T16:55:30.795Z",
+            "updated_at": "2026-01-17T16:55:30.795Z"
+          }
+        ],
+        "last_updated": "2026-01-17T16:56:23.540Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T16:55:30.835Z",
+            "updated_at": "2026-01-17T16:55:30.835Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T16:55:32.350Z",
+            "updated_at": "2026-01-17T16:55:32.350Z"
+          }
+        ],
+        "last_updated": "2026-01-17T16:56:23.540Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "GolemCloud",
+        "display_name": "GolemCloud",
+        "url": "https://algora.io/GolemCloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "GolemCloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T16:55:31.454Z",
+            "updated_at": "2026-01-17T16:55:31.454Z"
+          },
+          {
+            "id": "GolemCloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T16:55:33.347Z",
+            "updated_at": "2026-01-17T16:55:33.347Z"
+          }
+        ],
+        "last_updated": "2026-01-17T16:56:23.540Z",
         "scrape_duration_ms": 0
       }
     ]
