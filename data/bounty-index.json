@@ -1,28 +1,38 @@
 {
-  "generated_at": "2026-01-17T05:39:35.578Z",
-  "total_organizations": 7,
-  "total_bounties": 47,
-  "total_value_usd": 4700,
+  "generated_at": "2026-01-17T05:54:06.603Z",
+  "total_organizations": 5,
+  "total_bounties": 19,
+  "total_value_usd": 1900,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:38:57.098Z",
-          "updated_at": "2026-01-17T05:38:57.098Z"
+          "created_at": "2026-01-17T05:53:19.094Z",
+          "updated_at": "2026-01-17T05:53:19.094Z"
+        },
+        {
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
+          "amount_usd": 100,
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-17T05:53:24.205Z",
+          "updated_at": "2026-01-17T05:53:24.205Z"
         }
       ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
+      "last_updated": "2026-01-17T05:54:06.603Z",
       "scrape_duration_ms": 0
     },
     "GolemCloud": {
@@ -40,8 +50,8 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-17T05:38:57.198Z",
-          "updated_at": "2026-01-17T05:38:57.198Z"
+          "created_at": "2026-01-17T05:53:24.205Z",
+          "updated_at": "2026-01-17T05:53:24.205Z"
         },
         {
           "id": "GolemCloud#23",
@@ -52,281 +62,85 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-01-17T05:38:58.392Z",
-          "updated_at": "2026-01-17T05:38:58.392Z"
+          "created_at": "2026-01-17T05:53:26.659Z",
+          "updated_at": "2026-01-17T05:53:26.659Z"
         }
       ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
+      "last_updated": "2026-01-17T05:54:06.603Z",
       "scrape_duration_ms": 0
     },
-    "coollabsio": {
-      "display_name": "Coollabsio",
-      "url": "https://algora.io/coollabsio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "coollabsio#7655",
-          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:38:57.003Z",
-          "updated_at": "2026-01-17T05:38:57.003Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T05:53:24.205Z",
+          "updated_at": "2026-01-17T05:53:24.205Z"
         },
         {
-          "id": "coollabsio#7941",
-          "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7941",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:38:57.197Z",
-          "updated_at": "2026-01-17T05:38:57.197Z"
-        },
-        {
-          "id": "coollabsio#7743",
-          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7743",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:38:57.312Z",
-          "updated_at": "2026-01-17T05:38:57.312Z"
-        },
-        {
-          "id": "coollabsio#7738",
-          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7738",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:38:58.639Z",
-          "updated_at": "2026-01-17T05:38:58.639Z"
-        },
-        {
-          "id": "coollabsio#7724",
-          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7724",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:38:59.693Z",
-          "updated_at": "2026-01-17T05:38:59.693Z"
-        },
-        {
-          "id": "coollabsio#7642",
-          "title": "[Enhancement]: Add surrealDB with and without TIKV",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7642",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:00.137Z",
-          "updated_at": "2026-01-17T05:39:00.137Z"
-        },
-        {
-          "id": "coollabsio#7596",
-          "title": "[Enhancement]: new deployment page",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7596",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:01.160Z",
-          "updated_at": "2026-01-17T05:39:01.160Z"
-        },
-        {
-          "id": "coollabsio#7528",
-          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7528",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:03.859Z",
-          "updated_at": "2026-01-17T05:39:03.859Z"
-        },
-        {
-          "id": "coollabsio#7473",
-          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7473",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:04.119Z",
-          "updated_at": "2026-01-17T05:39:04.119Z"
-        },
-        {
-          "id": "coollabsio#7458",
-          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-          "amount_usd": 100,
-          "url": "https://github.com/coollabsio/coolify/issues/7458",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:04.526Z",
-          "updated_at": "2026-01-17T05:39:04.526Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-17T05:53:26.659Z",
+          "updated_at": "2026-01-17T05:53:26.659Z"
         }
       ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
+      "last_updated": "2026-01-17T05:54:06.603Z",
       "scrape_duration_ms": 0
     },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "permitio": {
+      "display_name": "Permitio",
+      "url": "https://algora.io/permitio/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "id": "permitio#716",
+          "title": "Error resolving broadcast hostname being swallowed",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "url": "https://github.com/permitio/opal/issues/716",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:04.449Z",
-          "updated_at": "2026-01-17T05:39:04.449Z"
+          "created_at": "2026-01-17T05:53:19.094Z",
+          "updated_at": "2026-01-17T05:53:19.094Z"
         },
         {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
+          "id": "permitio#677",
+          "title": "Create E2E tests framework using PyTest",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "url": "https://github.com/permitio/opal/issues/677",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:04.649Z",
-          "updated_at": "2026-01-17T05:39:04.649Z"
+          "created_at": "2026-01-17T05:53:24.205Z",
+          "updated_at": "2026-01-17T05:53:24.205Z"
         },
         {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
+          "id": "permitio#634",
+          "title": "OPAL Server doesn't clean up symbolic links when github is down",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "url": "https://github.com/permitio/opal/issues/634",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:04.814Z",
-          "updated_at": "2026-01-17T05:39:04.814Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:05.268Z",
-          "updated_at": "2026-01-17T05:39:05.268Z"
+          "created_at": "2026-01-17T05:53:26.767Z",
+          "updated_at": "2026-01-17T05:53:26.767Z"
         }
       ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
-      "scrape_duration_ms": 0
-    },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "ZIO#685",
-          "title": "Add JsonPatch - Depends on #679",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:04.650Z",
-          "updated_at": "2026-01-17T05:39:04.650Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:04.814Z",
-          "updated_at": "2026-01-17T05:39:04.814Z"
-        },
-        {
-          "id": "ZIO#685",
-          "title": "Add JsonPatch - Depends on #679",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:05.268Z",
-          "updated_at": "2026-01-17T05:39:05.268Z"
-        },
-        {
-          "id": "ZIO#683",
-          "title": "Port BSON Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/683",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:05.845Z",
-          "updated_at": "2026-01-17T05:39:05.845Z"
-        },
-        {
-          "id": "ZIO#682",
-          "title": "Port Message Pack Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/682",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:07.040Z",
-          "updated_at": "2026-01-17T05:39:07.040Z"
-        },
-        {
-          "id": "ZIO#681",
-          "title": "Port Thrift Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:09.164Z",
-          "updated_at": "2026-01-17T05:39:09.164Z"
-        },
-        {
-          "id": "ZIO#679",
-          "title": "Add Json data type",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/679",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:10.426Z",
-          "updated_at": "2026-01-17T05:39:10.426Z"
-        },
-        {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:14.313Z",
-          "updated_at": "2026-01-17T05:39:14.313Z"
-        },
-        {
-          "id": "ZIO#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:17.594Z",
-          "updated_at": "2026-01-17T05:39:17.594Z"
-        },
-        {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:19.172Z",
-          "updated_at": "2026-01-17T05:39:19.172Z"
-        }
-      ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
+      "last_updated": "2026-01-17T05:54:06.603Z",
       "scrape_duration_ms": 0
     },
     "tscircuit": {
@@ -342,8 +156,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:04.572Z",
-          "updated_at": "2026-01-17T05:39:04.572Z"
+          "created_at": "2026-01-17T05:53:19.093Z",
+          "updated_at": "2026-01-17T05:53:19.093Z"
         },
         {
           "id": "tscircuit#534",
@@ -352,8 +166,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:04.750Z",
-          "updated_at": "2026-01-17T05:39:04.750Z"
+          "created_at": "2026-01-17T05:53:24.205Z",
+          "updated_at": "2026-01-17T05:53:24.205Z"
         },
         {
           "id": "tscircuit#419",
@@ -362,8 +176,8 @@
           "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:05.440Z",
-          "updated_at": "2026-01-17T05:39:05.440Z"
+          "created_at": "2026-01-17T05:53:26.767Z",
+          "updated_at": "2026-01-17T05:53:26.767Z"
         },
         {
           "id": "tscircuit#1081",
@@ -372,8 +186,8 @@
           "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:06.179Z",
-          "updated_at": "2026-01-17T05:39:06.179Z"
+          "created_at": "2026-01-17T05:53:27.015Z",
+          "updated_at": "2026-01-17T05:53:27.015Z"
         },
         {
           "id": "tscircuit#386",
@@ -382,8 +196,8 @@
           "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:09.745Z",
-          "updated_at": "2026-01-17T05:39:09.745Z"
+          "created_at": "2026-01-17T05:53:27.366Z",
+          "updated_at": "2026-01-17T05:53:27.366Z"
         },
         {
           "id": "tscircuit#79",
@@ -392,8 +206,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:12.237Z",
-          "updated_at": "2026-01-17T05:39:12.237Z"
+          "created_at": "2026-01-17T05:53:27.549Z",
+          "updated_at": "2026-01-17T05:53:27.549Z"
         },
         {
           "id": "tscircuit#78",
@@ -402,8 +216,8 @@
           "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:14.313Z",
-          "updated_at": "2026-01-17T05:39:14.313Z"
+          "created_at": "2026-01-17T05:53:27.720Z",
+          "updated_at": "2026-01-17T05:53:27.720Z"
         },
         {
           "id": "tscircuit#939",
@@ -412,8 +226,8 @@
           "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:21.324Z",
-          "updated_at": "2026-01-17T05:39:21.324Z"
+          "created_at": "2026-01-17T05:53:28.130Z",
+          "updated_at": "2026-01-17T05:53:28.130Z"
         },
         {
           "id": "tscircuit#175",
@@ -422,8 +236,8 @@
           "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:23.642Z",
-          "updated_at": "2026-01-17T05:39:23.642Z"
+          "created_at": "2026-01-17T05:53:28.359Z",
+          "updated_at": "2026-01-17T05:53:28.359Z"
         },
         {
           "id": "tscircuit#6",
@@ -432,127 +246,17 @@
           "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-17T05:39:25.350Z",
-          "updated_at": "2026-01-17T05:39:25.350Z"
+          "created_at": "2026-01-17T05:53:28.545Z",
+          "updated_at": "2026-01-17T05:53:28.545Z"
         }
       ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "zio#685",
-          "title": "Add JsonPatch - Depends on #679",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:08.208Z",
-          "updated_at": "2026-01-17T05:39:08.208Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:09.745Z",
-          "updated_at": "2026-01-17T05:39:09.745Z"
-        },
-        {
-          "id": "zio#685",
-          "title": "Add JsonPatch - Depends on #679",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:12.237Z",
-          "updated_at": "2026-01-17T05:39:12.237Z"
-        },
-        {
-          "id": "zio#683",
-          "title": "Port BSON Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/683",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:14.313Z",
-          "updated_at": "2026-01-17T05:39:14.313Z"
-        },
-        {
-          "id": "zio#682",
-          "title": "Port Message Pack Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/682",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:17.593Z",
-          "updated_at": "2026-01-17T05:39:17.593Z"
-        },
-        {
-          "id": "zio#681",
-          "title": "Port Thrift Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:19.171Z",
-          "updated_at": "2026-01-17T05:39:19.171Z"
-        },
-        {
-          "id": "zio#679",
-          "title": "Add Json data type",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/679",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:23.642Z",
-          "updated_at": "2026-01-17T05:39:23.642Z"
-        },
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:25.349Z",
-          "updated_at": "2026-01-17T05:39:25.349Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:25.514Z",
-          "updated_at": "2026-01-17T05:39:25.514Z"
-        },
-        {
-          "id": "zio#517",
-          "title": "Add structural schemas",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-17T05:39:25.573Z",
-          "updated_at": "2026-01-17T05:39:25.573Z"
-        }
-      ],
-      "last_updated": "2026-01-17T05:39:35.578Z",
+      "last_updated": "2026-01-17T05:54:06.603Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 107730,
+    "processing_time_ms": 135959,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -560,228 +264,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "coollabsio",
-        "display_name": "Coollabsio",
-        "url": "https://algora.io/coollabsio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "coollabsio#7655",
-            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7655",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:57.003Z",
-            "updated_at": "2026-01-17T05:38:57.003Z"
-          },
-          {
-            "id": "coollabsio#7941",
-            "title": "[Bug]: Error deploying Rocket chat V8 using the default service template",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7941",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:57.197Z",
-            "updated_at": "2026-01-17T05:38:57.197Z"
-          },
-          {
-            "id": "coollabsio#7743",
-            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7743",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:57.312Z",
-            "updated_at": "2026-01-17T05:38:57.312Z"
-          },
-          {
-            "id": "coollabsio#7738",
-            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7738",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:58.639Z",
-            "updated_at": "2026-01-17T05:38:58.639Z"
-          },
-          {
-            "id": "coollabsio#7724",
-            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7724",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:59.693Z",
-            "updated_at": "2026-01-17T05:38:59.693Z"
-          },
-          {
-            "id": "coollabsio#7642",
-            "title": "[Enhancement]: Add surrealDB with and without TIKV",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7642",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:00.137Z",
-            "updated_at": "2026-01-17T05:39:00.137Z"
-          },
-          {
-            "id": "coollabsio#7596",
-            "title": "[Enhancement]: new deployment page",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7596",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:01.160Z",
-            "updated_at": "2026-01-17T05:39:01.160Z"
-          },
-          {
-            "id": "coollabsio#7528",
-            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7528",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:03.859Z",
-            "updated_at": "2026-01-17T05:39:03.859Z"
-          },
-          {
-            "id": "coollabsio#7473",
-            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7473",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:04.119Z",
-            "updated_at": "2026-01-17T05:39:04.119Z"
-          },
-          {
-            "id": "coollabsio#7458",
-            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
-            "amount_usd": 100,
-            "url": "https://github.com/coollabsio/coolify/issues/7458",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:04.526Z",
-            "updated_at": "2026-01-17T05:39:04.526Z"
-          }
-        ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "ZIO#685",
-            "title": "Add JsonPatch - Depends on #679",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:04.650Z",
-            "updated_at": "2026-01-17T05:39:04.650Z"
-          },
-          {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:04.814Z",
-            "updated_at": "2026-01-17T05:39:04.814Z"
-          },
-          {
-            "id": "ZIO#685",
-            "title": "Add JsonPatch - Depends on #679",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:05.268Z",
-            "updated_at": "2026-01-17T05:39:05.268Z"
-          },
-          {
-            "id": "ZIO#683",
-            "title": "Port BSON Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/683",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:05.845Z",
-            "updated_at": "2026-01-17T05:39:05.845Z"
-          },
-          {
-            "id": "ZIO#682",
-            "title": "Port Message Pack Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/682",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:07.040Z",
-            "updated_at": "2026-01-17T05:39:07.040Z"
-          },
-          {
-            "id": "ZIO#681",
-            "title": "Port Thrift Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:09.164Z",
-            "updated_at": "2026-01-17T05:39:09.164Z"
-          },
-          {
-            "id": "ZIO#679",
-            "title": "Add Json data type",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/679",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:10.426Z",
-            "updated_at": "2026-01-17T05:39:10.426Z"
-          },
-          {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:14.313Z",
-            "updated_at": "2026-01-17T05:39:14.313Z"
-          },
-          {
-            "id": "ZIO#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:17.594Z",
-            "updated_at": "2026-01-17T05:39:17.594Z"
-          },
-          {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:19.172Z",
-            "updated_at": "2026-01-17T05:39:19.172Z"
-          }
-        ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "tscircuit",
         "display_name": "Tscircuit",
@@ -796,8 +278,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:04.572Z",
-            "updated_at": "2026-01-17T05:39:04.572Z"
+            "created_at": "2026-01-17T05:53:19.093Z",
+            "updated_at": "2026-01-17T05:53:19.093Z"
           },
           {
             "id": "tscircuit#534",
@@ -806,8 +288,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:04.750Z",
-            "updated_at": "2026-01-17T05:39:04.750Z"
+            "created_at": "2026-01-17T05:53:24.205Z",
+            "updated_at": "2026-01-17T05:53:24.205Z"
           },
           {
             "id": "tscircuit#419",
@@ -816,8 +298,8 @@
             "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:05.440Z",
-            "updated_at": "2026-01-17T05:39:05.440Z"
+            "created_at": "2026-01-17T05:53:26.767Z",
+            "updated_at": "2026-01-17T05:53:26.767Z"
           },
           {
             "id": "tscircuit#1081",
@@ -826,8 +308,8 @@
             "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:06.179Z",
-            "updated_at": "2026-01-17T05:39:06.179Z"
+            "created_at": "2026-01-17T05:53:27.015Z",
+            "updated_at": "2026-01-17T05:53:27.015Z"
           },
           {
             "id": "tscircuit#386",
@@ -836,8 +318,8 @@
             "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:09.745Z",
-            "updated_at": "2026-01-17T05:39:09.745Z"
+            "created_at": "2026-01-17T05:53:27.366Z",
+            "updated_at": "2026-01-17T05:53:27.366Z"
           },
           {
             "id": "tscircuit#79",
@@ -846,8 +328,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:12.237Z",
-            "updated_at": "2026-01-17T05:39:12.237Z"
+            "created_at": "2026-01-17T05:53:27.549Z",
+            "updated_at": "2026-01-17T05:53:27.549Z"
           },
           {
             "id": "tscircuit#78",
@@ -856,8 +338,8 @@
             "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:14.313Z",
-            "updated_at": "2026-01-17T05:39:14.313Z"
+            "created_at": "2026-01-17T05:53:27.720Z",
+            "updated_at": "2026-01-17T05:53:27.720Z"
           },
           {
             "id": "tscircuit#939",
@@ -866,8 +348,8 @@
             "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:21.324Z",
-            "updated_at": "2026-01-17T05:39:21.324Z"
+            "created_at": "2026-01-17T05:53:28.130Z",
+            "updated_at": "2026-01-17T05:53:28.130Z"
           },
           {
             "id": "tscircuit#175",
@@ -876,8 +358,8 @@
             "url": "https://github.com/tscircuit/sparkfun-boards/issues/175",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:23.642Z",
-            "updated_at": "2026-01-17T05:39:23.642Z"
+            "created_at": "2026-01-17T05:53:28.359Z",
+            "updated_at": "2026-01-17T05:53:28.359Z"
           },
           {
             "id": "tscircuit#6",
@@ -886,173 +368,83 @@
             "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:25.350Z",
-            "updated_at": "2026-01-17T05:39:25.350Z"
+            "created_at": "2026-01-17T05:53:28.545Z",
+            "updated_at": "2026-01-17T05:53:28.545Z"
           }
         ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
+        "last_updated": "2026-01-17T05:54:06.603Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "permitio",
+        "display_name": "Permitio",
+        "url": "https://algora.io/permitio/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "zio#685",
-            "title": "Add JsonPatch - Depends on #679",
+            "id": "permitio#716",
+            "title": "Error resolving broadcast hostname being swallowed",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
+            "url": "https://github.com/permitio/opal/issues/716",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:08.208Z",
-            "updated_at": "2026-01-17T05:39:08.208Z"
+            "created_at": "2026-01-17T05:53:19.094Z",
+            "updated_at": "2026-01-17T05:53:19.094Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "permitio#677",
+            "title": "Create E2E tests framework using PyTest",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/permitio/opal/issues/677",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:09.745Z",
-            "updated_at": "2026-01-17T05:39:09.745Z"
+            "created_at": "2026-01-17T05:53:24.205Z",
+            "updated_at": "2026-01-17T05:53:24.205Z"
           },
           {
-            "id": "zio#685",
-            "title": "Add JsonPatch - Depends on #679",
+            "id": "permitio#634",
+            "title": "OPAL Server doesn't clean up symbolic links when github is down",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
+            "url": "https://github.com/permitio/opal/issues/634",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:12.237Z",
-            "updated_at": "2026-01-17T05:39:12.237Z"
-          },
-          {
-            "id": "zio#683",
-            "title": "Port BSON Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/683",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:14.313Z",
-            "updated_at": "2026-01-17T05:39:14.313Z"
-          },
-          {
-            "id": "zio#682",
-            "title": "Port Message Pack Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/682",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:17.593Z",
-            "updated_at": "2026-01-17T05:39:17.593Z"
-          },
-          {
-            "id": "zio#681",
-            "title": "Port Thrift Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:19.171Z",
-            "updated_at": "2026-01-17T05:39:19.171Z"
-          },
-          {
-            "id": "zio#679",
-            "title": "Add Json data type",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/679",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:23.642Z",
-            "updated_at": "2026-01-17T05:39:23.642Z"
-          },
-          {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:25.349Z",
-            "updated_at": "2026-01-17T05:39:25.349Z"
-          },
-          {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:25.514Z",
-            "updated_at": "2026-01-17T05:39:25.514Z"
-          },
-          {
-            "id": "zio#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:25.573Z",
-            "updated_at": "2026-01-17T05:39:25.573Z"
+            "created_at": "2026-01-17T05:53:26.767Z",
+            "updated_at": "2026-01-17T05:53:26.767Z"
           }
         ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
+        "last_updated": "2026-01-17T05:54:06.603Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:04.449Z",
-            "updated_at": "2026-01-17T05:39:04.449Z"
+            "created_at": "2026-01-17T05:53:19.094Z",
+            "updated_at": "2026-01-17T05:53:19.094Z"
           },
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-17T05:39:04.649Z",
-            "updated_at": "2026-01-17T05:39:04.649Z"
-          },
-          {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:04.814Z",
-            "updated_at": "2026-01-17T05:39:04.814Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:39:05.268Z",
-            "updated_at": "2026-01-17T05:39:05.268Z"
+            "created_at": "2026-01-17T05:53:24.205Z",
+            "updated_at": "2026-01-17T05:53:24.205Z"
           }
         ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
+        "last_updated": "2026-01-17T05:54:06.603Z",
         "scrape_duration_ms": 0
       },
       {
@@ -1071,8 +463,8 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-17T05:38:57.198Z",
-            "updated_at": "2026-01-17T05:38:57.198Z"
+            "created_at": "2026-01-17T05:53:24.205Z",
+            "updated_at": "2026-01-17T05:53:24.205Z"
           },
           {
             "id": "GolemCloud#23",
@@ -1083,32 +475,46 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-01-17T05:38:58.392Z",
-            "updated_at": "2026-01-17T05:38:58.392Z"
+            "created_at": "2026-01-17T05:53:26.659Z",
+            "updated_at": "2026-01-17T05:53:26.659Z"
           }
         ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
+        "last_updated": "2026-01-17T05:54:06.603Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/golemcloud/golem/issues/1926",
             "status": "open",
-            "tags": [],
-            "created_at": "2026-01-17T05:38:57.098Z",
-            "updated_at": "2026-01-17T05:38:57.098Z"
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T05:53:24.205Z",
+            "updated_at": "2026-01-17T05:53:24.205Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-17T05:53:26.659Z",
+            "updated_at": "2026-01-17T05:53:26.659Z"
           }
         ],
-        "last_updated": "2026-01-17T05:39:35.578Z",
+        "last_updated": "2026-01-17T05:54:06.603Z",
         "scrape_duration_ms": 0
       }
     ]
