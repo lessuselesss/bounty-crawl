@@ -1,148 +1,118 @@
 {
-  "generated_at": "2026-01-18T01:18:32.347Z",
-  "total_organizations": 3,
-  "total_bounties": 17,
-  "total_value_usd": 1700,
+  "generated_at": "2026-01-18T03:19:19.710Z",
+  "total_organizations": 5,
+  "total_bounties": 12,
+  "total_value_usd": 1200,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-18T03:18:18.989Z",
+          "updated_at": "2026-01-18T03:18:18.989Z"
+        }
+      ],
+      "last_updated": "2026-01-18T03:19:19.710Z",
+      "scrape_duration_ms": 0
+    },
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-18T03:18:18.989Z",
+          "updated_at": "2026-01-18T03:18:18.989Z"
+        }
+      ],
+      "last_updated": "2026-01-18T03:19:19.710Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "PX4#21902",
-          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+          "id": "qdrant#3531",
+          "title": "Better error response for wrong datetime format in REST filter",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+          "url": "https://github.com/qdrant/qdrant/issues/3531",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:17:29.905Z",
-          "updated_at": "2026-01-18T01:17:29.905Z"
+          "created_at": "2026-01-18T03:18:18.988Z",
+          "updated_at": "2026-01-18T03:18:18.988Z"
         },
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Issue #3322",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:17:30.034Z",
-          "updated_at": "2026-01-18T01:17:30.034Z"
+          "created_at": "2026-01-18T03:18:21.716Z",
+          "updated_at": "2026-01-18T03:18:21.716Z"
         }
       ],
-      "last_updated": "2026-01-18T01:18:32.347Z",
+      "last_updated": "2026-01-18T03:19:19.710Z",
       "scrape_duration_ms": 0
     },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "zio#679",
-          "title": "Add Json data type",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/679",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:05.548Z",
-          "updated_at": "2026-01-18T01:18:05.548Z"
+          "created_at": "2026-01-18T03:18:18.989Z",
+          "updated_at": "2026-01-18T03:18:18.989Z"
         },
         {
-          "id": "zio#685",
-          "title": "Add JsonPatch - Depends on #679",
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
+          "url": "https://github.com/prisma/prisma/issues/8548",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:05.690Z",
-          "updated_at": "2026-01-18T01:18:05.690Z"
+          "created_at": "2026-01-18T03:18:21.718Z",
+          "updated_at": "2026-01-18T03:18:21.718Z"
         },
         {
-          "id": "zio#517",
-          "title": "Add structural schemas",
+          "id": "prisma#7771",
+          "title": "Issue #7771",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "github.com/prisma/prisma/issues/7771",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:05.829Z",
-          "updated_at": "2026-01-18T01:18:05.829Z"
-        },
-        {
-          "id": "zio#685",
-          "title": "Add JsonPatch - Depends on #679",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:05.847Z",
-          "updated_at": "2026-01-18T01:18:05.847Z"
-        },
-        {
-          "id": "zio#683",
-          "title": "Port BSON Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/683",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:05.995Z",
-          "updated_at": "2026-01-18T01:18:05.995Z"
-        },
-        {
-          "id": "zio#682",
-          "title": "Port Message Pack Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/682",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:06.098Z",
-          "updated_at": "2026-01-18T01:18:06.098Z"
-        },
-        {
-          "id": "zio#681",
-          "title": "Port Thrift Support to ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/681",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:06.207Z",
-          "updated_at": "2026-01-18T01:18:06.207Z"
-        },
-        {
-          "id": "zio#679",
-          "title": "Add Json data type",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/679",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:06.229Z",
-          "updated_at": "2026-01-18T01:18:06.229Z"
-        },
-        {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:06.383Z",
-          "updated_at": "2026-01-18T01:18:06.383Z"
-        },
-        {
-          "id": "zio#518",
-          "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-          "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/518",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-18T01:18:06.522Z",
-          "updated_at": "2026-01-18T01:18:06.522Z"
+          "created_at": "2026-01-18T03:18:22.737Z",
+          "updated_at": "2026-01-18T03:18:22.737Z"
         }
       ],
-      "last_updated": "2026-01-18T01:18:32.347Z",
+      "last_updated": "2026-01-18T03:19:19.710Z",
       "scrape_duration_ms": 0
     },
     "keephq": {
@@ -158,57 +128,57 @@
           "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:16.311Z",
-          "updated_at": "2026-01-18T01:18:16.311Z"
+          "created_at": "2026-01-18T03:18:18.990Z",
+          "updated_at": "2026-01-18T03:18:18.990Z"
         },
         {
           "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "title": "Issue #3526",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:16.426Z",
-          "updated_at": "2026-01-18T01:18:16.426Z"
+          "created_at": "2026-01-18T03:18:21.717Z",
+          "updated_at": "2026-01-18T03:18:21.717Z"
         },
         {
           "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "title": "Issue #3376",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
+          "url": "github.com/keephq/keep/issues/3376",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:16.541Z",
-          "updated_at": "2026-01-18T01:18:16.541Z"
+          "created_at": "2026-01-18T03:18:22.737Z",
+          "updated_at": "2026-01-18T03:18:22.737Z"
         },
         {
           "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+          "title": "Issue #3379",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
+          "url": "github.com/keephq/keep/issues/3379",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:16.639Z",
-          "updated_at": "2026-01-18T01:18:16.639Z"
+          "created_at": "2026-01-18T03:18:23.873Z",
+          "updated_at": "2026-01-18T03:18:23.873Z"
         },
         {
           "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
+          "title": "Issue #2112",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
+          "url": "github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-18T01:18:16.780Z",
-          "updated_at": "2026-01-18T01:18:16.780Z"
+          "created_at": "2026-01-18T03:18:27.868Z",
+          "updated_at": "2026-01-18T03:18:27.868Z"
         }
       ],
-      "last_updated": "2026-01-18T01:18:32.347Z",
+      "last_updated": "2026-01-18T03:19:19.710Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 148060,
+    "processing_time_ms": 136765,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -216,117 +186,6 @@
     "avg_bounty_value": 100,
     "median_bounty_value": 100,
     "top_organizations": [
-      {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
-        "bounties": [
-          {
-            "id": "zio#679",
-            "title": "Add Json data type",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/679",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:05.548Z",
-            "updated_at": "2026-01-18T01:18:05.548Z"
-          },
-          {
-            "id": "zio#685",
-            "title": "Add JsonPatch - Depends on #679",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:05.690Z",
-            "updated_at": "2026-01-18T01:18:05.690Z"
-          },
-          {
-            "id": "zio#517",
-            "title": "Add structural schemas",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:05.829Z",
-            "updated_at": "2026-01-18T01:18:05.829Z"
-          },
-          {
-            "id": "zio#685",
-            "title": "Add JsonPatch - Depends on #679",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:05.847Z",
-            "updated_at": "2026-01-18T01:18:05.847Z"
-          },
-          {
-            "id": "zio#683",
-            "title": "Port BSON Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/683",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:05.995Z",
-            "updated_at": "2026-01-18T01:18:05.995Z"
-          },
-          {
-            "id": "zio#682",
-            "title": "Port Message Pack Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/682",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:06.098Z",
-            "updated_at": "2026-01-18T01:18:06.098Z"
-          },
-          {
-            "id": "zio#681",
-            "title": "Port Thrift Support to ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/681",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:06.207Z",
-            "updated_at": "2026-01-18T01:18:06.207Z"
-          },
-          {
-            "id": "zio#679",
-            "title": "Add Json data type",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/679",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:06.229Z",
-            "updated_at": "2026-01-18T01:18:06.229Z"
-          },
-          {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:06.383Z",
-            "updated_at": "2026-01-18T01:18:06.383Z"
-          },
-          {
-            "id": "zio#518",
-            "title": "Add `Into[A, B]` and `As[A, B]` Type Classes with Macro Derivation",
-            "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/518",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-18T01:18:06.522Z",
-            "updated_at": "2026-01-18T01:18:06.522Z"
-          }
-        ],
-        "last_updated": "2026-01-18T01:18:32.347Z",
-        "scrape_duration_ms": 0
-      },
       {
         "handle": "keephq",
         "display_name": "Keephq",
@@ -341,82 +200,165 @@
             "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:18:16.311Z",
-            "updated_at": "2026-01-18T01:18:16.311Z"
+            "created_at": "2026-01-18T03:18:18.990Z",
+            "updated_at": "2026-01-18T03:18:18.990Z"
           },
           {
             "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "title": "Issue #3526",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:18:16.426Z",
-            "updated_at": "2026-01-18T01:18:16.426Z"
+            "created_at": "2026-01-18T03:18:21.717Z",
+            "updated_at": "2026-01-18T03:18:21.717Z"
           },
           {
             "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "title": "Issue #3376",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "github.com/keephq/keep/issues/3376",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:18:16.541Z",
-            "updated_at": "2026-01-18T01:18:16.541Z"
+            "created_at": "2026-01-18T03:18:22.737Z",
+            "updated_at": "2026-01-18T03:18:22.737Z"
           },
           {
             "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "title": "Issue #3379",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "github.com/keephq/keep/issues/3379",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:18:16.639Z",
-            "updated_at": "2026-01-18T01:18:16.639Z"
+            "created_at": "2026-01-18T03:18:23.873Z",
+            "updated_at": "2026-01-18T03:18:23.873Z"
           },
           {
             "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
+            "title": "Issue #2112",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
+            "url": "github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:18:16.780Z",
-            "updated_at": "2026-01-18T01:18:16.780Z"
+            "created_at": "2026-01-18T03:18:27.868Z",
+            "updated_at": "2026-01-18T03:18:27.868Z"
           }
         ],
-        "last_updated": "2026-01-18T01:18:32.347Z",
+        "last_updated": "2026-01-18T03:19:19.710Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-18T03:18:18.989Z",
+            "updated_at": "2026-01-18T03:18:18.989Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-18T03:18:21.718Z",
+            "updated_at": "2026-01-18T03:18:21.718Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Issue #7771",
+            "amount_usd": 100,
+            "url": "github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-18T03:18:22.737Z",
+            "updated_at": "2026-01-18T03:18:22.737Z"
+          }
+        ],
+        "last_updated": "2026-01-18T03:19:19.710Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "PX4#21902",
-            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "id": "qdrant#3531",
+            "title": "Better error response for wrong datetime format in REST filter",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "url": "https://github.com/qdrant/qdrant/issues/3531",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:17:29.905Z",
-            "updated_at": "2026-01-18T01:17:29.905Z"
+            "created_at": "2026-01-18T03:18:18.988Z",
+            "updated_at": "2026-01-18T03:18:18.988Z"
           },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Issue #3322",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-18T01:17:30.034Z",
-            "updated_at": "2026-01-18T01:17:30.034Z"
+            "created_at": "2026-01-18T03:18:21.716Z",
+            "updated_at": "2026-01-18T03:18:21.716Z"
           }
         ],
-        "last_updated": "2026-01-18T01:18:32.347Z",
+        "last_updated": "2026-01-18T03:19:19.710Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-18T03:18:18.989Z",
+            "updated_at": "2026-01-18T03:18:18.989Z"
+          }
+        ],
+        "last_updated": "2026-01-18T03:19:19.710Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "amount_usd": 100,
+            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-18T03:18:18.989Z",
+            "updated_at": "2026-01-18T03:18:18.989Z"
+          }
+        ],
+        "last_updated": "2026-01-18T03:19:19.710Z",
         "scrape_duration_ms": 0
       }
     ]
