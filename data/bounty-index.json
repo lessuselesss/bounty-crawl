@@ -1,164 +1,318 @@
 {
-  "generated_at": "2026-01-25T21:34:41.111Z",
-  "total_organizations": 3,
-  "total_bounties": 12,
-  "total_value_usd": 1200,
+  "generated_at": "2026-01-25T21:52:22.497Z",
+  "total_organizations": 6,
+  "total_bounties": 24,
+  "total_value_usd": 2400,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:33:41.787Z",
-          "updated_at": "2026-01-25T21:33:41.787Z"
+          "created_at": "2026-01-25T21:51:34.346Z",
+          "updated_at": "2026-01-25T21:51:34.346Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:51:35.968Z",
+          "updated_at": "2026-01-25T21:51:35.968Z"
         }
       ],
-      "last_updated": "2026-01-25T21:34:41.111Z",
+      "last_updated": "2026-01-25T21:52:22.497Z",
       "scrape_duration_ms": 0
     },
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-25T21:33:50.497Z",
-          "updated_at": "2026-01-25T21:33:50.497Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-25T21:51:35.994Z",
+          "updated_at": "2026-01-25T21:51:35.994Z"
+        },
+        {
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+          "amount_usd": 100,
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
+          "status": "open",
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-25T21:51:39.559Z",
+          "updated_at": "2026-01-25T21:51:39.559Z"
         }
       ],
-      "last_updated": "2026-01-25T21:34:41.111Z",
+      "last_updated": "2026-01-25T21:52:22.497Z",
       "scrape_duration_ms": 0
     },
-    "ZIO": {
-      "display_name": "ZIO",
-      "url": "https://algora.io/ZIO/bounties?status=open",
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:51:50.246Z",
+          "updated_at": "2026-01-25T21:51:50.246Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:51:51.893Z",
+          "updated_at": "2026-01-25T21:51:51.893Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:51:52.071Z",
+          "updated_at": "2026-01-25T21:51:52.071Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:51:52.198Z",
+          "updated_at": "2026-01-25T21:51:52.198Z"
+        }
+      ],
+      "last_updated": "2026-01-25T21:52:22.497Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "ZIO#802",
-          "title": "Enhance toString of core data types",
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/802",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.230Z",
-          "updated_at": "2026-01-25T21:34:21.230Z"
+          "created_at": "2026-01-25T21:51:34.417Z",
+          "updated_at": "2026-01-25T21:51:34.417Z"
         },
         {
-          "id": "ZIO#801",
-          "title": "Enhance json interpolator",
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/801",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.362Z",
-          "updated_at": "2026-01-25T21:34:21.362Z"
+          "created_at": "2026-01-25T21:51:35.968Z",
+          "updated_at": "2026-01-25T21:51:35.968Z"
         },
         {
-          "id": "ZIO#462",
-          "title": "JSON Schema Support",
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/462",
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.474Z",
-          "updated_at": "2026-01-25T21:34:21.474Z"
+          "created_at": "2026-01-25T21:51:42.069Z",
+          "updated_at": "2026-01-25T21:51:42.069Z"
         },
         {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.642Z",
-          "updated_at": "2026-01-25T21:34:21.642Z"
+          "created_at": "2026-01-25T21:51:46.190Z",
+          "updated_at": "2026-01-25T21:51:46.190Z"
         },
         {
-          "id": "ZIO#685",
-          "title": "Add JsonPatch - Depends on #679",
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.761Z",
-          "updated_at": "2026-01-25T21:34:21.761Z"
+          "created_at": "2026-01-25T21:51:52.105Z",
+          "updated_at": "2026-01-25T21:51:52.105Z"
         },
         {
-          "id": "ZIO#519",
-          "title": "Schema Migration System for ZIO Schema 2",
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.872Z",
-          "updated_at": "2026-01-25T21:34:21.872Z"
+          "created_at": "2026-01-25T21:51:52.233Z",
+          "updated_at": "2026-01-25T21:51:52.233Z"
         },
         {
-          "id": "ZIO#517",
-          "title": "Add structural schemas",
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:21.880Z",
-          "updated_at": "2026-01-25T21:34:21.880Z"
+          "created_at": "2026-01-25T21:51:52.350Z",
+          "updated_at": "2026-01-25T21:51:52.350Z"
         },
         {
-          "id": "ZIO#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:22.003Z",
-          "updated_at": "2026-01-25T21:34:22.003Z"
+          "created_at": "2026-01-25T21:51:52.579Z",
+          "updated_at": "2026-01-25T21:51:52.579Z"
         },
         {
-          "id": "ZIO#3472",
-          "title": "Split into multiple modules",
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:22.129Z",
-          "updated_at": "2026-01-25T21:34:22.129Z"
+          "created_at": "2026-01-25T21:51:52.692Z",
+          "updated_at": "2026-01-25T21:51:52.692Z"
         },
         {
-          "id": "ZIO#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
+          "id": "tscircuit#895",
+          "title": "Pinout Diagram Improvements",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
+          "url": "https://github.com/tscircuit/tscircuit/issues/895",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-25T21:34:22.263Z",
-          "updated_at": "2026-01-25T21:34:22.263Z"
+          "created_at": "2026-01-25T21:51:52.825Z",
+          "updated_at": "2026-01-25T21:51:52.825Z"
         }
       ],
-      "last_updated": "2026-01-25T21:34:41.111Z",
+      "last_updated": "2026-01-25T21:52:22.497Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:11.789Z",
+          "updated_at": "2026-01-25T21:52:11.789Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:11.910Z",
+          "updated_at": "2026-01-25T21:52:11.910Z"
+        }
+      ],
+      "last_updated": "2026-01-25T21:52:22.497Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:11.957Z",
+          "updated_at": "2026-01-25T21:52:11.957Z"
+        },
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:12.070Z",
+          "updated_at": "2026-01-25T21:52:12.070Z"
+        },
+        {
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:12.227Z",
+          "updated_at": "2026-01-25T21:52:12.227Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-25T21:52:12.494Z",
+          "updated_at": "2026-01-25T21:52:12.494Z"
+        }
+      ],
+      "last_updated": "2026-01-25T21:52:22.497Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 128095,
+    "processing_time_ms": 123172,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -167,156 +321,313 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "ZIO",
-        "display_name": "ZIO",
-        "url": "https://algora.io/ZIO/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "ZIO#802",
-            "title": "Enhance toString of core data types",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/802",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.230Z",
-            "updated_at": "2026-01-25T21:34:21.230Z"
+            "created_at": "2026-01-25T21:51:34.417Z",
+            "updated_at": "2026-01-25T21:51:34.417Z"
           },
           {
-            "id": "ZIO#801",
-            "title": "Enhance json interpolator",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/801",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.362Z",
-            "updated_at": "2026-01-25T21:34:21.362Z"
+            "created_at": "2026-01-25T21:51:35.968Z",
+            "updated_at": "2026-01-25T21:51:35.968Z"
           },
           {
-            "id": "ZIO#462",
-            "title": "JSON Schema Support",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/462",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.474Z",
-            "updated_at": "2026-01-25T21:34:21.474Z"
+            "created_at": "2026-01-25T21:51:42.069Z",
+            "updated_at": "2026-01-25T21:51:42.069Z"
           },
           {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.642Z",
-            "updated_at": "2026-01-25T21:34:21.642Z"
+            "created_at": "2026-01-25T21:51:46.190Z",
+            "updated_at": "2026-01-25T21:51:46.190Z"
           },
           {
-            "id": "ZIO#685",
-            "title": "Add JsonPatch - Depends on #679",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.761Z",
-            "updated_at": "2026-01-25T21:34:21.761Z"
+            "created_at": "2026-01-25T21:51:52.105Z",
+            "updated_at": "2026-01-25T21:51:52.105Z"
           },
           {
-            "id": "ZIO#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.872Z",
-            "updated_at": "2026-01-25T21:34:21.872Z"
+            "created_at": "2026-01-25T21:51:52.233Z",
+            "updated_at": "2026-01-25T21:51:52.233Z"
           },
           {
-            "id": "ZIO#517",
-            "title": "Add structural schemas",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:21.880Z",
-            "updated_at": "2026-01-25T21:34:21.880Z"
+            "created_at": "2026-01-25T21:51:52.350Z",
+            "updated_at": "2026-01-25T21:51:52.350Z"
           },
           {
-            "id": "ZIO#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:22.003Z",
-            "updated_at": "2026-01-25T21:34:22.003Z"
+            "created_at": "2026-01-25T21:51:52.579Z",
+            "updated_at": "2026-01-25T21:51:52.579Z"
           },
           {
-            "id": "ZIO#3472",
-            "title": "Split into multiple modules",
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:22.129Z",
-            "updated_at": "2026-01-25T21:34:22.129Z"
+            "created_at": "2026-01-25T21:51:52.692Z",
+            "updated_at": "2026-01-25T21:51:52.692Z"
           },
           {
-            "id": "ZIO#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "tscircuit#895",
+            "title": "Pinout Diagram Improvements",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "https://github.com/tscircuit/tscircuit/issues/895",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:34:22.263Z",
-            "updated_at": "2026-01-25T21:34:22.263Z"
+            "created_at": "2026-01-25T21:51:52.825Z",
+            "updated_at": "2026-01-25T21:51:52.825Z"
           }
         ],
-        "last_updated": "2026-01-25T21:34:41.111Z",
+        "last_updated": "2026-01-25T21:52:22.497Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:33:41.787Z",
-            "updated_at": "2026-01-25T21:33:41.787Z"
+            "created_at": "2026-01-25T21:51:50.246Z",
+            "updated_at": "2026-01-25T21:51:50.246Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:51:51.893Z",
+            "updated_at": "2026-01-25T21:51:51.893Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:51:52.071Z",
+            "updated_at": "2026-01-25T21:51:52.071Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:51:52.198Z",
+            "updated_at": "2026-01-25T21:51:52.198Z"
           }
         ],
-        "last_updated": "2026-01-25T21:34:41.111Z",
+        "last_updated": "2026-01-25T21:52:22.497Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "id": "mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-25T21:33:50.497Z",
-            "updated_at": "2026-01-25T21:33:50.497Z"
+            "created_at": "2026-01-25T21:52:11.957Z",
+            "updated_at": "2026-01-25T21:52:11.957Z"
+          },
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:52:12.070Z",
+            "updated_at": "2026-01-25T21:52:12.070Z"
+          },
+          {
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:52:12.227Z",
+            "updated_at": "2026-01-25T21:52:12.227Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:52:12.494Z",
+            "updated_at": "2026-01-25T21:52:12.494Z"
           }
         ],
-        "last_updated": "2026-01-25T21:34:41.111Z",
+        "last_updated": "2026-01-25T21:52:22.497Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:51:34.346Z",
+            "updated_at": "2026-01-25T21:51:34.346Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:51:35.968Z",
+            "updated_at": "2026-01-25T21:51:35.968Z"
+          }
+        ],
+        "last_updated": "2026-01-25T21:52:22.497Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-25T21:51:35.994Z",
+            "updated_at": "2026-01-25T21:51:35.994Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-25T21:51:39.559Z",
+            "updated_at": "2026-01-25T21:51:39.559Z"
+          }
+        ],
+        "last_updated": "2026-01-25T21:52:22.497Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:52:11.789Z",
+            "updated_at": "2026-01-25T21:52:11.789Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-25T21:52:11.910Z",
+            "updated_at": "2026-01-25T21:52:11.910Z"
+          }
+        ],
+        "last_updated": "2026-01-25T21:52:22.497Z",
         "scrape_duration_ms": 0
       }
     ]
