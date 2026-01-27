@@ -1,238 +1,214 @@
 {
-  "generated_at": "2026-01-27T05:07:51.300Z",
+  "generated_at": "2026-01-27T05:47:07.871Z",
   "total_organizations": 4,
-  "total_bounties": 18,
-  "total_value_usd": 1800,
+  "total_bounties": 16,
+  "total_value_usd": 1600,
   "version": "3.0.0",
   "organizations": {
-    "outerbase": {
-      "display_name": "Outerbase",
-      "url": "https://algora.io/outerbase/bounties?status=open",
+    "omnigres": {
+      "display_name": "Omnigres",
+      "url": "https://algora.io/omnigres/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "omnigres#823",
+          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "amount_usd": 100,
+          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-27T05:46:20.036Z",
+          "updated_at": "2026-01-27T05:46:20.036Z"
+        }
+      ],
+      "last_updated": "2026-01-27T05:47:07.870Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-27T05:46:20.068Z",
+          "updated_at": "2026-01-27T05:46:20.068Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-27T05:46:21.163Z",
+          "updated_at": "2026-01-27T05:46:21.163Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-27T05:46:21.565Z",
+          "updated_at": "2026-01-27T05:46:21.565Z"
+        }
+      ],
+      "last_updated": "2026-01-27T05:47:07.870Z",
+      "scrape_duration_ms": 0
+    },
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "outerbase#59",
-          "title": "Database dumps do not work on large databases",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:03.099Z",
-          "updated_at": "2026-01-27T05:07:03.099Z"
+          "created_at": "2026-01-27T05:46:43.170Z",
+          "updated_at": "2026-01-27T05:46:43.170Z"
         },
         {
-          "id": "outerbase#72",
-          "title": "Replicate data from external source to internal source with a Plugin",
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
           "amount_usd": 100,
-          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:06.242Z",
-          "updated_at": "2026-01-27T05:07:06.242Z"
+          "created_at": "2026-01-27T05:46:43.304Z",
+          "updated_at": "2026-01-27T05:46:43.304Z"
         }
       ],
-      "last_updated": "2026-01-27T05:07:51.300Z",
+      "last_updated": "2026-01-27T05:47:07.870Z",
       "scrape_duration_ms": 0
     },
-    "GolemCloud": {
-      "display_name": "GolemCloud",
-      "url": "https://algora.io/GolemCloud/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "GolemCloud#275",
-          "title": "Incorporate MCP Server into Golem CLI",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem/issues/1926",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-27T05:07:06.243Z",
-          "updated_at": "2026-01-27T05:07:06.243Z"
-        },
-        {
-          "id": "GolemCloud#23",
-          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-          "amount_usd": 100,
-          "url": "https://github.com/golemcloud/golem-ai/issues/23",
-          "status": "open",
-          "tags": [
-            "go"
-          ],
-          "created_at": "2026-01-27T05:07:06.454Z",
-          "updated_at": "2026-01-27T05:07:06.454Z"
-        }
-      ],
-      "last_updated": "2026-01-27T05:07:51.300Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "mudlet#8030",
-          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-27T05:07:03.099Z",
-          "updated_at": "2026-01-27T05:07:03.099Z"
-        },
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-27T05:07:06.242Z",
-          "updated_at": "2026-01-27T05:07:06.242Z"
-        },
-        {
-          "id": "mudlet#689",
-          "title": "Support telnet:// links",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/689",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-27T05:07:06.404Z",
-          "updated_at": "2026-01-27T05:07:06.404Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-27T05:07:06.609Z",
-          "updated_at": "2026-01-27T05:07:06.609Z"
-        }
-      ],
-      "last_updated": "2026-01-27T05:07:51.300Z",
-      "scrape_duration_ms": 0
-    },
-    "zio": {
-      "display_name": "Zio",
-      "url": "https://algora.io/zio/bounties?status=open",
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "zio#462",
-          "title": "JSON Schema Support",
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/462",
+          "url": "https://github.com/calcom/cal.com/issues/18947",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:32.721Z",
-          "updated_at": "2026-01-27T05:07:32.721Z"
+          "created_at": "2026-01-27T05:46:56.168Z",
+          "updated_at": "2026-01-27T05:46:56.168Z"
         },
         {
-          "id": "zio#517",
-          "title": "Add structural schemas",
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "https://github.com/calcom/cal.com/issues/18992",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:32.862Z",
-          "updated_at": "2026-01-27T05:07:32.862Z"
+          "created_at": "2026-01-27T05:46:56.336Z",
+          "updated_at": "2026-01-27T05:46:56.336Z"
         },
         {
-          "id": "zio#685",
-          "title": "Add JsonPatch - Depends on #679",
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/685",
+          "url": "https://github.com/calcom/cal.com/issues/18987",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:32.995Z",
-          "updated_at": "2026-01-27T05:07:32.995Z"
+          "created_at": "2026-01-27T05:46:56.555Z",
+          "updated_at": "2026-01-27T05:46:56.555Z"
         },
         {
-          "id": "zio#519",
-          "title": "Schema Migration System for ZIO Schema 2",
+          "id": "cal#8123",
+          "title": "[CAL-1425] Exchange on Premise 2016",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "url": "https://github.com/calcom/cal.com/issues/8123",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.136Z",
-          "updated_at": "2026-01-27T05:07:33.136Z"
+          "created_at": "2026-01-27T05:46:56.724Z",
+          "updated_at": "2026-01-27T05:46:56.724Z"
         },
         {
-          "id": "zio#517",
-          "title": "Add structural schemas",
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/517",
+          "url": "https://github.com/calcom/cal.com/issues/16378",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.161Z",
-          "updated_at": "2026-01-27T05:07:33.161Z"
+          "created_at": "2026-01-27T05:46:56.908Z",
+          "updated_at": "2026-01-27T05:46:56.908Z"
         },
         {
-          "id": "zio#471",
-          "title": "Replace TypeName by TypeId & Macro Derivation",
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-blocks/issues/471",
+          "url": "https://github.com/calcom/cal.com/issues/13532",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.299Z",
-          "updated_at": "2026-01-27T05:07:33.299Z"
+          "created_at": "2026-01-27T05:46:57.115Z",
+          "updated_at": "2026-01-27T05:46:57.115Z"
         },
         {
-          "id": "zio#3472",
-          "title": "Split into multiple modules",
+          "id": "cal#11340",
+          "title": "Add Lawpay as a payment option",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio-http/issues/3472",
+          "url": "https://github.com/calcom/cal.com/issues/11340",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.424Z",
-          "updated_at": "2026-01-27T05:07:33.424Z"
+          "created_at": "2026-01-27T05:46:57.303Z",
+          "updated_at": "2026-01-27T05:46:57.303Z"
         },
         {
-          "id": "zio#9810",
-          "title": "ZStreams buffer(1) is buffering 2.",
+          "id": "cal#2",
+          "title": "Plans on weights?",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9810",
+          "url": "https://github.com/calcom/sans/issues/2",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.618Z",
-          "updated_at": "2026-01-27T05:07:33.618Z"
+          "created_at": "2026-01-27T05:46:57.538Z",
+          "updated_at": "2026-01-27T05:46:57.538Z"
         },
         {
-          "id": "zio#9844",
-          "title": "improved `Queue` shutdown functionality",
+          "id": "cal#1985",
+          "title": "[CAL-3105] BigBlueButton Integration",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9844",
+          "url": "https://github.com/calcom/cal.com/issues/1985",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.749Z",
-          "updated_at": "2026-01-27T05:07:33.749Z"
+          "created_at": "2026-01-27T05:46:57.708Z",
+          "updated_at": "2026-01-27T05:46:57.708Z"
         },
         {
-          "id": "zio#9878",
-          "title": "ZScheduler parks+unparks workers too frequently",
+          "id": "cal#3717",
+          "title": "[CAL-3414] App: Lever.co",
           "amount_usd": 100,
-          "url": "https://github.com/zio/zio/issues/9878",
+          "url": "https://github.com/calcom/cal.com/issues/3717",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-27T05:07:33.911Z",
-          "updated_at": "2026-01-27T05:07:33.911Z"
+          "created_at": "2026-01-27T05:46:57.868Z",
+          "updated_at": "2026-01-27T05:46:57.868Z"
         }
       ],
-      "last_updated": "2026-01-27T05:07:51.300Z",
+      "last_updated": "2026-01-27T05:47:07.870Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 122211,
+    "processing_time_ms": 123634,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -241,231 +217,207 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "zio",
-        "display_name": "Zio",
-        "url": "https://algora.io/zio/bounties?status=open",
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "zio#462",
-            "title": "JSON Schema Support",
+            "id": "cal#18947",
+            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/462",
+            "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:32.721Z",
-            "updated_at": "2026-01-27T05:07:32.721Z"
+            "created_at": "2026-01-27T05:46:56.168Z",
+            "updated_at": "2026-01-27T05:46:56.168Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:32.862Z",
-            "updated_at": "2026-01-27T05:07:32.862Z"
+            "created_at": "2026-01-27T05:46:56.336Z",
+            "updated_at": "2026-01-27T05:46:56.336Z"
           },
           {
-            "id": "zio#685",
-            "title": "Add JsonPatch - Depends on #679",
+            "id": "cal#18987",
+            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/685",
+            "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:32.995Z",
-            "updated_at": "2026-01-27T05:07:32.995Z"
+            "created_at": "2026-01-27T05:46:56.555Z",
+            "updated_at": "2026-01-27T05:46:56.555Z"
           },
           {
-            "id": "zio#519",
-            "title": "Schema Migration System for ZIO Schema 2",
+            "id": "cal#8123",
+            "title": "[CAL-1425] Exchange on Premise 2016",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "url": "https://github.com/calcom/cal.com/issues/8123",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.136Z",
-            "updated_at": "2026-01-27T05:07:33.136Z"
+            "created_at": "2026-01-27T05:46:56.724Z",
+            "updated_at": "2026-01-27T05:46:56.724Z"
           },
           {
-            "id": "zio#517",
-            "title": "Add structural schemas",
+            "id": "cal#16378",
+            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/517",
+            "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.161Z",
-            "updated_at": "2026-01-27T05:07:33.161Z"
+            "created_at": "2026-01-27T05:46:56.908Z",
+            "updated_at": "2026-01-27T05:46:56.908Z"
           },
           {
-            "id": "zio#471",
-            "title": "Replace TypeName by TypeId & Macro Derivation",
+            "id": "cal#13532",
+            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-blocks/issues/471",
+            "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.299Z",
-            "updated_at": "2026-01-27T05:07:33.299Z"
+            "created_at": "2026-01-27T05:46:57.115Z",
+            "updated_at": "2026-01-27T05:46:57.115Z"
           },
           {
-            "id": "zio#3472",
-            "title": "Split into multiple modules",
+            "id": "cal#11340",
+            "title": "Add Lawpay as a payment option",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio-http/issues/3472",
+            "url": "https://github.com/calcom/cal.com/issues/11340",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.424Z",
-            "updated_at": "2026-01-27T05:07:33.424Z"
+            "created_at": "2026-01-27T05:46:57.303Z",
+            "updated_at": "2026-01-27T05:46:57.303Z"
           },
           {
-            "id": "zio#9810",
-            "title": "ZStreams buffer(1) is buffering 2.",
+            "id": "cal#2",
+            "title": "Plans on weights?",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9810",
+            "url": "https://github.com/calcom/sans/issues/2",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.618Z",
-            "updated_at": "2026-01-27T05:07:33.618Z"
+            "created_at": "2026-01-27T05:46:57.538Z",
+            "updated_at": "2026-01-27T05:46:57.538Z"
           },
           {
-            "id": "zio#9844",
-            "title": "improved `Queue` shutdown functionality",
+            "id": "cal#1985",
+            "title": "[CAL-3105] BigBlueButton Integration",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9844",
+            "url": "https://github.com/calcom/cal.com/issues/1985",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.749Z",
-            "updated_at": "2026-01-27T05:07:33.749Z"
+            "created_at": "2026-01-27T05:46:57.708Z",
+            "updated_at": "2026-01-27T05:46:57.708Z"
           },
           {
-            "id": "zio#9878",
-            "title": "ZScheduler parks+unparks workers too frequently",
+            "id": "cal#3717",
+            "title": "[CAL-3414] App: Lever.co",
             "amount_usd": 100,
-            "url": "https://github.com/zio/zio/issues/9878",
+            "url": "https://github.com/calcom/cal.com/issues/3717",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:33.911Z",
-            "updated_at": "2026-01-27T05:07:33.911Z"
+            "created_at": "2026-01-27T05:46:57.868Z",
+            "updated_at": "2026-01-27T05:46:57.868Z"
           }
         ],
-        "last_updated": "2026-01-27T05:07:51.300Z",
+        "last_updated": "2026-01-27T05:47:07.870Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "mudlet#8030",
-            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:03.099Z",
-            "updated_at": "2026-01-27T05:07:03.099Z"
+            "created_at": "2026-01-27T05:46:20.068Z",
+            "updated_at": "2026-01-27T05:46:20.068Z"
           },
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:06.242Z",
-            "updated_at": "2026-01-27T05:07:06.242Z"
+            "created_at": "2026-01-27T05:46:21.163Z",
+            "updated_at": "2026-01-27T05:46:21.163Z"
           },
           {
-            "id": "mudlet#689",
-            "title": "Support telnet:// links",
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "url": "https://github.com/prisma/prisma/issues/7771",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:06.404Z",
-            "updated_at": "2026-01-27T05:07:06.404Z"
-          },
-          {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
-            "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-01-27T05:07:06.609Z",
-            "updated_at": "2026-01-27T05:07:06.609Z"
+            "created_at": "2026-01-27T05:46:21.565Z",
+            "updated_at": "2026-01-27T05:46:21.565Z"
           }
         ],
-        "last_updated": "2026-01-27T05:07:51.300Z",
+        "last_updated": "2026-01-27T05:47:07.870Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "outerbase",
-        "display_name": "Outerbase",
-        "url": "https://algora.io/outerbase/bounties?status=open",
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "outerbase#59",
-            "title": "Database dumps do not work on large databases",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:03.099Z",
-            "updated_at": "2026-01-27T05:07:03.099Z"
+            "created_at": "2026-01-27T05:46:43.170Z",
+            "updated_at": "2026-01-27T05:46:43.170Z"
           },
           {
-            "id": "outerbase#72",
-            "title": "Replicate data from external source to internal source with a Plugin",
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
             "amount_usd": 100,
-            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-27T05:07:06.242Z",
-            "updated_at": "2026-01-27T05:07:06.242Z"
+            "created_at": "2026-01-27T05:46:43.304Z",
+            "updated_at": "2026-01-27T05:46:43.304Z"
           }
         ],
-        "last_updated": "2026-01-27T05:07:51.300Z",
+        "last_updated": "2026-01-27T05:47:07.870Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "GolemCloud",
-        "display_name": "GolemCloud",
-        "url": "https://algora.io/GolemCloud/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "omnigres",
+        "display_name": "Omnigres",
+        "url": "https://algora.io/omnigres/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
         "bounties": [
           {
-            "id": "GolemCloud#275",
-            "title": "Incorporate MCP Server into Golem CLI",
+            "id": "omnigres#823",
+            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
             "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "url": "https://github.com/omnigres/omnigres/issues/823",
             "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2026-01-27T05:07:06.243Z",
-            "updated_at": "2026-01-27T05:07:06.243Z"
-          },
-          {
-            "id": "GolemCloud#23",
-            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
-            "amount_usd": 100,
-            "url": "https://github.com/golemcloud/golem-ai/issues/23",
-            "status": "open",
-            "tags": [
-              "go"
-            ],
-            "created_at": "2026-01-27T05:07:06.454Z",
-            "updated_at": "2026-01-27T05:07:06.454Z"
+            "tags": [],
+            "created_at": "2026-01-27T05:46:20.036Z",
+            "updated_at": "2026-01-27T05:46:20.036Z"
           }
         ],
-        "last_updated": "2026-01-27T05:07:51.300Z",
+        "last_updated": "2026-01-27T05:47:07.870Z",
         "scrape_duration_ms": 0
       }
     ]
