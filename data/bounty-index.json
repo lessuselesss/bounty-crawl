@@ -1,144 +1,328 @@
 {
-  "generated_at": "2026-01-31T12:34:31.589Z",
-  "total_organizations": 3,
-  "total_bounties": 10,
-  "total_value_usd": 1000,
+  "generated_at": "2026-01-31T13:30:51.064Z",
+  "total_organizations": 5,
+  "total_bounties": 26,
+  "total_value_usd": 2600,
   "version": "3.0.0",
   "organizations": {
-    "omnigres": {
-      "display_name": "Omnigres",
-      "url": "https://algora.io/omnigres/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "omnigres#823",
-          "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+          "id": "PX4#21902",
+          "title": "Support EKF2_GPS_POS_* for Multiple GPS",
           "amount_usd": 100,
-          "url": "https://github.com/omnigres/omnigres/issues/823",
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-31T12:33:29.016Z",
-          "updated_at": "2026-01-31T12:33:29.016Z"
+          "created_at": "2026-01-31T13:30:03.430Z",
+          "updated_at": "2026-01-31T13:30:03.430Z"
+        },
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:03.696Z",
+          "updated_at": "2026-01-31T13:30:03.696Z"
         }
       ],
-      "last_updated": "2026-01-31T12:34:31.589Z",
+      "last_updated": "2026-01-31T13:30:51.063Z",
       "scrape_duration_ms": 0
     },
-    "highlight": {
-      "display_name": "Highlight",
-      "url": "https://algora.io/highlight/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "golemcloud": {
+      "display_name": "Golemcloud",
+      "url": "https://algora.io/golemcloud/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "highlight#8635",
-          "title": "Update workspace and project settings to not use antd components",
+          "id": "golemcloud#275",
+          "title": "Incorporate MCP Server into Golem CLI",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8635",
+          "url": "https://github.com/golemcloud/golem/issues/1926",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:33:56.378Z",
-          "updated_at": "2026-01-31T12:33:56.378Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-31T13:30:03.696Z",
+          "updated_at": "2026-01-31T13:30:03.696Z"
         },
         {
-          "id": "highlight#8614",
-          "title": "update design of integrations page",
+          "id": "golemcloud#23",
+          "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
           "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8614",
+          "url": "https://github.com/golemcloud/golem-ai/issues/23",
           "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:33:56.523Z",
-          "updated_at": "2026-01-31T12:33:56.523Z"
-        },
-        {
-          "id": "highlight#8032",
-          "title": "document sveltekit backend instrumentation",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/8032",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:33:56.641Z",
-          "updated_at": "2026-01-31T12:33:56.641Z"
-        },
-        {
-          "id": "highlight#6775",
-          "title": "Performance of canvas snapshotting on Safari is poor",
-          "amount_usd": 100,
-          "url": "https://github.com/highlight/highlight/issues/6775",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:33:56.810Z",
-          "updated_at": "2026-01-31T12:33:56.810Z"
+          "tags": [
+            "go"
+          ],
+          "created_at": "2026-01-31T13:30:03.892Z",
+          "updated_at": "2026-01-31T13:30:03.892Z"
         }
       ],
-      "last_updated": "2026-01-31T12:34:31.589Z",
+      "last_updated": "2026-01-31T13:30:51.063Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 5,
-      "total_value_usd": 500,
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-31T12:34:13.316Z",
-          "updated_at": "2026-01-31T12:34:13.316Z"
+          "created_at": "2026-01-31T13:30:29.897Z",
+          "updated_at": "2026-01-31T13:30:29.897Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-01-31T12:34:13.448Z",
-          "updated_at": "2026-01-31T12:34:13.448Z"
-        },
-        {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:34:13.575Z",
-          "updated_at": "2026-01-31T12:34:13.575Z"
-        },
-        {
-          "id": "keephq#3379",
-          "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3379",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:34:13.755Z",
-          "updated_at": "2026-01-31T12:34:13.755Z"
-        },
-        {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
-          "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-01-31T12:34:13.946Z",
-          "updated_at": "2026-01-31T12:34:13.946Z"
+          "created_at": "2026-01-31T13:30:30.068Z",
+          "updated_at": "2026-01-31T13:30:30.068Z"
         }
       ],
-      "last_updated": "2026-01-31T12:34:31.589Z",
+      "last_updated": "2026-01-31T13:30:51.063Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#8042",
+          "title": "[Enhancement]: OAUTH only self registering.",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8042",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:29.945Z",
+          "updated_at": "2026-01-31T13:30:29.945Z"
+        },
+        {
+          "id": "coollabsio#7655",
+          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.128Z",
+          "updated_at": "2026-01-31T13:30:30.128Z"
+        },
+        {
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.275Z",
+          "updated_at": "2026-01-31T13:30:30.275Z"
+        },
+        {
+          "id": "coollabsio#7738",
+          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7738",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.463Z",
+          "updated_at": "2026-01-31T13:30:30.463Z"
+        },
+        {
+          "id": "coollabsio#7724",
+          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7724",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.748Z",
+          "updated_at": "2026-01-31T13:30:30.748Z"
+        },
+        {
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.920Z",
+          "updated_at": "2026-01-31T13:30:30.920Z"
+        },
+        {
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.114Z",
+          "updated_at": "2026-01-31T13:30:31.114Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.302Z",
+          "updated_at": "2026-01-31T13:30:31.302Z"
+        },
+        {
+          "id": "coollabsio#7473",
+          "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7473",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.467Z",
+          "updated_at": "2026-01-31T13:30:31.467Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.657Z",
+          "updated_at": "2026-01-31T13:30:31.657Z"
+        }
+      ],
+      "last_updated": "2026-01-31T13:30:51.063Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:29.936Z",
+          "updated_at": "2026-01-31T13:30:29.936Z"
+        },
+        {
+          "id": "tscircuit#534",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.140Z",
+          "updated_at": "2026-01-31T13:30:30.140Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.450Z",
+          "updated_at": "2026-01-31T13:30:30.450Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:30.668Z",
+          "updated_at": "2026-01-31T13:30:30.668Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.116Z",
+          "updated_at": "2026-01-31T13:30:31.116Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.375Z",
+          "updated_at": "2026-01-31T13:30:31.375Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.578Z",
+          "updated_at": "2026-01-31T13:30:31.578Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:31.884Z",
+          "updated_at": "2026-01-31T13:30:31.884Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:32.081Z",
+          "updated_at": "2026-01-31T13:30:32.081Z"
+        },
+        {
+          "id": "tscircuit#895",
+          "title": "Pinout Diagram Improvements",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/895",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-01-31T13:30:32.254Z",
+          "updated_at": "2026-01-31T13:30:32.254Z"
+        }
+      ],
+      "last_updated": "2026-01-31T13:30:51.064Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 141961,
+    "processing_time_ms": 123609,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -147,136 +331,322 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 5,
-        "total_value_usd": 500,
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "coollabsio#8042",
+            "title": "[Enhancement]: OAUTH only self registering.",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/coollabsio/coolify/issues/8042",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:34:13.316Z",
-            "updated_at": "2026-01-31T12:34:13.316Z"
+            "created_at": "2026-01-31T13:30:29.945Z",
+            "updated_at": "2026-01-31T13:30:29.945Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "coollabsio#7655",
+            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/coollabsio/coolify/issues/7655",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:34:13.448Z",
-            "updated_at": "2026-01-31T12:34:13.448Z"
+            "created_at": "2026-01-31T13:30:30.128Z",
+            "updated_at": "2026-01-31T13:30:30.128Z"
           },
           {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:34:13.575Z",
-            "updated_at": "2026-01-31T12:34:13.575Z"
+            "created_at": "2026-01-31T13:30:30.275Z",
+            "updated_at": "2026-01-31T13:30:30.275Z"
           },
           {
-            "id": "keephq#3379",
-            "title": "[🔌 Provider]: ServiceNow pull activity from incidents into incidents",
+            "id": "coollabsio#7738",
+            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3379",
+            "url": "https://github.com/coollabsio/coolify/issues/7738",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:34:13.755Z",
-            "updated_at": "2026-01-31T12:34:13.755Z"
+            "created_at": "2026-01-31T13:30:30.463Z",
+            "updated_at": "2026-01-31T13:30:30.463Z"
           },
           {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
+            "id": "coollabsio#7724",
+            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
+            "url": "https://github.com/coollabsio/coolify/issues/7724",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:34:13.946Z",
-            "updated_at": "2026-01-31T12:34:13.946Z"
+            "created_at": "2026-01-31T13:30:30.748Z",
+            "updated_at": "2026-01-31T13:30:30.748Z"
+          },
+          {
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:30.920Z",
+            "updated_at": "2026-01-31T13:30:30.920Z"
+          },
+          {
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.114Z",
+            "updated_at": "2026-01-31T13:30:31.114Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Enable database detection and backup support for Docker Compose deployments via GitHub App",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.302Z",
+            "updated_at": "2026-01-31T13:30:31.302Z"
+          },
+          {
+            "id": "coollabsio#7473",
+            "title": "[Bug]: Database Backups won't use the custom timeout in ssh command (regression)",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7473",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.467Z",
+            "updated_at": "2026-01-31T13:30:31.467Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.657Z",
+            "updated_at": "2026-01-31T13:30:31.657Z"
           }
         ],
-        "last_updated": "2026-01-31T12:34:31.589Z",
+        "last_updated": "2026-01-31T13:30:51.063Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "highlight",
-        "display_name": "Highlight",
-        "url": "https://algora.io/highlight/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "highlight#8635",
-            "title": "Update workspace and project settings to not use antd components",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8635",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:33:56.378Z",
-            "updated_at": "2026-01-31T12:33:56.378Z"
+            "created_at": "2026-01-31T13:30:29.936Z",
+            "updated_at": "2026-01-31T13:30:29.936Z"
           },
           {
-            "id": "highlight#8614",
-            "title": "update design of integrations page",
+            "id": "tscircuit#534",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8614",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:33:56.523Z",
-            "updated_at": "2026-01-31T12:33:56.523Z"
+            "created_at": "2026-01-31T13:30:30.140Z",
+            "updated_at": "2026-01-31T13:30:30.140Z"
           },
           {
-            "id": "highlight#8032",
-            "title": "document sveltekit backend instrumentation",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/8032",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:33:56.641Z",
-            "updated_at": "2026-01-31T12:33:56.641Z"
+            "created_at": "2026-01-31T13:30:30.450Z",
+            "updated_at": "2026-01-31T13:30:30.450Z"
           },
           {
-            "id": "highlight#6775",
-            "title": "Performance of canvas snapshotting on Safari is poor",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/highlight/highlight/issues/6775",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:33:56.810Z",
-            "updated_at": "2026-01-31T12:33:56.810Z"
+            "created_at": "2026-01-31T13:30:30.668Z",
+            "updated_at": "2026-01-31T13:30:30.668Z"
+          },
+          {
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.116Z",
+            "updated_at": "2026-01-31T13:30:31.116Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.375Z",
+            "updated_at": "2026-01-31T13:30:31.375Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.578Z",
+            "updated_at": "2026-01-31T13:30:31.578Z"
+          },
+          {
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:31.884Z",
+            "updated_at": "2026-01-31T13:30:31.884Z"
+          },
+          {
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:32.081Z",
+            "updated_at": "2026-01-31T13:30:32.081Z"
+          },
+          {
+            "id": "tscircuit#895",
+            "title": "Pinout Diagram Improvements",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/895",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:32.254Z",
+            "updated_at": "2026-01-31T13:30:32.254Z"
           }
         ],
-        "last_updated": "2026-01-31T12:34:31.589Z",
+        "last_updated": "2026-01-31T13:30:51.064Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "omnigres",
-        "display_name": "Omnigres",
-        "url": "https://algora.io/omnigres/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "omnigres#823",
-            "title": "Problem: omni_schema.dependency and omni_schema.acl views are slow",
+            "id": "PX4#21902",
+            "title": "Support EKF2_GPS_POS_* for Multiple GPS",
             "amount_usd": 100,
-            "url": "https://github.com/omnigres/omnigres/issues/823",
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/21902",
             "status": "open",
             "tags": [],
-            "created_at": "2026-01-31T12:33:29.016Z",
-            "updated_at": "2026-01-31T12:33:29.016Z"
+            "created_at": "2026-01-31T13:30:03.430Z",
+            "updated_at": "2026-01-31T13:30:03.430Z"
+          },
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:03.696Z",
+            "updated_at": "2026-01-31T13:30:03.696Z"
           }
         ],
-        "last_updated": "2026-01-31T12:34:31.589Z",
+        "last_updated": "2026-01-31T13:30:51.063Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "golemcloud",
+        "display_name": "Golemcloud",
+        "url": "https://algora.io/golemcloud/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "golemcloud#275",
+            "title": "Incorporate MCP Server into Golem CLI",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem/issues/1926",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-31T13:30:03.696Z",
+            "updated_at": "2026-01-31T13:30:03.696Z"
+          },
+          {
+            "id": "golemcloud#23",
+            "title": "Implement Durable Text-to-Speech Provider Components for golem:tts WIT Interface",
+            "amount_usd": 100,
+            "url": "https://github.com/golemcloud/golem-ai/issues/23",
+            "status": "open",
+            "tags": [
+              "go"
+            ],
+            "created_at": "2026-01-31T13:30:03.892Z",
+            "updated_at": "2026-01-31T13:30:03.892Z"
+          }
+        ],
+        "last_updated": "2026-01-31T13:30:51.063Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:29.897Z",
+            "updated_at": "2026-01-31T13:30:29.897Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-01-31T13:30:30.068Z",
+            "updated_at": "2026-01-31T13:30:30.068Z"
+          }
+        ],
+        "last_updated": "2026-01-31T13:30:51.063Z",
         "scrape_duration_ms": 0
       }
     ]
