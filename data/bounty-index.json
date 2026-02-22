@@ -1,28 +1,58 @@
 {
-  "generated_at": "2026-02-22T08:57:30.868Z",
+  "generated_at": "2026-02-22T09:25:59.496Z",
   "total_organizations": 5,
-  "total_bounties": 23,
-  "total_value_usd": 2300,
+  "total_bounties": 24,
+  "total_value_usd": 2400,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:08.807Z",
+          "updated_at": "2026-02-22T09:25:08.807Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:08.981Z",
+          "updated_at": "2026-02-22T09:25:08.981Z"
+        }
+      ],
+      "last_updated": "2026-02-22T09:25:59.496Z",
+      "scrape_duration_ms": 0
+    },
+    "qdrant": {
+      "display_name": "Qdrant",
+      "url": "https://algora.io/qdrant/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "qdrant#3322",
+          "title": "Per-collection metrics for Prometheus",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/qdrant/qdrant/issues/3322",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:56:44.078Z",
-          "updated_at": "2026-02-22T08:56:44.078Z"
+          "created_at": "2026-02-22T09:25:10.620Z",
+          "updated_at": "2026-02-22T09:25:10.620Z"
         }
       ],
-      "last_updated": "2026-02-22T08:57:30.868Z",
+      "last_updated": "2026-02-22T09:25:59.496Z",
       "scrape_duration_ms": 0
     },
     "onyx-dot-app": {
@@ -38,257 +68,237 @@
           "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:56:44.867Z",
-          "updated_at": "2026-02-22T08:56:44.867Z"
+          "created_at": "2026-02-22T09:25:16.924Z",
+          "updated_at": "2026-02-22T09:25:16.924Z"
         }
       ],
-      "last_updated": "2026-02-22T08:57:30.868Z",
+      "last_updated": "2026-02-22T09:25:59.496Z",
       "scrape_duration_ms": 0
     },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 7,
-      "total_value_usd": 700,
-      "bounties": [
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:56:44.867Z",
-          "updated_at": "2026-02-22T08:56:44.867Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:56:49.838Z",
-          "updated_at": "2026-02-22T08:56:49.838Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:56:56.388Z",
-          "updated_at": "2026-02-22T08:56:56.388Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:57:01.894Z",
-          "updated_at": "2026-02-22T08:57:01.894Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:57:04.480Z",
-          "updated_at": "2026-02-22T08:57:04.480Z"
-        },
-        {
-          "id": "cal#2",
-          "title": "Plans on weights?",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/sans/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:57:04.807Z",
-          "updated_at": "2026-02-22T08:57:04.807Z"
-        },
-        {
-          "id": "cal#1985",
-          "title": "[CAL-3105] BigBlueButton Integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/1985",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T08:57:05.045Z",
-          "updated_at": "2026-02-22T08:57:05.045Z"
-        }
-      ],
-      "last_updated": "2026-02-22T08:57:30.868Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
       "bounty_count": 10,
       "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "projectdiscovery#6532",
-          "title": "Integrate typos tool into CI",
+          "id": "coollabsio#8264",
+          "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+          "url": "https://github.com/coollabsio/coolify/issues/8264",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:04.554Z",
-          "updated_at": "2026-02-22T08:57:04.554Z"
+          "created_at": "2026-02-22T09:25:42.612Z",
+          "updated_at": "2026-02-22T09:25:42.612Z"
         },
         {
-          "id": "projectdiscovery#1367",
-          "title": "Feature / Question: go-tree-sitter dependency",
+          "id": "coollabsio#8266",
+          "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1367",
+          "url": "https://github.com/coollabsio/coolify/issues/8266",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:04.751Z",
-          "updated_at": "2026-02-22T08:57:04.751Z"
+          "created_at": "2026-02-22T09:25:42.767Z",
+          "updated_at": "2026-02-22T09:25:42.767Z"
         },
         {
-          "id": "projectdiscovery#2063",
-          "title": "Add PDF export option",
+          "id": "coollabsio#8232",
+          "title": "[Enhancement]: Add Open Replay",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/2063",
+          "url": "https://github.com/coollabsio/coolify/issues/8232",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:04.934Z",
-          "updated_at": "2026-02-22T08:57:04.934Z"
+          "created_at": "2026-02-22T09:25:42.913Z",
+          "updated_at": "2026-02-22T09:25:42.913Z"
         },
         {
-          "id": "projectdiscovery#5838",
-          "title": "XSS Context Analyzer",
+          "id": "coollabsio#8042",
+          "title": "[Enhancement]: OAUTH only self registering.",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/5838",
+          "url": "https://github.com/coollabsio/coolify/issues/8042",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.121Z",
-          "updated_at": "2026-02-22T08:57:05.121Z"
+          "created_at": "2026-02-22T09:25:43.052Z",
+          "updated_at": "2026-02-22T09:25:43.052Z"
         },
         {
-          "id": "projectdiscovery#1367",
-          "title": "Feature / Question: go-tree-sitter dependency",
+          "id": "coollabsio#7655",
+          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1367",
+          "url": "https://github.com/coollabsio/coolify/issues/7655",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.142Z",
-          "updated_at": "2026-02-22T08:57:05.142Z"
+          "created_at": "2026-02-22T09:25:43.227Z",
+          "updated_at": "2026-02-22T09:25:43.227Z"
         },
         {
-          "id": "projectdiscovery#5567",
-          "title": "[FEATURE] Template Profile Improvements",
+          "id": "coollabsio#7743",
+          "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/5567",
+          "url": "https://github.com/coollabsio/coolify/issues/7743",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.315Z",
-          "updated_at": "2026-02-22T08:57:05.315Z"
+          "created_at": "2026-02-22T09:25:43.367Z",
+          "updated_at": "2026-02-22T09:25:43.367Z"
         },
         {
-          "id": "projectdiscovery#6403",
-          "title": "[FEATURE] Add honeypot detection to nuclei",
+          "id": "coollabsio#7738",
+          "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/6403",
+          "url": "https://github.com/coollabsio/coolify/issues/7738",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.510Z",
-          "updated_at": "2026-02-22T08:57:05.510Z"
+          "created_at": "2026-02-22T09:25:43.525Z",
+          "updated_at": "2026-02-22T09:25:43.525Z"
         },
         {
-          "id": "projectdiscovery#924",
-          "title": "Support auto wildcard detection similar to PureDNS",
+          "id": "coollabsio#7724",
+          "title": "[Bug]: Sporadic Permission denied (publickey,password).",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/dnsx/issues/924",
+          "url": "https://github.com/coollabsio/coolify/issues/7724",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.749Z",
-          "updated_at": "2026-02-22T08:57:05.749Z"
+          "created_at": "2026-02-22T09:25:43.669Z",
+          "updated_at": "2026-02-22T09:25:43.669Z"
         },
         {
-          "id": "projectdiscovery#819",
-          "title": "tlsx hangs indefinitely for some hosts",
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/tlsx/issues/819",
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:05.928Z",
-          "updated_at": "2026-02-22T08:57:05.928Z"
+          "created_at": "2026-02-22T09:25:43.829Z",
+          "updated_at": "2026-02-22T09:25:43.829Z"
         },
         {
-          "id": "projectdiscovery#2240",
-          "title": "-pr http11 flag is ignored on retryablehttp-go due to HTTP/2 fallback",
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
           "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/httpx/issues/2240",
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:06.121Z",
-          "updated_at": "2026-02-22T08:57:06.121Z"
+          "created_at": "2026-02-22T09:25:43.973Z",
+          "updated_at": "2026-02-22T09:25:43.973Z"
         }
       ],
-      "last_updated": "2026-02-22T08:57:30.868Z",
+      "last_updated": "2026-02-22T09:25:59.496Z",
       "scrape_duration_ms": 0
     },
-    "keephq": {
-      "display_name": "Keephq",
-      "url": "https://algora.io/keephq/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
+    "ZIO": {
+      "display_name": "ZIO",
+      "url": "https://algora.io/ZIO/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "keephq#3960",
-          "title": "[🔌 Provider]: Nagios Provider",
+          "id": "ZIO#519",
+          "title": "Schema Migration System for ZIO Schema 2",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3960",
+          "url": "https://github.com/zio/zio-blocks/issues/519",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:20.232Z",
-          "updated_at": "2026-02-22T08:57:20.232Z"
+          "created_at": "2026-02-22T09:25:47.835Z",
+          "updated_at": "2026-02-22T09:25:47.835Z"
         },
         {
-          "id": "keephq#3526",
-          "title": "[🔌 Provider]: Solarwinds",
+          "id": "ZIO#3472",
+          "title": "Split into multiple modules",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3526",
+          "url": "https://github.com/zio/zio-http/issues/3472",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:20.495Z",
-          "updated_at": "2026-02-22T08:57:20.495Z"
+          "created_at": "2026-02-22T09:25:47.995Z",
+          "updated_at": "2026-02-22T09:25:47.995Z"
         },
         {
-          "id": "keephq#3376",
-          "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
+          "id": "ZIO#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/3376",
+          "url": "https://github.com/zio/zio/issues/9810",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:20.676Z",
-          "updated_at": "2026-02-22T08:57:20.676Z"
+          "created_at": "2026-02-22T09:25:48.192Z",
+          "updated_at": "2026-02-22T09:25:48.192Z"
         },
         {
-          "id": "keephq#2112",
-          "title": "[🔌 Provider]: SNMP provider",
+          "id": "ZIO#9844",
+          "title": "improved `Queue` shutdown functionality",
           "amount_usd": 100,
-          "url": "https://github.com/keephq/keep/issues/2112",
+          "url": "https://github.com/zio/zio/issues/9844",
           "status": "open",
           "tags": [],
-          "created_at": "2026-02-22T08:57:20.865Z",
-          "updated_at": "2026-02-22T08:57:20.865Z"
+          "created_at": "2026-02-22T09:25:48.367Z",
+          "updated_at": "2026-02-22T09:25:48.367Z"
+        },
+        {
+          "id": "ZIO#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:48.547Z",
+          "updated_at": "2026-02-22T09:25:48.547Z"
+        },
+        {
+          "id": "ZIO#9877",
+          "title": "Can Fiber(Runtime) and Promise be merged?",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9877",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:48.734Z",
+          "updated_at": "2026-02-22T09:25:48.734Z"
+        },
+        {
+          "id": "ZIO#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:48.924Z",
+          "updated_at": "2026-02-22T09:25:48.924Z"
+        },
+        {
+          "id": "ZIO#9681",
+          "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9681",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:49.119Z",
+          "updated_at": "2026-02-22T09:25:49.119Z"
+        },
+        {
+          "id": "ZIO#9909",
+          "title": "Create test suite that tests the correct behaviour of `ZIOApp`",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9909",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:49.329Z",
+          "updated_at": "2026-02-22T09:25:49.329Z"
+        },
+        {
+          "id": "ZIO#3235",
+          "title": "Missing Authorization header is reported as 400 instead of 401",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-http/issues/3235",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T09:25:49.477Z",
+          "updated_at": "2026-02-22T09:25:49.477Z"
         }
       ],
-      "last_updated": "2026-02-22T08:57:30.868Z",
+      "last_updated": "2026-02-22T09:25:59.496Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 123388,
+    "processing_time_ms": 111203,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -297,267 +307,277 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#6532",
-            "title": "Integrate typos tool into CI",
+            "id": "coollabsio#8264",
+            "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "url": "https://github.com/coollabsio/coolify/issues/8264",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:04.554Z",
-            "updated_at": "2026-02-22T08:57:04.554Z"
+            "created_at": "2026-02-22T09:25:42.612Z",
+            "updated_at": "2026-02-22T09:25:42.612Z"
           },
           {
-            "id": "projectdiscovery#1367",
-            "title": "Feature / Question: go-tree-sitter dependency",
+            "id": "coollabsio#8266",
+            "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1367",
+            "url": "https://github.com/coollabsio/coolify/issues/8266",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:04.751Z",
-            "updated_at": "2026-02-22T08:57:04.751Z"
+            "created_at": "2026-02-22T09:25:42.767Z",
+            "updated_at": "2026-02-22T09:25:42.767Z"
           },
           {
-            "id": "projectdiscovery#2063",
-            "title": "Add PDF export option",
+            "id": "coollabsio#8232",
+            "title": "[Enhancement]: Add Open Replay",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/2063",
+            "url": "https://github.com/coollabsio/coolify/issues/8232",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:04.934Z",
-            "updated_at": "2026-02-22T08:57:04.934Z"
+            "created_at": "2026-02-22T09:25:42.913Z",
+            "updated_at": "2026-02-22T09:25:42.913Z"
           },
           {
-            "id": "projectdiscovery#5838",
-            "title": "XSS Context Analyzer",
+            "id": "coollabsio#8042",
+            "title": "[Enhancement]: OAUTH only self registering.",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/5838",
+            "url": "https://github.com/coollabsio/coolify/issues/8042",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.121Z",
-            "updated_at": "2026-02-22T08:57:05.121Z"
+            "created_at": "2026-02-22T09:25:43.052Z",
+            "updated_at": "2026-02-22T09:25:43.052Z"
           },
           {
-            "id": "projectdiscovery#1367",
-            "title": "Feature / Question: go-tree-sitter dependency",
+            "id": "coollabsio#7655",
+            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1367",
+            "url": "https://github.com/coollabsio/coolify/issues/7655",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.142Z",
-            "updated_at": "2026-02-22T08:57:05.142Z"
+            "created_at": "2026-02-22T09:25:43.227Z",
+            "updated_at": "2026-02-22T09:25:43.227Z"
           },
           {
-            "id": "projectdiscovery#5567",
-            "title": "[FEATURE] Template Profile Improvements",
+            "id": "coollabsio#7743",
+            "title": "[Enhancement]: Don't timeout public database proxies after 10 min",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/5567",
+            "url": "https://github.com/coollabsio/coolify/issues/7743",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.315Z",
-            "updated_at": "2026-02-22T08:57:05.315Z"
+            "created_at": "2026-02-22T09:25:43.367Z",
+            "updated_at": "2026-02-22T09:25:43.367Z"
           },
           {
-            "id": "projectdiscovery#6403",
-            "title": "[FEATURE] Add honeypot detection to nuclei",
+            "id": "coollabsio#7738",
+            "title": "[Enhancement]: Environment variables for each server that can be made available to each application deployed on it",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/6403",
+            "url": "https://github.com/coollabsio/coolify/issues/7738",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.510Z",
-            "updated_at": "2026-02-22T08:57:05.510Z"
+            "created_at": "2026-02-22T09:25:43.525Z",
+            "updated_at": "2026-02-22T09:25:43.525Z"
           },
           {
-            "id": "projectdiscovery#924",
-            "title": "Support auto wildcard detection similar to PureDNS",
+            "id": "coollabsio#7724",
+            "title": "[Bug]: Sporadic Permission denied (publickey,password).",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/dnsx/issues/924",
+            "url": "https://github.com/coollabsio/coolify/issues/7724",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.749Z",
-            "updated_at": "2026-02-22T08:57:05.749Z"
+            "created_at": "2026-02-22T09:25:43.669Z",
+            "updated_at": "2026-02-22T09:25:43.669Z"
           },
           {
-            "id": "projectdiscovery#819",
-            "title": "tlsx hangs indefinitely for some hosts",
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/tlsx/issues/819",
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.928Z",
-            "updated_at": "2026-02-22T08:57:05.928Z"
+            "created_at": "2026-02-22T09:25:43.829Z",
+            "updated_at": "2026-02-22T09:25:43.829Z"
           },
           {
-            "id": "projectdiscovery#2240",
-            "title": "-pr http11 flag is ignored on retryablehttp-go due to HTTP/2 fallback",
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/httpx/issues/2240",
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:06.121Z",
-            "updated_at": "2026-02-22T08:57:06.121Z"
+            "created_at": "2026-02-22T09:25:43.973Z",
+            "updated_at": "2026-02-22T09:25:43.973Z"
           }
         ],
-        "last_updated": "2026-02-22T08:57:30.868Z",
+        "last_updated": "2026-02-22T09:25:59.496Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
-        "bounty_count": 7,
-        "total_value_usd": 700,
+        "handle": "ZIO",
+        "display_name": "ZIO",
+        "url": "https://algora.io/ZIO/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "cal#18947",
-            "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+            "id": "ZIO#519",
+            "title": "Schema Migration System for ZIO Schema 2",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18947",
+            "url": "https://github.com/zio/zio-blocks/issues/519",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:56:44.867Z",
-            "updated_at": "2026-02-22T08:56:44.867Z"
+            "created_at": "2026-02-22T09:25:47.835Z",
+            "updated_at": "2026-02-22T09:25:47.835Z"
           },
           {
-            "id": "cal#18992",
-            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "id": "ZIO#3472",
+            "title": "Split into multiple modules",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18992",
+            "url": "https://github.com/zio/zio-http/issues/3472",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:56:49.838Z",
-            "updated_at": "2026-02-22T08:56:49.838Z"
+            "created_at": "2026-02-22T09:25:47.995Z",
+            "updated_at": "2026-02-22T09:25:47.995Z"
           },
           {
-            "id": "cal#18987",
-            "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+            "id": "ZIO#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/18987",
+            "url": "https://github.com/zio/zio/issues/9810",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:56:56.388Z",
-            "updated_at": "2026-02-22T08:56:56.388Z"
+            "created_at": "2026-02-22T09:25:48.192Z",
+            "updated_at": "2026-02-22T09:25:48.192Z"
           },
           {
-            "id": "cal#16378",
-            "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+            "id": "ZIO#9844",
+            "title": "improved `Queue` shutdown functionality",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/16378",
+            "url": "https://github.com/zio/zio/issues/9844",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:01.894Z",
-            "updated_at": "2026-02-22T08:57:01.894Z"
+            "created_at": "2026-02-22T09:25:48.367Z",
+            "updated_at": "2026-02-22T09:25:48.367Z"
           },
           {
-            "id": "cal#13532",
-            "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+            "id": "ZIO#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/13532",
+            "url": "https://github.com/zio/zio/issues/9878",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:04.480Z",
-            "updated_at": "2026-02-22T08:57:04.480Z"
+            "created_at": "2026-02-22T09:25:48.547Z",
+            "updated_at": "2026-02-22T09:25:48.547Z"
           },
           {
-            "id": "cal#2",
-            "title": "Plans on weights?",
+            "id": "ZIO#9877",
+            "title": "Can Fiber(Runtime) and Promise be merged?",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/sans/issues/2",
+            "url": "https://github.com/zio/zio/issues/9877",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:04.807Z",
-            "updated_at": "2026-02-22T08:57:04.807Z"
+            "created_at": "2026-02-22T09:25:48.734Z",
+            "updated_at": "2026-02-22T09:25:48.734Z"
           },
           {
-            "id": "cal#1985",
-            "title": "[CAL-3105] BigBlueButton Integration",
+            "id": "ZIO#9874",
+            "title": "Handling errors allows recovering from defects",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.com/issues/1985",
+            "url": "https://github.com/zio/zio/issues/9874",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:05.045Z",
-            "updated_at": "2026-02-22T08:57:05.045Z"
+            "created_at": "2026-02-22T09:25:48.924Z",
+            "updated_at": "2026-02-22T09:25:48.924Z"
+          },
+          {
+            "id": "ZIO#9681",
+            "title": "Scala Native `WeakConcurrentBag` NPE when forking 10K fibers",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9681",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T09:25:49.119Z",
+            "updated_at": "2026-02-22T09:25:49.119Z"
+          },
+          {
+            "id": "ZIO#9909",
+            "title": "Create test suite that tests the correct behaviour of `ZIOApp`",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9909",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T09:25:49.329Z",
+            "updated_at": "2026-02-22T09:25:49.329Z"
+          },
+          {
+            "id": "ZIO#3235",
+            "title": "Missing Authorization header is reported as 400 instead of 401",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-http/issues/3235",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T09:25:49.477Z",
+            "updated_at": "2026-02-22T09:25:49.477Z"
           }
         ],
-        "last_updated": "2026-02-22T08:57:30.868Z",
+        "last_updated": "2026-02-22T09:25:59.496Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "keephq",
-        "display_name": "Keephq",
-        "url": "https://algora.io/keephq/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "keephq#3960",
-            "title": "[🔌 Provider]: Nagios Provider",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3960",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:20.232Z",
-            "updated_at": "2026-02-22T08:57:20.232Z"
+            "created_at": "2026-02-22T09:25:08.807Z",
+            "updated_at": "2026-02-22T09:25:08.807Z"
           },
           {
-            "id": "keephq#3526",
-            "title": "[🔌 Provider]: Solarwinds",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3526",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:57:20.495Z",
-            "updated_at": "2026-02-22T08:57:20.495Z"
-          },
-          {
-            "id": "keephq#3376",
-            "title": "[➕ Feature]: Add a way to validate Keep workflows from CI",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/3376",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-02-22T08:57:20.676Z",
-            "updated_at": "2026-02-22T08:57:20.676Z"
-          },
-          {
-            "id": "keephq#2112",
-            "title": "[🔌 Provider]: SNMP provider",
-            "amount_usd": 100,
-            "url": "https://github.com/keephq/keep/issues/2112",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-02-22T08:57:20.865Z",
-            "updated_at": "2026-02-22T08:57:20.865Z"
+            "created_at": "2026-02-22T09:25:08.981Z",
+            "updated_at": "2026-02-22T09:25:08.981Z"
           }
         ],
-        "last_updated": "2026-02-22T08:57:30.868Z",
+        "last_updated": "2026-02-22T09:25:59.496Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "qdrant",
+        "display_name": "Qdrant",
+        "url": "https://algora.io/qdrant/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "qdrant#3322",
+            "title": "Per-collection metrics for Prometheus",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/qdrant/qdrant/issues/3322",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:56:44.078Z",
-            "updated_at": "2026-02-22T08:56:44.078Z"
+            "created_at": "2026-02-22T09:25:10.620Z",
+            "updated_at": "2026-02-22T09:25:10.620Z"
           }
         ],
-        "last_updated": "2026-02-22T08:57:30.868Z",
+        "last_updated": "2026-02-22T09:25:59.496Z",
         "scrape_duration_ms": 0
       },
       {
@@ -574,11 +594,11 @@
             "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T08:56:44.867Z",
-            "updated_at": "2026-02-22T08:56:44.867Z"
+            "created_at": "2026-02-22T09:25:16.924Z",
+            "updated_at": "2026-02-22T09:25:16.924Z"
           }
         ],
-        "last_updated": "2026-02-22T08:57:30.868Z",
+        "last_updated": "2026-02-22T09:25:59.496Z",
         "scrape_duration_ms": 0
       }
     ]
