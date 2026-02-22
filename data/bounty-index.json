@@ -1,30 +1,10 @@
 {
-  "generated_at": "2026-02-22T11:57:13.486Z",
-  "total_organizations": 2,
-  "total_bounties": 2,
-  "total_value_usd": 200,
+  "generated_at": "2026-02-22T12:35:31.190Z",
+  "total_organizations": 3,
+  "total_bounties": 7,
+  "total_value_usd": 700,
   "version": "3.0.0",
   "organizations": {
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-02-22T11:56:37.496Z",
-          "updated_at": "2026-02-22T11:56:37.496Z"
-        }
-      ],
-      "last_updated": "2026-02-22T11:57:13.486Z",
-      "scrape_duration_ms": 0
-    },
     "GolemCloud": {
       "display_name": "GolemCloud",
       "url": "https://algora.io/GolemCloud/bounties?status=open",
@@ -40,17 +20,97 @@
           "tags": [
             "go"
           ],
-          "created_at": "2026-02-22T11:56:45.040Z",
-          "updated_at": "2026-02-22T11:56:45.040Z"
+          "created_at": "2026-02-22T12:34:57.677Z",
+          "updated_at": "2026-02-22T12:34:57.677Z"
         }
       ],
-      "last_updated": "2026-02-22T11:57:13.486Z",
+      "last_updated": "2026-02-22T12:35:31.190Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:20.795Z",
+          "updated_at": "2026-02-22T12:35:20.795Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:20.954Z",
+          "updated_at": "2026-02-22T12:35:20.954Z"
+        }
+      ],
+      "last_updated": "2026-02-22T12:35:31.190Z",
+      "scrape_duration_ms": 0
+    },
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "Mudlet#8030",
+          "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/8030",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:20.795Z",
+          "updated_at": "2026-02-22T12:35:20.795Z"
+        },
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:20.924Z",
+          "updated_at": "2026-02-22T12:35:20.924Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:21.059Z",
+          "updated_at": "2026-02-22T12:35:21.059Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-02-22T12:35:21.188Z",
+          "updated_at": "2026-02-22T12:35:21.188Z"
+        }
+      ],
+      "last_updated": "2026-02-22T12:35:31.190Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 140514,
+    "processing_time_ms": 110035,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -59,24 +119,85 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "Mudlet#8030",
+            "title": "Split Mudlet up into `libmudlet` and a Qt front-end",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/Mudlet/Mudlet/issues/8030",
             "status": "open",
             "tags": [],
-            "created_at": "2026-02-22T11:56:37.496Z",
-            "updated_at": "2026-02-22T11:56:37.496Z"
+            "created_at": "2026-02-22T12:35:20.795Z",
+            "updated_at": "2026-02-22T12:35:20.795Z"
+          },
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T12:35:20.924Z",
+            "updated_at": "2026-02-22T12:35:20.924Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T12:35:21.059Z",
+            "updated_at": "2026-02-22T12:35:21.059Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T12:35:21.188Z",
+            "updated_at": "2026-02-22T12:35:21.188Z"
           }
         ],
-        "last_updated": "2026-02-22T11:57:13.486Z",
+        "last_updated": "2026-02-22T12:35:31.190Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T12:35:20.795Z",
+            "updated_at": "2026-02-22T12:35:20.795Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-02-22T12:35:20.954Z",
+            "updated_at": "2026-02-22T12:35:20.954Z"
+          }
+        ],
+        "last_updated": "2026-02-22T12:35:31.190Z",
         "scrape_duration_ms": 0
       },
       {
@@ -95,11 +216,11 @@
             "tags": [
               "go"
             ],
-            "created_at": "2026-02-22T11:56:45.040Z",
-            "updated_at": "2026-02-22T11:56:45.040Z"
+            "created_at": "2026-02-22T12:34:57.677Z",
+            "updated_at": "2026-02-22T12:34:57.677Z"
           }
         ],
-        "last_updated": "2026-02-22T11:57:13.486Z",
+        "last_updated": "2026-02-22T12:35:31.190Z",
         "scrape_duration_ms": 0
       }
     ]
