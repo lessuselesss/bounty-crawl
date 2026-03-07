@@ -1,288 +1,78 @@
 {
-  "generated_at": "2026-03-07T01:21:38.868Z",
-  "total_organizations": 6,
+  "generated_at": "2026-03-07T03:32:36.549Z",
+  "total_organizations": 5,
   "total_bounties": 26,
   "total_value_usd": 2600,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:31:41.222Z",
+          "updated_at": "2026-03-07T03:31:41.222Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:31:41.487Z",
+          "updated_at": "2026-03-07T03:31:41.487Z"
+        }
+      ],
+      "last_updated": "2026-03-07T03:32:36.549Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
       "bounty_count": 3,
       "total_value_usd": 300,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:20:54.694Z",
-          "updated_at": "2026-03-07T01:20:54.694Z"
+          "created_at": "2026-03-07T03:31:41.223Z",
+          "updated_at": "2026-03-07T03:31:41.223Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "mudlet#689",
+          "title": "Support telnet:// links",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:20:54.835Z",
-          "updated_at": "2026-03-07T01:20:54.835Z"
+          "created_at": "2026-03-07T03:31:41.542Z",
+          "updated_at": "2026-03-07T03:31:41.542Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:20:54.979Z",
-          "updated_at": "2026-03-07T01:20:54.979Z"
+          "created_at": "2026-03-07T03:31:41.751Z",
+          "updated_at": "2026-03-07T03:31:41.751Z"
         }
       ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
-      "scrape_duration_ms": 0
-    },
-    "projectdiscovery": {
-      "display_name": "Projectdiscovery",
-      "url": "https://algora.io/projectdiscovery/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
-      "bounties": [
-        {
-          "id": "projectdiscovery#6674",
-          "title": "Replace panic with error handling in template loader when dialers are missing",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:17.729Z",
-          "updated_at": "2026-03-07T01:21:17.729Z"
-        },
-        {
-          "id": "projectdiscovery#7086",
-          "title": "XSS Context Analyzer misclassifies javascript: URIs and JSON script blocks",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/7086",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:17.831Z",
-          "updated_at": "2026-03-07T01:21:17.831Z"
-        },
-        {
-          "id": "projectdiscovery#819",
-          "title": "tlsx hangs indefinitely for some hosts",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/tlsx/issues/819",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:17.962Z",
-          "updated_at": "2026-03-07T01:21:17.962Z"
-        },
-        {
-          "id": "projectdiscovery#6532",
-          "title": "Integrate typos tool into CI",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.085Z",
-          "updated_at": "2026-03-07T01:21:18.085Z"
-        },
-        {
-          "id": "projectdiscovery#1367",
-          "title": "Feature / Question: go-tree-sitter dependency",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1367",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.225Z",
-          "updated_at": "2026-03-07T01:21:18.225Z"
-        },
-        {
-          "id": "projectdiscovery#2063",
-          "title": "Add PDF export option",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/2063",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.373Z",
-          "updated_at": "2026-03-07T01:21:18.373Z"
-        },
-        {
-          "id": "projectdiscovery#5838",
-          "title": "XSS Context Analyzer",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/5838",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.519Z",
-          "updated_at": "2026-03-07T01:21:18.519Z"
-        },
-        {
-          "id": "projectdiscovery#1367",
-          "title": "Feature / Question: go-tree-sitter dependency",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/katana/issues/1367",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.526Z",
-          "updated_at": "2026-03-07T01:21:18.526Z"
-        },
-        {
-          "id": "projectdiscovery#5567",
-          "title": "[FEATURE] Template Profile Improvements",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/5567",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.638Z",
-          "updated_at": "2026-03-07T01:21:18.638Z"
-        },
-        {
-          "id": "projectdiscovery#6403",
-          "title": "[FEATURE] Add honeypot detection to nuclei",
-          "amount_usd": 100,
-          "url": "https://github.com/projectdiscovery/nuclei/issues/6403",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.743Z",
-          "updated_at": "2026-03-07T01:21:18.743Z"
-        }
-      ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
-      "scrape_duration_ms": 0
-    },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 8,
-      "total_value_usd": 800,
-      "bounties": [
-        {
-          "id": "cal#18947",
-          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18947",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.134Z",
-          "updated_at": "2026-03-07T01:21:18.134Z"
-        },
-        {
-          "id": "cal#18992",
-          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18992",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.274Z",
-          "updated_at": "2026-03-07T01:21:18.274Z"
-        },
-        {
-          "id": "cal#18987",
-          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/18987",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.403Z",
-          "updated_at": "2026-03-07T01:21:18.403Z"
-        },
-        {
-          "id": "cal#16378",
-          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/16378",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.614Z",
-          "updated_at": "2026-03-07T01:21:18.614Z"
-        },
-        {
-          "id": "cal#13532",
-          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/13532",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.769Z",
-          "updated_at": "2026-03-07T01:21:18.769Z"
-        },
-        {
-          "id": "cal#2",
-          "title": "Plans on weights?",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/sans/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:18.938Z",
-          "updated_at": "2026-03-07T01:21:18.938Z"
-        },
-        {
-          "id": "cal#1985",
-          "title": "[CAL-3105] BigBlueButton Integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/1985",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:19.110Z",
-          "updated_at": "2026-03-07T01:21:19.110Z"
-        },
-        {
-          "id": "cal#5756",
-          "title": "Proton Calendar Integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.com/issues/5756",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:19.271Z",
-          "updated_at": "2026-03-07T01:21:19.271Z"
-        }
-      ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
-      "scrape_duration_ms": 0
-    },
-    "qdrant": {
-      "display_name": "Qdrant",
-      "url": "https://algora.io/qdrant/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "qdrant#3322",
-          "title": "Per-collection metrics for Prometheus",
-          "amount_usd": 100,
-          "url": "https://github.com/qdrant/qdrant/issues/3322",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:19.928Z",
-          "updated_at": "2026-03-07T01:21:19.928Z"
-        }
-      ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
-      "scrape_duration_ms": 0
-    },
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
-      "bounties": [
-        {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
-          "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-03-07T01:21:19.941Z",
-          "updated_at": "2026-03-07T01:21:19.941Z"
-        }
-      ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
+      "last_updated": "2026-03-07T03:32:36.549Z",
       "scrape_duration_ms": 0
     },
     "keephq": {
@@ -298,8 +88,8 @@
           "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:21:19.996Z",
-          "updated_at": "2026-03-07T01:21:19.996Z"
+          "created_at": "2026-03-07T03:32:23.372Z",
+          "updated_at": "2026-03-07T03:32:23.372Z"
         },
         {
           "id": "keephq#3526",
@@ -308,8 +98,8 @@
           "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:21:20.127Z",
-          "updated_at": "2026-03-07T01:21:20.127Z"
+          "created_at": "2026-03-07T03:32:23.490Z",
+          "updated_at": "2026-03-07T03:32:23.490Z"
         },
         {
           "id": "keephq#2112",
@@ -318,17 +108,217 @@
           "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-07T01:21:20.250Z",
-          "updated_at": "2026-03-07T01:21:20.250Z"
+          "created_at": "2026-03-07T03:32:23.619Z",
+          "updated_at": "2026-03-07T03:32:23.619Z"
         }
       ],
-      "last_updated": "2026-03-07T01:21:38.868Z",
+      "last_updated": "2026-03-07T03:32:36.549Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 8,
+      "total_value_usd": 800,
+      "bounties": [
+        {
+          "id": "cal#18947",
+          "title": "[CAL-5091] additional settings: \"add team member as optional guest",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18947",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.365Z",
+          "updated_at": "2026-03-07T03:32:25.365Z"
+        },
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.519Z",
+          "updated_at": "2026-03-07T03:32:25.519Z"
+        },
+        {
+          "id": "cal#18987",
+          "title": "[CAL-5097] add the same \"booking questions\" to routing forms",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/18987",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.664Z",
+          "updated_at": "2026-03-07T03:32:25.664Z"
+        },
+        {
+          "id": "cal#16378",
+          "title": "[CAL-4531] Take into account guest's availability when rescheduling",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/16378",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.809Z",
+          "updated_at": "2026-03-07T03:32:25.809Z"
+        },
+        {
+          "id": "cal#13532",
+          "title": "[CAL-3076] allow emails and invite people to a team event-type directly from \"assignment\" if not in team yet",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/13532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.971Z",
+          "updated_at": "2026-03-07T03:32:25.971Z"
+        },
+        {
+          "id": "cal#2",
+          "title": "Plans on weights?",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/sans/issues/2",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.161Z",
+          "updated_at": "2026-03-07T03:32:26.161Z"
+        },
+        {
+          "id": "cal#1985",
+          "title": "[CAL-3105] BigBlueButton Integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/1985",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.325Z",
+          "updated_at": "2026-03-07T03:32:26.325Z"
+        },
+        {
+          "id": "cal#5756",
+          "title": "Proton Calendar Integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.com/issues/5756",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.525Z",
+          "updated_at": "2026-03-07T03:32:26.525Z"
+        }
+      ],
+      "last_updated": "2026-03-07T03:32:36.549Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.237Z",
+          "updated_at": "2026-03-07T03:32:25.237Z"
+        },
+        {
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.254Z",
+          "updated_at": "2026-03-07T03:32:25.254Z"
+        },
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.391Z",
+          "updated_at": "2026-03-07T03:32:25.391Z"
+        },
+        {
+          "id": "tscircuit#419",
+          "title": "Texture Support (PCB should have texture on box)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/3d-viewer/issues/534",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.595Z",
+          "updated_at": "2026-03-07T03:32:25.595Z"
+        },
+        {
+          "id": "tscircuit#1081",
+          "title": "Make sure kicad component components create courtyards",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1081",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.719Z",
+          "updated_at": "2026-03-07T03:32:25.719Z"
+        },
+        {
+          "id": "tscircuit#386",
+          "title": "Add support for qfn32",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:25.968Z",
+          "updated_at": "2026-03-07T03:32:25.968Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.090Z",
+          "updated_at": "2026-03-07T03:32:26.090Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.209Z",
+          "updated_at": "2026-03-07T03:32:26.209Z"
+        },
+        {
+          "id": "tscircuit#939",
+          "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.428Z",
+          "updated_at": "2026-03-07T03:32:26.428Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-07T03:32:26.548Z",
+          "updated_at": "2026-03-07T03:32:26.548Z"
+        }
+      ],
+      "last_updated": "2026-03-07T03:32:36.549Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 190221,
+    "processing_time_ms": 148397,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -337,114 +327,114 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "projectdiscovery",
-        "display_name": "Projectdiscovery",
-        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
         "bounty_count": 10,
         "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "projectdiscovery#6674",
-            "title": "Replace panic with error handling in template loader when dialers are missing",
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:17.729Z",
-            "updated_at": "2026-03-07T01:21:17.729Z"
+            "created_at": "2026-03-07T03:32:25.237Z",
+            "updated_at": "2026-03-07T03:32:25.237Z"
           },
           {
-            "id": "projectdiscovery#7086",
-            "title": "XSS Context Analyzer misclassifies javascript: URIs and JSON script blocks",
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/7086",
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:17.831Z",
-            "updated_at": "2026-03-07T01:21:17.831Z"
+            "created_at": "2026-03-07T03:32:25.254Z",
+            "updated_at": "2026-03-07T03:32:25.254Z"
           },
           {
-            "id": "projectdiscovery#819",
-            "title": "tlsx hangs indefinitely for some hosts",
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/tlsx/issues/819",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:17.962Z",
-            "updated_at": "2026-03-07T01:21:17.962Z"
+            "created_at": "2026-03-07T03:32:25.391Z",
+            "updated_at": "2026-03-07T03:32:25.391Z"
           },
           {
-            "id": "projectdiscovery#6532",
-            "title": "Integrate typos tool into CI",
+            "id": "tscircuit#419",
+            "title": "Texture Support (PCB should have texture on box)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "url": "https://github.com/tscircuit/3d-viewer/issues/534",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.085Z",
-            "updated_at": "2026-03-07T01:21:18.085Z"
+            "created_at": "2026-03-07T03:32:25.595Z",
+            "updated_at": "2026-03-07T03:32:25.595Z"
           },
           {
-            "id": "projectdiscovery#1367",
-            "title": "Feature / Question: go-tree-sitter dependency",
+            "id": "tscircuit#1081",
+            "title": "Make sure kicad component components create courtyards",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1367",
+            "url": "https://github.com/tscircuit/tscircuit/issues/1081",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.225Z",
-            "updated_at": "2026-03-07T01:21:18.225Z"
+            "created_at": "2026-03-07T03:32:25.719Z",
+            "updated_at": "2026-03-07T03:32:25.719Z"
           },
           {
-            "id": "projectdiscovery#2063",
-            "title": "Add PDF export option",
+            "id": "tscircuit#386",
+            "title": "Add support for qfn32",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/2063",
+            "url": "https://github.com/tscircuit/jscad-electronics/issues/139",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.373Z",
-            "updated_at": "2026-03-07T01:21:18.373Z"
+            "created_at": "2026-03-07T03:32:25.968Z",
+            "updated_at": "2026-03-07T03:32:25.968Z"
           },
           {
-            "id": "projectdiscovery#5838",
-            "title": "XSS Context Analyzer",
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/5838",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.519Z",
-            "updated_at": "2026-03-07T01:21:18.519Z"
+            "created_at": "2026-03-07T03:32:26.090Z",
+            "updated_at": "2026-03-07T03:32:26.090Z"
           },
           {
-            "id": "projectdiscovery#1367",
-            "title": "Feature / Question: go-tree-sitter dependency",
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/katana/issues/1367",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.526Z",
-            "updated_at": "2026-03-07T01:21:18.526Z"
+            "created_at": "2026-03-07T03:32:26.209Z",
+            "updated_at": "2026-03-07T03:32:26.209Z"
           },
           {
-            "id": "projectdiscovery#5567",
-            "title": "[FEATURE] Template Profile Improvements",
+            "id": "tscircuit#939",
+            "title": "Figure out why documentation isn't rendering reference designators (Vercel renders with box fonts)",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/5567",
+            "url": "https://github.com/tscircuit/svg.tscircuit.com/issues/427",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.638Z",
-            "updated_at": "2026-03-07T01:21:18.638Z"
+            "created_at": "2026-03-07T03:32:26.428Z",
+            "updated_at": "2026-03-07T03:32:26.428Z"
           },
           {
-            "id": "projectdiscovery#6403",
-            "title": "[FEATURE] Add honeypot detection to nuclei",
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
             "amount_usd": 100,
-            "url": "https://github.com/projectdiscovery/nuclei/issues/6403",
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.743Z",
-            "updated_at": "2026-03-07T01:21:18.743Z"
+            "created_at": "2026-03-07T03:32:26.548Z",
+            "updated_at": "2026-03-07T03:32:26.548Z"
           }
         ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
+        "last_updated": "2026-03-07T03:32:36.549Z",
         "scrape_duration_ms": 0
       },
       {
@@ -461,8 +451,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18947",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.134Z",
-            "updated_at": "2026-03-07T01:21:18.134Z"
+            "created_at": "2026-03-07T03:32:25.365Z",
+            "updated_at": "2026-03-07T03:32:25.365Z"
           },
           {
             "id": "cal#18992",
@@ -471,8 +461,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18992",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.274Z",
-            "updated_at": "2026-03-07T01:21:18.274Z"
+            "created_at": "2026-03-07T03:32:25.519Z",
+            "updated_at": "2026-03-07T03:32:25.519Z"
           },
           {
             "id": "cal#18987",
@@ -481,8 +471,8 @@
             "url": "https://github.com/calcom/cal.com/issues/18987",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.403Z",
-            "updated_at": "2026-03-07T01:21:18.403Z"
+            "created_at": "2026-03-07T03:32:25.664Z",
+            "updated_at": "2026-03-07T03:32:25.664Z"
           },
           {
             "id": "cal#16378",
@@ -491,8 +481,8 @@
             "url": "https://github.com/calcom/cal.com/issues/16378",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.614Z",
-            "updated_at": "2026-03-07T01:21:18.614Z"
+            "created_at": "2026-03-07T03:32:25.809Z",
+            "updated_at": "2026-03-07T03:32:25.809Z"
           },
           {
             "id": "cal#13532",
@@ -501,8 +491,8 @@
             "url": "https://github.com/calcom/cal.com/issues/13532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.769Z",
-            "updated_at": "2026-03-07T01:21:18.769Z"
+            "created_at": "2026-03-07T03:32:25.971Z",
+            "updated_at": "2026-03-07T03:32:25.971Z"
           },
           {
             "id": "cal#2",
@@ -511,8 +501,8 @@
             "url": "https://github.com/calcom/sans/issues/2",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:18.938Z",
-            "updated_at": "2026-03-07T01:21:18.938Z"
+            "created_at": "2026-03-07T03:32:26.161Z",
+            "updated_at": "2026-03-07T03:32:26.161Z"
           },
           {
             "id": "cal#1985",
@@ -521,8 +511,8 @@
             "url": "https://github.com/calcom/cal.com/issues/1985",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:19.110Z",
-            "updated_at": "2026-03-07T01:21:19.110Z"
+            "created_at": "2026-03-07T03:32:26.325Z",
+            "updated_at": "2026-03-07T03:32:26.325Z"
           },
           {
             "id": "cal#5756",
@@ -531,52 +521,52 @@
             "url": "https://github.com/calcom/cal.com/issues/5756",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:19.271Z",
-            "updated_at": "2026-03-07T01:21:19.271Z"
+            "created_at": "2026-03-07T03:32:26.525Z",
+            "updated_at": "2026-03-07T03:32:26.525Z"
           }
         ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
+        "last_updated": "2026-03-07T03:32:36.549Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
         "bounty_count": 3,
         "total_value_usd": 300,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:20:54.694Z",
-            "updated_at": "2026-03-07T01:20:54.694Z"
+            "created_at": "2026-03-07T03:31:41.223Z",
+            "updated_at": "2026-03-07T03:31:41.223Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "mudlet#689",
+            "title": "Support telnet:// links",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:20:54.835Z",
-            "updated_at": "2026-03-07T01:20:54.835Z"
+            "created_at": "2026-03-07T03:31:41.542Z",
+            "updated_at": "2026-03-07T03:31:41.542Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:20:54.979Z",
-            "updated_at": "2026-03-07T01:20:54.979Z"
+            "created_at": "2026-03-07T03:31:41.751Z",
+            "updated_at": "2026-03-07T03:31:41.751Z"
           }
         ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
+        "last_updated": "2026-03-07T03:32:36.549Z",
         "scrape_duration_ms": 0
       },
       {
@@ -593,8 +583,8 @@
             "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:19.996Z",
-            "updated_at": "2026-03-07T01:21:19.996Z"
+            "created_at": "2026-03-07T03:32:23.372Z",
+            "updated_at": "2026-03-07T03:32:23.372Z"
           },
           {
             "id": "keephq#3526",
@@ -603,8 +593,8 @@
             "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:20.127Z",
-            "updated_at": "2026-03-07T01:21:20.127Z"
+            "created_at": "2026-03-07T03:32:23.490Z",
+            "updated_at": "2026-03-07T03:32:23.490Z"
           },
           {
             "id": "keephq#2112",
@@ -613,53 +603,42 @@
             "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:20.250Z",
-            "updated_at": "2026-03-07T01:21:20.250Z"
+            "created_at": "2026-03-07T03:32:23.619Z",
+            "updated_at": "2026-03-07T03:32:23.619Z"
           }
         ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
+        "last_updated": "2026-03-07T03:32:36.549Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "qdrant",
-        "display_name": "Qdrant",
-        "url": "https://algora.io/qdrant/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "qdrant#3322",
-            "title": "Per-collection metrics for Prometheus",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/qdrant/qdrant/issues/3322",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:19.928Z",
-            "updated_at": "2026-03-07T01:21:19.928Z"
-          }
-        ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
-        "scrape_duration_ms": 0
-      },
-      {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
-        "bounties": [
+            "created_at": "2026-03-07T03:31:41.222Z",
+            "updated_at": "2026-03-07T03:31:41.222Z"
+          },
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-07T01:21:19.941Z",
-            "updated_at": "2026-03-07T01:21:19.941Z"
+            "created_at": "2026-03-07T03:31:41.487Z",
+            "updated_at": "2026-03-07T03:31:41.487Z"
           }
         ],
-        "last_updated": "2026-03-07T01:21:38.868Z",
+        "last_updated": "2026-03-07T03:32:36.549Z",
         "scrape_duration_ms": 0
       }
     ]
