@@ -1,34 +1,74 @@
 {
-  "generated_at": "2026-03-16T17:46:41.529Z",
-  "total_organizations": 1,
-  "total_bounties": 1,
-  "total_value_usd": 100,
+  "generated_at": "2026-03-16T18:41:17.286Z",
+  "total_organizations": 2,
+  "total_bounties": 4,
+  "total_value_usd": 400,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+    "Mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/Mudlet/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "Mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-16T18:40:58.108Z",
+          "updated_at": "2026-03-16T18:40:58.108Z"
+        },
+        {
+          "id": "Mudlet#689",
+          "title": "Support telnet:// links",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/689",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-16T18:40:58.246Z",
+          "updated_at": "2026-03-16T18:40:58.246Z"
+        },
+        {
+          "id": "Mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-03-16T18:40:58.376Z",
+          "updated_at": "2026-03-16T18:40:58.376Z"
+        }
+      ],
+      "last_updated": "2026-03-16T18:41:17.286Z",
+      "scrape_duration_ms": 0
+    },
+    "onyx-dot-app": {
+      "display_name": "Onyx-dot-app",
+      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "onyx-dot-app#2281",
+          "title": "Jira Service Management Connector",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
           "status": "open",
           "tags": [],
-          "created_at": "2026-03-16T17:46:22.746Z",
-          "updated_at": "2026-03-16T17:46:22.746Z"
+          "created_at": "2026-03-16T18:40:58.556Z",
+          "updated_at": "2026-03-16T18:40:58.556Z"
         }
       ],
-      "last_updated": "2026-03-16T17:46:41.529Z",
+      "last_updated": "2026-03-16T18:41:17.286Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 183497,
+    "processing_time_ms": 195449,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -37,24 +77,65 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "handle": "Mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "Mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-03-16T18:40:58.108Z",
+            "updated_at": "2026-03-16T18:40:58.108Z"
+          },
+          {
+            "id": "Mudlet#689",
+            "title": "Support telnet:// links",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/689",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-03-16T18:40:58.246Z",
+            "updated_at": "2026-03-16T18:40:58.246Z"
+          },
+          {
+            "id": "Mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-03-16T18:40:58.376Z",
+            "updated_at": "2026-03-16T18:40:58.376Z"
+          }
+        ],
+        "last_updated": "2026-03-16T18:41:17.286Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "onyx-dot-app",
+        "display_name": "Onyx-dot-app",
+        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "onyx-dot-app#2281",
+            "title": "Jira Service Management Connector",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
             "status": "open",
             "tags": [],
-            "created_at": "2026-03-16T17:46:22.746Z",
-            "updated_at": "2026-03-16T17:46:22.746Z"
+            "created_at": "2026-03-16T18:40:58.556Z",
+            "updated_at": "2026-03-16T18:40:58.556Z"
           }
         ],
-        "last_updated": "2026-03-16T17:46:41.529Z",
+        "last_updated": "2026-03-16T18:41:17.286Z",
         "scrape_duration_ms": 0
       }
     ]
