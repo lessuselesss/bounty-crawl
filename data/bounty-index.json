@@ -1,84 +1,334 @@
 {
-  "generated_at": "2026-04-28T11:29:30.786Z",
-  "total_organizations": 2,
-  "total_bounties": 5,
-  "total_value_usd": 500,
+  "generated_at": "2026-04-28T13:10:42.064Z",
+  "total_organizations": 5,
+  "total_bounties": 27,
+  "total_value_usd": 2700,
   "version": "3.0.0",
   "organizations": {
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "tscircuit#34",
+          "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T11:27:54.124Z",
-          "updated_at": "2026-04-28T11:27:54.124Z"
+          "created_at": "2026-04-28T13:10:11.087Z",
+          "updated_at": "2026-04-28T13:10:11.087Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "tscircuit#29",
+          "title": "New Phase To combine same-net trace segments that are close together",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T11:27:54.764Z",
-          "updated_at": "2026-04-28T11:27:54.764Z"
+          "created_at": "2026-04-28T13:10:11.274Z",
+          "updated_at": "2026-04-28T13:10:11.274Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T11:27:55.167Z",
-          "updated_at": "2026-04-28T11:27:55.167Z"
+          "created_at": "2026-04-28T13:10:11.490Z",
+          "updated_at": "2026-04-28T13:10:11.490Z"
+        },
+        {
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:11.524Z",
+          "updated_at": "2026-04-28T13:10:11.524Z"
+        },
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:11.736Z",
+          "updated_at": "2026-04-28T13:10:11.736Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:12.000Z",
+          "updated_at": "2026-04-28T13:10:12.000Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:12.219Z",
+          "updated_at": "2026-04-28T13:10:12.219Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:12.429Z",
+          "updated_at": "2026-04-28T13:10:12.429Z"
+        },
+        {
+          "id": "tscircuit#2",
+          "title": "Finish the RP2040-zero board",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/rp2040-zero/issues/2",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:12.611Z",
+          "updated_at": "2026-04-28T13:10:12.611Z"
+        },
+        {
+          "id": "tscircuit#15",
+          "title": "Specialized Layout for Decoupling Capacitors",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/matchpack/issues/15",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:12.834Z",
+          "updated_at": "2026-04-28T13:10:12.834Z"
         }
       ],
-      "last_updated": "2026-04-28T11:29:30.786Z",
+      "last_updated": "2026-04-28T13:10:42.064Z",
       "scrape_duration_ms": 0
     },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:21.947Z",
+          "updated_at": "2026-04-28T13:10:21.947Z"
+        }
+      ],
+      "last_updated": "2026-04-28T13:10:42.064Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T11:28:41.067Z",
-          "updated_at": "2026-04-28T11:28:41.067Z"
+          "created_at": "2026-04-28T13:10:23.274Z",
+          "updated_at": "2026-04-28T13:10:23.274Z"
         },
         {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
           "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T11:28:41.303Z",
-          "updated_at": "2026-04-28T11:28:41.303Z"
+          "created_at": "2026-04-28T13:10:23.496Z",
+          "updated_at": "2026-04-28T13:10:23.496Z"
         }
       ],
-      "last_updated": "2026-04-28T11:29:30.786Z",
+      "last_updated": "2026-04-28T13:10:42.064Z",
+      "scrape_duration_ms": 0
+    },
+    "cal": {
+      "display_name": "Cal",
+      "url": "https://algora.io/cal/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "cal#18992",
+          "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.diy/issues/18992",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:23.497Z",
+          "updated_at": "2026-04-28T13:10:23.497Z"
+        },
+        {
+          "id": "cal#2",
+          "title": "Plans on weights?",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/sans/issues/2",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:23.763Z",
+          "updated_at": "2026-04-28T13:10:23.763Z"
+        },
+        {
+          "id": "cal#1985",
+          "title": "[CAL-3105] BigBlueButton Integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.diy/issues/1985",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.037Z",
+          "updated_at": "2026-04-28T13:10:24.037Z"
+        },
+        {
+          "id": "cal#5756",
+          "title": "Proton Calendar Integration",
+          "amount_usd": 100,
+          "url": "https://github.com/calcom/cal.diy/issues/5756",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.313Z",
+          "updated_at": "2026-04-28T13:10:24.313Z"
+        }
+      ],
+      "last_updated": "2026-04-28T13:10:42.064Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#8264",
+          "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8264",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.130Z",
+          "updated_at": "2026-04-28T13:10:24.130Z"
+        },
+        {
+          "id": "coollabsio#8266",
+          "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8266",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.370Z",
+          "updated_at": "2026-04-28T13:10:24.370Z"
+        },
+        {
+          "id": "coollabsio#8232",
+          "title": "[Enhancement]: Add Open Replay",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8232",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.585Z",
+          "updated_at": "2026-04-28T13:10:24.585Z"
+        },
+        {
+          "id": "coollabsio#8042",
+          "title": "[Enhancement]: OAUTH only self registering.",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8042",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:24.790Z",
+          "updated_at": "2026-04-28T13:10:24.790Z"
+        },
+        {
+          "id": "coollabsio#7655",
+          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:25.070Z",
+          "updated_at": "2026-04-28T13:10:25.070Z"
+        },
+        {
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:25.413Z",
+          "updated_at": "2026-04-28T13:10:25.413Z"
+        },
+        {
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:25.621Z",
+          "updated_at": "2026-04-28T13:10:25.621Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Integrated backups for Git based Docker Composes",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:25.946Z",
+          "updated_at": "2026-04-28T13:10:25.946Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:26.179Z",
+          "updated_at": "2026-04-28T13:10:26.179Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T13:10:26.373Z",
+          "updated_at": "2026-04-28T13:10:26.373Z"
+        }
+      ],
+      "last_updated": "2026-04-28T13:10:42.064Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 166953,
+    "processing_time_ms": 55766,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -87,75 +337,328 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "tscircuit#34",
+            "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T11:27:54.124Z",
-            "updated_at": "2026-04-28T11:27:54.124Z"
+            "created_at": "2026-04-28T13:10:11.087Z",
+            "updated_at": "2026-04-28T13:10:11.087Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "tscircuit#29",
+            "title": "New Phase To combine same-net trace segments that are close together",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T11:27:54.764Z",
-            "updated_at": "2026-04-28T11:27:54.764Z"
+            "created_at": "2026-04-28T13:10:11.274Z",
+            "updated_at": "2026-04-28T13:10:11.274Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T11:27:55.167Z",
-            "updated_at": "2026-04-28T11:27:55.167Z"
+            "created_at": "2026-04-28T13:10:11.490Z",
+            "updated_at": "2026-04-28T13:10:11.490Z"
+          },
+          {
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:11.524Z",
+            "updated_at": "2026-04-28T13:10:11.524Z"
+          },
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:11.736Z",
+            "updated_at": "2026-04-28T13:10:11.736Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:12.000Z",
+            "updated_at": "2026-04-28T13:10:12.000Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:12.219Z",
+            "updated_at": "2026-04-28T13:10:12.219Z"
+          },
+          {
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:12.429Z",
+            "updated_at": "2026-04-28T13:10:12.429Z"
+          },
+          {
+            "id": "tscircuit#2",
+            "title": "Finish the RP2040-zero board",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/rp2040-zero/issues/2",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:12.611Z",
+            "updated_at": "2026-04-28T13:10:12.611Z"
+          },
+          {
+            "id": "tscircuit#15",
+            "title": "Specialized Layout for Decoupling Capacitors",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/matchpack/issues/15",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:12.834Z",
+            "updated_at": "2026-04-28T13:10:12.834Z"
           }
         ],
-        "last_updated": "2026-04-28T11:29:30.786Z",
+        "last_updated": "2026-04-28T13:10:42.064Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#8264",
+            "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8264",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.130Z",
+            "updated_at": "2026-04-28T13:10:24.130Z"
+          },
+          {
+            "id": "coollabsio#8266",
+            "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8266",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.370Z",
+            "updated_at": "2026-04-28T13:10:24.370Z"
+          },
+          {
+            "id": "coollabsio#8232",
+            "title": "[Enhancement]: Add Open Replay",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8232",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.585Z",
+            "updated_at": "2026-04-28T13:10:24.585Z"
+          },
+          {
+            "id": "coollabsio#8042",
+            "title": "[Enhancement]: OAUTH only self registering.",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8042",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.790Z",
+            "updated_at": "2026-04-28T13:10:24.790Z"
+          },
+          {
+            "id": "coollabsio#7655",
+            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7655",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:25.070Z",
+            "updated_at": "2026-04-28T13:10:25.070Z"
+          },
+          {
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:25.413Z",
+            "updated_at": "2026-04-28T13:10:25.413Z"
+          },
+          {
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:25.621Z",
+            "updated_at": "2026-04-28T13:10:25.621Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Integrated backups for Git based Docker Composes",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:25.946Z",
+            "updated_at": "2026-04-28T13:10:25.946Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:26.179Z",
+            "updated_at": "2026-04-28T13:10:26.179Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:26.373Z",
+            "updated_at": "2026-04-28T13:10:26.373Z"
+          }
+        ],
+        "last_updated": "2026-04-28T13:10:42.064Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "cal",
+        "display_name": "Cal",
+        "url": "https://algora.io/cal/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "cal#18992",
+            "title": "[CAL-5107] add no-show to zapier (its a webhook only right now)",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.diy/issues/18992",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:23.497Z",
+            "updated_at": "2026-04-28T13:10:23.497Z"
+          },
+          {
+            "id": "cal#2",
+            "title": "Plans on weights?",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/sans/issues/2",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:23.763Z",
+            "updated_at": "2026-04-28T13:10:23.763Z"
+          },
+          {
+            "id": "cal#1985",
+            "title": "[CAL-3105] BigBlueButton Integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.diy/issues/1985",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.037Z",
+            "updated_at": "2026-04-28T13:10:24.037Z"
+          },
+          {
+            "id": "cal#5756",
+            "title": "Proton Calendar Integration",
+            "amount_usd": 100,
+            "url": "https://github.com/calcom/cal.diy/issues/5756",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:24.313Z",
+            "updated_at": "2026-04-28T13:10:24.313Z"
+          }
+        ],
+        "last_updated": "2026-04-28T13:10:42.064Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T11:28:41.067Z",
-            "updated_at": "2026-04-28T11:28:41.067Z"
+            "created_at": "2026-04-28T13:10:23.274Z",
+            "updated_at": "2026-04-28T13:10:23.274Z"
           },
           {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T11:28:41.303Z",
-            "updated_at": "2026-04-28T11:28:41.303Z"
+            "created_at": "2026-04-28T13:10:23.496Z",
+            "updated_at": "2026-04-28T13:10:23.496Z"
           }
         ],
-        "last_updated": "2026-04-28T11:29:30.786Z",
+        "last_updated": "2026-04-28T13:10:42.064Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T13:10:21.947Z",
+            "updated_at": "2026-04-28T13:10:21.947Z"
+          }
+        ],
+        "last_updated": "2026-04-28T13:10:42.064Z",
         "scrape_duration_ms": 0
       }
     ]
