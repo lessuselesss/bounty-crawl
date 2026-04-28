@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-28T01:24:04.233Z",
+  "generated_at": "2026-04-28T04:54:07.514Z",
   "total_organizations": 3,
-  "total_bounties": 5,
-  "total_value_usd": 500,
+  "total_bounties": 6,
+  "total_value_usd": 600,
   "version": "3.0.0",
   "organizations": {
     "triggerdotdev": {
@@ -18,41 +18,11 @@
           "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T01:23:17.502Z",
-          "updated_at": "2026-04-28T01:23:17.502Z"
+          "created_at": "2026-04-28T04:53:26.252Z",
+          "updated_at": "2026-04-28T04:53:26.252Z"
         }
       ],
-      "last_updated": "2026-04-28T01:24:04.233Z",
-      "scrape_duration_ms": 0
-    },
-    "mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/mudlet/bounties?status=open",
-      "bounty_count": 2,
-      "total_value_usd": 200,
-      "bounties": [
-        {
-          "id": "mudlet#3172",
-          "title": "generic mapper: add video walkthrough on how to set it up",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-28T01:23:17.502Z",
-          "updated_at": "2026-04-28T01:23:17.502Z"
-        },
-        {
-          "id": "mudlet#5310",
-          "title": "Autocomplete steals window focus, prevents further typing",
-          "amount_usd": 100,
-          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-28T01:23:17.740Z",
-          "updated_at": "2026-04-28T01:23:17.740Z"
-        }
-      ],
-      "last_updated": "2026-04-28T01:24:04.233Z",
+      "last_updated": "2026-04-28T04:54:07.514Z",
       "scrape_duration_ms": 0
     },
     "projectdiscovery": {
@@ -68,8 +38,8 @@
           "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T01:23:17.572Z",
-          "updated_at": "2026-04-28T01:23:17.572Z"
+          "created_at": "2026-04-28T04:53:26.314Z",
+          "updated_at": "2026-04-28T04:53:26.314Z"
         },
         {
           "id": "projectdiscovery#6532",
@@ -78,17 +48,57 @@
           "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-28T01:23:17.768Z",
-          "updated_at": "2026-04-28T01:23:17.768Z"
+          "created_at": "2026-04-28T04:53:32.306Z",
+          "updated_at": "2026-04-28T04:53:32.306Z"
         }
       ],
-      "last_updated": "2026-04-28T01:24:04.233Z",
+      "last_updated": "2026-04-28T04:54:07.514Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T04:53:26.314Z",
+          "updated_at": "2026-04-28T04:53:26.314Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T04:53:32.306Z",
+          "updated_at": "2026-04-28T04:53:32.306Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-28T04:53:32.863Z",
+          "updated_at": "2026-04-28T04:53:32.863Z"
+        }
+      ],
+      "last_updated": "2026-04-28T04:54:07.514Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 114589,
+    "processing_time_ms": 97971,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -97,34 +107,44 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/mudlet/bounties?status=open",
-        "bounty_count": 2,
-        "total_value_usd": 200,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "mudlet#3172",
-            "title": "generic mapper: add video walkthrough on how to set it up",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T01:23:17.502Z",
-            "updated_at": "2026-04-28T01:23:17.502Z"
+            "created_at": "2026-04-28T04:53:26.314Z",
+            "updated_at": "2026-04-28T04:53:26.314Z"
           },
           {
-            "id": "mudlet#5310",
-            "title": "Autocomplete steals window focus, prevents further typing",
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
             "amount_usd": 100,
-            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "url": "https://github.com/prisma/prisma/issues/8548",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T01:23:17.740Z",
-            "updated_at": "2026-04-28T01:23:17.740Z"
+            "created_at": "2026-04-28T04:53:32.306Z",
+            "updated_at": "2026-04-28T04:53:32.306Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-28T04:53:32.863Z",
+            "updated_at": "2026-04-28T04:53:32.863Z"
           }
         ],
-        "last_updated": "2026-04-28T01:24:04.233Z",
+        "last_updated": "2026-04-28T04:54:07.514Z",
         "scrape_duration_ms": 0
       },
       {
@@ -141,8 +161,8 @@
             "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T01:23:17.572Z",
-            "updated_at": "2026-04-28T01:23:17.572Z"
+            "created_at": "2026-04-28T04:53:26.314Z",
+            "updated_at": "2026-04-28T04:53:26.314Z"
           },
           {
             "id": "projectdiscovery#6532",
@@ -151,11 +171,11 @@
             "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T01:23:17.768Z",
-            "updated_at": "2026-04-28T01:23:17.768Z"
+            "created_at": "2026-04-28T04:53:32.306Z",
+            "updated_at": "2026-04-28T04:53:32.306Z"
           }
         ],
-        "last_updated": "2026-04-28T01:24:04.233Z",
+        "last_updated": "2026-04-28T04:54:07.514Z",
         "scrape_duration_ms": 0
       },
       {
@@ -172,11 +192,11 @@
             "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-28T01:23:17.502Z",
-            "updated_at": "2026-04-28T01:23:17.502Z"
+            "created_at": "2026-04-28T04:53:26.252Z",
+            "updated_at": "2026-04-28T04:53:26.252Z"
           }
         ],
-        "last_updated": "2026-04-28T01:24:04.233Z",
+        "last_updated": "2026-04-28T04:54:07.514Z",
         "scrape_duration_ms": 0
       }
     ]
