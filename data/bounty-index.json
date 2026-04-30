@@ -1,154 +1,254 @@
 {
-  "generated_at": "2026-04-30T10:01:27.298Z",
-  "total_organizations": 2,
-  "total_bounties": 12,
-  "total_value_usd": 1200,
+  "generated_at": "2026-04-30T11:42:47.483Z",
+  "total_organizations": 7,
+  "total_bounties": 17,
+  "total_value_usd": 1700,
   "version": "3.0.0",
   "organizations": {
-    "Mudlet": {
-      "display_name": "Mudlet",
-      "url": "https://algora.io/Mudlet/bounties?status=open",
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
       "bounty_count": 2,
       "total_value_usd": 200,
       "bounties": [
         {
-          "id": "Mudlet#3172",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:19.827Z",
+          "updated_at": "2026-04-30T11:42:19.827Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:20.142Z",
+          "updated_at": "2026-04-30T11:42:20.142Z"
+        }
+      ],
+      "last_updated": "2026-04-30T11:42:47.483Z",
+      "scrape_duration_ms": 0
+    },
+    "PX4": {
+      "display_name": "PX4",
+      "url": "https://algora.io/PX4/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "PX4#19970",
+          "title": "[Project Tracker] Sensor configuration display UI",
+          "amount_usd": 100,
+          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:25.988Z",
+          "updated_at": "2026-04-30T11:42:25.988Z"
+        }
+      ],
+      "last_updated": "2026-04-30T11:42:47.483Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "projectdiscovery#6674",
+          "title": "Replace panic with error handling in template loader when dialers are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:25.746Z",
+          "updated_at": "2026-04-30T11:42:25.746Z"
+        },
+        {
+          "id": "projectdiscovery#6532",
+          "title": "Integrate typos tool into CI",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:26.032Z",
+          "updated_at": "2026-04-30T11:42:26.032Z"
+        }
+      ],
+      "last_updated": "2026-04-30T11:42:47.483Z",
+      "scrape_duration_ms": 0
+    },
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
+      "bounties": [
+        {
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8635",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:26.094Z",
+          "updated_at": "2026-04-30T11:42:26.094Z"
+        },
+        {
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8614",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:26.439Z",
+          "updated_at": "2026-04-30T11:42:26.439Z"
+        },
+        {
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/8032",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:26.687Z",
+          "updated_at": "2026-04-30T11:42:26.687Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:26.953Z",
+          "updated_at": "2026-04-30T11:42:26.953Z"
+        }
+      ],
+      "last_updated": "2026-04-30T11:42:47.483Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "mudlet#3172",
           "title": "generic mapper: add video walkthrough on how to set it up",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/3172",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:07.375Z",
-          "updated_at": "2026-04-30T10:01:07.375Z"
+          "created_at": "2026-04-30T11:42:26.727Z",
+          "updated_at": "2026-04-30T11:42:26.727Z"
         },
         {
-          "id": "Mudlet#5310",
+          "id": "mudlet#5310",
           "title": "Autocomplete steals window focus, prevents further typing",
           "amount_usd": 100,
           "url": "https://github.com/Mudlet/Mudlet/issues/5310",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:07.596Z",
-          "updated_at": "2026-04-30T10:01:07.596Z"
+          "created_at": "2026-04-30T11:42:26.991Z",
+          "updated_at": "2026-04-30T11:42:26.991Z"
         }
       ],
-      "last_updated": "2026-04-30T10:01:27.298Z",
+      "last_updated": "2026-04-30T11:42:47.483Z",
       "scrape_duration_ms": 0
     },
-    "tscircuit": {
-      "display_name": "Tscircuit",
-      "url": "https://algora.io/tscircuit/bounties?status=open",
-      "bounty_count": 10,
-      "total_value_usd": 1000,
+    "keephq": {
+      "display_name": "Keephq",
+      "url": "https://algora.io/keephq/bounties?status=open",
+      "bounty_count": 5,
+      "total_value_usd": 500,
       "bounties": [
         {
-          "id": "tscircuit#34",
-          "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+          "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:09.221Z",
-          "updated_at": "2026-04-30T10:01:09.221Z"
+          "created_at": "2026-04-30T11:42:26.437Z",
+          "updated_at": "2026-04-30T11:42:26.437Z"
         },
         {
-          "id": "tscircuit#29",
-          "title": "New Phase To combine same-net trace segments that are close together",
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+          "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:09.456Z",
-          "updated_at": "2026-04-30T10:01:09.456Z"
+          "created_at": "2026-04-30T11:42:26.457Z",
+          "updated_at": "2026-04-30T11:42:26.457Z"
         },
         {
-          "id": "tscircuit#54",
-          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "id": "keephq#3960",
+          "title": "[🔌 Provider]: Nagios Provider",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "url": "https://github.com/keephq/keep/issues/3960",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:09.782Z",
-          "updated_at": "2026-04-30T10:01:09.782Z"
+          "created_at": "2026-04-30T11:42:26.802Z",
+          "updated_at": "2026-04-30T11:42:26.802Z"
         },
         {
-          "id": "tscircuit#54",
-          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "id": "keephq#3526",
+          "title": "[🔌 Provider]: Solarwinds",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "url": "https://github.com/keephq/keep/issues/3526",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:09.803Z",
-          "updated_at": "2026-04-30T10:01:09.803Z"
+          "created_at": "2026-04-30T11:42:27.037Z",
+          "updated_at": "2026-04-30T11:42:27.037Z"
         },
         {
-          "id": "tscircuit#1130",
-          "title": "Change of color on hover for traces are missing",
+          "id": "keephq#2112",
+          "title": "[🔌 Provider]: SNMP provider",
           "amount_usd": 100,
-          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "url": "https://github.com/keephq/keep/issues/2112",
           "status": "open",
           "tags": [],
-          "created_at": "2026-04-30T10:01:10.095Z",
-          "updated_at": "2026-04-30T10:01:10.095Z"
-        },
-        {
-          "id": "tscircuit#79",
-          "title": "Fix extra net label in repro61, or remove trace",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-30T10:01:10.358Z",
-          "updated_at": "2026-04-30T10:01:10.358Z"
-        },
-        {
-          "id": "tscircuit#78",
-          "title": "Fix extra trace lines in post-processing step",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-30T10:01:10.624Z",
-          "updated_at": "2026-04-30T10:01:10.624Z"
-        },
-        {
-          "id": "tscircuit#6",
-          "title": "Determine why rectangles are missing in output",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-30T10:01:10.919Z",
-          "updated_at": "2026-04-30T10:01:10.919Z"
-        },
-        {
-          "id": "tscircuit#2",
-          "title": "Finish the RP2040-zero board",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/rp2040-zero/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-30T10:01:11.151Z",
-          "updated_at": "2026-04-30T10:01:11.151Z"
-        },
-        {
-          "id": "tscircuit#15",
-          "title": "Specialized Layout for Decoupling Capacitors",
-          "amount_usd": 100,
-          "url": "https://github.com/tscircuit/matchpack/issues/15",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-04-30T10:01:11.392Z",
-          "updated_at": "2026-04-30T10:01:11.392Z"
+          "created_at": "2026-04-30T11:42:27.058Z",
+          "updated_at": "2026-04-30T11:42:27.058Z"
         }
       ],
-      "last_updated": "2026-04-30T10:01:27.298Z",
+      "last_updated": "2026-04-30T11:42:47.483Z",
+      "scrape_duration_ms": 0
+    },
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-04-30T11:42:29.208Z",
+          "updated_at": "2026-04-30T11:42:29.208Z"
+        }
+      ],
+      "last_updated": "2026-04-30T11:42:47.483Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 59056,
+    "processing_time_ms": 54331,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -157,145 +257,250 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "tscircuit",
-        "display_name": "Tscircuit",
-        "url": "https://algora.io/tscircuit/bounties?status=open",
-        "bounty_count": 10,
-        "total_value_usd": 1000,
+        "handle": "keephq",
+        "display_name": "Keephq",
+        "url": "https://algora.io/keephq/bounties?status=open",
+        "bounty_count": 5,
+        "total_value_usd": 500,
         "bounties": [
           {
-            "id": "tscircuit#34",
-            "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:09.221Z",
-            "updated_at": "2026-04-30T10:01:09.221Z"
+            "created_at": "2026-04-30T11:42:26.437Z",
+            "updated_at": "2026-04-30T11:42:26.437Z"
           },
           {
-            "id": "tscircuit#29",
-            "title": "New Phase To combine same-net trace segments that are close together",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:09.456Z",
-            "updated_at": "2026-04-30T10:01:09.456Z"
+            "created_at": "2026-04-30T11:42:26.457Z",
+            "updated_at": "2026-04-30T11:42:26.457Z"
           },
           {
-            "id": "tscircuit#54",
-            "title": "We can't convert Smoothie Board to Circuit JSON",
+            "id": "keephq#3960",
+            "title": "[🔌 Provider]: Nagios Provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+            "url": "https://github.com/keephq/keep/issues/3960",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:09.782Z",
-            "updated_at": "2026-04-30T10:01:09.782Z"
+            "created_at": "2026-04-30T11:42:26.802Z",
+            "updated_at": "2026-04-30T11:42:26.802Z"
           },
           {
-            "id": "tscircuit#54",
-            "title": "We can't convert Smoothie Board to Circuit JSON",
+            "id": "keephq#3526",
+            "title": "[🔌 Provider]: Solarwinds",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+            "url": "https://github.com/keephq/keep/issues/3526",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:09.803Z",
-            "updated_at": "2026-04-30T10:01:09.803Z"
+            "created_at": "2026-04-30T11:42:27.037Z",
+            "updated_at": "2026-04-30T11:42:27.037Z"
           },
           {
-            "id": "tscircuit#1130",
-            "title": "Change of color on hover for traces are missing",
+            "id": "keephq#2112",
+            "title": "[🔌 Provider]: SNMP provider",
             "amount_usd": 100,
-            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "url": "https://github.com/keephq/keep/issues/2112",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:10.095Z",
-            "updated_at": "2026-04-30T10:01:10.095Z"
-          },
-          {
-            "id": "tscircuit#79",
-            "title": "Fix extra net label in repro61, or remove trace",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-04-30T10:01:10.358Z",
-            "updated_at": "2026-04-30T10:01:10.358Z"
-          },
-          {
-            "id": "tscircuit#78",
-            "title": "Fix extra trace lines in post-processing step",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-04-30T10:01:10.624Z",
-            "updated_at": "2026-04-30T10:01:10.624Z"
-          },
-          {
-            "id": "tscircuit#6",
-            "title": "Determine why rectangles are missing in output",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-04-30T10:01:10.919Z",
-            "updated_at": "2026-04-30T10:01:10.919Z"
-          },
-          {
-            "id": "tscircuit#2",
-            "title": "Finish the RP2040-zero board",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/rp2040-zero/issues/2",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-04-30T10:01:11.151Z",
-            "updated_at": "2026-04-30T10:01:11.151Z"
-          },
-          {
-            "id": "tscircuit#15",
-            "title": "Specialized Layout for Decoupling Capacitors",
-            "amount_usd": 100,
-            "url": "https://github.com/tscircuit/matchpack/issues/15",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-04-30T10:01:11.392Z",
-            "updated_at": "2026-04-30T10:01:11.392Z"
+            "created_at": "2026-04-30T11:42:27.058Z",
+            "updated_at": "2026-04-30T11:42:27.058Z"
           }
         ],
-        "last_updated": "2026-04-30T10:01:27.298Z",
+        "last_updated": "2026-04-30T11:42:47.483Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "Mudlet",
-        "display_name": "Mudlet",
-        "url": "https://algora.io/Mudlet/bounties?status=open",
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
+        "bounties": [
+          {
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8635",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:26.094Z",
+            "updated_at": "2026-04-30T11:42:26.094Z"
+          },
+          {
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8614",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:26.439Z",
+            "updated_at": "2026-04-30T11:42:26.439Z"
+          },
+          {
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/8032",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:26.687Z",
+            "updated_at": "2026-04-30T11:42:26.687Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:26.953Z",
+            "updated_at": "2026-04-30T11:42:26.953Z"
+          }
+        ],
+        "last_updated": "2026-04-30T11:42:47.483Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
         "bounty_count": 2,
         "total_value_usd": 200,
         "bounties": [
           {
-            "id": "Mudlet#3172",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:19.827Z",
+            "updated_at": "2026-04-30T11:42:19.827Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:20.142Z",
+            "updated_at": "2026-04-30T11:42:20.142Z"
+          }
+        ],
+        "last_updated": "2026-04-30T11:42:47.483Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "projectdiscovery#6674",
+            "title": "Replace panic with error handling in template loader when dialers are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:25.746Z",
+            "updated_at": "2026-04-30T11:42:25.746Z"
+          },
+          {
+            "id": "projectdiscovery#6532",
+            "title": "Integrate typos tool into CI",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:26.032Z",
+            "updated_at": "2026-04-30T11:42:26.032Z"
+          }
+        ],
+        "last_updated": "2026-04-30T11:42:47.483Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "mudlet#3172",
             "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:07.375Z",
-            "updated_at": "2026-04-30T10:01:07.375Z"
+            "created_at": "2026-04-30T11:42:26.727Z",
+            "updated_at": "2026-04-30T11:42:26.727Z"
           },
           {
-            "id": "Mudlet#5310",
+            "id": "mudlet#5310",
             "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
             "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-04-30T10:01:07.596Z",
-            "updated_at": "2026-04-30T10:01:07.596Z"
+            "created_at": "2026-04-30T11:42:26.991Z",
+            "updated_at": "2026-04-30T11:42:26.991Z"
           }
         ],
-        "last_updated": "2026-04-30T10:01:27.298Z",
+        "last_updated": "2026-04-30T11:42:47.483Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "PX4",
+        "display_name": "PX4",
+        "url": "https://algora.io/PX4/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "PX4#19970",
+            "title": "[Project Tracker] Sensor configuration display UI",
+            "amount_usd": 100,
+            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:25.988Z",
+            "updated_at": "2026-04-30T11:42:25.988Z"
+          }
+        ],
+        "last_updated": "2026-04-30T11:42:47.483Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-04-30T11:42:29.208Z",
+            "updated_at": "2026-04-30T11:42:29.208Z"
+          }
+        ],
+        "last_updated": "2026-04-30T11:42:47.483Z",
         "scrape_duration_ms": 0
       }
     ]
