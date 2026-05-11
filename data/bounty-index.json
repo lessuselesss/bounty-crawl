@@ -1,34 +1,434 @@
 {
-  "generated_at": "2026-05-11T21:45:28.275Z",
-  "total_organizations": 1,
-  "total_bounties": 1,
-  "total_value_usd": 100,
+  "generated_at": "2026-05-11T22:42:01.481Z",
+  "total_organizations": 6,
+  "total_bounties": 36,
+  "total_value_usd": 3600,
   "version": "3.0.0",
   "organizations": {
-    "PX4": {
-      "display_name": "PX4",
-      "url": "https://algora.io/PX4/bounties?status=open",
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:40:43.818Z",
+          "updated_at": "2026-05-11T22:40:43.818Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:40:44.029Z",
+          "updated_at": "2026-05-11T22:40:44.029Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:40:44.658Z",
+          "updated_at": "2026-05-11T22:40:44.658Z"
+        }
+      ],
+      "last_updated": "2026-05-11T22:42:01.480Z",
+      "scrape_duration_ms": 0
+    },
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:40:58.428Z",
+          "updated_at": "2026-05-11T22:40:58.428Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:40:59.913Z",
+          "updated_at": "2026-05-11T22:40:59.913Z"
+        }
+      ],
+      "last_updated": "2026-05-11T22:42:01.480Z",
+      "scrape_duration_ms": 0
+    },
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "PX4#19970",
-          "title": "[Project Tracker] Sensor configuration display UI",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-05-11T21:45:09.516Z",
-          "updated_at": "2026-05-11T21:45:09.516Z"
+          "created_at": "2026-05-11T22:41:36.806Z",
+          "updated_at": "2026-05-11T22:41:36.806Z"
         }
       ],
-      "last_updated": "2026-05-11T21:45:28.275Z",
+      "last_updated": "2026-05-11T22:42:01.480Z",
+      "scrape_duration_ms": 0
+    },
+    "tscircuit": {
+      "display_name": "Tscircuit",
+      "url": "https://algora.io/tscircuit/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "tscircuit#4",
+          "title": "Undefined in readable netlists, pin labels are too short, just \"pin14\" instead of full pin labels",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.319Z",
+          "updated_at": "2026-05-11T22:41:39.319Z"
+        },
+        {
+          "id": "tscircuit#4",
+          "title": "Undefined in readable netlists, pin labels are too short, just \"pin14\" instead of full pin labels",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.322Z",
+          "updated_at": "2026-05-11T22:41:39.322Z"
+        },
+        {
+          "id": "tscircuit#34",
+          "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.501Z",
+          "updated_at": "2026-05-11T22:41:39.501Z"
+        },
+        {
+          "id": "tscircuit#29",
+          "title": "New Phase To combine same-net trace segments that are close together",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.643Z",
+          "updated_at": "2026-05-11T22:41:39.643Z"
+        },
+        {
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.772Z",
+          "updated_at": "2026-05-11T22:41:39.772Z"
+        },
+        {
+          "id": "tscircuit#54",
+          "title": "We can't convert Smoothie Board to Circuit JSON",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.775Z",
+          "updated_at": "2026-05-11T22:41:39.775Z"
+        },
+        {
+          "id": "tscircuit#1130",
+          "title": "Change of color on hover for traces are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.926Z",
+          "updated_at": "2026-05-11T22:41:39.926Z"
+        },
+        {
+          "id": "tscircuit#79",
+          "title": "Fix extra net label in repro61, or remove trace",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.076Z",
+          "updated_at": "2026-05-11T22:41:40.076Z"
+        },
+        {
+          "id": "tscircuit#78",
+          "title": "Fix extra trace lines in post-processing step",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.219Z",
+          "updated_at": "2026-05-11T22:41:40.219Z"
+        },
+        {
+          "id": "tscircuit#6",
+          "title": "Determine why rectangles are missing in output",
+          "amount_usd": 100,
+          "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.343Z",
+          "updated_at": "2026-05-11T22:41:40.343Z"
+        }
+      ],
+      "last_updated": "2026-05-11T22:42:01.480Z",
+      "scrape_duration_ms": 0
+    },
+    "coollabsio": {
+      "display_name": "Coollabsio",
+      "url": "https://algora.io/coollabsio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "coollabsio#8264",
+          "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8264",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.215Z",
+          "updated_at": "2026-05-11T22:41:39.215Z"
+        },
+        {
+          "id": "coollabsio#8266",
+          "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8266",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.358Z",
+          "updated_at": "2026-05-11T22:41:39.358Z"
+        },
+        {
+          "id": "coollabsio#8232",
+          "title": "[Enhancement]: Add Open Replay",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8232",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.541Z",
+          "updated_at": "2026-05-11T22:41:39.541Z"
+        },
+        {
+          "id": "coollabsio#8042",
+          "title": "[Enhancement]: OAUTH only self registering.",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/8042",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.676Z",
+          "updated_at": "2026-05-11T22:41:39.676Z"
+        },
+        {
+          "id": "coollabsio#7655",
+          "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7655",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:39.860Z",
+          "updated_at": "2026-05-11T22:41:39.860Z"
+        },
+        {
+          "id": "coollabsio#7642",
+          "title": "[Enhancement]: Add surrealDB with and without TIKV",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7642",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.039Z",
+          "updated_at": "2026-05-11T22:41:40.039Z"
+        },
+        {
+          "id": "coollabsio#7596",
+          "title": "[Enhancement]: new deployment page",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7596",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.164Z",
+          "updated_at": "2026-05-11T22:41:40.164Z"
+        },
+        {
+          "id": "coollabsio#7528",
+          "title": "[Enhancement]: Integrated backups for Git based Docker Composes",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7528",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.365Z",
+          "updated_at": "2026-05-11T22:41:40.365Z"
+        },
+        {
+          "id": "coollabsio#7458",
+          "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7458",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.508Z",
+          "updated_at": "2026-05-11T22:41:40.508Z"
+        },
+        {
+          "id": "coollabsio#7423",
+          "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+          "amount_usd": 100,
+          "url": "https://github.com/coollabsio/coolify/issues/7423",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:40.692Z",
+          "updated_at": "2026-05-11T22:41:40.692Z"
+        }
+      ],
+      "last_updated": "2026-05-11T22:42:01.481Z",
+      "scrape_duration_ms": 0
+    },
+    "zio": {
+      "display_name": "Zio",
+      "url": "https://algora.io/zio/bounties?status=open",
+      "bounty_count": 10,
+      "total_value_usd": 1000,
+      "bounties": [
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.542Z",
+          "updated_at": "2026-05-11T22:41:46.542Z"
+        },
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.546Z",
+          "updated_at": "2026-05-11T22:41:46.546Z"
+        },
+        {
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.736Z",
+          "updated_at": "2026-05-11T22:41:46.736Z"
+        },
+        {
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.902Z",
+          "updated_at": "2026-05-11T22:41:46.902Z"
+        },
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.905Z",
+          "updated_at": "2026-05-11T22:41:46.905Z"
+        },
+        {
+          "id": "zio#519",
+          "title": "Schema Migration System for ZIO Schema 2",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio-blocks/issues/519",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:46.909Z",
+          "updated_at": "2026-05-11T22:41:46.909Z"
+        },
+        {
+          "id": "zio#9810",
+          "title": "ZStreams buffer(1) is buffering 2.",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9810",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:47.115Z",
+          "updated_at": "2026-05-11T22:41:47.115Z"
+        },
+        {
+          "id": "zio#9844",
+          "title": "improved `Queue` shutdown functionality",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9844",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:47.119Z",
+          "updated_at": "2026-05-11T22:41:47.119Z"
+        },
+        {
+          "id": "zio#9878",
+          "title": "ZScheduler parks+unparks workers too frequently",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9878",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:47.122Z",
+          "updated_at": "2026-05-11T22:41:47.122Z"
+        },
+        {
+          "id": "zio#9874",
+          "title": "Handling errors allows recovering from defects",
+          "amount_usd": 100,
+          "url": "https://github.com/zio/zio/issues/9874",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-11T22:41:47.312Z",
+          "updated_at": "2026-05-11T22:41:47.312Z"
+        }
+      ],
+      "last_updated": "2026-05-11T22:42:01.481Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 162749,
+    "processing_time_ms": 164781,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -37,24 +437,429 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "PX4",
-        "display_name": "PX4",
-        "url": "https://algora.io/PX4/bounties?status=open",
+        "handle": "tscircuit",
+        "display_name": "Tscircuit",
+        "url": "https://algora.io/tscircuit/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "tscircuit#4",
+            "title": "Undefined in readable netlists, pin labels are too short, just \"pin14\" instead of full pin labels",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.319Z",
+            "updated_at": "2026-05-11T22:41:39.319Z"
+          },
+          {
+            "id": "tscircuit#4",
+            "title": "Undefined in readable netlists, pin labels are too short, just \"pin14\" instead of full pin labels",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.322Z",
+            "updated_at": "2026-05-11T22:41:39.322Z"
+          },
+          {
+            "id": "tscircuit#34",
+            "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.501Z",
+            "updated_at": "2026-05-11T22:41:39.501Z"
+          },
+          {
+            "id": "tscircuit#29",
+            "title": "New Phase To combine same-net trace segments that are close together",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.643Z",
+            "updated_at": "2026-05-11T22:41:39.643Z"
+          },
+          {
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.772Z",
+            "updated_at": "2026-05-11T22:41:39.772Z"
+          },
+          {
+            "id": "tscircuit#54",
+            "title": "We can't convert Smoothie Board to Circuit JSON",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.775Z",
+            "updated_at": "2026-05-11T22:41:39.775Z"
+          },
+          {
+            "id": "tscircuit#1130",
+            "title": "Change of color on hover for traces are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/tscircuit/issues/1130",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.926Z",
+            "updated_at": "2026-05-11T22:41:39.926Z"
+          },
+          {
+            "id": "tscircuit#79",
+            "title": "Fix extra net label in repro61, or remove trace",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/79",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.076Z",
+            "updated_at": "2026-05-11T22:41:40.076Z"
+          },
+          {
+            "id": "tscircuit#78",
+            "title": "Fix extra trace lines in post-processing step",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/schematic-trace-solver/issues/78",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.219Z",
+            "updated_at": "2026-05-11T22:41:40.219Z"
+          },
+          {
+            "id": "tscircuit#6",
+            "title": "Determine why rectangles are missing in output",
+            "amount_usd": 100,
+            "url": "https://github.com/tscircuit/circuit-json-to-step/issues/6",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.343Z",
+            "updated_at": "2026-05-11T22:41:40.343Z"
+          }
+        ],
+        "last_updated": "2026-05-11T22:42:01.480Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "coollabsio",
+        "display_name": "Coollabsio",
+        "url": "https://algora.io/coollabsio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "coollabsio#8264",
+            "title": "[Enhancement]: WordPress + OpenLiteSpeed service template",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8264",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.215Z",
+            "updated_at": "2026-05-11T22:41:39.215Z"
+          },
+          {
+            "id": "coollabsio#8266",
+            "title": "[Enhancement]: Add a reusable email server stack/template for managing client email domains",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8266",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.358Z",
+            "updated_at": "2026-05-11T22:41:39.358Z"
+          },
+          {
+            "id": "coollabsio#8232",
+            "title": "[Enhancement]: Add Open Replay",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8232",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.541Z",
+            "updated_at": "2026-05-11T22:41:39.541Z"
+          },
+          {
+            "id": "coollabsio#8042",
+            "title": "[Enhancement]: OAUTH only self registering.",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/8042",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.676Z",
+            "updated_at": "2026-05-11T22:41:39.676Z"
+          },
+          {
+            "id": "coollabsio#7655",
+            "title": "[Improvement]: Do not share all environment variables across all containers in a Compose project",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7655",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:39.860Z",
+            "updated_at": "2026-05-11T22:41:39.860Z"
+          },
+          {
+            "id": "coollabsio#7642",
+            "title": "[Enhancement]: Add surrealDB with and without TIKV",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7642",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.039Z",
+            "updated_at": "2026-05-11T22:41:40.039Z"
+          },
+          {
+            "id": "coollabsio#7596",
+            "title": "[Enhancement]: new deployment page",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7596",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.164Z",
+            "updated_at": "2026-05-11T22:41:40.164Z"
+          },
+          {
+            "id": "coollabsio#7528",
+            "title": "[Enhancement]: Integrated backups for Git based Docker Composes",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7528",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.365Z",
+            "updated_at": "2026-05-11T22:41:40.365Z"
+          },
+          {
+            "id": "coollabsio#7458",
+            "title": "[Bug + Multiple Bounties]: Official Selfhosted Supabase MCP Setup hindered by Coolify AND Bounty List",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7458",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.508Z",
+            "updated_at": "2026-05-11T22:41:40.508Z"
+          },
+          {
+            "id": "coollabsio#7423",
+            "title": "[Enhancement]: Use pgBackRest for Postgres backups",
+            "amount_usd": 100,
+            "url": "https://github.com/coollabsio/coolify/issues/7423",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:40.692Z",
+            "updated_at": "2026-05-11T22:41:40.692Z"
+          }
+        ],
+        "last_updated": "2026-05-11T22:42:01.481Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "zio",
+        "display_name": "Zio",
+        "url": "https://algora.io/zio/bounties?status=open",
+        "bounty_count": 10,
+        "total_value_usd": 1000,
+        "bounties": [
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.542Z",
+            "updated_at": "2026-05-11T22:41:46.542Z"
+          },
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.546Z",
+            "updated_at": "2026-05-11T22:41:46.546Z"
+          },
+          {
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.736Z",
+            "updated_at": "2026-05-11T22:41:46.736Z"
+          },
+          {
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9844",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.902Z",
+            "updated_at": "2026-05-11T22:41:46.902Z"
+          },
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.905Z",
+            "updated_at": "2026-05-11T22:41:46.905Z"
+          },
+          {
+            "id": "zio#519",
+            "title": "Schema Migration System for ZIO Schema 2",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio-blocks/issues/519",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:46.909Z",
+            "updated_at": "2026-05-11T22:41:46.909Z"
+          },
+          {
+            "id": "zio#9810",
+            "title": "ZStreams buffer(1) is buffering 2.",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9810",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:47.115Z",
+            "updated_at": "2026-05-11T22:41:47.115Z"
+          },
+          {
+            "id": "zio#9844",
+            "title": "improved `Queue` shutdown functionality",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9844",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:47.119Z",
+            "updated_at": "2026-05-11T22:41:47.119Z"
+          },
+          {
+            "id": "zio#9878",
+            "title": "ZScheduler parks+unparks workers too frequently",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9878",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:47.122Z",
+            "updated_at": "2026-05-11T22:41:47.122Z"
+          },
+          {
+            "id": "zio#9874",
+            "title": "Handling errors allows recovering from defects",
+            "amount_usd": 100,
+            "url": "https://github.com/zio/zio/issues/9874",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:41:47.312Z",
+            "updated_at": "2026-05-11T22:41:47.312Z"
+          }
+        ],
+        "last_updated": "2026-05-11T22:42:01.481Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:40:43.818Z",
+            "updated_at": "2026-05-11T22:40:43.818Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:40:44.029Z",
+            "updated_at": "2026-05-11T22:40:44.029Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:40:44.658Z",
+            "updated_at": "2026-05-11T22:40:44.658Z"
+          }
+        ],
+        "last_updated": "2026-05-11T22:42:01.480Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:40:58.428Z",
+            "updated_at": "2026-05-11T22:40:58.428Z"
+          },
+          {
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
+            "amount_usd": 100,
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-11T22:40:59.913Z",
+            "updated_at": "2026-05-11T22:40:59.913Z"
+          }
+        ],
+        "last_updated": "2026-05-11T22:42:01.480Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "PX4#19970",
-            "title": "[Project Tracker] Sensor configuration display UI",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/PX4/PX4-Autopilot/issues/19970",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-05-11T21:45:09.516Z",
-            "updated_at": "2026-05-11T21:45:09.516Z"
+            "created_at": "2026-05-11T22:41:36.806Z",
+            "updated_at": "2026-05-11T22:41:36.806Z"
           }
         ],
-        "last_updated": "2026-05-11T21:45:28.275Z",
+        "last_updated": "2026-05-11T22:42:01.480Z",
         "scrape_duration_ms": 0
       }
     ]
