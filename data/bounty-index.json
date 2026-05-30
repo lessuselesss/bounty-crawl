@@ -1,19 +1,204 @@
 {
-  "generated_at": "2026-05-30T16:01:08.263Z",
-  "total_organizations": 0,
-  "total_bounties": 0,
-  "total_value_usd": 0,
+  "generated_at": "2026-05-30T17:16:16.922Z",
+  "total_organizations": 3,
+  "total_bounties": 6,
+  "total_value_usd": 600,
   "version": "3.0.0",
-  "organizations": {},
+  "organizations": {
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
+      "bounty_count": 1,
+      "total_value_usd": 100,
+      "bounties": [
+        {
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
+          "amount_usd": 100,
+          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:25.654Z",
+          "updated_at": "2026-05-30T17:15:25.654Z"
+        }
+      ],
+      "last_updated": "2026-05-30T17:16:16.922Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "projectdiscovery#6674",
+          "title": "Replace panic with error handling in template loader when dialers are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:58.118Z",
+          "updated_at": "2026-05-30T17:15:58.118Z"
+        },
+        {
+          "id": "projectdiscovery#6532",
+          "title": "Integrate typos tool into CI",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:58.242Z",
+          "updated_at": "2026-05-30T17:15:58.242Z"
+        }
+      ],
+      "last_updated": "2026-05-30T17:16:16.922Z",
+      "scrape_duration_ms": 0
+    },
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:58.073Z",
+          "updated_at": "2026-05-30T17:15:58.073Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:58.203Z",
+          "updated_at": "2026-05-30T17:15:58.203Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-05-30T17:15:58.321Z",
+          "updated_at": "2026-05-30T17:15:58.321Z"
+        }
+      ],
+      "last_updated": "2026-05-30T17:16:16.922Z",
+      "scrape_duration_ms": 0
+    }
+  },
   "metadata": {
-    "success_rate": 0,
-    "processing_time_ms": 55349,
+    "success_rate": 1,
+    "processing_time_ms": 169961,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
   "stats": {
-    "avg_bounty_value": 0,
-    "median_bounty_value": 0,
-    "top_organizations": []
+    "avg_bounty_value": 100,
+    "median_bounty_value": 100,
+    "top_organizations": [
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:58.073Z",
+            "updated_at": "2026-05-30T17:15:58.073Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:58.203Z",
+            "updated_at": "2026-05-30T17:15:58.203Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:58.321Z",
+            "updated_at": "2026-05-30T17:15:58.321Z"
+          }
+        ],
+        "last_updated": "2026-05-30T17:16:16.922Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "projectdiscovery#6674",
+            "title": "Replace panic with error handling in template loader when dialers are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:58.118Z",
+            "updated_at": "2026-05-30T17:15:58.118Z"
+          },
+          {
+            "id": "projectdiscovery#6532",
+            "title": "Integrate typos tool into CI",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:58.242Z",
+            "updated_at": "2026-05-30T17:15:58.242Z"
+          }
+        ],
+        "last_updated": "2026-05-30T17:16:16.922Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
+        "bounty_count": 1,
+        "total_value_usd": 100,
+        "bounties": [
+          {
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
+            "amount_usd": 100,
+            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-05-30T17:15:25.654Z",
+            "updated_at": "2026-05-30T17:15:25.654Z"
+          }
+        ],
+        "last_updated": "2026-05-30T17:16:16.922Z",
+        "scrape_duration_ms": 0
+      }
+    ]
   }
 }
