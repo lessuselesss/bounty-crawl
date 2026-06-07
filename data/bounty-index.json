@@ -1,68 +1,88 @@
 {
-  "generated_at": "2026-06-07T09:45:42.998Z",
+  "generated_at": "2026-06-07T11:28:41.234Z",
   "total_organizations": 4,
-  "total_bounties": 10,
-  "total_value_usd": 1000,
+  "total_bounties": 7,
+  "total_value_usd": 700,
   "version": "3.0.0",
   "organizations": {
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+    "mudlet": {
+      "display_name": "Mudlet",
+      "url": "https://algora.io/mudlet/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "mudlet#3172",
+          "title": "generic mapper: add video walkthrough on how to set it up",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/3172",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-07T11:28:15.663Z",
+          "updated_at": "2026-06-07T11:28:15.663Z"
+        },
+        {
+          "id": "mudlet#5310",
+          "title": "Autocomplete steals window focus, prevents further typing",
+          "amount_usd": 100,
+          "url": "https://github.com/Mudlet/Mudlet/issues/5310",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-07T11:28:15.813Z",
+          "updated_at": "2026-06-07T11:28:15.813Z"
+        }
+      ],
+      "last_updated": "2026-06-07T11:28:41.234Z",
+      "scrape_duration_ms": 0
+    },
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-07T11:28:16.076Z",
+          "updated_at": "2026-06-07T11:28:16.076Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-07T11:28:16.210Z",
+          "updated_at": "2026-06-07T11:28:16.210Z"
+        }
+      ],
+      "last_updated": "2026-06-07T11:28:41.234Z",
+      "scrape_duration_ms": 0
+    },
+    "triggerdotdev": {
+      "display_name": "Triggerdotdev",
+      "url": "https://algora.io/triggerdotdev/bounties?status=open",
       "bounty_count": 1,
       "total_value_usd": 100,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "triggerdotdev#2654",
+          "title": "Schema in object being inferred differently (and weirdly)",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/colinhacks/zod/issues/2654",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-07T09:45:21.025Z",
-          "updated_at": "2026-06-07T09:45:21.025Z"
+          "created_at": "2026-06-07T11:28:22.039Z",
+          "updated_at": "2026-06-07T11:28:22.039Z"
         }
       ],
-      "last_updated": "2026-06-07T09:45:42.998Z",
-      "scrape_duration_ms": 0
-    },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
-      "bounties": [
-        {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:22.739Z",
-          "updated_at": "2026-06-07T09:45:22.739Z"
-        },
-        {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:22.974Z",
-          "updated_at": "2026-06-07T09:45:22.974Z"
-        },
-        {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
-          "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:23.174Z",
-          "updated_at": "2026-06-07T09:45:23.174Z"
-        }
-      ],
-      "last_updated": "2026-06-07T09:45:42.998Z",
+      "last_updated": "2026-06-07T11:28:41.234Z",
       "scrape_duration_ms": 0
     },
     "projectdiscovery": {
@@ -73,82 +93,32 @@
       "bounties": [
         {
           "id": "projectdiscovery#6674",
-          "title": "Issue #6674",
+          "title": "Replace panic with error handling in template loader when dialers are missing",
           "amount_usd": 100,
-          "url": "github.com/projectdiscovery/nuclei/issues/6674",
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-07T09:45:23.196Z",
-          "updated_at": "2026-06-07T09:45:23.196Z"
+          "created_at": "2026-06-07T11:28:22.402Z",
+          "updated_at": "2026-06-07T11:28:22.402Z"
         },
         {
           "id": "projectdiscovery#6532",
-          "title": "Issue #6532",
+          "title": "Integrate typos tool into CI",
           "amount_usd": 100,
-          "url": "github.com/projectdiscovery/nuclei/issues/6532",
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-07T09:45:23.224Z",
-          "updated_at": "2026-06-07T09:45:23.224Z"
+          "created_at": "2026-06-07T11:28:22.559Z",
+          "updated_at": "2026-06-07T11:28:22.559Z"
         }
       ],
-      "last_updated": "2026-06-07T09:45:42.998Z",
-      "scrape_duration_ms": 0
-    },
-    "cal": {
-      "display_name": "Cal",
-      "url": "https://algora.io/cal/bounties?status=open",
-      "bounty_count": 4,
-      "total_value_usd": 400,
-      "bounties": [
-        {
-          "id": "cal#2",
-          "title": "Plans on weights?",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/sans/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:23.043Z",
-          "updated_at": "2026-06-07T09:45:23.043Z"
-        },
-        {
-          "id": "cal#2",
-          "title": "Plans on weights?",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/sans/issues/2",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:23.124Z",
-          "updated_at": "2026-06-07T09:45:23.124Z"
-        },
-        {
-          "id": "cal#1985",
-          "title": "[CAL-3105] BigBlueButton Integration",
-          "amount_usd": 100,
-          "url": "https://github.com/calcom/cal.diy/issues/1985",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:23.310Z",
-          "updated_at": "2026-06-07T09:45:23.310Z"
-        },
-        {
-          "id": "cal#5756",
-          "title": "Issue #5756",
-          "amount_usd": 100,
-          "url": "github.com/calcom/cal.diy/issues/5756",
-          "status": "open",
-          "tags": [],
-          "created_at": "2026-06-07T09:45:23.353Z",
-          "updated_at": "2026-06-07T09:45:23.353Z"
-        }
-      ],
-      "last_updated": "2026-06-07T09:45:42.998Z",
+      "last_updated": "2026-06-07T11:28:41.234Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 59622,
+    "processing_time_ms": 56557,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -157,95 +127,65 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "cal",
-        "display_name": "Cal",
-        "url": "https://algora.io/cal/bounties?status=open",
-        "bounty_count": 4,
-        "total_value_usd": 400,
+        "handle": "mudlet",
+        "display_name": "Mudlet",
+        "url": "https://algora.io/mudlet/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "cal#2",
-            "title": "Plans on weights?",
+            "id": "mudlet#3172",
+            "title": "generic mapper: add video walkthrough on how to set it up",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/sans/issues/2",
+            "url": "https://github.com/Mudlet/Mudlet/issues/3172",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:23.043Z",
-            "updated_at": "2026-06-07T09:45:23.043Z"
+            "created_at": "2026-06-07T11:28:15.663Z",
+            "updated_at": "2026-06-07T11:28:15.663Z"
           },
           {
-            "id": "cal#2",
-            "title": "Plans on weights?",
+            "id": "mudlet#5310",
+            "title": "Autocomplete steals window focus, prevents further typing",
             "amount_usd": 100,
-            "url": "https://github.com/calcom/sans/issues/2",
+            "url": "https://github.com/Mudlet/Mudlet/issues/5310",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:23.124Z",
-            "updated_at": "2026-06-07T09:45:23.124Z"
-          },
-          {
-            "id": "cal#1985",
-            "title": "[CAL-3105] BigBlueButton Integration",
-            "amount_usd": 100,
-            "url": "https://github.com/calcom/cal.diy/issues/1985",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-06-07T09:45:23.310Z",
-            "updated_at": "2026-06-07T09:45:23.310Z"
-          },
-          {
-            "id": "cal#5756",
-            "title": "Issue #5756",
-            "amount_usd": 100,
-            "url": "github.com/calcom/cal.diy/issues/5756",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-06-07T09:45:23.353Z",
-            "updated_at": "2026-06-07T09:45:23.353Z"
+            "created_at": "2026-06-07T11:28:15.813Z",
+            "updated_at": "2026-06-07T11:28:15.813Z"
           }
         ],
-        "last_updated": "2026-06-07T09:45:42.998Z",
+        "last_updated": "2026-06-07T11:28:41.234Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:22.739Z",
-            "updated_at": "2026-06-07T09:45:22.739Z"
+            "created_at": "2026-06-07T11:28:16.076Z",
+            "updated_at": "2026-06-07T11:28:16.076Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:22.974Z",
-            "updated_at": "2026-06-07T09:45:22.974Z"
-          },
-          {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
-            "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
-            "status": "open",
-            "tags": [],
-            "created_at": "2026-06-07T09:45:23.174Z",
-            "updated_at": "2026-06-07T09:45:23.174Z"
+            "created_at": "2026-06-07T11:28:16.210Z",
+            "updated_at": "2026-06-07T11:28:16.210Z"
           }
         ],
-        "last_updated": "2026-06-07T09:45:42.998Z",
+        "last_updated": "2026-06-07T11:28:41.234Z",
         "scrape_duration_ms": 0
       },
       {
@@ -257,47 +197,47 @@
         "bounties": [
           {
             "id": "projectdiscovery#6674",
-            "title": "Issue #6674",
+            "title": "Replace panic with error handling in template loader when dialers are missing",
             "amount_usd": 100,
-            "url": "github.com/projectdiscovery/nuclei/issues/6674",
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:23.196Z",
-            "updated_at": "2026-06-07T09:45:23.196Z"
+            "created_at": "2026-06-07T11:28:22.402Z",
+            "updated_at": "2026-06-07T11:28:22.402Z"
           },
           {
             "id": "projectdiscovery#6532",
-            "title": "Issue #6532",
+            "title": "Integrate typos tool into CI",
             "amount_usd": 100,
-            "url": "github.com/projectdiscovery/nuclei/issues/6532",
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:23.224Z",
-            "updated_at": "2026-06-07T09:45:23.224Z"
+            "created_at": "2026-06-07T11:28:22.559Z",
+            "updated_at": "2026-06-07T11:28:22.559Z"
           }
         ],
-        "last_updated": "2026-06-07T09:45:42.998Z",
+        "last_updated": "2026-06-07T11:28:41.234Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
+        "handle": "triggerdotdev",
+        "display_name": "Triggerdotdev",
+        "url": "https://algora.io/triggerdotdev/bounties?status=open",
         "bounty_count": 1,
         "total_value_usd": 100,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "triggerdotdev#2654",
+            "title": "Schema in object being inferred differently (and weirdly)",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/colinhacks/zod/issues/2654",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-07T09:45:21.025Z",
-            "updated_at": "2026-06-07T09:45:21.025Z"
+            "created_at": "2026-06-07T11:28:22.039Z",
+            "updated_at": "2026-06-07T11:28:22.039Z"
           }
         ],
-        "last_updated": "2026-06-07T09:45:42.998Z",
+        "last_updated": "2026-06-07T11:28:41.234Z",
         "scrape_duration_ms": 0
       }
     ]
