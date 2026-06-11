@@ -1,74 +1,94 @@
 {
-  "generated_at": "2026-06-11T18:30:44.173Z",
+  "generated_at": "2026-06-11T20:43:47.775Z",
   "total_organizations": 2,
-  "total_bounties": 4,
-  "total_value_usd": 400,
+  "total_bounties": 6,
+  "total_value_usd": 600,
   "version": "3.0.0",
   "organizations": {
-    "triggerdotdev": {
-      "display_name": "Triggerdotdev",
-      "url": "https://algora.io/triggerdotdev/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "outerbase": {
+      "display_name": "Outerbase",
+      "url": "https://algora.io/outerbase/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
       "bounties": [
         {
-          "id": "triggerdotdev#2654",
-          "title": "Schema in object being inferred differently (and weirdly)",
+          "id": "outerbase#59",
+          "title": "Database dumps do not work on large databases",
           "amount_usd": 100,
-          "url": "https://github.com/colinhacks/zod/issues/2654",
+          "url": "https://github.com/outerbase/starbasedb/issues/59",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-11T18:30:24.384Z",
-          "updated_at": "2026-06-11T18:30:24.384Z"
+          "created_at": "2026-06-11T20:43:25.581Z",
+          "updated_at": "2026-06-11T20:43:25.581Z"
+        },
+        {
+          "id": "outerbase#72",
+          "title": "Replicate data from external source to internal source with a Plugin",
+          "amount_usd": 100,
+          "url": "https://github.com/outerbase/starbasedb/issues/72",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-11T20:43:25.773Z",
+          "updated_at": "2026-06-11T20:43:25.773Z"
         }
       ],
-      "last_updated": "2026-06-11T18:30:44.173Z",
+      "last_updated": "2026-06-11T20:43:47.775Z",
       "scrape_duration_ms": 0
     },
-    "prisma": {
-      "display_name": "Prisma",
-      "url": "https://algora.io/prisma/bounties?status=open",
-      "bounty_count": 3,
-      "total_value_usd": 300,
+    "highlight": {
+      "display_name": "Highlight",
+      "url": "https://algora.io/highlight/bounties?status=open",
+      "bounty_count": 4,
+      "total_value_usd": 400,
       "bounties": [
         {
-          "id": "prisma#1911",
-          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "id": "highlight#8635",
+          "title": "Update workspace and project settings to not use antd components",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/1911",
+          "url": "https://github.com/highlight/highlight/issues/8635",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-11T18:30:24.392Z",
-          "updated_at": "2026-06-11T18:30:24.392Z"
+          "created_at": "2026-06-11T20:43:25.458Z",
+          "updated_at": "2026-06-11T20:43:25.458Z"
         },
         {
-          "id": "prisma#8548",
-          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "id": "highlight#8614",
+          "title": "update design of integrations page",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/8548",
+          "url": "https://github.com/highlight/highlight/issues/8614",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-11T18:30:24.510Z",
-          "updated_at": "2026-06-11T18:30:24.510Z"
+          "created_at": "2026-06-11T20:43:25.662Z",
+          "updated_at": "2026-06-11T20:43:25.662Z"
         },
         {
-          "id": "prisma#7771",
-          "title": "Output path of current Prisma in `-v` ",
+          "id": "highlight#8032",
+          "title": "document sveltekit backend instrumentation",
           "amount_usd": 100,
-          "url": "https://github.com/prisma/prisma/issues/7771",
+          "url": "https://github.com/highlight/highlight/issues/8032",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-11T18:30:24.644Z",
-          "updated_at": "2026-06-11T18:30:24.644Z"
+          "created_at": "2026-06-11T20:43:26.032Z",
+          "updated_at": "2026-06-11T20:43:26.032Z"
+        },
+        {
+          "id": "highlight#6775",
+          "title": "Performance of canvas snapshotting on Safari is poor",
+          "amount_usd": 100,
+          "url": "https://github.com/highlight/highlight/issues/6775",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-11T20:43:26.228Z",
+          "updated_at": "2026-06-11T20:43:26.228Z"
         }
       ],
-      "last_updated": "2026-06-11T18:30:44.173Z",
+      "last_updated": "2026-06-11T20:43:47.775Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 151517,
+    "processing_time_ms": 69316,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -77,65 +97,85 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "prisma",
-        "display_name": "Prisma",
-        "url": "https://algora.io/prisma/bounties?status=open",
-        "bounty_count": 3,
-        "total_value_usd": 300,
+        "handle": "highlight",
+        "display_name": "Highlight",
+        "url": "https://algora.io/highlight/bounties?status=open",
+        "bounty_count": 4,
+        "total_value_usd": 400,
         "bounties": [
           {
-            "id": "prisma#1911",
-            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "id": "highlight#8635",
+            "title": "Update workspace and project settings to not use antd components",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/1911",
+            "url": "https://github.com/highlight/highlight/issues/8635",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-11T18:30:24.392Z",
-            "updated_at": "2026-06-11T18:30:24.392Z"
+            "created_at": "2026-06-11T20:43:25.458Z",
+            "updated_at": "2026-06-11T20:43:25.458Z"
           },
           {
-            "id": "prisma#8548",
-            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "id": "highlight#8614",
+            "title": "update design of integrations page",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/8548",
+            "url": "https://github.com/highlight/highlight/issues/8614",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-11T18:30:24.510Z",
-            "updated_at": "2026-06-11T18:30:24.510Z"
+            "created_at": "2026-06-11T20:43:25.662Z",
+            "updated_at": "2026-06-11T20:43:25.662Z"
           },
           {
-            "id": "prisma#7771",
-            "title": "Output path of current Prisma in `-v` ",
+            "id": "highlight#8032",
+            "title": "document sveltekit backend instrumentation",
             "amount_usd": 100,
-            "url": "https://github.com/prisma/prisma/issues/7771",
+            "url": "https://github.com/highlight/highlight/issues/8032",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-11T18:30:24.644Z",
-            "updated_at": "2026-06-11T18:30:24.644Z"
+            "created_at": "2026-06-11T20:43:26.032Z",
+            "updated_at": "2026-06-11T20:43:26.032Z"
+          },
+          {
+            "id": "highlight#6775",
+            "title": "Performance of canvas snapshotting on Safari is poor",
+            "amount_usd": 100,
+            "url": "https://github.com/highlight/highlight/issues/6775",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-11T20:43:26.228Z",
+            "updated_at": "2026-06-11T20:43:26.228Z"
           }
         ],
-        "last_updated": "2026-06-11T18:30:44.173Z",
+        "last_updated": "2026-06-11T20:43:47.775Z",
         "scrape_duration_ms": 0
       },
       {
-        "handle": "triggerdotdev",
-        "display_name": "Triggerdotdev",
-        "url": "https://algora.io/triggerdotdev/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "outerbase",
+        "display_name": "Outerbase",
+        "url": "https://algora.io/outerbase/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
         "bounties": [
           {
-            "id": "triggerdotdev#2654",
-            "title": "Schema in object being inferred differently (and weirdly)",
+            "id": "outerbase#59",
+            "title": "Database dumps do not work on large databases",
             "amount_usd": 100,
-            "url": "https://github.com/colinhacks/zod/issues/2654",
+            "url": "https://github.com/outerbase/starbasedb/issues/59",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-11T18:30:24.384Z",
-            "updated_at": "2026-06-11T18:30:24.384Z"
+            "created_at": "2026-06-11T20:43:25.581Z",
+            "updated_at": "2026-06-11T20:43:25.581Z"
+          },
+          {
+            "id": "outerbase#72",
+            "title": "Replicate data from external source to internal source with a Plugin",
+            "amount_usd": 100,
+            "url": "https://github.com/outerbase/starbasedb/issues/72",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-11T20:43:25.773Z",
+            "updated_at": "2026-06-11T20:43:25.773Z"
           }
         ],
-        "last_updated": "2026-06-11T18:30:44.173Z",
+        "last_updated": "2026-06-11T20:43:47.775Z",
         "scrape_duration_ms": 0
       }
     ]
