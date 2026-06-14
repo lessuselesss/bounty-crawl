@@ -1,34 +1,84 @@
 {
-  "generated_at": "2026-06-14T11:26:49.081Z",
-  "total_organizations": 1,
-  "total_bounties": 1,
-  "total_value_usd": 100,
+  "generated_at": "2026-06-14T13:14:37.809Z",
+  "total_organizations": 2,
+  "total_bounties": 5,
+  "total_value_usd": 500,
   "version": "3.0.0",
   "organizations": {
-    "onyx-dot-app": {
-      "display_name": "Onyx-dot-app",
-      "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-      "bounty_count": 1,
-      "total_value_usd": 100,
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
       "bounties": [
         {
-          "id": "onyx-dot-app#2281",
-          "title": "Jira Service Management Connector",
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
           "amount_usd": 100,
-          "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+          "url": "https://github.com/prisma/prisma/issues/1911",
           "status": "open",
           "tags": [],
-          "created_at": "2026-06-14T11:26:26.413Z",
-          "updated_at": "2026-06-14T11:26:26.413Z"
+          "created_at": "2026-06-14T13:13:22.815Z",
+          "updated_at": "2026-06-14T13:13:22.815Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-14T13:13:23.200Z",
+          "updated_at": "2026-06-14T13:13:23.200Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-14T13:13:23.442Z",
+          "updated_at": "2026-06-14T13:13:23.442Z"
         }
       ],
-      "last_updated": "2026-06-14T11:26:49.081Z",
+      "last_updated": "2026-06-14T13:14:37.809Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "projectdiscovery#6674",
+          "title": "Replace panic with error handling in template loader when dialers are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-14T13:14:18.939Z",
+          "updated_at": "2026-06-14T13:14:18.939Z"
+        },
+        {
+          "id": "projectdiscovery#6532",
+          "title": "Integrate typos tool into CI",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-14T13:14:19.087Z",
+          "updated_at": "2026-06-14T13:14:19.087Z"
+        }
+      ],
+      "last_updated": "2026-06-14T13:14:37.809Z",
       "scrape_duration_ms": 0
     }
   },
   "metadata": {
     "success_rate": 1,
-    "processing_time_ms": 57098,
+    "processing_time_ms": 143958,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
@@ -37,24 +87,75 @@
     "median_bounty_value": 100,
     "top_organizations": [
       {
-        "handle": "onyx-dot-app",
-        "display_name": "Onyx-dot-app",
-        "url": "https://algora.io/onyx-dot-app/bounties?status=open",
-        "bounty_count": 1,
-        "total_value_usd": 100,
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
         "bounties": [
           {
-            "id": "onyx-dot-app#2281",
-            "title": "Jira Service Management Connector",
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
             "amount_usd": 100,
-            "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+            "url": "https://github.com/prisma/prisma/issues/1911",
             "status": "open",
             "tags": [],
-            "created_at": "2026-06-14T11:26:26.413Z",
-            "updated_at": "2026-06-14T11:26:26.413Z"
+            "created_at": "2026-06-14T13:13:22.815Z",
+            "updated_at": "2026-06-14T13:13:22.815Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-14T13:13:23.200Z",
+            "updated_at": "2026-06-14T13:13:23.200Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-14T13:13:23.442Z",
+            "updated_at": "2026-06-14T13:13:23.442Z"
           }
         ],
-        "last_updated": "2026-06-14T11:26:49.081Z",
+        "last_updated": "2026-06-14T13:14:37.809Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "projectdiscovery#6674",
+            "title": "Replace panic with error handling in template loader when dialers are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-14T13:14:18.939Z",
+            "updated_at": "2026-06-14T13:14:18.939Z"
+          },
+          {
+            "id": "projectdiscovery#6532",
+            "title": "Integrate typos tool into CI",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-14T13:14:19.087Z",
+            "updated_at": "2026-06-14T13:14:19.087Z"
+          }
+        ],
+        "last_updated": "2026-06-14T13:14:37.809Z",
         "scrape_duration_ms": 0
       }
     ]
