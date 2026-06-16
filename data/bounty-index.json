@@ -1,19 +1,163 @@
 {
-  "generated_at": "2026-06-15T23:17:16.111Z",
-  "total_organizations": 0,
-  "total_bounties": 0,
-  "total_value_usd": 0,
+  "generated_at": "2026-06-16T01:50:24.147Z",
+  "total_organizations": 2,
+  "total_bounties": 5,
+  "total_value_usd": 500,
   "version": "3.0.0",
-  "organizations": {},
+  "organizations": {
+    "prisma": {
+      "display_name": "Prisma",
+      "url": "https://algora.io/prisma/bounties?status=open",
+      "bounty_count": 3,
+      "total_value_usd": 300,
+      "bounties": [
+        {
+          "id": "prisma#1911",
+          "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/1911",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-16T01:49:13.030Z",
+          "updated_at": "2026-06-16T01:49:13.030Z"
+        },
+        {
+          "id": "prisma#8548",
+          "title": "`prisma format` ends the file with a single CRLF on windows",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/8548",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-16T01:49:19.046Z",
+          "updated_at": "2026-06-16T01:49:19.046Z"
+        },
+        {
+          "id": "prisma#7771",
+          "title": "Output path of current Prisma in `-v` ",
+          "amount_usd": 100,
+          "url": "https://github.com/prisma/prisma/issues/7771",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-16T01:49:22.100Z",
+          "updated_at": "2026-06-16T01:49:22.100Z"
+        }
+      ],
+      "last_updated": "2026-06-16T01:50:24.147Z",
+      "scrape_duration_ms": 0
+    },
+    "projectdiscovery": {
+      "display_name": "Projectdiscovery",
+      "url": "https://algora.io/projectdiscovery/bounties?status=open",
+      "bounty_count": 2,
+      "total_value_usd": 200,
+      "bounties": [
+        {
+          "id": "projectdiscovery#6674",
+          "title": "Replace panic with error handling in template loader when dialers are missing",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-16T01:49:48.770Z",
+          "updated_at": "2026-06-16T01:49:48.770Z"
+        },
+        {
+          "id": "projectdiscovery#6532",
+          "title": "Integrate typos tool into CI",
+          "amount_usd": 100,
+          "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+          "status": "open",
+          "tags": [],
+          "created_at": "2026-06-16T01:49:48.884Z",
+          "updated_at": "2026-06-16T01:49:48.884Z"
+        }
+      ],
+      "last_updated": "2026-06-16T01:50:24.147Z",
+      "scrape_duration_ms": 0
+    }
+  },
   "metadata": {
-    "success_rate": 0,
-    "processing_time_ms": 93431,
+    "success_rate": 1,
+    "processing_time_ms": 146380,
     "scraper_version": "unified-firecrawl-v1.0",
     "data_format": "legacy-compatible"
   },
   "stats": {
-    "avg_bounty_value": 0,
-    "median_bounty_value": 0,
-    "top_organizations": []
+    "avg_bounty_value": 100,
+    "median_bounty_value": 100,
+    "top_organizations": [
+      {
+        "handle": "prisma",
+        "display_name": "Prisma",
+        "url": "https://algora.io/prisma/bounties?status=open",
+        "bounty_count": 3,
+        "total_value_usd": 300,
+        "bounties": [
+          {
+            "id": "prisma#1911",
+            "title": "Warn on mismatch between global `prisma` and local `prisma` or `@prisma/client`",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/1911",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-16T01:49:13.030Z",
+            "updated_at": "2026-06-16T01:49:13.030Z"
+          },
+          {
+            "id": "prisma#8548",
+            "title": "`prisma format` ends the file with a single CRLF on windows",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/8548",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-16T01:49:19.046Z",
+            "updated_at": "2026-06-16T01:49:19.046Z"
+          },
+          {
+            "id": "prisma#7771",
+            "title": "Output path of current Prisma in `-v` ",
+            "amount_usd": 100,
+            "url": "https://github.com/prisma/prisma/issues/7771",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-16T01:49:22.100Z",
+            "updated_at": "2026-06-16T01:49:22.100Z"
+          }
+        ],
+        "last_updated": "2026-06-16T01:50:24.147Z",
+        "scrape_duration_ms": 0
+      },
+      {
+        "handle": "projectdiscovery",
+        "display_name": "Projectdiscovery",
+        "url": "https://algora.io/projectdiscovery/bounties?status=open",
+        "bounty_count": 2,
+        "total_value_usd": 200,
+        "bounties": [
+          {
+            "id": "projectdiscovery#6674",
+            "title": "Replace panic with error handling in template loader when dialers are missing",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-16T01:49:48.770Z",
+            "updated_at": "2026-06-16T01:49:48.770Z"
+          },
+          {
+            "id": "projectdiscovery#6532",
+            "title": "Integrate typos tool into CI",
+            "amount_usd": 100,
+            "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+            "status": "open",
+            "tags": [],
+            "created_at": "2026-06-16T01:49:48.884Z",
+            "updated_at": "2026-06-16T01:49:48.884Z"
+          }
+        ],
+        "last_updated": "2026-06-16T01:50:24.147Z",
+        "scrape_duration_ms": 0
+      }
+    ]
   }
 }
